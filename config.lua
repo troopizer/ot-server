@@ -129,10 +129,10 @@
 	-- NOTE: sqlFile is used only by sqlite database, and sqlKeepAlive by mysql database.
 	-- To disable sqlKeepAlive such as mysqlReadTimeout use 0 value.
 	sqlType = "sqlite"
-	sqlHost = "localhost"
+	sqlHost = "172.17.0.2"
 	sqlPort = 3306
 	sqlUser = "root"
-	sqlPass = ""
+	sqlPass = "lol"
 	sqlDatabase = "theforgottenserver"
 	sqlFile = "forgottenserver.s3db"
 	sqlKeepAlive = 0
