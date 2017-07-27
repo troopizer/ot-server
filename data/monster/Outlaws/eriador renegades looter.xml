@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Eriador Renegades Looter" nameDescription="a eriador renegades looter" race="blood" experience="90" speed="195" manacost="450">
+
+	<health now="195" max="195"/>
+	<look type="129" head="114" body="116" legs="113" feet="116" corpse="6080"/>
+
+	<targetchange interval="5000" chance="8"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="1"/>
+
+		<flag convinceable="1"/>
+
+		<flag pushable="1"/>
+
+		<flag canpushitems="1"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="25"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="2000" skill="25" attack="23"/>
+
+	</attacks>
+
+	<defenses armor="9" defense="14"/>
+
+	<elements>
+
+		<element firePercent="-5"/>
+
+		<element earthPercent="0"/>
+
+		<element holyPercent="0"/>
+
+		<element icePercent="0"/>
+
+		<element deathPercent="-5"/>
+		
+		<element energyPercent="-5"/>
+
+	</elements>
+
+	<voices interval="5000" chance="10">
+
+		<voice sentence="In the name of the renegades!"/>
+
+		<voice sentence="Give me all you have!"/>
+
+	</voices>
+
+	<loot>
+
+		<item id="2388" chance="1000"/><!-- hatchet -->
+
+		<item id="2376" chance="2000"/><!-- iron sword -->
+
+		<item id="2464" chance="1500"/><!-- iron studded armor -->
+
+		<item id="2460" chance="500"/><!-- brass helmet -->
+
+		<item id="2648" chance="500"/><!-- chain legs -->
+
+		<item id="5913" countmax="1" chance="5000"/><!-- brown piece of cloth -->
+
+		<item id="5909" countmax="1" chance="500"/><!-- white piece of cloth -->
+
+		<item id="1987" chance="100000"><!-- bag -->
+
+		<inside>
+
+		<item id="2148" countmax="30" chance="90000"/><!-- gold coin -->
+
+		<item id="2787" countmax="2" chance="20000"/><!-- white mushroom -->
+
+		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
+		</inside>
+
+		</item>
+
+
+	</loot>
+
+</monster>

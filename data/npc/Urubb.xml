@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Urubb"  script="urubb.lua" nameDescription="Urubb, he is a wanderer" walkinterval="6000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="88" body="120" legs="98" feet="107" addons="2"/>
+	<parameters>
+    	<parameter key="message_greet" value="Hi traveler! could you help me ?"/>
+  	</parameters>
+</npc>

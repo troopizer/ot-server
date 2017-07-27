@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Ernedoc"  script="beer3.lua" nameDescription="Ernedoc the tavern keeper, a hobbit" walkinterval="2000" floorchange="0">
+
+	<health now="100" max="100"/>
+
+	<look type="369" head="79" body="1" legs="115" feet="114"/>
+	<parameters>
+ 
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Hi |PLAYERNAME|. Wellcome to the Newbury tavern, Do you want something to eat?."/>
+		<parameter key="shop_buyable" value="bread,2689,2;cheese,2696,2;salmon,2668,10;"/>
+	</parameters>
+</npc>

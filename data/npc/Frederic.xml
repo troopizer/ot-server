@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Frederic"  script="foodhobbitspeed.lua" nameDescription="Frederic a hobbit chef" walkinterval="2000" floorchange="0">
+
+	<health now="100" max="100"/>
+
+	<look type="369" head="117" body="0" legs="4" feet="114"/>
+	<parameters>
+        	<parameter key="message_greet" value="Hi there, tell me, what are you doing in my kitchen?"/>
+    </parameters>	
+</npc>

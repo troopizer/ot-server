@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Ghost" nameDescription="a ghost" race="undead" experience="200" speed="180" manacost="100">
+
+	<health now="200" max="200"/>
+
+	<look type="48" corpse="5993"/>
+
+	<targetchange interval="5000" chance="8"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+	
+		<flag summonable="0"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="0"/>
+
+		<flag convinceable="0"/>
+
+		<flag pushable="0"/>
+
+		<flag canpushitems="1"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="0"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="2000" skill="30" attack="40"/>
+
+		<attack name="lifedrain" interval="1000" chance="15" range="2" min="-25" max="-45"/>
+
+	</attacks>
+
+	<defenses armor="15" defense="22"/>
+
+	<elements>
+
+		<element physicalPercent="100"/>
+
+		<element earthPercent="100"/>
+
+		<element deathPercent="100"/>
+
+		<element holyPercent="-70"/>
+
+	</elements>
+
+	<immunities>
+	
+		<immunity lifedrain="1"/>
+
+		<immunity paralyze="1"/>
+
+	</immunities>
+
+	<voices interval="5000" chance="10">
+
+		<voice sentence="Huh!"/>
+
+		<voice sentence="Shhhhhh"/>
+
+		<voice sentence="Buuuuuh"/>
+
+	</voices>
+
+	<loot>
+
+		<item id="2148" countmax="70" chance="80000"/><!-- gold coin -->
+
+		<item id="2397" chance="20000"/><!-- long sword -->
+	
+		<item id="5909" countmax="1" chance="10000"/><!-- white piece of cloth -->
+
+		<item id="2394" chance="800"/><!-- morning star -->
+
+		<item id="2513" chance="1000"/><!-- iron kite shield -->
+
+		<item id="5904" chance="20000"/><!-- magic sulphurs -->
+
+	</loot>
+
+</monster>

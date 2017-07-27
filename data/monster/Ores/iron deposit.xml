@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Iron Deposit" nameDescription="a iron deposit" race="undead" experience="0" speed="0" manacost="0">
+
+	<health now="500" max="500"/>
+
+	<look type="372" corpse="5998"/>
+
+
+	<flags>
+
+		<flag summonable="0"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="0"/>
+
+		<flag illusionable="1"/>
+
+		<flag convinceable="0"/>
+
+		<flag pushable="0"/>
+
+		<flag canpushitems="0"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="0"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="0"/>
+
+	</flags>
+
+	
+	<defenses armor="10" defense="15"/>
+
+	<elements>
+
+		<element firePercent="-100"/>
+		<element earthPercent="-100"/>
+
+		<element holyPercent="-100"/>
+
+		<element icePercent="-100"/>
+
+		<element deathPercent="-100"/>
+		<element energyPercent="-100"/>
+
+	</elements>
+
+<loot>
+
+		<item id="5880" chance="15000"/><!-- iron ore -->
+
+		<item id="2145" chance="200"/><!-- small diamond -->
+
+	</loot>
+
+</monster>

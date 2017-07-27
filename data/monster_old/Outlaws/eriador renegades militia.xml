@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Eriador Renegades Militia" nameDescription="a eriador renegades militia" race="blood" experience="210" speed="195" manacost="450">
+
+	<health now="230" max="230"/>
+
+	<look type="129" head="132" body="115" legs="113" feet="115" addons="1" corpse="6080"/>
+
+	<targetchange interval="5000" chance="8"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="1"/>
+
+		<flag convinceable="1"/>
+
+		<flag pushable="1"/>
+
+		<flag canpushitems="1"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="5"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="25"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="2000" skill="25" attack="25"/>
+
+		<attack name="physical" interval="2000" chance="50" range="7" min="-40" max="-100">
+
+			<attribute key="shootEffect" value="arrow"/>
+
+		</attack>
+
+
+	</attacks>
+
+	<defenses armor="12" defense="16"/>
+
+	<elements>
+
+		<element firePercent="-5"/>
+		<element earthPercent="0"/>
+
+		<element holyPercent="0"/>
+
+		<element icePercent="0"/>
+
+		<element deathPercent="-5"/>
+		<element energyPercent="-5"/>
+
+	</elements>
+
+	<voices interval="5000" chance="10">
+
+		<voice sentence="In the name of the renegades!"/>
+
+		<voice sentence="Red is our colour!"/>
+
+	</voices>
+
+	<loot>
+
+		<item id="2456" chance="5000"/><!-- bow -->
+
+  		<item id="2544" countmax="20" chance="40000"/><!-- arrow -->
+
+		<item id="2397" chance="800"/><!-- iron longsword -->
+
+		<item id="2485" chance="500"/><!-- iron chain armor -->
+
+		<item id="2460" chance="500"/><!-- brass helmet -->
+		<item id="2648" chance="800"/><!-- iron chain legs -->
+
+		<item id="1987" chance="100000"><!-- bag -->
+
+		<inside>
+
+		<item id="2148" countmax="70" chance="90000"/><!-- gold coin -->
+
+		<item id="2787" countmax="2" chance="20000"/><!-- white mushroom -->
+
+		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
+		</inside>
+
+		</item>
+
+	</loot>
+
+</monster>

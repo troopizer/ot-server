@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Deniam"  script="forge2.lua" nameDescription="Deniam an old armourer" walkinterval="2000" floorchange="0">
+
+	<health now="100" max="100"/>
+
+	<look type="130" head="38" body="115" legs="116" feet="114" addons="0"/>
+
+	<parameters>
+	
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. What brings you here?"/>
+	</parameters>
+</npc>

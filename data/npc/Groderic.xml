@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Groderic" script="loot2.lua" nameDescription="Groderic, a hobbit loot vendor" walkinterval="4000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="369" head="97" body="60" legs="114" feet="115" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Greetings |PLAYERNAME|. I buy creature products, I always need more leather."/>
+		<parameter key="shop_sellable" value="fish,2667,3;bat wing,5894,15;worm,3976,1;cheese,2696,2;leather,5878,15;ham,2671,3;meat,2666,2;wolf paw,5897,20;bear paw,5896,90;spider silk,5879,8;white pearl,2143,40;honeycomb,5902,35;iron ore,5880,25;tin ore,2311,15;copper ore,2261,15;egg,2695,2;small diamond,2145,300;small sapphire,2146,350;carrion worm fang,11186,25;brown piece of cloth,5913,50;white piece of cloth,5909,80;centipede leg,11212,45;"/>
+		<parameter key="shop_buyable" value="fish,2667,6;bat wing,5894,25;worm,3976,2;cheese,2696,4;leather,5878,40;ham,2671,6;meat,2666,5;wolf paw,5897,50;bear paw,5896,130;white pearl,2143,100;honeycomb,5902,90;"/>
+	</parameters>
+</npc>

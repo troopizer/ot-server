@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Cooper Deposit" nameDescription="a cooper deposit" race="undead" experience="0" speed="0" manacost="0">
+
+	<health now="300" max="300"/>
+
+	<look type="370" corpse="5998"/>
+
+
+	<flags>
+
+		<flag summonable="0"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="0"/>
+
+		<flag illusionable="1"/>
+
+		<flag convinceable="0"/>
+
+		<flag pushable="0"/>
+
+		<flag canpushitems="0"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="0"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="0"/>
+
+	</flags>
+
+	
+	<defenses armor="5" defense="10"/>
+
+	<elements>
+
+		<element firePercent="-100"/>
+		<element earthPercent="100"/>
+
+		<element holyPercent="-100"/>
+
+		<element icePercent="-100"/>
+
+		<element deathPercent="-100"/>
+		<element energyPercent="-100"/>
+
+	</elements>
+
+<loot>
+
+		<item id="2261" chance="30000"/><!-- cooper ore -->
+
+		<item id="2145" chance="50"/><!-- small diamond -->
+
+	</loot>
+
+</monster>

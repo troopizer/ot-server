@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Daisy Gamwich" nameDescription="Misses Daisy Gamwich, she used to mend clothes for her children." script="daisy_gamwich.lua" walkinterval="4000" floorchange="1">
+	<health now="150" max="150"/>
+	<look type="369" head="19" body="95" legs="41" feet="114" corpse="2212"/>
+  <interaction range="3" idletime="60">
+    <interact keywords="hi" focus="1">
+      <keywords>hello</keywords>
+      <response text="hello">
+        <action name="idle" value="1"/>
+      </response>
+    </interact>
+    <interact keywords="bye" focus="0">
+      <keywords>farewell</keywords>
+      <response text="Good bye."/>
+    </interact>
+  </interaction>
+</npc>

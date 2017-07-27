@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spells>
+		<!-- Healing Spells -->
+	<instant name="Herbal Light Healing" words="asëa envinyata" lvl="1" mana="20" aggressive="0" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="healing/herbal light healing.lua">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+		<instant name="Herbal Antidote" words="asëa hloima envinyata" lvl="5" mana="30" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="healing/herbal antidote.lua">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+			<!-- Boost Spells -->
+		<instant name="Herbal Hit Points Boost" words="asëa coi" lvl="10" mana="100" aggressive="0" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="boost/herbal hit points boost.lua">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+		<instant name="Herbal Sword Boost" words="asëa macil" lvl="10" mana="100" aggressive="0" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="boost/herbal sword boost.lua">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+		<instant name="Herbal Axe Boost" words="asëa hathol" lvl="10" mana="100" aggressive="0" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="boost/herbal axe boost.lua">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+		<instant name="Herbal Club Boost" words="asëa grond" lvl="10" mana="100" aggressive="0" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="boost/herbal club boost.lua">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+		<instant name="Herbal Distance Boost" words="asëa palan" lvl="10" mana="100" aggressive="0" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="boost/herbal distance boost.lua">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+		<instant name="Herbal Shielding Boost" words="asëa sanda" lvl="10" mana="100" aggressive="0" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="boost/herbal shielding boost.lua">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+		<!-- Herbal Runes -->
+	<rune name="Herbal Paralyze" id="2278" allowfaruse="1" charges="1" lvl="15" maglv="5" exhaustion="2000" needtarget="1" blocktype="solid" event="script" value="runes/paralyze rune.lua">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/> 
+	</rune>
+	<rune name="Herbal Poison" id="2285" allowfaruse="1" charges="1" lvl="15" maglv="5" exhaustion="2000" needtarget="1" blocktype="solid" event="script" value="runes/poison rune.lua">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/> 
+	</rune>
+	<rune name="Herbal Healing" id="2265" allowfaruse="1" charges="1" lvl="15" maglv="5" exhaustion="2000" needtarget="1" blocktype="solid" event="script" value="runes/healing rune.lua">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/> 
+	</rune>
+		<!-- Conjure Herbal Runes -->
+	<instant name="Herbal Paralyze Rune" words="asëa halcin certa" lvl="15"  maglv="5" mana="120" soul="3" prem="0" exhaustion="2000" needlearn="0" event="script" value="conjure runes/herbal paralyze rune.lua">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+	<instant name="Herbal Poison Rune" words="asëa hloima certa" lvl="15"  maglv="5" mana="120" soul="3" prem="0" exhaustion="2000" needlearn="0" event="script" value="conjure runes/herbal poison rune.lua">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+	<instant name="Herbal Healing Rune" words="asëa envinyata certa" lvl="15"  maglv="5" mana="120" soul="3" prem="0" exhaustion="2000" needlearn="0" event="script" value="conjure runes/herbal healing rune.lua">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+
+		<!-- Martial Spells-->
+	<instant name="Strong Strike" words="turca pentë" lvl="1" maglv="1" mana="1" exhaustion="5000" prem="1" needlearn="0" range="2" casterTargetOrDirection="1" blockwalls="1" aggressive="1" event="script" value="martial/strong strike.lua">
+	<vocation id="0"/>
+	<vocation id="1"/>
+	<vocation id="2"/>
+	<vocation id="3"/>
+	<vocation id="4"/>
+	<vocation id="5"/>
+	<vocation id="6"/>
+	<vocation id="7"/>
+	<vocation id="8"/>
+</instant>
+		<!-- God Spells-->
+	<instant name="God Rage" words="just die" lvl="1" maglv="1" mana="1" exhaustion="1000" prem="1" access="5" needlearn="0" blockwalls="0" aggressive="1" event="script" value="god/god rage.lua">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+	<instant name="God Ice Rage" words="just frozen" lvl="1" maglv="1" mana="25" exhaustion="1000" prem="1" access="5" needlearn="0" blockwalls="0" aggressive="1" event="script" value="god/god ice rage.lua">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+</spells>

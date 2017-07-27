@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Lone Lands Savage" nameDescription="a lone lands savage" race="blood" experience="300" speed="210" manacost="450">
+
+	<health now="400" max="400"/>
+	<look type="143" head="116" body="117" legs="115" feet="115" addons="0" corpse="6080"/>
+
+	<targetchange interval="5000" chance="8"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="1"/>
+
+		<flag convinceable="1"/>
+
+		<flag pushable="1"/>
+
+		<flag canpushitems="1"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="25"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="2000" skill="35" attack="45"/>
+
+		<attack name="physical" interval="2000" chance="30" range="5" min="-20" max="-50">
+
+			<attribute key="shootEffect" value="spear"/>
+
+		</attack>
+
+
+	</attacks>
+
+	<defenses armor="20" defense="25"/>
+
+	<elements>
+
+		<element firePercent="-5"/>
+		<element earthPercent="0"/>
+
+		<element holyPercent="0"/>
+
+		<element icePercent="0"/>
+
+		<element deathPercent="-5"/>
+		<element energyPercent="-5"/>
+
+	</elements>
+	<immunities>
+
+		<immunity paralyze="1"/>
+
+	</immunities>
+
+	<voices interval="5000" chance="10">
+
+		<voice sentence="After him!"/>
+
+		<voice sentence="Diee!"/>
+
+	</voices>
+
+	<loot>
+
+
+		<item id="7425" chance="1000"/><!-- iron battle mace -->
+
+		<item id="5924" chance="3000"/><!-- damaged steel -->
+
+		<item id="2473" chance="5000"/><!-- iron hornet helmet -->
+
+		<item id="3974" chance="800"/><!-- savage shield -->
+
+		<item id="5913" countmax="1" chance="8000"/><!-- brown piece of cloth -->
+
+		<item id="5909" countmax="1" chance="5000"/><!-- white piece of cloth -->
+
+		<item id="2389" countmax="1" chance="10000"/><!-- spear -->
+
+		<item id="3965" chance="500"/><!-- hunting spear -->
+
+		<item id="1987" chance="100000"><!-- bag -->
+
+		<inside>
+
+		<item id="2148" countmax="50" chance="90000"/><!-- gold coin -->
+
+		<item id="2787" countmax="4" chance="20000"/><!-- white mushroom -->
+
+		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
+		</inside>
+
+		</item>
+
+	</loot>
+
+</monster>

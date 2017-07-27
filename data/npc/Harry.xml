@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Harry" nameDescription="harry the agent" script= "harry.lua" walkinterval="3000" floorchange="1">
+
+	<health now="150" max="150"/>
+
+	<look type="131" head="114" body="115" legs="119" feet="115"/>
+  <parameters>
+          <parameter key="message_greet" value="Hey.. What are you doing here?"/>
+      </parameters> 
+
+
+</npc>

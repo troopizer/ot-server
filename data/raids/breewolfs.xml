@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<singlespawn delay="10100" name="Wolf" x="611" y="1000" z="7"/>
+	<singlespawn delay="10200" name="Wolf" x="611" y="1000" z="7"/>
+	<singlespawn delay="10300" name="Wolf" x="611" y="1000" z="7"/>
+	<singlespawn delay="20100" name="Wolf" x="611" y="1000" z="7"/>
+	<singlespawn delay="20200" name="Wolf" x="611" y="1000" z="7"/>
+	<singlespawn delay="20300" name="Wolf" x="611" y="1000" z="7"/>
+	<singlespawn delay="30100" name="Wolf" ref="yes" x="611" y="1000" z="7"/>
+</raid>

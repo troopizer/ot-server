@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Orc Fighter" nameDescription="a orc fighter" race="blood" experience="280" speed="190" manacost="310">
+
+	<health now="400" max="400"/>
+
+	<look type="50" corpse="5966"/>
+
+	<targetchange interval="5000" chance="8"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="1"/>
+
+		<flag convinceable="1"/>
+
+		<flag pushable="1"/>
+
+		<flag canpushitems="0"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="10"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="2000" skill="40" attack="55"/>
+
+		<attack name="physical" interval="1000" chance="15" range="4" min="-35" max="-80">
+
+			<attribute key="shootEffect" value="spear"/>
+
+		</attack>
+
+	</attacks>
+
+	<defenses armor="25" defense="30"/>
+
+	<elements>
+
+		<element firePercent="-5"/>
+		<element earthPercent="5"/>
+
+		<element holyPercent="-5"/>
+
+		<element icePercent="0"/>
+
+		<element deathPercent="-5"/>
+		<element energyPercent="-5"/>
+
+	</elements>
+
+	<voices interval="5000" chance="10">
+
+		<voice sentence="Ugaar!"/>
+
+	</voices>
+
+	<loot>
+
+		<item id="2648" chance="10000"/><!-- chain legs -->
+
+		<item id="1987" chance="100000"><!-- bag -->
+
+			<inside>
+
+				<item id="2148" countmax="100" chance="80000"/><!-- gold coin -->
+				<item id="2420" chance="10000"/><!-- machete -->
+
+				<item id="2389" countmax="1" chance="10000"/><!-- spear -->
+
+				<item id="3976" countmax="10" chance="50000"/><!-- worm -->
+
+				<item id="2666" countmax="2" chance="80000"/><!-- meat -->
+
+			</inside>
+
+		</item>
+
+	</loot>
+
+</monster>

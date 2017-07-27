@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<effect delay="2000" name="bigclouds" x="611" y="1000" z="7"/>
+		<effect delay="3000" name="bigclouds" x="612" y="1000" z="7"/>
+			<effect delay="5000" name="bigclouds" x="611" y="1003" z="7"/>
+				<effect delay="6000" name="bigclouds" x="611" y="1004" z="7"/>
+					<effect delay="7000" name="bigclouds" x="615" y="1000" z="7"/>
+						<effect delay="9000" name="bigclouds" x="611" y="1005" z="7"/>
+							<effect delay="12000" name="bigclouds" x="613" y="1000" z="7"/>
+								<effect delay="13000" name="bigclouds" x="611" y="1001" z="7"/>
+									<effect delay="14000" name="bigclouds" x="611" y="1006" z="7"/>
+										<effect delay="20000" name="bigclouds" x="611" y="1003" z="7"/>
+											<effect delay="20000" name="bigclouds" ref="yes" x="616" y="1000" z="7"/>
+</raid>

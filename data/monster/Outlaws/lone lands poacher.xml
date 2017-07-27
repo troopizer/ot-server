@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Lone Lands Poacher" nameDescription="a lone lands poacher" race="blood" experience="250" speed="210" manacost="450">
+
+	<health now="350" max="350"/>
+	<look type="129" head="116" body="116" legs="115" feet="114" addons="1" corpse="6080"/>
+
+	<targetchange interval="5000" chance="8"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="1"/>
+
+		<flag convinceable="1"/>
+
+		<flag pushable="1"/>
+
+		<flag canpushitems="1"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="25"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="2000" skill="35" attack="40"/>
+
+		<attack name="physical" interval="2000" chance="30" range="5" min="-100" max="-50">
+
+			<attribute key="shootEffect" value="spear"/>
+
+		</attack>
+
+
+	</attacks>
+
+	<defenses armor="20" defense="23"/>
+
+	<elements>
+
+		<element firePercent="-5"/>
+		<element earthPercent="0"/>
+
+		<element holyPercent="0"/>
+
+		<element icePercent="0"/>
+
+		<element deathPercent="-5"/>
+		<element energyPercent="-5"/>
+
+	</elements>
+	<immunities>
+
+		<immunity paralyze="1"/>
+
+	</immunities>
+
+	<voices interval="5000" chance="10">
+
+		<voice sentence="Lone Lands are not for weak scum!"/>
+
+		<voice sentence="This is my land!"/>
+
+	</voices>
+
+	<loot>
+
+		<item id="2419" chance="1000"/><!-- iron scimitar -->
+
+		<item id="11114" chance="200"/><!-- range boots -->
+
+		<item id="2464" chance="3000"/><!-- iron chain armor -->
+
+		<item id="2459" chance="200"/><!-- iron helmet -->
+
+		<item id="2389" countmax="2" chance="10000"/><!-- spear -->
+
+		<item id="3965" chance="1000"/><!-- hunting spear -->
+
+		<item id="5913" countmax="1" chance="8000"/><!-- brown piece of cloth -->
+
+		<item id="5909" countmax="1" chance="5000"/><!-- white piece of cloth -->
+
+		<item id="1987" chance="100000"><!-- bag -->
+
+		<inside>
+
+		<item id="2148" countmax="50" chance="90000"/><!-- gold coin -->
+
+		<item id="2787" countmax="4" chance="20000"/><!-- white mushroom -->
+
+		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
+		</inside>
+
+		</item>
+
+	</loot>
+
+</monster>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Buckland Patrol" nameDescription="one of the guardian hobbits of Buckland" walkinterval="3000" floorchange="1">
+
+	<health now="150" max="150"/>
+
+	<look type="369" head="60" body="87" legs="94" feet="115"/>
+
+
+  <interaction range="3" idletime="60">
+
+
+    <interact keywords="hi" focus="1">
+
+      <keywords>hello</keywords>
+
+ 
+     <response text="You look suspicious.. I will be watching you">
+
+        <action name="idle" value="1"/>
+  
+    </response>
+
+    </interact>
+
+ 
+   <interact keywords="bye" focus="0">
+
+      <keywords>farewell</keywords>
+
+
+      <response text="Good bye."/>
+ 
+   </interact>
+
+  </interaction>
+
+
+</npc>

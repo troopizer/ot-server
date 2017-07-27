@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Darren the Weaponsmaker"  script="weaponsmaker1.lua" nameDescription="Darren the weaponsmaker" walkinterval="2000" floorchange="0">
+
+	<health now="100" max="100"/>
+
+	<look type="128" head="116" body="115" legs="116" feet="114" addons="0"/>
+
+	<parameters>
+	
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|.What can I do for you? {make} some weapons?."/>
+	</parameters>
+</npc>

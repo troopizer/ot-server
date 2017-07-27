@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Bandit Sammuel" script="bandit_sammuel.lua" nameDescription="the remaining Bandit" walkinterval="1000" floorchange="1">
+	<health now="150" max="150"/>
+	<look type="131" head="114" body="57" legs="119" feet="115" addons="1"/>
+  <parameters>
+    <parameter key="message_greet" value="We have stoled only from the hobbits"/>
+  </parameters>
+
+
+</npc>

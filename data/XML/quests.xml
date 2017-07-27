@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quests>
+    <quest name="Bree Chapter 1" startstorageid="30001" startstoragevalue="1">
+        <mission name="1 Sewers lost supplies" storageid="2000" startvalue="0" endvalue="1">
+            <missionstate id="0" description="The Mayor of Bree ask you to find the old forgotten tools and book in the sewers.(first floor)"/>
+            <missionstate id="1" description="Mission Complete."/>
+        </mission>
+        <mission name="2 Dimral the Loot Vendor" storageid="2001" startvalue="0" endvalue="2">
+            <missionstate id="0" description="Go to the market, find Dimral and tell him about your {mission}."/>
+            <missionstate id="1" description="Kill some chickens, you need 2 feathers."/>
+            <missionstate id="2" description="Mission Complete."/>
+        </mission>
+        <mission name="3 Armor Forge" storageid="2002" startvalue="0" endvalue="2">
+            <missionstate id="0" description="Go to the Workshop near the market and ask Andrew the armourer to forge an iron studded armor."/>
+            <missionstate id="1" description="Go back to the Mayor."/>
+            <missionstate id="2" description="Mission Complete."/>
+        </mission>
+        <mission name="4 Distance Weapons" storageid="2003" startvalue="0" endvalue="2">
+            <missionstate id="0" description="Go back to the Workshop and ask Darren the Weaponsmaker to build a spear."/>
+            <missionstate id="1" description="Go back to the Mayor."/>
+            <missionstate id="2" description="Mission Complete."/>
+        </mission>
+        <mission name="5 Sewers lost supplies 2" storageid="2004" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Go down to the sewers and look for the lost supplies (second floor), give the old map to the Mayor."/>
+            <missionstate id="1" description="Mission Complete."/>
+        </mission>
+        <mission name="6 Archet and Staddle" storageid="2005" startvalue="0" endvalue="6">
+            <missionstate id="0" description="Go to Archet to the north and talk to Hudson about the {supplies} delivery."/>
+            <missionstate id="1" description="Go to Staddle (South from Bree) and deliver the {supplies} to Osbald."/>
+            <missionstate id="2" description="Continue talking to Osbald."/>
+            <missionstate id="3" description="Go to the hill north of Staddle and kill the Raging Wolf."/>
+            <missionstate id="4" description="Go back to Osbald."/>
+            <missionstate id="5" description="Go back to the Mayor."/>
+            <missionstate id="6" description="Mission Complete."/>
+        </mission>
+        <mission name="7 The old mine" storageid="2006" startvalue="0" endvalue="2">
+            <missionstate id="0" description="Go to Archet and ask George about the {old mine}."/>
+            <missionstate id="1" description="Go to the mine and find a hidden box on the second floor, go back to the mayor with the golden goblet."/>
+            <missionstate id="2" description="Mission Complete."/>
+        </mission>
+        <mission name="8 The Bandits" storageid="2007" startvalue="0" endvalue="4">
+            <missionstate id="0" description="Talk to the blue mountains dwarfs in the prancing pony bar."/>
+            <missionstate id="1" description="Someone in Bree knows where are the bandits and the dwarfs jewel cases, ask everyone."/>
+            <missionstate id="2" description="Go to the bandits lair and find the four lost jewel cases, then go back to the dwarfs."/>
+            <missionstate id="3" description="Go back to the Mayor."/>
+            <missionstate id="4" description="Mission Complete."/>
+        </mission>
+    </quest>
+    <quest name="Bree Chapter 2" startstorageid="30007" startstoragevalue="2">
+        <mission name="1 To East Brandywine Hills" storageid="2018" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Travel to East Brandywine Hills, take the road to the west and turn north before the hobbit town of Buckland, find Sergeant Otreblas Camp."/>
+            <missionstate id="1" description="Mission Complete."/>
+        </mission>
+        <mission name="2 Looting from the Looters" storageid="2019" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Search for the bandits camp where the renegades trade with them, and still the 3 crimson swords."/>
+            <missionstate id="1" description="Mission Complete."/>
+        </mission>
+        <mission name="3 Just kill them all" storageid="2037" startvalue="0" endvalue="11">
+            <missionstate id="0" description="Kill 10 Renegades in East Brandiwine Hills."/>
+            <missionstate id="1" description="Kill 9 Renegades in East Brandiwine Hills."/>
+            <missionstate id="2" description="Kill 8 Renegades in East Brandiwine Hills."/>
+            <missionstate id="3" description="Kill 7 Renegades in East Brandiwine Hills."/>
+            <missionstate id="4" description="Kill 6 Renegades in East Brandiwine Hills."/>
+            <missionstate id="5" description="Kill 5 Renegades in East Brandiwine Hills."/>
+            <missionstate id="6" description="Kill 4 Renegades in East Brandiwine Hills."/>
+            <missionstate id="7" description="Kill 3 Renegades in East Brandiwine Hills."/>
+            <missionstate id="8" description="Kill 2 Renegades in East Brandiwine Hills."/>
+            <missionstate id="9" description="Kill 1 Renegades in East Brandiwine Hills."/>
+            <missionstate id="10" description="Go back to the Sergeant."/>
+            <missionstate id="11" description="Mission Complete."/>
+        </mission>
+        <mission name="4 A fake prisoner" storageid="2039" startvalue="0" endvalue="2">
+            <missionstate id="0" description="An agent of sergeant Otrebla, called Harry, let the renegades to capture him in order to find information, look for him and the key of his prison door. He will give you a report for Otrebla"/>
+            <missionstate id="1" description="Go back to Sergeant Otrebla."/>           
+            <missionstate id="2" description="Mission Complete."/>
+        </mission>
+    </quest>
+    <quest name="Bree Tales" startstorageid="30003" startstoragevalue="3">
+        <mission name="The old Armourer in Combe" storageid="2012" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Get 5 Breads and 3 salmons for Deniam."/>
+            <missionstate id="1" description="Mission Complete."/>
+        </mission>
+        <mission name="Help the explorers" storageid="2016" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Talk to Urubb about Ulubb" />
+            <missionstate id="1" description="Mission Complete." />
+        </mission>
+         <mission name="The Backpack Crafter" storageid="2023" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Bring 10 leathers and 10 brown pieces of cloth to Jim." />
+            <missionstate id="1" description="Mission Complete." />
+        </mission>
+         <mission name="A forgotten Sorcerer" storageid="2036" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Recover Aldreans stolen book from the eriador renegades in East Brandywine Hills." />
+            <missionstate id="1" description="Mission Complete." />
+        </mission>
+        <mission name="The old prisoner" storageid="2040" startvalue="0" endvalue="2">
+            <missionstate id="0" description="Go to Bree and search for Harins son amulet." />
+            <missionstate id="1" description="Go back to Harin and deliver the amulet." />
+            <missionstate id="2" description="Mission Complete." />
+        </mission>
+    </quest>
+    <quest name="South Downs Chapter 1" startstorageid="30002" startstoragevalue="4">
+        <mission name="1 Find Sergeant Farflank at South Downs" storageid="2008" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Get information about South Downs from Sergeant Farflank!"/>
+            <missionstate id="1" description="Mission Complete."/>
+        </mission>        
+        <mission name="2 Probe Sergeant Farflank and the boys you worth it" storageid="2009" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Kill spiders and get Sergeant Farflank 11 spider silks."/>
+            <missionstate id="1" description="Mission Complete."/>
+        </mission>
+        <mission name="3 Bring a tarantula egg to Sergeant Farflank" storageid="2010" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Kill tarantulas and get Sergeant Farflank a tarantula egg."/>
+            <missionstate id="1" description="Mission Complete."/>
+        </mission>
+        <mission name="4 Probe Sergeant Farflank and the boys you worth it 2" storageid="2011" startvalue="0" endvalue="4">
+            <missionstate id="0" description="Take back the stolen boots from the bandits."/>
+            <missionstate id="1" description="Talk to Sammuel the Bandit."/>
+            <missionstate id="2" description="Kill the Boots Eater Tarantula. It spawns in the easter side of the spider pit."/>
+            <missionstate id="3" description="Return the boots to Sergaent Farflank."/>
+            <missionstate id="4" description="Mission Complete."/>
+        </mission>
+    </quest>
+    <quest name="Buckland Tales" startstorageid="30006" startstoragevalue="5">
+    	<mission name="Daisy Gamwich's cat" storageid="2013" startvalue="0" endvalue="2">
+    		<missionstate id="0" description="Get a scythe with Hildibrand the farmer."/>
+        	<missionstate id="1" description="Bring 10 bunches of wheat to Misses Daisy."/>
+            <missionstate id="2" description="Mission Complete."/>	
+        </mission>
+        <mission name="Rufus Gamgee and the cat" storageid="2014" startvalue="0" endvalue="2">
+            <missionstate id="0" description="Kill Misses Daisy's cat and bring it's collar."/>
+            <missionstate id="1" description="Report to Rufus Gamgee."/>
+            <missionstate id="2" description="Mission Complete."/>
+        </mission>
+        <mission name="The great chef of Buckland" storageid="2015" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Look for 10 powder herbs, 10 mushrooms and 5 troll green for Frederic. Search through the countryside."/>
+            <missionstate id="1" description="Mission Complete."/>
+        </mission>
+        <mission name="The best tailor in town" storageid="2032" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Bring 10 white pieces of cloth, 20 brown pieces of cloth and 300 gold coins to Haroc."/>
+            <missionstate id="1" description="Mission Complete."/>
+        </mission>
+    </quest>
+    <quest name="Barrow Downs Chapter 1" startstorageid="30004" startstoragevalue="6">
+    	<mission name="1 Blood herbs" storageid="2017" startvalue="0" endvalue="1">
+    		<missionstate id="0" description="Bring 5 blood herbs to Eryn, you will find some in the Barrow Downs."/>
+            <missionstate id="1" description="Mission Complete."/>	
+        </mission>
+        <mission name="2 Skulls" storageid="2021" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Bring 5 Skulls to Eryn, you will find them by killing skeletons in the Barrow Downs."/>
+            <missionstate id="1" description="Mission Complete."/>  
+        </mission>
+         <mission name="3 Herbalist memory" storageid="2022" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Look for the memory stone of Gharazon the sorcerer of Numeror in the Barrow Downs."/>
+            <missionstate id="1" description="Mission Complete."/>  
+        </mission>
+         <mission name="4 The healers book" storageid="2031" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Search for the tomb of the fallen warriors of Dagorlad and where Aerdinul lies, you will find there the healers book."/>
+            <missionstate id="1" description="Mission Complete."/>  
+        </mission>
+    </quest>  
+    <quest name="Herbalist Magic Trait" startstorageid="30008" startstoragevalue="7">
+    	<mission name="Herbal light healing - asëa envinyata" storageid="2020" startvalue="0" endvalue="0">
+    		<missionstate id="0" description="Basic herbal healing - Words: asëa envinyata - Reagents: powder herbs."/>
+        </mission>
+        <mission name="Herbal antidote - asëa hloima envinyata" storageid="2024" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Poison herbal antidote - Words: asëa hloima envinyata - Reagents: powder herbs."/>
+        </mission>
+        <mission name="Herbal Sword Boost - asëa macil" storageid="2025" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Sword Boost - Words: asëa hloima macil - lvl: 10 - Reagents: star herbs."/>
+        </mission>
+        <mission name="Herbal Club Boost - asëa grond" storageid="2026" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Club Boost - Words: asëa grond - lvl: 10 - Reagents: troll green."/>
+        </mission>
+        <mission name="Herbal Axe Boost - asëa hathol" storageid="2027" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Axe Boost - Words: asëa hathol - lvl: 10 - Reagents: shadow herbs."/>
+        </mission>
+        <mission name="Herbal Distance Boost - asëa palan" storageid="2028" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Distance Boost - Words: asëa palan - lvl: 10 - Reagents: sling herbs."/>
+        </mission>
+        <mission name="Herbal Shielding Boost - asëa sanda" storageid="2029" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Shielding Boost - Words: asëa sanda - lvl: 10 - Reagents: stone herbs."/>
+        </mission>
+        <mission name="Herbal Hit Points Boost - asëa coi" storageid="2030" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Hit Points Boost - Words: asëa coi - lvl: 10 - Reagents: blood herbs."/>
+        </mission>
+        <mission name="Herbal Poison Rune - asëa hloima certa" storageid="2033" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Poison Rune - Words: asëa hloima certa - lvl: 15 - mlvl: 5 - Reagents: blank rune and troll green."/>
+        </mission>
+        <mission name="Herbal Paralyze Rune - asëa halcin certa" storageid="2034" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Paralyze Rune - Words: asëa halcin certa - lvl: 15 - mlvl: 5 - Reagents: blank rune and sling herbs."/>
+        </mission>
+        <mission name="Herbal Healing Rune - asëa envinyata certa" storageid="2035" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Healing Rune - Words: asëa envinyata certa - lvl: 15 - mlvl: 5 - Reagents: blank rune and blood herbs."/>
+        </mission>
+    </quest>   
+    <quest name="Most Wanted Bree" startstorageid="30009" startstoragevalue="8">
+        <mission name="Larry Halfsnout" storageid="2038" startvalue="0" endvalue="2">
+            <missionstate id="0" description="Look for Larry Halfsnout, the leader of bandits in Midgewater and kill him."/>
+            <missionstate id="1" description="You got him, ask for your reward."/> 
+            <missionstate id="2" description="Killed."/>   
+        </mission>  
+    </quest>
+</quests>

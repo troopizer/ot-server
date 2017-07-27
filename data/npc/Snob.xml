@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Snob" nameDescription="Snob, a hobbit." walkinterval="2000" floorchange="1">
+
+	<health now="150" max="150"/>
+
+	<look type="369" head="114" body="0" legs="114" feet="119" corpse="2212"/>
+
+  <interaction range="3" idletime="60">
+
+
+    <interact keywords="hi" focus="1">
+
+      <keywords>hello</keywords>
+
+ 
+     <response text="Hello. Wellcome to the Prancing Pony!">
+
+        <action name="idle" value="1"/>
+  
+    </response>
+
+    </interact>
+
+ 
+   <interact keywords="bye" focus="0">
+
+      <keywords>farewell</keywords>
+
+
+      <response text="Good bye."/>
+ 
+   </interact>
+
+  </interaction>
+
+</npc>

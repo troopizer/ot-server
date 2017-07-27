@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Harin" nameDescription="Harin, a very old dwarf." script="harin.lua" walkinterval="2000" floorchange="1">
+
+	<health now="150" max="150"/>
+
+	<look type="160" head="0" body="115" legs="116" feet="114" corpse="2212"/>
+
+	<parameters>
+        	<parameter key="message_greet" value="Hello young man, what do you need?"/>
+    	</parameters>	
+</npc>

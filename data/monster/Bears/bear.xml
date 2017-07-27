@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<monster name="Bear" namedescription="a bear" race="blood" experience="70" speed="185" manacost="300">
+
+	<health now="150" max="150"/>
+
+	<look type="16" corpse="5975"/>
+
+	<targetchange interval="2000" chance="0"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="1"/>
+
+		<flag convinceable="1"/>
+
+		<flag pushable="0"/>
+
+		<flag canpushitems="0"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="15"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="2000" skill="20" attack="25"/>
+
+	</attacks>
+
+	<defenses armor="7" defense="6"/>
+
+	<elements>
+
+		<element firePercent="-10"/>
+		<element earthPercent="0"/>
+
+		<element holyPercent="0"/>
+
+		<element icePercent="0"/>
+
+		<element deathPercent="-10"/>
+
+		<element energyPercent="-10"/>
+
+	</elements>
+
+	<voices interval="5000" chance="20">
+
+		<voice sentence="grrrr"/>
+
+		<voice sentence="Groar!"/>
+
+	</voices>
+	
+	<loot>
+
+		<item id="3976" countmax="9" chance="50000"/><!-- worm -->
+
+		<item id="2671" countmax="2" chance="80000"/><!-- ham -->
+
+		<item id="2666" countmax="2" chance="90000"/><!-- meat -->
+
+		<item id="5902" countmax="1" chance="10000"/><!-- honeycomb -->
+
+		<item id="5878" countmax="2" chance="15000"/><!-- leather -->
+
+		<item id="5896" countmax="1" chance="5000"/><!-- bear paw -->
+
+		<item id="2804" countmax="1" chance="5000"/><!-- shadow herb -->
+
+ 		<item id="2803" countmax="1" chance="10000"/><!-- powder herb -->
+
+
+	</loot>
+
+</monster>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Franck" script="loot.lua" nameDescription="Franck, the loot vendor" walkinterval="2000" floorchange="0">
+
+	<health now="150" max="150"/>
+
+	<look type="129" head="115" body="115" legs="114" feet="115" addons="0" corpse="2212"/>
+
+   <parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I buy creature products, you dont think that animals will be carrying money?"/>
+		<parameter key="shop_sellable" value="fish,2667,3;bat wing,5894,15;worm,3976,1;cheese,2696,2;leather,5878,15;ham,2671,3;meat,2666,2;wolf paw,5897,20;bear paw,5896,90;spider silk,5879,8;white pearl,2143,40;honeycomb,5902,35;iron ore,5880,25;egg,2695,2;carrion worm fang,11186,25;"/>
+	<parameter key="shop_buyable" value="fish,2667,6;bat wing,5894,25;worm,3976,2;cheese,2696,4;leather,5878,40;ham,2671,6;meat,2666,5;wolf paw,5897,50;bear paw,5896,130;spider silk,5879,20;white pearl,2143,100;honeycomb,5902,90;"/></parameters>
+</npc>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Orc Spy" nameDescription="a orc spy" race="blood" experience="1000" speed="230" manacost="310">
+
+	<health now="400" max="400"/>
+
+	<look type="50" corpse="5966"/>
+
+	<targetchange interval="5000" chance="8"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="1"/>
+
+		<flag convinceable="1"/>
+
+		<flag pushable="1"/>
+
+		<flag canpushitems="0"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="10"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="2000" skill="30" attack="25"/>
+
+		<attack name="physical" interval="1000" chance="10" range="4" min="-15" max="-30">
+
+			<attribute key="shootEffect" value="spear"/>
+
+		</attack>
+
+	</attacks>
+
+	<defenses armor="35" defense="34"/>
+
+	<elements>
+
+		<element firePercent="-5"/>
+		<element earthPercent="5"/>
+
+		<element holyPercent="-5"/>
+
+		<element icePercent="0"/>
+
+		<element deathPercent="-5"/>
+		<element energyPercent="-5"/>
+
+	</elements>
+
+	<voices interval="5000" chance="10">
+
+		<voice sentence="gimb-ûk!"/>
+		<voice sentence="burz-gûl!"/>
+
+	</voices>
+
+	<loot>
+
+
+		<item id="7457" countmax="1" chance="100000"/><!-- fur boots -->
+
+
+	</loot>
+
+</monster>

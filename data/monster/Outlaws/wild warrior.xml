@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Bree Robber" nameDescription="a bree robber" race="blood" experience="75" speed="210" manacost="420">
+
+	<health now="120" max="120"/>
+
+	<look type="129" head="114" body="115" legs="116" feet="114" corpse="6080"/>
+
+	<targetchange interval="2000" chance="0"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="1"/>
+
+		<flag convinceable="1"/>
+
+		<flag pushable="1"/>
+
+		<flag canpushitems="0"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag staticattack="90"/>
+
+		<flag targetdistance="1"/>
+
+		<flag runonhealth="10"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="2000" skill="23" attack="21"/>
+
+	</attacks>
+
+	<defenses armor="9" defense="18">
+
+		<defense name="speed" interval="1000" chance="6" speedchange="200" duration="2000">
+
+			<attribute key="areaEffect" value="redshimmer"/>
+
+		</defense>
+
+	</defenses>
+
+	<elements>
+
+		<element firePercent="-5"/>
+		<element earthPercent="0"/>
+
+		<element holyPercent="0"/>
+
+		<element icePercent="0"/>
+
+		<element deathPercent="-5"/>
+		<element energyPercent="-5"/>
+
+	</elements>
+
+	<voices interval="5000" chance="10">
+
+		<voice sentence="An enemy!"/>
+
+		<voice sentence="Gimme your money!"/>
+
+	</voices>
+
+	<loot>
+
+		<item id="2464" chance="2000"/><!-- iron studded armor -->
+
+		<item id="2458" chance="1000"/><!-- chain helmet -->
+
+   		<item id="2468" chance="1000"/><!-- studded legs -->
+
+		<item id="2398" chance="1000"/><!-- iron mace -->
+
+		<item id="2439" chance="10000"/><!-- iron club -->
+
+		<item id="5913" countmax="1" chance="5000"/><!-- brown piece of cloth -->
+
+		<item id="5909" countmax="1" chance="500"/><!-- white piece of cloth -->
+
+		<item id="1987" chance="100000"><!-- bag -->
+
+			<inside>
+
+				<item id="2148" countmax="30" chance="90000"/><!-- gold coin -->
+
+				<item id="2666" countmax="2" chance="20000"/><!-- meat -->
+
+			</inside>
+
+		</item>
+
+	</loot>
+
+</monster>

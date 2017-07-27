@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Skeleton Warrior" nameDescription="a skeleton warrior" race="undead" experience="115" speed="180" manacost="350">
+
+	<health now="150" max="150"/>
+
+	<look type="298" corpse="5972"/>
+
+	<targetchange interval="2000" chance="0"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+	
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+	
+		<flag hostile="1"/>
+
+		<flag illusionable="0"/>
+
+		<flag convinceable="1"/>
+
+		<flag pushable="0"/>
+
+		<flag canpushitems="0"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="0"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="2000" skill="20" attack="35"/>
+
+		<attack name="lifedrain" interval="2000" min="-5" max="-10">
+
+			<attribute key="areaEffect" value="redshimmer"/>
+
+		</attack>
+
+	</attacks>
+
+	<defenses armor="15" defense="22"/>
+
+	<elements>
+
+		<element holyPercent="-25"/>
+
+		<element icePercent="10"/>
+
+	</elements>
+
+	<immunities>
+
+			<immunity death="1"/>
+
+	</immunities>
+
+	<loot>
+
+		<item id="2465" chance="5000"/><!-- brass armor -->
+
+		<item id="2468" chance="10000"/><!-- studded legs -->
+
+		<item id="2398" chance="20000"/><!-- mace -->
+
+		<item id="2473" chance="5000"/><!-- viking helmet -->
+
+				<item id="2050" chance="20000"/><!-- torch -->
+
+				<item id="2148" countmax="50" chance="70000"/><!-- gold coin -->
+
+
+	</loot>
+
+</monster>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Wolf" nameDescription="a wolf" race="blood" experience="18" speed="195" manacost="255">
+
+	<health now="25" max="25"/>
+
+	<look type="27" corpse="5968"/>
+	<targetchange interval="2000" chance="0"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="1"/>
+
+		<flag convinceable="1"/>
+
+		<flag pushable="1"/>
+
+		<flag canpushitems="0"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="8"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="1500" skill="20" attack="13"/>
+
+	</attacks>
+
+	<defenses armor="1" defense="4"/>
+
+	<elements>
+
+		<element firePercent="-10"/>
+		<element earthPercent="0"/>
+
+		<element holyPercent="0"/>
+
+		<element icePercent="0"/>
+
+		<element deathPercent="-10"/>
+		<element energyPercent="-10"/>
+
+	</elements>
+
+	<voices interval="5000" chance="30">
+
+		<voice sentence="Grr!"/>
+
+	</voices>
+	
+	<loot>
+
+		<item id="3976" countmax="5" chance="50000"/><!-- worm -->
+
+		<item id="2666" countmax="2" chance="90000"/><!-- meat -->
+
+		<item id="5878" countmax="1" chance="15000"/><!-- leather -->
+
+		<item id="5897" countmax="1" chance="5000"/><!-- wolf paw -->
+
+		<item id="2804" countmax="1" chance="3000"/><!-- shadow herb -->
+
+ 		<item id="2803" countmax="1" chance="10000"/><!-- powder herb -->
+
+
+	</loot>
+
+</monster>

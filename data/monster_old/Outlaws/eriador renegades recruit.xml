@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Eriador Renegades Recruit" nameDescription="a eriador renegades recruit" race="blood" experience="95" speed="190" manacost="450">
+
+	<health now="215" max="215"/>
+	<look type="131" head="114" body="115" legs="113" feet="115" corpse="6080"/>
+
+	<targetchange interval="5000" chance="8"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="1"/>
+
+		<flag convinceable="1"/>
+
+		<flag pushable="1"/>
+
+		<flag canpushitems="1"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="25"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="2000" skill="25" attack="28"/>
+
+	</attacks>
+
+	<defenses armor="10" defense="15"/>
+
+	<elements>
+
+		<element firePercent="-5"/>
+		<element earthPercent="0"/>
+
+		<element holyPercent="0"/>
+
+		<element icePercent="0"/>
+
+		<element deathPercent="-5"/>
+		<element energyPercent="-5"/>
+
+	</elements>
+
+	<voices interval="5000" chance="10">
+
+		<voice sentence="In the name of the renegades!"/>
+
+		<voice sentence="My life for the renegades!"/>
+
+	</voices>
+
+	<loot>
+
+		<item id="2398" chance="3000"/><!-- iron mace -->
+
+		<item id="2417" chance="100"/><!-- iron battle hammer -->
+
+		<item id="2476" chance="800"/><!-- bronze scale armor -->
+
+		<item id="2460" chance="500"/><!-- brass helmet -->
+		<item id="2648" chance="800"/><!-- chain legs -->
+
+		<item id="1987" chance="100000"><!-- bag -->
+
+		<inside>
+
+		<item id="2148" countmax="30" chance="90000"/><!-- gold coin -->
+
+		<item id="2787" countmax="2" chance="20000"/><!-- white mushroom -->
+
+		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
+		</inside>
+
+		</item>
+
+	</loot>
+
+</monster>

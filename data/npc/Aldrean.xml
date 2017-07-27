@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Aldrean" nameDescription="Aldrean, a very old sorcerer" script="runes.lua" walkinterval="2000" floorchange="0">
+
+	<health now="100" max="100"/>
+
+	<look type="130" head="0" body="120" legs="117" feet="115" addons="0"/>
+
+	<parameters>
+
+		<parameter key="message_greet" value="Hello |PLAYERNAME|, what can I do for you? "/>
+
+		<parameter key="message_decline" value="Is |TOTALCOST| gold coins too much for you? Get out of here!"/>
+
+	</parameters>
+
+</npc>
