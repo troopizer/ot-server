@@ -1,9 +1,9 @@
-function onUse(cid, item, fromPosition, itemEx, toPosition)
-	if(itemEx.itemid == 2739) then
-		doTransformItem(itemEx.uid, 2737)
-		doCreateItem(2694, 1, toPosition)
-		doDecayItem(itemEx.uid)
+function onUse(player, item, fromPosition, target, toPosition, isHotkey)
+	if target.itemid == 2739 then
+		target:transform(2737)
+		target:decay()
+		Game.createItem(2694, 1, toPosition)
 		return true
 	end
-	return destroyItem(cid, itemEx, toPosition)
+	return destroyItem(player, target, toPosition)
 end

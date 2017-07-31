@@ -1,7 +1,6 @@
-function onUse(cid, item, fromPosition, itemEx, toPosition)
-	doCreateItem(2677, 3, fromPosition)
-	doTransformItem(item.uid, 2786)
-
-	doDecayItem(item.uid)
+function onUse(player, item, fromPosition, target, toPosition, isHotkey)
+	item:transform(2786)
+	item:decay()
+	Game.createItem(2677, 3, fromPosition)
 	return true
 end

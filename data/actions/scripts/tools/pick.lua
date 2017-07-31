@@ -1,16 +1,24 @@
-function onUse(cid, item, fromPosition, itemEx, toPosition)
-	if((itemEx.uid <= 65535 or itemEx.actionid > 0) and isInArray({354, 355}, itemEx.itemid)) then
-		doTransformItem(itemEx.uid, 392)
-		doDecayItem(itemEx.uid)
-		doSendMagicEffect(toPosition, CONST_ME_POFF)
-		return true
+local groundIds = {354, 355}
+
+function onUse(player, item, fromPosition, target, toPosition, isHotkey)
+	local tile = Tile(toPosition)
+	if not tile then
+		return false
 	end
 
-	if(itemEx.itemid == 7200) then
-		doTransformItem(itemEx.uid, 7236)
-		doSendMagicEffect(toPosition, CONST_ME_BLOCKHIT)
-		return true
+	local ground = tile:getGround()
+	if not ground then
+		return false
 	end
 
-	return false
+	if (ground.uid > 65535 or ground.actionid == 0) and not table.contains(groundIds, ground.itemid) then
+		return false
+	end
+
+	ground:transform(392)
+	ground:decay()
+
+	toPosition.z = toPosition.z + 1
+	tile:relocateTo(toPosition)
+	return true
 end
