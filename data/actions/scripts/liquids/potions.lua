@@ -1,19 +1,19 @@
 local config = {
-	removeOnUse = "no",
-	usableOnTarget = "yes", -- can be used on target? (fe. healing friend)
-	splashable = "no",
+	removeOnUse = false,
+	usableOnTarget = true, -- can be used on target? (fe. healing friend)
+	splashable = false,
 	range = -1,
-	realAnimation = "no", -- make text effect visible only for players in range 1x1
+	realAnimation = false, -- make text effect visible only for players in range 1x1
 	multiplier = {
 		health = 1.0,
 		mana = 1.0
 	}
 }
 
-config.removeOnUse = getBooleanFromString(config.removeOnUse)
-config.usableOnTarget = getBooleanFromString(config.usableOnTarget)
-config.splashable = getBooleanFromString(config.splashable)
-config.realAnimation = getBooleanFromString(config.realAnimation)
+--config.removeOnUse = getBooleanFromString(config.removeOnUse)
+--config.usableOnTarget = getBooleanFromString(config.usableOnTarget)
+--config.splashable = getBooleanFromString(config.splashable)
+--config.realAnimation = getBooleanFromString(config.realAnimation)
 
 local POTIONS = {
 	[8704] = {empty = 7636, splash = 42, health = {50, 100}}, -- small health potion
