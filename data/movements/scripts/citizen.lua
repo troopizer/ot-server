@@ -1,9 +1,10 @@
-function onStepIn(cid, item, position, fromPosition)
-	if(item.actionid > 30020 and item.actionid < 30100) then
-		local townId = (item.actionid - 30020)
-		doPlayerSetTown(cid, townId)
-		doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "You are the newest resident of " .. getTownName(townId) .. ".")
-	end
+function onStepIn(creature, item, position, fromPosition)
+	if item.actionid > 30020 and item.actionid < 30050 then
+		if not creature:isPlayer() then
+			return false
+		end
 
+		creature:setTown(Town(item.actionid - 30020))
+	end
 	return true
 end
