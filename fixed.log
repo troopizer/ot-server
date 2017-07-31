@@ -1,0 +1,22 @@
+Solved Starting Errors
+
+*)scripting ->
+	no data/global.lua : solution = add global.lua from forgotten/data/global.lua
+
+*)items ->
+	comentados en items.xml :
+
+		breakChance, ammoAction (crossbows, bows, stars, ...) -> parámetros en weapons.xml
+
+		forceSerialize -> ???
+
+		worth (gold coins, silver coin, ...) -> ???
+
+		cambio preventDrop -> chances = 1
+
+*) action ->
+	sync entre versiones forgotten y cry
+	cambio de event="script" or event="function" or value="something.lua" -> script="something.lua" or function="sampleFunction" (https://otland.net/threads/tfs-1-2.248471/ _ Static_)
+	
+
+

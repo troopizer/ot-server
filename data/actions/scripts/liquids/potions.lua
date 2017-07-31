@@ -10,11 +10,6 @@ local config = {
 	}
 }
 
---config.removeOnUse = getBooleanFromString(config.removeOnUse)
---config.usableOnTarget = getBooleanFromString(config.usableOnTarget)
---config.splashable = getBooleanFromString(config.splashable)
---config.realAnimation = getBooleanFromString(config.realAnimation)
-
 local POTIONS = {
 	[8704] = {empty = 7636, splash = 42, health = {50, 100}}, -- small health potion
 	[7618] = {empty = 7636, splash = 42, health = {100, 200}}, -- health potion
