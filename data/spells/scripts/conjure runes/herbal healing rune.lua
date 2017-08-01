@@ -1,4 +1,4 @@
-local combat = Combar()
+local combat = Combat()
 combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_RED)
 combat:setParameter(COMBAT_PARAM_AGGRESSIVE, false)
 
