@@ -1,3 +1,5 @@
 doc/*
 tfs
 docker/*
+fixed.log
+config.lua
