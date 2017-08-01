@@ -1,9 +1,9 @@
-local combat = createCombatObject()
-combat:setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_HEALING)
-combat:setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_BLUE)
-combat:setCombatParam(combat, COMBAT_PARAM_AGGRESSIVE, false)
-combat:setCombatParam(combat, COMBAT_PARAM_TARGETCASTERORTOPMOST, true)
-combat:setCombatParam(combat, COMBAT_PARAM_DISPEL, CONDITION_PARALYZE)
+local combat = Combat()
+combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_HEALING)
+combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_BLUE)
+combat:setParameter(COMBAT_PARAM_AGGRESSIVE, false)
+combat:setParameter(COMBAT_PARAM_TARGETCASTERORTOPMOST, true)
+combat:setParameter(COMBAT_PARAM_DISPEL, CONDITION_PARALYZE)
 
 -- Mean and Differance between max and min
 local levelConstantFactor  = 5.0

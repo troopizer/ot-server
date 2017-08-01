@@ -1,6 +1,6 @@
-local combat = createCombatObject()
-combat:setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_RED)
-combat:setCombatParam(combat, COMBAT_PARAM_AGGRESSIVE, false)
+local combat = Combar()
+combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_RED)
+combat:setParameter(COMBAT_PARAM_AGGRESSIVE, false)
 
 function onCastSpell(creature, variant, isHotkey)
 	if(getPlayerStorageValue(creature,2020) == 0) then
