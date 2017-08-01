@@ -1,11 +1,9 @@
 local config = {
 	broadcast = {120, 30},
-	shallow = "no",
+	shallow = false,
 	delay = 120,
 	events = 30
 }
-
-config.shallow = getBooleanFromString(config.shallow)
 
 local function executeSave(seconds)
 	if(isInArray(config.broadcast, seconds)) then
