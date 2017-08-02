@@ -1,7 +1,6 @@
 local keywordHandler = KeywordHandler:new()
 local npcHandler = NpcHandler:new(keywordHandler)
 NpcSystem.parseParameters(npcHandler)
-local talkState = {}
 
 
 function onCreatureAppear(cid) npcHandler:onCreatureAppear(cid) end
@@ -12,14 +11,12 @@ function creatureSayCallback(cid, type, msg)
 	if (not npcHandler:isFocused(cid)) then
 		return false
 	end
-
-	local talkUser = (NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid)
 	
 	-----------------------------------------------------------------------
 	-- GENERAL INTERACTION                                               --
 
 	if (msgcontains(msg, 'mayor')) then
-		selfSay('So, the Mayor send you to us?', cid)
+		selfSay('So, the {Mayor} send you to us?', cid)
 		selfSay('Did you come to help us? It seems the fat sit sitter thinks we are not doing our duties well enough.', cid)
 		return false
 	end
@@ -38,11 +35,8 @@ function creatureSayCallback(cid, type, msg)
 	if (msgcontains(msg, 'mission')) then
 
 		if (getPlayerStorageValue(cid,2008) == 0) then
-			selfSay("South Downs' story 1.", cid)
-			selfSay("South Downs' story 2.", cid)
-			selfSay("South Downs' story 3.", cid)
 			selfSay("This is the more dangerous place guarded by our forces. Nobody wants to stay. (You received 100 exp)", cid)
-			doPlayerAddExperience(cid,100)
+			doPlayerAddExperience(cid,500)
 			setPlayerStorageValue(cid,2008,1)
 			return true
 		end
@@ -104,7 +98,7 @@ function creatureSayCallback(cid, type, msg)
 				selfSay("You got them !",cid)
 				selfSay("You truely are a heroe ! Hey ! Your good for nothing monkeys ! This kiddo could bring my rusty father's useless boots !",cid)
 				selfSay("Thank you very much. I cannot sleep without this old boots. (You received 3000 exp and 20 platinum coins)", cid)
-				doPlayerAddExperience(cid,3000)
+				doPlayerAddExperience(cid,6000)
 				doPlayerAddItem(cid,2152,20)
 				setPlayerStorageValue(cid,2011,4)
 			end

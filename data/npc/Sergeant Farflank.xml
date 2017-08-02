@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Sergeant Farflank" script="farflank.lua" nameDescription="a sergeant of Brees Guard" walkinterval="5000" floorchange="1">
+<npc name="Sergeant Farflank" script="farflank.lua" nameDescription="a sergeant from Brees' Guard" walkinterval="5000" floorchange="1">
 	<health now="150" max="150"/>
 	<look type="131" head="114" body="57" legs="119" feet="115" addons="1"/>
   <parameters>
-    <parameter key="message_greet" value="How could I got to this mountains. Hey! Boys! Look what we have here."/>
+    <parameter key="message_greet" value="How could I got into this mountains. Hey! Boys! Look what we have here."/>
   </parameters>
-
-
 </npc>
