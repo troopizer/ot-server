@@ -48,20 +48,20 @@
 	</instant>
 
 		<!-- Martial Spells-->
-	<instant name="Strong Strike" words="turca pentë" lvl="20" maglv="7" mana="80" exhaustion="5000" prem="0" needlearn="0" range="1" casterTargetOrDirection="1" blockwalls="1" aggressive="1" event="script" value="martial/strong strike.lua">
+	<instant name="Strong Strike" words="turca pentë" lvl="20" maglv="7" mana="80" exhaustion="5000" prem="0" needlearn="0" range="1" casterTargetOrDirection="1" blockwalls="1" aggressive="1" script="martial/strong strike.lua">
 		<vocation name="Adventurer"/>
 	</instant>
-	<instant name="Twisting Slash" words="aucirhanc" lvl="20" maglv="7" mana="80" exhaustion="5000" prem="0" needlearn="0" blockwalls="1" aggressive="1" event="script" value="martial/twisting slash.lua">
+	<instant name="Twisting Slash" words="aucirhanc" lvl="20" maglv="7" mana="80" exhaustion="5000" prem="0" needlearn="0" blockwalls="1" aggressive="1" script="martial/twisting slash.lua">
 		<vocation name="Adventurer"/>
 	</instant>
 
-	<instant name="Shield Wall" words="thangail" lvl="20" maglv="7" mana="80" exhaustion="10000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" event="script" value="martial/shield wall.lua">
+	<instant name="Shield Wall" words="thangail" lvl="20" maglv="7" mana="80" exhaustion="10000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" script="martial/shield wall.lua">
 		<vocation name="Adventurer"/>
 	</instant>
-	<instant name="Sharp Aim" words="hendumaica" lvl="20" maglv="7" mana="80" exhaustion="10000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" event="script" value="martial/sharp aim.lua">
+	<instant name="Sharp Aim" words="hendumaica" lvl="20" maglv="7" mana="80" exhaustion="10000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" script="martial/sharp aim.lua">
 		<vocation name="Adventurer"/>
 	</instant>
-	<instant name="Forced march" words="nírë eldo" lvl="20" maglv="7" mana="60" exhaustion="2000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" event="script" value="martial/forced march.lua">
+	<instant name="Forced march" words="nírë eldo" lvl="20" maglv="7" mana="60" exhaustion="2000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" script="martial/forced march.lua">
 		<vocation name="Adventurer"/>
 	</instant>
 	<instant name="Climbing" words="retto" lvl="30" mana="50" prem="0" aggressive="0" exhaustion="1000" params="1" needlearn="0" event="function" value="Levitate">
