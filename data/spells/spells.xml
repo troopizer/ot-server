@@ -159,17 +159,74 @@
 	</instant>
 
 		<!-- Martial Spells-->
-	<instant name="Strong Strike" words="turca pentë" lvl="1" maglv="1" mana="1" exhaustion="5000" prem="1" needlearn="0" range="2" casterTargetOrDirection="1" blockwalls="1" aggressive="1" script="martial/strong strike.lua">
-	<vocation id="0"/>
-	<vocation id="1"/>
-	<vocation id="2"/>
-	<vocation id="3"/>
-	<vocation id="4"/>
-	<vocation id="5"/>
-	<vocation id="6"/>
-	<vocation id="7"/>
-	<vocation id="8"/>
-</instant>
+	<instant name="Strong Strike" words="turca pentë" lvl="20" maglv="7" mana="80" exhaustion="5000" prem="0" needlearn="0" range="1" casterTargetOrDirection="1" blockwalls="1" aggressive="1" event="script" value="martial/strong strike.lua">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+
+	<instant name="Twisting Slash" words="aucirhanc" lvl="20" maglv="7" mana="80" exhaustion="5000" prem="0" needlearn="0" blockwalls="1" aggressive="1" event="script" value="martial/twisting slash.lua">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+
+	<instant name="Shield Wall" words="thangail" lvl="20" maglv="7" mana="80" exhaustion="10000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" event="script" value="martial/shield wall.lua">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+	<instant name="Sharp Aim" words="hendumaica" lvl="20" maglv="7" mana="80" exhaustion="10000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" event="script" value="martial/sharp aim.lua">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+	<instant name="Forced march" words="nírë eldo" lvl="20" maglv="7" mana="60" exhaustion="2000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" event="script" value="martial/forced march.lua">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+	</instant>
+	<instant name="Climbing" words="retto" lvl="30" mana="50" prem="0" aggressive="0" exhaustion="1000" params="1" needlearn="0" event="function" value="Levitate">
+		<vocation id="0"/>
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+    </instant>
 		<!-- God Spells-->
 	<instant name="God Rage" words="just die" lvl="1" maglv="1" mana="1" exhaustion="1000" prem="1" access="5" needlearn="0" blockwalls="0" aggressive="1" script="god/god rage.lua">
 		<vocation id="0"/>
