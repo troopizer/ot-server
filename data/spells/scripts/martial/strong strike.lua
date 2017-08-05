@@ -18,7 +18,7 @@ function onGetFormulaValues(player, skill, attack, factor)
 	local skillTotal, levelTotal = (skill/8) + attack, player:getLevel() / 10
 	return -(skillTotal * 0.5 + levelTotal), -(skillTotal * 1.0 + levelTotal)
 end
-combat:setCallback(combat, CALLBACK_PARAM_SKILLVALUE, "onGetFormulaValues")
+combat:setCallback(CALLBACK_PARAM_SKILLVALUE, "onGetFormulaValues")
 
 function onCastSpell(creature, variant, isHotkey)
 	return combat:execute(creature, variant)
