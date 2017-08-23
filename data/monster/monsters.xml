@@ -163,4 +163,7 @@
 	<!-- Undead -->
 	<monster name="Ghoul" file="Undead Humanoids/ghoul.xml"/>
 
+	<!-- Training -->
+	<monster name="Training Monk" file="Training/training monk.xml"/>
+
 </monsters>
