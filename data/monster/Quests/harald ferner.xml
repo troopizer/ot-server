@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Harald Ferner" nameDescription="harald ferner, one of the renegades general" race="blood" experience="600" speed="250" manacost="450">
+
+	<health now="1200" max="1200"/>
+	<look type="134" head="114" body="38" legs="113" feet="114" addons="3" corpse="6080"/>
+
+	<targetchange interval="5000" chance="8"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="1"/>
+
+		<flag convinceable="1"/>
+
+		<flag pushable="1"/>
+
+		<flag canpushitems="1"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="25"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="1000" skill="40" attack="52"/>
+		<attack name="physical" interval="1000" chance="50" range="7" min="-60" max="-120">
+
+			<attribute key="shootEffect" value="arrow"/>
+
+		</attack>
+
+
+
+	</attacks>
+
+	<defenses armor="25" defense="30">
+		<defense name="healing" interval="1000" chance="15" min="30" max="55">
+
+			<attribute key="areaEffect" value="blueshimmer"/>
+
+		</defense>
+
+	
+</defenses>
+
+	<elements>
+
+		<element firePercent="-5"/>
+		<element earthPercent="0"/>
+
+		<element holyPercent="0"/>
+
+		<element icePercent="0"/>
+
+		<element deathPercent="-5"/>
+		<element energyPercent="-5"/>
+
+	</elements>
+	<immunities>
+
+		<immunity paralyze="1"/>
+
+	</immunities>
+
+
+
+	<summons maxSummons="3">
+
+		<summon name="Eriador Renegades Warrior" interval="1000" chance="8" max="2"/>
+		<summon name="Eriador Renegades Militia" interval="1000" chance="15" max="1"/>
+
+	</summons>
+
+	<voices interval="5000" chance="10">
+
+		<voice sentence="In the name of the renegades!"/>
+
+		<voice sentence="Chaarge!"/>
+
+		<voice sentence="Attack!"/>
+
+	</voices>
+
+	<loot>
+
+		<item id="2383" chance="3000"/><!-- iron spike sword -->
+
+		<item id="2394" chance="3000"/><!-- iron morning star -->
+
+		<item id="8601" chance="3000"/><!-- iron battle axe -->
+
+		<item id="2463" chance="500"/><!-- iron armor -->
+
+		<item id="2459" chance="500"/><!-- steel helmet -->
+
+		<item id="2647" chance="1000"/><!-- iron legs -->
+
+		<item id="2513" chance="1000"/><!-- iron kite shield -->
+
+		<item id="3968" chance="100"/><!-- eriador guardian armor -->
+
+		<item id="8891" chance="100"/><!-- eriador warrior armor -->
+
+		<item id="8872" chance="100"/><!-- eriador ranger cape -->
+
+		<item id="5913" countmax="2" chance="1500"/><!-- brown piece of cloth -->
+
+		<item id="5909" countmax="2" chance="15000"/><!-- white piece of cloth -->
+
+		<item id="1987" chance="80000"/><!-- bag -->
+
+		<item id="2152" countmax="6" chance="90000"/><!-- platinum coin -->
+
+		<item id="2787" countmax="4" chance="20000"/><!-- white mushroom -->
+
+		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
+
+	</loot>
+
+</monster>

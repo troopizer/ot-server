@@ -22,7 +22,7 @@ if(msgcontains(msg, 'mission') or msgcontains(msg, 'addon') or msgcontains(msg, 
 				doPlayerRemoveItem(cid, 5909, 10)
 				doPlayerRemoveItem(cid, 5913, 20)
 				selfSay('Great!, I will make your suit.', cid)
-				doPlayerAddAddon(cid, 5, 0)
+				doPlayerAddOutfit(cid, 5, 0)
 				setPlayerStorageValue(cid,2032,1)
 			else
 				selfSay('I need that payment, please bring enough money.', cid)

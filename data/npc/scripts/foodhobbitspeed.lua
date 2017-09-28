@@ -23,6 +23,8 @@ if(getPlayerItemCount(cid, 2803) >= 10 and  getPlayerItemCount(cid, 2793) >= 10 
 				doPlayerRemoveItem(cid, 2805, 5)
 selfSay('Great!, now lets speak about {cook}.', cid)
 setPlayerStorageValue(cid,2015,1)
+else
+selfSay('You dont have all the ingredients, please search for them.', cid)
 end
 end
 end
@@ -66,7 +68,7 @@ end
 if(msgcontains(msg, 'ok')) then
 if (getPlayerStorageValue(cid,2015) < 0) then
 selfSay('Great!So please, bring me some herbs and mushrooms. I need 10 powder herbs, 10 mushrooms and 5 troll green. You will find them in the countryside and forests', cid)
-setPlayerStorageValue(cid,30006,4)
+setPlayerStorageValue(cid,30006,5)
 setPlayerStorageValue(cid,2015,0)
 end
 end

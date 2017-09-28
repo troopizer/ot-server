@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Trehr" nameDescription="Trehr, a dwarf from the Blue mountains." script="trehr.lua" walkinterval="2000" floorchange="1">
+
+	<health now="150" max="150"/>
+
+	<look type="160" head="117" body="120" legs="115" feet="114" corpse="2212"/>
+
+  <interaction range="3" idletime="60">
+
+
+    <interact keywords="hi" focus="1">
+
+      <keywords>hello</keywords>
+
+ 
+     <response text="Hello!">
+  
+    </response>
+
+    </interact>
+
+ 
+   <interact keywords="bye" focus="0">
+
+      <keywords>farewell</keywords>
+
+
+      <response text="Good bye."/>
+ 
+   </interact>
+
+  </interaction>
+
+</npc>

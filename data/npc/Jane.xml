@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Jane" nameDescription="Jane the Inn owners daughter" script="beer5.lua" walkinterval="2000" floorchange="1">
+
+	<health now="150" max="150"/>
+
+	<look type="140" head="96" body="20" legs="58" feet="116" corpse="2212"/>
+
+	<parameters>
+ 
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Wellcome to the Forsaken Inn, Do you want something to drink? or eat?."/>
+		<parameter key="shop_buyable" value="bread,2689,2;cheese,2696,2;powder herb,2803,20;"/>
+	</parameters>
+</npc>

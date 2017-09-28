@@ -35,13 +35,13 @@
 	<talkaction log="yes" words="/t" access="3" event="script" value="teleportmaster.lua"/>
 	<talkaction log="yes" words="/c" access="3" event="script" value="teleporthere.lua"/>
 	<talkaction log="yes" words="/goto" access="3" event="script" value="teleportto.lua"/>
-	<talkaction log="yes" words="/a" access="3" event="script" value="teleporttiles.lua"/>
+	<talkaction log="yes" words="/a" access="3" script="teleporttiles.lua"/>
 	<talkaction log="yes" words="/kick" access="3" event="script" value="kick.lua"/>
 	<talkaction log="yes" words="/send" access="3" event="script" value="teleportsend.lua"/>
 	<talkaction log="yes" words="/unban" access="3" event="script" value="unban.lua"/>
 	<talkaction log="yes" words="/town" access="3" event="script" value="teleporttown.lua"/>
-	<talkaction log="yes" words="/up" access="3" event="script" value="teleportfloor.lua"/>
-	<talkaction log="yes" words="/down" access="3" event="script" value="teleportfloor.lua"/>
+	<talkaction log="yes" words="/up" access="3" script="teleportfloor.lua"/>
+	<talkaction log="yes" words="/down" access="3" script="teleportfloor.lua"/>
 	<talkaction log="yes" words="/save" access="3" event="script" value="save.lua"/>
 	<talkaction log="yes" words="/clean" access="3" event="script" value="clean.lua"/>
 	<talkaction log="yes" words="/reports" access="3" event="script" value="reports.lua"/>

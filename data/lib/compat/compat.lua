@@ -377,6 +377,7 @@ function doPlayerSetGuildNick(cid, nick) local p = Player(cid) return p ~= nil a
 function doPlayerSetOfflineTrainingSkill(cid, skillId) local p = Player(cid) return p ~= nil and p:setOfflineTrainingSkill(skillId) or false end
 function doShowTextDialog(cid, itemId, text) local p = Player(cid) return p ~= nil and p:showTextDialog(itemId, text) or false end
 function doPlayerAddItemEx(cid, uid, ...) local p = Player(cid) return p ~= nil and p:addItemEx(Item(uid), ...) or false end
+function doPlayerAddItem(cid, itemid, count, ...) local p = Player(cid) return p ~= nil and p:addItem(itemid, count, ...) or false end
 function doPlayerRemoveItem(cid, itemid, count, ...) local p = Player(cid) return p ~= nil and p:removeItem(itemid, count, ...) or false end
 function doPlayerAddPremiumDays(cid, days) local p = Player(cid) return p ~= nil and p:addPremiumDays(days) or false end
 function doPlayerRemovePremiumDays(cid, days) local p = Player(cid) return p ~= nil and p:removePremiumDays(days) or false end
@@ -404,7 +405,7 @@ function doSendTutorial(cid, tutorialId) local p = Player(cid) return p ~= nil a
 function doAddMapMark(cid, pos, type, description) local p = Player(cid) return p ~= nil and p:addMapMark(pos, type, description or "") or false end
 function doPlayerSendTextMessage(cid, type, text, ...) local p = Player(cid) return p ~= nil and p:sendTextMessage(type, text, ...) or false end
 function doSendAnimatedText() debugPrint("Deprecated function.") return true end
-function doPlayerAddExp(cid, exp, useMult, ...)
+function doPlayerAddExperience(cid, exp, useMult, ...)
 	local player = Player(cid)
 	if player == nil then
 		return false

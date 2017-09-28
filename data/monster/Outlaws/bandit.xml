@@ -84,9 +84,7 @@
 
 		<item id="5909" countmax="1" chance="2000"/><!-- white piece of cloth -->
 
-		<item id="1987" chance="100000"><!-- bag -->
-
-		<inside>
+		<item id="1987" chance="80000"/><!-- bag -->
 
 		<item id="2148" countmax="40" chance="90000"/><!-- gold coin -->
 
@@ -94,9 +92,6 @@
 
 		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
 		
-		</inside>
-
-		</item>
 
 	</loot>
 

@@ -2,6 +2,7 @@ local combat = Combat()
 combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_BLUE)
 combat:setParameter(COMBAT_PARAM_AGGRESSIVE, false)
 combat:setParameter(COMBAT_PARAM_DISPEL, CONDITION_POISON)
+combat:setParameter(COMBAT_PARAM_DISPEL, CONDITION_PARALYZE)
 
 function onCastSpell(creature, variant, isHotkey)
 	if(getPlayerStorageValue(creature,2024) == 0) then

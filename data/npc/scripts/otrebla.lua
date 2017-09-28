@@ -57,9 +57,22 @@ function creatureSayCallback(cid, type, msg)
 					doPlayerAddExperience(cid,3000)
 					doPlayerAddItem(cid,2152,5)					
 					selfSay('Thanks that info will be very useful. (You have received 3000 experience and 500 gp)', cid)
-			elseif(getPlayerStorageValue(cid,2039) == 2) then		
-					selfSay('No more missions for now, just rest.', cid)			
+			elseif(getPlayerStorageValue(cid,2039) == 2 and getPlayerStorageValue(cid,2048) < 0) then		
+					selfSay('The spy told us that one of the renegades generals is in this fortress, his name is Harald Ferner and is in the northern part of the settlement.', cid)			
+					selfSay('Harald Ferner is a very strong warrior, but you have proved your self as well, can you go after him?, {yes}?', cid)	
+						talkState[talkUser] = 4		
 			end
+			if(getPlayerStorageValue(cid,2048) == 1) then
+					setPlayerStorageValue(cid,2048,2)
+					doPlayerAddExperience(cid,15000)
+					doPlayerAddItem(cid,2152,15)
+					doPlayerAddItem(cid,2483,1)
+				    doPlayerAddOutfit(cid, 4, 1)					
+					selfSay('Thanks for all your work, you are a great warrior! I will tell everyone about your strong spirit, take this reward. (You have received 15000 experience, 1500 gp, an addon and a iron scale armor)', cid)
+ 			elseif(getPlayerStorageValue(cid,2048) == 2) then		
+					selfSay('I dont have more missions for you my friend', cid)			
+	
+			end	
  	elseif(msgcontains(msg, 'bree')) then
 				selfSay('Bree is this beatiful town where we are, is the center of men in this area. It might be just a little town, but we work every day to make it greater.', cid)
 
@@ -68,27 +81,23 @@ function creatureSayCallback(cid, type, msg)
 			if(getPlayerStorageValue(cid,2019) < 0) then
 				selfSay('Thats the spirit! Still 3 crimson swords from them and bring them here, good luck.', cid)
 				setPlayerStorageValue(cid,2019,0)
-
-			elseif(getPlayerStorageValue(cid,2019) >= 0) then
-				selfSay('I dont have more missions for you right now.', cid)
 			end
 		elseif(talkState[talkUser] == 2) then
 			if(getPlayerStorageValue(cid,2019) == 1 and getPlayerStorageValue(cid,2037) < 0) then
 				selfSay('You are a great warrior! Go north from the bandits camp and yo will find the town of the renegades. Kill 10 of them, but be careful.', cid)
 				setPlayerStorageValue(cid,2037,0)
-
-			elseif(getPlayerStorageValue(cid,2019) >= 0) then
-				selfSay('I dont have more missions for you right now.', cid)
 			end
 		elseif(talkState[talkUser] == 3) then
 			if(getPlayerStorageValue(cid,2037) == 11 and getPlayerStorageValue(cid,2039) < 0) then
 				selfSay('Great! Into the town the renegades have a prison under the town hall, there you will find Harry, he is an agent of us that let the renegades to capture him.', cid)
 				selfSay('Find him and listen to his report, good luck!', cid)				
 				setPlayerStorageValue(cid,2039,0)
-
-			elseif(getPlayerStorageValue(cid,2019) >= 0) then
-				selfSay('I dont have more missions for you right now.', cid)
 			end
+		elseif(talkState[talkUser] == 4) then
+			if(getPlayerStorageValue(cid,2039) == 2 and getPlayerStorageValue(cid,2048) < 0) then
+				selfSay('Good luck! Look for more warriors to go with you. I will be waiting for you.', cid)		
+				setPlayerStorageValue(cid,2048,0)
+			end		
 		end
 		talkState[talkUser] = 0
 	elseif(msgcontains(msg, 'no') and isInArray({1}, talkState[talkUser])) then

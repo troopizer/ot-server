@@ -122,8 +122,9 @@
 
 		<item id="5909" countmax="1" chance="5000"/><!-- white piece of cloth -->
 
-	
-	<item id="7366" countmax="4" chance="5000"/><!-- viper star -->
+		<item id="1987" chance="80000"/><!-- bag -->
+
+		<item id="2399" countmax="3" chance="5000"/><!-- Throwing star -->
 	
 		<item id="2050" countmax="2" chance="30000"/><!-- torch -->
 

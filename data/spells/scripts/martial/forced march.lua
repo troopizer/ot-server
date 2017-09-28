@@ -3,8 +3,8 @@ combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_BLUE)
 combat:setParameter(COMBAT_PARAM_AGGRESSIVE, false)
 
 local condition = Condition(CONDITION_HASTE)
-condition:setConditionParam(condition, CONDITION_PARAM_TICKS, 30000)
-condition:setConditionFormula(condition, 0.2, -16, 0.2, -16)
+condition:setParameter(CONDITION_PARAM_TICKS, 30000)
+condition:setFormula(0.2, -16, 0.2, -16)
 combat:setCondition(condition)
 
 function onCastSpell(cid, var)

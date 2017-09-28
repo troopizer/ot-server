@@ -38,6 +38,7 @@
 	<monster name="Werewolf" file="Canines/werewolf.xml"/>
 	<monster name="Winter wolf" file="Canines/winter wolf.xml"/>
 	<monster name="Wolf" file="Canines/wolf.xml"/>
+	<monster name="Fierce Wolf" file="Canines/fierce wolf.xml"/>
 
 	<!-- Crustaceans -->
 	<monster name="Blood Crab" file="Crustaceans/blood crab.xml"/>
@@ -58,6 +59,8 @@
 
 	<!-- Goblins -->
 	<monster name="Goblin" file="Goblins/goblin.xml"/>
+	<monster name="Goblin Infantry" file="Goblins/goblin infantry.xml"/>
+	<monster name="Goblin Skirmisher" file="Goblins/goblin skirmisher.xml"/>
 	<monster name="Goblin Assassin" file="Goblins/goblin assassin.xml"/>
 	<monster name="Goblin Leader" file="Goblins/goblin leader.xml"/>
 	<monster name="Goblin Scavenger" file="Goblins/goblin scavenger.xml"/>
@@ -82,6 +85,9 @@
 	<monster name="Boot Eater Tarantula" file="Quests/boot eater tarantula.xml"/>
 	<monster name="Orc Spy" file="Quests/orc spy.xml"/>
 	<monster name="Daisy Gamwich's cat" file="Quests/daisy gamwich cat.xml"/>
+	<monster name="Forgotten Mother" file="Quests/forgotten mother.xml"/>
+	<monster name="Harald Ferner" file="Quests/harald ferner.xml"/>
+	<monster name="Rorkduf" file="Quests/rorkduf.xml"/>
 
 	<!-- Misc -->
 	<monster name="Badger" file="Misc/badger.xml"/>
@@ -95,6 +101,7 @@
 	<monster name="Silver Rabbit" file="Misc/silver rabbit.xml"/>
 	<monster name="Skunk" file="Misc/skunk.xml"/>
 	<monster name="Squirrel" file="Misc/squirrel.xml"/>
+	<monster name="Water Buffalo" file="Misc/water buffalo.xml"/>
 
 	<!-- Ores -->
 	<monster name="Tin Deposit" file="Ores/tin deposit.xml"/>
@@ -165,5 +172,8 @@
 
 	<!-- Training -->
 	<monster name="Training Monk" file="Training/training monk.xml"/>
+
+	<!-- Trolls -->
+	<monster name="Mountain Troll" file="Trolls/Mountain Troll.xml"/>
 
 </monsters>

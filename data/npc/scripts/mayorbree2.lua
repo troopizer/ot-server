@@ -70,11 +70,6 @@ function creatureSayCallback(cid, type, msg)
 		end
 	end
 	if(msgcontains(msg, 'mission')) then
-		if (getPlayerStorageValue(cid,2000) == 1 and getPlayerStorageValue(cid,2001) < 0 ) then
-			selfSay('I have another mission for you, {ok}?', cid)
-		end
-	end
-	if(msgcontains(msg, 'mission')) then
 		if (getPlayerStorageValue(cid,2001) == 2 and getPlayerStorageValue(cid,2002) < 0 ) then
 			selfSay('Well, you need a better armor, {ok}?', cid)
 		end

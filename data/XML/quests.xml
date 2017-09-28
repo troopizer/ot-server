@@ -55,7 +55,7 @@
             <missionstate id="0" description="Search for the bandits camp where the renegades trade with them, and still the 3 crimson swords."/>
             <missionstate id="1" description="Mission Complete."/>
         </mission>
-        <mission name="3 Just kill them all" storageid="2037" startvalue="0" endvalue="11">
+        <mission name="3 Just Kill Them All" storageid="2037" startvalue="0" endvalue="11">
             <missionstate id="0" description="Kill 10 Renegades in East Brandiwine Hills."/>
             <missionstate id="1" description="Kill 9 Renegades in East Brandiwine Hills."/>
             <missionstate id="2" description="Kill 8 Renegades in East Brandiwine Hills."/>
@@ -69,9 +69,14 @@
             <missionstate id="10" description="Go back to the Sergeant."/>
             <missionstate id="11" description="Mission Complete."/>
         </mission>
-        <mission name="4 A fake prisoner" storageid="2039" startvalue="0" endvalue="2">
+        <mission name="4 A Fake Prisoner" storageid="2039" startvalue="0" endvalue="2">
             <missionstate id="0" description="An agent of sergeant Otrebla, called Harry, let the renegades to capture him in order to find information, look for him and the key of his prison door. He will give you a report for Otrebla"/>
             <missionstate id="1" description="Go back to Sergeant Otrebla."/>           
+            <missionstate id="2" description="Mission Complete."/>
+        </mission>
+        <mission name="5 The Head of the Snake" storageid="2048" startvalue="0" endvalue="2">
+            <missionstate id="0" description="Search for the general of the renegades, Harald Ferner, and take him down."/>
+            <missionstate id="1" description="You killed him! Go back to the sergeant."/>
             <missionstate id="2" description="Mission Complete."/>
         </mission>
     </quest>
@@ -115,15 +120,15 @@
             <missionstate id="0" description="Take back the stolen boots from the bandits."/>
             <missionstate id="1" description="Talk to Sammuel the Bandit."/>
             <missionstate id="2" description="Kill the Boots Eater Tarantula. It spawns in the easter side of the spider pit."/>
-            <missionstate id="3" description="Return the boots to Sergaent Farflank."/>
+            <missionstate id="3" description="Return the boots to Sergaent Farflank (just by killing the tarantula)."/>
             <missionstate id="4" description="Mission Complete."/>
         </mission>
     </quest>
     <quest name="Buckland Tales" startstorageid="30006" startstoragevalue="5">
-    	<mission name="Daisy Gamwich's cat" storageid="2013" startvalue="0" endvalue="2">
-    		<missionstate id="0" description="Get a scythe with Hildibrand the farmer."/>
-        	<missionstate id="1" description="Bring 10 bunches of wheat to Misses Daisy."/>
-            <missionstate id="2" description="Mission Complete."/>	
+        <mission name="Daisy Gamwich's cat" storageid="2013" startvalue="0" endvalue="2">
+            <missionstate id="0" description="Get a scythe with Hildibrand the farmer."/>
+            <missionstate id="1" description="Bring 10 bunches of wheat to Misses Daisy."/>
+            <missionstate id="2" description="Mission Complete."/>  
         </mission>
         <mission name="Rufus Gamgee and the cat" storageid="2014" startvalue="0" endvalue="2">
             <missionstate id="0" description="Kill Misses Daisy's cat and bring it's collar."/>
@@ -140,9 +145,9 @@
         </mission>
     </quest>
     <quest name="Barrow Downs Chapter 1" startstorageid="30004" startstoragevalue="6">
-    	<mission name="1 Blood herbs" storageid="2017" startvalue="0" endvalue="1">
-    		<missionstate id="0" description="Bring 5 blood herbs to Eryn, you will find some in the Barrow Downs."/>
-            <missionstate id="1" description="Mission Complete."/>	
+        <mission name="1 Blood herbs" storageid="2017" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Bring 5 blood herbs to Eryn, you will find some in the Barrow Downs."/>
+            <missionstate id="1" description="Mission Complete."/>  
         </mission>
         <mission name="2 Skulls" storageid="2021" startvalue="0" endvalue="1">
             <missionstate id="0" description="Bring 5 Skulls to Eryn, you will find them by killing skeletons in the Barrow Downs."/>
@@ -158,38 +163,38 @@
         </mission>
     </quest>  
     <quest name="Herbalist Magic Trait" startstorageid="30008" startstoragevalue="7">
-    	<mission name="Herbal light healing - asëa envinyata" storageid="2020" startvalue="0" endvalue="0">
-    		<missionstate id="0" description="Basic herbal healing - Words: asëa envinyata - Reagents: powder herbs."/>
+        <mission name="Herbal light healing - asea envinyata" storageid="2020" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Basic herbal healing - Words: asea envinyata - Reagents: powder herbs."/>
         </mission>
-        <mission name="Herbal antidote - asëa hloima envinyata" storageid="2024" startvalue="0" endvalue="0">
-            <missionstate id="0" description="Poison herbal antidote - Words: asëa hloima envinyata - Reagents: powder herbs."/>
+        <mission name="Herbal antidote - asea hloima envinyata" storageid="2024" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Poison herbal antidote - Words: asea hloima envinyata - Reagents: powder herbs."/>
         </mission>
-        <mission name="Herbal Sword Boost - asëa macil" storageid="2025" startvalue="0" endvalue="0">
-            <missionstate id="0" description="Herbal Sword Boost - Words: asëa hloima macil - lvl: 10 - Reagents: star herbs."/>
+        <mission name="Herbal Sword Boost - asea macil" storageid="2025" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Sword Boost - Words: asea hloima macil - lvl: 10 - Reagents: star herbs."/>
         </mission>
-        <mission name="Herbal Club Boost - asëa grond" storageid="2026" startvalue="0" endvalue="0">
-            <missionstate id="0" description="Herbal Club Boost - Words: asëa grond - lvl: 10 - Reagents: troll green."/>
+        <mission name="Herbal Club Boost - asea grond" storageid="2026" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Club Boost - Words: asea grond - lvl: 10 - Reagents: troll green."/>
         </mission>
-        <mission name="Herbal Axe Boost - asëa hathol" storageid="2027" startvalue="0" endvalue="0">
-            <missionstate id="0" description="Herbal Axe Boost - Words: asëa hathol - lvl: 10 - Reagents: shadow herbs."/>
+        <mission name="Herbal Axe Boost - asea hathol" storageid="2027" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Axe Boost - Words: asea hathol - lvl: 10 - Reagents: shadow herbs."/>
         </mission>
-        <mission name="Herbal Distance Boost - asëa palan" storageid="2028" startvalue="0" endvalue="0">
-            <missionstate id="0" description="Herbal Distance Boost - Words: asëa palan - lvl: 10 - Reagents: sling herbs."/>
+        <mission name="Herbal Distance Boost - asea palan" storageid="2028" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Distance Boost - Words: asea palan - lvl: 10 - Reagents: sling herbs."/>
         </mission>
-        <mission name="Herbal Shielding Boost - asëa sanda" storageid="2029" startvalue="0" endvalue="0">
-            <missionstate id="0" description="Herbal Shielding Boost - Words: asëa sanda - lvl: 10 - Reagents: stone herbs."/>
+        <mission name="Herbal Shielding Boost - asea sanda" storageid="2029" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Shielding Boost - Words: asea sanda - lvl: 10 - Reagents: stone herbs."/>
         </mission>
-        <mission name="Herbal Hit Points Boost - asëa coi" storageid="2030" startvalue="0" endvalue="0">
-            <missionstate id="0" description="Herbal Hit Points Boost - Words: asëa coi - lvl: 10 - Reagents: blood herbs."/>
+        <mission name="Herbal Hit Points Boost - asea coi" storageid="2030" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Hit Points Boost - Words: asea coi - lvl: 10 - Reagents: blood herbs."/>
         </mission>
-        <mission name="Herbal Poison Rune - asëa hloima certa" storageid="2033" startvalue="0" endvalue="0">
-            <missionstate id="0" description="Herbal Poison Rune - Words: asëa hloima certa - lvl: 15 - mlvl: 5 - Reagents: blank rune and troll green."/>
+        <mission name="Herbal Poison Rune - asea hloima certa" storageid="2033" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Poison Rune - Words: asea hloima certa - lvl: 15 - mlvl: 5 - Reagents: blank rune and troll green."/>
         </mission>
-        <mission name="Herbal Paralyze Rune - asëa halcin certa" storageid="2034" startvalue="0" endvalue="0">
-            <missionstate id="0" description="Herbal Paralyze Rune - Words: asëa halcin certa - lvl: 15 - mlvl: 5 - Reagents: blank rune and sling herbs."/>
+        <mission name="Herbal Paralyze Rune - asea halcin certa" storageid="2034" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Paralyze Rune - Words: asea halcin certa - lvl: 15 - mlvl: 5 - Reagents: blank rune and sling herbs."/>
         </mission>
-        <mission name="Herbal Healing Rune - asëa envinyata certa" storageid="2035" startvalue="0" endvalue="0">
-            <missionstate id="0" description="Herbal Healing Rune - Words: asëa envinyata certa - lvl: 15 - mlvl: 5 - Reagents: blank rune and blood herbs."/>
+        <mission name="Herbal Healing Rune - asea envinyata certa" storageid="2035" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Healing Rune - Words: asea envinyata certa - lvl: 15 - mlvl: 5 - Reagents: blank rune and blood herbs."/>
         </mission>
     </quest>   
     <quest name="Most Wanted Bree" startstorageid="30009" startstoragevalue="8">
@@ -197,6 +202,99 @@
             <missionstate id="0" description="Look for Larry Halfsnout, the leader of bandits in Midgewater and kill him."/>
             <missionstate id="1" description="You got him, ask for your reward."/> 
             <missionstate id="2" description="Killed."/>   
+        </mission>  
+    </quest>
+    <quest name="Lone Lands Tales" startstorageid="30010" startstoragevalue="9">
+        <mission name="Poachers and Savages" storageid="2041" startvalue="0" endvalue="21">
+            <missionstate id="0" description="Kill 20 Poachers and Savages ."/>
+            <missionstate id="1" description="Kill 19 Poachers and Savages ."/>
+            <missionstate id="2" description="Kill 18 Poachers and Savages ."/>
+            <missionstate id="3" description="Kill 17 Poachers and Savages ."/>
+            <missionstate id="4" description="Kill 16 Poachers and Savages ."/>
+            <missionstate id="5" description="Kill 15 Poachers and Savages ."/>
+            <missionstate id="6" description="Kill 14 Poachers and Savages ."/>
+            <missionstate id="7" description="Kill 13 Poachers and Savages ."/>
+            <missionstate id="8" description="Kill 12 Poachers and Savages ."/>
+            <missionstate id="9" description="Kill 11 Poachers and Savages ."/>
+            <missionstate id="10" description="Kill 10 Poachers and Savages ."/>
+            <missionstate id="11" description="Kill 9 Poachers and Savages ."/>
+            <missionstate id="12" description="Kill 8 Poachers and Savages ."/>
+            <missionstate id="13" description="Kill 7 Poachers and Savages ."/>
+            <missionstate id="14" description="Kill 6 Poachers and Savages ."/>
+            <missionstate id="15" description="Kill 5 Poachers and Savages ."/>
+            <missionstate id="16" description="Kill 4 Poachers and Savages ."/>
+            <missionstate id="17" description="Kill 3 Poachers and Savages ."/>
+            <missionstate id="18" description="Kill 2 Poachers and Savages ."/>
+            <missionstate id="19" description="Kill 1 Poachers and Savages ."/>
+            <missionstate id="20" description="You got them, ask for your reward."/> 
+            <missionstate id="21" description="Mission Complete."/>   
+        </mission> 
+        <mission name="The lost dwarf" storageid="2051" startvalue="0" endvalue="2">
+            <missionstate id="0" description="Go to the misty mountains goblins camp and search for the lost dwarf body and the book he was carring."/>
+            <missionstate id="1" description="Mission Complete."/>   
+            <missionstate id="2" description="Mission Complete."/>   
+        </mission>
+    </quest>
+    <quest name="Martial Arts Trait" startstorageid="30011" startstoragevalue="10">
+        <mission name="Strong Strike - turca pente" storageid="2042" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Strong Strike - Words: turca pente - lvl: 20 - mlvl: 7 - One concentrated hit."/>
+        </mission>
+        <mission name="Twisting Slash - aucirhanc" storageid="2043" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Twisting Slash - Words: aucirhanc - lvl: 20 - mlvl: 7 - Hit everyone around you."/>
+        </mission>
+        <mission name="Shield Wall - thangail" storageid="2044" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Shield Wall - Words: thangail - lvl: 20 - mlvl: 7 - Block with all you have."/>
+        </mission>
+        <mission name="Sharp Aim - hendumaica" storageid="2045" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Sharp Aim - Words: hendumaica - lvl: 20 - mlvl: 7 - Sharp you eyes."/>
+        </mission>
+        <mission name="Forced March - nire eldo" storageid="2049" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Forced March - Words: nire eldo - lvl: 20 - mlvl: 7 - Use the strenght of your legs."/>
+        </mission>
+    </quest>
+    <quest name="Lone Lands Chapter 1" startstorageid="30012" startstoragevalue="11">
+        <mission name="1 Fierce wolves" storageid="2046" startvalue="0" endvalue="21">
+            <missionstate id="0" description="Kill 20 Fierce wolves."/>
+            <missionstate id="1" description="Kill 19 Fierce wolves."/>
+            <missionstate id="2" description="Kill 18 Fierce wolves."/>
+            <missionstate id="3" description="Kill 17 Fierce wolves."/>
+            <missionstate id="4" description="Kill 16 Fierce wolves."/>
+            <missionstate id="5" description="Kill 15 Fierce wolves."/>
+            <missionstate id="6" description="Kill 14 Fierce wolves."/>
+            <missionstate id="7" description="Kill 13 Fierce wolves."/>
+            <missionstate id="8" description="Kill 12 Fierce wolves."/>
+            <missionstate id="9" description="Kill 11 Fierce wolves."/>
+            <missionstate id="10" description="Kill 10 Fierce wolves."/>
+            <missionstate id="11" description="Kill 9 Fierce wolves."/>
+            <missionstate id="12" description="Kill 8 Fierce wolves."/>
+            <missionstate id="13" description="Kill 7 Fierce wolves."/>
+            <missionstate id="14" description="Kill 6 Fierce wolves."/>
+            <missionstate id="15" description="Kill 5 Fierce wolves."/>
+            <missionstate id="16" description="Kill 4 Fierce wolves."/>
+            <missionstate id="17" description="Kill 3 Fierce wolves."/>
+            <missionstate id="18" description="Kill 2 Fierce wolves."/>
+            <missionstate id="19" description="Kill 1 Fierce wolves."/>
+            <missionstate id="20" description="You got them, ask for your reward."/> 
+            <missionstate id="21" description="Mission Complete."/>   
+        </mission> 
+        <mission name="2 Savages helmets" storageid="2047" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Kill Savages and get 5 damaged steel helmets for Nargor."/>
+            <missionstate id="1" description="Mission Complete."/>
+        </mission>  
+        <mission name="3 Supplies" storageid="2050" startvalue="0" endvalue="3">
+            <missionstate id="0" description="Travel to the Forsaken Inn for supplies for the rangers ."/>
+            <missionstate id="1" description="Go to Buckland and buy 20 salmons for the Inn keeper ."/>
+            <missionstate id="2" description="Go back to Nargor with the supplies."/>
+            <missionstate id="3" description="Mission Complete."/>
+        </mission>   
+        <mission name="4 Fighting the goblins" storageid="2052" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Attack the goblins in the north of Weather Hills and get 10 bone swords to prove your kills to Nargor."/>
+            <missionstate id="1" description="Mission Complete."/>
+        </mission>  
+        <mission name="5 Rorkduf" storageid="2053" startvalue="0" endvalue="2">
+            <missionstate id="0" description="Go back to the goblin camp and kill their leader, Rorkduf."/>
+            <missionstate id="1" description="Go back to Nargor."/>
+            <missionstate id="2" description="Mission Complete."/>
         </mission>  
     </quest>
 </quests>

@@ -32,5 +32,14 @@ function onLogin(player)
 	-- Events
 	player:registerEvent("PlayerDeath")
 	player:registerEvent("DropLoot")
+	player:registerEvent("StorageMonster")
+	player:registerEvent("Larry Halfsnout")
+	player:registerEvent("Renegades 10")
+	player:registerEvent("Savage 20")
+	player:registerEvent("Fierce 20")
+	player:registerEvent("DaisyGamwichCat")
+	player:registerEvent("BootEaterTarantula")
+	player:registerEvent("Harald Ferner")
+	player:registerEvent("Rorkduf")
 	return true
 end

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Nargor" nameDescription="Nargor, a dunedain captain." walkinterval="2000" script="nargor.lua" floorchange="1">
+
+	<health now="150" max="150"/>
+
+	<look type="129" head="115" body="115" legs="113" feet="115" addons="1" corpse="2212"/>
+
+  <interaction range="3" idletime="60">
+
+
+    <interact keywords="hi" focus="1">
+
+      <keywords>hello</keywords>
+
+ 
+     <response text="Hi..">
+
+     </response>
+
+   </interact>
+ 
+   <interact keywords="bye" focus="0">
+
+      <keywords>farewell</keywords>
+
+
+      <response text="Good bye."/>
+ 
+   </interact>
+
+  </interaction>
+
+</npc>

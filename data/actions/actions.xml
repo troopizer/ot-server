@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
 	<!-- Quests -->
+	<action actionid="2000" script="quests/system.lua"/>
 	<action itemid="1740" script="quests/quests.lua" />
 	<action fromid="1747" toid="1749" script="quests/quests.lua" />
 	<action uniqueid="30015" script="quests/annihilator.lua" />
@@ -83,7 +84,7 @@
 
 	<!-- Food -->
 	<action itemid="2362" script="other/food.lua" />
-	<!--<action fromid="2666" toid="2691" script="other/food.lua" />-->
+	<action fromid="2666" toid="2690" script="other/food.lua" />
 	<action fromid="2695" toid="2696" script="other/food.lua" />
 	<action fromid="2787" toid="2796" script="other/food.lua" />
 	<action itemid="5097" script="other/food.lua" />

@@ -8,4 +8,14 @@
 	<event type="death" name="PlayerDeath" script="playerdeath.lua" />
 	<event type="death" name="DropLoot" script="droploot.lua" />
 	<event type="extendedopcode" name="ExtendedOpcode" script="extendedopcode.lua" />
+		<!-- QUESTS -->
+	<event type="kill" name="StorageMonster" script="storagemonster.lua"/>
+	<event type="kill" name="DaisyGamwichCat" script="daisygamwichcat.lua"/>
+	<event type="kill" name="BootEaterTarantula" script="booteatertarantula.lua"/>
+	<event type="kill" name="Renegades 10" script="renegades10.lua"/>
+	<event type="kill" name="Savage 20" script="savage20.lua"/>
+	<event type="kill" name="Fierce 20" script="fierce20.lua"/>
+	<event type="kill" name="Larry Halfsnout" script="larryhalfsnout.lua"/>
+	<event type="kill" name="Harald Ferner" script="haraldferner.lua"/>
+	<event type="kill" name="Rorkduf" script="rorkduf.lua"/>
 </creaturescripts>

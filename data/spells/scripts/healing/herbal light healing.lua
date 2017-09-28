@@ -6,9 +6,9 @@ combat:setParameter(COMBAT_PARAM_DISPEL, CONDITION_PARALYZE)
 --setHealingFormula(COMBAT_FORMULA_LEVELMAGIC, 5, 5, 4, 6)
 
 -- Mean and Differance between max and min
-local levelConstantFactor  = 5.0
-local mlevelConstantFactor = 5.0
-local radiousFactor        = (levelConstantFactor+mlevelConstantFactor)*1.0/2.0
+local levelConstantFactor  = 1.0
+local mlevelConstantFactor = 2.0
+local radiousFactor        = (levelConstantFactor+mlevelConstantFactor)*2.0
 
 function onGetFormulaValues(player, level, maglevel)
 	local min = level*levelConstantFactor + maglevel*mlevelConstantFactor - radiousFactor

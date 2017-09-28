@@ -2,7 +2,7 @@
 
 <npc name="Rufus Gamgee" nameDescription="Rufus, he used to work at a loom." script="rufus_gamgee.lua" walkinterval="4000" floorchange="1">
 	<health now="150" max="150"/>
-	<look type="369" head="88" body="95" legs="114" feet="113" corpse="2212"/>
+	<look type="904" head="88" body="95" legs="114" feet="113" corpse="2212"/>
   <interaction range="3" idletime="60">
     <interact keywords="hi" focus="1">
       <keywords>hello</keywords>

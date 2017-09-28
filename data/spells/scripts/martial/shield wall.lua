@@ -6,7 +6,7 @@ local condition = Condition(CONDITION_ATTRIBUTES)
 condition:setParameter(condition, CONDITION_PARAM_TICKS, 8000)
 condition:setParameter(condition, CONDITION_PARAM_SKILL_SHIELDPERCENT, 300)
 condition:setParameter(condition, CONDITION_PARAM_BUFF, true)
-condition:setCondition(condition)
+combat:setCondition(condition)
 
 local disable = Condition(CONDITION_PACIFIED)
 disable:setParameter(CONDITION_PARAM_TICKS, 8000)

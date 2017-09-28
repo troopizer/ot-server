@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Dunedain Ranger" nameDescription="a dunedain ranger." walkinterval="2000" floorchange="1">
+
+	<health now="150" max="150"/>
+
+	<look type="129" head="115" body="115" legs="118" feet="116" addons="1" corpse="2212"/>
+
+  <interaction range="3" idletime="60">
+
+
+    <interact keywords="hi" focus="1">
+
+      <keywords>hello</keywords>
+
+ 
+     <response text="Hi..">
+
+     </response>
+
+    </interact>
+
+
+     <interact keywords="bandits" focus="2">
+
+      <keywords>robbers</keywords>
+
+ 
+     <response text="You can find bandits and robbers near every town in Eriador...">
+
+     </response>
+
+    </interact>
+
+     <interact keywords="mission" focus="4">
+
+      <keywords>quest</keywords>
+
+ 
+     <response text="Talk to Erathor..">
+
+     </response>
+
+    </interact>
+
+ 
+
+     <interact keywords="dwarfs" focus="3">
+
+      <keywords>blue mountains</keywords>
+
+ 
+     <response text="Mmm, there are some dwarf of the blue mountains around in Bree...">
+
+     </response>
+
+    </interact>
+
+ 
+   <interact keywords="bye" focus="0">
+
+      <keywords>farewell</keywords>
+
+
+      <response text="Good bye."/>
+ 
+   </interact>
+
+  </interaction>
+
+</npc>
