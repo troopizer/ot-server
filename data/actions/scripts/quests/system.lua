@@ -24,6 +24,10 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 	else
 	if(getPlayerStorageValue(cid, storage) > 0) then
 		doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "It is empty.")
+				for i = 0, 7 do
+				local sa = getPlayerSkill(cid, i)
+				print("skills", sa)
+			end
 		return true
 	end
 
