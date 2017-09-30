@@ -1,11 +1,27 @@
-
+local annihilatorReward = {60047, 60048, 60049, 60050}
 function onUse(cid, item, fromPosition, itemEx, toPosition)
 
 	local storage = item.uid
 		if(storage > 65535) then
 			return false
 		end
-
+	if table.contains(annihilatorReward, item.uid) then
+		if getPlayerStorageValue(cid, 40001) == -1 then
+				if item.uid == 60047 then
+					getThing(doCreateItemEx(7383, 1))
+				elseif item.uid == 60048 then
+					getThing(doCreateItemEx(2430, 1))
+				elseif item.uid == 60049 then
+					getThing(doCreateItemEx(7392, 1))
+				elseif item.uid == 60050 then
+					getThing(doCreateItemEx(8856, 1))
+				end
+                doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR, 'You have found a nice reward.')
+				setPlayerStorageValue(cid,40001, 1)
+		else
+		doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "It is empty.")
+		end
+	else
 	if(getPlayerStorageValue(cid, storage) > 0) then
 		doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "It is empty.")
 		return true
@@ -21,7 +37,7 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 	if(size == 0) then
 		reward = doCopyItem(item, false)
 	else
-		for i = 0, size do
+		for i = 0, size-1 do
 			local tmp = getContainerItem(item.uid, i)
 			if(tmp.itemid > 0) then
 				table.insert(items, tmp.itemid)
@@ -29,18 +45,21 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		end
 	end
 	if(size == 1) then
-		reward = doCopyItem(items[1], true)
+			local et = getContainerItem(item.uid, 0)
+			local rt = getItemDescriptions(et.uid)
+			local tmp = getThing(doCreateItemEx(et.itemid, et.type))
+			doSetItemActionId(tmp.uid,et.actionid)
 	end
 
 	local result = ""
 	if(reward ~= 0) then
-		local ret = getItemDescriptions(reward.uid)
-		if(reward.type > 0 and isItemRune(reward.itemid)) then
-			result = reward.type .. " charges " .. ret.name
-		elseif(reward.type > 0 and isItemStackable(reward.itemid)) then
-			result = reward.type .. " " .. ret.plural
+		name = getItemName(et.itemid)
+		if(et.type > 0 and isItemRune(rt.itemid)) then
+			result = et.type .. " charges " .. rt.name
+		elseif(et.type > 0 and isItemStackable(rt.itemid)) then
+			result = et.type .. " " .. rt.plural
 		else
-			result = ret.article .. " " .. ret.name
+			result = rt.article .. " " .. rt.name
 		end
 	else
 		if(size > 20) then
@@ -55,6 +74,7 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 			local et = getContainerItem(item.uid, i)
 			local rt = getItemDescriptions(et.uid)
 			local tmp = getThing(doCreateItemEx(et.itemid, et.type))
+			doSetItemActionId(tmp.uid,et.actionid)
 			if(doAddContainerItemEx(reward.uid, tmp.uid) ~= RETURNVALUE_NOERROR) then
 				print("[Warning] QuestSystem:", "Could not add quest reward")
 			else
@@ -84,7 +104,7 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		result = "You have found " .. result .. "."
 		setPlayerStorageValue(cid, storage, 1)
 	end
-
+end
 	doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, result)
 	return true
 end

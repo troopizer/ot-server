@@ -21,13 +21,13 @@ if(msgcontains(msg, 'mission') or msgcontains(msg, 'addon')) then
 				doPlayerRemoveItem(cid, 5878, 10)
 				doPlayerRemoveItem(cid, 5913, 10)
 				selfSay('Great!, now I can make your backpack.', cid)
-				doPlayerAddOutfit(cid, 1, 1)
+				doPlayerAddOutfit(cid, 136, 1)
+				doPlayerAddOutfit(cid, 128, 1)
 				setPlayerStorageValue(cid,2023,1)
 		else
 				selfSay('I need the materials to start working, you have to get them.', cid)
 		end
-	end
-	if (getPlayerStorageValue(cid,2023) == 1) then
+	elseif (getPlayerStorageValue(cid,2023) == 1) then
 		selfSay('Are you enjoying your backpack?', cid)
 		return false
 	end

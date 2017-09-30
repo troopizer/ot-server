@@ -67,7 +67,9 @@ function creatureSayCallback(cid, type, msg)
 					doPlayerAddExperience(cid,15000)
 					doPlayerAddItem(cid,2152,15)
 					doPlayerAddItem(cid,2483,1)
-				    doPlayerAddOutfit(cid, 4, 1)					
+					doPlayerAddOutfit(cid, 139, 1)
+					doPlayerAddOutfit(cid, 131, 1)
+					
 					selfSay('Thanks for all your work, you are a great warrior! I will tell everyone about your strong spirit, take this reward. (You have received 15000 experience, 1500 gp, an addon and a iron scale armor)', cid)
  			elseif(getPlayerStorageValue(cid,2048) == 2) then		
 					selfSay('I dont have more missions for you my friend', cid)			

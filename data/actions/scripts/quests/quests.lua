@@ -1,4 +1,4 @@
-local annihilatorReward = {1990, 2400, 2431, 2494}
+local annihilatorReward = {60047, 60048, 60049, 60050}
 function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	if item.uid <= 999 or item.uid >= 70000 then
 		return false
@@ -14,10 +14,14 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	if table.contains(annihilatorReward, item.uid) then
 		if player:getStorageValue(30015) == -1 then
 			if playerCap >= itemWeight then
-				if item.uid == 1990 then
-					player:addItem(1990, 1):addItem(2326, 1)
-				else
-					player:addItem(item.uid, 1)
+				if item.uid == 60047 then
+					player:addItem(7383, 1)
+				elseif item.uid == 60048 then
+					player:addItem(2430, 1)
+				elseif item.uid == 60049 then
+					player:addItem(7392, 1)
+				elseif item.uid == 60050 then
+					player:addItem(8856, 1)
 				end
 				player:sendTextMessage(MESSAGE_INFO_DESCR, 'You have found a ' .. itemType:getName() .. '.')
 				player:setStorageValue(30015, 1)

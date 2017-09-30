@@ -3180,12 +3180,12 @@
         <attribute key="attack" value="22" />
         <attribute key="weaponType" value="axe" />
     </item>
-    <item id="2430" article="a" name="knight axe">
-        <attribute key="weight" value="5900" />
-        <attribute key="defense" value="21" />
-        <attribute key="attack" value="33" />
+    <item id="2430" article="a" name="elemental axe">
+        <attribute key="description" value="An old magical weapon that absorbs powers from elemental jewels." />
+        <attribute key="weight" value="5200" />
+        <attribute key="defense" value="18" />
+        <attribute key="attack" value="32" />
         <attribute key="weaponType" value="axe" />
-        <attribute key="extradef" value="1" />
     </item>
     <item id="2431" article="a" name="stonecutter axe">
         <attribute key="description" value="You feel the power of this mighty axe." />
@@ -4204,11 +4204,11 @@
         <attribute key="armor" value="13" />
         <attribute key="slotType" value="body" />
         <attribute key="absorbPercentPhysical" value="2" />
-        <attribute key="skillShield" value="2" />
-        <attribute key="skillSword" value="2" />
-        <attribute key="skillClub" value="2" />
-        <attribute key="skillAxe" value="2" />
-        <attribute key="skillDist" value="2" />
+        <attribute key="skillShield" value="1" />
+        <attribute key="skillSword" value="1" />
+        <attribute key="skillClub" value="1" />
+        <attribute key="skillAxe" value="1" />
+        <attribute key="skillDist" value="1" />
     </item>
     <item id="2658" article="a" name="white dress">
         <attribute key="weight" value="2400" />
@@ -6979,11 +6979,11 @@
     </item>
     <item id="3968" article="a" name="eriador guardian armor">
         <attribute key="weight" value="12000" />
-        <attribute key="description" value="Low quality steel armor." />
+        <attribute key="description" value="Eriador steel armor." />
         <attribute key="armor" value="13" />
         <attribute key="slotType" value="body" />
         <attribute key="absorbPercentPhysical" value="2" />
-        <attribute key="skillShield" value="1" />
+        <attribute key="skillShield" value="2" />
     </item>
     <item id="3969" article="a" name="horseman helmet">
         <attribute key="weight" value="4200" />
@@ -11871,12 +11871,12 @@
         <attribute key="weaponType" value="sword" />
         <attribute key="slotType" value="two-handed" />
     </item>
-    <item id="7383" article="a" name="relic sword">
-        <attribute key="weight" value="4800" />
-        <attribute key="defense" value="24" />
-        <attribute key="attack" value="42" />
+    <item id="7383" article="a" name="elemental sword">
+        <attribute key="description" value="An old magical weapon that absorbs powers from elemental jewels." />
+        <attribute key="weight" value="5000" />
+        <attribute key="defense" value="26" />
+        <attribute key="attack" value="30" />
         <attribute key="weaponType" value="sword" />
-        <attribute key="extradef" value="1" />
     </item>
     <item id="7384" article="a" name="mystic blade">
         <attribute key="weight" value="3500" />
@@ -11934,12 +11934,12 @@
         <attribute key="attack" value="46" />
         <attribute key="weaponType" value="sword" />
     </item>
-    <item id="7392" article="an" name="orcish maul">
-        <attribute key="weight" value="5400" />
-        <attribute key="defense" value="18" />
-        <attribute key="attack" value="42" />
+    <item id="7392" article="an" name="elemental mace">
+        <attribute key="description" value="An old magical weapon that absorbs powers from elemental jewels." />
+        <attribute key="weight" value="5800" />
+        <attribute key="defense" value="22" />
+        <attribute key="attack" value="31" />
         <attribute key="weaponType" value="club" />
-        <attribute key="slotType" value="two-handed" />
     </item>
     <item id="7393" article="a" name="demon trophy">
         <attribute key="weight" value="500" />
@@ -12843,7 +12843,7 @@
         <attribute key="decayTo" value="2429" />
         <attribute key="showcharges" value="1" />
     </item>
-    <item id="7750" article="a" name="knight axe">
+    <item id="7750" article="a" name="elemental axe">
         <attribute key="weight" value="5900" />
         <attribute key="defense" value="21" />
         <attribute key="attack" value="33" />
@@ -14734,9 +14734,9 @@
         <attribute key="slotType" value="two-handed" />
         <attribute key="weaponType" value="distance" />
         <attribute key="ammoType" value="arrow" />
-        <attribute key="range" value="7" />
-        <attribute key="hitChance" value="8" />
-        <attribute key="attack" value="2" />
+        <attribute key="range" value="6" />
+        <attribute key="hitChance" value="5" />
+        <attribute key="attack" value="1" />
     </item>
     <item id="8857" article="a" name="silkweaver bow">
         <attribute key="weight" value="2200" />

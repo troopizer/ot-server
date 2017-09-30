@@ -3734,11 +3734,18 @@
   <spawn centerx="502" centery="1144" centerz="8" radius="2">
     <monster name="Ghost" x="0" y="2" z="8" spawntime="100"/>
   </spawn>
+  <spawn centerx="822" centery="808" centerz="9" radius="2">
+    <monster name="Giant Spider" x="-1" y="0" z="9" spawntime="300"/>
+    <monster name="Tarantula" x="1" y="2" z="9" spawntime="300"/>
+  </spawn>
   <spawn centerx="706" centery="814" centerz="9" radius="2">
     <monster name="Carrion Worm" x="-1" y="-1" z="9" spawntime="180"/>
   </spawn>
   <spawn centerx="824" centery="818" centerz="9" radius="2">
     <monster name="Tarantula" x="1" y="1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="828" centery="819" centerz="9" radius="2">
+    <monster name="Forgotten Mother" x="-1" y="0" z="9" spawntime="300"/>
   </spawn>
   <spawn centerx="717" centery="820" centerz="9" radius="2">
     <monster name="Rotworm" x="-1" y="-1" z="9" spawntime="180"/>
@@ -3754,8 +3761,9 @@
     <monster name="Rotworm" x="2" y="0" z="9" spawntime="180"/>
     <monster name="Rotworm" x="-2" y="1" z="9" spawntime="180"/>
   </spawn>
-  <spawn centerx="833" centery="824" centerz="9" radius="2">
-    <monster name="Forgotten Mother" x="-1" y="0" z="9" spawntime="300"/>
+  <spawn centerx="838" centery="825" centerz="9" radius="2">
+    <monster name="Tarantula" x="-1" y="-1" z="9" spawntime="300"/>
+    <monster name="Tarantula" x="1" y="2" z="9" spawntime="300"/>
   </spawn>
   <spawn centerx="817" centery="827" centerz="9" radius="2">
     <monster name="Tarantula" x="-2" y="-2" z="9" spawntime="300"/>
@@ -3958,6 +3966,10 @@
   <spawn centerx="810" centery="807" centerz="10" radius="2">
     <monster name="Giant Spider" x="1" y="0" z="10" spawntime="300"/>
   </spawn>
+  <spawn centerx="823" centery="809" centerz="10" radius="2">
+    <monster name="Tarantula" x="-1" y="-1" z="10" spawntime="300"/>
+    <monster name="Tarantula" x="2" y="0" z="10" spawntime="300"/>
+  </spawn>
   <spawn centerx="802" centery="811" centerz="10" radius="2">
     <monster name="Tarantula" x="0" y="-1" z="10" spawntime="300"/>
     <monster name="Tarantula" x="-1" y="2" z="10" spawntime="300"/>
@@ -3977,5 +3989,9 @@
   <spawn centerx="847" centery="830" centerz="10" radius="2">
     <monster name="Tarantula" x="-1" y="-1" z="10" spawntime="300"/>
     <monster name="Tarantula" x="1" y="2" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="816" centery="839" centerz="10" radius="2">
+    <monster name="Tarantula" x="-2" y="-2" z="10" spawntime="300"/>
+    <monster name="Tarantula" x="-1" y="2" z="10" spawntime="300"/>
   </spawn>
 </spawns>

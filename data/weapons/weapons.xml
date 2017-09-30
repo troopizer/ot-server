@@ -82,7 +82,7 @@
 	<melee id="7402" level="45" unproperly="1" event="function" value="default">
 		<vocation id="4"/>
 	</melee>
-	<melee id="7383" level="50" unproperly="1" event="function" value="default"/>
+	<melee id="7383" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="7391" level="50" unproperly="1" event="function" value="default"/>
 	<melee id="11300" level="50" unproperly="1" event="function" value="default"/>
 	<melee id="11301" level="55" unproperly="1" event="function" value="default"/>
@@ -159,7 +159,7 @@
 	<!-- Axes -->
 	<melee id="2435" level="20" unproperly="1" event="function" value="default"/>
 	<melee id="2425" level="20" unproperly="1" event="function" value="default"/>
-	<melee id="2430" level="25" unproperly="1" event="function" value="default"/>
+	<melee id="2430" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="2387" level="25" unproperly="1" event="function" value="default"/>
 	<melee id="2381" level="25" unproperly="1" event="function" value="default"/>
 	<melee id="2440" level="25" unproperly="1" event="function" value="default"/>
@@ -281,7 +281,7 @@
 	<melee id="3961" level="35" unproperly="1" event="function" value="default"/>
 	<melee id="2445" level="35" unproperly="1" event="function" value="default"/>
 	<melee id="7451" level="35" unproperly="1" event="function" value="default"/>
-	<melee id="7392" level="35" unproperly="1" event="function" value="default"/>
+	<melee id="7392" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="7426" level="40" unproperly="1" event="function" value="default"/>
 	<melee id="2424" level="45" unproperly="1" event="function" value="default"/>
 	<melee id="7427" level="45" unproperly="1" event="function" value="default"/>
@@ -388,10 +388,8 @@
 		<vocation id="3"/>
 		<vocation id="7" showInDescription="0"/>
 	</distance>
-	<distance id="8856" level="60" unproperly="1" event="function" value="default"> <!-- Yol's Bow -->
-		<vocation id="3"/>
-		<vocation id="7" showInDescription="0"/>
-	</distance>
+	<distance id="8856" level="30" unproperly="1" event="function" value="default"/> <!-- Elite Arnorian Bow -->
+
 	<distance id="8858" level="70" unproperly="1" event="function" value="default"> <!-- Elethriel's Elemental Bow -->
 		<vocation id="3"/>
 		<vocation id="7" showInDescription="0"/>
