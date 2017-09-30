@@ -400,6 +400,11 @@
 		<vocation id="3"/>
 		<vocation id="7" showInDescription="0"/>
 	</distance>
+	<distance id="2389" breakchance="3" /> <!-- spear -->
+	<distance id="3965" breakchance="3" /> <!-- hunting spear -->
+	<distance id="7367" breakchance="3" /> <!-- enchanted spear -->
+	<distance id="7378" breakchance="3" /> <!-- royal spear -->
+
 
  	<!-- Ammunition -->
 	<distance id="2545" event="script" value="poison_arrow.lua"/>
