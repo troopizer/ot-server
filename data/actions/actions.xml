@@ -45,8 +45,6 @@
 	<action itemid="5942" script="tools/blessed_wooden_stake.lua"/>
 
 	<!-- Liquids -->
-	<action fromid="26029" toid="26031" script="other/potions.lua" />
-
 	<action itemid="1775" script="liquids/containers.lua"/>
 	<action itemid="2005" script="liquids/containers.lua"/>
 	<action itemid="2006" script="liquids/containers.lua"/>
@@ -72,7 +70,6 @@
 	<action itemid="3942" script="liquids/containers.lua"/>
 	<action itemid="5553" script="liquids/containers.lua"/>
 	<action itemid="10150" script="liquids/containers.lua"/>
-	<action itemid="6558" script="liquids/demonic_blood.lua"/>
 	<action itemid="6558" script="liquids/potions.lua" />
 	<action fromid="7439" toid="7440" script="liquids/potions.lua" />
 	<action itemid="7443" script="liquids/potions.lua" />
@@ -82,10 +79,6 @@
 	<action fromid="8472" toid="8474" script="liquids/potions.lua" />
 	<action itemid="8704" script="liquids/potions.lua" />
 	<action fromid="26029" toid="26031" script="liquids/potions.lua" />
-	<action itemid="7439" script="liquids/berserk_potion.lua"/>
-	<action itemid="7440" script="liquids/mastermind_potion.lua"/>
-	<action itemid="7443" script="liquids/bullseye_potion.lua"/>
-	<action itemid="8474" script="liquids/antidote_potion.lua"/>
 
 	<!-- Middle Earth Adventures -->
 	<action itemid="2691" script="liquids/halfling_bread_of_speed.lua"/>
