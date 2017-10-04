@@ -39,7 +39,7 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		end
 
 		if(toPosition.x == CONTAINER_POSITION) then
-			toPosition = getThingPosition(item.uid)
+			toPosition = getThingPos(item.uid)
 		end
 
 		doDecayItem(doCreateItem(POOL, potion.splash, toPosition))
@@ -57,7 +57,7 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		return true
 	end
 
-	if(hasCondition(cid, CONDITION_EXHAUST)) then
+	if(isExhaust(cid)) then
 		doPlayerSendDefaultCancel(cid, RETURNVALUE_YOUAREEXHAUSTED)
 		return true
 	end
@@ -69,7 +69,7 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		return true
 	end
 
-	if(config.range > 0 and cid ~= itemEx.uid and getDistanceBetween(getThingPosition(cid), getThingPosition(itemEx.uid)) > config.range) then
+	if(config.range > 0 and cid ~= itemEx.uid and getDistanceBetween(getThingPos(cid), getThingPos(itemEx.uid)) > config.range) then
 		return false
 	end
 
@@ -83,11 +83,11 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		return false
 	end
 
-	doSendMagicEffect(getThingPosition(itemEx.uid), CONST_ME_MAGIC_BLUE)
+	doSendMagicEffect(getThingPos(itemEx.uid), CONST_ME_MAGIC_BLUE)
 	if(not config.realAnimation) then
 		doCreatureSay(itemEx.uid, "Aaaah...", TALKTYPE_ORANGE_1)
 	else
-		for i, tid in ipairs(getSpectators(getThingPosition(itemEx.uid), 1, 1)) do
+		for i, tid in ipairs(getSpectators(getThingPos(itemEx.uid), 1, 1)) do
 			if(isPlayer(tid)) then
 				doCreatureSay(itemEx.uid, "Aaaah...", TALKTYPE_ORANGE_1, false, tid)
 			end
