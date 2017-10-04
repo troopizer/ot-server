@@ -11,17 +11,17 @@ local config = {
 }
 
 local POTIONS = {
-	[8704] = {empty = 7636, splash = 42, health = {50, 100}}, -- small health potion
-	[7618] = {empty = 7636, splash = 42, health = {100, 200}}, -- health potion
-	[7588] = {empty = 7634, splash = 42, health = {200, 400}, level = 50, vocations = {3, 4, 7, 8}, vocStr = "knights and paladins"}, -- strong health potion
-	[7591] = {empty = 7635, splash = 42, health = {500, 700}, level = 80, vocations = {4, 8}, vocStr = "knights"}, -- great health potion
-	[8473] = {empty = 7635, splash = 42, health = {800, 1000}, level = 130, vocations = {4, 8}, vocStr = "knights"}, -- ultimate health potion
+	[8704] = {flask = 7636, splash = 42, health = {50, 100}}, -- small health potion
+	[7618] = {flask = 7636, splash = 42, health = {100, 200}}, -- health potion
+	[7588] = {flask = 7634, splash = 42, health = {200, 400}, level = 50}, -- strong health potion
+	[7591] = {flask = 7635, splash = 42, health = {500, 700}, level = 80}, -- great health potion
+	[8473] = {flask = 7635, splash = 42, health = {800, 1000}, level = 130}, -- ultimate health potion
 
-	[7620] = {empty = 7636, splash = 47, mana = {70, 130}}, -- mana potion
-	[7589] = {empty = 7634, splash = 47, mana = {110, 190}, level = 50, vocations = {1, 2, 3, 5, 6, 7}, vocStr = "sorcerers, druids and paladins"}, -- strong mana potion
-	[7590] = {empty = 7635, splash = 47, mana = {200, 300}, level = 80, vocations = {1, 2, 5, 6}, vocStr = "sorcerers and druids"}, -- great mana potion
+	[7620] = {flask = 7636, splash = 47, mana = {70, 130}}, -- mana potion
+	[7589] = {flask = 7634, splash = 47, mana = {110, 190}, level = 50}, -- strong mana potion
+	[7590] = {flask = 7635, splash = 47, mana = {200, 300}, level = 80}, -- great mana potion
 
-	[8472] = {empty = 7635, splash = 43, health = {200, 400}, mana = {110, 190}, level = 80, vocations = {3, 7}, vocStr = "paladins"} -- great spirit potion
+	[8472] = {flask = 7635, splash = 43, health = {200, 400}, mana = {110, 190}, level = 80} -- great spirit potion
 }
 
 local exhaust = createConditionObject(CONDITION_EXHAUST)
