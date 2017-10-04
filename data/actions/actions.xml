@@ -73,7 +73,15 @@
 	<action itemid="5553" script="liquids/containers.lua"/>
 	<action itemid="10150" script="liquids/containers.lua"/>
 	<action itemid="6558" script="liquids/demonic_blood.lua"/>
-	<action itemid="7588-7591;8472-8473;7618;7620;8704" script="liquids/potions.lua"/>
+	<action itemid="6558" script="liquids/potions.lua" />
+	<action fromid="7439" toid="7440" script="liquids/potions.lua" />
+	<action itemid="7443" script="liquids/potions.lua" />
+	<action fromid="7588" toid="7591" script="liquids/potions.lua" />
+	<action itemid="7618" script="liquids/potions.lua" />
+	<action itemid="7620" script="liquids/potions.lua" />
+	<action fromid="8472" toid="8474" script="liquids/potions.lua" />
+	<action itemid="8704" script="liquids/potions.lua" />
+	<action fromid="26029" toid="26031" script="liquids/potions.lua" />
 	<action itemid="7439" script="liquids/berserk_potion.lua"/>
 	<action itemid="7440" script="liquids/mastermind_potion.lua"/>
 	<action itemid="7443" script="liquids/bullseye_potion.lua"/>
