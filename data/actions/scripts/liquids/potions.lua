@@ -1,110 +1,113 @@
-local config = {
-	removeOnUse = false,
-	usableOnTarget = true, -- can be used on target? (fe. healing friend)
-	splashable = false,
-	range = -1,
-	realAnimation = false, -- make text effect visible only for players in range 1x1
-	multiplier = {
-		health = 1.0,
-		mana = 1.0
-	}
-}
+local berserk = Condition(CONDITION_ATTRIBUTES)
+berserk:setParameter(CONDITION_PARAM_TICKS, 10 * 60 * 1000)
+berserk:setParameter(CONDITION_PARAM_SKILL_MELEE, 5)
+berserk:setParameter(CONDITION_PARAM_SKILL_SHIELD, -10)
+berserk:setParameter(CONDITION_PARAM_BUFF_SPELL, true)
 
-local POTIONS = {
-	[8704] = {empty = 7636, splash = 42, health = {50, 100}}, -- small health potion
-	[7618] = {empty = 7636, splash = 42, health = {100, 200}}, -- health potion
-	[7588] = {empty = 7634, splash = 42, health = {200, 400}, level = 50, vocations = {3, 4, 7, 8}, vocStr = "knights and paladins"}, -- strong health potion
-	[7591] = {empty = 7635, splash = 42, health = {500, 700}, level = 80, vocations = {4, 8}, vocStr = "knights"}, -- great health potion
-	[8473] = {empty = 7635, splash = 42, health = {800, 1000}, level = 130, vocations = {4, 8}, vocStr = "knights"}, -- ultimate health potion
+local mastermind = Condition(CONDITION_ATTRIBUTES)
+mastermind:setParameter(CONDITION_PARAM_TICKS, 10 * 60 * 1000)
+mastermind:setParameter(CONDITION_PARAM_STAT_MAGICPOINTS, 3)
+mastermind:setParameter(CONDITION_PARAM_BUFF_SPELL, true)
 
-	[7620] = {empty = 7636, splash = 47, mana = {70, 130}}, -- mana potion
-	[7589] = {empty = 7634, splash = 47, mana = {110, 190}, level = 50, vocations = {1, 2, 3, 5, 6, 7}, vocStr = "sorcerers, druids and paladins"}, -- strong mana potion
-	[7590] = {empty = 7635, splash = 47, mana = {200, 300}, level = 80, vocations = {1, 2, 5, 6}, vocStr = "sorcerers and druids"}, -- great mana potion
+local bullseye = Condition(CONDITION_ATTRIBUTES)
+bullseye:setParameter(CONDITION_PARAM_TICKS, 10 * 60 * 1000)
+bullseye:setParameter(CONDITION_PARAM_SKILL_DISTANCE, 5)
+bullseye:setParameter(CONDITION_PARAM_SKILL_SHIELD, -10)
+bullseye:setParameter(CONDITION_PARAM_BUFF_SPELL, true)
 
-	[8472] = {empty = 7635, splash = 43, health = {200, 400}, mana = {110, 190}, level = 80, vocations = {3, 7}, vocStr = "paladins"} -- great spirit potion
+local antidote = Combat()
+antidote:setParameter(COMBAT_PARAM_TYPE, COMBAT_HEALING)
+antidote:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_BLUE)
+antidote:setParameter(COMBAT_PARAM_DISPEL, CONDITION_POISON)
+antidote:setParameter(COMBAT_PARAM_AGGRESSIVE, false)
+antidote:setParameter(COMBAT_PARAM_TARGETCASTERORTOPMOST, true)
+
+local potions = {
+	[6558] = {transform = {id = {7588, 7589}}, effect = CONST_ME_DRAWBLOOD},
+	[7439] = {condition = berserk, vocations = {4, 8}, effect = CONST_ME_MAGIC_RED,
+			description = "Only knights may drink this potion.", text = "You feel stronger."},
+
+	[7440] = {condition = mastermind, vocations = {1, 2, 5, 6}, effect = CONST_ME_MAGIC_BLUE,
+			description = "Only sorcerers and druids may drink this potion.", text = "You feel smarter."},
+
+	[7443] = {condition = bullseye, vocations = {3, 7}, effect = CONST_ME_MAGIC_GREEN,
+			description = "Only paladins may drink this potion.", text = "You feel more accurate."},
+
+	[7588] = {health = {250, 350}, vocations = {3, 4, 7, 8}, level = 50, flask = 7634,
+			description = "Only knights and paladins of level 50 or above may drink this fluid."},
+
+	[7589] = {mana = {115, 185}, vocations = {1, 2, 3, 5, 6, 7}, level = 50, flask = 7634,
+			description = "Only sorcerers, druids and paladins of level 50 or above may drink this fluid."},
+
+	[7590] = {mana = {150, 250}, vocations = {1, 2, 5, 6}, level = 80, flask = 7635,
+			description = "Only druids and sorcerers of level 80 or above may drink this fluid."},
+
+	[7591] = {health = {425, 575}, vocations = {4, 8}, level = 80, flask = 7635,
+			description = "Only knights of level 80 or above may drink this fluid."},
+
+	[7618] = {health = {125, 175}, flask = 7636},
+	[7620] = {mana = {75, 125}, flask = 7636},
+	[8472] = {health = {250, 350}, mana = {100, 200}, vocations = {3, 7}, level = 80, flask = 7635,
+			description = "Only paladins of level 80 or above may drink this fluid."},
+
+	[8473] = {health = {650, 850}, vocations = {4, 8}, level = 130, flask = 7635,
+			description = "Only knights of level 130 or above may drink this fluid."},
+
+	[8474] = {combat = antidote, flask = 7636},
+	[8704] = {health = {60, 90}, flask = 7636},
+	[26029] = {mana = {425, 575}, vocations = {1, 2, 5, 6}, level = 130, flask = 7635,
+			description = "Only druids and sorcerers of level 130 or above may drink this fluid."},
+
+	[26030] = {health = {420, 580}, mana = {250, 350}, vocations = {3, 7}, level = 130, flask = 7635,
+			description = "Only paladins of level 130 or above may drink this fluid."},
+
+	[26031] = {health = {875, 1125}, vocations = {4, 8}, level = 200, flask = 7635,
+description = "Only knights of level 200 or above may drink this fluid."}
 }
 
 local exhaust = createConditionObject(CONDITION_EXHAUST)
 setConditionParam(exhaust, CONDITION_PARAM_TICKS, (getConfigInfo('timeBetweenExActions') - 100))
 
-function onUse(cid, item, fromPosition, itemEx, toPosition)
-	local potion = POTIONS[item.itemid]
-	if(not potion) then
+function onUse(player, item, fromPosition, target, toPosition, isHotkey)
+	if type(target) == "userdata" and not target:isPlayer() then
 		return false
 	end
 
-	if(not isPlayer(itemEx.uid) or (not config.usableOnTarget and cid ~= itemEx.uid)) then
-		if(not config.splashable) then
-			return false
-		end
-
-		if(toPosition.x == CONTAINER_POSITION) then
-			toPosition = getThingPos(item.uid)
-		end
-
-		doDecayItem(doCreateItem(POOL, potion.splash, toPosition))
-		doRemoveItem(item.uid, 1)
-		if(not potion.empty or config.removeOnUse) then
-			return true
-		end
-
-		if(fromPosition.x ~= CONTAINER_POSITION) then
-			doCreateItem(potion.empty, fromPosition)
-		else
-			doPlayerAddItem(cid, potion.empty, 1)
-		end
-
+	local potion = potions[item:getId()]
+	if potion.level and player:getLevel() < potion.level or potion.vocations and not table.contains(potion.vocations, player:getVocation():getId()) then
+		player:say(potion.description, TALKTYPE_MONSTER_SAY)
 		return true
 	end
 
-	if(isExhaust(cid)) then
-		doPlayerSendDefaultCancel(cid, RETURNVALUE_YOUAREEXHAUSTED)
-		return true
-	end
-
-	if(((potion.level and getPlayerLevel(itemEx.uid) < potion.level) or (potion.vocations and not isInArray(potion.vocations, getPlayerVocation(itemEx.uid)))) and
-		not getPlayerCustomFlagValue(cid, PLAYERCUSTOMFLAG_GAMEMASTERPRIVILEGES))
-	then
-		doCreatureSay(itemEx.uid, "Only " .. potion.vocStr .. (potion.level and (" of level " .. potion.level) or "") .. " or above may drink this fluid.", TALKTYPE_ORANGE_1)
-		return true
-	end
-
-	if(config.range > 0 and cid ~= itemEx.uid and getDistanceBetween(getThingPos(cid), getThingPos(itemEx.uid)) > config.range) then
-		return false
-	end
-
-	local health = potion.health
-	if(health and not doCreatureAddHealth(itemEx.uid, math.ceil(math.random(health[1], health[2]) * config.multiplier.health))) then
-		return false
-	end
-
-	local mana = potion.mana
-	if(mana and not doPlayerAddMana(itemEx.uid, math.ceil(math.random(mana[1], mana[2]) * config.multiplier.mana))) then
-		return false
-	end
-
-	doSendMagicEffect(getThingPos(itemEx.uid), CONST_ME_MAGIC_BLUE)
-	if(not config.realAnimation) then
-		doCreatureSay(itemEx.uid, "Aaaah...", TALKTYPE_ORANGE_1)
-	else
-		for i, tid in ipairs(getSpectators(getThingPos(itemEx.uid), 1, 1)) do
-			if(isPlayer(tid)) then
-				doCreatureSay(itemEx.uid, "Aaaah...", TALKTYPE_ORANGE_1, false, tid)
-			end
+	if potion.health or potion.mana or potion.combat then
+		if potion.health then
+			doTargetCombatHealth(0, target, COMBAT_HEALING, potion.health[1], potion.health[2], CONST_ME_MAGIC_BLUE)
 		end
+
+		if potion.mana then
+			doTargetCombatMana(0, target, potion.mana[1], potion.mana[2], CONST_ME_MAGIC_BLUE)
+		end
+
+		if potion.combat then
+			potion.combat:execute(target, Variant(target:getId()))
+		end
+
+		target:say("Aaaah...", TALKTYPE_MONSTER_SAY)
+		player:addItem(potion.flask, 1)
 	end
 
-	doAddCondition(cid, exhaust)
-	doRemoveItem(item.uid, 1)
-	if(not potion.empty or config.removeOnUse) then
+	if potion.condition then
+		player:addCondition(potion.condition)
+		player:say(potion.text, TALKTYPE_MONSTER_SAY)
+		player:getPosition():sendMagicEffect(potion.effect)
+	end
+
+	if potion.transform then
+		item:transform(potion.transform.id[math.random(#potion.transform.id)])
+		item:getPosition():sendMagicEffect(potion.effect)
 		return true
 	end
 
-	if(fromPosition.x ~= CONTAINER_POSITION) then
-		doCreateItem(potion.empty, fromPosition)
-	else
-		doPlayerAddItem(cid, potion.empty, 1)
-	end
-
+	item:remove(1)
 	return true
 end

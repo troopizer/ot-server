@@ -299,13 +299,6 @@ function getPlayerFood(cid)
 	end
 	local c = player:getCondition(CONDITION_REGENERATION, CONDITIONID_DEFAULT) return c ~= nil and math.floor(c:getTicks() / 1000) or 0
 end
-function isExhaust(cid)
-	local player = Player(cid)
-	if player == nil then
-		return false
-	end
-	local c = player:getCondition(CONDITION_EXHAUST, CONDITIONID_DEFAULT) return c ~= nil or false
-end
 function canPlayerLearnInstantSpell(cid, name) local p = Player(cid) return p ~= nil and p:canLearnSpell(name) or false end
 function getPlayerLearnedInstantSpell(cid, name) local p = Player(cid) return p ~= nil and p:hasLearnedSpell(name) or false end
 function isPlayerGhost(cid) local p = Player(cid) return p ~= nil and p:isInGhostMode() or false end
