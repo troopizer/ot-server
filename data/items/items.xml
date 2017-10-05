@@ -3617,10 +3617,10 @@
         <attribute key="armor" value="15" />
         <attribute key="slotType" value="body" />
         <attribute key="absorbPercentPhysical" value="4" />
-        <attribute key="skillShield" value="3" />
-        <attribute key="skillSword" value="3" />
-        <attribute key="skillClub" value="3" />
-        <attribute key="skillAxe" value="3" />
+        <attribute key="skillShield" value="2" />
+        <attribute key="skillSword" value="2" />
+        <attribute key="skillClub" value="2" />
+        <attribute key="skillAxe" value="2" />
     </item>
     <item id="2504" name="arnorian full legs">
         <attribute key="weight" value="6500" />
@@ -4203,12 +4203,12 @@
         <attribute key="weight" value="10500" />
         <attribute key="armor" value="13" />
         <attribute key="slotType" value="body" />
-        <attribute key="absorbPercentPhysical" value="2" />
         <attribute key="skillShield" value="1" />
         <attribute key="skillSword" value="1" />
         <attribute key="skillClub" value="1" />
         <attribute key="skillAxe" value="1" />
         <attribute key="skillDist" value="1" />
+        <attribute key="absorbPercentPhysical" value="2" />
     </item>
     <item id="2658" article="a" name="white dress">
         <attribute key="weight" value="2400" />
@@ -6983,7 +6983,7 @@
         <attribute key="armor" value="13" />
         <attribute key="slotType" value="body" />
         <attribute key="absorbPercentPhysical" value="2" />
-        <attribute key="skillShield" value="2" />
+        <attribute key="skillShield" value="1" />
     </item>
     <item id="3969" article="a" name="horseman helmet">
         <attribute key="weight" value="4200" />
@@ -14440,7 +14440,7 @@
     <item id="8602" article="a" name="goblin blade">
         <attribute key="description" value="A raw-steel blade made by goblins." />
         <attribute key="weight" value="5500" />
-        <attribute key="defense" value="15" />
+        <attribute key="defense" value="17" />
         <attribute key="attack" value="29" />
         <attribute key="weaponType" value="sword" />
         <attribute key="skillSword" value="1" />
@@ -14806,7 +14806,7 @@
         <attribute key="weight" value="3500" />
         <attribute key="armor" value="10" />
         <attribute key="slotType" value="body" />
-        <attribute key="skillDist" value="2" />
+        <attribute key="skillDist" value="1" />
     </item>
     <item id="8873" article="a" name="hibiscus dress">
         <attribute key="weight" value="1900" />
@@ -14931,9 +14931,9 @@
         <attribute key="armor" value="12" />
         <attribute key="slotType" value="body" />
         <attribute key="absorbPercentPhysical" value="1" />
-        <attribute key="skillSword" value="2" />
-        <attribute key="skillAxe" value="2" />
-        <attribute key="skillClub" value="2" />
+        <attribute key="skillSword" value="1" />
+        <attribute key="skillAxe" value="1" />
+        <attribute key="skillClub" value="1" />
     </item>
     <item id="8892" article="an" name="ethno coat">
         <attribute key="armor" value="7" />

@@ -286,6 +286,8 @@
 	<movevent event="StepOut" itemid="5405" script="drowning.lua" />
 
 	<!-- Boots -->
+	<movevent event="Equip" itemid="11114" slot="feet" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="11114" slot="feet" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="2195" slot="feet" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="2195" slot="feet" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="6132" slot="feet" function="onEquipItem" />
@@ -449,6 +451,10 @@
 	<movevent event="DeEquip" itemid="22516" slot="ring" function="onDeEquipItem" />
 
 	<!-- Helmets -->
+	<movevent event="Equip" itemid="2502" slot="head" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2502" slot="head" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2499" slot="head" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2499" slot="head" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="5461" slot="head" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="5461" slot="head" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="2474" slot="head" function="onEquipItem" />
@@ -571,6 +577,16 @@
 	<movevent event="DeEquip" itemid="13756" slot="head" function="onDeEquipItem" />
 
 	<!-- Armors -->
+	<movevent event="Equip" itemid="2657" slot="armor" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2657" slot="armor" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2503" slot="armor" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2503" slot="armor" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="3968" slot="armor" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="3968" slot="armor" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="8872" slot="armor" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="8872" slot="armor" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="8891" slot="armor" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="8891" slot="armor" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="2466" slot="armor" function="onEquipItem">
 		<vocation name="Knight" />
 		<vocation name="Elite Knight" showInDescription="0" />
@@ -611,8 +627,6 @@
 		<vocation name="Royal Paladin" showInDescription="0" />
 	</movevent>
 	<movevent event="DeEquip" itemid="2500" slot="armor" function="onDeEquipItem" />
-	<movevent event="Equip" itemid="2503" slot="armor" function="onEquipItem" />
-	<movevent event="DeEquip" itemid="2503" slot="armor" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="7884" slot="armor" level="50" function="onEquipItem">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" showInDescription="0" />
@@ -690,11 +704,6 @@
 		<vocation name="Elder Druid" showInDescription="0" />
 	</movevent>
 	<movevent event="DeEquip" itemid="8871" slot="armor" function="onDeEquipItem" />
-	<movevent event="Equip" itemid="8872" slot="armor" function="onEquipItem">
-		<vocation name="Paladin" />
-		<vocation name="Royal Paladin" showInDescription="0" />
-	</movevent>
-	<movevent event="DeEquip" itemid="8872" slot="armor" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="8877" slot="armor" level="60" function="onEquipItem">
 		<vocation name="Knight" />
 		<vocation name="Elite Knight" showInDescription="0" />
@@ -773,11 +782,6 @@
 		<vocation name="Master Sorcerer" showInDescription="0" />
 	</movevent>
 	<movevent event="DeEquip" itemid="8890" slot="armor" function="onDeEquipItem" />
-	<movevent event="Equip" itemid="8891" slot="armor" function="onEquipItem">
-		<vocation name="Paladin" />
-		<vocation name="Royal Paladin" showInDescription="0" />
-	</movevent>
-	<movevent event="DeEquip" itemid="8891" slot="armor" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="8892" slot="armor" function="onEquipItem">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" showInDescription="0" />
@@ -870,12 +874,9 @@
 	<movevent event="DeEquip" itemid="21725" slot="armor" function="onDeEquipItem" />
 
 	<!-- Legs -->
-	<movevent event="Equip" itemid="2477" slot="legs" function="onEquipItem">
-		<vocation name="Knight" />
-		<vocation name="Elite Knight" showInDescription="0" />
-		<vocation name="Paladin" />
-		<vocation name="Royal Paladin" showInDescription="0" />
-	</movevent>
+	<movevent event="Equip" itemid="2504" slot="legs" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2504" slot="legs" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2477" slot="legs" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="2477" slot="legs" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="2488" slot="legs" function="onEquipItem">
 		<vocation name="Knight" />
@@ -891,8 +892,6 @@
 		<vocation name="Royal Paladin" showInDescription="0" />
 	</movevent>
 	<movevent event="DeEquip" itemid="2470" slot="legs" function="onDeEquipItem" />
-	<movevent event="Equip" itemid="2504" slot="legs" function="onEquipItem" />
-	<movevent event="DeEquip" itemid="2504" slot="legs" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="7885" slot="legs" level="40" function="onEquipItem">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" showInDescription="0" />
@@ -968,6 +967,20 @@
 	<movevent event="DeEquip" itemid="21700" slot="legs" function="onDeEquipItem" />
 
 	<!-- Weapons -->
+	<movevent event="Equip" itemid="7386" slot="hand" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="7386" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="7452" slot="hand" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="7452" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2415" slot="hand" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2415" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="8856" slot="hand" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="8856" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2423" slot="hand" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2423" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2441" slot="hand" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2441" slot="hand" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="8602" slot="hand" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="8602" slot="hand" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="18390" slot="hand" level="65" function="onEquipItem">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" showInDescription="0" />
