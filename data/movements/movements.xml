@@ -468,8 +468,6 @@
 		<vocation name="Elder Druid" showInDescription="0" />
 	</movevent>
 	<movevent event="DeEquip" itemid="2323" slot="head" function="onDeEquipItem" />
-	<movevent event="Equip" itemid="2502" slot="head" function="onEquipItem" />
-	<movevent event="DeEquip" itemid="2502" slot="head" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="7459" slot="head" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="7459" slot="head" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="7900" slot="head" function="onEquipItem">

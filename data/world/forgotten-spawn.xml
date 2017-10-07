@@ -3619,6 +3619,9 @@
   <spawn centerx="519" centery="1069" centerz="8" radius="2">
     <monster name="Ghoul" x="-1" y="0" z="8" spawntime="100"/>
   </spawn>
+  <spawn centerx="736" centery="1070" centerz="8" radius="2">
+    <monster name="Giant Spider" x="0" y="-1" z="8" spawntime="300"/>
+  </spawn>
   <spawn centerx="489" centery="1071" centerz="8" radius="2">
     <monster name="Ghoul" x="1" y="-1" z="8" spawntime="100"/>
   </spawn>
@@ -3644,6 +3647,12 @@
   <spawn centerx="491" centery="1080" centerz="8" radius="2">
     <monster name="Skeleton Warrior" x="0" y="-1" z="8" spawntime="100"/>
   </spawn>
+  <spawn centerx="734" centery="1082" centerz="8" radius="2">
+    <monster name="Tarantula" x="2" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="716" centery="1083" centerz="8" radius="2">
+    <monster name="Tarantula" x="-1" y="-1" z="8" spawntime="300"/>
+  </spawn>
   <spawn centerx="496" centery="1086" centerz="8" radius="2">
     <monster name="Ghoul" x="-1" y="1" z="8" spawntime="100"/>
   </spawn>
@@ -3661,11 +3670,20 @@
     <monster name="Ghoul" x="2" y="0" z="8" spawntime="100"/>
     <monster name="Skeleton Warrior" x="1" y="1" z="8" spawntime="100"/>
   </spawn>
+  <spawn centerx="756" centery="1088" centerz="8" radius="2">
+    <monster name="Giant Spider" x="2" y="-1" z="8" spawntime="300"/>
+  </spawn>
   <spawn centerx="501" centery="1091" centerz="8" radius="2">
     <monster name="Skeleton Warrior" x="-1" y="-1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="511" centery="1092" centerz="8" radius="2">
     <monster name="Skeleton Warrior" x="0" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="718" centery="1092" centerz="8" radius="2">
+    <monster name="Tarantula" x="1" y="2" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="741" centery="1095" centerz="8" radius="2">
+    <monster name="Tarantula" x="-1" y="0" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="503" centery="1098" centerz="8" radius="2">
     <monster name="Ghoul" x="1" y="1" z="8" spawntime="100"/>
@@ -3676,6 +3694,9 @@
   <spawn centerx="473" centery="1103" centerz="8" radius="2">
     <monster name="Skeleton Warrior" x="1" y="-2" z="8" spawntime="100"/>
     <monster name="Ghoul" x="0" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="735" centery="1106" centerz="8" radius="2">
+    <monster name="Giant Spider" x="2" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="521" centery="1108" centerz="8" radius="2">
     <monster name="Ghost" x="-1" y="-1" z="8" spawntime="100"/>

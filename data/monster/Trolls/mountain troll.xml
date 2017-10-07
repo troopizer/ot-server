@@ -50,12 +50,12 @@
 	<loot>
 		<item id="1987" chance="80000"/><!-- bag -->
 				<item id="2666" countmax="6" chance="40000"/><!-- meat -->
-				<item id="5930" countmax="1" chance="20000"/><!-- behemoth claw -->
-				<item id="5893" countmax="1" chance="10000"/><!-- perfect behemoth fang -->
+				<item id="5930" countmax="1" chance="10000"/><!-- behemoth claw -->
 		        <item id="2148" countmax="100" chance="900000"/><!-- gold coin -->
 		        <item id="2148" countmax="100" chance="900000"/><!-- gold coin -->
 		        <item id="2148" countmax="100" chance="900000"/><!-- gold coin -->
 		        <item id="2671" countmax="3" chance="20000"/><!-- ham -->
 		        <item id="2231" countmax="1" chance="10000"/><!-- big bone -->
+				<item id="5904" countmax="2" chance="10000"/><!-- magic sulphur -->
 	</loot>
 </monster>

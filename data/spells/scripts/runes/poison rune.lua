@@ -1,18 +1,17 @@
-local combat = Combat()
-combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_EARTHDAMAGE)
-combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_GREEN_RINGS)
-combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_POISON)
-combat:setParameter(COMBAT_PARAM_CREATEITEM, 1496)
+local combat = createCombatObject()
+setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_EARTHDAMAGE)
+setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_GREEN_RINGS)
+setCombatParam(combat, COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_POISON)
 
-function onTargetCreature(creature, target)
-	local min = (creature:getLevel() / 80) + (creature:getMagicLevel() * 0.55) + 6
-	local max = (creature:getLevel() / 80) + (creature:getMagicLevel() * 0.75) + 7
-	local damage = math.random(math.floor(min), math.floor(max))
-	creature:addDamageCondition(target, CONDITION_POISON, 1, target:isPlayer() and math.floor(damage / 2 + 0.5) or damage)
-	return true
-end
-combat:setCallback(CALLBACK_PARAM_TARGETCREATURE, "onTargetCreature")
+local condition = createConditionObject(CONDITION_POISON)
+addDamageCondition(condition, 2, 3000, -30)
+addDamageCondition(condition, 4, 3000, -20)
+addDamageCondition(condition, 2, 3000, -15)
+addDamageCondition(condition, 3, 3000, -10)
+addDamageCondition(condition, 4, 3000, -5)
+setCombatCondition(combat, condition)
 
-function onCastSpell(creature, variant, isHotkey)
-	return combat:execute(creature, variant)
+function onCastSpell(cid, var)
+
+	return doCombat(cid, combat, var)
 end

@@ -3080,7 +3080,7 @@
         <attribute key="slotType" value="two-handed" />
     </item>
     <item id="2415" article="a" name="eriador great axe">
-        <attribute key="description" value="A low quality steel great axe." />
+        <attribute key="description" value="An steel great axe." />
         <attribute key="weight" value="4500" />
         <attribute key="defense" value="15" />
         <attribute key="attack" value="28" />
@@ -7027,10 +7027,12 @@
     <item id="3981" article="a" name="mailbox">
         <attribute key="type" value="mailbox" />
     </item>
-    <item id="3982" name="crocodile boots">
-        <attribute key="weight" value="900" />
+    <item id="3982" name="ranger boots">
         <attribute key="armor" value="1" />
+        <attribute key="description" value="its easier to walk with this boots." />
         <attribute key="slotType" value="feet" />
+        <attribute key="speed" value="10" />
+        <attribute key="weight" value="1200" />
     </item>
     <item id="3983" article="a" name="bast skirt">
         <attribute key="weight" value="1000" />
@@ -8858,7 +8860,7 @@
     <item id="5892" article="a" name="huge chunk of crude iron">
         <attribute key="weight" value="5000" />
     </item>
-    <item id="5893" article="a" name="perfect troll fang" plural="perfect troll fangs">
+    <item id="5893" article="a" name="giant spider fang" plural="giant spider fangs">
         <attribute key="description" value="A very rare trophy." />
         <attribute key="weight" value="500" />
     </item>
@@ -11896,7 +11898,7 @@
         <attribute key="defense" value="24" />
         <attribute key="attack" value="26" />
         <attribute key="weaponType" value="sword" />
-        <attribute key="description" value="Made from a low quality steel." />
+        <attribute key="description" value="Made from steel." />
         <attribute key="SkillShield" value="2" />
         
     </item>
@@ -12282,7 +12284,7 @@
         <attribute key="defense" value="20" />
         <attribute key="attack" value="27" />
         <attribute key="weaponType" value="club" />
-        <attribute key="description" value="A low quality steel mace." />
+        <attribute key="description" value="A steel mace." />
         <attribute key="SkillShield" value="1" />
         <attribute key="SkillClub" value="1" />
         
@@ -12848,7 +12850,6 @@
         <attribute key="defense" value="21" />
         <attribute key="attack" value="33" />
         <attribute key="weaponType" value="axe" />
-        <attribute key="extradef" value="1" />
         <attribute key="elementFire" value="7" />
         <attribute key="decayTo" value="2430" />
         <attribute key="showcharges" value="1" />
