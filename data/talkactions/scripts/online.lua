@@ -1,64 +1,23 @@
-local ranks = {
-[1] = {"Tutor"},
-[2] = {"S. Tutor"},
-[3] = {"GM"},
-[4] = {"CM"},
-[5] = {"Admin"}
-}
- 
-function onSay(cid, words, param, channel)
-	local players = getPlayersOnline()
-	local strings = {""}
-	local i, position = 1, 1
-	local added = false
- 
-	for _, pid in ipairs(players) do
-		if(added) then
-			if(i > (position * 7)) then
-				strings[position] = strings[position] .. ","
-				position = position + 1
-				strings[position] = ""
-			else
-				strings[position] = i == 1 and "" or strings[position] .. ", "
-			end
-		end
- 
-		if getPlayerAccess(pid) == 0 then
-			strings[position] = strings[position] .. getCreatureName(pid) .." ["..getPlayerLevel(pid).."]"
-			i = i + 1
-			added = true
-		else
-			added = false
+local maxPlayersPerMessage = 10
+
+function onSay(player, words, param)
+	local hasAccess = player:getGroup():getAccess()
+	local players = Game.getPlayers()
+	local onlineList = {}
+
+	for _, targetPlayer in ipairs(players) do
+		if hasAccess or not targetPlayer:isInGhostMode() then
+			table.insert(onlineList, ("%s [%d]"):format(targetPlayer:getName(), targetPlayer:getLevel()))
 		end
 	end
- 
-	doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, (i - 1) .. " player(s) online:")
-	for i, str in ipairs(strings) do
-		if(str:sub(str:len()) ~= ",") then
-			str = str .. "."
-		end
-		doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, str)
+
+	local playersOnline = #onlineList
+	player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, ("%d players online."):format(playersOnline))
+
+	for i = 1, playersOnline, maxPlayersPerMessage do
+		local j = math.min(i + maxPlayersPerMessage - 1, playersOnline)
+		local msg = table.concat(onlineList, ", ", i, j) .. "."
+		player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, msg)
 	end
- 
-	doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "-----------")
- 
-	local players2 = getPlayersOnline()
-	local helpon = 0
-	local rank = ""
-	local str2 = ""
- 
-	for _, pid2 in ipairs(players2) do		
-		if getPlayerAccess(pid2) > 0 then
-			rank = ranks[getPlayerAccess(pid2)]
-			str2 = str2 .. getCreatureName(pid2) .." ["..rank[1].."]  "
-			helpon = helpon + 1
-		end		
-	end
-	if helpon > 0 then
-		doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, (helpon) .. " support player(s) online:")
-		doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, str2)
-	else
-		doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "There are no support players currently online.")
-	end
-	return true
+	return false
 end
