@@ -1,8 +1,7 @@
 function onSay(player, words, param)
-	if not player:getGroup():getAccess() then
-		return true
-	end
-
+if getPlayerGroupId(player) < 4 then
+	return false
+end
 	local steps = tonumber(param)
 	if not steps then
 		return false

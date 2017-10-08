@@ -202,7 +202,7 @@ function getPlayerAccess(cid)
 	if player == nil then
 		return false
 	end
-	return player:getGroup():getAccess() and 1 or 0
+	return player:getGroup():getAccess() or 0
 end
 function getPlayerSkill(cid, skillId) local p = Player(cid) return p ~= nil and p:getSkillLevel(skillId) or false end
 function getPlayerMana(cid) local p = Player(cid) return p ~= nil and p:getMana() or false end
