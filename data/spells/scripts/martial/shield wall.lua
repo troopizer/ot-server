@@ -17,9 +17,9 @@ exhaust:setParameter(exhaust, CONDITION_PARAM_SUBID, 1)
 exhaust:setParameter(exhaust, CONDITION_PARAM_TICKS, 8000)
 combat:setCondition(exhaust)
 
-function onCastSpell(cid, var)
-if(getPlayerStorageValue(cid,2044) == 0) then
-	return doCombat(cid, combat, var)
+function onCastSpell(creature, variant)
+if(getPlayerStorageValue(creature,2044) == 0) then
+	return combat:execute(creature, variant)
 else
 	return false
 end

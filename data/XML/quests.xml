@@ -196,6 +196,12 @@
         <mission name="Herbal Healing Rune - asea envinyata certa" storageid="2035" startvalue="0" endvalue="0">
             <missionstate id="0" description="Herbal Healing Rune - Words: asea envinyata certa - lvl: 15 - mlvl: 5 - Reagents: blank rune and blood herbs."/>
         </mission>
+        <mission name="Herbal Strong Hit Points Boost - asea turca coi" storageid="2055" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Strong Hit Points Boost - Words: asea turca coi - lvl: 30 - Reagents: blood herbs."/>
+        </mission>
+        <mission name="Herbal Light Explosion Rune - asea milya narquelion" storageid="2054" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Light Explosion Rune - Words: asea milya narquelion - lvl: 30 - mlvl: 15 - Reagents: blank rune, powder herbs and star herbs."/>
+        </mission>
     </quest>   
     <quest name="Most Wanted Bree" startstorageid="30009" startstoragevalue="8">
         <mission name="Larry Halfsnout" storageid="2038" startvalue="0" endvalue="2">
@@ -250,6 +256,12 @@
         </mission>
         <mission name="Forced March - nire eldo" storageid="2049" startvalue="0" endvalue="0">
             <missionstate id="0" description="Forced March - Words: nire eldo - lvl: 20 - mlvl: 7 - Use the strenght of your legs."/>
+        </mission>
+        <mission name="Spear Throw - hatal pente" storageid="2056" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Spear Throw - Words: hatal pente - lvl: 40 - mlvl: 15 - Throw a spear."/>
+        </mission>
+        <mission name="Frontal Long Slash - anda pente" storageid="2057" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Frontal Long Slash - Words: anda pente - lvl: 40 - mlvl: 15 - A long frontal hit."/>
         </mission>
     </quest>
     <quest name="Lone Lands Chapter 1" startstorageid="30012" startstoragevalue="11">

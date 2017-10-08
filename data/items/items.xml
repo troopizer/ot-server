@@ -2567,8 +2567,8 @@
     <item id="2312" article="a" name="spell rune">
         <attribute key="weight" value="120" />
     </item>
-    <item id="2313" article="an" name="explosion rune">
-        <attribute key="runeSpellName" value="adevo mas hur" />
+    <item id="2313" article="an" name="herbal light explosion rune">
+        <attribute key="runeSpellName" value="asea milya narquelion" />
         <attribute key="weight" value="120" />
     </item>
     <item id="2314" article="a" name="spell rune">

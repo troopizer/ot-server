@@ -15,6 +15,10 @@ function onGetFormulaValues(player, skill, attack, factor)
 end
 combat:setCallback(CALLBACK_PARAM_SKILLVALUE, "onGetFormulaValues")
 
-function onCastSpell(creature, variant, isHotkey)
+function onCastSpell(creature, variant)
+if(getPlayerStorageValue(creature,2042) == 0) then
 	return combat:execute(creature, variant)
+else
+	return false
+end
 end
