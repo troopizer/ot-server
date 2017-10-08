@@ -226,8 +226,8 @@ ghostModeInvisibleEffect = false
 ghostModeSpellEffects = true
 
 -- Limits
-idleWarningTime = 14 * 60 * 1000
-idleKickTime = 15 * 60 * 1000
+idleWarningTime = 119 * 60 * 1000
+idleKickTime = 120 * 60 * 1000
 expireReportsAfterReads = 1
 playerQueryDeepness = 2
 maxItemsPerPZTile = 0
