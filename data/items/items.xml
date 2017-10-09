@@ -1621,33 +1621,40 @@
         <attribute key="duration" value="60" />
     </item>
     <item id="2050" article="a" name="torch">
+    	<attribute key="slotType" value="ammo" />
         <attribute key="weight" value="500" />
         <attribute key="stopduration" value="1" />
     </item>
     <item id="2051" article="a" name="torch">
+    	<attribute key="slotType" value="ammo" />
         <attribute key="weight" value="500" />
         <attribute key="decayTo" value="2053" />
         <attribute key="duration" value="180" />
     </item>
     <item id="2052" article="a" name="torch">
+    	<attribute key="slotType" value="ammo" />
         <attribute key="weight" value="500" />
         <attribute key="stopduration" value="1" />
     </item>
     <item id="2053" article="a" name="torch">
+    	<attribute key="slotType" value="ammo" />
         <attribute key="weight" value="500" />
         <attribute key="decayTo" value="2055" />
         <attribute key="duration" value="120" />
     </item>
     <item id="2054" article="a" name="torch">
+    	<attribute key="slotType" value="ammo" />
         <attribute key="weight" value="500" />
         <attribute key="stopduration" value="1" />
     </item>
     <item id="2055" article="a" name="torch">
+    	<attribute key="slotType" value="ammo" />
         <attribute key="weight" value="500" />
         <attribute key="decayTo" value="2056" />
         <attribute key="duration" value="120" />
     </item>
     <item id="2056" article="a" name="torch">
+    	<attribute key="slotType" value="ammo" />
         <attribute key="weight" value="500" />
         <attribute key="decayTo" value="0" />
         <attribute key="duration" value="60" />
@@ -12795,15 +12802,12 @@
         <attribute key="attack" value="24" />
         <attribute key="weaponType" value="sword" />
     </item>
-    <item id="7745" article="a" name="relic sword">
-        <attribute key="weight" value="4800" />
-        <attribute key="defense" value="24" />
-        <attribute key="attack" value="42" />
+    <item id="7745" article="a" name="elemental sword">
+        <attribute key="weight" value="5000" />
+        <attribute key="defense" value="26" />
+        <attribute key="attack" value="1" />
         <attribute key="weaponType" value="sword" />
-        <attribute key="extradef" value="1" />
-        <attribute key="elementFire" value="8" />
-        <attribute key="decayTo" value="7383" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="elementFire" value="30" />
     </item>
     <item id="7746" article="a" name="mystic blade">
         <attribute key="weight" value="3500" />
@@ -12846,13 +12850,11 @@
         <attribute key="showcharges" value="1" />
     </item>
     <item id="7750" article="a" name="elemental axe">
-        <attribute key="weight" value="5900" />
-        <attribute key="defense" value="21" />
-        <attribute key="attack" value="33" />
+        <attribute key="weight" value="5200" />
+        <attribute key="defense" value="18" />
+        <attribute key="attack" value="1" />
         <attribute key="weaponType" value="axe" />
-        <attribute key="elementFire" value="7" />
-        <attribute key="decayTo" value="2430" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="elementFire" value="32" />
     </item>
     <item id="7751" article="a" name="heroic axe">
         <attribute key="weight" value="6100" />
@@ -12912,15 +12914,12 @@
         <attribute key="decayTo" value="7415" />
         <attribute key="showcharges" value="1" />
     </item>
-    <item id="7757" article="an" name="orcish maul">
-        <attribute key="weight" value="5400" />
-        <attribute key="defense" value="18" />
-        <attribute key="attack" value="42" />
+    <item id="7757" article="an" name="elemental mace">
+        <attribute key="weight" value="5800" />
+        <attribute key="defense" value="22" />
+        <attribute key="attack" value="1" />
         <attribute key="weaponType" value="club" />
-        <attribute key="slotType" value="two-handed" />
-        <attribute key="elementFire" value="6" />
-        <attribute key="decayTo" value="7392" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="elementFire" value="31" />
     </item>
     <item id="7758" article="a" name="war hammer">
         <attribute key="weight" value="8500" />
@@ -12954,15 +12953,12 @@
         <attribute key="decayTo" value="2383" />
         <attribute key="showcharges" value="1" />
     </item>
-    <item id="7764" article="a" name="relic sword">
-        <attribute key="weight" value="4800" />
-        <attribute key="defense" value="24" />
-        <attribute key="attack" value="42" />
+    <item id="7764" article="a" name="elemental sword">
+        <attribute key="weight" value="5000" />
+        <attribute key="defense" value="26" />
+        <attribute key="attack" value="1" />
         <attribute key="weaponType" value="sword" />
-        <attribute key="extradef" value="1" />
-        <attribute key="elementIce" value="8" />
-        <attribute key="decayTo" value="7383" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="elementIce" value="30" />
     </item>
     <item id="7765" article="a" name="mystic blade">
         <attribute key="weight" value="3500" />
@@ -13004,15 +13000,12 @@
         <attribute key="decayTo" value="2429" />
         <attribute key="showcharges" value="1" />
     </item>
-    <item id="7769" article="a" name="knight axe">
-        <attribute key="weight" value="5900" />
-        <attribute key="defense" value="21" />
-        <attribute key="attack" value="33" />
+    <item id="7769" article="a" name="elemental axe">
+        <attribute key="weight" value="5200" />
+        <attribute key="defense" value="18" />
+        <attribute key="attack" value="1" />
         <attribute key="weaponType" value="axe" />
-        <attribute key="extradef" value="1" />
-        <attribute key="elementIce" value="7" />
-        <attribute key="decayTo" value="2430" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="elementIce" value="32" />
     </item>
     <item id="7770" article="a" name="heroic axe">
         <attribute key="weight" value="6100" />
@@ -13072,15 +13065,12 @@
         <attribute key="decayTo" value="7415" />
         <attribute key="showcharges" value="1" />
     </item>
-    <item id="7776" article="an" name="orcish maul">
-        <attribute key="weight" value="5400" />
-        <attribute key="defense" value="18" />
-        <attribute key="attack" value="42" />
+    <item id="7776" article="an" name="elemental mace">
+        <attribute key="weight" value="5800" />
+        <attribute key="defense" value="22" />
+        <attribute key="attack" value="1" />
         <attribute key="weaponType" value="club" />
-        <attribute key="slotType" value="two-handed" />
-        <attribute key="elementIce" value="6" />
-        <attribute key="decayTo" value="7392" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="elementIce" value="31" />
     </item>
     <item id="7777" article="a" name="war hammer">
         <attribute key="weight" value="8500" />
@@ -13420,15 +13410,12 @@
         <attribute key="decayTo" value="2383" />
         <attribute key="showcharges" value="1" />
     </item>
-    <item id="7855" article="a" name="relic sword">
-        <attribute key="weight" value="4800" />
-        <attribute key="defense" value="24" />
-        <attribute key="attack" value="42" />
+    <item id="7855" article="a" name="elemental sword">
+        <attribute key="weight" value="5000" />
+        <attribute key="defense" value="26" />
+        <attribute key="attack" value="1" />
         <attribute key="weaponType" value="sword" />
-        <attribute key="extradef" value="1" />
-        <attribute key="elementEarth" value="8" />
-        <attribute key="decayTo" value="7383" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="elementEarth" value="30" />
     </item>
     <item id="7856" article="a" name="mystic blade">
         <attribute key="weight" value="3500" />
@@ -13470,15 +13457,12 @@
         <attribute key="decayTo" value="2429" />
         <attribute key="showcharges" value="1" />
     </item>
-    <item id="7860" article="a" name="knight axe">
-        <attribute key="weight" value="5900" />
-        <attribute key="defense" value="21" />
-        <attribute key="attack" value="33" />
+    <item id="7860" article="a" name="elemental axe">
+        <attribute key="weight" value="5200" />
+        <attribute key="defense" value="18" />
+        <attribute key="attack" value="1" />
         <attribute key="weaponType" value="axe" />
-        <attribute key="extradef" value="1" />
-        <attribute key="elementEarth" value="7" />
-        <attribute key="decayTo" value="2430" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="elementEarth" value="32" />
     </item>
     <item id="7861" article="a" name="heroic axe">
         <attribute key="weight" value="6100" />
@@ -13538,15 +13522,12 @@
         <attribute key="decayTo" value="7415" />
         <attribute key="showcharges" value="1" />
     </item>
-    <item id="7867" article="an" name="orcish maul">
-        <attribute key="weight" value="5400" />
-        <attribute key="defense" value="18" />
-        <attribute key="attack" value="42" />
+    <item id="7867" article="an" name="elemental mace">
+        <attribute key="weight" value="5800" />
+        <attribute key="defense" value="22" />
+        <attribute key="attack" value="1" />
         <attribute key="weaponType" value="club" />
-        <attribute key="slotType" value="two-handed" />
-        <attribute key="elementEarth" value="6" />
-        <attribute key="decayTo" value="7392" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="elementEarth" value="31" />
     </item>
     <item id="7868" article="a" name="war hammer">
         <attribute key="weight" value="8500" />
@@ -13568,15 +13549,12 @@
         <attribute key="decayTo" value="2383" />
         <attribute key="showcharges" value="1" />
     </item>
-    <item id="7870" article="a" name="relic sword">
-        <attribute key="weight" value="4800" />
-        <attribute key="defense" value="24" />
-        <attribute key="attack" value="42" />
+    <item id="7870" article="a" name="elemental sword">
+        <attribute key="weight" value="5000" />
+        <attribute key="defense" value="26" />
+        <attribute key="attack" value="1" />
         <attribute key="weaponType" value="sword" />
-        <attribute key="extradef" value="1" />
-        <attribute key="elementEnergy" value="8" />
-        <attribute key="decayTo" value="7383" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="elementEnergy" value="30" />
     </item>
     <item id="7871" article="a" name="mystic blade">
         <attribute key="weight" value="3500" />
@@ -13618,15 +13596,13 @@
         <attribute key="decayTo" value="2429" />
         <attribute key="showcharges" value="1" />
     </item>
-    <item id="7875" article="a" name="knight axe">
-        <attribute key="weight" value="5900" />
-        <attribute key="defense" value="21" />
-        <attribute key="attack" value="33" />
+    <item id="7875" article="a" name="elemental axe">
+        <attribute key="weight" value="5200" />
+        <attribute key="defense" value="18" />
+        <attribute key="attack" value="1" />
         <attribute key="weaponType" value="axe" />
-        <attribute key="extradef" value="1" />
-        <attribute key="elementEnergy" value="7" />
-        <attribute key="decayTo" value="2430" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="elementEnergy" value="32" />
+
     </item>
     <item id="7876" article="a" name="heroic axe">
         <attribute key="weight" value="6100" />
@@ -13686,15 +13662,12 @@
         <attribute key="decayTo" value="7415" />
         <attribute key="showcharges" value="1" />
     </item>
-    <item id="7882" article="an" name="orcish maul">
-        <attribute key="weight" value="5400" />
-        <attribute key="defense" value="18" />
-        <attribute key="attack" value="42" />
+    <item id="7882" article="an" name="elemental mace">
+        <attribute key="weight" value="5800" />
+        <attribute key="defense" value="22" />
+        <attribute key="attack" value="1" />
         <attribute key="weaponType" value="club" />
-        <attribute key="slotType" value="two-handed" />
-        <attribute key="elementEnergy" value="6" />
-        <attribute key="decayTo" value="7392" />
-        <attribute key="showcharges" value="1" />
+        <attribute key="elementEnergy" value="31" />
     </item>
     <item id="7883" article="a" name="war hammer">
         <attribute key="weight" value="8500" />

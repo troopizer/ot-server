@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+<announce delay="1000" type="event" message="Alarm! Alert! Some eriador renegades are marching to the western gate of Bree." />
+	<singlespawn delay="30100" name="Eriador Renegades Looter" x="568" y="964" z="7"/>
+	<singlespawn delay="30200" name="Eriador Renegades Recruit" x="565" y="965" z="7"/>
+	<singlespawn delay="30500" name="Eriador Renegades Recruit" x="563" y="968" z="7"/>
+	<singlespawn delay="30800" name="Eriador Renegades Recruit" x="562" y="968" z="7"/>
+	<singlespawn delay="31500" name="Eriador Renegades Recruit" x="561" y="969" z="7"/>
+	<singlespawn delay="31700" name="Eriador Renegades Warrior" x="564" y="966" z="7"/>
+<announce delay="75000" type="event" message="The renegades blocked the western entrance with their forces, any warrior in town go to the front." />
+	<singlespawn delay="80100" name="Eriador Renegades Warrior" x="576" y="982" z="7"/>
+	<singlespawn delay="80200" name="Eriador Renegades Warrior" x="576" y="984" z="7"/>
+	<singlespawn delay="80300" name="Eriador Renegades Warrior" x="576" y="980" z="7"/>
+	<singlespawn delay="80400" name="Eriador Renegades Militia" x="575" y="984" z="7"/>
+	<singlespawn delay="80500" name="Eriador Renegades Militia" x="575" y="982" z="7"/>
+	<singlespawn delay="80600" name="Eriador Renegades Recruit" x="574" y="978" z="7"/>
+	<singlespawn delay="80700" name="Eriador Renegades Recruit" x="574" y="980" z="7"/>
+	<singlespawn delay="80800" name="Eriador Renegades Recruit" x="574" y="979" z="7"/>
+	<singlespawn delay="84000" name="Eriador Renegades Sergeant" ref="yes" x="577" y="982" z="7"/>
+</raid>

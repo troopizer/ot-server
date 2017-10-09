@@ -9,8 +9,8 @@
 		<raid name="Example2" file="example.xml" interval2="2" margin="0" reftype="block" ref="no"/>
 			will stay as 'running' until Cave Rat gets killed
 				<raid name="Bree Wolfs" file="breewolfs.xml" interval2="120" margin="0" reftype="single" ref="no"/>
-
-<raid name="Bree Storm" file="breestorm.xml" interval2="2" margin="0" reftype="single" ref="no"/>
+		<raid name="Bree Storm" file="breestorm.xml" interval2="60" margin="0" reftype="single" ref="no"/>
 	-->
-	<raid name="Bree Storm" file="breestorm.xml" interval2="2" margin="0" reftype="single" ref="no"/>
+<raid name="Bree Renegades 1" file="breerenegades1.xml" interval2="300" margin="0" reftype="single" ref="no"/>
+<raid name="Bree Wolfs" file="breewolfs.xml" interval2="180" margin="0" reftype="single" ref="no"/>
 </raids>
