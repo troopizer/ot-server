@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="John Oatny" script="mount1.lua" nameDescription="John Oatny, owner of the Oatny Farm." walkinterval="2000" floorchange="1">
+
+	<health now="150" max="150"/>
+
+	<look type="128" head="115" body="126" legs="116" feet="114" addons="2" corpse="2212"/>
+
+ 	<parameters>
+        	<parameter key="message_greet" value="Greetings, what brings you to my farm young one?"/>
+    	</parameters>	
+
+</npc>

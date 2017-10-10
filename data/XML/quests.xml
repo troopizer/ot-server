@@ -102,6 +102,10 @@
             <missionstate id="1" description="Go back to Harin and deliver the amulet." />
             <missionstate id="2" description="Mission Complete." />
         </mission>
+        <mission name="A donkey to mount" storageid="2058" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Hunt water buffaloes in the northen part of the north road, and get 3 horns and 5000 gp to buy a donkey from John Oatny." />
+            <missionstate id="1" description="Mission Complete." />
+        </mission>
     </quest>
     <quest name="South Downs Chapter 1" startstorageid="30002" startstoragevalue="4">
         <mission name="1 Find Sergeant Farflank at South Downs" storageid="2008" startvalue="0" endvalue="1">

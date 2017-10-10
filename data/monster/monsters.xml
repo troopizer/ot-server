@@ -176,4 +176,8 @@
 	<!-- Trolls -->
 	<monster name="Mountain Troll" file="Trolls/Mountain Troll.xml"/>
 
+	<!-- Mounts -->
+	<monster name="Donkey" file="Mounts/donkey.xml"/>
+	<monster name="Horse" file="Mounts/horse.xml"/>
+
 </monsters>

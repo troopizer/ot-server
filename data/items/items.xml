@@ -9090,7 +9090,7 @@
     <item id="5953" article="a" name="marijuana">
         <attribute key="weight" value="850" />
     </item>
-    <item id="5954" article="a" name="demon horn" plural="demon horns">
+    <item id="5954" article="a" name="horn" plural="horns">
         <attribute key="weight" value="1000" />
     </item>
     <item id="5956" article="a" name="parchment">
