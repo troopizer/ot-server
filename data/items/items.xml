@@ -2878,10 +2878,10 @@
         <attribute key="attack" value="10" />
         <attribute key="weaponType" value="sword" />
     </item>
-    <item id="2385" article="a" name="sabre">
-        <attribute key="weight" value="2500" />
-        <attribute key="defense" value="10" />
-        <attribute key="attack" value="12" />
+    <item id="2385" article="a" name="iron sabre">
+        <attribute key="weight" value="4400" />
+        <attribute key="defense" value="16" />
+        <attribute key="attack" value="18" />
         <attribute key="weaponType" value="sword" />
     </item>
     <item id="2386" article="an" name="iron axe">
@@ -3726,7 +3726,7 @@
     <item id="2521" article="a" name="arnorian battle shield">
         <attribute key="description" value="An old heavy shield used by soldiers in the arnorian army." />
         <attribute key="weight" value="6200" />
-        <attribute key="defense" value="29" />
+        <attribute key="defense" value="30" />
         <attribute key="weaponType" value="shield" />
     </item>
     <item id="2522" article="a" name="great shield">
