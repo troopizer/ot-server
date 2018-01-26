@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Grein" nameDescription="Grein, a very old dwarf" script="runes2.lua" walkinterval="2000" floorchange="0">
+
+	<health now="100" max="100"/>
+
+	<look type="66"/>
+
+	<parameters>
+
+		<parameter key="message_greet" value="Hello |PLAYERNAME|, what can I do for you? "/>
+
+		<parameter key="message_decline" value="Get out of here!"/>
+
+	</parameters>
+
+</npc>

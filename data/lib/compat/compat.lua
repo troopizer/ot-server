@@ -157,6 +157,19 @@ function getCreatureMaster(cid)
 	return false
 end
 
+function getCreatureSummonN(cid)
+	local c = Creature(cid)
+	if c == nil then
+		return false
+	end
+
+	local result = 0
+	for _, summon in ipairs(c:getSummons()) do
+		result=result+1
+	end
+	return result
+end
+
 function getCreatureSummons(cid)
 	local c = Creature(cid)
 	if c == nil then
@@ -202,7 +215,7 @@ function getPlayerAccess(cid)
 	if player == nil then
 		return false
 	end
-	return player:getGroup():getAccess() or 0
+	return player:getGroup():getAccess() and 1 or 0
 end
 function getPlayerSkill(cid, skillId) local p = Player(cid) return p ~= nil and p:getSkillLevel(skillId) or false end
 function getPlayerMana(cid) local p = Player(cid) return p ~= nil and p:getMana() or false end

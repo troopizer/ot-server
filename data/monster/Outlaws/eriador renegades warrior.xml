@@ -56,11 +56,6 @@
 		<element energyPercent="-5"/>
 
 	</elements>
-	<immunities>
-
-		<immunity paralyze="1"/>
-
-	</immunities>
 
 	<voices interval="5000" chance="10">
 

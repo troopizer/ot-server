@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Angmars Ghoul" nameDescription="an angmars ghoul" race="undead" experience="350" speed="220" manacost="0">
+	<health now="500" max="500"/>
+	<look type="100" corpse="6029"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="60" attack="45"/>
+		<attack name="lifedrain" interval="1000" chance="15" range="2" min="-25" max="-75"/>
+	</attacks>
+	<defenses armor="15" defense="25"/>
+	<elements>
+		<element earthPercent="50"/>
+		<element deathPercent="100"/>
+		<element holyPercent="-60"/>
+		<element icePercent="20"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+	</immunities>
+	<voices interval="5000" chance="20">
+		<voice sentence="Uhhhhhhh!"/>
+		<voice sentence="Aaaaahhhh!"/>
+		<voice sentence="Deeaaathh!"/>
+		<voice sentence="Chhhhhhh!"/>
+	</voices>
+	<loot>
+
+		<item id="2148" countmax="90" chance="80000"/><!-- gold coin -->
+
+		<item id="2483" chance="600"/><!-- iron scale armor -->
+
+		<item id="5913" countmax="3" chance="8000"/><!-- brown piece of cloth -->
+
+		<item id="2477" chance="600"/><!-- a chain legs -->
+
+		<item id="2521" chance="200"/><!-- angmar guardian shield -->
+	
+		<item id="5909" countmax="2" chance="10000"/><!-- white piece of cloth -->
+
+		<item id="2394" chance="1500"/><!-- morning star -->
+
+		<item id="2513" chance="2000"/><!-- iron kite shield -->
+
+		<item id="5904" chance="5000"/><!-- magic sulphurs -->
+
+	</loot>
+</monster>

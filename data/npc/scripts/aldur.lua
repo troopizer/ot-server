@@ -11,6 +11,10 @@ if(not npcHandler:isFocused(cid)) then
 return false
 end
 local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
+if(msgcontains(msg, 'year') or msgcontains(msg, 'date') or msgcontains(msg, 'tales') or msgcontains(msg, 'information')) then
+				selfSay('We are in the year 2900 of the third age.', cid)
+				selfSay('I know that Gerontius Took "The Old Took" is currently the Thain of the Shire and since 50 years Thorin II Oakenshield is the king of our people and a great one!', cid)
+	end
 if(msgcontains(msg, 'mission')) then
 if (getPlayerStorageValue(cid,2007) < 0) then
 selfSay('Sorry kid, I dont have a mission for you..', cid)

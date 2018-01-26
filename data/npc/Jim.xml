@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Jim" nameDescription="Jim, a hobbit and backpack crafter." script="addon.lua" walkinterval="2000" floorchange="1">
+<npc name="Jim" nameDescription="Jim, a hobbit and a backpack crafter." script="addon.lua" walkinterval="2000" floorchange="1">
 
 	<health now="150" max="150"/>
 

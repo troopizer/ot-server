@@ -63,13 +63,12 @@
 
 	<elements>
 
-		<element earthPercent="50"/>
-
+		<element firePercent="-10"/>
+		<element earthPercent="30"/>
+		<element deathPercent="-10"/>
+		<element holyPercent="0"/>
+		<element icePercent="5"/>
 		<element energyPercent="-10"/>
-
-		<element firePercent="-15"/>
-
-		<element icePercent="20"/>
 
 	</elements>
 

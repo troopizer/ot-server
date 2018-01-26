@@ -50,9 +50,9 @@
 
 		<element deathPercent="100"/>
 
-		<element holyPercent="-25"/>
+		<element holyPercent="-60"/>
 
-		<element icePercent="10"/>
+		<element icePercent="20"/>
 
 	</elements>
 

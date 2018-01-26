@@ -81,11 +81,11 @@
 
 		<item id="2419" chance="1000"/><!-- iron scimitar -->
 
-		<item id="3982" chance="200"/><!-- range boots -->
+		<item id="3982" chance="500"/><!-- ranger boots -->
 
 		<item id="2464" chance="3000"/><!-- iron chain armor -->
 
-		<item id="2459" chance="200"/><!-- iron helmet -->
+		<item id="2459" chance="500"/><!-- iron helmet -->
 
 		<item id="2389" countmax="2" chance="10000"/><!-- spear -->
 

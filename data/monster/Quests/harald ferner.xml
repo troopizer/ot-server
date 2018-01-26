@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<monster name="Harald Ferner" nameDescription="harald ferner, one of the renegades general" race="blood" experience="600" speed="250" manacost="450">
+<monster name="Harald Ferner" nameDescription="harald ferner, one of the renegades general" race="blood" experience="700" speed="250" manacost="450">
 
-	<health now="1200" max="1200"/>
+	<health now="1300" max="1300"/>
 	<look type="134" head="114" body="38" legs="113" feet="114" addons="3" corpse="6080"/>
 
 	<targetchange interval="5000" chance="8"/>
@@ -112,11 +112,11 @@
 
 		<item id="2513" chance="1000"/><!-- iron kite shield -->
 
-		<item id="3968" chance="100"/><!-- eriador guardian armor -->
+		<item id="3968" chance="200"/><!-- eriador guardian armor -->
 
-		<item id="8891" chance="100"/><!-- eriador warrior armor -->
+		<item id="8891" chance="200"/><!-- eriador warrior armor -->
 
-		<item id="8872" chance="100"/><!-- eriador ranger cape -->
+		<item id="8872" chance="200"/><!-- eriador ranger cape -->
 
 		<item id="5913" countmax="2" chance="1500"/><!-- brown piece of cloth -->
 
@@ -124,7 +124,7 @@
 
 		<item id="1987" chance="80000"/><!-- bag -->
 
-		<item id="2152" countmax="6" chance="90000"/><!-- platinum coin -->
+		<item id="2152" countmax="4" chance="90000"/><!-- platinum coin -->
 
 		<item id="2787" countmax="4" chance="20000"/><!-- white mushroom -->
 

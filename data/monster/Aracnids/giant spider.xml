@@ -51,10 +51,12 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="100"/>
-		<element energyPercent="20"/>
-		<element icePercent="20"/>
 		<element firePercent="-10"/>
+		<element earthPercent="50"/>
+		<element deathPercent="-10"/>
+		<element holyPercent="0"/>
+		<element icePercent="10"/>
+		<element energyPercent="-10"/>
 	</elements>
 	<immunities>
 		<immunity lifedrain="0"/>
@@ -64,7 +66,7 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<summons maxSummons="2">
-		<summon name="Poison Spider" interval="1000" chance="30" max="2"/>
+		<summon name="Poison Spider" interval="1000" chance="30" max="3"/>
 	</summons>
 	<loot>
 		<item id="2169" chance="5000"/><!-- time ring -->

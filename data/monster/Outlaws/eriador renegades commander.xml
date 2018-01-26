@@ -2,7 +2,7 @@
 
 <monster name="Eriador Renegades Commander" nameDescription="a eriador renegades commander" race="blood" experience="400" speed="215" manacost="450">
 
-	<health now="500" max="500"/>
+	<health now="600" max="600"/>
 	<look type="134" head="115" body="114" legs="113" feet="114" addons="2" corpse="6080"/>
 
 	<targetchange interval="5000" chance="8"/>
@@ -102,15 +102,15 @@
 
 		<item id="2377" chance="500"/><!-- iron two handed sword -->
 
-		<item id="2463" chance="600"/><!-- bronze armor -->
+		<item id="2463" chance="800"/><!-- bronze armor -->
 
 		<item id="2459" chance="1500"/><!-- iron helmet -->
 
-		<item id="2647" chance="200"/><!-- iron legs -->
+		<item id="2647" chance="300"/><!-- iron legs -->
 
-		<item id="2483" chance="400"/><!-- iron scale armor -->
+		<item id="2483" chance="500"/><!-- iron scale armor -->
 
-		<item id="5913" countmax="1" chance="8000"/><!-- brown piece of cloth -->
+		<item id="5913" countmax="2" chance="10000"/><!-- brown piece of cloth -->
 
 		<item id="5909" countmax="1" chance="6000"/><!-- white piece of cloth -->
 

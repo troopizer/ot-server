@@ -38,6 +38,7 @@
   </spawn>
   <spawn centerx="542" centery="808" centerz="4" radius="2">
     <monster name="Eriador Renegades Militia" x="-2" y="1" z="4" spawntime="130"/>
+    <monster name="Eriador Renegades Knife Sister" x="1" y="1" z="4" spawntime="300"/>
   </spawn>
   <spawn centerx="492" centery="823" centerz="4" radius="2">
     <monster name="Eriador Renegades Warrior" x="0" y="-1" z="4" spawntime="130"/>
@@ -137,6 +138,38 @@
     <monster name="Deer" x="-1" y="-1" z="4" spawntime="300"/>
     <monster name="Deer" x="1" y="1" z="4" spawntime="300"/>
   </spawn>
+  <spawn centerx="612" centery="613" centerz="5" radius="1">
+    <npc name="Grein" x="0" y="-1" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="621" centery="666" centerz="5" radius="1">
+    <monster name="Smuggler" x="0" y="-1" z="5" spawntime="300"/>
+    <monster name="Wild Warrior" x="1" y="1" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="634" centery="666" centerz="5" radius="1">
+    <monster name="Bandit" x="0" y="-1" z="5" spawntime="300"/>
+    <monster name="Wild Warrior" x="-1" y="1" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="625" centery="668" centerz="5" radius="1">
+    <monster name="Bandit" x="-1" y="-1" z="5" spawntime="300"/>
+    <monster name="Smuggler" x="1" y="0" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="632" centery="670" centerz="5" radius="1">
+    <monster name="Smuggler" x="1" y="0" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="632" centery="677" centerz="5" radius="1">
+    <monster name="Smuggler" x="-1" y="-1" z="5" spawntime="300"/>
+    <monster name="Wild Warrior" x="1" y="-1" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="623" centery="678" centerz="5" radius="1">
+    <monster name="Smuggler" x="-1" y="0" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="635" centery="679" centerz="5" radius="1">
+    <monster name="Smuggler" x="1" y="-1" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="625" centery="680" centerz="5" radius="1">
+    <monster name="Wild Warrior" x="1" y="-1" z="5" spawntime="300"/>
+    <monster name="Bandit" x="0" y="1" z="5" spawntime="300"/>
+  </spawn>
   <spawn centerx="833" centery="761" centerz="5" radius="2">
     <monster name="Lone Lands Poacher" x="2" y="1" z="5" spawntime="300"/>
   </spawn>
@@ -230,6 +263,7 @@
   </spawn>
   <spawn centerx="499" centery="820" centerz="5" radius="2">
     <monster name="Eriador Renegades Warrior" x="1" y="-1" z="5" spawntime="130"/>
+    <monster name="Eriador Renegades Knife Sister" x="-2" y="1" z="5" spawntime="300"/>
   </spawn>
   <spawn centerx="756" centery="822" centerz="5" radius="2">
     <monster name="Fierce Wolf" x="-2" y="-2" z="5" spawntime="300"/>
@@ -247,6 +281,7 @@
     <monster name="Lone Lands Savage" x="1" y="1" z="5" spawntime="300"/>
   </spawn>
   <spawn centerx="523" centery="826" centerz="5" radius="1">
+    <monster name="Eriador Renegades Knife Sister" x="1" y="0" z="5" spawntime="300"/>
     <monster name="Eriador Renegades Recruit" x="0" y="1" z="5" spawntime="130"/>
   </spawn>
   <spawn centerx="525" centery="827" centerz="5" radius="1">
@@ -267,7 +302,7 @@
     <monster name="Eriador Renegades Warrior" x="0" y="1" z="5" spawntime="130"/>
   </spawn>
   <spawn centerx="534" centery="832" centerz="5" radius="1">
-    <monster name="Eriador Renegades Militia" x="0" y="-1" z="5" spawntime="130"/>
+    <monster name="Eriador Renegades Knife Sister" x="1" y="-1" z="5" spawntime="300"/>
   </spawn>
   <spawn centerx="636" centery="832" centerz="5" radius="1">
     <monster name="Great Bear" x="1" y="0" z="5" spawntime="300"/>
@@ -463,6 +498,9 @@
     <monster name="Badger" x="0" y="-1" z="5" spawntime="300"/>
     <monster name="Deer" x="2" y="1" z="5" spawntime="300"/>
   </spawn>
+  <spawn centerx="830" centery="1061" centerz="5" radius="1">
+    <npc name="Angrel" x="0" y="-1" z="5" spawntime="300"/>
+  </spawn>
   <spawn centerx="655" centery="1098" centerz="5" radius="1">
     <npc name="Bree Guard" x="0" y="1" z="5" spawntime="150"/>
   </spawn>
@@ -518,6 +556,72 @@
   <spawn centerx="493" centery="558" centerz="6" radius="5">
     <npc name="Dimral" x="-1" y="0" z="6" spawntime="60"/>
   </spawn>
+  <spawn centerx="617" centery="640" centerz="6" radius="2">
+    <monster name="Fierce Wolf" x="-1" y="-2" z="6" spawntime="300"/>
+    <monster name="Fierce Wolf" x="0" y="2" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="633" centery="649" centerz="6" radius="2">
+    <monster name="Rabbit" x="-1" y="-1" z="6" spawntime="300"/>
+    <monster name="Rabbit" x="-2" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="607" centery="651" centerz="6" radius="2">
+    <monster name="Fierce Wolf" x="-1" y="-1" z="6" spawntime="300"/>
+    <monster name="Fierce Wolf" x="1" y="2" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="577" centery="657" centerz="6" radius="2">
+    <monster name="Deer" x="-1" y="-1" z="6" spawntime="300"/>
+    <monster name="Deer" x="1" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="577" centery="664" centerz="6" radius="2">
+    <monster name="Fierce Wolf" x="-1" y="-1" z="6" spawntime="300"/>
+    <monster name="Fierce Wolf" x="1" y="2" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="622" centery="666" centerz="6" radius="1">
+    <monster name="Bandit" x="-1" y="-1" z="6" spawntime="300"/>
+    <monster name="Wild Warrior" x="1" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="636" centery="667" centerz="6" radius="1">
+    <monster name="Smuggler" x="-1" y="-1" z="6" spawntime="300"/>
+    <monster name="Wild Warrior" x="1" y="0" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="624" centery="672" centerz="6" radius="1">
+    <monster name="Smuggler" x="1" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="632" centery="673" centerz="6" radius="2">
+    <monster name="Bandit" x="-1" y="-1" z="6" spawntime="300"/>
+    <monster name="Smuggler" x="1" y="0" z="6" spawntime="300"/>
+    <monster name="Wild Warrior" x="2" y="2" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="640" centery="673" centerz="6" radius="1">
+    <monster name="Smuggler" x="0" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="622" centery="679" centerz="6" radius="1">
+    <monster name="Bandit" x="0" y="-1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="633" centery="679" centerz="6" radius="1">
+    <monster name="Smuggler" x="0" y="-1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="637" centery="679" centerz="6" radius="1">
+    <monster name="Wild Warrior" x="-1" y="-1" z="6" spawntime="300"/>
+    <monster name="Bandit" x="-1" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="625" centery="681" centerz="6" radius="1">
+    <monster name="Wild Warrior" x="-1" y="-1" z="6" spawntime="300"/>
+    <monster name="Wild Warrior" x="1" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="604" centery="691" centerz="6" radius="2">
+    <monster name="Deer" x="-2" y="-2" z="6" spawntime="300"/>
+    <monster name="Deer" x="-1" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="623" centery="691" centerz="6" radius="2">
+    <monster name="Wolf" x="2" y="-2" z="6" spawntime="300"/>
+    <monster name="Wolf" x="1" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="638" centery="691" centerz="6" radius="2">
+    <monster name="Rabbit" x="-1" y="-1" z="6" spawntime="300"/>
+    <monster name="Rabbit" x="-1" y="1" z="6" spawntime="300"/>
+    <monster name="Deer" x="2" y="1" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="636" centery="765" centerz="6" radius="2">
     <monster name="Great Bear" x="0" y="-1" z="6" spawntime="360"/>
     <monster name="Bear" x="0" y="2" z="6" spawntime="360"/>
@@ -558,6 +662,7 @@
   </spawn>
   <spawn centerx="483" centery="798" centerz="6" radius="1">
     <monster name="Eriador Renegades Looter" x="0" y="-1" z="6" spawntime="130"/>
+    <monster name="Eriador Renegades Knife Sister" x="1" y="0" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="678" centery="799" centerz="6" radius="2">
     <monster name="Great Bear" x="-1" y="-1" z="6" spawntime="300"/>
@@ -570,6 +675,7 @@
   </spawn>
   <spawn centerx="507" centery="803" centerz="6" radius="2">
     <monster name="Eriador Renegades Sergeant" x="0" y="-2" z="6" spawntime="130"/>
+    <monster name="Eriador Renegades Knife Sister" x="2" y="0" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="717" centery="803" centerz="6" radius="2">
     <monster name="Great Bear" x="-1" y="0" z="6" spawntime="300"/>
@@ -583,6 +689,7 @@
   </spawn>
   <spawn centerx="541" centery="806" centerz="6" radius="2">
     <monster name="Eriador Renegades Warrior" x="0" y="-2" z="6" spawntime="130"/>
+    <monster name="Eriador Renegades Knife Sister" x="-2" y="-1" z="6" spawntime="300"/>
     <monster name="Eriador Renegades Militia" x="-1" y="-1" z="6" spawntime="130"/>
     <monster name="Eriador Renegades Sergeant" x="-1" y="0" z="6" spawntime="130"/>
   </spawn>
@@ -628,11 +735,11 @@
     <monster name="Eriador Renegades Recruit" x="-1" y="0" z="6" spawntime="130"/>
   </spawn>
   <spawn centerx="535" centery="821" centerz="6" radius="2">
-    <monster name="Eriador Renegades Militia" x="2" y="0" z="6" spawntime="130"/>
+    <monster name="Eriador Renegades Knife Sister" x="1" y="0" z="6" spawntime="300"/>
     <monster name="Eriador Renegades Recruit" x="0" y="1" z="6" spawntime="130"/>
   </spawn>
   <spawn centerx="543" centery="821" centerz="6" radius="2">
-    <monster name="Eriador Renegades Militia" x="-2" y="-1" z="6" spawntime="130"/>
+    <monster name="Eriador Renegades Knife Sister" x="0" y="-1" z="6" spawntime="300"/>
     <monster name="Eriador Renegades Warrior" x="-1" y="0" z="6" spawntime="130"/>
   </spawn>
   <spawn centerx="463" centery="824" centerz="6" radius="1">
@@ -657,11 +764,13 @@
   <spawn centerx="552" centery="827" centerz="6" radius="1">
     <monster name="Eriador Renegades Looter" x="0" y="-1" z="6" spawntime="130"/>
     <monster name="Eriador Renegades Looter" x="-1" y="1" z="6" spawntime="130"/>
+    <monster name="Eriador Renegades Knife Sister" x="1" y="1" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="538" centery="828" centerz="6" radius="1">
     <monster name="Eriador Renegades Sergeant" x="-1" y="0" z="6" spawntime="130"/>
   </spawn>
   <spawn centerx="542" centery="828" centerz="6" radius="1">
+    <monster name="Eriador Renegades Knife Sister" x="-1" y="-1" z="6" spawntime="300"/>
     <monster name="Eriador Renegades Militia" x="0" y="1" z="6" spawntime="130"/>
   </spawn>
   <spawn centerx="887" centery="828" centerz="6" radius="2">
@@ -673,9 +782,11 @@
     <monster name="Sheep" x="1" y="0" z="6" spawntime="130"/>
   </spawn>
   <spawn centerx="527" centery="830" centerz="6" radius="1">
+    <monster name="Eriador Renegades Knife Sister" x="-1" y="0" z="6" spawntime="300"/>
     <monster name="Eriador Renegades Recruit" x="-1" y="1" z="6" spawntime="130"/>
   </spawn>
   <spawn centerx="519" centery="831" centerz="6" radius="1">
+    <monster name="Eriador Renegades Knife Sister" x="-1" y="0" z="6" spawntime="300"/>
     <monster name="Eriador Renegades Looter" x="1" y="0" z="6" spawntime="130"/>
   </spawn>
   <spawn centerx="534" centery="832" centerz="6" radius="1">
@@ -689,7 +800,7 @@
     <monster name="Eriador Renegades Looter" x="0" y="-1" z="6" spawntime="130"/>
   </spawn>
   <spawn centerx="528" centery="834" centerz="6" radius="1">
-    <monster name="Eriador Renegades Militia" x="0" y="-1" z="6" spawntime="130"/>
+    <monster name="Eriador Renegades Knife Sister" x="0" y="-1" z="6" spawntime="300"/>
     <monster name="Eriador Renegades Recruit" x="0" y="1" z="6" spawntime="130"/>
   </spawn>
   <spawn centerx="774" centery="834" centerz="6" radius="2">
@@ -724,7 +835,9 @@
     <monster name="Eriador Renegades Militia" x="0" y="-1" z="6" spawntime="130"/>
     <monster name="Eriador Renegades Recruit" x="1" y="1" z="6" spawntime="130"/>
   </spawn>
-  <spawn centerx="547" centery="843" centerz="6" radius="1"/>
+  <spawn centerx="547" centery="843" centerz="6" radius="1">
+    <monster name="Eriador Renegades Knife Sister" x="-1" y="0" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="550" centery="843" centerz="6" radius="1">
     <monster name="Eriador Renegades Recruit" x="0" y="-1" z="6" spawntime="130"/>
   </spawn>
@@ -1184,6 +1297,14 @@
     <monster name="Deer" x="-2" y="-3" z="7" spawntime="60"/>
     <monster name="Deer" x="-2" y="1" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="583" centery="626" centerz="7" radius="2">
+    <monster name="Skeleton Warrior" x="1" y="-2" z="7" spawntime="300"/>
+    <monster name="Ghoul" x="-1" y="2" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="586" centery="635" centerz="7" radius="2">
+    <monster name="Skeleton Warrior" x="-1" y="-1" z="7" spawntime="300"/>
+    <monster name="Skeleton" x="1" y="2" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="563" centery="687" centerz="7" radius="2">
     <monster name="Water Buffalo" x="2" y="0" z="7" spawntime="360"/>
   </spawn>
@@ -1286,6 +1407,9 @@
   <spawn centerx="619" centery="748" centerz="7" radius="2">
     <monster name="Water Buffalo" x="-1" y="0" z="7" spawntime="360"/>
   </spawn>
+  <spawn centerx="582" centery="749" centerz="7" radius="2">
+    <monster name="Water Buffalo" x="-1" y="-2" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="516" centery="753" centerz="7" radius="2">
     <monster name="Wasp" x="2" y="-2" z="7" spawntime="360"/>
     <monster name="Water Buffalo" x="-1" y="-1" z="7" spawntime="360"/>
@@ -1296,6 +1420,9 @@
   </spawn>
   <spawn centerx="533" centery="757" centerz="7" radius="2">
     <monster name="Water Buffalo" x="1" y="-1" z="7" spawntime="360"/>
+  </spawn>
+  <spawn centerx="587" centery="760" centerz="7" radius="2">
+    <monster name="Water Buffalo" x="0" y="-1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="512" centery="761" centerz="7" radius="2">
     <monster name="Water Buffalo" x="-1" y="1" z="7" spawntime="360"/>
@@ -1403,6 +1530,7 @@
   </spawn>
   <spawn centerx="521" centery="810" centerz="7" radius="1">
     <monster name="Eriador Renegades Recruit" x="-1" y="-1" z="7" spawntime="130"/>
+    <monster name="Eriador Renegades Knife Sister" x="1" y="0" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="623" centery="811" centerz="7" radius="2">
     <monster name="Deer" x="-2" y="-1" z="7" spawntime="360"/>
@@ -3021,6 +3149,132 @@
   <spawn centerx="512" centery="582" centerz="8" radius="5">
     <monster name="Cave Rat" x="1" y="2" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="559" centery="583" centerz="8" radius="1">
+    <monster name="Crypt shambler" x="1" y="0" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="566" centery="583" centerz="8" radius="1">
+    <npc name="Ainur Statue" x="-1" y="0" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="571" centery="584" centerz="8" radius="1">
+    <monster name="Ghost" x="1" y="-1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="543" centery="585" centerz="8" radius="1">
+    <monster name="Crypt shambler" x="-1" y="0" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="559" centery="586" centerz="8" radius="1">
+    <monster name="Ghoul" x="1" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="540" centery="591" centerz="8" radius="1">
+    <monster name="Ghost" x="-1" y="-1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="557" centery="592" centerz="8" radius="1">
+    <monster name="Skeleton Warrior" x="-1" y="-1" z="8" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="0" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="569" centery="592" centerz="8" radius="1">
+    <monster name="Ghoul" x="-1" y="-1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="540" centery="599" centerz="8" radius="1">
+    <monster name="Ghoul" x="-1" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="567" centery="602" centerz="8" radius="1">
+    <monster name="Skeleton Warrior" x="0" y="-1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="543" centery="603" centerz="8" radius="1">
+    <monster name="Ghoul" x="-1" y="0" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="564" centery="604" centerz="8" radius="1">
+    <monster name="Skeleton Warrior" x="-1" y="0" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="593" centery="614" centerz="8" radius="1">
+    <monster name="Ghost" x="-1" y="0" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="580" centery="615" centerz="8" radius="1">
+    <monster name="Skeleton Warrior" x="-1" y="-1" z="8" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="1" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="573" centery="619" centerz="8" radius="1">
+    <monster name="Ghoul" x="-1" y="0" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="534" centery="624" centerz="8" radius="1">
+    <monster name="Ghoul" x="0" y="-1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="587" centery="624" centerz="8" radius="2">
+    <monster name="Ghoul" x="1" y="-2" z="8" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="0" y="2" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="563" centery="625" centerz="8" radius="1">
+    <monster name="Ghost" x="-1" y="0" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="535" centery="627" centerz="8" radius="1">
+    <monster name="Ghost" x="-1" y="-1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="578" centery="627" centerz="8" radius="2">
+    <monster name="Skeleton Warrior" x="-1" y="-1" z="8" spawntime="300"/>
+    <monster name="Ghoul" x="1" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="603" centery="628" centerz="8" radius="1">
+    <monster name="Ghost" x="-1" y="0" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="570" centery="629" centerz="8" radius="1">
+    <monster name="Ghoul" x="-1" y="-1" z="8" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="0" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="594" centery="629" centerz="8" radius="1">
+    <monster name="Skeleton Warrior" x="-1" y="0" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="595" centery="633" centerz="8" radius="1">
+    <monster name="Ghost" x="-1" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="533" centery="637" centerz="8" radius="1">
+    <monster name="Ghost" x="-1" y="-1" z="8" spawntime="300"/>
+    <monster name="Ghoul" x="1" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="565" centery="637" centerz="8" radius="2">
+    <monster name="Skeleton Warrior" x="-1" y="-1" z="8" spawntime="300"/>
+    <monster name="Ghoul" x="1" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="571" centery="637" centerz="8" radius="2">
+    <monster name="Ghoul" x="0" y="-1" z="8" spawntime="300"/>
+    <monster name="Ghoul" x="-1" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="591" centery="640" centerz="8" radius="2">
+    <monster name="Ghoul" x="-1" y="-1" z="8" spawntime="300"/>
+    <monster name="Ghost" x="-2" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="571" centery="641" centerz="8" radius="1">
+    <monster name="Ghost" x="1" y="-1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="532" centery="647" centerz="8" radius="1">
+    <monster name="Ghoul" x="-1" y="0" z="8" spawntime="300"/>
+    <monster name="Ghost" x="1" y="0" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="577" centery="649" centerz="8" radius="1">
+    <monster name="Ghost" x="1" y="-1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="572" centery="653" centerz="8" radius="1">
+    <monster name="Ghost" x="0" y="-1" z="8" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="1" y="0" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="577" centery="653" centerz="8" radius="1">
+    <monster name="Ghoul" x="1" y="0" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="581" centery="654" centerz="8" radius="1">
+    <monster name="Skeleton Warrior" x="1" y="-1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="574" centery="658" centerz="8" radius="1">
+    <monster name="Ghost" x="-1" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="588" centery="659" centerz="8" radius="1">
+    <monster name="Ghoul" x="-1" y="-1" z="8" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="0" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="576" centery="665" centerz="8" radius="1">
+    <monster name="Ghost" x="-1" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="589" centery="665" centerz="8" radius="1">
+    <monster name="Ghost" x="0" y="1" z="8" spawntime="300"/>
+  </spawn>
   <spawn centerx="512" centery="758" centerz="8" radius="1">
     <monster name="Iron Deposit" x="-1" y="0" z="8" spawntime="360"/>
   </spawn>
@@ -3705,6 +3959,79 @@
   <spawn centerx="502" centery="1144" centerz="8" radius="2">
     <monster name="Ghost" x="0" y="2" z="8" spawntime="100"/>
   </spawn>
+  <spawn centerx="569" centery="586" centerz="9" radius="1">
+    <monster name="Ghoul" x="1" y="-1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="573" centery="587" centerz="9" radius="1">
+    <monster name="Crypt shambler" x="-1" y="1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="592" centery="614" centerz="9" radius="1">
+    <monster name="Skeleton Warrior" x="-1" y="0" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="579" centery="615" centerz="9" radius="1">
+    <monster name="Crypt shambler" x="-1" y="-1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="570" centery="621" centerz="9" radius="1">
+    <monster name="Ghost" x="1" y="0" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="585" centery="622" centerz="9" radius="1">
+    <monster name="Ghost" x="-1" y="0" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="567" centery="625" centerz="9" radius="1">
+    <monster name="Skeleton Warrior" x="-1" y="-1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="591" centery="625" centerz="9" radius="1">
+    <monster name="Skeleton" x="-1" y="-1" z="9" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="0" y="1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="587" centery="626" centerz="9" radius="1">
+    <monster name="Crypt shambler" x="-1" y="1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="564" centery="628" centerz="9" radius="1">
+    <monster name="Ghoul" x="0" y="-1" z="9" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="-1" y="1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="578" centery="629" centerz="9" radius="1">
+    <monster name="Ghoul" x="-1" y="-1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="583" centery="629" centerz="9" radius="1">
+    <monster name="Skeleton Warrior" x="-1" y="-1" z="9" spawntime="300"/>
+    <monster name="Ghost" x="0" y="1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="595" centery="629" centerz="9" radius="1">
+    <monster name="Ghost" x="0" y="-1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="569" centery="634" centerz="9" radius="1">
+    <monster name="Ghost" x="0" y="-1" z="9" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="0" y="1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="592" centery="636" centerz="9" radius="1">
+    <monster name="Ghoul" x="-1" y="-1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="566" centery="638" centerz="9" radius="1">
+    <monster name="Ghoul" x="-1" y="-1" z="9" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="1" y="1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="583" centery="641" centerz="9" radius="1">
+    <monster name="Ghoul" x="1" y="-1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="535" centery="649" centerz="9" radius="1">
+    <monster name="Ghost" x="-1" y="-1" z="9" spawntime="300"/>
+    <monster name="Ghoul" x="-1" y="1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="520" centery="660" centerz="9" radius="2">
+    <monster name="Spectre" x="-1" y="-1" z="9" spawntime="300"/>
+    <monster name="Ghost" x="-2" y="1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="519" centery="666" centerz="9" radius="2">
+    <monster name="Ghost" x="-1" y="-1" z="9" spawntime="300"/>
+    <monster name="Crypt shambler" x="-2" y="1" z="9" spawntime="300"/>
+    <monster name="Crypt shambler" x="1" y="2" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="819" centery="800" centerz="9" radius="2">
+    <monster name="Giant Spider" x="0" y="-1" z="9" spawntime="300"/>
+    <monster name="Giant Spider" x="-1" y="1" z="9" spawntime="300"/>
+  </spawn>
   <spawn centerx="822" centery="808" centerz="9" radius="2">
     <monster name="Giant Spider" x="-1" y="0" z="9" spawntime="300"/>
     <monster name="Tarantula" x="1" y="2" z="9" spawntime="300"/>
@@ -3934,6 +4261,102 @@
   <spawn centerx="498" centery="572" centerz="10" radius="5">
     <monster name="Blood Crab" x="-2" y="-2" z="10" spawntime="60"/>
   </spawn>
+  <spawn centerx="537" centery="626" centerz="10" radius="1">
+    <monster name="Ghoul" x="0" y="1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="541" centery="630" centerz="10" radius="2">
+    <monster name="Ghoul" x="-1" y="1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="546" centery="631" centerz="10" radius="2">
+    <monster name="Skeleton Warrior" x="-1" y="-2" z="10" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="0" y="1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="556" centery="631" centerz="10" radius="2">
+    <monster name="Skeleton Warrior" x="0" y="-2" z="10" spawntime="300"/>
+    <monster name="Crypt shambler" x="0" y="-1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="536" centery="634" centerz="10" radius="2">
+    <monster name="Skeleton Warrior" x="1" y="-1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="565" centery="634" centerz="10" radius="2">
+    <monster name="Crypt shambler" x="0" y="-1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="533" centery="638" centerz="10" radius="2">
+    <monster name="Crypt shambler" x="-1" y="-1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="541" centery="638" centerz="10" radius="2">
+    <monster name="Ghoul" x="0" y="1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="551" centery="638" centerz="10" radius="2">
+    <monster name="Skeleton Warrior" x="-1" y="-2" z="10" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="1" y="-1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="537" centery="642" centerz="10" radius="1">
+    <monster name="Ghoul" x="-1" y="-1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="557" centery="645" centerz="10" radius="2">
+    <monster name="Crypt shambler" x="-1" y="-2" z="10" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="1" y="1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="541" centery="647" centerz="10" radius="2">
+    <monster name="Crypt shambler" x="0" y="-1" z="10" spawntime="300"/>
+    <monster name="Ghost" x="0" y="1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="564" centery="648" centerz="10" radius="2">
+    <monster name="Ghost" x="0" y="-1" z="10" spawntime="300"/>
+    <monster name="Crypt shambler" x="1" y="-1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="536" centery="651" centerz="10" radius="2">
+    <monster name="Crypt shambler" x="-1" y="1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="542" centery="653" centerz="10" radius="2">
+    <monster name="Skeleton Warrior" x="-1" y="-1" z="10" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="1" y="1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="560" centery="653" centerz="10" radius="2">
+    <monster name="Ghoul" x="-1" y="0" z="10" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="2" y="2" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="528" centery="656" centerz="10" radius="2">
+    <monster name="Ghoul" x="-1" y="1" z="10" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="0" y="1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="547" centery="661" centerz="10" radius="2">
+    <monster name="Ghoul" x="2" y="-1" z="10" spawntime="300"/>
+    <monster name="Ghoul" x="-1" y="1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="535" centery="662" centerz="10" radius="2">
+    <monster name="Ghoul" x="-1" y="-1" z="10" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="1" y="-1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="568" centery="664" centerz="10" radius="2">
+    <monster name="Crypt shambler" x="0" y="-1" z="10" spawntime="300"/>
+    <monster name="Ghost" x="2" y="0" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="567" centery="667" centerz="10" radius="2">
+    <monster name="Ghost" x="-1" y="1" z="10" spawntime="300"/>
+    <monster name="Crypt shambler" x="1" y="2" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="552" centery="672" centerz="10" radius="2">
+    <monster name="Skeleton Warrior" x="0" y="1" z="10" spawntime="300"/>
+    <monster name="Ghoul" x="1" y="1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="564" centery="674" centerz="10" radius="2">
+    <monster name="Skeleton Warrior" x="0" y="-1" z="10" spawntime="300"/>
+    <monster name="Crypt shambler" x="2" y="1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="543" centery="675" centerz="10" radius="2">
+    <monster name="Crypt shambler" x="0" y="-1" z="10" spawntime="300"/>
+    <monster name="Ghost" x="-1" y="2" z="10" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="1" y="2" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="560" centery="677" centerz="10" radius="2">
+    <monster name="Skeleton Warrior" x="-1" y="0" z="10" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="0" y="2" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="550" centery="678" centerz="10" radius="2">
+    <monster name="Ghoul" x="-1" y="0" z="10" spawntime="300"/>
+  </spawn>
   <spawn centerx="810" centery="807" centerz="10" radius="2">
     <monster name="Giant Spider" x="1" y="0" z="10" spawntime="300"/>
   </spawn>
@@ -3964,5 +4387,15 @@
   <spawn centerx="816" centery="839" centerz="10" radius="2">
     <monster name="Tarantula" x="-2" y="-2" z="10" spawntime="300"/>
     <monster name="Tarantula" x="-1" y="2" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="548" centery="625" centerz="11" radius="2">
+    <monster name="Ghost" x="1" y="-1" z="11" spawntime="300"/>
+    <monster name="Ghost" x="-2" y="0" z="11" spawntime="300"/>
+  </spawn>
+  <spawn centerx="555" centery="630" centerz="11" radius="2">
+    <monster name="Ghost" x="0" y="-1" z="11" spawntime="300"/>
+  </spawn>
+  <spawn centerx="549" centery="631" centerz="11" radius="2">
+    <monster name="Lost Soul" x="-1" y="0" z="11" spawntime="300"/>
   </spawn>
 </spawns>

@@ -51,7 +51,7 @@
 
 		<element holyPercent="0"/>
 
-		<element icePercent="0"/>
+		<element icePercent="10"/>
 
 		<element deathPercent="-10"/>
 

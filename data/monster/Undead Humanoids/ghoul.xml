@@ -62,9 +62,10 @@
 
 		<element earthPercent="10"/>
 
-		<element icePercent="10"/>
+		<element holyPercent="-60"/>
 
-		<element holyPercent="-25"/>
+		<element icePercent="20"/>
+
 
 	</elements>
 
@@ -73,8 +74,6 @@
 		<immunity lifedrain="1"/>
 
 		<immunity paralyze="1"/>
-
-		<immunity invisible="1"/>
 
 	</immunities>
 

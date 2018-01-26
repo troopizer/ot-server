@@ -313,4 +313,77 @@
             <missionstate id="2" description="Mission Complete."/>
         </mission>  
     </quest>
+    <quest name="Fornost Erain Tales" startstorageid="30013" startstoragevalue="12">
+        <mission name="The old dwarven sorcerer" storageid="2059" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Kill ghosts and get 5 magic sulphurs for Grein."/>
+            <missionstate id="1" description="Mission Complete."/>
+        </mission>  
+    </quest>
+    <quest name="Fire Magic Trait" startstorageid="30014" startstoragevalue="13">
+        <mission name="Fire Sorcerer Level" storageid="2060" startvalue="0" endvalue="5">
+            <missionstate id="0" description="Fire Sorcerer Level 1. Basic spells: Fire Strike."/>
+            <missionstate id="1" description="Fire Sorcerer Level 2."/>
+            <missionstate id="2" description="Fire Sorcerer Level 3."/>
+            <missionstate id="3" description="Fire Sorcerer Level 4."/>
+            <missionstate id="4" description="Fire Sorcerer Level 5."/>
+            <missionstate id="5" description="Fire Sorcerer Level 6."/>
+        </mission>
+    </quest>
+    <quest name="Earth Magic Trait" startstorageid="30015" startstoragevalue="14">
+        <mission name="Earth Sorcerer Level" storageid="2061" startvalue="0" endvalue="5">
+            <missionstate id="0" description="Earth Sorcerer Level 1. Basic spells: Earth Strike."/>
+            <missionstate id="1" description="Earth Sorcerer Level 2."/>
+            <missionstate id="2" description="Earth Sorcerer Level 3."/>
+            <missionstate id="3" description="Earth Sorcerer Level 4."/>
+            <missionstate id="4" description="Earth Sorcerer Level 5."/>
+            <missionstate id="5" description="Earth Sorcerer Level 6."/>
+        </mission>
+    </quest>
+    <quest name="Energy Magic Trait" startstorageid="30016" startstoragevalue="15">
+        <mission name="Energy Sorcerer Level" storageid="2062" startvalue="0" endvalue="5">
+            <missionstate id="0" description="Energy Sorcerer Level 1. Basic spells: Energy Strike."/>
+            <missionstate id="1" description="Energy Sorcerer Level 2."/>
+            <missionstate id="2" description="Energy Sorcerer Level 3."/>
+            <missionstate id="3" description="Energy Sorcerer Level 4."/>
+            <missionstate id="4" description="Energy Sorcerer Level 5."/>
+            <missionstate id="5" description="Energy Sorcerer Level 6."/>
+        </mission>
+    </quest>
+    <quest name="Ice Magic Trait" startstorageid="30017" startstoragevalue="16">
+        <mission name="Ice Sorcerer Level" storageid="2063" startvalue="0" endvalue="5">
+            <missionstate id="0" description="Ice Sorcerer Level 1. Basic spells: Ice Strike."/>
+            <missionstate id="1" description="Ice Sorcerer Level 2."/>
+            <missionstate id="2" description="Ice Sorcerer Level 3."/>
+            <missionstate id="3" description="Ice Sorcerer Level 4."/>
+            <missionstate id="4" description="Ice Sorcerer Level 5."/>
+            <missionstate id="5" description="Ice Sorcerer Level 6."/>
+        </mission>
+    </quest>
+    <quest name="Life Magic Trait" startstorageid="30018" startstoragevalue="17">
+        <mission name="Druid Level" storageid="2064" startvalue="0" endvalue="5">
+            <missionstate id="0" description="Druid Level 1. Basic spells: Life Strike, Wisp Summon."/>
+            <missionstate id="1" description="Druid Level 2."/>
+            <missionstate id="2" description="Druid Level 3."/>
+            <missionstate id="3" description="Druid Level 4."/>
+            <missionstate id="4" description="Druid Level 5."/>
+            <missionstate id="5" description="Druid Level 6."/>
+        </mission>
+    </quest>
+    <quest name="Death Magic Trait" startstorageid="30019" startstoragevalue="18">
+        <mission name="Necromancer Level" storageid="2065" startvalue="0" endvalue="5">
+            <missionstate id="0" description="Necromancer Level 1. Basic spells: Death Strike, Skeleton Legion."/>
+            <missionstate id="1" description="Necromancer Level 2."/>
+            <missionstate id="2" description="Necromancer Level 3."/>
+            <missionstate id="3" description="Necromancer Level 4."/>
+            <missionstate id="4" description="Necromancer Level 5."/>
+            <missionstate id="5" description="Necromancer Level 6."/>
+        </mission>
+    </quest>
+    <quest name="Elemental Magic Path" startstorageid="30020" startstoragevalue="19">
+        <mission name="Death Magic Start" storageid="2066" startvalue="0" endvalue="2">
+            <missionstate id="0" description="Find a master able to craft one life cristal, you will have to kill people in order to prove yourself, by being with red skull."/>
+            <missionstate id="1" description="Find one Ainur statue and ask for the blessing."/>
+            <missionstate id="2" description="Completed."/>
+        </mission>
+    </quest>
 </quests>

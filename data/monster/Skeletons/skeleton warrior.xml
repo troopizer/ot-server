@@ -40,7 +40,7 @@
 
 		<attack name="melee" interval="2000" skill="20" attack="35"/>
 
-		<attack name="lifedrain" interval="1000" chance="15" range="4" min="-5" max="-18">
+		<attack name="lifedrain" interval="1000" chance="15" range="4" min="-8" max="-20">
 
 			<attribute key="areaEffect" value="redshimmer"/>
 
@@ -52,19 +52,13 @@
 
 	<elements>
 
-		<element holyPercent="-25"/>
+		<element deathPercent="100"/>
 
-		<element icePercent="10"/>
+		<element holyPercent="-60"/>
+
+		<element icePercent="20"/>
 
 	</elements>
-
-	<immunities>
-
-		<immunity death="1"/>
-
-		<immunity paralyze="1"/>
-
-	</immunities>
 
 	<loot>
 

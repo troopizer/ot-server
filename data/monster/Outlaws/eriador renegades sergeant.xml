@@ -2,7 +2,7 @@
 
 <monster name="Eriador Renegades Sergeant" nameDescription="a eriador renegades sergeant" race="blood" experience="350" speed="210" manacost="450">
 
-	<health now="450" max="450"/>
+	<health now="500" max="500"/>
 	<look type="131" head="114" body="114" legs="113" feet="114" addons="3" corpse="6080"/>
 
 	<targetchange interval="5000" chance="8"/>
@@ -96,9 +96,9 @@
 
 		<item id="2389" countmax="2" chance="10000"/><!-- spear -->
 
-		<item id="3965" chance="500"/><!-- hunting spear -->
+		<item id="3965" chance="1000"/><!-- hunting spear -->
 
-		<item id="5913" countmax="1" chance="8000"/><!-- brown piece of cloth -->
+		<item id="5913" countmax="2" chance="8000"/><!-- brown piece of cloth -->
 
 		<item id="5909" countmax="1" chance="5000"/><!-- white piece of cloth -->
 

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Wisp" nameDescription="a wisp" race="undead" experience="0" speed="200" manacost="0">
-	<health now="115" max="115"/>
+	<health now="120" max="120"/>
 	<look type="294" corpse="6324"/>
 	<targetchange interval="60000" chance="0"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
-		<flag summonable="0"/>
+		<flag summonable="1"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="0"/>
+		<flag illusionable="1"/>
 		<flag convinceable="1"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
 		<flag staticattack="15"/>
-		<flag lightlevel="0"/>
+		<flag lightlevel="2"/>
 		<flag lightcolor="0"/>
-		<flag targetdistance="3"/>
-		<flag runonhealth="30"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="15"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="-0" max="-60"/>
+		<attack name="melee" interval="2000" skill="22" attack="23"/>
 		<attack name="lifedrain" interval="2000" min="-20" max="-40">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
@@ -36,13 +36,13 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element energyPercent="-30"/>
-		<element earthPercent="-80"/>
-		<element deathPercent="-65"/>
+		<element energyPercent="-20"/>
+		<element earthPercent="-10"/>
+		<element deathPercent="-50"/>
+		<element holyPercent="90"/>
+		<element icePercent="-20"/>
 	</elements>
 	<immunities>
-		<immunity physical="1"/>
-		<immunity paralyze="1"/>
 		<immunity drunk="1"/>
 	</immunities>
 	<voices interval="2000" chance="5">

@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Spectre" nameDescription="a spectre" race="undead" experience="2100" speed="250" manacost="0">
-	<health now="1350" max="1350"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Barrow Wight" nameDescription="a barrow wight" race="undead" experience="1500" speed="260" manacost="0">
+	<health now="2000" max="2000"/>
 	<look type="235" head="20" corpse="6348"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -18,17 +18,18 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="-0" max="-200"/>
-		<attack name="poison" interval="2000" chance="10" range="7" radius="4" target="1" min="-150" max="-350">
+		<attack name="melee" interval="2000" min="-60" max="-250"/>
+		<attack name="poison" interval="2000" chance="12" range="7" radius="5" target="1" min="-100" max="-350">
 			<attribute key="shootEffect" value="fire"/>
 			<attribute key="areaEffect" value="rednote"/>
 		</attack>
-		<attack name="poisonfield" interval="1000" chance="17" range="7" radius="3" target="1">
+		<attack name="poisonfield" interval="1000" chance="17" range="7" radius="4" target="1">
 			<attribute key="shootEffect" value="poison"/>
 		</attack>
-		<attack name="manadrain" interval="3000" chance="25" range="7" min="-10" max="-400">
+		<attack name="manadrain" interval="3000" chance="50" range="7" min="-10" max="-300">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
+		<attack name="lifedrain" interval="1000" chance="15" range="2" min="-50" max="-150"/>
 	</attacks>
 	<defenses armor="25" defense="20">
 		<defense name="healing" interval="1000" chance="50" min="75" max="125">
@@ -36,40 +37,39 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="100"/>
-		<element deathPercent="100"/>
-		<element physicalPercent="60"/>
-		<element icePercent="55"/>
-		<element firePercent="-23"/>
-		<element energyPercent="-20"/>
+		<element earthPercent="30"/>
+		<element deathPercent="60"/>
+		<element physicalPercent="100"/>
+		<element icePercent="50"/>
+		<element firePercent="10"/>
+		<element energyPercent="10"/>
+		<element holyPercent="-70"/>
 	</elements>
 	<immunities>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 	</immunities>
-	<voices interval="5000" chance="10">
-		<voice sentence="Revenge ... is so ... sweet!"/>
+	<voices interval="5000" chance="15">
+		<voice sentence="Revenge ...!"/>
 		<voice sentence="Life...force! Feed me your... lifeforce!"/>
+		<voice sentence="For Angmar..! For the Witch King!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
-		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
-		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
-		<item id="2152" countmax="3" chance="33333"/><!-- platinum coin -->
-		<item id="2260" chance="6667"/><!-- blank rune -->
-		<item id="2260" chance="3333"/><!-- blank rune -->
-		<item id="5909" countmax="1" chance="2222"/><!-- white piece of cloth -->
-		<item id="2134" chance="2857"/><!-- silver brooch -->
-		<item id="2642" chance="5000"/><!-- sandals -->
-		<item id="2071" chance="1818"/><!-- lyre -->
-		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
-				<item id="2189" chance="1333"/><!-- wand of cosmic energy -->
-				<item id="6500" countmax="1" chance="2857"/><!-- demonic essence -->
-				<item id="5944" countmax="1" chance="1429"/><!-- soul orb -->
-				<item id="6300" chance="1000"/><!-- death ring -->
-				<item id="2136" chance="909"/><!--demonbone amulet -->
-			</inside>
-		</item>
+		<item id="2152" countmax="10" chance="40000"/><!-- platinum coin -->
+		<item id="5909" countmax="5" chance="20000"/><!-- white piece of cloth -->
+		<item id="1987" chance="100000"/><!-- bag -->
+		<item id="5904" countmax="4" chance="15000"/><!-- magic sulphurs -->
+		<item id="2528" chance="500"/><!-- arnorian heavy shield -->
+		<item id="2499" chance="300"/><!-- arnorian full helme -->
+		<item id="2503" chance="300"/><!-- arnorian full armor -->
+		<item id="2504" chance="500"/><!-- arnorian full legs -->
+		<item id="7383" chance="500"/><!-- elemental sword -->
+		<item id="7392" chance="500"/><!-- elemental club -->
+		<item id="2430" chance="500"/><!-- elemental axe -->
+				<item id="2150" chance="800"/><!-- small amethyst -->
+				<item id="2146" chance="800"/><!-- small sapphire -->
+				<item id="2147" chance="800"/><!-- small ruby -->
+				<item id="2149" chance="800"/><!-- small emerald-->
+
 	</loot>
 </monster>

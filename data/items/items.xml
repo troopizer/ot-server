@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <items>
     <item id="100" name="void" />
     <item id="101" name="earth" />
@@ -2172,7 +2172,7 @@
 	<item id="2197" article="a" name="stone skin amulet">
 		<attribute key="weight" value="760" />
 		<attribute key="slotType" value="necklace" />
-		<attribute key="charges" value="5" />
+		<attribute key="charges" value="50" />
 		<attribute key="showcharges" value="1" />
 		<attribute key="absorbPercentPhysical" value="10" />
 		<attribute key="absorbPercentDeath" value="10" />
@@ -2199,7 +2199,7 @@
 		<attribute key="slotType" value="necklace" />
 		<attribute key="charges" value="250" />
 		<attribute key="showcharges" value="1" />
-		<attribute key="absorbPercentPhysical" value="6" />
+		<attribute key="absorbPercentPhysical" value="10" />
 		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="2201" article="a" name="dragon necklace">
@@ -3065,16 +3065,16 @@
         <attribute key="weaponType" value="sword" />
     </item>
     <item id="2412" article="a" name="katana">
+        <attribute key="description" value="Sharp steel blade." />
         <attribute key="weight" value="3100" />
-        <attribute key="defense" value="12" />
-        <attribute key="attack" value="16" />
+        <attribute key="defense" value="18" />
+        <attribute key="attack" value="33" />
         <attribute key="weaponType" value="sword" />
-        <attribute key="extradef" value="1" />
     </item>
-    <item id="2413" article="a" name="broadsword">
-        <attribute key="weight" value="5250" />
-        <attribute key="defense" value="23" />
-        <attribute key="attack" value="26" />
+    <item id="2413" article="a" name="steel broadsword">
+        <attribute key="weight" value="6050" />
+        <attribute key="defense" value="29" />
+        <attribute key="attack" value="33" />
         <attribute key="weaponType" value="sword" />
         <attribute key="slotType" value="two-handed" />
     </item>
@@ -3092,7 +3092,7 @@
         <attribute key="defense" value="15" />
         <attribute key="attack" value="28" />
         <attribute key="weaponType" value="axe" />
-        <attribute key="skillAxe" value="2" />
+        <attribute key="skillAxe" value="1" />
     </item>
     <item id="2416" article="a" name="crowbar">
         <attribute key="weight" value="2100" />
@@ -3161,10 +3161,10 @@
         <attribute key="weaponType" value="axe" />
         <attribute key="slotType" value="two-handed" />
     </item>
-    <item id="2426" article="a" name="naginata">
-        <attribute key="weight" value="8000" />
+    <item id="2426" article="a" name="steel light halberd">
+        <attribute key="weight" value="6000" />
         <attribute key="defense" value="19" />
-        <attribute key="attack" value="39" />
+        <attribute key="attack" value="35" />
         <attribute key="weaponType" value="axe" />
         <attribute key="slotType" value="two-handed" />
     </item>
@@ -3595,9 +3595,9 @@
         <attribute key="slotType" value="head" />
     </item>
     <item id="2499" article="an" name="arnorian full helmet">
-        <attribute key="description" value="Strong steel helmet made in the old kingdom Arnor." />
+        <attribute key="description" value="Strong steel helmet made in the old kingdom of Arnor." />
         <attribute key="weight" value="4000" />
-        <attribute key="armor" value="8" />
+        <attribute key="armor" value="9" />
         <attribute key="slotType" value="head" />
         <attribute key="absorbPercentPhysical" value="2" />
     </item>
@@ -3620,7 +3620,7 @@
     </item>
     <item id="2503" article="a" name="arnorian full armor">
         <attribute key="weight" value="12000" />
-        <attribute key="description" value="Strong steel armor made in the old kingdom Arnor." />
+        <attribute key="description" value="Strong steel armor made in the old kingdom of Arnor." />
         <attribute key="armor" value="15" />
         <attribute key="slotType" value="body" />
         <attribute key="absorbPercentPhysical" value="4" />
@@ -3631,7 +3631,7 @@
     </item>
     <item id="2504" name="arnorian full legs">
         <attribute key="weight" value="6500" />
-        <attribute key="description" value="Strong steel legs made in the old kingdom Arnor." />
+        <attribute key="description" value="Strong steel legs made in the old kingdom of Arnor." />
         <attribute key="armor" value="9" />
         <attribute key="slotType" value="legs" />
         <attribute key="absorbPercentPhysical" value="4" />
@@ -3723,9 +3723,10 @@
         <attribute key="defense" value="35" />
         <attribute key="weaponType" value="shield" />
     </item>
-    <item id="2521" article="a" name="dark shield">
-        <attribute key="weight" value="5200" />
-        <attribute key="defense" value="25" />
+    <item id="2521" article="a" name="arnorian battle shield">
+        <attribute key="description" value="An old heavy shield used by soldiers in the arnorian army." />
+        <attribute key="weight" value="6200" />
+        <attribute key="defense" value="29" />
         <attribute key="weaponType" value="shield" />
     </item>
     <item id="2522" article="a" name="great shield">
@@ -3761,8 +3762,9 @@
         <attribute key="defense" value="27" />
         <attribute key="weaponType" value="shield" />
     </item>
-    <item id="2528" article="a" name="tower shield">
-        <attribute key="weight" value="8200" />
+    <item id="2528" article="a" name="arnorian heavy shield">
+        <attribute key="description" value="An old shield for the arnorian heavy infantry." />
+        <attribute key="weight" value="8500" />
         <attribute key="defense" value="32" />
         <attribute key="weaponType" value="shield" />
     </item>
@@ -4237,7 +4239,8 @@
     </item>
     <item id="2662" article="a" name="magician hat">
         <attribute key="weight" value="750" />
-        <attribute key="armor" value="1" />
+        <attribute key="armor" value="3" />
+        <attribute key="magiclevelpoints" value="1" />
         <attribute key="slotType" value="head" />
     </item>
     <item id="2663" article="a" name="mystic turban">
@@ -6959,10 +6962,10 @@
         <attribute key="weaponType" value="sword" />
         <attribute key="extradef" value="1" />
     </item>
-    <item id="3964" article="a" name="ripper lance">
-        <attribute key="weight" value="8000" />
-        <attribute key="defense" value="7" />
-        <attribute key="attack" value="28" />
+    <item id="3964" article="a" name="steel lance">
+        <attribute key="weight" value="4000" />
+        <attribute key="defense" value="17" />
+        <attribute key="attack" value="31" />
         <attribute key="weaponType" value="axe" />
     </item>
     <item id="3965" article="a" name="hunting spear" plural="hunting spears">
@@ -7024,7 +7027,7 @@
     </item>
     <item id="3975" article="a" name="iron goblin shield">
         <attribute key="weight" value="7500" />
-        <attribute key="defense" value="26" />
+        <attribute key="defense" value="28" />
         <attribute key="weaponType" value="shield" />
     </item>
     <item id="3976" article="a" name="worm" plural="worms">
@@ -11894,10 +11897,10 @@
         <attribute key="weaponType" value="sword" />
         <attribute key="extradef" value="2" />
     </item>
-    <item id="7385" article="a" name="crimson sword">
-        <attribute key="weight" value="3600" />
-        <attribute key="defense" value="10" />
-        <attribute key="attack" value="10" />
+    <item id="7385" article="a" name="steel sword">
+        <attribute key="weight" value="3800" />
+        <attribute key="defense" value="26" />
+        <attribute key="attack" value="29" />
         <attribute key="weaponType" value="sword" />
     </item>
     <item id="7386" article="a" name="eriador guardian sword">
@@ -11907,14 +11910,12 @@
         <attribute key="weaponType" value="sword" />
         <attribute key="description" value="Made from steel." />
         <attribute key="SkillShield" value="2" />
-        
     </item>
-    <item id="7387" article="a" name="diamond sceptre">
-        <attribute key="weight" value="1500" />
-        <attribute key="defense" value="18" />
-        <attribute key="attack" value="34" />
+    <item id="7387" article="a" name="steel sceptre">
+        <attribute key="weight" value="3900" />
+        <attribute key="defense" value="23" />
+        <attribute key="attack" value="30" />
         <attribute key="weaponType" value="club" />
-        <attribute key="description" value="The beautiful jewel on the top of this sceptre is sharp enough to cut through glass." />
     </item>
     <item id="7388" article="a" name="vile axe">
         <attribute key="weight" value="5200" />
@@ -12186,12 +12187,12 @@
         <attribute key="attack" value="48" />
         <attribute key="weaponType" value="club" />
     </item>
-    <item id="7432" article="a" name="furry club">
-        <attribute key="weight" value="4200" />
-        <attribute key="defense" value="19" />
-        <attribute key="attack" value="31" />
+    <item id="7432" article="a" name="troll club">
+        <attribute key="weight" value="12000" />
+        <attribute key="defense" value="20" />
+        <attribute key="attack" value="35" />
         <attribute key="weaponType" value="club" />
-        <attribute key="extradef" value="1" />
+        <attribute key="slotType" value="two-handed" />
     </item>
     <item id="7433" article="a" name="ravenwing">
         <attribute key="weight" value="5500" />
@@ -12280,10 +12281,10 @@
     <item id="7450" article="the" name="hammer of prophecy">
         <attribute key="weight" value="5500" />
     </item>
-    <item id="7451" article="a" name="shadow sceptre">
-        <attribute key="weight" value="4100" />
-        <attribute key="defense" value="17" />
-        <attribute key="attack" value="39" />
+    <item id="7451" article="a" name="steel heavy sceptre">
+        <attribute key="weight" value="6100" />
+        <attribute key="defense" value="26" />
+        <attribute key="attack" value="34" />
         <attribute key="weaponType" value="club" />
     </item>
     <item id="7452" article="a" name="eriador battle mace">
@@ -14576,8 +14577,9 @@
     <item id="8819" article="a" name="magician's robe">
         <attribute key="armor" value="6" />
         <attribute key="slotType" value="body" />
-        <attribute key="weight" value="2500" />
-        <attribute key="description" value="This robe feels soft and light as a feather." />
+        <attribute key="weight" value="2000" />
+        <attribute key="magiclevelpoints" value="1" />
+        <attribute key="description" value="This robe used to belong to a sorcerer." />
     </item>
     <item id="8820" article="a" name="mage hat">
         <attribute key="weight" value="750" />

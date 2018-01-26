@@ -23,8 +23,12 @@
 	</attacks>
 	<defenses armor="2" defense="6"/>
 	<elements>
-		<element earthPercent="100"/>
 		<element firePercent="-10"/>
+		<element earthPercent="50"/>
+		<element deathPercent="-10"/>
+		<element holyPercent="0"/>
+		<element icePercent="-10"/>
+		<element energyPercent="-10"/>
 	</elements>
 	<immunities>
 		<immunity lifedrain="0"/>

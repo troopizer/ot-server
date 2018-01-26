@@ -45,13 +45,12 @@
 
 	<elements>
 
-		<element earthPercent="80"/>
-
-		<element icePercent="20"/>
-
+		<element earthPercent="50"/>
+		<element icePercent="-10"/>
+		<element deathPercent="-10"/>
+		<element firePercent="-10"/>
+		<element holyPercent="0"/>
 		<element energyPercent="-10"/>
-
-		<element firePercent="-15"/>
 
 	</elements>
 

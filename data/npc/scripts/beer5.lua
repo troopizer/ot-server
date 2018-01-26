@@ -12,7 +12,10 @@ function creatureSayCallback(cid, type, msg)
 	end
 
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
-
+    if(msgcontains(msg, 'year') or msgcontains(msg, 'date') or msgcontains(msg, 'tales') or msgcontains(msg, 'information')) then
+				selfSay('We are in the year 2900 of the third age.', cid)
+				selfSay('I heard that Folcwine is the king of Rohan. Also Annúminas, the old city near Evendim lake west of Fornost, is under the control of the renegades and full of outlaws.', cid)
+    end
 	if(msgcontains(msg, 'mission')) then
     if(getPlayerStorageValue(cid,2050) == 0) then
 		selfSay('A mission? who send you?.', cid)

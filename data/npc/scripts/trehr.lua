@@ -16,12 +16,19 @@ function creatureSayCallback(cid, type, msg)
 	end
 
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
+    if(msgcontains(msg, 'year') or msgcontains(msg, 'date') or msgcontains(msg, 'tales') or msgcontains(msg, 'information')) then
+				selfSay('We are in the year 2900 of the third age.', cid)
+				selfSay('I have been told that Gerontius Took "The Old Took" is currently the Thain of the Shire and since 50 years Thorin II Oakenshield is the king of Durins folk.', cid)
+	end
 	if(msgcontains(msg, 'dwarf') or msgcontains(msg, 'help')  or msgcontains(msg, 'lost') or msgcontains(msg, 'history')) then
-				selfSay('We are a strong and proud raze. We are great miners and blacksmiths. I am actually a blacksmith returning from a business trip.', cid)
-		if(getPlayerStorageValue(cid,2051) < 0) then
+				selfSay('We are a strong and proud raze, great miners and blacksmiths. I am actually a blacksmith returning from a business trip.', cid)
+		if(getPlayerStorageValue(cid,2051) < 0 and getPlayerLevel(cid) > 34) then
 				selfSay('But one of my comrades, was caugth by some goblins that have a camp in the north part of Weather Hills. This happends 2 weeks ago, while he was hunting for dinner.', cid)
 				selfSay('We have been here waiting for a great warrior to help us, but all the rangers are else where. You seems strong, would you help us, {yes}? .', cid)	
 					talkState[talkUser] = 1
+		elseif(getPlayerLevel(cid) < 35)then
+				selfSay('But one of my comrades, was caugth by some goblins that have a camp in the north part of Weather Hills. This happends 2 weeks ago, while he was hunting for dinner.', cid)
+				selfSay('We have been here waiting for a great warrior to help us, but all the rangers are else where. You are not strong enough. (You should be level 35 at least)', cid)			
 		end
 	end
 	if(msgcontains(msg, 'mission')) then

@@ -56,6 +56,7 @@
 	<monster name="Pirate Ghost" file="Ghosts/pirate ghost.xml"/>
 	<monster name="Spectre" file="Ghosts/spectre.xml"/>
 	<monster name="Wisp" file="Ghosts/wisp.xml"/>
+	<monster name="Lost Soul" file="Ghosts/lost soul.xml"/>
 
 	<!-- Goblins -->
 	<monster name="Goblin" file="Goblins/goblin.xml"/>
@@ -103,6 +104,11 @@
 	<monster name="Squirrel" file="Misc/squirrel.xml"/>
 	<monster name="Water Buffalo" file="Misc/water buffalo.xml"/>
 
+	<!-- Necromancers -->
+	<monster name="Necromancer" file="Necromancers/necromancer.xml"/>
+	<monster name="Necromancer Apprentice" file="Necromancers/necromancer apprentice.xml"/>
+	<monster name="Priestess" file="Necromancers/priestess.xml"/>
+
 	<!-- Ores -->
 	<monster name="Tin Deposit" file="Ores/tin deposit.xml"/>
 	<monster name="Cooper Deposit" file="Ores/cooper deposit.xml"/>
@@ -131,13 +137,14 @@
 	<monster name="Cave Rat" file="Rats/cave rat.xml"/>
 	<monster name="Rat" file="Rats/rat.xml"/>
 
-	<!-- Renegates -->
+	<!-- Renegades -->
 	<monster name="Eriador Renegades Militia" file="Outlaws/eriador renegades militia.xml"/>
 	<monster name="Eriador Renegades Warrior" file="Outlaws/eriador renegades warrior.xml"/>
 	<monster name="Eriador Renegades Sergeant" file="Outlaws/eriador renegades sergeant.xml"/>
 	<monster name="Eriador Renegades Commander" file="Outlaws/eriador renegades commander.xml"/>
 	<monster name="Eriador Renegades Looter" file="Outlaws/eriador renegades looter.xml"/>
 	<monster name="Eriador Renegades Recruit" file="Outlaws/eriador renegades recruit.xml"/>
+	<monster name="Eriador Renegades Knife Sister" file="Outlaws/eriador renegades knife sister.xml"/>
 
 	<!-- Reptiles -->
 	<monster name="Crocodile" file="Reptiles/crocodile.xml"/>
@@ -169,6 +176,7 @@
 
 	<!-- Undead -->
 	<monster name="Ghoul" file="Undead Humanoids/ghoul.xml"/>
+	<monster name="Crypt Shambler" file="Undead Humanoids/crypt shambler.xml"/>
 
 	<!-- Training -->
 	<monster name="Training Monk" file="Training/training monk.xml"/>

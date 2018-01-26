@@ -23,6 +23,10 @@ function creatureSayCallback(cid, type, msg)
 	end
 
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
+    if(msgcontains(msg, 'year') or msgcontains(msg, 'date') or msgcontains(msg, 'tales') or msgcontains(msg, 'information')) then
+				selfSay('We are in the year 2900 of the third age.', cid)
+				selfSay('I have been told that Gerontius Took "The Old Took" is currently the Thain of the Shire.', cid)
+	end
 	if(msgcontains(msg, 'herbs')) then
 				selfSay('There are many herbs in this world, some have special properties. They can be used in {runes} and for {herbalist magic}.', cid)
 	end

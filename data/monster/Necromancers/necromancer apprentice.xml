@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Necromancer Apprentice" nameDescription="a necromancer apprentice" race="blood" experience="200" speed="200" manacost="0">
+	<health now="400" max="400"/>
+	<look type="133" head="114" body="95" legs="114" feet="114" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="4"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="25" attack="25" poison="90"/>
+		<attack name="lifedrain" interval="1000" chance="20" range="2" min="-20" max="-40">
+			<attribute key="areaEffect" value="redspark"/>
+		</attack>
+		<attack name="death" interval="3000" chance="18" range="7" min="-15" max="-70">
+			<attribute key="shootEffect" value="suddendeath"/>
+		</attack>
+	</attacks>
+	<defenses armor="20" defense="20">
+		<defense name="healing" interval="1000" chance="25" min="12" max="30">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element earthPercent="0"/>
+		<element icePercent="0"/>
+		<element deathPercent="0"/>
+		<element firePercent="-5"/>
+		<element holyPercent="-20"/>
+		<element energyPercent="-5"/>
+	</elements>
+	<summons maxSummons="2">
+		<summon name="Skeleton" interval="1000" chance="20" max="2"/>
+	</summons>
+	<voices interval="5000" chance="10">
+		<voice sentence="Your corpse will be mine!"/>
+		<voice sentence="Die!"/>
+	</voices>
+	<loot>
+		<item id="2186" chance="110"/><!-- moonlight rod -->
+		<item id="2148" countmax="40" chance="100000"/><!-- gold coin -->
+		<item id="2032" chance="10000"/><!-- bowl -->
+		<item id="2804" countmax="2" chance="20000"/><!-- shadow herb -->
+		<item id="2182" chance="1333"/><!-- snakebite rod -->
+		<item id="2406" chance="15000"/><!-- short sword -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="2412" chance="10000"/><!-- katana -->
+				<item id="2483" chance="10000"/><!-- scale armor -->
+				<item id="2796" countmax="1" chance="1500"/><!-- green mushroom -->
+				<item id="2229" countmax="3" chance="20000"/><!-- skull -->
+				<item id="2747" chance="20000"/><!-- grave flower -->
+				<item id="2436" chance="833"/><!-- skull staff -->
+				<item id="2663" chance="909"/><!-- mystic turban -->
+				<item id="2195" chance="666"/><!-- boots of haste -->
+				<item id="2423" chance="5000"/><!-- clerical mace -->
+			</inside>
+		</item>
+	</loot>
+</monster>

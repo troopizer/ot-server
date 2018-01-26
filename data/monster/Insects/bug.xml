@@ -21,9 +21,12 @@
 		<attack name="melee" interval="2000" skill="23" attack="9"/>
 	</attacks>
 	<defenses armor="2" defense="3"/>
-	<elements>
+		<element earthPercent="5"/>
+		<element icePercent="-10"/>
+		<element deathPercent="-10"/>
 		<element firePercent="-10"/>
-	</elements>
+		<element holyPercent="0"/>
+		<element energyPercent="-10"/>
 	<loot>
 		<item id="3976" countmax="10" chance="50000"/><!-- worm -->
 		<item id="2148" countmax="4" chance="100000"/><!-- gold coin -->

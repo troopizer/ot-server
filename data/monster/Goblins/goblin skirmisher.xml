@@ -29,10 +29,12 @@
 	</attacks>
 	<defenses armor="25" defense="25"/>
 	<elements>
-		<element energyPercent="20"/>
-		<element holyPercent="-20"/>
-		<element earthPercent="10"/>
+		<element earthPercent="5"/>
+		<element icePercent="-5"/>
 		<element deathPercent="-5"/>
+		<element firePercent="-5"/>
+		<element holyPercent="-10"/>
+		<element energyPercent="-5"/>
 	</elements>
 	<voices interval="5000" chance="15">
 		<voice sentence="ukmaukh! drepa!"/>

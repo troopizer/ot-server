@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Ainur Statue" nameDescription="A monument blessed by Ainurs." script="ainurbless1.lua" speed="0" loorchange="0">
+
+	<health now="100" max="100"/>
+
+	<look type="319"/>
+
+	<parameters>
+
+		<parameter key="message_greet" value="... "/>
+
+		<parameter key="message_decline" value="..."/>
+
+	</parameters>
+
+</npc>

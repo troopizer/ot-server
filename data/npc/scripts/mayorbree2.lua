@@ -13,6 +13,10 @@ function creatureSayCallback(cid, type, msg)
 	end
 
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
+    if(msgcontains(msg, 'year') or msgcontains(msg, 'date') or msgcontains(msg, 'tales') or msgcontains(msg, 'information')) then
+				selfSay('We are in the year 2900 of the third age.', cid)
+				selfSay('I have been informed that Gerontius Took "The Old Took" is currently the Thain of the Shire, also Túrin II is the 22th Steward of Gondor.', cid)
+    end
 	if(msgcontains(msg, 'bree')) then
 		selfSay('Bree is a litle town, but the biggest of men in Erianor. Its a good place to learn basic skills and start your adventures', cid)
 	end
