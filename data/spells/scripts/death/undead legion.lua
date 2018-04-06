@@ -1,10 +1,14 @@
 function onTargetTile(cid, pos)
-	local getPos = pos
+	local getPos = pos 
+	local n = 6
 	getPos.stackpos = STACKPOS_TOP_MOVEABLE_ITEM_OR_CREATURE
 
 	local corpse = getThingfromPos(getPos)
+		if (getPlayerSlotItem(cid, armor) == 8821) then
+			n = 8
+		end
 	if(corpse.uid > 0 and isCorpse(corpse.uid) and isMoveable(corpse.uid)) then
-		if (getCreatureSummonN(cid) < 8) then
+		if (getCreatureSummonN(cid) < n) then
 			doRemoveItem(corpse.uid)
 			doConvinceCreature(cid, doSummonCreature("Skeleton", pos))
 

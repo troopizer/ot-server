@@ -86,7 +86,7 @@
 
 		<item id="2473" chance="5000"/><!-- iron hornet helmet -->
 
-		<item id="3974" chance="800"/><!-- savage shield -->
+		<item id="3974" chance="500"/><!-- savage shield -->
 
 		<item id="5913" countmax="1" chance="8000"/><!-- brown piece of cloth -->
 

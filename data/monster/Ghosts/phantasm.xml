@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Phantasm" nameDescription="a phantasm" race="undead" experience="4400" speed="280" manacost="0">
-	<health now="3950" max="3950"/>
+<monster name="Witch Wight" nameDescription="a witch wight" race="undead" experience="2500" speed="280" manacost="0">
+	<health now="2000" max="2000"/>
 	<look type="241" head="20" corpse="6344"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -18,10 +18,22 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="-40" max="-250"/>
-		<attack name="poison" interval="2000" chance="10" range="7" radius="4" target="1" min="-150" max="-300">
-			<attribute key="shootEffect" value="poison"/>
-			<attribute key="areaEffect" value="poison"/>
+		<attack name="melee" interval="2000" min="-80" max="-280"/>
+		<attack name="death" interval="2000" chance="15" range="7" radius="4" target="1" min="-150" max="-350">
+			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="fire" interval="3000" chance="5" range="7" min="-30" max="-100">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+		<attack name="earth" interval="3000" chance="5" range="7" min="-30" max="-100">
+			<attribute key="shootEffect" value="earth"/>
+		</attack>
+		<attack name="energy" interval="3000" chance="5" range="7" min="-30" max="-100">
+			<attribute key="shootEffect" value="energy"/>
+		</attack>
+		<attack name="ice" interval="3000" chance="5" range="7" min="-30" max="-100">
+			<attribute key="shootEffect" value="ice"/>
 		</attack>
 		<attack name="poisonfield" interval="1000" chance="17" range="7" radius="3" target="1">
 			<attribute key="shootEffect" value="poison"/>
@@ -36,20 +48,19 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element deathPercent="100"/>
+		<element earthPercent="50"/>
+		<element deathPercent="60"/>
 		<element physicalPercent="100"/>
-		<element earthPercent="70"/>
-		<element icePercent="70"/>
-		<element holyPercent="-25"/>
-		<element firePercent="-24"/>
-		<element icePercent="-22"/>
+		<element icePercent="50"/>
+		<element firePercent="20"/>
+		<element energyPercent="20"/>
+		<element holyPercent="-70"/>
 	</elements>
 	<immunities>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 	</immunities>
-	<voices interval="5000" chance="10">
-		<voice sentence="Oh my, you forgot to put your pants on!"/>
+	<voices interval="5000" chance="20">
 		<voice sentence="Weeheeheeheehee!"/>
 		<voice sentence="Its nothing but a dream!"/>
 		<voice sentence="Give in!"/>

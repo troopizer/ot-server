@@ -3,17 +3,17 @@
 	<!-- Lotr wands -->
 	<wand id="2327" level="10" mana="2" min="5" max="10" type="holy" event="function" value="default"> <!-- Ankh -->
 	</wand>
-
+	<wand id="2182" level="30" mana="5" min="25" max="35" type="earth" event="function" value="default"> <!-- Snakebite Rod -->
+	</wand>
+	<wand id="2190" level="30" mana="5" min="25" max="35" type="energy" event="function" value="default"> <!-- Wand of Vortex -->
+	</wand>
+	<wand id="2186" level="30" mana="5" min="25" max="35" type="ice" event="function" value="default"> <!-- Moonlight Rod -->
+	</wand>
+	<wand id="2191" level="30" mana="5" min="25" max="35" type="fire" event="function" value="default"> <!-- Wand of Dragonbreath -->
+	</wand>
+	<wand id="2185" level="40" mana="5" min="25" max="35" type="death" event="function" value="default"> <!-- Necrotic Rod -->
+	</wand>
 	<!-- Rods -->
-	<wand id="2182" level="7" mana="2" min="8" max="18" type="earth" event="function" value="default"> <!-- Snakebite Rod -->
-		<vocation id="2"/>
-	</wand>
-	<wand id="2186" level="13" mana="3" min="13" max="25" type="ice" event="function" value="default"> <!-- Moonlight Rod -->
-		<vocation id="2"/>
-	</wand>
-	<wand id="2185" level="19" mana="5" min="27" max="33" type="death" event="function" value="default"> <!-- Necrotic Rod -->
-		<vocation id="2"/>
-	</wand>
 	<wand id="8911" level="22" mana="5" min="27" max="33" type="ice" event="function" value="default"> <!-- Northwind Rod -->
 		<vocation id="2"/>
 	</wand>
@@ -31,12 +31,6 @@
 	</wand>
 
 	<!-- Wands -->
-	<wand id="2190" level="7" mana="2" min="8" max="18" type="energy" event="function" value="default"> <!-- Wand of Vortex -->
-		<vocation id="1"/>
-	</wand>
-	<wand id="2191" level="13" mana="3" min="13" max="25" type="fire" event="function" value="default"> <!-- Wand of Dragonbreath -->
-		<vocation id="1"/>
-	</wand>
 	<wand id="2188" level="19" mana="5" min="27" max="33" type="death" event="function" value="default"> <!-- Wand of Decay -->
 		<vocation id="1"/>
 	</wand>
@@ -57,10 +51,8 @@
 	</wand>
 
 	<!-- Swords -->
-	<melee id="2413" unproperly="1" event="function" value="default">
-		<vocation id="4"/>
-	</melee>
-	<melee id="7385" level="20" unproperly="1" event="function" value="default"/>
+	<melee id="2413" level="30" unproperly="1" event="function" value="default"/>
+	<melee id="7385" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="11303" level="20" unproperly="1" event="function" value="default"/>
 	<melee id="7408" level="25" unproperly="1" event="function" value="default"/>
 	<melee id="7449" level="25" unproperly="1" event="function" value="default">
@@ -162,7 +154,7 @@
 	<melee id="2387" level="25" unproperly="1" event="function" value="default"/>
 	<melee id="2381" level="25" unproperly="1" event="function" value="default"/>
 	<melee id="2440" level="25" unproperly="1" event="function" value="default"/>
-	<melee id="2426" level="25" unproperly="1" event="function" value="default"/>
+	<melee id="2426" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="11317" level="25" unproperly="1" event="function" value="default"/>
 	<melee id="3962" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="7454" level="30" unproperly="1" event="function" value="default">
@@ -247,9 +239,9 @@
 	<!-- Clubs -->
 	<melee id="2423" level="20" unproperly="1" event="function" value="default"/>
 	<melee id="7381" level="20" unproperly="1" event="function" value="default"/>
-	<melee id="7432" level="20" unproperly="1" event="function" value="default"/>
+	<melee id="7432" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="2434" level="25" unproperly="1" event="function" value="default"/>
-	<melee id="7387" level="25" unproperly="1" event="function" value="default"/>
+	<melee id="7387" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="7379" level="25" unproperly="1" event="function" value="default"/>
 	<melee id="7430" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="2436" level="30" unproperly="1" event="function" value="default"/>
@@ -257,7 +249,7 @@
 	<melee id="7424" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="3961" level="35" unproperly="1" event="function" value="default"/>
 	<melee id="2445" level="35" unproperly="1" event="function" value="default"/>
-	<melee id="7451" level="35" unproperly="1" event="function" value="default"/>
+	<melee id="7451" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="7392" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="7426" level="40" unproperly="1" event="function" value="default"/>
 	<melee id="2424" level="45" unproperly="1" event="function" value="default"/>

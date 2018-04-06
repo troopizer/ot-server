@@ -1,13 +1,23 @@
 function onTargetTile(cid, pos)
-	local getPos = pos
+	local getPos = pos 
 	getPos.stackpos = STACKPOS_TOP_MOVEABLE_ITEM_OR_CREATURE
-	if (getCreatureSummonN(cid) == 0) then
-		doConvinceCreature(cid, doSummonCreature("Wisp", pos))
-		doSendMagicEffect(pos, CONST_ME_MAGIC_BLUE)
-		return true
+	if (getPlayerSlotItem(cid, armor) == 12604) then
+		if (getCreatureSummonN(cid) == 0) then
+			doConvinceCreature(cid, doSummonCreature("Strong Wisp", pos))
+			doSendMagicEffect(pos, CONST_ME_MAGIC_BLUE)
+			return true
+		else
+		return false
+		end
 	else
-	return false
-	end
+		if (getCreatureSummonN(cid) == 0) then
+			doConvinceCreature(cid, doSummonCreature("Wisp", pos))
+			doSendMagicEffect(pos, CONST_ME_MAGIC_BLUE)
+			return true
+		else
+		return false
+		end
+	end	
 end
 
 local area, combat = createCombatArea(AREA_BEAM1), createCombatObject()

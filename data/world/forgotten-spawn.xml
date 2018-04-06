@@ -29,6 +29,10 @@
   <spawn centerx="955" centery="1013" centerz="3" radius="1">
     <npc name="Dunedain Ranger" x="1" y="1" z="3" spawntime="300"/>
   </spawn>
+  <spawn centerx="741" centery="639" centerz="4" radius="2">
+    <monster name="Necromancer Apprentice" x="1" y="-1" z="4" spawntime="300"/>
+    <monster name="Necromancer Apprentice" x="-1" y="1" z="4" spawntime="300"/>
+  </spawn>
   <spawn centerx="510" centery="794" centerz="4" radius="1">
     <monster name="Harald Ferner" x="-1" y="-1" z="4" spawntime="900"/>
   </spawn>
@@ -141,6 +145,49 @@
   <spawn centerx="612" centery="613" centerz="5" radius="1">
     <npc name="Grein" x="0" y="-1" z="5" spawntime="300"/>
   </spawn>
+  <spawn centerx="721" centery="625" centerz="5" radius="2">
+    <monster name="Necromancer Apprentice" x="0" y="-1" z="5" spawntime="300"/>
+    <monster name="Priestess" x="2" y="2" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="730" centery="625" centerz="5" radius="2">
+    <monster name="Necromancer" x="-1" y="-1" z="5" spawntime="300"/>
+    <monster name="Necromancer Apprentice" x="2" y="1" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="715" centery="627" centerz="5" radius="2">
+    <monster name="Necromancer Apprentice" x="-1" y="0" z="5" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="1" y="1" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="740" centery="627" centerz="5" radius="2">
+    <monster name="Necromancer Apprentice" x="-2" y="-1" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="715" centery="639" centerz="5" radius="2">
+    <monster name="Skeleton Warrior" x="-1" y="-1" z="5" spawntime="300"/>
+    <monster name="Necromancer Apprentice" x="0" y="2" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="740" centery="639" centerz="5" radius="2">
+    <monster name="Necromancer Apprentice" x="2" y="-1" z="5" spawntime="300"/>
+    <monster name="Crypt shambler" x="-1" y="0" z="5" spawntime="300"/>
+    <monster name="Necromancer" x="1" y="1" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="731" centery="643" centerz="5" radius="2">
+    <monster name="Priestess" x="0" y="-1" z="5" spawntime="300"/>
+    <monster name="Necromancer" x="2" y="0" z="5" spawntime="300"/>
+    <monster name="Necromancer Apprentice" x="-1" y="1" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="740" centery="644" centerz="5" radius="2">
+    <monster name="Priestess" x="1" y="1" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="736" centery="645" centerz="5" radius="2">
+    <monster name="Necromancer Apprentice" x="0" y="1" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="715" centery="649" centerz="5" radius="2">
+    <monster name="Skeleton Warrior" x="0" y="-2" z="5" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="1" y="1" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="747" centery="650" centerz="5" radius="2">
+    <monster name="Necromancer Apprentice" x="1" y="-1" z="5" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="-1" y="0" z="5" spawntime="300"/>
+  </spawn>
   <spawn centerx="621" centery="666" centerz="5" radius="1">
     <monster name="Smuggler" x="0" y="-1" z="5" spawntime="300"/>
     <monster name="Wild Warrior" x="1" y="1" z="5" spawntime="300"/>
@@ -155,6 +202,10 @@
   </spawn>
   <spawn centerx="632" centery="670" centerz="5" radius="1">
     <monster name="Smuggler" x="1" y="0" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="697" centery="671" centerz="5" radius="2">
+    <monster name="Skeleton Warrior" x="-1" y="1" z="5" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="2" y="1" z="5" spawntime="300"/>
   </spawn>
   <spawn centerx="632" centery="677" centerz="5" radius="1">
     <monster name="Smuggler" x="-1" y="-1" z="5" spawntime="300"/>
@@ -556,9 +607,66 @@
   <spawn centerx="493" centery="558" centerz="6" radius="5">
     <npc name="Dimral" x="-1" y="0" z="6" spawntime="60"/>
   </spawn>
+  <spawn centerx="729" centery="624" centerz="6" radius="2">
+    <monster name="Necromancer Apprentice" x="-2" y="0" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="740" centery="625" centerz="6" radius="2">
+    <monster name="Necromancer Apprentice" x="-1" y="-1" z="6" spawntime="300"/>
+    <monster name="Necromancer Apprentice" x="0" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="721" centery="627" centerz="6" radius="2">
+    <monster name="Necromancer Apprentice" x="0" y="-1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="708" centery="632" centerz="6" radius="2">
+    <monster name="Necromancer Apprentice" x="-1" y="-1" z="6" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="1" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="729" centery="632" centerz="6" radius="2">
+    <monster name="Skeleton Warrior" x="-2" y="-2" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="698" centery="633" centerz="6" radius="2">
+    <monster name="Ghoul" x="-2" y="0" z="6" spawntime="300"/>
+    <monster name="Skeleton" x="-1" y="2" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="691" centery="634" centerz="6" radius="2">
+    <monster name="Skeleton Warrior" x="1" y="0" z="6" spawntime="300"/>
+    <monster name="Skeleton" x="1" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="734" centery="635" centerz="6" radius="2">
+    <monster name="Ghoul" x="0" y="-2" z="6" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="1" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="722" centery="636" centerz="6" radius="2">
+    <monster name="Skeleton Warrior" x="-1" y="-1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="710" centery="638" centerz="6" radius="2">
+    <monster name="Skeleton Warrior" x="1" y="-1" z="6" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="-1" y="0" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="617" centery="640" centerz="6" radius="2">
     <monster name="Fierce Wolf" x="-1" y="-2" z="6" spawntime="300"/>
     <monster name="Fierce Wolf" x="0" y="2" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="699" centery="641" centerz="6" radius="2">
+    <monster name="Skeleton" x="-1" y="0" z="6" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="1" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="740" centery="641" centerz="6" radius="2">
+    <monster name="Necromancer Apprentice" x="0" y="-2" z="6" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="0" y="-1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="729" centery="642" centerz="6" radius="2">
+    <monster name="Skeleton Warrior" x="1" y="-2" z="6" spawntime="300"/>
+    <monster name="Necromancer Apprentice" x="-1" y="2" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="706" centery="643" centerz="6" radius="2">
+    <monster name="Necromancer Apprentice" x="-1" y="-2" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="736" centery="644" centerz="6" radius="2">
+    <monster name="Priestess" x="0" y="2" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="708" centery="647" centerz="6" radius="2">
+    <monster name="Necromancer Apprentice" x="1" y="1" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="633" centery="649" centerz="6" radius="2">
     <monster name="Rabbit" x="-1" y="-1" z="6" spawntime="300"/>
@@ -568,9 +676,22 @@
     <monster name="Fierce Wolf" x="-1" y="-1" z="6" spawntime="300"/>
     <monster name="Fierce Wolf" x="1" y="2" z="6" spawntime="300"/>
   </spawn>
+  <spawn centerx="698" centery="656" centerz="6" radius="2">
+    <monster name="Skeleton Warrior" x="2" y="0" z="6" spawntime="300"/>
+    <monster name="Ghoul" x="-2" y="1" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="577" centery="657" centerz="6" radius="2">
     <monster name="Deer" x="-1" y="-1" z="6" spawntime="300"/>
     <monster name="Deer" x="1" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="714" centery="657" centerz="6" radius="2">
+    <monster name="Ghoul" x="-2" y="-2" z="6" spawntime="300"/>
+    <monster name="Skeleton" x="2" y="-1" z="6" spawntime="300"/>
+    <monster name="Ghoul" x="0" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="698" centery="662" centerz="6" radius="2">
+    <monster name="Ghoul" x="2" y="-1" z="6" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="-1" y="0" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="577" centery="664" centerz="6" radius="2">
     <monster name="Fierce Wolf" x="-1" y="-1" z="6" spawntime="300"/>
@@ -580,9 +701,17 @@
     <monster name="Bandit" x="-1" y="-1" z="6" spawntime="300"/>
     <monster name="Wild Warrior" x="1" y="1" z="6" spawntime="300"/>
   </spawn>
+  <spawn centerx="705" centery="666" centerz="6" radius="2">
+    <monster name="Ghoul" x="-1" y="-1" z="6" spawntime="300"/>
+    <monster name="Skeleton" x="1" y="2" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="636" centery="667" centerz="6" radius="1">
     <monster name="Smuggler" x="-1" y="-1" z="6" spawntime="300"/>
     <monster name="Wild Warrior" x="1" y="0" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="695" centery="671" centerz="6" radius="2">
+    <monster name="Skeleton Warrior" x="1" y="0" z="6" spawntime="300"/>
+    <monster name="Ghoul" x="-1" y="1" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="624" centery="672" centerz="6" radius="1">
     <monster name="Smuggler" x="1" y="1" z="6" spawntime="300"/>
@@ -594,6 +723,10 @@
   </spawn>
   <spawn centerx="640" centery="673" centerz="6" radius="1">
     <monster name="Smuggler" x="0" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="690" centery="673" centerz="6" radius="2">
+    <monster name="Skeleton" x="1" y="-1" z="6" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="-2" y="1" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="622" centery="679" centerz="6" radius="1">
     <monster name="Bandit" x="0" y="-1" z="6" spawntime="300"/>
@@ -1349,7 +1482,7 @@
     <monster name="Wasp" x="1" y="-1" z="7" spawntime="360"/>
   </spawn>
   <spawn centerx="597" centery="715" centerz="7" radius="2">
-    <monster name="Wolf" x="-2" y="-1" z="7" spawntime="360"/>
+    <monster name="Wolf" x="-1" y="-1" z="7" spawntime="360"/>
     <monster name="Wolf" x="0" y="2" z="7" spawntime="360"/>
   </spawn>
   <spawn centerx="646" centery="715" centerz="7" radius="2">
@@ -4395,7 +4528,7 @@
   <spawn centerx="555" centery="630" centerz="11" radius="2">
     <monster name="Ghost" x="0" y="-1" z="11" spawntime="300"/>
   </spawn>
-  <spawn centerx="549" centery="631" centerz="11" radius="2">
-    <monster name="Lost Soul" x="-1" y="0" z="11" spawntime="300"/>
+  <spawn centerx="550" centery="636" centerz="11" radius="2">
+    <monster name="Spectre" x="-1" y="1" z="11" spawntime="300"/>
   </spawn>
 </spawns>

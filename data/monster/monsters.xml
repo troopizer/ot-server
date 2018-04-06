@@ -56,6 +56,7 @@
 	<monster name="Pirate Ghost" file="Ghosts/pirate ghost.xml"/>
 	<monster name="Spectre" file="Ghosts/spectre.xml"/>
 	<monster name="Wisp" file="Ghosts/wisp.xml"/>
+	<monster name="Strong Wisp" file="Ghosts/strong wisp.xml"/>
 	<monster name="Lost Soul" file="Ghosts/lost soul.xml"/>
 
 	<!-- Goblins -->

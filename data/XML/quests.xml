@@ -382,7 +382,12 @@
     <quest name="Elemental Magic Path" startstorageid="30020" startstoragevalue="19">
         <mission name="Death Magic Start" storageid="2066" startvalue="0" endvalue="2">
             <missionstate id="0" description="Find a master able to craft one life cristal, you will have to kill people in order to prove yourself, by being with red skull."/>
-            <missionstate id="1" description="Find one Ainur statue and ask for the blessing."/>
+            <missionstate id="1" description="Find one Ainur statue and ask for blessing, while being with red skull."/>
+            <missionstate id="2" description="Completed."/>
+        </mission>
+        <mission name="Elemental Magic Start" storageid="2067" startvalue="0" endvalue="2">
+            <missionstate id="0" description="Find a master able to craft one life cristal."/>
+            <missionstate id="1" description="Find one Ainur statue and ask for the blessing, you will need elemental jewels."/>
             <missionstate id="2" description="Completed."/>
         </mission>
     </quest>

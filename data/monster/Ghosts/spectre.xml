@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Barrow Wight" nameDescription="a barrow wight" race="undead" experience="1500" speed="260" manacost="0">
-	<health now="2000" max="2000"/>
+<monster name="Barrow Wight" nameDescription="a barrow wight" race="undead" experience="2000" speed="260" manacost="0">
+	<health now="2500" max="2500"/>
 	<look type="235" head="20" corpse="6348"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -19,9 +19,9 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="-60" max="-250"/>
-		<attack name="poison" interval="2000" chance="12" range="7" radius="5" target="1" min="-100" max="-350">
-			<attribute key="shootEffect" value="fire"/>
-			<attribute key="areaEffect" value="rednote"/>
+		<attack name="death" interval="2000" chance="12" range="7" radius="5" target="1" min="-100" max="-300">
+			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
 		<attack name="poisonfield" interval="1000" chance="17" range="7" radius="4" target="1">
 			<attribute key="shootEffect" value="poison"/>
@@ -60,7 +60,7 @@
 		<item id="1987" chance="100000"/><!-- bag -->
 		<item id="5904" countmax="4" chance="15000"/><!-- magic sulphurs -->
 		<item id="2528" chance="500"/><!-- arnorian heavy shield -->
-		<item id="2499" chance="300"/><!-- arnorian full helme -->
+		<item id="2499" chance="300"/><!-- arnorian full helmet -->
 		<item id="2503" chance="300"/><!-- arnorian full armor -->
 		<item id="2504" chance="500"/><!-- arnorian full legs -->
 		<item id="7383" chance="500"/><!-- elemental sword -->

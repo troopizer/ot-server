@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Phantasm" nameDescription="a phantasm" race="undead" experience="3300" speed="280" manacost="0">
-	<health now="3950" max="3950"/>
+<monster name="Witch Wight" nameDescription="a witch wight" race="undead" experience="1000" speed="280" manacost="0">
+	<health now="1000" max="1000"/>
 	<look type="241" head="20" corpse="6344"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -18,17 +18,29 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="-40" max="-250"/>
-		<attack name="poison" interval="2000" chance="10" range="7" radius="4" target="1" min="-150" max="-300">
-			<attribute key="shootEffect" value="poison"/>
-			<attribute key="areaEffect" value="poison"/>
+		<attack name="melee" interval="2000" min="-80" max="-200"/>
+		<attack name="death" interval="2000" chance="15" range="7" radius="4" target="1" min="-50" max="-200">
+			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="fire" interval="3000" chance="5" range="7" min="-10" max="-50">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+		<attack name="earth" interval="3000" chance="5" range="7" min="-10" max="-50">
+			<attribute key="shootEffect" value="earth"/>
+		</attack>
+		<attack name="energy" interval="3000" chance="5" range="7" min="-10" max="-50">
+			<attribute key="shootEffect" value="energy"/>
+		</attack>
+		<attack name="ice" interval="3000" chance="5" range="7" min="-10" max="-50">
+			<attribute key="shootEffect" value="ice"/>
 		</attack>
 		<attack name="poisonfield" interval="1000" chance="17" range="7" radius="3" target="1">
 			<attribute key="shootEffect" value="poison"/>
 		</attack>
-		<attack name="manadrain" interval="3000" chance="25" range="7" min="-100" max="-300">
+		<attack name="manadrain" interval="3000" chance="25" range="7" min="-50" max="-200">
 			<attribute key="areaEffect" value="redshimmer"/>
-		</attack>
+	</attack>
 	</attacks>
 	<defenses armor="25" defense="20">
 		<defense name="healing" interval="1000" chance="50" min="75" max="125">
@@ -36,25 +48,24 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element deathPercent="100"/>
+		<element earthPercent="50"/>
+		<element deathPercent="60"/>
 		<element physicalPercent="100"/>
-		<element earthPercent="70"/>
-		<element icePercent="70"/>
-		<element holyPercent="-25"/>
-		<element firePercent="-24"/>
-		<element icePercent="-22"/>
+		<element icePercent="50"/>
+		<element firePercent="20"/>
+		<element energyPercent="20"/>
+		<element holyPercent="-70"/>
 	</elements>
 	<immunities>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 	</immunities>
-	<voices interval="5000" chance="10">
-		<voice sentence="Oh my, you forgot to put your pants on!"/>
+	<voices interval="5000" chance="20">
 		<voice sentence="Weeheeheeheehee!"/>
 		<voice sentence="Its nothing but a dream!"/>
 		<voice sentence="Give in!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="20" chance="100000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
 	</loot>
 </monster>
