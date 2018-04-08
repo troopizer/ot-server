@@ -474,8 +474,14 @@ class Player final : public Creature, public Cylinder
 		int32_t getMaxHealth() const final {
 			return std::max<int32_t>(1, healthMax + varStats[STAT_MAXHITPOINTS]);
 		}
+		int32_t setMaxHealth(int32_t modifier) {
+			varStats[STAT_MAXHITPOINTS] += modifier;
+		}
 		uint32_t getMaxMana() const {
 			return std::max<int32_t>(0, manaMax + varStats[STAT_MAXMANAPOINTS]);
+		}
+		int32_t setMaxMana(int32_t modifier) {
+			varStats[STAT_MAXMANAPOINTS] += modifier;
 		}
 
 		Item* getInventoryItem(slots_t slot) const;

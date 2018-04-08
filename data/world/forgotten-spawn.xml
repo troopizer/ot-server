@@ -1469,9 +1469,17 @@
     <monster name="Water Buffalo" x="1" y="-1" z="7" spawntime="360"/>
     <monster name="Water Buffalo" x="-1" y="0" z="7" spawntime="360"/>
   </spawn>
+  <spawn centerx="683" centery="707" centerz="7" radius="2">
+    <monster name="Water Buffalo" x="-2" y="-2" z="7" spawntime="300"/>
+    <monster name="Water Buffalo" x="2" y="1" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="521" centery="709" centerz="7" radius="2">
     <monster name="Water Buffalo" x="-1" y="0" z="7" spawntime="360"/>
     <monster name="Wasp" x="2" y="2" z="7" spawntime="360"/>
+  </spawn>
+  <spawn centerx="668" centery="710" centerz="7" radius="2">
+    <monster name="Water Buffalo" x="0" y="-1" z="7" spawntime="300"/>
+    <monster name="Water Buffalo" x="-2" y="1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="624" centery="713" centerz="7" radius="2">
     <monster name="Wasp" x="-1" y="-2" z="7" spawntime="360"/>
@@ -1497,12 +1505,21 @@
     <monster name="Water Buffalo" x="2" y="-2" z="7" spawntime="360"/>
     <monster name="Water Buffalo" x="1" y="1" z="7" spawntime="360"/>
   </spawn>
+  <spawn centerx="703" centery="723" centerz="7" radius="2">
+    <monster name="Water Buffalo" x="0" y="-2" z="7" spawntime="300"/>
+    <monster name="Water Buffalo" x="2" y="0" z="7" spawntime="300"/>
+    <monster name="Wasp" x="0" y="2" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="578" centery="724" centerz="7" radius="2">
     <monster name="Water Buffalo" x="2" y="1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="593" centery="724" centerz="7" radius="2">
     <monster name="Water Buffalo" x="1" y="-2" z="7" spawntime="300"/>
     <monster name="Water Buffalo" x="-1" y="1" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="685" centery="724" centerz="7" radius="2">
+    <monster name="Water Buffalo" x="2" y="0" z="7" spawntime="300"/>
+    <monster name="Snake" x="-2" y="2" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="605" centery="730" centerz="7" radius="2">
     <monster name="Wasp" x="2" y="1" z="7" spawntime="360"/>
@@ -1518,6 +1535,14 @@
   <spawn centerx="595" centery="732" centerz="7" radius="2">
     <monster name="Snake" x="-1" y="-1" z="7" spawntime="360"/>
   </spawn>
+  <spawn centerx="649" centery="732" centerz="7" radius="2">
+    <monster name="Water Buffalo" x="0" y="-2" z="7" spawntime="300"/>
+    <monster name="Water Buffalo" x="-2" y="1" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="645" centery="738" centerz="7" radius="2">
+    <monster name="Snake" x="-2" y="0" z="7" spawntime="300"/>
+    <monster name="Wasp" x="-1" y="1" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="632" centery="739" centerz="7" radius="2">
     <monster name="Water Buffalo" x="-1" y="0" z="7" spawntime="360"/>
     <monster name="Snake" x="2" y="0" z="7" spawntime="360"/>
@@ -1532,10 +1557,20 @@
     <monster name="Wasp" x="0" y="-1" z="7" spawntime="360"/>
     <monster name="Snake" x="-1" y="1" z="7" spawntime="360"/>
   </spawn>
+  <spawn centerx="652" centery="744" centerz="7" radius="2">
+    <monster name="Snake" x="0" y="-2" z="7" spawntime="300"/>
+    <monster name="Water Buffalo" x="-1" y="1" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="532" centery="746" centerz="7" radius="2">
     <monster name="Snake" x="0" y="-2" z="7" spawntime="360"/>
     <monster name="Water Buffalo" x="-1" y="-1" z="7" spawntime="300"/>
     <monster name="Wasp" x="-1" y="1" z="7" spawntime="360"/>
+  </spawn>
+  <spawn centerx="709" centery="746" centerz="7" radius="2">
+    <monster name="Wasp" x="2" y="-2" z="7" spawntime="300"/>
+    <monster name="Water Buffalo" x="-1" y="-1" z="7" spawntime="300"/>
+    <monster name="Water Buffalo" x="-1" y="1" z="7" spawntime="300"/>
+    <monster name="Snake" x="-1" y="2" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="619" centery="748" centerz="7" radius="2">
     <monster name="Water Buffalo" x="-1" y="0" z="7" spawntime="360"/>
@@ -1551,6 +1586,10 @@
   <spawn centerx="614" centery="754" centerz="7" radius="2">
     <monster name="Water Buffalo" x="0" y="1" z="7" spawntime="360"/>
   </spawn>
+  <spawn centerx="677" centery="755" centerz="7" radius="2">
+    <monster name="Wasp" x="2" y="-2" z="7" spawntime="300"/>
+    <monster name="Water Buffalo" x="0" y="-1" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="533" centery="757" centerz="7" radius="2">
     <monster name="Water Buffalo" x="1" y="-1" z="7" spawntime="360"/>
   </spawn>
@@ -1559,6 +1598,15 @@
   </spawn>
   <spawn centerx="512" centery="761" centerz="7" radius="2">
     <monster name="Water Buffalo" x="-1" y="1" z="7" spawntime="360"/>
+  </spawn>
+  <spawn centerx="703" centery="761" centerz="7" radius="2">
+    <monster name="Wasp" x="2" y="-2" z="7" spawntime="300"/>
+    <monster name="Water Buffalo" x="-2" y="-1" z="7" spawntime="300"/>
+    <monster name="Water Buffalo" x="1" y="0" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="696" centery="762" centerz="7" radius="2">
+    <monster name="Snake" x="1" y="-1" z="7" spawntime="300"/>
+    <monster name="Snake" x="-1" y="0" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="823" centery="763" centerz="7" radius="2">
     <monster name="Goblin Skirmisher" x="-1" y="1" z="7" spawntime="300"/>
@@ -1574,9 +1622,17 @@
   <spawn centerx="796" centery="766" centerz="7" radius="1">
     <monster name="Rorkduf" x="-1" y="-1" z="7" spawntime="600"/>
   </spawn>
+  <spawn centerx="668" centery="767" centerz="7" radius="2">
+    <monster name="Wasp" x="0" y="-2" z="7" spawntime="300"/>
+    <monster name="Water Buffalo" x="-2" y="-1" z="7" spawntime="300"/>
+    <monster name="Water Buffalo" x="1" y="2" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="830" centery="767" centerz="7" radius="2">
     <monster name="Goblin Infantry" x="2" y="-1" z="7" spawntime="300"/>
     <monster name="Goblin Skirmisher" x="2" y="0" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="692" centery="769" centerz="7" radius="2">
+    <monster name="Water Buffalo" x="0" y="-2" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="795" centery="769" centerz="7" radius="2">
     <monster name="Goblin Infantry" x="1" y="0" z="7" spawntime="300"/>
@@ -1595,6 +1651,10 @@
     <monster name="Eriador Renegades Recruit" x="-1" y="1" z="7" spawntime="360"/>
     <monster name="Eriador Renegades Looter" x="1" y="1" z="7" spawntime="360"/>
   </spawn>
+  <spawn centerx="652" centery="773" centerz="7" radius="2">
+    <monster name="Wasp" x="2" y="-2" z="7" spawntime="300"/>
+    <monster name="Water Buffalo" x="1" y="1" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="528" centery="777" centerz="7" radius="2">
     <monster name="Eriador Renegades Looter" x="-2" y="-1" z="7" spawntime="360"/>
     <monster name="Eriador Renegades Recruit" x="-1" y="1" z="7" spawntime="360"/>
@@ -1612,6 +1672,12 @@
     <monster name="Goblin Skirmisher" x="-1" y="1" z="7" spawntime="300"/>
     <monster name="Goblin Infantry" x="1" y="2" z="7" spawntime="300"/>
   </spawn>
+  <spawn centerx="650" centery="786" centerz="7" radius="2">
+    <monster name="Water Buffalo" x="0" y="-2" z="7" spawntime="300"/>
+    <monster name="Deer" x="-1" y="0" z="7" spawntime="300"/>
+    <monster name="Rabbit" x="-1" y="1" z="7" spawntime="300"/>
+    <monster name="Deer" x="2" y="1" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="829" centery="786" centerz="7" radius="2">
     <monster name="Goblin Infantry" x="-1" y="-1" z="7" spawntime="300"/>
   </spawn>
@@ -1622,6 +1688,17 @@
   <spawn centerx="802" centery="787" centerz="7" radius="2">
     <monster name="Goblin Infantry" x="1" y="-1" z="7" spawntime="300"/>
     <monster name="Goblin Skirmisher" x="-1" y="1" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="635" centery="788" centerz="7" radius="2">
+    <monster name="Wolf" x="-1" y="-1" z="7" spawntime="300"/>
+    <monster name="Wolf" x="1" y="0" z="7" spawntime="300"/>
+    <monster name="Wolf" x="-1" y="1" z="7" spawntime="300"/>
+    <monster name="Rabbit" x="0" y="2" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="626" centery="790" centerz="7" radius="2">
+    <monster name="Deer" x="1" y="-1" z="7" spawntime="300"/>
+    <monster name="Deer" x="-1" y="1" z="7" spawntime="300"/>
+    <monster name="Rabbit" x="2" y="1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="840" centery="791" centerz="7" radius="2">
     <monster name="Goblin Skirmisher" x="2" y="-1" z="7" spawntime="300"/>
@@ -1635,6 +1712,14 @@
     <monster name="Goblin Infantry" x="0" y="-2" z="7" spawntime="300"/>
     <monster name="Goblin Skirmisher" x="1" y="-1" z="7" spawntime="300"/>
     <monster name="Goblin Infantry" x="-1" y="2" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="658" centery="804" centerz="7" radius="2">
+    <monster name="Wolf" x="2" y="-1" z="7" spawntime="300"/>
+    <monster name="Wolf" x="-2" y="0" z="7" spawntime="300"/>
+    <monster name="Rabbit" x="-1" y="1" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="669" centery="804" centerz="7" radius="2">
+    <monster name="Wolf" x="1" y="-1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="855" centery="804" centerz="7" radius="2">
     <monster name="Goblin Infantry" x="-1" y="-1" z="7" spawntime="300"/>
@@ -2553,6 +2638,12 @@
   <spawn centerx="767" centery="989" centerz="7" radius="2">
     <monster name="Snake" x="1" y="-1" z="7" spawntime="150"/>
   </spawn>
+  <spawn centerx="336" centery="991" centerz="7" radius="2">
+    <monster name="Chicken" x="-1" y="-1" z="7" spawntime="300"/>
+    <monster name="Dog" x="1" y="-1" z="7" spawntime="300"/>
+    <monster name="Chicken" x="2" y="1" z="7" spawntime="300"/>
+    <monster name="Chicken" x="-1" y="2" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="591" centery="991" centerz="7" radius="1">
     <npc name="Eryn" x="1" y="0" z="7" spawntime="60"/>
   </spawn>
@@ -2568,6 +2659,12 @@
   </spawn>
   <spawn centerx="749" centery="993" centerz="7" radius="2">
     <monster name="Snake" x="-1" y="2" z="7" spawntime="150"/>
+  </spawn>
+  <spawn centerx="327" centery="994" centerz="7" radius="2">
+    <monster name="Sheep" x="-1" y="-2" z="7" spawntime="300"/>
+    <monster name="Sheep" x="-1" y="0" z="7" spawntime="300"/>
+    <monster name="Sheep" x="1" y="0" z="7" spawntime="300"/>
+    <monster name="Sheep" x="0" y="1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="398" centery="996" centerz="7" radius="1">
     <npc name="Buckland Patrol" x="-1" y="0" z="7" spawntime="360"/>
@@ -2808,9 +2905,6 @@
     <monster name="Snake" x="-1" y="-1" z="7" spawntime="150"/>
     <monster name="Wasp" x="-2" y="1" z="7" spawntime="150"/>
   </spawn>
-  <spawn centerx="513" centery="1028" centerz="7" radius="2">
-    <monster name="Skeleton" x="-1" y="0" z="7" spawntime="100"/>
-  </spawn>
   <spawn centerx="520" centery="1028" centerz="7" radius="2">
     <monster name="Skeleton" x="-1" y="-1" z="7" spawntime="100"/>
   </spawn>
@@ -2823,16 +2917,12 @@
   <spawn centerx="530" centery="1029" centerz="7" radius="2">
     <monster name="Skeleton" x="-1" y="1" z="7" spawntime="100"/>
   </spawn>
-  <spawn centerx="500" centery="1031" centerz="7" radius="2">
-    <monster name="Skeleton" x="-1" y="0" z="7" spawntime="100"/>
-    <monster name="Skeleton" x="1" y="1" z="7" spawntime="100"/>
+  <spawn centerx="515" centery="1031" centerz="7" radius="2">
+    <monster name="Skeleton" x="-1" y="-1" z="7" spawntime="100"/>
   </spawn>
   <spawn centerx="599" centery="1031" centerz="7" radius="2">
     <monster name="Deer" x="2" y="0" z="7" spawntime="60"/>
     <monster name="Wolf" x="1" y="1" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="506" centery="1033" centerz="7" radius="2">
-    <monster name="Skeleton" x="1" y="1" z="7" spawntime="100"/>
   </spawn>
   <spawn centerx="620" centery="1033" centerz="7" radius="2">
     <monster name="Wolf" x="1" y="1" z="7" spawntime="60"/>
@@ -2844,15 +2934,18 @@
   <spawn centerx="680" centery="1035" centerz="7" radius="2">
     <monster name="Rabbit" x="-1" y="-1" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="501" centery="1037" centerz="7" radius="2">
+    <monster name="Skeleton" x="-1" y="0" z="7" spawntime="100"/>
+  </spawn>
+  <spawn centerx="508" centery="1037" centerz="7" radius="2">
+    <monster name="Skeleton" x="1" y="-1" z="7" spawntime="100"/>
+  </spawn>
   <spawn centerx="629" centery="1037" centerz="7" radius="2">
     <monster name="Wolf" x="2" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="842" centery="1037" centerz="7" radius="2">
     <monster name="Deer" x="-1" y="-1" z="7" spawntime="300"/>
     <monster name="Deer" x="1" y="1" z="7" spawntime="300"/>
-  </spawn>
-  <spawn centerx="495" centery="1038" centerz="7" radius="2">
-    <monster name="Skeleton" x="-1" y="-1" z="7" spawntime="100"/>
   </spawn>
   <spawn centerx="410" centery="1039" centerz="7" radius="1">
     <npc name="Gorbadoc the Mayor" x="1" y="0" z="7" spawntime="360"/>
@@ -2936,10 +3029,6 @@
   <spawn centerx="669" centery="1051" centerz="7" radius="1">
     <npc name="Ted" x="0" y="0" z="7" spawntime="100"/>
   </spawn>
-  <spawn centerx="481" centery="1053" centerz="7" radius="2">
-    <monster name="Skeleton" x="-2" y="-1" z="7" spawntime="100"/>
-    <monster name="Skeleton" x="-1" y="1" z="7" spawntime="100"/>
-  </spawn>
   <spawn centerx="630" centery="1053" centerz="7" radius="2">
     <monster name="Wolf" x="-2" y="0" z="7" spawntime="60"/>
   </spawn>
@@ -2965,7 +3054,7 @@
   <spawn centerx="394" centery="1063" centerz="7" radius="1">
     <npc name="Buckland Patrol" x="0" y="-1" z="7" spawntime="360"/>
   </spawn>
-  <spawn centerx="480" centery="1063" centerz="7" radius="2">
+  <spawn centerx="484" centery="1063" centerz="7" radius="2">
     <monster name="Skeleton" x="1" y="-1" z="7" spawntime="100"/>
   </spawn>
   <spawn centerx="386" centery="1066" centerz="7" radius="1">
@@ -2989,6 +3078,7 @@
   </spawn>
   <spawn centerx="388" centery="1071" centerz="7" radius="1">
     <npc name="Buckland Patrol" x="0" y="0" z="7" spawntime="360"/>
+    <monster name="Dog" x="1" y="1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="507" centery="1071" centerz="7" radius="2">
     <monster name="Skeleton" x="0" y="1" z="7" spawntime="100"/>
@@ -3837,6 +3927,9 @@
   </spawn>
   <spawn centerx="552" centery="946" centerz="8" radius="2">
     <monster name="Bear" x="-1" y="1" z="8" spawntime="100"/>
+  </spawn>
+  <spawn centerx="592" centery="946" centerz="8" radius="1">
+    <npc name="Training Master" x="0" y="-1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="671" centery="946" centerz="8" radius="2">
     <monster name="Bug" x="2" y="-1" z="8" spawntime="100"/>

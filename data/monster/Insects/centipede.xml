@@ -59,7 +59,7 @@
 		<item id="3976" countmax="20" chance="50000"/><!-- worm -->
 
 		<item id="2671" countmax="2" chance="20000"/><!-- ham -->
-		<item id="11212" countmax="1" chance="10000"/><!-- centipede leg -->
+		<item id="11218" countmax="1" chance="10000"/><!-- centipede leg -->
 		<item id="2805" countmax="1" chance="5000"/><!-- troll green -->
 
  		<item id="2802" countmax="1" chance="5000"/><!-- sling herb -->

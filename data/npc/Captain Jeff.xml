@@ -16,8 +16,6 @@
 
  
      <response text="hey">
-
-        <action name="idle" value="1"/>
   
     </response>
 

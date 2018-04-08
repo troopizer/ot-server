@@ -117,7 +117,7 @@ function creatureSayCallback(cid, type, msg)
 					doPlayerRemoveItem(cid,5904,5)
 					doPlayerAddExperience(cid,20000)
 				 	doPlayerAddItem(cid,2260,10)
-					selfSay('Thanks you!!, now you will have to choose between 2 spells, {ok}? (You have received 20000 exp and 10 blank runes)', cid)
+					selfSay('Thanks you!!, now I will teach you to choose between 2 spells, {ok}? (You have received 20000 exp and 10 blank runes)', cid)
 					setPlayerStorageValue(cid,2059,1)
 				talkState[talkUser] = 2
 				end
@@ -146,22 +146,22 @@ function creatureSayCallback(cid, type, msg)
 		talkState[talkUser] = 0
 	elseif(msgcontains(msg, 'ok')) then
 		if(talkState[talkUser] == 2) then
-				selfSay('I may teach you: {herbal light explosion rune} (phisical damage) or {herbal strong hitpoints boost}(60% more hp for 10 min).', cid)
+				selfSay('I may teach you: {herbal light explosion rune} (phisical damage) or {herbal wide light explosion rune}(wide phisical damage).', cid)
 				selfSay('Choose wisely, the spell should be related to your fighting style.', cid)
 				talkState[talkUser] = 3	
+		end
+	end
+	if(msgcontains(msg, 'herbal wide light explosion')) then
+		if(talkState[talkUser] == 3) then
+			selfSay('You may now use {herbal wide light explosion rune}!.', cid)
+			setPlayerStorageValue(cid,2068,0)
+			talkState[talkUser] = 0
 		end
 	end
 	if(msgcontains(msg, 'herbal light explosion')) then
 		if(talkState[talkUser] == 3) then
 			selfSay('You may now use {herbal light explosion rune}!.', cid)
 			setPlayerStorageValue(cid,2054,0)
-			talkState[talkUser] = 0
-		end
-	end
-	if(msgcontains(msg, 'herbal strong hitpoints boost')) then
-		if(talkState[talkUser] == 3) then
-			selfSay('You may now use {herbal strong hitpoints boost}!.', cid)
-			setPlayerStorageValue(cid,2055,0)
 			talkState[talkUser] = 0
 		end
 	end

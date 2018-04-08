@@ -2564,8 +2564,8 @@
     <item id="2309" article="a" name="spell rune">
         <attribute key="weight" value="120" />
     </item>
-    <item id="2310" article="a" name="desintegrate rune">
-        <attribute key="runeSpellName" value="adito tera" />
+    <item id="2310" article="a" name="herbal wide light explosion rune">
+        <attribute key="runeSpellName" value="asea landa milya narquelion" />
         <attribute key="weight" value="120" />
     </item>
     <item id="2311" article="an" name="tin ore" plural="tin ores">
@@ -17012,8 +17012,7 @@
     <item id="11211" name="carniphila seeds" plural="carniphila's seeds">
         <attribute key="weight" value="35" />
     </item>
-    <item id="11212" name="centipede leg">
-        <attribute key="weight" value="68" />
+    <item id="11212" name="winter wolf fur">
     </item>
     <item id="11213" name="compass" plural="compasses">
         <attribute key="weight" value="80" />
@@ -17030,7 +17029,7 @@
     <item id="11217" name="essence of a bad dream" plural="essences of a bad dream">
         <attribute key="weight" value="95" />
     </item>
-    <item id="11218" name="thick fur">
+    <item id="11218" name="centipede leg">
         <attribute key="weight" value="125" />
     </item>
     <item id="11219" name="mutated flesh" plural="mutated flesh">

@@ -32,8 +32,8 @@ function creatureSayCallback(cid, type, msg)
 					selfSay('The renegades have a town north from here, and near the town some bandits have a camp to sell them supplies, can you go there an still some weapons from them?, {yes}?', cid)
 			end
 			if(getPlayerStorageValue(cid,2019) == 0) then
-				if(getPlayerItemCount(cid, 7385) >= 3) then
-					doPlayerRemoveItem(cid, 7385, 3)
+				if(getPlayerItemCount(cid, 2406) >= 3) then
+					doPlayerRemoveItem(cid, 2406, 3)
 					setPlayerStorageValue(cid,2019,1)
 					doPlayerAddExperience(cid,1000)
 					doPlayerAddItem(cid,2148,200)					
@@ -81,7 +81,7 @@ function creatureSayCallback(cid, type, msg)
 	elseif(msgcontains(msg, 'yes')) then
 		if(talkState[talkUser] == 1) then
 			if(getPlayerStorageValue(cid,2019) < 0) then
-				selfSay('Thats the spirit! Still 3 crimson swords from them and bring them here, good luck.', cid)
+				selfSay('Thats the spirit! Still 3 short swords from them and bring them here, good luck.', cid)
 				setPlayerStorageValue(cid,2019,0)
 			end
 		elseif(talkState[talkUser] == 2) then

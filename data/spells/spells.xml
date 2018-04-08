@@ -2,80 +2,82 @@
 <spells>
 		<!-- Healing Spells -->
 	<instant group="healing" name="Herbal Light Healing" words="asea envinyata" lvl="1" mana="20" aggressive="0" selftarget="1" exhaustion="2000" needlearn="0" script="healing/herbal light healing.lua">
-		<vocation name="Adventurer"/>
+
 	</instant>
 		<instant  group="healing" name="Herbal Antidote" words="asea hloima envinyata" lvl="5" mana="30" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" script="healing/herbal antidote.lua">
-		<vocation name="Adventurer"/>
+
 	</instant>
 			<!-- Boost Spells -->
 	<instant group="support" name="Herbal Hit Points Boost" words="asea coi" lvl="10" mana="100" aggressive="0" selftarget="1" exhaustion="2000" needlearn="0" script="boost/herbal hit points boost.lua">
-		<vocation name="Adventurer"/>
+
 	</instant>
 	<instant group="support" name="Herbal Sword Boost" words="asea macil" lvl="10" mana="100" aggressive="0" selftarget="1" exhaustion="2000" needlearn="0" script="boost/herbal sword boost.lua">
-		<vocation name="Adventurer"/>
+
 	</instant>
 	<instant group="support" name="Herbal Axe Boost" words="asea hathol" lvl="10" mana="100" aggressive="0" selftarget="1" exhaustion="2000" needlearn="0" script="boost/herbal axe boost.lua">
-		<vocation name="Adventurer"/>	
+	
 	</instant>
 		<instant group="support" name="Herbal Club Boost" words="asea grond" lvl="10" mana="100" aggressive="0" selftarget="1" exhaustion="2000" needlearn="0" script="boost/herbal club boost.lua">
-		<vocation name="Adventurer"/>
+
 	</instant>
 		<instant group="support" name="Herbal Distance Boost" words="asea palan" lvl="10" mana="100" aggressive="0" selftarget="1" exhaustion="2000" needlearn="0" script="boost/herbal distance boost.lua">
-		<vocation name="Adventurer"/>
+
 	</instant>
 		<instant group="support" name="Herbal Shielding Boost" words="asea sanda" lvl="10" mana="100" aggressive="0" selftarget="1" exhaustion="2000" needlearn="0" script="boost/herbal shielding boost.lua">
-		<vocation name="Adventurer"/>
+
 	</instant>
 	<instant group="support" name="Herbal Strong Hit Points Boost" words="asea turca coi" lvl="30" mana="200" aggressive="0" selftarget="1" exhaustion="2000" needlearn="0" script="boost/herbal strong hit points boost.lua">
-		<vocation name="Adventurer"/>
+
 	</instant>
 		<!-- Herbal Runes -->
 	<rune group="support" name="Herbal Paralyze" id="2278" allowfaruse="1" charges="1" lvl="15" maglv="5" exhaustion="2000" needtarget="1" blocktype="solid" script="runes/paralyze rune.lua">
-		<vocation name="Adventurer"/>
+
 	</rune>
 	<rune group="support" name="Herbal Poison" id="2285" allowfaruse="1" charges="1" lvl="15" maglv="5" exhaustion="2000" needtarget="1" blocktype="solid" script="runes/poison rune.lua">
-		<vocation name="Adventurer"/>
+
 	</rune>
 	<rune group="healing" name="Herbal Healing" id="2265" allowfaruse="1" charges="1" lvl="15" maglv="5" exhaustion="2000" needtarget="1" blocktype="solid" script="runes/healing rune.lua">
-		<vocation name="Adventurer"/>
+
 	</rune>
 	<rune name="Herbal Light Explosion" id="2313" allowfaruse="1" charges="1" lvl="30" maglv="15" exhaustion="2000" blocktype="solid" script="runes/light explosion rune.lua"/>
+	<rune name="Herbal Wide Light Explosion" id="2310" allowfaruse="1" charges="1" lvl="30" maglv="15" exhaustion="2000" blocktype="solid" script="runes/light wide explosion rune.lua"/>
 		<!-- Conjure Herbal Runes -->
 	<instant name="Herbal Paralyze Rune" words="asea halcin certa" lvl="15"  maglv="5" mana="120" soul="3" prem="0" exhaustion="2000" needlearn="0" script="conjure runes/herbal paralyze rune.lua">
-		<vocation name="Adventurer"/>
+
 	</instant>
 	<instant name="Herbal Poison Rune" words="asea hloima certa" lvl="15"  maglv="5" mana="120" soul="3" prem="0" exhaustion="2000" needlearn="0" script="conjure runes/herbal poison rune.lua">
-		<vocation name="Adventurer"/>
+
 	</instant>
 	<instant name="Herbal Healing Rune" words="asea envinyata certa" lvl="15"  maglv="5" mana="120" soul="3" prem="0" exhaustion="2000" needlearn="0" script="conjure runes/herbal healing rune.lua">
-		<vocation name="Adventurer"/>
+
 	</instant>
 	<instant name="Herbal Light Explosion Rune" words="asea milya narquelion" lvl="30" maglv="15" mana="200" soul="4" exhaustion="2000" needlearn="0" script="conjure runes/herbal light explosion rune.lua">
 	</instant>
-
+	<instant name="Herbal Wide Light Explosion Rune" words="asea landa milya narquelion" lvl="30" maglv="15" mana="200" soul="4" exhaustion="2000" needlearn="0" script="conjure runes/herbal wide light explosion rune.lua">
+	</instant>
 		<!-- Martial Spells-->
 	<instant group="attack" name="Strong Strike" words="turca pente" lvl="20" maglv="7" mana="80" exhaustion="5000" prem="0" needlearn="0" range="1" casterTargetOrDirection="1" blockwalls="1" aggressive="1" script="martial/strong strike.lua">
-		<vocation name="Adventurer"/>
+
 	</instant>
 	<instant group="attack" name="Twisting Slash" words="aucirhanc" lvl="20" maglv="7" mana="80" range="0" exhaustion="5000" prem="0" needlearn="0" blockwalls="1" aggressive="1" script="martial/twisting slash.lua">
-		<vocation name="Adventurer"/>
+
 	</instant>
 	<instant group="support" name="Shield Wall" words="thangail" lvl="20" maglv="7" mana="80" exhaustion="10000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" script="martial/shield wall.lua">
-		<vocation name="Adventurer"/>
+
 	</instant>
 	<instant group="support" name="Sharp Aim" words="hendumaica" lvl="20" maglv="7" mana="80" exhaustion="10000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" script="martial/sharp aim.lua">
-		<vocation name="Adventurer"/>
+
 	</instant>
 	<instant group="support" name="Forced march" words="nire eldo" lvl="20" maglv="7" mana="60" exhaustion="2000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" script="martial/forced march.lua">
-		<vocation name="Adventurer"/>
+
 	</instant>
 	<instant group="support" name="Climbing" words="retto" lvl="30" mana="50" prem="0" aggressive="0" exhaustion="1000" params="1" needlearn="0" event="function" value="Levitate">
-		<vocation name="Adventurer"/>
+
     </instant>
     <instant group="attack" name="Spear Throw" words="hatal pente" lvl="40" maglv="10" mana="80" range="5" needtarget="1" exhaustion="5000" blockwalls="1" needlearn="0" script="martial/spear throw.lua">
 	</instant>
 	<instant group="attack" name="Frontal Long Slash" words="anda pente" lvl="40" maglv="10" mana="100" range="0" direction="1" exhaustion="5000" prem="0" needlearn="0" blockwalls="1" aggressive="1" script="martial/frontal long slash.lua">
-		<vocation name="Adventurer"/>
+
 	</instant>
 		<!-- Fire Spells-->
 	<instant name="Fire Basic Shoot" words="nar pente" lvl="40" mana="30" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" script="fire/flame strike.lua">
@@ -102,9 +104,9 @@
 
 		<!-- God Spells-->
 	<instant name="God Rage" words="just die" lvl="1" maglv="1" mana="1" exhaustion="1000" prem="1" access="5" needlearn="0" blockwalls="0" aggressive="1" script="god/god rage.lua">
-		<vocation name="Adventurer"/>
+
 	</instant>
 	<instant name="God Ice Rage" words="just frozen" lvl="1" maglv="1" mana="25" exhaustion="1000" prem="1" access="5" needlearn="0" blockwalls="0" aggressive="1" script="god/god ice rage.lua">
-		<vocation name="Adventurer"/>
+
 	</instant>
 </spells>
