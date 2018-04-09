@@ -22,11 +22,11 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Soo.. Can we start your training, {yes}? ', cid)
 				talkState[talkUser] = 1
 	elseif(msgcontains(msg, 'agility')) then
-				selfSay('Agility let you attack faster and all types of attacks a little bit stronger', cid)
-				selfSay('0 points -- Damage x 1 and attack time 2.5 seg', cid)
-				selfSay('1 points -- Damage x 1 and attack time 2 seg', cid)
-				selfSay('2 points -- Damage x 1.1 and attack time 1.75 seg', cid)
-				selfSay('3 points -- Damage x 1.2 and attack time 1.5 seg', cid)
+				selfSay('Agility let all types of attacks to be stronger', cid)
+				selfSay('0 points -- Damage x 0.8', cid)
+				selfSay('1 points -- Damage x 1', cid)
+				selfSay('2 points -- Damage x 1.3', cid)
+				selfSay('3 points -- Damage x 1.6', cid)
 	elseif(msgcontains(msg, 'strength')) then
 				selfSay('Strength gives you more Hitpoints per player level (levels you got and every new level) and faster health regeneration', cid)
 				selfSay('0 points -- Max Hitpoints x 0.5 and regeneration 2 hp', cid)
