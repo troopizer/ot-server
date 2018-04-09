@@ -17556,6 +17556,30 @@
 		<attribute key="containerSize" value="10" />
 		<attribute key="duration" value="1200" />
 	</item>
+<item id="19701" article="a" name="dead water buffalo">
+        <attribute key="containerSize" value="15" />
+        <attribute key="decayTo" value="19702" />
+        <attribute key="duration" value="10" />
+        <attribute key="corpseType" value="blood" />
+        <attribute key="fluidSource" value="blood" />
+    </item>
+    <item id="19702" article="a" name="dead water buffalo">
+        <attribute key="containerSize" value="15" />
+        <attribute key="decayTo" value="19703" />
+        <attribute key="duration" value="300" />
+        <attribute key="corpseType" value="blood" />
+    </item>
+    <item id="19703" article="a" name="dead water buffalo">
+        <attribute key="containerSize" value="15" />
+        <attribute key="decayTo" value="19704" />
+        <attribute key="duration" value="300" />
+        <attribute key="corpseType" value="blood" />
+    </item>
+    <item id="19704" article="a" name="dead water buffalo">
+        <attribute key="decayTo" value="0" />
+        <attribute key="duration" value="300" />
+        <attribute key="corpseType" value="blood" />
+    </item>
 
 <item id="20001" name="water" />
     <item id="20002" name="blood" />
