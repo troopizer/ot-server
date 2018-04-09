@@ -46,7 +46,7 @@ function creatureSayCallback(cid, type, msg)
 	if(msgcontains(msg, 'herbs')) then
 				selfSay('There are many herbs in this world, some have special properties. They can be used in {runes} and for {herbalist magic}.', cid)
 	end
-	if(msgcontains(msg, 'magic') or msgcontains(msg, 'rune')) then
+	if(msgcontains(msg, 'magic')) then
 		if(getPlayerStorageValue(cid,2059) == 1) then
 				selfSay('I told you about herbalist magic, but I have heard about more powerful forms of magic, the elemental magic.', cid)
 				selfSay('Elemental magic is divided in 6 elements. 4 basic elements (fire,earth, water and wind) and 2 more (life and death).', cid)

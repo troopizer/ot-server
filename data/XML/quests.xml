@@ -207,7 +207,7 @@
             <missionstate id="0" description="Herbal Light Explosion Rune - Words: asea milya narquelion - lvl: 30 - mlvl: 15 - Reagents: blank rune, powder herbs and star herbs."/>
         </mission>
         <mission name="Herbal Wide Light Explosion Rune - asea landa milya narquelion" storageid="2068" startvalue="0" endvalue="0">
-            <missionstate id="0" description="Herbal Light Explosion Rune - Words: asea landa milya narquelion - lvl: 30 - mlvl: 15 - Reagents: blank rune, powder herbs and star herbs."/>
+            <missionstate id="0" description="Herbal Wide Light Explosion Rune - Words: asea landa milya narquelion - lvl: 30 - mlvl: 15 - Reagents: blank rune, powder herbs and star herbs."/>
         </mission>
     </quest>   
     <quest name="Most Wanted Bree" startstorageid="30009" startstoragevalue="8">
