@@ -160,6 +160,9 @@
   <spawn centerx="740" centery="627" centerz="5" radius="2">
     <monster name="Necromancer Apprentice" x="-2" y="-1" z="5" spawntime="300"/>
   </spawn>
+  <spawn centerx="707" centery="632" centerz="5" radius="2">
+    <monster name="Necromancer Apprentice" x="1" y="-1" z="5" spawntime="300"/>
+  </spawn>
   <spawn centerx="715" centery="639" centerz="5" radius="2">
     <monster name="Skeleton Warrior" x="-1" y="-1" z="5" spawntime="300"/>
     <monster name="Necromancer Apprentice" x="0" y="2" z="5" spawntime="300"/>
@@ -169,16 +172,22 @@
     <monster name="Crypt shambler" x="-1" y="0" z="5" spawntime="300"/>
     <monster name="Necromancer" x="1" y="1" z="5" spawntime="300"/>
   </spawn>
+  <spawn centerx="707" centery="643" centerz="5" radius="2">
+    <monster name="Necromancer Apprentice" x="-2" y="1" z="5" spawntime="300"/>
+  </spawn>
   <spawn centerx="731" centery="643" centerz="5" radius="2">
     <monster name="Priestess" x="0" y="-1" z="5" spawntime="300"/>
     <monster name="Necromancer" x="2" y="0" z="5" spawntime="300"/>
-    <monster name="Necromancer Apprentice" x="-1" y="1" z="5" spawntime="300"/>
   </spawn>
   <spawn centerx="740" centery="644" centerz="5" radius="2">
     <monster name="Priestess" x="1" y="1" z="5" spawntime="300"/>
   </spawn>
   <spawn centerx="736" centery="645" centerz="5" radius="2">
     <monster name="Necromancer Apprentice" x="0" y="1" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="708" centery="648" centerz="5" radius="2">
+    <monster name="Priestess" x="1" y="-1" z="5" spawntime="300"/>
+    <monster name="Necromancer Apprentice" x="-1" y="1" z="5" spawntime="300"/>
   </spawn>
   <spawn centerx="715" centery="649" centerz="5" radius="2">
     <monster name="Skeleton Warrior" x="0" y="-2" z="5" spawntime="300"/>
@@ -1132,6 +1141,9 @@
   <spawn centerx="795" centery="981" centerz="6" radius="1">
     <monster name="Great Bear" x="1" y="1" z="6" spawntime="300"/>
   </spawn>
+  <spawn centerx="378" centery="983" centerz="6" radius="1">
+    <npc name="Shire Patrol" x="-1" y="-1" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="608" centery="986" centerz="6" radius="1">
     <npc name="Edward the Mayor" x="-1" y="0" z="6" spawntime="100"/>
   </spawn>
@@ -1434,9 +1446,45 @@
     <monster name="Skeleton Warrior" x="1" y="-2" z="7" spawntime="300"/>
     <monster name="Ghoul" x="-1" y="2" z="7" spawntime="300"/>
   </spawn>
+  <spawn centerx="726" centery="631" centerz="7" radius="2">
+    <monster name="Necromancer" x="-1" y="-1" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="717" centery="632" centerz="7" radius="2">
+    <monster name="Priestess" x="-2" y="-2" z="7" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="-1" y="1" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="586" centery="635" centerz="7" radius="2">
     <monster name="Skeleton Warrior" x="-1" y="-1" z="7" spawntime="300"/>
     <monster name="Skeleton" x="1" y="2" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="701" centery="635" centerz="7" radius="2">
+    <monster name="Skeleton Warrior" x="-1" y="0" z="7" spawntime="300"/>
+    <monster name="Necromancer Apprentice" x="-2" y="2" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="694" centery="638" centerz="7" radius="2">
+    <monster name="Necromancer" x="-1" y="2" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="725" centery="638" centerz="7" radius="2">
+    <monster name="Skeleton Warrior" x="0" y="2" z="7" spawntime="300"/>
+    <monster name="Necromancer Apprentice" x="1" y="2" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="734" centery="639" centerz="7" radius="2">
+    <monster name="Priestess" x="-2" y="-1" z="7" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="0" y="1" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="695" centery="646" centerz="7" radius="2">
+    <monster name="Skeleton Warrior" x="0" y="-2" z="7" spawntime="300"/>
+    <monster name="Necromancer Apprentice" x="-1" y="0" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="723" centery="647" centerz="7" radius="2">
+    <monster name="Necromancer Apprentice" x="1" y="1" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="701" centery="656" centerz="7" radius="2">
+    <monster name="Skeleton Warrior" x="1" y="-2" z="7" spawntime="300"/>
+    <monster name="Necromancer Apprentice" x="-1" y="0" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="710" centery="656" centerz="7" radius="2">
+    <monster name="Necromancer Apprentice" x="-2" y="0" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="563" centery="687" centerz="7" radius="2">
     <monster name="Water Buffalo" x="2" y="0" z="7" spawntime="360"/>
@@ -2438,6 +2486,9 @@
     <monster name="spider" x="2" y="1" z="7" spawntime="60"/>
     <monster name="Poison spider" x="-1" y="2" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="294" centery="956" centerz="7" radius="1">
+    <npc name="Bertgus" x="0" y="1" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="418" centery="956" centerz="7" radius="2">
     <monster name="Wasp" x="-1" y="-1" z="7" spawntime="130"/>
     <monster name="Bug" x="1" y="-1" z="7" spawntime="130"/>
@@ -2456,6 +2507,12 @@
   </spawn>
   <spawn centerx="770" centery="956" centerz="7" radius="2">
     <monster name="Snake" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="283" centery="957" centerz="7" radius="1">
+    <npc name="Freder" x="0" y="1" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="304" centery="957" centerz="7" radius="1">
+    <npc name="Norman" x="-1" y="0" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="728" centery="957" centerz="7" radius="5">
     <monster name="Snake" x="4" y="1" z="7" spawntime="60"/>
@@ -2476,6 +2533,9 @@
   </spawn>
   <spawn centerx="781" centery="958" centerz="7" radius="2">
     <monster name="Wolf" x="1" y="-2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="293" centery="959" centerz="7" radius="1">
+    <npc name="Shire Patrol" x="1" y="-1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="690" centery="960" centerz="7" radius="5">
     <monster name="Snake" x="3" y="-2" z="7" spawntime="60"/>
@@ -2511,6 +2571,9 @@
     <monster name="Snake" x="-2" y="0" z="7" spawntime="60"/>
     <monster name="Wasp" x="2" y="3" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="282" centery="968" centerz="7" radius="1">
+    <npc name="Fengo" x="1" y="-1" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="488" centery="968" centerz="7" radius="2">
     <monster name="Deer" x="-1" y="0" z="7" spawntime="130"/>
     <monster name="Deer" x="2" y="2" z="7" spawntime="130"/>
@@ -2527,6 +2590,19 @@
   </spawn>
   <spawn centerx="629" centery="970" centerz="7" radius="1">
     <npc name="Aranuir" x="1" y="-1" z="7" spawntime="180"/>
+  </spawn>
+  <spawn centerx="294" centery="971" centerz="7" radius="2">
+    <monster name="Sheep" x="-1" y="-1" z="7" spawntime="300"/>
+    <monster name="Chicken" x="2" y="-1" z="7" spawntime="300"/>
+    <monster name="Sheep" x="1" y="0" z="7" spawntime="300"/>
+    <monster name="Sheep" x="1" y="2" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="299" centery="971" centerz="7" radius="2">
+    <monster name="Chicken" x="-1" y="-2" z="7" spawntime="300"/>
+    <monster name="Sheep" x="-1" y="-1" z="7" spawntime="300"/>
+    <monster name="Chicken" x="0" y="-1" z="7" spawntime="300"/>
+    <monster name="Chicken" x="-2" y="0" z="7" spawntime="300"/>
+    <monster name="Sheep" x="-2" y="2" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="616" centery="971" centerz="7" radius="1">
     <npc name="Miss Butterbur" x="1" y="0" z="7" spawntime="100"/>
@@ -2546,9 +2622,17 @@
     <monster name="Snake" x="4" y="-1" z="7" spawntime="60"/>
     <monster name="Wasp" x="-1" y="2" z="7" spawntime="150"/>
   </spawn>
+  <spawn centerx="280" centery="973" centerz="7" radius="1">
+    <npc name="Shire Patrol" x="1" y="-1" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="738" centery="973" centerz="7" radius="5">
     <monster name="Snake" x="3" y="-3" z="7" spawntime="60"/>
     <monster name="Wasp" x="-3" y="-2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="291" centery="974" centerz="7" radius="2">
+    <monster name="Sheep" x="-1" y="-1" z="7" spawntime="300"/>
+    <monster name="Sheep" x="-2" y="0" z="7" spawntime="300"/>
+    <monster name="Sheep" x="0" y="1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="445" centery="974" centerz="7" radius="2">
     <monster name="Deer" x="-1" y="-1" z="7" spawntime="130"/>
@@ -2587,6 +2671,9 @@
     <monster name="Wolf" x="-4" y="1" z="7" spawntime="60"/>
     <monster name="Deer" x="5" y="4" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="280" centery="979" centerz="7" radius="1">
+    <npc name="Dreg" x="1" y="-1" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="672" centery="980" centerz="7" radius="1">
     <npc name="Deniam" x="0" y="-1" z="7" spawntime="360"/>
   </spawn>
@@ -2600,6 +2687,9 @@
   </spawn>
   <spawn centerx="665" centery="982" centerz="7" radius="1">
     <npc name="Bree Guard" x="-1" y="0" z="7" spawntime="130"/>
+  </spawn>
+  <spawn centerx="338" centery="983" centerz="7" radius="1">
+    <npc name="Marlon" x="0" y="-1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="716" centery="983" centerz="7" radius="5">
     <monster name="Snake" x="-4" y="0" z="7" spawntime="60"/>
@@ -2620,6 +2710,9 @@
     <monster name="Snake" x="-3" y="-1" z="7" spawntime="60"/>
     <monster name="Snake" x="3" y="2" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="362" centery="985" centerz="7" radius="1">
+    <npc name="Shire Patrol" x="-1" y="-1" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="627" centery="986" centerz="7" radius="1">
     <npc name="Lola" x="0" y="0" z="7" spawntime="100"/>
   </spawn>
@@ -2632,11 +2725,17 @@
   <spawn centerx="618" centery="988" centerz="7" radius="2">
     <npc name="mailman maily" x="1" y="1" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="367" centery="989" centerz="7" radius="1">
+    <npc name="Shire Patrol" x="1" y="1" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="552" centery="989" centerz="7" radius="2">
     <monster name="Wolf" x="0" y="-1" z="7" spawntime="100"/>
   </spawn>
   <spawn centerx="767" centery="989" centerz="7" radius="2">
     <monster name="Snake" x="1" y="-1" z="7" spawntime="150"/>
+  </spawn>
+  <spawn centerx="340" centery="990" centerz="7" radius="1">
+    <npc name="Shire Patrol" x="1" y="-1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="336" centery="991" centerz="7" radius="2">
     <monster name="Chicken" x="-1" y="-1" z="7" spawntime="300"/>
@@ -2728,6 +2827,9 @@
   <spawn centerx="392" centery="1001" centerz="7" radius="1"/>
   <spawn centerx="671" centery="1001" centerz="7" radius="2">
     <monster name="Wolf" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="327" centery="1002" centerz="7" radius="1">
+    <npc name="Gundo" x="-1" y="0" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="514" centery="1002" centerz="7" radius="2">
     <monster name="Wolf" x="1" y="-1" z="7" spawntime="130"/>

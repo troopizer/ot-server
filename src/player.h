@@ -1311,7 +1311,7 @@ class Player final : public Creature, public Cylinder
 
 		bool isPromoted() const;
 
-		uint32_t getAttackSpeed() const {
+		float getAttackSpeed() const {
 			return vocation->getAttackSpeed();
 		}
 

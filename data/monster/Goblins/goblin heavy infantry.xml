@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Goblin Heavy Infantry" nameDescription="a goblin infantry warrior" race="blood" experience="650" speed="280" manacost="290">
+	<health now="1000" max="1000"/>
+	<look type="909" corpse="6002"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="15"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="55" attack="55"/>
+	</attacks>
+	<defenses armor="30" defense="35"/>
+	<elements>
+		<element earthPercent="5"/>
+		<element icePercent="-5"/>
+		<element deathPercent="-5"/>
+		<element firePercent="-5"/>
+		<element holyPercent="-10"/>
+		<element energyPercent="-5"/>
+	</elements>
+	<voices interval="5000" chance="15">
+		<voice sentence="ukmaukh! drepa!"/>
+		<voice sentence="shara fleukh!!"/>
+		<voice sentence="Kriiark!" yell="1"/>
+		<voice sentence="Krooork!"/>
+	</voices>
+	<loot>
+		<item id="2648" chance="5000"/><!-- iron chain legs -->
+		<item id="3975" chance="5000"/><!-- iron goblin shield -->
+		<item id="8602" chance="1000"/><!-- goblin blade -->
+		<item id="2423" chance="1000"/><!-- goblin mace -->
+		<item id="2441" chance="1000"/><!-- goblin battle axe-->
+		<item id="2483" chance="2000"/><!-- iron scale armor -->
+		<item id="1987" chance="80000"/><!-- bag -->
+				<item id="1294" countmax="4" chance="10000"/><!-- small stone -->
+				<item id="2230" chance="10000"/><!-- bone -->
+				<item id="2235" chance="10000"/><!-- moldy cheese -->
+				<item id="2450" chance="5000"/><!-- bone sword -->
+				<item id="2666" countmax="1" chance="60000"/><!-- meat -->
+				<item id="3976" countmax="10" chance="50000"/><!-- worm -->
+				<item id="2148" countmax="50" chance="90000"/><!-- gold coin -->
+	</loot>
+</monster>

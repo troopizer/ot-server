@@ -368,13 +368,13 @@
 		<vocation id="7" showInDescription="0"/>
 	</distance>
 	<!-- Distance Weapons -->
-	<distance id="2389" breakchance="7" /> <!-- spear -->
-	<distance id="2399" breakchance="7" /> <!-- throwing star -->
-	<distance id="2410" breakchance="7" /> <!-- throwing knife -->
-	<distance id="1294" breakchance="7" /> <!-- small stone -->
-	<distance id="3965" breakchance="7" level="10" event="function" value="default"/> <!-- Hunting Spear -->
-	<distance id="7378" breakchance="7" level="50" event="function" value="default"/> <!-- Royal Spear -->
-	<distance id="7367" breakchance="7" level="70" event="function" value="default"/> <!-- Enchanted Spear -->
+	<distance id="2389" breakchance="4" /> <!-- spear -->
+	<distance id="2399" breakchance="4" /> <!-- throwing star -->
+	<distance id="2410" breakchance="4" /> <!-- throwing knife -->
+	<distance id="1294" breakchance="4" /> <!-- small stone -->
+	<distance id="3965" breakchance="3" level="10" event="function" value="default"/> <!-- Hunting Spear -->
+	<distance id="7378" breakchance="3" level="50" event="function" value="default"/> <!-- Royal Spear -->
+	<distance id="7367" breakchance="3" level="70" event="function" value="default"/> <!-- Enchanted Spear -->
 	<distance id="7368" level="80" event="function" value="default"/> <!-- Assassin Star -->
 	<distance id="7366" event="script" value="viper_star.lua"/>  <!-- Viper Star -->
 

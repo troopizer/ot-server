@@ -27,4 +27,8 @@
   <house name="Forsaken Inn 4" houseid="29" entryx="895" entryy="1039" entryz="6" rent="300" townid="3" size="12"/>
   <house name="Forsaken Inn 5" houseid="30" entryx="888" entryy="1040" entryz="6" rent="300" townid="3" size="12"/>
   <house name="Bree farm 5" houseid="31" entryx="609" entryy="1016" entryz="7" rent="300" townid="1" size="39"/>
+  <house name="Frogmorton 1" houseid="32" entryx="278" entryy="962" entryz="7" rent="100" townid="4" size="24"/>
+  <house name="Frogmorton 2" houseid="33" entryx="277" entryy="973" entryz="7" rent="100" townid="4" size="44"/>
+  <house name="Whitfurrows 2" houseid="34" entryx="329" entryy="979" entryz="7" rent="50" townid="4" size="11"/>
+  <house name="Whitfurrows 1" houseid="35" entryx="344" entryy="985" entryz="7" rent="50" townid="4" size="26"/>
 </houses>

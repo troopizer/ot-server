@@ -91,7 +91,7 @@ bool Vocations::loadFromXml()
 		}
 
 		if ((attr = vocationNode.attribute("attackspeed"))) {
-			voc.attackSpeed = pugi::cast<uint32_t>(attr.value());
+			voc.attackSpeed = pugi::cast<float>(attr.value());
 		}
 
 		if ((attr = vocationNode.attribute("basespeed"))) {

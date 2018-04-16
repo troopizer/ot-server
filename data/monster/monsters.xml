@@ -61,6 +61,7 @@
 
 	<!-- Goblins -->
 	<monster name="Goblin" file="Goblins/goblin.xml"/>
+	<monster name="Goblin Heavy Infantry" file="Goblins/goblin heavy infantry.xml"/>
 	<monster name="Goblin Infantry" file="Goblins/goblin infantry.xml"/>
 	<monster name="Goblin Skirmisher" file="Goblins/goblin skirmisher.xml"/>
 	<monster name="Goblin Assassin" file="Goblins/goblin assassin.xml"/>

@@ -10,19 +10,19 @@
 	
 		<parameter key="module_shop" value="1"/>
 		<parameter key="message_greet" value="Hello |PLAYERNAME|. I buy and sell weapons and equipment."/>
-		<parameter key="shop_sellable" value="iron combat knife,2404,5;iron knife,2403,2;iron dagger,2379,10;iron sword,2376,25;iron rapier,2384,15;iron long sword,2397,50;iron scimitar,2419,80;iron two handed sword,2377,150;
+		<parameter key="shop_sellable" value="iron combat knife,2404,5;iron knife,2403,2;iron dagger,2379,10;iron sword,2376,25;iron rapier,2384,15;iron long sword,2397,50;iron scimitar,2419,80;iron two handed sword,2377,200;
 						staff,2401,50;spear,2389,10;small stone,1294,5;bow,2456,50;crossbow,2455,50;arrow,2544,1;bolt,2543,2;
-						club,2382,2;studded club,2448,5;iron club,2439,20;iron mace,2398,50;iron battle hammer,2417,70;iron battle mace,7425,130;
+						club,2382,2;studded club,2448,5;iron club,2439,20;iron mace,2398,50;iron battle hammer,2417,70;iron battle mace,7425,200;
 						bronze sickle,2405,5;iron hand axe,2380,10;iron axe,2386,20;iron hatchet,2388,50;iron hoe,2429,80;iron double axe,2378,200;
 						wooden shield,2512,8;iron studded shield,2526,20;bronze kite shield,2511,120;bronze round shield,2530,80;iron kite shield,2513,160;
-						leather legs,2649,7;iron studded legs,2468,40;iron chain legs,2648,150;
+						leather legs,2649,7;iron studded legs,2468,40;iron chain legs,2648,150;bronze legs,2478,200;
 						leather boots,2643,3;scarf,2661,20;
 						green cotton tunic,2652,2;martial cotton tunic,2653,10;leather armor,2467,20;,bronze studded armor,2484,40;bronze scale armor,2476,120;iron studded armor,2464,80;iron chain armor,2485,200;bronze armor,2465,180;
-						leather helmet,2461,7;iron chain coif,2458,40;bronze helmet,2460,80;iron chain helmet,2480,100;iron horned helmet,2473,90;iron helmet,2459,130;iron soldier helmet,2481,150"/>
+						leather helmet,2461,7;iron chain coif,2458,40;bronze helmet,2460,80;iron chain helmet,2480,100;iron horned helmet,2473,90;iron helmet,2459,130;iron soldier helmet,2481,150;savage shield,3974,200;iron goblin shield,3975,400;black rhudaur shield,2529,300;iron scale armor,2483,300;iron battle axe,8601,600;iron morning star,2394,600;iron spike sword,2383,600;steel studded armor,2500,180;spirit cloak,8870,400;mage hat,8820,150;mage cape,8819,200;apprentice hat,2662,100"/>
 	
 		<parameter key="shop_buyable" value="iron combat knife,2404,20;iron knife,2403,5;iron dagger,2379,30;iron sword,2376,100;iron rapier,2384,40;iron long sword,2397,200;iron scimitar,2419,300;iron two handed sword,2377,600;
 						staff,2401,230;spear,2389,30;small stone,1294,50;bow,2456,200;arrow,2544,2;
-						club,2382,5;studded club,2448,30;iron club,2439,60;iron mace,2398,200;iron battle hammer,2417,300;iron double mace,7425,600;
+						club,2382,5;studded club,2448,30;iron club,2439,60;iron mace,2398,200;iron battle hammer,2417,300;iron battle mace,7425,600;
 						bronze sickle,2405,5;iron hand axe,2380,30;iron axe,2386,60;iron hatchet,2388,200;iron hoe,2429,300;iron double axe,2378,600;
 						wooden shield,2512,20;iron studded shield,2526,60;bronze round shield,2530,200;
 						leather legs,2649,15;iron studded legs,2468,120;

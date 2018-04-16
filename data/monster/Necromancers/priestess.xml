@@ -57,7 +57,7 @@
 		<item id="2148" countmax="100" chance="80000"/><!-- gold coin -->
 		<item id="2804" countmax="2" chance="30000"/><!-- shadow herb -->
 		<item id="2185" chance="500"/><!-- necrotic rod -->
-		<item id="2182" chance="2000"/><!-- snakebie rod -->
+		<item id="2182" chance="1500"/><!-- snakebie rod -->
 		<item id="2229" countmax="3" chance="20000"/><!-- skull -->
 		<item id="2662" chance="3000"/><!-- apprentice hat -->	
 		<item id="8892" chance="2000"/><!-- ethno coat -->
