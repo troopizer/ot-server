@@ -58,7 +58,7 @@
 		<item id="2152" countmax="10" chance="40000"/><!-- platinum coin -->
 		<item id="5909" countmax="5" chance="20000"/><!-- white piece of cloth -->
 		<item id="1987" chance="100000"/><!-- bag -->
-		<item id="5904" countmax="4" chance="15000"/><!-- magic sulphurs -->
+		<item id="5904" countmax="8" chance="15000"/><!-- magic sulphurs -->
 		<item id="2528" chance="500"/><!-- arnorian heavy shield -->
 		<item id="2499" chance="300"/><!-- arnorian full helmet -->
 		<item id="2503" chance="300"/><!-- arnorian full armor -->
@@ -66,10 +66,11 @@
 		<item id="7383" chance="500"/><!-- elemental sword -->
 		<item id="7392" chance="500"/><!-- elemental club -->
 		<item id="2430" chance="500"/><!-- elemental axe -->
-				<item id="2150" chance="800"/><!-- small amethyst -->
-				<item id="2146" chance="800"/><!-- small sapphire -->
-				<item id="2147" chance="800"/><!-- small ruby -->
-				<item id="2149" chance="800"/><!-- small emerald-->
+		<item id="2457" chance="8000"/><!-- steel helmet -->
+				<item id="2150" chance="1000"/><!-- small amethyst -->
+				<item id="2146" chance="1000"/><!-- small sapphire -->
+				<item id="2147" chance="1000"/><!-- small ruby -->
+				<item id="2149" chance="1000"/><!-- small emerald-->
 
 	</loot>
 </monster>

@@ -83,7 +83,7 @@
 
 		<item id="2804" countmax="1" chance="10000"/><!-- shadow herb -->
 
- 		<item id="2803" countmax="1" chance="15000"/><!-- powder herb -->
+ 		<item id="2803" countmax="2" chance="15000"/><!-- powder herb -->
 
 
 	</loot>

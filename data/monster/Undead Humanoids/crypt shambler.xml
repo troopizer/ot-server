@@ -42,7 +42,7 @@
 
 		<item id="2148" countmax="90" chance="80000"/><!-- gold coin -->
 
-		<item id="2483" chance="600"/><!-- iron scale armor -->
+		<item id="2483" chance="2000"/><!-- iron scale armor -->
 
 		<item id="5913" countmax="3" chance="8000"/><!-- brown piece of cloth -->
 
@@ -56,7 +56,9 @@
 
 		<item id="2513" chance="2000"/><!-- iron kite shield -->
 
-		<item id="5904" chance="5000"/><!-- magic sulphurs -->
+		<item id="5904" chance="8000"/><!-- magic sulphurs -->
+
+		<item id="2457" chance="800"/><!-- steel helmet -->
 
 	</loot>
 </monster>
