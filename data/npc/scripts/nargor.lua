@@ -42,12 +42,16 @@ function creatureSayCallback(cid, type, msg)
 					selfSay('I have another mission for you, I know that you are a warrior, but if you bring me some supplies. I will teach you more about martial arts, {ok}?.', cid)
 					talkState[talkUser] = 1
 			elseif(getPlayerStorageValue(cid,2050) == 2) then
-					selfSay('Nice done, it look like you had to do a long journey. Any way I will teach you {Forced March}.(You have received 7000 exp)', cid)
+					selfSay('Nice done, it looks like you had to do a long journey. Any way I will teach you {Forced March}.(You have received 7000 exp)', cid)
 					setPlayerStorageValue(cid,2050,3)
 					setPlayerStorageValue(cid,2049,0)
 					doPlayerAddExperience(cid,7000)
 			elseif(getPlayerStorageValue(cid,2050) == 3 and getPlayerStorageValue(cid,2052) < 0) then
 					selfSay('I have a mission for you, you are a truth fighter and if you accomplish this mission, I will give you a outfit to prove it, {ok}?.', cid)
+					talkState[talkUser] = 1
+			elseif(getPlayerStorageValue(cid,2052) == 0 and getPlayerItemCount(cid,2450) < 10) then
+					selfSay('You need to kill more of those goblins.', cid)
+				    setPlayerStorageValue(cid,2052,0)
 					talkState[talkUser] = 1
 			elseif(getPlayerStorageValue(cid,2052) == 0 and getPlayerItemCount(cid,2450) >= 10) then
 					selfSay('Nice work! As your payment take this lesser ring and this outfit.(you received 10000 exp and a life ring) ', cid)
@@ -56,7 +60,6 @@ function creatureSayCallback(cid, type, msg)
 					doPlayerAddItem(cid,2168,1)
 					doPlayerAddOutfit(cid, 142, 0)
 					doPlayerAddOutfit(cid, 134, 0)
-
 					doPlayerAddExperience(cid,10000)
 			end
 			if(getPlayerStorageValue(cid,2052) == 1 and getPlayerStorageValue(cid,2053) < 0) then
