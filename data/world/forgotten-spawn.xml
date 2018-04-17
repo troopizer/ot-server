@@ -411,12 +411,19 @@
     <monster name="Fierce Wolf" x="1" y="-1" z="5" spawntime="300"/>
     <monster name="Fierce Wolf" x="-2" y="2" z="5" spawntime="300"/>
   </spawn>
+  <spawn centerx="431" centery="865" centerz="5" radius="2">
+    <monster name="Great Bear" x="-1" y="0" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="481" centery="865" centerz="5" radius="2">
+    <monster name="Great Bear" x="-1" y="0" z="5" spawntime="300"/>
+  </spawn>
   <spawn centerx="488" centery="868" centerz="5" radius="2">
     <monster name="Great Bear" x="-2" y="-1" z="5" spawntime="130"/>
     <monster name="Bear" x="1" y="1" z="5" spawntime="130"/>
   </spawn>
   <spawn centerx="471" centery="869" centerz="5" radius="2">
     <monster name="Great Bear" x="0" y="-1" z="5" spawntime="130"/>
+    <monster name="Bear" x="1" y="2" z="5" spawntime="300"/>
   </spawn>
   <spawn centerx="827" centery="872" centerz="5" radius="2">
     <monster name="Lone Lands Savage" x="2" y="0" z="5" spawntime="300"/>
@@ -441,12 +448,18 @@
     <monster name="Lone Lands Savage" x="-1" y="-1" z="5" spawntime="300"/>
     <monster name="Lone Lands Poacher" x="1" y="-1" z="5" spawntime="300"/>
   </spawn>
+  <spawn centerx="436" centery="888" centerz="5" radius="2">
+    <monster name="Great Bear" x="0" y="1" z="5" spawntime="300"/>
+  </spawn>
   <spawn centerx="917" centery="889" centerz="5" radius="2">
     <monster name="Lone Lands Savage" x="0" y="1" z="5" spawntime="300"/>
   </spawn>
   <spawn centerx="800" centery="890" centerz="5" radius="2">
     <monster name="Deer" x="-1" y="-1" z="5" spawntime="300"/>
     <monster name="Fierce Wolf" x="0" y="-1" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="441" centery="893" centerz="5" radius="2">
+    <monster name="Great Bear" x="-1" y="-1" z="5" spawntime="300"/>
   </spawn>
   <spawn centerx="901" centery="896" centerz="5" radius="2">
     <monster name="Lone Lands Poacher" x="2" y="1" z="5" spawntime="300"/>
@@ -460,6 +473,7 @@
   </spawn>
   <spawn centerx="407" centery="903" centerz="5" radius="2">
     <monster name="Great Bear" x="-1" y="0" z="5" spawntime="130"/>
+    <monster name="Great Bear" x="2" y="2" z="5" spawntime="300"/>
   </spawn>
   <spawn centerx="851" centery="911" centerz="5" radius="2">
     <monster name="Lone Lands Savage" x="-2" y="1" z="5" spawntime="300"/>
@@ -480,9 +494,15 @@
     <monster name="Lone Lands Savage" x="-1" y="-1" z="5" spawntime="300"/>
     <monster name="Lone Lands Poacher" x="1" y="1" z="5" spawntime="300"/>
   </spawn>
+  <spawn centerx="399" centery="926" centerz="5" radius="2">
+    <monster name="Great Bear" x="0" y="-1" z="5" spawntime="300"/>
+  </spawn>
   <spawn centerx="820" centery="928" centerz="5" radius="2">
     <monster name="Fierce Wolf" x="-1" y="-2" z="5" spawntime="300"/>
     <monster name="Fierce Wolf" x="2" y="1" z="5" spawntime="300"/>
+  </spawn>
+  <spawn centerx="396" centery="934" centerz="5" radius="2">
+    <monster name="Great Bear" x="1" y="-1" z="5" spawntime="300"/>
   </spawn>
   <spawn centerx="817" centery="935" centerz="5" radius="2">
     <monster name="Fierce Wolf" x="1" y="-1" z="5" spawntime="300"/>
@@ -491,6 +511,7 @@
     <monster name="Fierce Wolf" x="-1" y="-1" z="5" spawntime="300"/>
   </spawn>
   <spawn centerx="396" centery="940" centerz="5" radius="2">
+    <monster name="Bear" x="1" y="-2" z="5" spawntime="300"/>
     <monster name="Great Bear" x="-2" y="1" z="5" spawntime="130"/>
   </spawn>
   <spawn centerx="863" centery="942" centerz="5" radius="2">
@@ -1033,6 +1054,10 @@
   <spawn centerx="729" centery="861" centerz="6" radius="1">
     <monster name="Wolf" x="-1" y="1" z="6" spawntime="300"/>
   </spawn>
+  <spawn centerx="499" centery="868" centerz="6" radius="2">
+    <monster name="Bear" x="-1" y="0" z="6" spawntime="300"/>
+    <monster name="Great Bear" x="2" y="1" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="483" centery="872" centerz="6" radius="2">
     <monster name="Great Bear" x="1" y="-1" z="6" spawntime="130"/>
   </spawn>
@@ -1045,6 +1070,12 @@
   <spawn centerx="460" centery="877" centerz="6" radius="2">
     <monster name="Smuggler" x="-1" y="-1" z="6" spawntime="130"/>
     <monster name="Wild Warrior" x="2" y="1" z="6" spawntime="130"/>
+  </spawn>
+  <spawn centerx="516" centery="877" centerz="6" radius="2">
+    <monster name="Great Bear" x="-2" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="499" centery="880" centerz="6" radius="2">
+    <monster name="Great Bear" x="2" y="0" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="748" centery="880" centerz="6" radius="1">
     <monster name="Great Bear" x="1" y="0" z="6" spawntime="300"/>
@@ -1069,11 +1100,16 @@
     <monster name="Deer" x="0" y="-1" z="6" spawntime="300"/>
     <monster name="Deer" x="-1" y="1" z="6" spawntime="300"/>
   </spawn>
+  <spawn centerx="488" centery="890" centerz="6" radius="2">
+    <monster name="Bear" x="0" y="-1" z="6" spawntime="300"/>
+    <monster name="Great Bear" x="2" y="0" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="475" centery="891" centerz="6" radius="2">
     <monster name="Bear" x="2" y="0" z="6" spawntime="130"/>
     <monster name="Great Bear" x="-1" y="1" z="6" spawntime="130"/>
   </spawn>
   <spawn centerx="456" centery="896" centerz="6" radius="2">
+    <monster name="Bear" x="2" y="-1" z="6" spawntime="300"/>
     <monster name="Bear" x="-1" y="1" z="6" spawntime="130"/>
   </spawn>
   <spawn centerx="779" centery="898" centerz="6" radius="1">
@@ -1081,11 +1117,12 @@
     <monster name="Deer" x="-1" y="1" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="441" centery="900" centerz="6" radius="2">
-    <monster name="Bear" x="2" y="-1" z="6" spawntime="130"/>
+    <monster name="Great Bear" x="0" y="-2" z="6" spawntime="300"/>
     <monster name="Bear" x="-2" y="1" z="6" spawntime="130"/>
   </spawn>
   <spawn centerx="416" centery="904" centerz="6" radius="2">
     <monster name="Bear" x="1" y="-1" z="6" spawntime="130"/>
+    <monster name="Bear" x="-2" y="0" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="805" centery="905" centerz="6" radius="1">
     <monster name="Deer" x="0" y="-1" z="6" spawntime="300"/>
@@ -1094,6 +1131,9 @@
   </spawn>
   <spawn centerx="490" centery="907" centerz="6" radius="2">
     <monster name="Bear" x="2" y="-1" z="6" spawntime="130"/>
+  </spawn>
+  <spawn centerx="397" centery="909" centerz="6" radius="2">
+    <monster name="Great Bear" x="1" y="1" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="870" centery="912" centerz="6" radius="2">
     <monster name="Fierce Wolf" x="-1" y="-1" z="6" spawntime="300"/>
@@ -1105,6 +1145,21 @@
   <spawn centerx="486" centery="917" centerz="6" radius="2">
     <monster name="Bear" x="-1" y="-1" z="6" spawntime="130"/>
     <monster name="Bear" x="2" y="2" z="6" spawntime="130"/>
+  </spawn>
+  <spawn centerx="408" centery="920" centerz="6" radius="2">
+    <monster name="Bear" x="1" y="-1" z="6" spawntime="300"/>
+    <monster name="Great Bear" x="2" y="2" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="394" centery="922" centerz="6" radius="2">
+    <monster name="Bear" x="1" y="-1" z="6" spawntime="300"/>
+    <monster name="Great Bear" x="-1" y="2" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="421" centery="922" centerz="6" radius="2">
+    <monster name="Bear" x="-2" y="0" z="6" spawntime="300"/>
+    <monster name="Great Bear" x="0" y="2" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="438" centery="922" centerz="6" radius="2">
+    <monster name="Bear" x="0" y="2" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="879" centery="923" centerz="6" radius="2">
     <monster name="Fierce Wolf" x="1" y="0" z="6" spawntime="300"/>
@@ -1125,6 +1180,9 @@
   <spawn centerx="395" centery="939" centerz="6" radius="2">
     <monster name="Great Bear" x="-1" y="0" z="6" spawntime="130"/>
     <monster name="Bear" x="0" y="1" z="6" spawntime="130"/>
+  </spawn>
+  <spawn centerx="403" centery="939" centerz="6" radius="2">
+    <monster name="Bear" x="-1" y="0" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="806" centery="945" centerz="6" radius="1">
     <monster name="Great Bear" x="1" y="1" z="6" spawntime="300"/>
@@ -1507,6 +1565,7 @@
   <spawn centerx="542" centery="703" centerz="7" radius="2">
     <monster name="Snake" x="-1" y="-1" z="7" spawntime="360"/>
     <monster name="Wasp" x="1" y="-1" z="7" spawntime="360"/>
+    <monster name="Water Buffalo" x="-2" y="1" z="7" spawntime="300"/>
     <monster name="Snake" x="1" y="1" z="7" spawntime="360"/>
   </spawn>
   <spawn centerx="661" centery="703" centerz="7" radius="2">
@@ -1516,6 +1575,9 @@
   <spawn centerx="595" centery="704" centerz="7" radius="2">
     <monster name="Water Buffalo" x="1" y="-1" z="7" spawntime="360"/>
     <monster name="Water Buffalo" x="-1" y="0" z="7" spawntime="360"/>
+  </spawn>
+  <spawn centerx="579" centery="707" centerz="7" radius="2">
+    <monster name="Water Buffalo" x="-1" y="2" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="683" centery="707" centerz="7" radius="2">
     <monster name="Water Buffalo" x="-2" y="-2" z="7" spawntime="300"/>
@@ -1550,6 +1612,7 @@
     <monster name="Water Buffalo" x="2" y="0" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="654" centery="719" centerz="7" radius="2">
+    <monster name="Water Buffalo" x="1" y="-2" z="7" spawntime="300"/>
     <monster name="Water Buffalo" x="2" y="-2" z="7" spawntime="360"/>
     <monster name="Water Buffalo" x="1" y="1" z="7" spawntime="360"/>
   </spawn>
@@ -1574,6 +1637,7 @@
   </spawn>
   <spawn centerx="528" centery="732" centerz="7" radius="2">
     <monster name="Water Buffalo" x="-1" y="-2" z="7" spawntime="300"/>
+    <monster name="Water Buffalo" x="1" y="1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="537" centery="732" centerz="7" radius="2">
     <monster name="Water Buffalo" x="1" y="-1" z="7" spawntime="360"/>
@@ -1599,6 +1663,7 @@
     <monster name="Wasp" x="0" y="-2" z="7" spawntime="360"/>
     <monster name="Snake" x="1" y="-2" z="7" spawntime="360"/>
     <monster name="Snake" x="-1" y="1" z="7" spawntime="360"/>
+    <monster name="Water Buffalo" x="1" y="1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="587" centery="744" centerz="7" radius="2">
     <monster name="Snake" x="1" y="-2" z="7" spawntime="360"/>
@@ -3728,6 +3793,10 @@
     <monster name="spider" x="-2" y="0" z="8" spawntime="150"/>
     <monster name="Centipede" x="-1" y="0" z="8" spawntime="150"/>
   </spawn>
+  <spawn centerx="552" centery="825" centerz="8" radius="2">
+    <monster name="Centipede" x="1" y="-1" z="8" spawntime="300"/>
+    <monster name="Centipede" x="-1" y="1" z="8" spawntime="300"/>
+  </spawn>
   <spawn centerx="562" centery="825" centerz="8" radius="2">
     <monster name="Bug" x="-2" y="0" z="8" spawntime="150"/>
     <monster name="Centipede" x="1" y="2" z="8" spawntime="150"/>
@@ -3747,6 +3816,10 @@
     <monster name="Rotworm" x="-1" y="0" z="8" spawntime="100"/>
     <monster name="Tin Deposit" x="2" y="2" z="8" spawntime="300"/>
   </spawn>
+  <spawn centerx="533" centery="831" centerz="8" radius="2">
+    <monster name="Centipede" x="2" y="-1" z="8" spawntime="300"/>
+    <monster name="Centipede" x="-1" y="1" z="8" spawntime="300"/>
+  </spawn>
   <spawn centerx="779" centery="831" centerz="8" radius="1">
     <monster name="Cooper Deposit" x="-1" y="-1" z="8" spawntime="130"/>
   </spawn>
@@ -3754,6 +3827,7 @@
     <monster name="Rotworm" x="0" y="1" z="8" spawntime="100"/>
   </spawn>
   <spawn centerx="520" centery="834" centerz="8" radius="2">
+    <monster name="Centipede" x="1" y="-1" z="8" spawntime="300"/>
     <monster name="Centipede" x="-2" y="0" z="8" spawntime="150"/>
   </spawn>
   <spawn centerx="754" centery="834" centerz="8" radius="2">
@@ -3875,6 +3949,7 @@
     <monster name="Centipede" x="-1" y="0" z="8" spawntime="150"/>
     <monster name="Poison spider" x="2" y="0" z="8" spawntime="150"/>
     <monster name="spider" x="0" y="1" z="8" spawntime="150"/>
+    <monster name="Centipede" x="1" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="529" centery="871" centerz="8" radius="2">
     <monster name="Centipede" x="-1" y="1" z="8" spawntime="150"/>
@@ -3886,12 +3961,14 @@
   <spawn centerx="551" centery="874" centerz="8" radius="2">
     <monster name="Bug" x="0" y="-1" z="8" spawntime="150"/>
     <monster name="Bug" x="0" y="1" z="8" spawntime="150"/>
+    <monster name="Centipede" x="1" y="2" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="383" centery="875" centerz="8" radius="2">
     <monster name="Centipede" x="-1" y="0" z="8" spawntime="130"/>
   </spawn>
   <spawn centerx="403" centery="876" centerz="8" radius="2">
     <monster name="Centipede" x="-1" y="0" z="8" spawntime="130"/>
+    <monster name="Centipede" x="1" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="559" centery="879" centerz="8" radius="2">
     <monster name="Bug" x="1" y="1" z="8" spawntime="150"/>
@@ -3901,6 +3978,7 @@
   </spawn>
   <spawn centerx="378" centery="882" centerz="8" radius="2">
     <monster name="Centipede" x="1" y="-1" z="8" spawntime="130"/>
+    <monster name="Centipede" x="-1" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="827" centery="884" centerz="8" radius="2">
     <monster name="Bandit" x="1" y="1" z="8" spawntime="180"/>
@@ -3914,12 +3992,15 @@
   </spawn>
   <spawn centerx="406" centery="891" centerz="8" radius="2">
     <monster name="Centipede" x="-1" y="-1" z="8" spawntime="130"/>
+    <monster name="Centipede" x="2" y="-1" z="8" spawntime="300"/>
     <monster name="Bug" x="-2" y="1" z="8" spawntime="130"/>
   </spawn>
   <spawn centerx="451" centery="893" centerz="8" radius="2">
     <monster name="Centipede" x="1" y="0" z="8" spawntime="130"/>
+    <monster name="Centipede" x="-2" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="421" centery="895" centerz="8" radius="2">
+    <monster name="Centipede" x="-1" y="-1" z="8" spawntime="300"/>
     <monster name="Bug" x="1" y="-1" z="8" spawntime="130"/>
     <monster name="Bug" x="-2" y="1" z="8" spawntime="130"/>
   </spawn>
@@ -3929,10 +4010,12 @@
   </spawn>
   <spawn centerx="436" centery="899" centerz="8" radius="2">
     <monster name="Centipede" x="-1" y="-2" z="8" spawntime="130"/>
+    <monster name="Centipede" x="1" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="395" centery="900" centerz="8" radius="2">
     <monster name="Bug" x="1" y="-1" z="8" spawntime="130"/>
     <monster name="Bug" x="-1" y="1" z="8" spawntime="130"/>
+    <monster name="Centipede" x="1" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="378" centery="905" centerz="8" radius="2">
     <monster name="Centipede" x="-1" y="1" z="8" spawntime="130"/>
@@ -3943,6 +4026,7 @@
   </spawn>
   <spawn centerx="626" centery="907" centerz="8" radius="2">
     <monster name="Bear" x="1" y="-1" z="8" spawntime="300"/>
+    <monster name="Bear" x="-1" y="2" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="632" centery="911" centerz="8" radius="2">
     <monster name="Bear" x="-2" y="0" z="8" spawntime="300"/>
@@ -3959,12 +4043,15 @@
   </spawn>
   <spawn centerx="410" centery="913" centerz="8" radius="2">
     <monster name="Centipede" x="-1" y="-1" z="8" spawntime="130"/>
+    <monster name="Centipede" x="-1" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="641" centery="915" centerz="8" radius="2">
     <monster name="Bear" x="0" y="-1" z="8" spawntime="300"/>
     <monster name="Bear" x="-1" y="2" z="8" spawntime="300"/>
   </spawn>
-  <spawn centerx="648" centery="917" centerz="8" radius="2"/>
+  <spawn centerx="648" centery="917" centerz="8" radius="2">
+    <monster name="Great Bear" x="2" y="2" z="8" spawntime="300"/>
+  </spawn>
   <spawn centerx="383" centery="922" centerz="8" radius="2">
     <monster name="Centipede" x="-2" y="1" z="8" spawntime="130"/>
     <monster name="Centipede" x="1" y="1" z="8" spawntime="130"/>
@@ -3986,6 +4073,7 @@
     <monster name="Bear" x="2" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="514" centery="926" centerz="8" radius="2">
+    <monster name="Bear" x="-1" y="0" z="8" spawntime="300"/>
     <monster name="Bear" x="1" y="0" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="521" centery="928" centerz="8" radius="2">
@@ -4034,6 +4122,7 @@
     <npc name="Training Master" x="0" y="-1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="671" centery="946" centerz="8" radius="2">
+    <monster name="Bug" x="-1" y="-1" z="8" spawntime="300"/>
     <monster name="Bug" x="2" y="-1" z="8" spawntime="100"/>
     <monster name="Bug" x="0" y="1" z="8" spawntime="100"/>
   </spawn>
@@ -4049,11 +4138,18 @@
   <spawn centerx="626" centery="951" centerz="8" radius="2">
     <monster name="Bear" x="1" y="2" z="8" spawntime="100"/>
   </spawn>
+  <spawn centerx="669" centery="951" centerz="8" radius="2">
+    <monster name="Bug" x="1" y="-2" z="8" spawntime="300"/>
+    <monster name="Bug" x="-1" y="-1" z="8" spawntime="300"/>
+    <monster name="Bug" x="-1" y="1" z="8" spawntime="300"/>
+  </spawn>
   <spawn centerx="640" centery="952" centerz="8" radius="2">
     <monster name="Bear" x="-1" y="1" z="8" spawntime="100"/>
   </spawn>
   <spawn centerx="655" centery="952" centerz="8" radius="2">
     <monster name="Bug" x="0" y="-1" z="8" spawntime="100"/>
+    <monster name="Bug" x="2" y="0" z="8" spawntime="300"/>
+    <monster name="Bug" x="-1" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="586" centery="953" centerz="8" radius="1">
     <monster name="Training Monk" x="0" y="0" z="8" spawntime="130"/>
@@ -4063,18 +4159,28 @@
   </spawn>
   <spawn centerx="664" centery="955" centerz="8" radius="2">
     <monster name="Bug" x="-1" y="0" z="8" spawntime="100"/>
+    <monster name="Bug" x="2" y="0" z="8" spawntime="300"/>
     <monster name="Bug" x="2" y="2" z="8" spawntime="100"/>
   </spawn>
   <spawn centerx="657" centery="961" centerz="8" radius="2">
     <monster name="Bug" x="-1" y="0" z="8" spawntime="100"/>
+    <monster name="Bug" x="-2" y="1" z="8" spawntime="300"/>
+    <monster name="Bug" x="0" y="2" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="671" centery="965" centerz="8" radius="2">
+    <monster name="Bug" x="0" y="-2" z="8" spawntime="300"/>
+    <monster name="Bug" x="0" y="1" z="8" spawntime="300"/>
+    <monster name="Bug" x="-1" y="2" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="667" centery="968" centerz="8" radius="2">
+    <monster name="Bug" x="-1" y="0" z="8" spawntime="300"/>
     <monster name="Bug" x="0" y="1" z="8" spawntime="100"/>
     <monster name="Bug" x="1" y="2" z="8" spawntime="100"/>
   </spawn>
   <spawn centerx="653" centery="969" centerz="8" radius="2">
     <monster name="Bug" x="1" y="-2" z="8" spawntime="100"/>
     <monster name="Bug" x="-1" y="1" z="8" spawntime="100"/>
+    <monster name="Bug" x="1" y="2" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="617" centery="970" centerz="8" radius="2">
     <monster name="Bat" x="-2" y="1" z="8" spawntime="60"/>
@@ -4087,12 +4193,18 @@
     <monster name="Rat" x="0" y="-2" z="8" spawntime="60"/>
     <monster name="Rat" x="-1" y="0" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="654" centery="975" centerz="8" radius="2">
+    <monster name="Bug" x="-1" y="-2" z="8" spawntime="300"/>
+    <monster name="Bug" x="-1" y="0" z="8" spawntime="300"/>
+    <monster name="Bug" x="0" y="1" z="8" spawntime="300"/>
+  </spawn>
   <spawn centerx="613" centery="976" centerz="8" radius="2">
     <monster name="Rat" x="0" y="-2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="649" centery="976" centerz="8" radius="2">
+    <monster name="Bug" x="0" y="-2" z="8" spawntime="300"/>
     <monster name="Bug" x="0" y="-1" z="8" spawntime="100"/>
-    <monster name="Bug" x="2" y="0" z="8" spawntime="100"/>
+    <monster name="Bug" x="1" y="0" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="581" centery="978" centerz="8" radius="3">
     <monster name="Rat" x="-1" y="-1" z="8" spawntime="60"/>
