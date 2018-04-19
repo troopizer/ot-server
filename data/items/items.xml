@@ -2904,7 +2904,7 @@
         <attribute key="weaponType" value="axe" />
     </item>
     <item id="2389" article="a" name="spear" plural="spears">
-        <attribute key="weight" value="2000" />
+        <attribute key="weight" value="1500" />
         <attribute key="attack" value="25" />
         <attribute key="weaponType" value="distance" />
         <attribute key="shootType" value="spear" />
@@ -6971,7 +6971,7 @@
         <attribute key="weaponType" value="axe" />
     </item>
     <item id="3965" article="a" name="hunting spear" plural="hunting spears">
-        <attribute key="weight" value="2200" />
+        <attribute key="weight" value="1500" />
         <attribute key="attack" value="32" />
         <attribute key="weaponType" value="distance" />
         <attribute key="shootType" value="huntingspear" />
@@ -11850,7 +11850,7 @@
         <attribute key="weight" value="120" />
     </item>
     <item id="7378" article="a" name="royal spear" plural="royal spears">
-        <attribute key="weight" value="2500" />
+        <attribute key="weight" value="1800" />
         <attribute key="attack" value="35" />
         <attribute key="weaponType" value="distance" />
         <attribute key="shootType" value="royalspear" />

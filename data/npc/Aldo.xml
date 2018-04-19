@@ -18,10 +18,10 @@
 						leather legs,2649,7;iron studded legs,2468,40;iron chain legs,2648,150;bronze legs,2478,200;
 						leather boots,2643,3;scarf,2661,20;
 						green cotton tunic,2652,2;martial cotton tunic,2653,10;leather armor,2467,20;,bronze studded armor,2484,40;bronze scale armor,2476,120;iron studded armor,2464,80;iron chain armor,2485,200;bronze armor,2465,180;iron armor,2463,400;iron legs,2647,400;
-						leather helmet,2461,7;iron chain coif,2458,40;bronze helmet,2460,80;iron chain helmet,2480,100;iron horned helmet,2473,90;iron helmet,2459,130;iron soldier helmet,2481,150;savage shield,3974,200;iron goblin shield,3975,400;black rhudaur shield,2529,300;iron scale armor,2483,300;iron battle axe,8601,600;iron morning star,2394,600;iron spike sword,2383,600;steel studded armor,2500,180;spirit cloak,8870,400;mage hat,8820,150;mage cape,8819,200;apprentice hat,2662,100;steel helmet,2457,300;troll club,7432,800"/>
+						leather helmet,2461,7;iron chain coif,2458,40;bronze helmet,2460,80;iron chain helmet,2480,100;iron horned helmet,2473,90;iron helmet,2459,130;iron soldier helmet,2481,150;savage shield,3974,200;iron goblin shield,3975,400;black rhudaur shield,2529,300;iron scale armor,2483,300;iron battle axe,8601,600;iron morning star,2394,600;iron spike sword,2383,600;steel studded armor,2500,180;spirit cloak,8870,400;mage hat,8820,150;mage cape,8819,200;apprentice hat,2662,100;steel helmet,2457,300;troll club,7432,800;throwing knife,2410,20"/>
 	
 		<parameter key="shop_buyable" value="iron combat knife,2404,20;iron knife,2403,5;iron dagger,2379,30;iron sword,2376,100;iron rapier,2384,40;iron long sword,2397,200;iron scimitar,2419,300;iron two handed sword,2377,600;
-						staff,2401,230;spear,2389,30;small stone,1294,50;bow,2456,200;arrow,2544,2;
+						staff,2401,230;spear,2389,30;throwing knife,2410,50;small stone,1294,20;bow,2456,200;arrow,2544,2;
 						club,2382,5;studded club,2448,30;iron club,2439,60;iron mace,2398,200;iron battle hammer,2417,300;iron battle mace,7425,600;
 						bronze sickle,2405,5;iron hand axe,2380,30;iron axe,2386,60;iron hatchet,2388,200;iron hoe,2429,300;iron double axe,2378,600;
 						wooden shield,2512,20;iron studded shield,2526,60;bronze round shield,2530,200;
