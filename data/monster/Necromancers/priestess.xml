@@ -19,13 +19,13 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="25" attack="30" poison="250"/>
-		<attack name="death" interval="2000" chance="25" range="7" min="-25" max="-55">
+		<attack name="death" interval="2000" chance="40" range="7" min="-25" max="-55">
 			<attribute key="shootEffect" value="suddendeath"/>
 		</attack>
-		<attack name="poison" interval="2000" chance="25" range="7" min="-55" max="-95">
+		<attack name="poison" interval="2000" chance="40" range="7" min="-55" max="-95">
 			<attribute key="shootEffect" value="poison"/>
 		</attack>
-		<attack name="manadrain" interval="1000" chance="25" range="7" min="-60" max="-120">
+		<attack name="manadrain" interval="1000" chance="40" range="7" min="-60" max="-120">
 			<attribute key="areaEffect" value="redshimmer"/>
 	</attack>
 	</attacks>
@@ -57,9 +57,9 @@
 		<item id="2148" countmax="100" chance="80000"/><!-- gold coin -->
 		<item id="2804" countmax="2" chance="30000"/><!-- shadow herb -->
 		<item id="2185" chance="500"/><!-- necrotic rod -->
-		<item id="2182" chance="1500"/><!-- snakebie rod -->
+		<item id="2182" chance="1000"/><!-- snakebie rod -->
 		<item id="2229" countmax="3" chance="20000"/><!-- skull -->
-		<item id="2662" chance="3000"/><!-- apprentice hat -->	
+		<item id="2662" chance="2000"/><!-- apprentice hat -->	
 		<item id="8892" chance="2000"/><!-- ethno coat -->
 		<item id="2802" countmax="1" chance="20000"/><!-- sling herb -->	
 		<item id="1987" chance="80000"/><!-- bag -->

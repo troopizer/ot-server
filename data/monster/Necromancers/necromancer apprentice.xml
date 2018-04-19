@@ -47,7 +47,7 @@
 		<voice sentence="Die!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="70" chance="50000"/><!-- gold coin -->
+		<item id="2148" countmax="80" chance="50000"/><!-- gold coin -->
 		<item id="2804" countmax="2" chance="20000"/><!-- shadow herb -->
 		<item id="2185" chance="200"/><!-- necrotic rod -->
 		<item id="2500" chance="3000"/><!-- steel studded armor -->

@@ -19,10 +19,10 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="35" attack="40" poison="90"/>
-		<attack name="lifedrain" interval="1000" chance="40" range="2" min="-60" max="-100">
+		<attack name="lifedrain" interval="1000" chance="50" range="2" min="-60" max="-100">
 			<attribute key="areaEffect" value="redspark"/>
 		</attack>
-		<attack name="death" interval="3000" chance="30" range="7" min="-50" max="-120">
+		<attack name="death" interval="3000" chance="50" range="7" min="-80" max="-150">
 			<attribute key="shootEffect" value="suddendeath"/>
 		</attack>
 	</attacks>
@@ -53,17 +53,17 @@
 		<voice sentence="The secrets of death will be found!"/>
 	</voices>
 	<loot>
-		<item id="8821" chance="500"/><!-- necromantic cloak -->
+		<item id="8821" chance="200"/><!-- necromantic cloak -->
 		<item id="2152" countmax="3" chance="40000"/><!-- gold coin -->
 		<item id="2804" countmax="2" chance="20000"/><!-- shadow herb -->
-		<item id="2185" chance="3000"/><!-- necrotic rod -->
+		<item id="2185" chance="2000"/><!-- necrotic rod -->
 		<item id="2483" chance="5000"/><!-- scale armor -->
-		<item id="2500" chance="3000"/><!-- steel studded armor -->
+		<item id="2500" chance="5000"/><!-- steel studded armor -->
 		<item id="2229" countmax="3" chance="20000"/><!-- skull -->
 		<item id="2663" chance="100"/><!-- mystic turban -->
-		<item id="8820" chance="2000"/><!-- mage hat -->
+		<item id="8820" chance="1000"/><!-- mage hat -->
 		<item id="5904" chance="8000"/><!-- magic sulphur -->
-		<item id="8870" chance="3000"/><!-- spirit cloak -->
+		<item id="8870" chance="2000"/><!-- spirit cloak -->
 		<item id="1987" chance="80000"/><!-- bag -->		
 	</loot>
 </monster>

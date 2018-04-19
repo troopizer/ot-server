@@ -11,7 +11,7 @@ combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
 -- =============== CORE FUNCTIONS ===============
 function onGetFormulaValues(player, skill, attack, factor)
 	local skillTotal, levelTotal = (skill) + attack, player:getLevel() / 5
-	return -(skillTotal * 0.8 + levelTotal), -(skillTotal * 1.5 + levelTotal)
+	return -(skillTotal * 1.5 + levelTotal), -(skillTotal * 2 + levelTotal)
 end
 combat:setCallback(CALLBACK_PARAM_SKILLVALUE, "onGetFormulaValues")
 

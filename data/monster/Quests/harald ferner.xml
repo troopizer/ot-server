@@ -104,7 +104,7 @@
 
 		<item id="8601" chance="3000"/><!-- iron battle axe -->
 
-		<item id="2463" chance="500"/><!-- iron armor -->
+		<item id="2463" chance="1000"/><!-- iron armor -->
 
 		<item id="2459" chance="500"/><!-- steel helmet -->
 

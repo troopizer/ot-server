@@ -54,7 +54,7 @@
 
 		<item id="2261" chance="30000"/><!-- cooper ore -->
 		<item id="2260" chance="20000"/><!-- blank rune -->
-		<item id="2145" chance="50"/><!-- small diamond -->
+		<item id="2145" chance="500"/><!-- small diamond -->
 		<item id="2150" chance="100"/><!-- small amethyst -->
 		<item id="2146" chance="100"/><!-- small sapphire -->
 		<item id="2147" chance="100"/><!-- small ruby -->

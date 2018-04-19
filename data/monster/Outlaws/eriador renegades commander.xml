@@ -106,6 +106,8 @@
 
 		<item id="2459" chance="2000"/><!-- iron helmet -->
 
+		<item id="2457" chance="500"/><!-- steel helmet -->
+
 		<item id="2647" chance="500"/><!-- iron legs -->
 
 		<item id="2483" chance="1500"/><!-- iron scale armor -->

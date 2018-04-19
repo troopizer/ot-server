@@ -46,9 +46,9 @@
 
 		<item id="5913" countmax="3" chance="8000"/><!-- brown piece of cloth -->
 
-		<item id="2477" chance="600"/><!-- a chain legs -->
+		<item id="2477" chance="200"/><!-- a chain legs -->
 
-		<item id="2521" chance="200"/><!-- angmar guardian shield -->
+		<item id="2521" chance="400"/><!-- angmar guardian shield -->
 	
 		<item id="5909" countmax="2" chance="10000"/><!-- white piece of cloth -->
 
@@ -56,7 +56,7 @@
 
 		<item id="2513" chance="2000"/><!-- iron kite shield -->
 
-		<item id="5904" chance="8000"/><!-- magic sulphurs -->
+		<item id="5904" chance="10000"/><!-- magic sulphurs -->
 
 		<item id="2457" chance="800"/><!-- steel helmet -->
 

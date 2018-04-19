@@ -130,6 +130,19 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Let the death guide you.', cid)
 			elseif(getPlayerStorageValue(cid,2059) < 0)then
 				selfSay('Dont mind, Its look like you are not stronger enough to learn from me.', cid)
+			elseif(getPlayerStorageValue(cid,2086) < 0 and getPlayerStorageValue(cid,2065) == 0) then
+				selfSay('It looks like you manage to get that blessing, well done! I can teach you more death magic if yo want.', cid)
+				selfSay('Bring me 5 {small diamonds} and I will teach you, {ok}?.', cid)
+				talkState[talkUser] = 5
+			elseif(getPlayerItemCount(cid,2145) >= 5 and getPlayerStorageValue(cid,2086) == 0) then
+					doPlayerRemoveItem(cid,2145,5)
+					setPlayerStorageValue(cid,2086,1)
+					doPlayerAddExperience(cid,10000)
+					selfSay('Great! thanks you.', cid)
+				if(getPlayerStorageValue(cid,2065) == 0) then
+					selfSay('You may choose one of this 3 spells and I will teach you: {Death Spear} (distance), {Death Beam} (magic level) or {Twisting Death Slash} (melee)?', cid)
+					talkState[talkUser] = 6
+				end
 			end
 			
 	elseif(msgcontains(msg, 'yes')) then
@@ -150,6 +163,14 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Choose wisely, the spell should be related to your fighting style.', cid)
 				talkState[talkUser] = 3	
 		end
+		if(talkState[talkUser] == 5) then
+			if(getPlayerStorageValue(cid,2086) < 0) then
+				selfSay('Ok, I will be waiting.', cid)
+				setPlayerStorageValue(cid,30020,19)
+				setPlayerStorageValue(cid,2086,0)
+			end
+			talkState[talkUser] = 0
+		end
 	end
 	if(msgcontains(msg, 'herbal wide light explosion')) then
 		if(talkState[talkUser] == 3) then
@@ -164,6 +185,27 @@ function creatureSayCallback(cid, type, msg)
 			setPlayerStorageValue(cid,2054,0)
 			talkState[talkUser] = 0
 		end
+	end
+	if(msgcontains(msg, 'death spear')) then
+		if(talkState[talkUser] == 6) then
+			setPlayerStorageValue(cid,2083,0)
+		end
+		selfSay('Ok, just see your quest log.', cid)
+		talkState[talkUser] = 0
+	end
+	if(msgcontains(msg, 'death beam')) then
+		if(talkState[talkUser] == 6) then
+			setPlayerStorageValue(cid,2084,0)
+		end
+		selfSay('Ok, just see your quest log.', cid)
+		talkState[talkUser] = 0
+	end
+	if(msgcontains(msg, 'twisting death slash')) then
+		if(talkState[talkUser] == 6) then
+			setPlayerStorageValue(cid,2085,0)
+		end
+		selfSay('Ok, just see your quest log.', cid)
+		talkState[talkUser] = 0
 	end
 	return true
 end

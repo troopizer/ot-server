@@ -5,23 +5,6 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		if(storage > 65535) then
 			return false
 		end
-	if table.contains(annihilatorReward, item.uid) then
-		if getPlayerStorageValue(cid, 40001) == -1 then
-				if item.uid == 60047 then
-					getThing(doCreateItemEx(7383, 1))
-				elseif item.uid == 60048 then
-					getThing(doCreateItemEx(2430, 1))
-				elseif item.uid == 60049 then
-					getThing(doCreateItemEx(7392, 1))
-				elseif item.uid == 60050 then
-					getThing(doCreateItemEx(8856, 1))
-				end
-                doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR, 'You have found a nice reward.')
-				setPlayerStorageValue(cid,40001, 1)
-		else
-		doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "It is empty.")
-		end
-	else
 	if(getPlayerStorageValue(cid, storage) > 0) then
 		doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "It is empty.")
 				for i = 0, 7 do
@@ -108,6 +91,11 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		result = "You have found " .. result .. "."
 		setPlayerStorageValue(cid, storage, 1)
 	end
+if table.contains(annihilatorReward, item.uid) then
+				setPlayerStorageValue(cid,60047, 1)
+				setPlayerStorageValue(cid,60048, 1)
+				setPlayerStorageValue(cid,60049, 1)
+				setPlayerStorageValue(cid,60050, 1)
 end
 	doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, result)
 	return true
