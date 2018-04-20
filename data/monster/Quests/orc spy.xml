@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<monster name="Orc Spy" nameDescription="a orc spy" race="blood" experience="1000" speed="230" manacost="310">
+<monster name="Orc Spy" nameDescription="a orc spy" race="blood" experience="1000" speed="300" manacost="310">
 
 	<health now="400" max="400"/>
 

@@ -82,7 +82,7 @@
 
 	<loot>
 
-		<item id="5879" countmax="5" chance="40000"/> 	<!-- spider silk -->
+		<item id="5879" countmax="8" chance="40000"/> 	<!-- spider silk -->
 
 		<item id="11192" countmax="1" chance="20000"/> 	<!-- tarantula egg -->
 
@@ -91,6 +91,7 @@
  		<item id="2799" countmax="2" chance="5000"/><!-- stone herb -->
 
  		<item id="2463" chance="1000"/><!-- iron armor -->
+ 		<item id="2647" chance="800"/><!-- iron legs -->	
 
 	</loot>
 
