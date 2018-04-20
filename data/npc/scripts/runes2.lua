@@ -103,7 +103,7 @@ function creatureSayCallback(cid, type, msg)
 			selfSay('Here you have a life crystal, you will have to look for an Ainurs Statue. You will find one here in Fornost Erain. Do it quickly or you will have to get red skull again.', cid)
 			doPlayerAddItem(cid,2177,1)
 			setPlayerStorageValue(cid,2066,1)
-		else 
+		elseif(getPlayerStorageValue(cid,2066) == 0)then
 			selfSay('You are missing something...', cid)
 		end
 	end
@@ -121,7 +121,7 @@ function creatureSayCallback(cid, type, msg)
 					setPlayerStorageValue(cid,2059,1)
 				talkState[talkUser] = 2
 				end
-			elseif(getPlayerStorageValue(cid,2059) == 1 and getPlayerStorageValue(cid,2054) < 0 and getPlayerStorageValue(cid,2055) < 0) then
+			elseif(getPlayerStorageValue(cid,2059) == 1 and getPlayerStorageValue(cid,2054) < 0 and getPlayerStorageValue(cid,2068) < 0) then
 					selfSay('Thanks you!!, now you will have to choose between 2 spells, {ok}?', cid)
 					talkState[talkUser] = 2
 			elseif(getPlayerStorageValue(cid,2059) == 1 and getPlayerStorageValue(cid,2066) < 0) then
