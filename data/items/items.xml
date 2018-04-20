@@ -3073,8 +3073,8 @@
     </item>
     <item id="2413" article="a" name="steel broadsword">
         <attribute key="weight" value="6050" />
-        <attribute key="defense" value="29" />
-        <attribute key="attack" value="33" />
+        <attribute key="defense" value="30" />
+        <attribute key="attack" value="35" />
         <attribute key="weaponType" value="sword" />
         <attribute key="slotType" value="two-handed" />
     </item>
@@ -3090,7 +3090,7 @@
         <attribute key="description" value="An steel great axe." />
         <attribute key="weight" value="4500" />
         <attribute key="defense" value="15" />
-        <attribute key="attack" value="28" />
+        <attribute key="attack" value="30" />
         <attribute key="weaponType" value="axe" />
         <attribute key="skillAxe" value="1" />
     </item>
@@ -3163,8 +3163,8 @@
     </item>
     <item id="2426" article="a" name="steel light halberd">
         <attribute key="weight" value="6000" />
-        <attribute key="defense" value="19" />
-        <attribute key="attack" value="35" />
+        <attribute key="defense" value="20" />
+        <attribute key="attack" value="37" />
         <attribute key="weaponType" value="axe" />
         <attribute key="slotType" value="two-handed" />
     </item>
@@ -6966,8 +6966,8 @@
     </item>
     <item id="3964" article="a" name="steel lance">
         <attribute key="weight" value="4000" />
-        <attribute key="defense" value="17" />
-        <attribute key="attack" value="31" />
+        <attribute key="defense" value="18" />
+        <attribute key="attack" value="33" />
         <attribute key="weaponType" value="axe" />
     </item>
     <item id="3965" article="a" name="hunting spear" plural="hunting spears">
@@ -11901,22 +11901,22 @@
     </item>
     <item id="7385" article="a" name="steel sword">
         <attribute key="weight" value="3800" />
-        <attribute key="defense" value="26" />
-        <attribute key="attack" value="29" />
+        <attribute key="defense" value="27" />
+        <attribute key="attack" value="31" />
         <attribute key="weaponType" value="sword" />
     </item>
     <item id="7386" article="a" name="eriador guardian sword">
         <attribute key="weight" value="4000" />
         <attribute key="defense" value="24" />
-        <attribute key="attack" value="26" />
+        <attribute key="attack" value="28" />
         <attribute key="weaponType" value="sword" />
         <attribute key="description" value="Made from steel." />
         <attribute key="SkillShield" value="2" />
     </item>
     <item id="7387" article="a" name="steel sceptre">
         <attribute key="weight" value="3900" />
-        <attribute key="defense" value="23" />
-        <attribute key="attack" value="30" />
+        <attribute key="defense" value="24" />
+        <attribute key="attack" value="32" />
         <attribute key="weaponType" value="club" />
     </item>
     <item id="7388" article="a" name="vile axe">
@@ -12285,15 +12285,15 @@
     </item>
     <item id="7451" article="a" name="steel heavy sceptre">
         <attribute key="weight" value="6100" />
-        <attribute key="defense" value="26" />
-        <attribute key="attack" value="34" />
+        <attribute key="defense" value="27" />
+        <attribute key="attack" value="36" />
         <attribute key="weaponType" value="club" />
         <attribute key="slotType" value="two-handed" />
     </item>
     <item id="7452" article="a" name="eriador battle mace">
         <attribute key="weight" value="5000" />
         <attribute key="defense" value="20" />
-        <attribute key="attack" value="27" />
+        <attribute key="attack" value="29" />
         <attribute key="weaponType" value="club" />
         <attribute key="description" value="A steel mace." />
         <attribute key="SkillShield" value="1" />
