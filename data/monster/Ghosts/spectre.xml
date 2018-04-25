@@ -19,20 +19,20 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="-60" max="-250"/>
-		<attack name="death" interval="2000" chance="12" range="7" radius="5" target="1" min="-100" max="-300">
+		<attack name="death" interval="2000" chance="30" range="7" radius="5" target="1" min="-100" max="-300">
 			<attribute key="shootEffect" value="suddendeath"/>
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
-		<attack name="poisonfield" interval="1000" chance="17" range="7" radius="4" target="1">
+		<attack name="poisonfield" interval="1000" chance="27" range="7" radius="4" target="1">
 			<attribute key="shootEffect" value="poison"/>
 		</attack>
 		<attack name="manadrain" interval="3000" chance="50" range="7" min="-10" max="-300">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
-		<attack name="lifedrain" interval="1000" chance="15" range="2" min="-50" max="-150"/>
+		<attack name="lifedrain" interval="1000" chance="40" range="2" min="-50" max="-150"/>
 	</attacks>
-	<defenses armor="25" defense="20">
-		<defense name="healing" interval="1000" chance="50" min="75" max="125">
+	<defenses armor="25" defense="30">
+		<defense name="healing" interval="3000" chance="50" min="75" max="125">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -67,6 +67,7 @@
 		<item id="7392" chance="500"/><!-- elemental club -->
 		<item id="2430" chance="500"/><!-- elemental axe -->
 		<item id="2457" chance="8000"/><!-- steel helmet -->
+		<item id="2199" chance="8000"/><!-- garlic neckclace -->
 				<item id="2150" chance="1000"/><!-- small amethyst -->
 				<item id="2146" chance="1000"/><!-- small sapphire -->
 				<item id="2147" chance="1000"/><!-- small ruby -->

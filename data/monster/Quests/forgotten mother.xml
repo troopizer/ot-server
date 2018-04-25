@@ -84,8 +84,9 @@
 		<item id="2504" chance="1000"/><!-- a full legs-->
 		<item id="2499" chance="2000"/><!-- a full helmet-->
 		<item id="7438" chance="1000"/><!-- war bow-->
-		<item id="5879" countmax="20" chance="50000"/><!-- giant spider silk -->
+		<item id="5879" countmax="30" chance="50000"/><!-- giant spider silk -->
 		<item id="5904" countmax="8" chance="50000"/><!-- magic sulphur -->
 		<item id="2545" countmax="12" chance="13000"/><!-- poison arrow -->
+		<item id="2200" chance="8000"/><!-- protection amulet-->
 	</loot>
 </monster>

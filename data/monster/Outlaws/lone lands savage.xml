@@ -104,6 +104,8 @@
 
 		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
 
+		<item id="7457" countmax="1" chance="200"/><!-- fur boots -->
+
 	</loot>
 
 </monster>

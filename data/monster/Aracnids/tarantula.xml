@@ -39,7 +39,7 @@
 
 	<attacks>
 
-		<attack name="melee" interval="2000" skill="40" attack="38" poison="30"/>
+		<attack name="melee" interval="2000" skill="40" attack="40" poison="30"/>
 
 		<attack name="poisonfield" interval="1000" chance="20" range="1">
 
@@ -67,7 +67,7 @@
 		<element earthPercent="30"/>
 		<element deathPercent="-10"/>
 		<element holyPercent="0"/>
-		<element icePercent="5"/>
+		<element icePercent="-10"/>
 		<element energyPercent="-10"/>
 
 	</elements>
@@ -90,8 +90,8 @@
 
  		<item id="2799" countmax="2" chance="5000"/><!-- stone herb -->
 
- 		<item id="2463" chance="1000"/><!-- iron armor -->
- 		<item id="2647" chance="800"/><!-- iron legs -->	
+ 		<item id="2463" chance="800"/><!-- iron armor -->
+ 		<item id="2647" chance="500"/><!-- iron legs -->	
 
 	</loot>
 

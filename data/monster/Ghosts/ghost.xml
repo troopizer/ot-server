@@ -90,6 +90,8 @@
 
 		<item id="5904" chance="8000"/><!-- magic sulphurs -->
 
+		<item id="2199" chance="5000"/><!-- garlic neckclace -->
+
 	</loot>
 
 </monster>

@@ -65,5 +65,6 @@
 				<item id="2146" chance="500"/><!-- small sapphire -->
 				<item id="2147" chance="500"/><!-- small ruby -->
 				<item id="2149" chance="500"/><!-- small emerald-->
+				<item id="2200" chance="5000"/><!-- protection amulet-->
 	</loot>
 </monster>

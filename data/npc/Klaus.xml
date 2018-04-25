@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Klaus" nameDescription="a random guy" walkinterval="3000" floorchange="1">
+<npc name="Klaus" nameDescription="a random guy" walkinterval="3000" script="klaus.lua" floorchange="1">
 
 	<health now="150" max="150"/>
 

@@ -42,18 +42,18 @@
 	<rune name="Herbal Light Explosion" id="2313" allowfaruse="1" charges="1" lvl="30" maglv="15" exhaustion="2000" blocktype="solid" script="runes/light explosion rune.lua"/>
 	<rune name="Herbal Wide Light Explosion" id="2310" allowfaruse="1" charges="1" lvl="30" maglv="15" exhaustion="2000" blocktype="solid" script="runes/light wide explosion rune.lua"/>
 		<!-- Conjure Herbal Runes -->
-	<instant name="Herbal Paralyze Rune" words="asea halcin certa" lvl="15"  maglv="5" mana="120" soul="3" prem="0" exhaustion="2000" needlearn="0" script="conjure runes/herbal paralyze rune.lua">
+	<instant name="Herbal Paralyze Rune" words="asea halcin certa" lvl="15"  maglv="5" mana="120" soul="2" prem="0" exhaustion="2000" needlearn="0" script="conjure runes/herbal paralyze rune.lua">
 
 	</instant>
-	<instant name="Herbal Poison Rune" words="asea hloima certa" lvl="15"  maglv="5" mana="120" soul="3" prem="0" exhaustion="2000" needlearn="0" script="conjure runes/herbal poison rune.lua">
+	<instant name="Herbal Poison Rune" words="asea hloima certa" lvl="15"  maglv="5" mana="120" soul="2" prem="0" exhaustion="2000" needlearn="0" script="conjure runes/herbal poison rune.lua">
 
 	</instant>
-	<instant name="Herbal Healing Rune" words="asea envinyata certa" lvl="15"  maglv="5" mana="120" soul="3" prem="0" exhaustion="2000" needlearn="0" script="conjure runes/herbal healing rune.lua">
+	<instant name="Herbal Healing Rune" words="asea envinyata certa" lvl="15"  maglv="5" mana="120" soul="2" prem="0" exhaustion="2000" needlearn="0" script="conjure runes/herbal healing rune.lua">
 
 	</instant>
-	<instant name="Herbal Light Explosion Rune" words="asea milya narquelion" lvl="30" maglv="15" mana="200" soul="4" exhaustion="2000" needlearn="0" script="conjure runes/herbal light explosion rune.lua">
+	<instant name="Herbal Light Explosion Rune" words="asea milya narquelion" lvl="30" maglv="15" mana="200" soul="2" exhaustion="2000" needlearn="0" script="conjure runes/herbal light explosion rune.lua">
 	</instant>
-	<instant name="Herbal Wide Light Explosion Rune" words="asea landa milya narquelion" lvl="30" maglv="15" mana="200" soul="4" exhaustion="2000" needlearn="0" script="conjure runes/herbal wide light explosion rune.lua">
+	<instant name="Herbal Wide Light Explosion Rune" words="asea landa milya narquelion" lvl="30" maglv="15" mana="200" soul="2" exhaustion="2000" needlearn="0" script="conjure runes/herbal wide light explosion rune.lua">
 	</instant>
 		<!-- Martial Spells-->
 	<instant group="attack" name="Strong Strike" words="turca pente" lvl="20" maglv="7" mana="80" exhaustion="2000" prem="0" needlearn="0" range="1" casterTargetOrDirection="1" blockwalls="1" aggressive="1" script="martial/strong strike.lua">
@@ -88,6 +88,10 @@
 	</instant>
 	<instant name="Twisting Fire Slash" words="nar aucirhanc" lvl="40" mana="80" prem="0" range="0" blockwalls="1" exhaustion="2000" needlearn="0" script="fire/twisting fire slash.lua">
 	</instant>
+	<instant name="Fire Enchantment" words="nar luce" lvl="40" mana="120" prem="0" range="0" soul="5" blockwalls="1" exhaustion="2000" needlearn="0" script="fire/fire enchantment.lua">
+	</instant>
+	<instant name="Fire Disenchantment" words="nar nancarluce" lvl="40" mana="120" prem="0" range="0" soul="5" blockwalls="1" exhaustion="2000" needlearn="0" script="fire/fire disenchantment.lua">
+	</instant>
 		<!-- Wind Spells-->
 	<instant name="Energy Basic Shoot" words="sure pente" lvl="40" mana="30" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" script="wind/energy strike.lua">
 	</instant>
@@ -96,6 +100,10 @@
 	<instant name="Energy Beam" words="sure ete" lvl="40" maglv="30" mana="150" prem="0" range="0" direction="1" blockwalls="1" exhaustion="2000" needlearn="0" script="wind/energy beam.lua">
 	</instant>
 	<instant name="Twisting Energy Slash" words="sure aucirhanc" lvl="40" mana="80" prem="0" range="0" blockwalls="1" exhaustion="2000" needlearn="0" script="wind/twisting energy slash.lua">
+	</instant>
+	<instant name="Energy Enchantment" words="sure luce" lvl="40" mana="120" prem="0" range="0" soul="5" blockwalls="1" exhaustion="2000" needlearn="0" script="wind/energy enchantment.lua">
+	</instant>
+	<instant name="Energy Disenchantment" words="sure nancarluce" lvl="40" mana="120" prem="0" range="0" soul="5" blockwalls="1" exhaustion="2000" needlearn="0" script="wind/energy disenchantment.lua">
 	</instant>
 		<!-- Earth Spells-->
 	<instant name="Earth Basic Shoot" words="cen pente" lvl="40" mana="30" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" script="earth/terra strike.lua">
@@ -106,6 +114,10 @@
 	</instant>
 	<instant name="Twisting Earth Slash" words="cen aucirhanc" lvl="40" mana="80" prem="0" range="0" blockwalls="1" exhaustion="2000" needlearn="0" script="earth/twisting earth slash.lua">
 	</instant>
+	<instant name="Earth Enchantment" words="cen luce" lvl="40" mana="120" prem="0" range="0" soul="5" blockwalls="1" exhaustion="2000" needlearn="0" script="earth/earth enchantment.lua">
+	</instant>
+	<instant name="Earth Disenchantment" words="cen nancarluce" lvl="40" mana="120" prem="0" range="0" soul="5" blockwalls="1" exhaustion="2000" needlearn="0" script="earth/earth disenchantment.lua">
+	</instant>
 		<!-- Water Spells-->
 	<instant name="Ice Basic Shoot" words="nen pente" lvl="40" mana="30" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" script="water/ice strike.lua">
 	</instant>
@@ -114,6 +126,10 @@
 	<instant name="Ice Beam" words="nen ete" lvl="40" maglv="30" mana="150" prem="0" range="0" direction="1" blockwalls="1" exhaustion="2000" needlearn="0" script="water/ice beam.lua">
 	</instant>
 	<instant name="Twisting Ice Slash" words="nen aucirhanc" lvl="40" mana="80" prem="0" range="0" blockwalls="1" exhaustion="2000" needlearn="0" script="water/twisting ice slash.lua">
+	</instant>
+	<instant name="Ice Enchantment" words="nen luce" lvl="40" mana="120" prem="0" range="0" soul="5" blockwalls="1" exhaustion="2000" needlearn="0" script="water/ice enchantment.lua">
+	</instant>
+	<instant name="Ice Disenchantment" words="nen nancarluce" lvl="40" mana="120" prem="0" range="0" soul="5" blockwalls="1" exhaustion="2000" needlearn="0" script="water/ice disenchantment.lua">
 	</instant>
 		<!-- Life Spells-->
 	<instant name="Life Basic Shoot" words="coi pente" lvl="40" mana="30" prem="0" range="3" casterTargetOrDirection="1" needlearn="0" blockwalls="1" exhaustion="2000" script="life/divine missile.lua">

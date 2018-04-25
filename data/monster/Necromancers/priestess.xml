@@ -61,7 +61,8 @@
 		<item id="2229" countmax="3" chance="20000"/><!-- skull -->
 		<item id="2662" chance="2000"/><!-- apprentice hat -->	
 		<item id="8892" chance="2000"/><!-- ethno coat -->
-		<item id="2802" countmax="1" chance="20000"/><!-- sling herb -->	
+		<item id="2802" countmax="1" chance="20000"/><!-- sling herb -->
+		<item id="2199" chance="2000"/><!-- garlic neckclace -->	
 		<item id="1987" chance="80000"/><!-- bag -->
 	</loot>
 </monster>

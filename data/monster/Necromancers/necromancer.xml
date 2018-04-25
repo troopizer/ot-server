@@ -64,6 +64,7 @@
 		<item id="8820" chance="1000"/><!-- mage hat -->
 		<item id="5904" chance="8000"/><!-- magic sulphur -->
 		<item id="8870" chance="2000"/><!-- spirit cloak -->
+		<item id="2199" chance="3000"/><!-- garlic neckclace -->
 		<item id="1987" chance="80000"/><!-- bag -->		
 	</loot>
 </monster>

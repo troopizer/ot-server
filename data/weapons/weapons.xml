@@ -357,8 +357,8 @@
 		<vocation id="3"/>
 		<vocation id="7" showInDescription="0"/>
 	</distance>
-	<distance id="8856" level="30" unproperly="1" event="function" value="default"/> <!-- Elite Arnorian Bow -->
-
+	<distance id="8856" level="30" unproperly="1" event="function" value="default"/> <!-- Arnorian Bow -->
+	<distance id="7438" level="40" unproperly="1" event="function" value="default"/> <!-- War Bow -->
 	<distance id="8858" level="70" unproperly="1" event="function" value="default"> <!-- Elethriel's Elemental Bow -->
 		<vocation id="3"/>
 		<vocation id="7" showInDescription="0"/>

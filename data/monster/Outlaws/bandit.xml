@@ -52,9 +52,9 @@
 
 		<element holyPercent="0"/>
 
-		<element icePercent="0"/>
+		<element icePercent="-5"/>
 
-		<element deathPercent="-5"/>
+		<element deathPercent="-10"/>
 
 		<element energyPercent="-5"/>
 

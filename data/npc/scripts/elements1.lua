@@ -80,6 +80,34 @@ function creatureSayCallback(cid, type, msg)
 					talkState[talkUser] = 3
 				end
 			end
+			if(getPlayerStorageValue(cid,2086) == 1 and getPlayerStorageValue(cid,2060) == 0) then
+				if(getPlayerStorageValue(cid,2087) < 0) then
+					selfSay('I can keep teaching you new spells if you help me.', cid)
+					selfSay('Right now Im looking for elemental jewels, soo.. if you get {2 small rubies} for me, I will teach you how to enchant weapons and arrows, {ok}?', cid)
+					talkState[talkUser] = 9
+				end
+			end
+			if(getPlayerStorageValue(cid,2086) == 1 and getPlayerStorageValue(cid,2061) == 0) then
+				if(getPlayerStorageValue(cid,2087) < 0) then
+					selfSay('I can keep teaching you new spells if you help me.', cid)
+					selfSay('Right now Im looking for elemental jewels, soo.. if you get {2 small emeralds} for me, I will teach you how to enchant weapons and arrows, {ok}?', cid)
+					talkState[talkUser] = 9
+				end
+			end
+			if(getPlayerStorageValue(cid,2086) == 1 and getPlayerStorageValue(cid,2062) == 0) then
+				if(getPlayerStorageValue(cid,2087) < 0) then
+					selfSay('I can keep teaching you new spells if you help me.', cid)
+					selfSay('Right now Im looking for elemental jewels, soo.. if you get {2 small amethysts} for me, I will teach you how to enchant weapons and arrows, {ok}?', cid)
+					talkState[talkUser] = 9
+				end
+			end
+			if(getPlayerStorageValue(cid,2086) == 1 and getPlayerStorageValue(cid,2063) == 0) then
+				if(getPlayerStorageValue(cid,2087) < 0) then
+					selfSay('I can keep teaching you new spells if you help me.', cid)
+					selfSay('Right now Im looking for elemental jewels, soo.. if you get {2 small sapphires} for me, I will teach you how to enchant weapons and arrows, {ok}?', cid)
+					talkState[talkUser] = 9
+				end
+			end
 			if(getPlayerItemCount(cid,2145) >= 5 and getPlayerStorageValue(cid,2086) == 0) then
 					doPlayerRemoveItem(cid,2145,5)
 					setPlayerStorageValue(cid,2086,1)
@@ -106,10 +134,43 @@ function creatureSayCallback(cid, type, msg)
 					talkState[talkUser] = 8
 				end
 			end
+			if(getPlayerStorageValue(cid,2087) == 0 and getPlayerItemCount(cid,2147) >= 2) then
+					doPlayerRemoveItem(cid,2147,2)
+					setPlayerStorageValue(cid,2087,1)
+					setPlayerStorageValue(cid,2088,0)
+					setPlayerStorageValue(cid,2089,0)
+					doPlayerAddExperience(cid,10000)
+					selfSay('Great! Now you can enchant and disenchant weapons.', cid)
+			end
+			if(getPlayerStorageValue(cid,2087) == 0 and getPlayerItemCount(cid,2149) >= 2) then
+					doPlayerRemoveItem(cid,2149,2)
+					setPlayerStorageValue(cid,2087,1)
+					setPlayerStorageValue(cid,2090,0)
+					setPlayerStorageValue(cid,2091,0)
+					doPlayerAddExperience(cid,10000)
+					selfSay('Great! Now you can enchant and disenchant weapons.', cid)
+			end
+			if(getPlayerStorageValue(cid,2087) == 0 and getPlayerItemCount(cid,2150) >= 2) then
+					doPlayerRemoveItem(cid,2150,2)
+					setPlayerStorageValue(cid,2087,1)
+					setPlayerStorageValue(cid,2092,0)
+					setPlayerStorageValue(cid,2093,0)
+					doPlayerAddExperience(cid,10000)
+					selfSay('Great! Now you can enchant and disenchant weapons.', cid)
+			end
+			if(getPlayerStorageValue(cid,2087) == 0 and getPlayerItemCount(cid,2146) >= 2) then
+					doPlayerRemoveItem(cid,2146,2)
+					setPlayerStorageValue(cid,2087,1)
+					setPlayerStorageValue(cid,2094,0)
+					setPlayerStorageValue(cid,2095,0)
+					doPlayerAddExperience(cid,10000)
+					selfSay('Great! Now you can enchant and disenchant weapons.', cid)
+			end
 			if(getPlayerStorageValue(cid,2066) == 2) then
 					selfSay('A mission?! for an evil one like you?.', cid)
 					selfSay('get out!!', cid)
 			end
+
 	elseif(msgcontains(msg, 'ok')) then
 		if(talkState[talkUser] == 2) then
 			if(getPlayerStorageValue(cid,2067) < 0) then
@@ -125,6 +186,14 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Ok, I will be waiting.', cid)
 				setPlayerStorageValue(cid,30020,19)
 				setPlayerStorageValue(cid,2086,0)
+			end
+		talkState[talkUser] = 0
+	    end
+		if(talkState[talkUser] == 9) then
+			if(getPlayerStorageValue(cid,2087) < 0) then
+				selfSay('Ok, I will be waiting for you.', cid)
+				setPlayerStorageValue(cid,30020,19)
+				setPlayerStorageValue(cid,2087,0)
 			end
 		talkState[talkUser] = 0
 	    end

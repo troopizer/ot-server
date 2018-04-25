@@ -1,18 +1,24 @@
 local keywordHandler = KeywordHandler:new()
 local npcHandler = NpcHandler:new(keywordHandler)
 NpcSystem.parseParameters(npcHandler)
+local talkState = {}
 
-function onCreatureAppear(cid)				npcHandler:onCreatureAppear(cid) 			end
-function onCreatureDisappear(cid) 			npcHandler:onCreatureDisappear(cid) 			end
-function onCreatureSay(cid, type, msg) 			npcHandler:onCreatureSay(cid, type, msg) 		end
-function onThink() 					npcHandler:onThink() 					end
+function onCreatureAppear(cid)				npcHandler:onCreatureAppear(cid)			end
+function onCreatureDisappear(cid) 			npcHandler:onCreatureDisappear(cid)			end
+function onCreatureSay(cid, type, msg)			npcHandler:onCreatureSay(cid, type, msg)		end
+function onThink()					npcHandler:onThink()					end
+
+
 function creatureSayCallback(cid, type, msg)
 	if(not npcHandler:isFocused(cid)) then
 		return false
 	end
 
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
-    if(msgcontains(msg, 'year') or msgcontains(msg, 'date') or msgcontains(msg, 'tales') or msgcontains(msg, 'information')) then
+	if(msgcontains(msg, 'bandits')) then
+				selfSay('Dear, around all towns you can find groups of bandits and Bree isnt the exception. But I dont know where is their lair.', cid)
+	end
+	if(msgcontains(msg, 'year') or msgcontains(msg, 'date') or msgcontains(msg, 'tales') or msgcontains(msg, 'information')) then
 				selfSay('We are in the year 2900 of the third age.', cid)
 				selfSay('I have been told that Gerontius Took "The Old Took" is currently the Thain of the Shire and Edward Oatny is our Mayor, he is a fine mayor, but his clothes.. anyway.', cid)
 	end
@@ -31,11 +37,10 @@ function creatureSayCallback(cid, type, msg)
 	setPlayerStorageValue(cid,2040,1)
 end
 end
+	
+	return true
 end
--- Don't forget npcHandler = npcHandler in the parameters. It is required for all StdModule functions!
-local node1 = keywordHandler:addKeyword({'beer'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'I dont have right now my dear.'})
-local node2 = keywordHandler:addKeyword({'tales'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'My dear, I have heard many things, but I dont have time now.'})
-npcHandler:addModule(FocusModule:new())
-local node3 = keywordHandler:addKeyword({'bandits'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Dear, around all towns you can find groups of bandits and Bree isnt the exception. But I dont know where is their lair.'})
+
+npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
 npcHandler:addModule(FocusModule:new())
 

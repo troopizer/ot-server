@@ -85,7 +85,7 @@
 		
 		<item id="2389" chance="20000"/><!-- spear -->
 
-		<item id="7438" countmax="1" chance="500"/><!-- war bow -->
+		<item id="7438" countmax="1" chance="100"/><!-- war bow -->
 
 	</loot>
 

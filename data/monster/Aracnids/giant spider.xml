@@ -55,7 +55,7 @@
 		<element earthPercent="50"/>
 		<element deathPercent="-10"/>
 		<element holyPercent="0"/>
-		<element icePercent="10"/>
+		<element icePercent="-10"/>
 		<element energyPercent="-10"/>
 	</elements>
 	<immunities>
@@ -69,7 +69,7 @@
 		<summon name="Poison Spider" interval="1000" chance="30" max="3"/>
 	</summons>
 	<loot>
-		<item id="2169" chance="5000"/><!-- time ring -->
+		<item id="2200" chance="5000"/><!-- protection amulet-->
 		<item id="2477" chance="800"/><!-- arnorian chain legs -->
 		<item id="2647" chance="2000"/><!-- iron legs -->	
 		<item id="2463" chance="5000"/><!-- iron armor -->		
