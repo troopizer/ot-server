@@ -3781,9 +3781,9 @@
         <attribute key="defense" value="20" />
         <attribute key="weaponType" value="shield" />
     </item>
-    <item id="2531" article="a" name="viking shield">
-        <attribute key="weight" value="6600" />
-        <attribute key="defense" value="22" />
+    <item id="2531" article="a" name="arnorian light shield">
+        <attribute key="weight" value="4000" />
+        <attribute key="defense" value="28" />
         <attribute key="weaponType" value="shield" />
     </item>
     <item id="2532" article="an" name="ancient shield">

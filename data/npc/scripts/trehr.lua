@@ -42,8 +42,7 @@ function creatureSayCallback(cid, type, msg)
 				talkState[talkUser] = 2
 				end
 			elseif(getPlayerStorageValue(cid,2051) == 1) then
-					selfSay('Thanks you!! Now Please choose one of this armors: {eriador guardian armor} (for defensive players), {eriador warrior armor} (for melee players) and {eriador ranger cape} (for distance players). (You have received 8000 exp and 10 platinum coins)', cid)
-					setPlayerStorageValue(cid,2051,1)
+					selfSay('Thanks you!! Now Please choose one of this armors: {eriador guardian armor} (for defensive players), {eriador warrior armor} (for melee players) and {eriador ranger cape} (for distance players).', cid)
 				talkState[talkUser] = 2
 
 			elseif(getPlayerStorageValue(cid,2051) == 2) then
@@ -69,7 +68,7 @@ function creatureSayCallback(cid, type, msg)
 		if(talkState[talkUser] == 2) then
 			selfSay('Here it is!', cid)
 			doPlayerAddItem(cid,3968,1)
-			setPlayerStorageValue(cid,2052,2)
+			setPlayerStorageValue(cid,2051,2)
 			talkState[talkUser] = 0
 		end
 	end
@@ -77,7 +76,7 @@ function creatureSayCallback(cid, type, msg)
 		if(talkState[talkUser] == 2) then
 			selfSay('Here it is!', cid)
 			doPlayerAddItem(cid,8891,1)
-			setPlayerStorageValue(cid,2052,2)
+			setPlayerStorageValue(cid,2051,2)
 			talkState[talkUser] = 0
 		end
 	end
@@ -85,7 +84,7 @@ function creatureSayCallback(cid, type, msg)
 		if(talkState[talkUser] == 2) then
 			selfSay('Here it is!', cid)
 			doPlayerAddItem(cid,8872,1)
-			setPlayerStorageValue(cid,2052,2)
+			setPlayerStorageValue(cid,2051,2)
 			talkState[talkUser] = 0
 		end
 	end

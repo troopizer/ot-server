@@ -1,5 +1,5 @@
-local shutdownAtServerSave = false
-local cleanMapAtServerSave = false
+local shutdownAtServerSave = true
+local cleanMapAtServerSave = true
 
 local function serverSave()
 	if shutdownAtServerSave then

@@ -3619,6 +3619,14 @@
   <spawn centerx="559" centery="586" centerz="8" radius="1">
     <monster name="Ghoul" x="1" y="1" z="8" spawntime="300"/>
   </spawn>
+  <spawn centerx="611" centery="587" centerz="8" radius="1">
+    <monster name="Ghost" x="-1" y="-1" z="8" spawntime="300"/>
+    <monster name="Ghost" x="0" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="613" centery="589" centerz="8" radius="1">
+    <monster name="Crypt shambler" x="1" y="0" z="8" spawntime="300"/>
+    <monster name="Crypt shambler" x="0" y="1" z="8" spawntime="300"/>
+  </spawn>
   <spawn centerx="540" centery="591" centerz="8" radius="1">
     <monster name="Ghost" x="-1" y="-1" z="8" spawntime="300"/>
   </spawn>
@@ -3629,17 +3637,37 @@
   <spawn centerx="569" centery="592" centerz="8" radius="1">
     <monster name="Ghoul" x="-1" y="-1" z="8" spawntime="300"/>
   </spawn>
+  <spawn centerx="612" centery="595" centerz="8" radius="1">
+    <monster name="Crypt shambler" x="-1" y="-1" z="8" spawntime="300"/>
+    <monster name="Ghost" x="0" y="1" z="8" spawntime="300"/>
+  </spawn>
   <spawn centerx="540" centery="599" centerz="8" radius="1">
     <monster name="Ghoul" x="-1" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="567" centery="602" centerz="8" radius="1">
     <monster name="Skeleton Warrior" x="0" y="-1" z="8" spawntime="300"/>
   </spawn>
+  <spawn centerx="612" centery="602" centerz="8" radius="1">
+    <monster name="Crypt shambler" x="-1" y="-1" z="8" spawntime="300"/>
+  </spawn>
   <spawn centerx="543" centery="603" centerz="8" radius="1">
     <monster name="Ghoul" x="-1" y="0" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="564" centery="604" centerz="8" radius="1">
     <monster name="Skeleton Warrior" x="-1" y="0" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="629" centery="609" centerz="8" radius="1">
+    <monster name="Crypt shambler" x="0" y="-1" z="8" spawntime="300"/>
+    <monster name="Ghost" x="1" y="-1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="620" centery="610" centerz="8" radius="1">
+    <monster name="Ghost" x="-1" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="626" centery="611" centerz="8" radius="1">
+    <monster name="Ghost" x="0" y="-1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="612" centery="613" centerz="8" radius="1">
+    <monster name="Crypt shambler" x="-1" y="-1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="593" centery="614" centerz="8" radius="1">
     <monster name="Ghost" x="-1" y="0" z="8" spawntime="300"/>
@@ -3678,8 +3706,19 @@
   <spawn centerx="594" centery="629" centerz="8" radius="1">
     <monster name="Skeleton Warrior" x="-1" y="0" z="8" spawntime="300"/>
   </spawn>
+  <spawn centerx="629" centery="631" centerz="8" radius="1">
+    <monster name="Crypt shambler" x="-1" y="0" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="612" centery="632" centerz="8" radius="1">
+    <monster name="Crypt shambler" x="0" y="-1" z="8" spawntime="300"/>
+    <monster name="Ghost" x="0" y="1" z="8" spawntime="300"/>
+  </spawn>
   <spawn centerx="595" centery="633" centerz="8" radius="1">
     <monster name="Ghost" x="-1" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="627" centery="633" centerz="8" radius="1">
+    <monster name="Ghost" x="-1" y="-1" z="8" spawntime="300"/>
+    <monster name="Crypt shambler" x="1" y="0" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="533" centery="637" centerz="8" radius="1">
     <monster name="Ghost" x="-1" y="-1" z="8" spawntime="300"/>
@@ -3700,12 +3739,18 @@
   <spawn centerx="571" centery="641" centerz="8" radius="1">
     <monster name="Ghost" x="1" y="-1" z="8" spawntime="300"/>
   </spawn>
+  <spawn centerx="612" centery="644" centerz="8" radius="1">
+    <monster name="Crypt shambler" x="-1" y="1" z="8" spawntime="300"/>
+  </spawn>
   <spawn centerx="532" centery="647" centerz="8" radius="1">
     <monster name="Ghoul" x="-1" y="0" z="8" spawntime="300"/>
     <monster name="Ghost" x="1" y="0" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="577" centery="649" centerz="8" radius="1">
     <monster name="Ghost" x="1" y="-1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="630" centery="652" centerz="8" radius="1">
+    <monster name="Ghost" x="-1" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="572" centery="653" centerz="8" radius="1">
     <monster name="Ghost" x="0" y="-1" z="8" spawntime="300"/>
@@ -3717,8 +3762,14 @@
   <spawn centerx="581" centery="654" centerz="8" radius="1">
     <monster name="Skeleton Warrior" x="1" y="-1" z="8" spawntime="300"/>
   </spawn>
+  <spawn centerx="612" centery="656" centerz="8" radius="1">
+    <monster name="Crypt shambler" x="-1" y="0" z="8" spawntime="300"/>
+  </spawn>
   <spawn centerx="574" centery="658" centerz="8" radius="1">
     <monster name="Ghost" x="-1" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="627" centery="658" centerz="8" radius="1">
+    <monster name="Ghost" x="1" y="-1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="588" centery="659" centerz="8" radius="1">
     <monster name="Ghoul" x="-1" y="-1" z="8" spawntime="300"/>
@@ -3729,6 +3780,15 @@
   </spawn>
   <spawn centerx="589" centery="665" centerz="8" radius="1">
     <monster name="Ghost" x="0" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="613" centery="669" centerz="8" radius="1">
+    <monster name="Crypt shambler" x="-1" y="1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="610" centery="672" centerz="8" radius="1">
+    <monster name="Ghost" x="1" y="-1" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="613" centery="674" centerz="8" radius="1">
+    <monster name="Crypt shambler" x="-1" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="512" centery="758" centerz="8" radius="1">
     <monster name="Iron Deposit" x="-1" y="0" z="8" spawntime="360"/>
@@ -4850,9 +4910,27 @@
     <monster name="Crypt shambler" x="0" y="-1" z="10" spawntime="300"/>
     <monster name="Ghost" x="2" y="0" z="10" spawntime="300"/>
   </spawn>
+  <spawn centerx="575" centery="664" centerz="10" radius="1">
+    <monster name="Ghost" x="1" y="1" z="10" spawntime="0"/>
+  </spawn>
+  <spawn centerx="579" centery="665" centerz="10" radius="1">
+    <monster name="Ghost" x="1" y="-1" z="10" spawntime="0"/>
+    <monster name="Crypt shambler" x="1" y="1" z="10" spawntime="0"/>
+  </spawn>
   <spawn centerx="567" centery="667" centerz="10" radius="2">
     <monster name="Ghost" x="-1" y="1" z="10" spawntime="300"/>
+    <monster name="Ghost" x="2" y="1" z="10" spawntime="0"/>
     <monster name="Crypt shambler" x="1" y="2" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="582" centery="667" centerz="10" radius="1">
+    <monster name="Crypt shambler" x="0" y="-1" z="10" spawntime="0"/>
+  </spawn>
+  <spawn centerx="576" centery="668" centerz="10" radius="1">
+    <monster name="Ghost" x="-1" y="-1" z="10" spawntime="0"/>
+  </spawn>
+  <spawn centerx="579" centery="669" centerz="10" radius="1">
+    <monster name="Crypt shambler" x="1" y="-1" z="10" spawntime="0"/>
+    <monster name="Ghost" x="1" y="1" z="10" spawntime="0"/>
   </spawn>
   <spawn centerx="552" centery="672" centerz="10" radius="2">
     <monster name="Skeleton Warrior" x="0" y="1" z="10" spawntime="300"/>
@@ -4873,6 +4951,52 @@
   </spawn>
   <spawn centerx="550" centery="678" centerz="10" radius="2">
     <monster name="Ghoul" x="-1" y="0" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="552" centery="687" centerz="10" radius="2">
+    <monster name="Ghost" x="-1" y="-1" z="10" spawntime="300"/>
+    <monster name="Crypt shambler" x="1" y="0" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="574" centery="689" centerz="10" radius="2">
+    <monster name="Ghost" x="1" y="-2" z="10" spawntime="300"/>
+    <monster name="Crypt shambler" x="0" y="1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="539" centery="691" centerz="10" radius="2">
+    <monster name="Crypt shambler" x="-1" y="-1" z="10" spawntime="300"/>
+    <monster name="Ghost" x="1" y="1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="535" centery="693" centerz="10" radius="2">
+    <monster name="Crypt shambler" x="-1" y="-2" z="10" spawntime="300"/>
+    <monster name="Crypt shambler" x="0" y="2" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="552" centery="693" centerz="10" radius="2">
+    <monster name="Crypt shambler" x="-2" y="-1" z="10" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="2" y="-1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="566" centery="693" centerz="10" radius="2">
+    <monster name="Crypt shambler" x="-1" y="0" z="10" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="1" y="2" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="581" centery="696" centerz="10" radius="2">
+    <monster name="Crypt shambler" x="-1" y="0" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="575" centery="697" centerz="10" radius="2">
+    <monster name="Skeleton Warrior" x="2" y="-1" z="10" spawntime="300"/>
+    <monster name="Crypt shambler" x="1" y="1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="554" centery="702" centerz="10" radius="2">
+    <monster name="Skeleton Warrior" x="0" y="-2" z="10" spawntime="300"/>
+    <monster name="Ghost" x="-2" y="1" z="10" spawntime="300"/>
+    <monster name="Crypt shambler" x="0" y="2" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="550" centery="708" centerz="10" radius="2">
+    <monster name="Ghost" x="1" y="1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="557" centery="708" centerz="10" radius="2">
+    <monster name="Crypt shambler" x="-1" y="1" z="10" spawntime="300"/>
+    <monster name="Skeleton Warrior" x="2" y="1" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="560" centery="713" centerz="10" radius="2">
+    <monster name="Ghost" x="-2" y="0" z="10" spawntime="300"/>
   </spawn>
   <spawn centerx="810" centery="807" centerz="10" radius="2">
     <monster name="Giant Spider" x="1" y="0" z="10" spawntime="300"/>
@@ -4911,8 +5035,10 @@
   </spawn>
   <spawn centerx="555" centery="630" centerz="11" radius="2">
     <monster name="Ghost" x="0" y="-1" z="11" spawntime="300"/>
+    <monster name="Ghost" x="0" y="2" z="11" spawntime="300"/>
   </spawn>
   <spawn centerx="550" centery="636" centerz="11" radius="2">
+    <monster name="Ghost" x="2" y="-2" z="11" spawntime="300"/>
     <monster name="Spectre" x="-1" y="1" z="11" spawntime="300"/>
   </spawn>
 </spawns>
