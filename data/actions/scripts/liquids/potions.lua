@@ -33,11 +33,11 @@ local potions = {
 	[7443] = {condition = bullseye, vocations = {3, 7}, effect = CONST_ME_MAGIC_GREEN,
 			description = "Only paladins may drink this potion.", text = "You feel more accurate."},
 
-	[7588] = {health = {250, 350}, vocations = {3, 4, 7, 8}, level = 50, flask = 7634,
-			description = "Only knights and paladins of level 50 or above may drink this fluid."},
+	[7588] = {health = {250, 350}, level = 50, flask = 7634,
+			description = "Only players of level 50 or above may drink this fluid."},
 
-	[7589] = {mana = {115, 185}, vocations = {1, 2, 3, 5, 6, 7}, level = 50, flask = 7634,
-			description = "Only sorcerers, druids and paladins of level 50 or above may drink this fluid."},
+	[7589] = {mana = {200, 300}, level = 50, flask = 7634,
+			description = "Only players of level 50 or above may drink this fluid."},
 
 	[7590] = {mana = {150, 250}, vocations = {1, 2, 5, 6}, level = 80, flask = 7635,
 			description = "Only druids and sorcerers of level 80 or above may drink this fluid."},
@@ -46,7 +46,7 @@ local potions = {
 			description = "Only knights of level 80 or above may drink this fluid."},
 
 	[7618] = {health = {125, 175}, flask = 7636},
-	[7620] = {mana = {75, 125}, flask = 7636},
+	[7620] = {mana = {100, 150}, flask = 7636},
 	[8472] = {health = {250, 350}, mana = {100, 200}, vocations = {3, 7}, level = 80, flask = 7635,
 			description = "Only paladins of level 80 or above may drink this fluid."},
 

@@ -14,6 +14,8 @@ npcHandler:addModule(shopModule)
 
 shopModule:addBuyableItem({'small health'}, 8704, 20, 1, 'small health potion')
 shopModule:addBuyableItem({'health potion'}, 7618, 45, 1, 'health potion')
+shopModule:addBuyableItem({'strong health potion'}, 7588, 85, 1, 'strong health potion')
+
 
 shopModule:addSellableItem({'normal potion flask', 'normal flask'}, 7636, 5, 'empty small potion flask')
 shopModule:addSellableItem({'strong potion flask', 'strong flask'}, 7634, 10, 'empty strong potion flask')

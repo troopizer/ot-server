@@ -480,4 +480,48 @@
             <missionstate id="1" description="Completed."/>
         </mission>
     </quest>
+    <quest name="Fornost Erain Chapter 1" startstorageid="30021" startstoragevalue="20">
+        <mission name="1 Take out the trash" storageid="2096" startvalue="0" endvalue="11">
+            <missionstate id="0" description="Kill 10 Outlaws."/>
+            <missionstate id="1" description="Kill 9 Outlaws."/>
+            <missionstate id="2" description="Kill 8 Outlaws."/>
+            <missionstate id="3" description="Kill 7 Outlaws."/>
+            <missionstate id="4" description="Kill 6 Outlaws."/>
+            <missionstate id="5" description="Kill 5 Outlaws."/>
+            <missionstate id="6" description="Kill 4 Outlaws."/>
+            <missionstate id="7" description="Kill 3 Outlaws."/>
+            <missionstate id="8" description="Kill 2 Outlaws."/>
+            <missionstate id="9" description="Kill 1 Outlaws."/>
+            <missionstate id="10" description="You got them, ask for your reward."/> 
+            <missionstate id="11" description="Mission Complete."/>   
+        </mission>
+        <mission name="2 Wipe the Apprentices out!" storageid="2097" startvalue="0" endvalue="11">
+            <missionstate id="0" description="Kill 10 Necromancer Apprentice."/>
+            <missionstate id="1" description="Kill 9 Necromancer Apprentice."/>
+            <missionstate id="2" description="Kill 8 Necromancer Apprentice."/>
+            <missionstate id="3" description="Kill 7 Necromancer Apprentice."/>
+            <missionstate id="4" description="Kill 6 Necromancer Apprentice."/>
+            <missionstate id="5" description="Kill 5 Necromancer Apprentice."/>
+            <missionstate id="6" description="Kill 4 Necromancer Apprentice."/>
+            <missionstate id="7" description="Kill 3 Necromancer Apprentice."/>
+            <missionstate id="8" description="Kill 2 Necromancer Apprentice."/>
+            <missionstate id="9" description="Kill 1 Necromancer Apprentice."/>
+            <missionstate id="10" description="You got them, ask for your reward."/> 
+            <missionstate id="11" description="Mission Complete."/>   
+        </mission>
+        <mission name="3 Wipe the Apprentices out!" storageid="2098" startvalue="0" endvalue="11">
+            <missionstate id="0" description="Kill 10 Necromancer Apprentice."/>
+            <missionstate id="1" description="Kill 9 Necromancer Apprentice."/>
+            <missionstate id="2" description="Kill 8 Necromancer Apprentice."/>
+            <missionstate id="3" description="Kill 7 Necromancer Apprentice."/>
+            <missionstate id="4" description="Kill 6 Necromancer Apprentice."/>
+            <missionstate id="5" description="Kill 5 Necromancer Apprentice."/>
+            <missionstate id="6" description="Kill 4 Necromancer Apprentice."/>
+            <missionstate id="7" description="Kill 3 Necromancer Apprentice."/>
+            <missionstate id="8" description="Kill 2 Necromancer Apprentice."/>
+            <missionstate id="9" description="Kill 1 Necromancer Apprentice."/>
+            <missionstate id="10" description="You got them, ask for your reward."/> 
+            <missionstate id="11" description="Mission Complete."/>   
+        </mission>
+    </quest>
 </quests>

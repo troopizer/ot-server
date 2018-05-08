@@ -41,5 +41,7 @@ function onLogin(player)
 	player:registerEvent("BootEaterTarantula")
 	player:registerEvent("Harald Ferner")
 	player:registerEvent("Rorkduf")
+	player:registerEvent("Bandits 10")
+	player:registerEvent("Necroapp 10")
 	return true
 end
