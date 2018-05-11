@@ -64,6 +64,12 @@ function creatureSayCallback(cid, type, msg)
 			end
 		end	
 	elseif(msgcontains(msg, 'mission') or msgcontains(msg, 'life cristal') or msgcontains(msg, 'sulphur')) then
+			if(getPlayerItemCount(cid,11237) >= 1 and getPlayerStorageValue(cid,2098) == 2) then
+					selfSay('Soo.. you come in behave of Bregor the dunedain. I am friend of the dunedains so I will help you.', cid)
+					selfSay('...It looks like the ritual that this necromancers want to realice is to wake up elemental spirits, strange.. they need to sacrifice some priestesses in order to achieve the ritual.', cid)
+					selfSay('Go back to Bregor and told him the details.', cid)
+					setPlayerStorageValue(cid,2098,3)
+			end
 			if(getPlayerStorageValue(cid,2067) == 0) then
 				if(getPlayerItemCount(cid,5904) >= 100)then
 					doPlayerRemoveItem(cid,5904,100)

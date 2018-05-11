@@ -16,10 +16,10 @@ function creatureSayCallback(cid, type, msg)
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 
 	if(msgcontains(msg, 'mission') or msgcontains(msg, 'dunedain') or msgcontains(msg, 'ranger')) then
-			if(getPlayerStorageValue(cid,2046) == 0) then
+			if(getPlayerStorageValue(cid,2096) == 0) then
 				selfSay('I am waiting for you to finish the mission.', cid)
 			elseif(getPlayerStorageValue(cid,2007) == 4 and getPlayerStorageValue(cid,2096) < 0) then
-					selfSay('Hi friend, we are the dunedain, the descendants of old Arnor. Fornost once was our capital, now is a evil and forgotten place..', cid)
+					selfSay('Hi friend, we are the dunedain, the descendants of old Arnor. Fornost was once our capital, now is a evil and forgotten place..', cid)
 					selfSay('We were send by our leader Argonui, in order to control any evil power that raises here. If you want to help us, I can pay you for your work,{ok}?. ', cid)				
 				talkState[talkUser] = 1
 			elseif(getPlayerStorageValue(cid,2096) == 10) then
@@ -32,10 +32,22 @@ function creatureSayCallback(cid, type, msg)
 					selfSay('The second area of the city, the eastern area, is another story. A cult of sorcerers and necromancers use the ruins to make evil rituals, if you feel strong enough I want to kill some of them, {ok}?', cid)		
 					talkState[talkUser] = 1
 			elseif(getPlayerStorageValue(cid,2097) == 10) then
-					selfSay('Nice done!(you received 20000 exp and 1000 gp) ', cid)
+					selfSay('Nice done! I have another {mission} for you (you received 20000 exp and 1000 gp) ', cid)
 					setPlayerStorageValue(cid,2097,11)
 					doPlayerAddExperience(cid,20000)
-					doPlayerAddItem(cid,2152,10)			
+					doPlayerAddItem(cid,2152,10)
+			elseif(getPlayerStorageValue(cid,2097) == 11 and getPlayerStorageValue(cid,2098) < 0) then
+					selfSay('I have a spy located near the necromancers camp, he send a message telling that he found something important, can you go there?, {ok}? ', cid)
+					talkState[talkUser] = 1
+			elseif(getPlayerItemCount(cid,11237) >= 1 and getPlayerStorageValue(cid,2098) == 1) then
+					selfSay('I see! Its very important to know about their plan. But I cant read this... there is a elven sorcerer in the South Downs, find this elf and ask him to read this book.', cid)
+					setPlayerStorageValue(cid,2098,2)
+			elseif(getPlayerItemCount(cid,11237) >= 1 and getPlayerStorageValue(cid,2098) == 3) then
+					selfSay('Thanks you! (you received 20000 exp and 3000 gp)', cid)
+					setPlayerStorageValue(cid,2098,4)
+					doPlayerRemoveItem(cid,11237,1)
+					doPlayerAddExperience(cid,20000)
+					doPlayerAddItem(cid,2152,30)			
 			end
 			
  	elseif(msgcontains(msg, 'bree')) then
@@ -47,11 +59,14 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Some outlaws are camping in the first area of the city, near the entrance. You look strong enough, teach them a lesson.', cid)
 				setPlayerStorageValue(cid,30021,20)
 				setPlayerStorageValue(cid,2096,0)
-			if(getPlayerStorageValue(cid,2096) == 11 and getPlayerStorageValue(cid,2097) < 0) then
+			elseif(getPlayerStorageValue(cid,2096) == 11 and getPlayerStorageValue(cid,2097) < 0) then
 				selfSay('Kill 10 necromancer apprentices in order to spread fear among them.', cid)
 				setPlayerStorageValue(cid,30021,20)
 				setPlayerStorageValue(cid,2097,0)
-			end
+			elseif(getPlayerStorageValue(cid,2097) == 11 and getPlayerStorageValue(cid,2098) < 0) then
+				selfSay('Thanks!', cid)
+				setPlayerStorageValue(cid,30021,20)
+				setPlayerStorageValue(cid,2098,0)
 			end
 		end
 	elseif(msgcontains(msg, 'strong strike')) then

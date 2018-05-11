@@ -74,19 +74,19 @@
 	<instant group="support" name="Climbing" words="retto" lvl="30" mana="50" prem="0" aggressive="0" exhaustion="1000" params="1" needlearn="0" event="function" value="Levitate">
 
     </instant>
-    <instant group="attack" name="Spear Throw" words="hatal pente" lvl="40" maglv="10" mana="80" range="5" needtarget="1" exhaustion="2000" blockwalls="1" needlearn="0" script="martial/spear throw.lua">
+    <instant group="attack" name="Spear Throw" words="hatal pente" lvl="40" maglv="10" mana="60" range="5" needtarget="1" exhaustion="2000" blockwalls="1" needlearn="0" script="martial/spear throw.lua">
 	</instant>
-	<instant group="attack" name="Frontal Long Slash" words="anda pente" lvl="40" maglv="10" mana="100" range="0" direction="1" exhaustion="2000" prem="0" needlearn="0" blockwalls="1" aggressive="1" script="martial/frontal long slash.lua">
+	<instant group="attack" name="Frontal Long Slash" words="anda pente" lvl="40" maglv="10" mana="60" range="0" direction="1" exhaustion="2000" prem="0" needlearn="0" blockwalls="1" aggressive="1" script="martial/frontal long slash.lua">
 
 	</instant>
 		<!-- Fire Spells-->
 	<instant name="Fire Basic Shoot" words="nar pente" lvl="40" mana="30" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" script="fire/flame strike.lua">
 	</instant>
-	<instant name="Fire Spear" words="nar hatal" lvl="40" mana="80" prem="0" range="5" needtarget="1" blockwalls="1" exhaustion="2000" needlearn="0" script="fire/fire spear.lua">
+	<instant name="Fire Spear" words="nar hatal" lvl="40" mana="60" prem="0" range="5" needtarget="1" blockwalls="1" exhaustion="2000" needlearn="0" script="fire/fire spear.lua">
 	</instant>
 	<instant name="Fire Beam" words="nar ete" lvl="40" maglv="30" mana="150" prem="0" range="0" direction="1" blockwalls="1" exhaustion="2000" needlearn="0" script="fire/fire beam.lua">
 	</instant>
-	<instant name="Twisting Fire Slash" words="nar aucirhanc" lvl="40" mana="80" prem="0" range="0" blockwalls="1" exhaustion="2000" needlearn="0" script="fire/twisting fire slash.lua">
+	<instant name="Twisting Fire Slash" words="nar aucirhanc" lvl="40" mana="60" prem="0" range="0" blockwalls="1" exhaustion="2000" needlearn="0" script="fire/twisting fire slash.lua">
 	</instant>
 	<instant name="Fire Enchantment" words="nar luce" lvl="40" mana="120" prem="0" range="0" soul="5" blockwalls="1" exhaustion="2000" needlearn="0" script="fire/fire enchantment.lua">
 	</instant>
@@ -95,11 +95,11 @@
 		<!-- Wind Spells-->
 	<instant name="Energy Basic Shoot" words="sure pente" lvl="40" mana="30" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" script="wind/energy strike.lua">
 	</instant>
-	<instant name="Energy Spear" words="sure hatal" lvl="40" mana="80" prem="0" range="5" needtarget="1" blockwalls="1" exhaustion="2000" needlearn="0" script="wind/energy spear.lua">
+	<instant name="Energy Spear" words="sure hatal" lvl="40" mana="60" prem="0" range="5" needtarget="1" blockwalls="1" exhaustion="2000" needlearn="0" script="wind/energy spear.lua">
 	</instant>
 	<instant name="Energy Beam" words="sure ete" lvl="40" maglv="30" mana="150" prem="0" range="0" direction="1" blockwalls="1" exhaustion="2000" needlearn="0" script="wind/energy beam.lua">
 	</instant>
-	<instant name="Twisting Energy Slash" words="sure aucirhanc" lvl="40" mana="80" prem="0" range="0" blockwalls="1" exhaustion="2000" needlearn="0" script="wind/twisting energy slash.lua">
+	<instant name="Twisting Energy Slash" words="sure aucirhanc" lvl="40" mana="60" prem="0" range="0" blockwalls="1" exhaustion="2000" needlearn="0" script="wind/twisting energy slash.lua">
 	</instant>
 	<instant name="Energy Enchantment" words="sure luce" lvl="40" mana="120" prem="0" range="0" soul="5" blockwalls="1" exhaustion="2000" needlearn="0" script="wind/energy enchantment.lua">
 	</instant>
@@ -108,11 +108,11 @@
 		<!-- Earth Spells-->
 	<instant name="Earth Basic Shoot" words="cen pente" lvl="40" mana="30" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" script="earth/terra strike.lua">
 	</instant>
-	<instant name="Earth Spear" words="cen hatal" lvl="40" mana="80" prem="0" range="5" needtarget="1" blockwalls="1" exhaustion="2000" needlearn="0" script="earth/earth spear.lua">
+	<instant name="Earth Spear" words="cen hatal" lvl="40" mana="60" prem="0" range="5" needtarget="1" blockwalls="1" exhaustion="2000" needlearn="0" script="earth/earth spear.lua">
 	</instant>
 	<instant name="Earth Beam" words="cen ete" lvl="40" maglv="30" mana="150" prem="0" range="0" direction="1" blockwalls="1" exhaustion="2000" needlearn="0" script="earth/earth beam.lua">
 	</instant>
-	<instant name="Twisting Earth Slash" words="cen aucirhanc" lvl="40" mana="80" prem="0" range="0" blockwalls="1" exhaustion="2000" needlearn="0" script="earth/twisting earth slash.lua">
+	<instant name="Twisting Earth Slash" words="cen aucirhanc" lvl="40" mana="60" prem="0" range="0" blockwalls="1" exhaustion="2000" needlearn="0" script="earth/twisting earth slash.lua">
 	</instant>
 	<instant name="Earth Enchantment" words="cen luce" lvl="40" mana="120" prem="0" range="0" soul="5" blockwalls="1" exhaustion="2000" needlearn="0" script="earth/earth enchantment.lua">
 	</instant>
@@ -121,11 +121,11 @@
 		<!-- Water Spells-->
 	<instant name="Ice Basic Shoot" words="nen pente" lvl="40" mana="30" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" script="water/ice strike.lua">
 	</instant>
-	<instant name="Ice Spear" words="nen hatal" lvl="40" mana="80" prem="0" range="5" needtarget="1" blockwalls="1" exhaustion="2000" needlearn="0" script="water/ice spear.lua">
+	<instant name="Ice Spear" words="nen hatal" lvl="40" mana="60" prem="0" range="5" needtarget="1" blockwalls="1" exhaustion="2000" needlearn="0" script="water/ice spear.lua">
 	</instant>
 	<instant name="Ice Beam" words="nen ete" lvl="40" maglv="30" mana="150" prem="0" range="0" direction="1" blockwalls="1" exhaustion="2000" needlearn="0" script="water/ice beam.lua">
 	</instant>
-	<instant name="Twisting Ice Slash" words="nen aucirhanc" lvl="40" mana="80" prem="0" range="0" blockwalls="1" exhaustion="2000" needlearn="0" script="water/twisting ice slash.lua">
+	<instant name="Twisting Ice Slash" words="nen aucirhanc" lvl="40" mana="60" prem="0" range="0" blockwalls="1" exhaustion="2000" needlearn="0" script="water/twisting ice slash.lua">
 	</instant>
 	<instant name="Ice Enchantment" words="nen luce" lvl="40" mana="120" prem="0" range="0" soul="5" blockwalls="1" exhaustion="2000" needlearn="0" script="water/ice enchantment.lua">
 	</instant>
@@ -136,11 +136,11 @@
 	</instant>
 	<instant name="Wisp Summon" words="coi feaminte enyalie" lvl="40" maglv="30" mana="400" prem="0" exhaustion="10000" needlearn="0" script="life/wisp summon.lua">
 	</instant>
-	<instant name="Life Spear" words="coi hatal" lvl="40" mana="80" prem="0" range="5" needtarget="1" blockwalls="1" exhaustion="2000" needlearn="0" script="life/life spear.lua">
+	<instant name="Life Spear" words="coi hatal" lvl="40" mana="60" prem="0" range="5" needtarget="1" blockwalls="1" exhaustion="2000" needlearn="0" script="life/life spear.lua">
 	</instant>
 	<instant name="Life Beam" words="coi ete" lvl="40" maglv="30" mana="150" prem="0" range="0" direction="1" blockwalls="1" exhaustion="2000" needlearn="0" script="life/life beam.lua">
 	</instant>
-	<instant name="Twisting Life Slash" words="coi aucirhanc" lvl="40" mana="80" prem="0" range="0" blockwalls="1" exhaustion="2000" needlearn="0" script="life/twisting life slash.lua">
+	<instant name="Twisting Life Slash" words="coi aucirhanc" lvl="40" mana="60" prem="0" range="0" blockwalls="1" exhaustion="2000" needlearn="0" script="life/twisting life slash.lua">
 	</instant>
 		<!-- Death Spells-->
 	<instant name="Death Basic Shoot" words="kurz kallog" lvl="40" mana="30" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" script="death/death strike.lua">
@@ -151,7 +151,7 @@
 	</instant>
 	<instant name="Death Beam" words="kurz gilt" lvl="40" maglv="30" mana="150" prem="0" range="0" direction="1" blockwalls="1" exhaustion="2000" needlearn="0" script="death/death beam.lua">
 	</instant>
-	<instant name="Twisting Death Slash" words="kurz faglind" lvl="40" mana="80" prem="0" range="0" blockwalls="1" exhaustion="2000" needlearn="0" script="death/twisting death slash.lua">
+	<instant name="Twisting Death Slash" words="kurz faglind" lvl="40" mana="60" prem="0" range="0" blockwalls="1" exhaustion="2000" needlearn="0" script="death/twisting death slash.lua">
 	</instant>
 		<!-- God Spells-->
 	<instant name="God Rage" words="just die" lvl="1" maglv="1" mana="1" exhaustion="1000" prem="1" access="5" needlearn="0" blockwalls="0" aggressive="1" script="god/god rage.lua">

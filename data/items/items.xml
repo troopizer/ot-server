@@ -2238,7 +2238,7 @@
 		<attribute key="slotType" value="ring" />
 		<attribute key="decayTo" value="0" />
 		<attribute key="transformDeEquipTo" value="2168" />
-		<attribute key="duration" value="1200" />
+		<attribute key="duration" value="3600" />
 		<attribute key="healthGain" value="2" />
 		<attribute key="healthTicks" value="3000" />
 		<attribute key="manaGain" value="4" />
@@ -12499,11 +12499,11 @@
     </item>
     <item id="7588" article="a" name="strong health potion">
         <attribute key="weight" value="200" />
-        <attribute key="description" value="This potion can only be consumed by paladins and knights of level 50 or higher." />
+        <attribute key="description" value="This potion can only be consumed by players of level 50 or higher." />
     </item>
     <item id="7589" article="a" name="strong mana potion">
         <attribute key="weight" value="200" />
-        <attribute key="description" value="This potion can only be consumed by sorcerers, druids and paladins of level 50 or higher." />
+        <attribute key="description" value="This potion can only be consumed by players of level 50 or higher." />
     </item>
     <item id="7590" article="a" name="great mana potion">
         <attribute key="weight" value="220" />
@@ -17050,7 +17050,7 @@
     <item id="11224" name="winged tail">
         <attribute key="weight" value="450" />
     </item>
-    <item id="11225" name="nettle blossom">
+    <item id="11231" name="nettle blossom">
         <attribute key="weight" value="88" />
     </item>
     <item id="11226" name="sulphurous stone">
@@ -17068,7 +17068,7 @@
     <item id="11230" name="wool">
         <attribute key="weight" value="118" />
     </item>
-    <item id="11231" name="book of necromantic rituals" plural="books of necromantic rituals">
+    <item id="11237" name="book of necromantic rituals" plural="books of necromantic rituals">
         <attribute key="weight" value="358" />
     </item>
     <item id="11232" name="mammoth tusk">
@@ -17091,11 +17091,11 @@
         <attribute key="containerSize" value="8" />
         <attribute key="slotType" value="backpack" />
     </item>
-    <item id="11237" article="a" name="lizard backpack">
+   <!--<item id="11237" article="a" name="lizard backpack">
         <attribute key="weight" value="1700" />
         <attribute key="containerSize" value="20" />
         <attribute key="slotType" value="backpack" />
-    </item>
+    </item>-->
     <item id="11238" article="a" name="minotaur backpack">
         <attribute key="weight" value="1800" />
         <attribute key="containerSize" value="20" />
