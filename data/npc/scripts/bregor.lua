@@ -27,7 +27,7 @@ function creatureSayCallback(cid, type, msg)
 					setPlayerStorageValue(cid,2096,11)
 					doPlayerAddExperience(cid,10000)
 					doPlayerAddItem(cid,2152,10)
-			elseif(getPlayerStorageValue(cid,2096) == 11) then
+			elseif(getPlayerStorageValue(cid,2096) == 11 and getPlayerStorageValue(cid,2097) < 0) then
 					selfSay('As you may noticed in the first area of the city there are just some wolves and bandits. Thats because an old dwarven sorcerer keeps any evil spirit and undead lock in the catacombs.', cid)
 					selfSay('The second area of the city, the eastern area, is another story. A cult of sorcerers and necromancers use the ruins to make evil rituals, if you feel strong enough I want to kill some of them, {ok}?', cid)		
 					talkState[talkUser] = 1
@@ -43,11 +43,18 @@ function creatureSayCallback(cid, type, msg)
 					selfSay('I see! Its very important to know about their plan. But I cant read this... there is a elven sorcerer in the South Downs, find this elf and ask him to read this book.', cid)
 					setPlayerStorageValue(cid,2098,2)
 			elseif(getPlayerItemCount(cid,11237) >= 1 and getPlayerStorageValue(cid,2098) == 3) then
-					selfSay('Thanks you! (you received 20000 exp and 3000 gp)', cid)
+					selfSay('Thanks you! Wellcome back! (you received 20000 exp and 3000 gp)', cid)
 					setPlayerStorageValue(cid,2098,4)
 					doPlayerRemoveItem(cid,11237,1)
 					doPlayerAddExperience(cid,20000)
-					doPlayerAddItem(cid,2152,30)			
+					doPlayerAddItem(cid,2152,30)	
+			elseif(getPlayerStorageValue(cid,2098) == 4 and getPlayerStorageValue(cid,2099) < 0) then
+					selfSay('I am still planning our next move, for the time being we should get rid of most priestesses. You should get rid of some of them, while you train, {ok}? ', cid)
+					talkState[talkUser] = 1
+			elseif(getPlayerStorageValue(cid,2099) == 20) then
+					selfSay('All right, you are true warrior. Now you should choose between 2 martial spells: {Frontal Long Slash}(Meele) or {Spear Throw} (Distance). (you received 30000 exp)', cid)
+					doPlayerAddExperience(cid,30000)
+					talkState[talkUser] = 2	
 			end
 			
  	elseif(msgcontains(msg, 'bree')) then
@@ -67,38 +74,28 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Thanks!', cid)
 				setPlayerStorageValue(cid,30021,20)
 				setPlayerStorageValue(cid,2098,0)
+			elseif(getPlayerStorageValue(cid,2098) == 4 and getPlayerStorageValue(cid,2099) < 0)
+				selfSay('Great! Kill 20 priestesses, that way I may teach you some martial skills.', cid)
+				setPlayerStorageValue(cid,30021,20)
+				setPlayerStorageValue(cid,2099,0)
 			end
 		end
-	elseif(msgcontains(msg, 'strong strike')) then
+	elseif(msgcontains(msg, 'frontal long slash')) then
 		if(talkState[talkUser] == 2) then
-			if(getPlayerStorageValue(cid,2047) == 1) then
+			if(getPlayerStorageValue(cid,2099) == 20) then
 				selfSay('You have learned.', cid)
 				setPlayerStorageValue(cid,30011,10)
-				setPlayerStorageValue(cid,2042,0)
+				setPlayerStorageValue(cid,2057,0)
+				setPlayerStorageValue(cid,2099,21)
 			end
 		end
-	elseif(msgcontains(msg, 'twisting slash')) then
+	elseif(msgcontains(msg, 'spear throw')) then
 		if(talkState[talkUser] == 2) then
-			if(getPlayerStorageValue(cid,2047) == 1) then
+			if(getPlayerStorageValue(cid,2099) == 20) then
 				selfSay('You have learned.', cid)
 				setPlayerStorageValue(cid,30011,10)
-				setPlayerStorageValue(cid,2043,0)
-			end
-		end
-	elseif(msgcontains(msg, 'shield wall')) then
-		if(talkState[talkUser] == 2) then
-			if(getPlayerStorageValue(cid,2047) == 1) then
-				selfSay('You have learned.', cid)
-				setPlayerStorageValue(cid,30011,10)
-				setPlayerStorageValue(cid,2044,0)
-			end
-		end
-	elseif(msgcontains(msg, 'sharp aim')) then
-		if(talkState[talkUser] == 2) then
-			if(getPlayerStorageValue(cid,2047) == 1) then
-				selfSay('You have learned.', cid)
-				setPlayerStorageValue(cid,30011,10)
-				setPlayerStorageValue(cid,2045,0)
+				setPlayerStorageValue(cid,2056,0)
+				setPlayerStorageValue(cid,2099,21)
 			end
 		end
 		talkState[talkUser] = 0

@@ -516,19 +516,29 @@
             <missionstate id="3" description="Go back to Bregor."/>
             <missionstate id="4" description="Mission Complete."/>   
         </mission>
-        <mission name="4 No more priestesses!" storageid="2099" startvalue="0" endvalue="11">
-            <missionstate id="0" description="Kill 10 Priestesses."/>
-            <missionstate id="1" description="Kill 9 Priestesses."/>
-            <missionstate id="2" description="Kill 8 Priestesses."/>
-            <missionstate id="3" description="Kill 7 Priestesses."/>
-            <missionstate id="4" description="Kill 6 Priestesses."/>
-            <missionstate id="5" description="Kill 5 Priestesses."/>
-            <missionstate id="6" description="Kill 4 Priestesses."/>
-            <missionstate id="7" description="Kill 3 Priestesses."/>
-            <missionstate id="8" description="Kill 2 Priestesses."/>
-            <missionstate id="9" description="Kill 1 Priestesses."/>
-            <missionstate id="10" description="You got them, ask for your reward."/> 
-            <missionstate id="11" description="Mission Complete."/>   
+        <mission name="4 No more priestesses!" storageid="2099" startvalue="0" endvalue="21">
+            <missionstate id="0" description="Kill 20 Priestesses."/>
+            <missionstate id="1" description="Kill 19 Priestesses."/>
+            <missionstate id="2" description="Kill 18 Priestesses."/>
+            <missionstate id="3" description="Kill 17 Priestesses."/>
+            <missionstate id="4" description="Kill 16 Priestesses."/>
+            <missionstate id="5" description="Kill 15 Priestesses."/>
+            <missionstate id="6" description="Kill 14 Priestesses."/>
+            <missionstate id="7" description="Kill 13 Priestesses."/>
+            <missionstate id="8" description="Kill 12 Priestesses."/>
+            <missionstate id="9" description="Kill 11 Priestesses."/>          
+            <missionstate id="10" description="Kill 10 Priestesses."/>
+            <missionstate id="11" description="Kill 9 Priestesses."/>
+            <missionstate id="12" description="Kill 8 Priestesses."/>
+            <missionstate id="13" description="Kill 7 Priestesses."/>
+            <missionstate id="14" description="Kill 6 Priestesses."/>
+            <missionstate id="15" description="Kill 5 Priestesses."/>
+            <missionstate id="16" description="Kill 4 Priestesses."/>
+            <missionstate id="17" description="Kill 3 Priestesses."/>
+            <missionstate id="18" description="Kill 2 Priestesses."/>
+            <missionstate id="19" description="Kill 1 Priestesses."/>
+            <missionstate id="20" description="You got them, ask for your reward."/> 
+            <missionstate id="21" description="Mission Complete."/>   
         </mission>
     </quest>
 </quests>
