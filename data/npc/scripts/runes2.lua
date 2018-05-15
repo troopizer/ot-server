@@ -59,7 +59,7 @@ function creatureSayCallback(cid, type, msg)
 		end
 	end
 	if(msgcontains(msg, 'prove')) then
-		if(getPlayerStorageValue(cid,2059) == 1 and getPlayerStorageValue(cid,2066) < 0) then
+		if(getPlayerStorageValue(cid,2059) == 1 and getPlayerStorageValue(cid,2066) < 0 and getPlayerStorageValue(cid,2067) < 0 and getPlayerStorageValue(cid,2065) < 0) then
 			if(getPlayerItemCount(cid,5904) >= 100)then
 				selfSay('You must be pretty strong if you can get so much magic sulphur, now you have to choose what kind of magic you want learn', cid)	
 				selfSay('{Fire}, {Earth}, {Ice}, {Energy}, {life}, {death}', cid)

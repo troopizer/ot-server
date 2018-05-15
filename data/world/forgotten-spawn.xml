@@ -4835,11 +4835,41 @@
     <monster name="Poison spider" x="-1" y="-1" z="9" spawntime="60"/>
     <monster name="spider" x="1" y="1" z="9" spawntime="60"/>
   </spawn>
+  <spawn centerx="730" centery="1055" centerz="9" radius="2">
+    <monster name="Giant Spider" x="-1" y="-1" z="9" spawntime="300"/>
+    <monster name="Giant Spider" x="0" y="2" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="735" centery="1058" centerz="9" radius="2">
+    <monster name="Giant Spider" x="-1" y="1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="722" centery="1064" centerz="9" radius="2">
+    <monster name="Giant Spider" x="1" y="2" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="747" centery="1066" centerz="9" radius="2">
+    <monster name="Giant Spider" x="-1" y="-1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="764" centery="1069" centerz="9" radius="2">
+    <monster name="Giant Spider" x="0" y="-1" z="9" spawntime="300"/>
+    <monster name="Giant Spider" x="2" y="-1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="729" centery="1072" centerz="9" radius="2">
+    <monster name="Giant Spider" x="0" y="-1" z="9" spawntime="300"/>
+  </spawn>
   <spawn centerx="582" centery="1075" centerz="9" radius="2">
     <monster name="Ghoul" x="1" y="-1" z="9" spawntime="130"/>
   </spawn>
   <spawn centerx="587" centery="1078" centerz="9" radius="2">
     <monster name="Ghost" x="1" y="0" z="9" spawntime="130"/>
+  </spawn>
+  <spawn centerx="747" centery="1078" centerz="9" radius="2">
+    <monster name="Giant Spider" x="2" y="2" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="769" centery="1079" centerz="9" radius="2">
+    <monster name="Giant Spider" x="2" y="-1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="718" centery="1080" centerz="9" radius="2">
+    <monster name="Giant Spider" x="0" y="-1" z="9" spawntime="300"/>
+    <monster name="Giant Spider" x="2" y="2" z="9" spawntime="300"/>
   </spawn>
   <spawn centerx="586" centery="1083" centerz="9" radius="2">
     <monster name="Ghoul" x="0" y="-1" z="9" spawntime="130"/>
@@ -4850,6 +4880,22 @@
   </spawn>
   <spawn centerx="580" centery="1087" centerz="9" radius="2">
     <monster name="Ghost" x="0" y="-1" z="9" spawntime="130"/>
+  </spawn>
+  <spawn centerx="769" centery="1092" centerz="9" radius="2">
+    <monster name="Giant Spider" x="-1" y="0" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="723" centery="1093" centerz="9" radius="2">
+    <monster name="Giant Spider" x="2" y="0" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="738" centery="1096" centerz="9" radius="2">
+    <monster name="Giant Spider" x="-1" y="0" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="762" centery="1098" centerz="9" radius="2">
+    <monster name="Giant Spider" x="-1" y="0" z="9" spawntime="300"/>
+    <monster name="Giant Spider" x="1" y="2" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="732" centery="1103" centerz="9" radius="2">
+    <monster name="Giant Spider" x="-1" y="0" z="9" spawntime="300"/>
   </spawn>
   <spawn centerx="497" centery="1114" centerz="9" radius="2">
     <monster name="Ghost" x="0" y="-2" z="9" spawntime="300"/>

@@ -270,6 +270,9 @@
         <mission name="Frontal Long Slash - anda pente" storageid="2057" startvalue="0" endvalue="0">
             <missionstate id="0" description="Frontal Long Slash - Words: anda pente - lvl: 40 - mlvl: 15 - A long frontal hit."/>
         </mission>
+        <mission name="Warrior Rage - mahtar" storageid="2101" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Warrior Rage - Words: mahtar - lvl: 40 - mlvl: 15 - Attack with all your strenght."/>
+        </mission>
     </quest>
     <quest name="Lone Lands Chapter 1" startstorageid="30012" startstoragevalue="11">
         <mission name="1 Fierce wolves" storageid="2046" startvalue="0" endvalue="21">
@@ -539,6 +542,14 @@
             <missionstate id="19" description="Kill 1 Priestesses."/>
             <missionstate id="20" description="You got them, ask for your reward."/> 
             <missionstate id="21" description="Mission Complete."/>   
+        </mission>
+        <mission name="5 Kill the cultists!" storageid="2100" startvalue="0" endvalue="2">
+            <missionstate id="0" description="Kill 4 Elemental Cultists."/>
+            <missionstate id="1" description="Kill 3 Elemental Cultists."/>
+            <missionstate id="2" description="Kill 2 Elemental Cultists."/>
+            <missionstate id="3" description="Kill 1 Elemental Cultists."/>
+            <missionstate id="4" description="You got them, ask for your reward."/> 
+            <missionstate id="5" description="Mission Complete."/>   
         </mission>
     </quest>
 </quests>
