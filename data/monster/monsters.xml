@@ -190,4 +190,9 @@
 	<monster name="Donkey" file="Mounts/donkey.xml"/>
 	<monster name="Horse" file="Mounts/horse.xml"/>
 
+	<!-- Elemental Cult -->
+	<monster name="Fire Cultist" file="Elemental Cult/Fire Cultist.xml"/>
+	<monster name="Ice Cultist" file="Elemental Cult/Ice Cultist.xml"/>
+	<monster name="Energy Cultist" file="Elemental Cult/Energy Cultist.xml"/>
+	<monster name="Earth Cultist" file="Elemental Cult/Earth Cultist.xml"/>
 </monsters>

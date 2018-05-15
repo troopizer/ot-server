@@ -393,7 +393,7 @@
 	<movevent event="DeEquip" itemid="21691" slot="necklace" function="onDeEquipItem" />
 
 	<!-- Rings -->
-	<movevent event="Equip" itemid="2164" slot="ring" function="onEquipItem" />
+	<movevent event="Equip" itemid="2164" slot="ring" level="60" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="2164" slot="ring" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="2165" slot="ring" function="onEquipItem" />
 	<movevent event="Equip" itemid="2202" slot="ring" function="onEquipItem" />

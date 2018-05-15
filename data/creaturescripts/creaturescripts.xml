@@ -21,4 +21,5 @@
 	<event type="kill" name="Bandits 10" script="bandits10.lua"/>
 	<event type="kill" name="Necroapp 10" script="necroapp10.lua"/>
 	<event type="kill" name="Priestess 20" script="priestess20.lua"/>
+	<event type="kill" name="Cult 4" script="cult4.lua"/>
 </creaturescripts>

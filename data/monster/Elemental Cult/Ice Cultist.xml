@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ice Cultist" nameDescription="an ice cultist" race="blood" experience="800" speed="250" manacost="0">
+	<health now="1200" max="1200"/>
+	<look type="194" head="124" body="86" legs="114" feet="105" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag staticattack="90"/>
+		<flag targetdistance="5"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="50" max="105"/>
+		<attack name="ice" interval="2000" chance="25" range="6" radius="1" target="1" min="-100" max="-250">
+			<attribute key="areaEffect" value="iceattack"/>
+		</attack>
+		<attack name="ice" interval="2000" chance="20" range="6" radius="4" target="1" min="-50" max="-200">
+			<attribute key="areaEffect" value="iceattack"/>
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="25">
+		<defense name="healing" interval="1000" chance="25" min="50" max="80">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element holyPercent="-10"/>
+		<element firePercent="-20"/>
+		<element earthPercent="20"/>
+		<element icePercent="50"/>
+		<element physicalPercent="-10"/>
+		<element energyPercent="-10"/>
+		<element deathPercent="-5"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Ice!"/>
+	</voices>
+	<loot>
+		<item id="7897" chance="200"/><!-- ice armor -->
+		<item id="7896" chance="400"/><!-- ice legs -->
+		<item id="7892" chance="600"/><!-- boots -->
+		<item id="7902" chance="800"/><!-- ice helmet -->
+		<item id="7888" chance="800"/><!-- ice amulet -->
+		<item id="2152" countmax="4" chance="40000"/><!-- p coin -->
+		<item id="2804" countmax="2" chance="20000"/><!-- shadow herb -->
+		<item id="2186" chance="5000"/><!-- ice wand -->
+		<item id="2500" chance="5000"/><!-- steel studded armor -->
+		<item id="2663" chance="200"/><!-- mystic turban -->
+		<item id="8820" chance="2000"/><!-- mage hat -->
+		<item id="5904" chance="20000"/><!-- magic sulphur -->
+		<item id="8870" chance="2000"/><!-- spirit cloak -->
+		<item id="1987" chance="80000"/><!-- bag -->
+		<item id="2146" chance="1000"/><!-- small sapphire -->
+	</loot>
+</monster>

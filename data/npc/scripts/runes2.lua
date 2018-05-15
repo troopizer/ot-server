@@ -87,7 +87,7 @@ function creatureSayCallback(cid, type, msg)
 			if(getPlayerStorageValue(cid,2059) == 1) then
 				if(getPlayerItemCount(cid,5904) >= 100 and talkState[talkUser] == 4)then
 				selfSay('Nice to hear that.. Its time to prove me if you have what is needed to learn death magic.', cid)	
-				selfSay('Come back with red skull and I will teach you anything you need know to learn death magic.', cid)
+				selfSay('Come back with white skull and I will teach you anything you need know to learn death magic.', cid)
 				setPlayerStorageValue(cid,30020,19)
 				setPlayerStorageValue(cid,2066,0)				
 				talkState[talkUser] = 0			
@@ -98,9 +98,9 @@ function creatureSayCallback(cid, type, msg)
 		end
 	end
 	if(msgcontains(msg, 'mission') or msgcontains(msg, 'death') or msgcontains(msg, 'prove')) then
-		if(getPlayerStorageValue(cid,2066) == 0 and getPlayerItemCount(cid,5904) >= 100 and getPlayerSkullType(cid) == SKULL_RED) then
+		if(getPlayerStorageValue(cid,2066) == 0 and getPlayerItemCount(cid,5904) >= 100 and getPlayerSkullType(cid) == SKULL_WHITE) then
 			doPlayerRemoveItem(cid,5904,100)
-			selfSay('Here you have a life crystal, you will have to look for an Ainurs Statue. You will find one here in Fornost Erain. Do it quickly or you will have to get red skull again.', cid)
+			selfSay('Here you have a life crystal, you will have to look for an Ainurs Statue. You will find one here in Fornost Erain. Do it quickly or you will have to get white skull again.', cid)
 			doPlayerAddItem(cid,2177,1)
 			setPlayerStorageValue(cid,2066,1)
 		elseif(getPlayerStorageValue(cid,2066) == 0)then

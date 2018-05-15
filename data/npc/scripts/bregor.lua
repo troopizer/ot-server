@@ -52,9 +52,21 @@ function creatureSayCallback(cid, type, msg)
 					selfSay('I am still planning our next move, for the time being we should get rid of most priestesses. You should get rid of some of them, while you train, {ok}? ', cid)
 					talkState[talkUser] = 1
 			elseif(getPlayerStorageValue(cid,2099) == 20) then
-					selfSay('All right, you are true warrior. Now you should choose between 2 martial spells: {Frontal Long Slash}(Meele) or {Spear Throw} (Distance). (you received 30000 exp)', cid)
+					selfSay('All right, you are true warrior. Now you should choose between 2 martial spells: {Frontal Long Slash} (Meele) or {Spear Throw} (Distance). (you received 30000 exp)', cid)
 					doPlayerAddExperience(cid,30000)
 					talkState[talkUser] = 2	
+			elseif(getPlayerStorageValue(cid,2099) == 21 and getPlayerStorageValue(cid,2100) < 0) then
+					selfSay('Well... Freor found out that there are some elemental cultists in the necromancers area in Fornost. This cultists have strong elemental powers.', cid)
+					selfSay('It looks like that the cultists are key for the necromancers plans. You may be able to kill them and stop the ritual, {ok}? ', cid)
+					talkState[talkUser] = 1
+			elseif(getPlayerStorageValue(cid,2100) == 4) then
+					selfSay('You are strong one my friend! Because of you the necromancers lost for this time.(you received a might ring, 40000 exp and 3000 gp) ', cid)
+					setPlayerStorageValue(cid,2100,5)
+					doPlayerAddExperience(cid,40000)
+					doPlayerAddItem(cid,2152,30)
+					doPlayerAddItem(cid,2164,1)
+			elseif(getPlayerStorageValue(cid,2100) == 5) then
+					selfSay('I dont have more missions for now.', cid)
 			end
 			
  	elseif(msgcontains(msg, 'bree')) then
@@ -74,10 +86,14 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Thanks!', cid)
 				setPlayerStorageValue(cid,30021,20)
 				setPlayerStorageValue(cid,2098,0)
-			elseif(getPlayerStorageValue(cid,2098) == 4 and getPlayerStorageValue(cid,2099) < 0)
+			elseif(getPlayerStorageValue(cid,2098) == 4 and getPlayerStorageValue(cid,2099) < 0) then
 				selfSay('Great! Kill 20 priestesses, that way I may teach you some martial skills.', cid)
 				setPlayerStorageValue(cid,30021,20)
 				setPlayerStorageValue(cid,2099,0)
+			elseif(getPlayerStorageValue(cid,2099) == 21 and getPlayerStorageValue(cid,2100) < 0) then
+				selfSay('Kill 4 cultists and we will stop them for now.', cid)
+				setPlayerStorageValue(cid,30021,20)
+				setPlayerStorageValue(cid,2100,0)
 			end
 		end
 	elseif(msgcontains(msg, 'frontal long slash')) then

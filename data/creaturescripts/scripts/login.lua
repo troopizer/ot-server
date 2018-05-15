@@ -44,6 +44,7 @@ function onLogin(player)
 	player:registerEvent("Bandits 10")
 	player:registerEvent("Necroapp 10")
 	player:registerEvent("Priestess 20")
+	player:registerEvent("Cult 4")
 	
 	return true
 end

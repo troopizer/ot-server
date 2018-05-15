@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Fire Cultist" nameDescription="a fire cultist" race="blood" experience="800" speed="250" manacost="0">
+	<health now="1200" max="1200"/>
+	<look type="194" head="132" body="94" legs="114" feet="113" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag staticattack="90"/>
+		<flag targetdistance="5"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="50" max="105"/>
+		<attack name="fire" interval="2000" chance="25" range="6" radius="1" target="1" min="-100" max="-250">
+			<attribute key="areaEffect" value="fire"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="20" range="6" radius="4" target="1" min="-50" max="-200">
+			<attribute key="areaEffect" value="fire"/>
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="25">
+		<defense name="healing" interval="1000" chance="25" min="50" max="80">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element holyPercent="-10"/>
+		<element firePercent="50"/>
+		<element earthPercent="-10"/>
+		<element icePercent="-20"/>
+		<element physicalPercent="-10"/>
+		<element energyPercent="20"/>
+		<element deathPercent="-5"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Firee!"/>
+	</voices>
+	<loot>
+		<item id="7899" chance="200"/><!-- fire armor -->
+		<item id="7894" chance="400"/><!-- fire legs -->
+		<item id="7891" chance="600"/><!-- boots -->
+		<item id="7900" chance="800"/><!-- fire helmet -->
+		<item id="7890" chance="800"/><!-- fire amulet -->
+		<item id="2152" countmax="4" chance="40000"/><!-- p coin -->
+		<item id="2804" countmax="2" chance="20000"/><!-- shadow herb -->
+		<item id="2191" chance="5000"/><!-- fire wand -->
+		<item id="2500" chance="5000"/><!-- steel studded armor -->
+		<item id="2663" chance="200"/><!-- mystic turban -->
+		<item id="8820" chance="2000"/><!-- mage hat -->
+		<item id="5904" chance="20000"/><!-- magic sulphur -->
+		<item id="8870" chance="2000"/><!-- spirit cloak -->
+		<item id="1987" chance="80000"/><!-- bag -->
+		<item id="2147" chance="1000"/><!-- small ruby -->	
+	</loot>
+</monster>
