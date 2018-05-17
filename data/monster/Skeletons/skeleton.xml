@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<monster name="Skeleton" nameDescription="a skeleton" race="undead" experience="35" speed="154" manacost="300">
+<monster name="Skeleton" nameDescription="a skeleton" race="undead" experience="35" speed="200" manacost="300">
 
 	<health now="50" max="50"/>
 

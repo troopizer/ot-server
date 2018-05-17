@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<monster name="Lone Lands Savage" nameDescription="a lone lands savage" race="blood" experience="300" speed="210" manacost="450">
+<monster name="Lone Lands Savage" nameDescription="a lone lands savage" race="blood" experience="300" speed="230" manacost="450">
 
 	<health now="400" max="400"/>
 	<look type="143" head="116" body="117" legs="115" feet="115" addons="0" corpse="6080"/>

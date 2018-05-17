@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<monster name="Eriador Renegades Sergeant" nameDescription="a eriador renegades sergeant" race="blood" experience="350" speed="210" manacost="450">
+<monster name="Eriador Renegades Sergeant" nameDescription="a eriador renegades sergeant" race="blood" experience="350" speed="240" manacost="450">
 
 	<health now="500" max="500"/>
 	<look type="131" head="114" body="114" legs="113" feet="114" addons="3" corpse="6080"/>

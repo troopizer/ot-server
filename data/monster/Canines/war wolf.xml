@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="War Wolf" nameDescription="a war wolf" race="blood" experience="55" speed="200" manacost="0">
-	<health now="140" max="140"/>
+<monster name="Warg Wolf" nameDescription="a warg wolf" race="blood" experience="500" speed="280" manacost="0">
+	<health now="1200" max="1200"/>
 	<look type="3" corpse="6009"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>
@@ -18,22 +18,28 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="39" attack="24"/>
+		<attack name="melee" interval="2000" skill="50" attack="55"/>
 	</attacks>
-	<defenses armor="10" defense="16"/>
+	<defenses armor="20" defense="30"/>
 	<elements>
-		<element earthPercent="20"/>
-		<element holyPercent="10"/>
-		<element icePercent="-10"/>
-		<element deathPercent="-5"/>
+		<element firePercent="-10"/>
+		<element earthPercent="0"/>
+		<element holyPercent="0"/>
+		<element icePercent="5"/>
+		<element deathPercent="-10"/>
+		<element energyPercent="-10"/>
 	</elements>
-	<voices interval="5000" chance="10">
-		<voice sentence="Grrrrrrr"/>
+	<voices interval="3000" chance="30">
+		<voice sentence="Groooarrrrrr" yell="1"/>
 		<voice sentence="Yoooohhuuuu!" yell="1"/>
 	</voices>
 	<loot>
 		<item id="3976" countmax="10" chance="50000"/><!-- worm -->
 		<item id="2671" countmax="5" chance="33333"/><!-- ham -->
-		<item id="5897" countmax="1" chance="6666"/><!-- wolf paw -->
+		<item id="2804" countmax="1" chance="10000"/><!-- shadow herb -->
+		<item id="2803" countmax="2" chance="10000"/><!-- powder herb -->
+		<item id="5878" countmax="3" chance="15000"/><!-- leather -->
+		<item id="5897" countmax="2" chance="20000"/><!-- wolf paw -->
+		<item id="11235" chance="10000"/><!-- wolf fur-->
 	</loot>
 </monster>

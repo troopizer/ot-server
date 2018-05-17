@@ -8833,7 +8833,7 @@
     <item id="5882" article="a" name="red dragon scale" plural="red dragon scales">
         <attribute key="weight" value="90" />
     </item>
-    <item id="5883" article="an" name="ape fur" plural="ape furs">
+    <item id="5883" article="an" name="boar fur" plural="boar furs">
         <attribute key="weight" value="120" />
     </item>
     <item id="5884" article="a" name="fighting spirit">
@@ -17062,7 +17062,7 @@
     <item id="11228" name="werewolf fur">
         <attribute key="weight" value="113" />
     </item>
-    <item id="11229" name="warwolf fur">
+    <item id="11229" name="warg wolf fur">
         <attribute key="weight" value="105" />
     </item>
     <item id="11230" name="wool">
@@ -17081,10 +17081,8 @@
         <attribute key="slotType" value="feet" />
         <attribute key="weight" value="2250" />
     </item>
-    <item id="11235" article="a" name="expedition backpack">
-        <attribute key="weight" value="1800" />
-        <attribute key="containerSize" value="20" />
-        <attribute key="slotType" value="backpack" />
+    <item id="11235" article="a" article="a" name="warg wolf fur" plural="warg wolf furs">
+        <attribute key="weight" value="120" />
     </item>
     <item id="11236" article="a" name="expedition bag">
         <attribute key="weight" value="800" />
@@ -17387,8 +17385,9 @@
 	</item>
 
 <item id="11241" article="a" name="dead gnarlhound">
+        <attribute key="weight" value="17000" />
 		<attribute key="containerSize" value="10" />
-			<attribute key="duration" value="10" />
+		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="blood" />
 		<attribute key="fluidSource" value="blood" />
 	</item>
