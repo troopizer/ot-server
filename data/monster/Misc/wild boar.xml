@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<monster name="Wild Boar" nameDescription="a wild boar" race="blood" experience="400" speed="290">
+<monster name="Wild Boar" nameDescription="a wild boar" race="blood" experience="400" speed="310">
 	<health now="800" max="800" />
 	<look type="380" corpse="6000" />
 	<targetchange interval="4000" chance="10" />
@@ -17,7 +17,7 @@
 		<flag runonhealth="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="45" attack="50"/>
+		<attack name="melee" interval="2000" skill="45" attack="52"/>
 	</attacks>
 	<defenses armor="20" defense="30"/>
 	<elements>
@@ -34,7 +34,7 @@
 		<element energyPercent="-10"/>
 
 	</elements>
-	<voices interval="5000" chance="10">
+	<voices interval="5000" chance="20">
 		<voice sentence="Gnorrr!" />
 		<voice sentence="Gnarrr!" />
 		<voice sentence="&lt;Gnorrr&gt;" />
