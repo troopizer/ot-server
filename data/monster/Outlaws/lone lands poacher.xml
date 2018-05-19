@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <monster name="Lone Lands Poacher" nameDescription="a lone lands poacher" race="blood" experience="250" speed="210" manacost="450">
 
@@ -39,7 +39,7 @@
 
 		<attack name="melee" interval="2000" skill="35" attack="40"/>
 
-		<attack name="physical" interval="2000" chance="30" range="5" min="-100" max="-50">
+		<attack name="physical" interval="2000" chance="30" range="5" min="-50" max="-100">
 
 			<attribute key="shootEffect" value="spear"/>
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Brean" script="brean.lua" nameDescription="Brean, a lone lands leatherworker" walkinterval="4000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="129" head="116" body="115" legs="114" feet="115" addons="1" corpse="2212"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|."/>
+	</parameters>
+</npc>

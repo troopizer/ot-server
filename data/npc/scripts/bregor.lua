@@ -52,7 +52,7 @@ function creatureSayCallback(cid, type, msg)
 					selfSay('I am still planning our next move, for the time being we should get rid of most priestesses. You should get rid of some of them, while you train, {ok}? ', cid)
 					talkState[talkUser] = 1
 			elseif(getPlayerStorageValue(cid,2099) == 20) then
-					selfSay('All right, you are true warrior. Now you should choose between 2 martial spells: {Frontal Long Slash} (Meele) or {Spear Throw} (Distance). (you received 30000 exp)', cid)
+					selfSay('All right, you are true warrior. Now you should choose between 2 martial spells: {Warrior Rage} (Meele) or {Spear Throw} (Distance). (you received 30000 exp)', cid)
 					doPlayerAddExperience(cid,30000)
 					talkState[talkUser] = 2	
 			elseif(getPlayerStorageValue(cid,2099) == 21 and getPlayerStorageValue(cid,2100) < 0) then
@@ -96,12 +96,12 @@ function creatureSayCallback(cid, type, msg)
 				setPlayerStorageValue(cid,2100,0)
 			end
 		end
-	elseif(msgcontains(msg, 'frontal long slash')) then
+	elseif(msgcontains(msg, 'warrior rage')) then
 		if(talkState[talkUser] == 2) then
 			if(getPlayerStorageValue(cid,2099) == 20) then
 				selfSay('You have learned.', cid)
 				setPlayerStorageValue(cid,30011,10)
-				setPlayerStorageValue(cid,2057,0)
+				setPlayerStorageValue(cid,2101,0)
 				setPlayerStorageValue(cid,2099,21)
 			end
 		end

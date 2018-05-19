@@ -38,9 +38,9 @@
 
 	<attacks>
 
-		<attack name="melee" interval="2000" min="-120" max="-350"/>
+		<attack name="melee" interval="2000" min="-150" max="-400"/>
 
-		<attack name="poisonfield" interval="1000" chance="17" range="7" radius="4" target="1">
+		<attack name="poisonfield" interval="1000" chance="25" range="7" radius="4" target="1">
 
 			<attribute key="shootEffect" value="poison"/>
 		</attack>
@@ -53,7 +53,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="35" defense="30">
-		<defense name="speed" interval="1000" chance="6" speedchange="350" duration="20000">
+		<defense name="speed" interval="1000" chance="20" speedchange="350" duration="20000">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</defense>
 	</defenses>
@@ -79,10 +79,10 @@
 		<item id="7759" chance="3000"/><!-- e small sapphire -->
 		<item id="7760" chance="3000"/><!-- e small ruby -->
 		<item id="7761" chance="3000"/><!-- e small emerald-->
-		<item id="2502" chance="3000"/><!-- a archer helmet-->
-		<item id="2503" chance="1000"/><!-- a full armor-->
-		<item id="2504" chance="1000"/><!-- a full legs-->
-		<item id="2499" chance="2000"/><!-- a full helmet-->
+		<item id="2502" chance="1000"/><!-- a archer helmet-->
+		<item id="2503" chance="500"/><!-- a full armor-->
+		<item id="2504" chance="500"/><!-- a full legs-->
+		<item id="2499" chance="500"/><!-- a full helmet-->
 		<item id="7438" chance="1000"/><!-- war bow-->
 		<item id="5879" countmax="30" chance="50000"/><!-- giant spider silk -->
 		<item id="5904" countmax="8" chance="50000"/><!-- magic sulphur -->

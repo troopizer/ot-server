@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Lone Lands Hunter" nameDescription="a lone lands mad hunter" race="blood" experience="450" speed="240" manacost="450">
+
+	<health now="850" max="850"/>
+	<look type="129" head="118" body="116" legs="119" feet="114" addons="1" corpse="6080"/>
+
+	<targetchange interval="5000" chance="8"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="1"/>
+
+		<flag convinceable="1"/>
+
+		<flag pushable="1"/>
+
+		<flag canpushitems="1"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="25"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="2000" skill="35" attack="45"/>
+
+		<attack name="physical" interval="2000" chance="35" range="6" min="-100" max="-200">
+
+			<attribute key="shootEffect" value="arrow"/>
+
+		</attack>
+
+
+	</attacks>
+
+	<defenses armor="25" defense="28"/>
+
+	<elements>
+
+		<element firePercent="-5"/>
+		<element earthPercent="0"/>
+
+		<element holyPercent="0"/>
+
+		<element icePercent="0"/>
+
+		<element deathPercent="-5"/>
+		<element energyPercent="-5"/>
+
+	</elements>
+	<immunities>
+
+		<immunity paralyze="1"/>
+
+	</immunities>
+
+	<voices interval="5000" chance="30">
+
+		<voice sentence="Lone Lands are not for weak scum!"/>
+
+		<voice sentence="This is my land! HAHAHA!"/>
+
+	</voices>
+
+	<loot>
+
+		<item id="2383" chance="1000"/><!-- iron spike sword -->
+
+		<item id="3982" chance="1000"/><!-- ranger boots -->
+
+		<item id="2464" chance="3000"/><!-- iron chain armor -->
+
+		<item id="3967" chance="500"/><!-- eriador battle helmet -->
+
+		<item id="7364" countmax="5" chance="10000"/><!-- sniper arrows -->
+
+		<item id="2544" countmax="12" chance="20000"/><!-- arrows -->
+
+		<item id="3965" chance="3000"/><!-- hunting spear -->
+
+		<item id="5913" countmax="3" chance="10000"/><!-- brown piece of cloth -->
+
+		<item id="5909" countmax="1" chance="8000"/><!-- white piece of cloth -->
+
+		<item id="1987" chance="80000"/><!-- bag -->
+
+		<item id="2148" countmax="80" chance="90000"/><!-- gold coin -->
+
+		<item id="2787" countmax="4" chance="20000"/><!-- white mushroom -->
+
+		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
+
+		<item id="7438" countmax="1" chance="200"/><!-- war bow -->
+
+	</loot>
+
+</monster>

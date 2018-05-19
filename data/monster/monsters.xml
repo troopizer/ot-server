@@ -135,6 +135,7 @@
 	<monster name="Wild Warrior" file="Outlaws/wild warrior.xml"/>
 	<monster name="Lone Lands Poacher" file="Outlaws/lone lands poacher.xml"/>
 	<monster name="Lone Lands Savage" file="Outlaws/lone lands savage.xml"/>
+	<monster name="Lone Lands Hunter" file="Outlaws/mad hunter.xml"/>
 
 	<!-- Rats -->
 	<monster name="Cave Rat" file="Rats/cave rat.xml"/>

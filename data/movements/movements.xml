@@ -539,6 +539,8 @@
 	<movevent event="DeEquip" itemid="13756" slot="head" function="onDeEquipItem" />
 
 	<!-- Armors -->
+	<movevent event="Equip" itemid="2508" slot="armor" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2508" slot="armor" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="2657" slot="armor" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="2657" slot="armor" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="2503" slot="armor" function="onEquipItem" />

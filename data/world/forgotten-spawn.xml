@@ -1205,6 +1205,9 @@
     <monster name="Bear" x="-1" y="-1" z="6" spawntime="130"/>
     <monster name="Bear" x="2" y="2" z="6" spawntime="130"/>
   </spawn>
+  <spawn centerx="987" centery="917" centerz="6" radius="2">
+    <monster name="Wild Boar" x="-1" y="2" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="408" centery="920" centerz="6" radius="2">
     <monster name="Bear" x="1" y="-1" z="6" spawntime="300"/>
     <monster name="Great Bear" x="2" y="2" z="6" spawntime="300"/>
@@ -1223,6 +1226,9 @@
   <spawn centerx="879" centery="923" centerz="6" radius="2">
     <monster name="Fierce Wolf" x="1" y="0" z="6" spawntime="300"/>
   </spawn>
+  <spawn centerx="978" centery="923" centerz="6" radius="2">
+    <monster name="Wild Boar" x="-1" y="1" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="426" centery="927" centerz="6" radius="2">
     <monster name="Great Bear" x="-1" y="-2" z="6" spawntime="130"/>
     <monster name="Bear" x="2" y="0" z="6" spawntime="130"/>
@@ -1232,9 +1238,15 @@
     <monster name="Rabbit" x="-1" y="0" z="6" spawntime="300"/>
     <monster name="Great Bear" x="1" y="1" z="6" spawntime="300"/>
   </spawn>
+  <spawn centerx="976" centery="930" centerz="6" radius="2">
+    <monster name="Wild Boar" x="-2" y="1" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="884" centery="934" centerz="6" radius="2">
     <monster name="Fierce Wolf" x="-1" y="-1" z="6" spawntime="300"/>
     <monster name="Fierce Wolf" x="1" y="2" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="966" centery="936" centerz="6" radius="2">
+    <monster name="Wild Boar" x="2" y="1" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="395" centery="939" centerz="6" radius="2">
     <monster name="Great Bear" x="-1" y="0" z="6" spawntime="130"/>
@@ -1243,11 +1255,42 @@
   <spawn centerx="403" centery="939" centerz="6" radius="2">
     <monster name="Bear" x="-1" y="0" z="6" spawntime="300"/>
   </spawn>
+  <spawn centerx="983" centery="940" centerz="6" radius="2">
+    <monster name="Wild Boar" x="-1" y="-2" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1014" centery="942" centerz="6" radius="2">
+    <monster name="Wild Boar" x="1" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1029" centery="943" centerz="6" radius="2">
+    <monster name="Wild Boar" x="1" y="-2" z="6" spawntime="300"/>
+    <monster name="Wild Boar" x="1" y="1" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="806" centery="945" centerz="6" radius="1">
     <monster name="Great Bear" x="1" y="1" z="6" spawntime="300"/>
   </spawn>
+  <spawn centerx="1011" centery="949" centerz="6" radius="2">
+    <monster name="Wild Boar" x="2" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1068" centery="950" centerz="6" radius="2">
+    <monster name="Fierce Wolf" x="-1" y="-1" z="6" spawntime="300"/>
+    <monster name="Fierce Wolf" x="-2" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1050" centery="953" centerz="6" radius="2">
+    <monster name="Fierce Wolf" x="1" y="-1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1059" centery="955" centerz="6" radius="2">
+    <monster name="Fierce Wolf" x="2" y="-1" z="6" spawntime="300"/>
+    <monster name="Fierce Wolf" x="-1" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1037" centery="958" centerz="6" radius="2">
+    <monster name="Wild Boar" x="2" y="-1" z="6" spawntime="300"/>
+    <monster name="Wild Boar" x="-1" y="1" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="801" centery="960" centerz="6" radius="1">
     <monster name="Great Bear" x="1" y="0" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="981" centery="967" centerz="6" radius="2">
+    <monster name="Fierce Wolf" x="1" y="1" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="785" centery="969" centerz="6" radius="1">
     <monster name="Great Bear" x="1" y="1" z="6" spawntime="300"/>
@@ -1259,9 +1302,29 @@
   <spawn centerx="592" centery="970" centerz="6" radius="1">
     <npc name="Bree Guard" x="-1" y="0" z="6" spawntime="0"/>
   </spawn>
+  <spawn centerx="1030" centery="970" centerz="6" radius="2">
+    <monster name="Lone Lands Poacher" x="2" y="0" z="6" spawntime="300"/>
+    <monster name="Lone Lands Savage" x="1" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="994" centery="973" centerz="6" radius="2">
+    <monster name="Fierce Wolf" x="-2" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1046" centery="973" centerz="6" radius="2">
+    <monster name="Lone Lands Poacher" x="-1" y="0" z="6" spawntime="300"/>
+    <monster name="Lone Lands Hunter" x="1" y="0" z="6" spawntime="300"/>
+    <monster name="Lone Lands Poacher" x="-1" y="2" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="304" centery="975" centerz="6" radius="2">
     <monster name="Rabbit" x="1" y="-2" z="6" spawntime="300"/>
     <monster name="Deer" x="1" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1023" centery="976" centerz="6" radius="2">
+    <monster name="Lone Lands Poacher" x="-1" y="-1" z="6" spawntime="300"/>
+    <monster name="Lone Lands Savage" x="1" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="987" centery="977" centerz="6" radius="2">
+    <monster name="Fierce Wolf" x="0" y="-2" z="6" spawntime="300"/>
+    <monster name="Fierce Wolf" x="1" y="-1" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="310" centery="979" centerz="6" radius="2">
     <monster name="Deer" x="0" y="-1" z="6" spawntime="300"/>
@@ -1274,20 +1337,58 @@
   <spawn centerx="378" centery="983" centerz="6" radius="1">
     <npc name="Shire Patrol" x="-1" y="-1" z="6" spawntime="300"/>
   </spawn>
+  <spawn centerx="1075" centery="983" centerz="6" radius="2">
+    <monster name="Lone Lands Poacher" x="2" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1054" centery="984" centerz="6" radius="2">
+    <monster name="Lone Lands Poacher" x="0" y="1" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="608" centery="986" centerz="6" radius="1">
     <npc name="Edward the Mayor" x="-1" y="0" z="6" spawntime="100"/>
   </spawn>
   <spawn centerx="825" centery="988" centerz="6" radius="1">
     <monster name="Great Bear" x="-1" y="0" z="6" spawntime="300"/>
   </spawn>
+  <spawn centerx="1030" centery="989" centerz="6" radius="2">
+    <monster name="Lone Lands Poacher" x="-1" y="-1" z="6" spawntime="300"/>
+    <monster name="Lone Lands Poacher" x="0" y="1" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="541" centery="996" centerz="6" radius="2">
     <monster name="Bear" x="1" y="1" z="6" spawntime="100"/>
+  </spawn>
+  <spawn centerx="1077" centery="997" centerz="6" radius="2">
+    <monster name="Lone Lands Poacher" x="-2" y="1" z="6" spawntime="300"/>
+    <monster name="Lone Lands Savage" x="2" y="1" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="917" centery="1000" centerz="6" radius="2">
     <monster name="Fierce Wolf" x="-1" y="-1" z="6" spawntime="300"/>
   </spawn>
+  <spawn centerx="1084" centery="1000" centerz="6" radius="1">
+    <npc name="Brean" x="0" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1067" centery="1003" centerz="6" radius="2">
+    <monster name="Lone Lands Poacher" x="1" y="0" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1074" centery="1003" centerz="6" radius="2">
+    <monster name="Lone Lands Savage" x="-1" y="-1" z="6" spawntime="300"/>
+    <monster name="Lone Lands Hunter" x="2" y="-1" z="6" spawntime="300"/>
+    <monster name="Lone Lands Poacher" x="-2" y="1" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="899" centery="1006" centerz="6" radius="2">
     <monster name="Fierce Wolf" x="1" y="-2" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1075" centery="1008" centerz="6" radius="2">
+    <monster name="Lone Lands Poacher" x="-1" y="0" z="6" spawntime="300"/>
+    <monster name="Lone Lands Savage" x="0" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1067" centery="1009" centerz="6" radius="2">
+    <monster name="Lone Lands Savage" x="-2" y="-2" z="6" spawntime="300"/>
+    <monster name="Lone Lands Hunter" x="1" y="-1" z="6" spawntime="300"/>
+    <monster name="Lone Lands Poacher" x="0" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1103" centery="1011" centerz="6" radius="2">
+    <monster name="Lone Lands Savage" x="-2" y="0" z="6" spawntime="300"/>
+    <monster name="Lone Lands Poacher" x="-1" y="1" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="884" centery="1012" centerz="6" radius="2">
     <monster name="Fierce Wolf" x="-2" y="-1" z="6" spawntime="300"/>
@@ -1308,6 +1409,15 @@
     <monster name="Rabbit" x="2" y="0" z="6" spawntime="300"/>
     <monster name="Deer" x="1" y="1" z="6" spawntime="300"/>
   </spawn>
+  <spawn centerx="1057" centery="1014" centerz="6" radius="2">
+    <monster name="Lone Lands Poacher" x="0" y="-2" z="6" spawntime="300"/>
+    <monster name="Lone Lands Poacher" x="1" y="0" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1112" centery="1015" centerz="6" radius="2">
+    <monster name="Lone Lands Poacher" x="-1" y="-1" z="6" spawntime="300"/>
+    <monster name="Lone Lands Poacher" x="-2" y="1" z="6" spawntime="300"/>
+    <monster name="Lone Lands Hunter" x="0" y="1" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="389" centery="1016" centerz="6" radius="1">
     <npc name="Buckland Patrol" x="-1" y="0" z="6" spawntime="360"/>
   </spawn>
@@ -1317,6 +1427,16 @@
   </spawn>
   <spawn centerx="943" centery="1021" centerz="6" radius="2">
     <monster name="Fierce Wolf" x="-1" y="-1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1048" centery="1023" centerz="6" radius="2">
+    <monster name="Wild Boar" x="-2" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1066" centery="1024" centerz="6" radius="2">
+    <monster name="Lone Lands Savage" x="-1" y="1" z="6" spawntime="300"/>
+    <monster name="Lone Lands Poacher" x="1" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1057" centery="1031" centerz="6" radius="2">
+    <monster name="Wild Boar" x="-1" y="1" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="392" centery="1044" centerz="6" radius="1">
     <npc name="Frederic" x="-1" y="0" z="6" spawntime="360"/>
@@ -3011,6 +3131,9 @@
     <monster name="Wasp" x="0" y="-1" z="7" spawntime="150"/>
     <monster name="Snake" x="-1" y="2" z="7" spawntime="150"/>
   </spawn>
+  <spawn centerx="1006" centery="1002" centerz="7" radius="2">
+    <monster name="Wild Boar" x="-1" y="-1" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="401" centery="1003" centerz="7" radius="1">
     <npc name="Ernedoc" x="0" y="0" z="7" spawntime="360"/>
   </spawn>
@@ -4049,13 +4172,17 @@
     <monster name="Crypt shambler" x="-1" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="512" centery="758" centerz="8" radius="1">
+    <monster name="Iron Deposit" x="1" y="-1" z="8" spawntime="300"/>
     <monster name="Iron Deposit" x="-1" y="0" z="8" spawntime="360"/>
   </spawn>
   <spawn centerx="525" centery="759" centerz="8" radius="1">
     <monster name="Iron Deposit" x="-1" y="-1" z="8" spawntime="360"/>
+    <monster name="Iron Deposit" x="1" y="-1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="508" centery="760" centerz="8" radius="1">
     <monster name="Iron Deposit" x="-1" y="0" z="8" spawntime="360"/>
+    <monster name="Iron Deposit" x="-1" y="1" z="8" spawntime="300"/>
+    <monster name="Iron Deposit" x="1" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="521" centery="761" centerz="8" radius="1">
     <monster name="Iron Deposit" x="1" y="0" z="8" spawntime="360"/>
@@ -4065,13 +4192,19 @@
     <monster name="Eriador Renegades Recruit" x="-1" y="1" z="8" spawntime="130"/>
   </spawn>
   <spawn centerx="508" centery="763" centerz="8" radius="1">
+    <monster name="Iron Deposit" x="1" y="-1" z="8" spawntime="300"/>
     <monster name="Iron Deposit" x="-1" y="0" z="8" spawntime="360"/>
+    <monster name="Iron Deposit" x="1" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="527" centery="763" centerz="8" radius="1">
+    <monster name="Iron Deposit" x="0" y="-1" z="8" spawntime="300"/>
     <monster name="Iron Deposit" x="1" y="-1" z="8" spawntime="360"/>
   </spawn>
   <spawn centerx="496" centery="770" centerz="8" radius="1">
     <monster name="Iron Deposit" x="-1" y="0" z="8" spawntime="360"/>
+  </spawn>
+  <spawn centerx="493" centery="773" centerz="8" radius="1">
+    <monster name="Iron Deposit" x="-1" y="0" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="515" centery="773" centerz="8" radius="1">
     <monster name="Eriador Renegades Recruit" x="0" y="-1" z="8" spawntime="130"/>
@@ -4084,13 +4217,20 @@
     <monster name="Cooper Deposit" x="1" y="1" z="8" spawntime="360"/>
   </spawn>
   <spawn centerx="490" centery="776" centerz="8" radius="1">
+    <monster name="Iron Deposit" x="-1" y="0" z="8" spawntime="300"/>
     <monster name="Tin Deposit" x="1" y="0" z="8" spawntime="360"/>
     <monster name="Cooper Deposit" x="1" y="1" z="8" spawntime="360"/>
   </spawn>
+  <spawn centerx="504" centery="780" centerz="8" radius="1">
+    <monster name="Iron Deposit" x="1" y="-1" z="8" spawntime="300"/>
+    <monster name="Iron Deposit" x="-1" y="0" z="8" spawntime="300"/>
+  </spawn>
   <spawn centerx="535" centery="780" centerz="8" radius="1">
     <monster name="Iron Deposit" x="-1" y="0" z="8" spawntime="360"/>
+    <monster name="Iron Deposit" x="1" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="489" centery="782" centerz="8" radius="1">
+    <monster name="Iron Deposit" x="0" y="-1" z="8" spawntime="300"/>
     <monster name="Iron Deposit" x="-1" y="1" z="8" spawntime="360"/>
   </spawn>
   <spawn centerx="493" centery="784" centerz="8" radius="1">
@@ -4102,6 +4242,7 @@
     <monster name="Eriador Renegades Recruit" x="-1" y="0" z="8" spawntime="130"/>
   </spawn>
   <spawn centerx="537" centery="784" centerz="8" radius="1">
+    <monster name="Iron Deposit" x="1" y="-1" z="8" spawntime="300"/>
     <monster name="Iron Deposit" x="1" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="533" centery="785" centerz="8" radius="1">
@@ -4127,6 +4268,7 @@
     <monster name="Iron Deposit" x="-1" y="-1" z="8" spawntime="300"/>
     <monster name="Tin Deposit" x="1" y="-1" z="8" spawntime="360"/>
     <monster name="Tin Deposit" x="-1" y="1" z="8" spawntime="360"/>
+    <monster name="Iron Deposit" x="0" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="504" centery="807" centerz="8" radius="1">
     <monster name="Tin Deposit" x="-1" y="1" z="8" spawntime="360"/>
@@ -4136,6 +4278,7 @@
   </spawn>
   <spawn centerx="501" centery="808" centerz="8" radius="1">
     <monster name="Tin Deposit" x="-1" y="-1" z="8" spawntime="360"/>
+    <monster name="Iron Deposit" x="-1" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="520" centery="808" centerz="8" radius="1">
     <monster name="Eriador Renegades Looter" x="-1" y="1" z="8" spawntime="130"/>
@@ -4144,6 +4287,7 @@
     <monster name="Eriador Renegades Recruit" x="1" y="-1" z="8" spawntime="130"/>
   </spawn>
   <spawn centerx="504" centery="812" centerz="8" radius="1">
+    <monster name="Iron Deposit" x="-1" y="-1" z="8" spawntime="300"/>
     <monster name="Tin Deposit" x="-1" y="0" z="8" spawntime="360"/>
     <monster name="Tin Deposit" x="0" y="1" z="8" spawntime="360"/>
   </spawn>
@@ -4315,6 +4459,7 @@
   <spawn centerx="728" centery="857" centerz="8" radius="2">
     <monster name="Rotworm" x="1" y="0" z="8" spawntime="100"/>
     <monster name="Tin Deposit" x="2" y="1" z="8" spawntime="300"/>
+    <monster name="Iron Deposit" x="-2" y="2" z="8" spawntime="300"/>
     <monster name="Tin Deposit" x="-1" y="2" z="8" spawntime="130"/>
   </spawn>
   <spawn centerx="565" centery="858" centerz="8" radius="2">
@@ -4945,6 +5090,7 @@
   <spawn centerx="766" centery="855" centerz="9" radius="2">
     <monster name="Rotworm" x="-1" y="-1" z="9" spawntime="180"/>
     <monster name="Tin Deposit" x="-1" y="2" z="9" spawntime="130"/>
+    <monster name="Iron Deposit" x="1" y="2" z="9" spawntime="300"/>
   </spawn>
   <spawn centerx="685" centery="858" centerz="9" radius="2">
     <monster name="Carrion Worm" x="-1" y="-1" z="9" spawntime="180"/>

@@ -51,6 +51,8 @@
 	</wand>
 
 	<!-- Swords -->
+	<melee id="2395" level="50" unproperly="1" event="function" value="default"/>
+	<melee id="7386" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="2413" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="7385" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="11303" level="20" unproperly="1" event="function" value="default"/>
@@ -148,7 +150,8 @@
 	</melee>
 
 	<!-- Axes -->
-	<melee id="2435" level="20" unproperly="1" event="function" value="default"/>
+	<melee id="2415" level="30" unproperly="1" event="function" value="default"/>
+	<melee id="2435" level="50" unproperly="1" event="function" value="default"/>
 	<melee id="2425" level="20" unproperly="1" event="function" value="default"/>
 	<melee id="2430" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="2387" level="25" unproperly="1" event="function" value="default"/>
@@ -237,6 +240,7 @@
 	</melee>
 
 	<!-- Clubs -->
+	<melee id="7452" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="2423" level="20" unproperly="1" event="function" value="default"/>
 	<melee id="7381" level="20" unproperly="1" event="function" value="default"/>
 	<melee id="7432" level="30" unproperly="1" event="function" value="default"/>
@@ -278,7 +282,7 @@
 	<melee id="7422" level="70" unproperly="1" event="function" value="default"/>
 	<melee id="7429" level="75" unproperly="1" event="function" value="default"/>
 	<melee id="2453" level="75" unproperly="1" event="function" value="default"/>
-	<melee id="2437" level="80" unproperly="1" event="function" value="default"/>
+	<melee id="2437" level="50" unproperly="1" event="function" value="default"/>
 	<melee id="7431" level="80" unproperly="1" event="function" value="default"/>
 	<melee id="2421" level="85" unproperly="1" event="function" value="default"/>
 	<melee id="7423" level="85" unproperly="1" event="function" value="default">
@@ -372,7 +376,7 @@
 	<distance id="2399" breakchance="2" /> <!-- throwing star -->
 	<distance id="2410" breakchance="2" /> <!-- throwing knife -->
 	<distance id="1294" breakchance="2" /> <!-- small stone -->
-	<distance id="3965" breakchance="1" level="10" event="function" value="default"/> <!-- Hunting Spear -->
+	<distance id="3965" breakchance="1" level="20" event="function" value="default"/> <!-- Hunting Spear -->
 	<distance id="7378" breakchance="1" level="50" event="function" value="default"/> <!-- Royal Spear -->
 	<distance id="7367" breakchance="1" level="70" event="function" value="default"/> <!-- Enchanted Spear -->
 	<distance id="7368" level="80" event="function" value="default"/> <!-- Assassin Star -->
@@ -386,9 +390,9 @@
 	<distance id="7839" type="ice" event="function" value="default"/>
 	<distance id="7840" type="fire" event="function" value="default"/>
 	<distance id="7850" type="earth" event="function" value="default"/>
-	<distance id="7364" level="10" event="function" value="default"/> <!-- Sniper Arrow -->
-	<distance id="7365" level="40" event="function" value="default"/> <!-- Onyx Arrow -->
-	<distance id="7363" level="30" event="function" value="default"/> <!-- Piercing Bolt -->
-	<distance id="2547" level="55" event="function" value="default"/> <!-- Power Bolt -->
-	<distance id="6529" level="70" event="function" value="default"/> <!-- Infernal Bolt -->
+	<distance id="7364" level="20" event="function" value="default"/> <!-- Sniper Arrow -->
+	<distance id="7365" level="50" event="function" value="default"/> <!-- Onyx Arrow -->
+	<distance id="7363" level="50" event="function" value="default"/> <!-- Piercing Bolt -->
+	<distance id="2547" level="70" event="function" value="default"/> <!-- Power Bolt -->
+	<distance id="6529" level="90" event="function" value="default"/> <!-- Infernal Bolt -->
 </weapons>
