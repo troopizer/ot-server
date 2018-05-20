@@ -40,7 +40,7 @@
 
 		<attack name="melee" interval="1800" skill="40" attack="45"/>
 
-	  	<attack name="physical" interval="2000" chance="40" range="6" min="-10" max="-70">
+	  	<attack name="physical" interval="2000" chance="40" range="6" min="-30" max="-100">
 		
 	<attribute key="shootEffect" value="spear"/>
 

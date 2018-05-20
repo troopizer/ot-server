@@ -80,10 +80,10 @@
 		<item id="7760" chance="3000"/><!-- e small ruby -->
 		<item id="7761" chance="3000"/><!-- e small emerald-->
 		<item id="2502" chance="1000"/><!-- a archer helmet-->
-		<item id="2503" chance="500"/><!-- a full armor-->
-		<item id="2504" chance="500"/><!-- a full legs-->
+		<item id="2503" chance="200"/><!-- a full armor-->
+		<item id="2504" chance="200"/><!-- a full legs-->
 		<item id="2499" chance="500"/><!-- a full helmet-->
-		<item id="7438" chance="1000"/><!-- war bow-->
+		<item id="7438" chance="500"/><!-- war bow-->
 		<item id="5879" countmax="30" chance="50000"/><!-- giant spider silk -->
 		<item id="5904" countmax="8" chance="50000"/><!-- magic sulphur -->
 		<item id="2545" countmax="12" chance="13000"/><!-- poison arrow -->

@@ -9113,7 +9113,7 @@
         <attribute key="weight" value="850" />
     </item>
     <item id="5954" article="a" name="horn" plural="horns">
-        <attribute key="weight" value="1000" />
+        <attribute key="weight" value="400" />
     </item>
     <item id="5956" article="a" name="parchment">
         <attribute key="weight" value="200" />
@@ -14845,8 +14845,11 @@
     </item>
     <item id="8876" article="a" name="strong leather armor">
         <attribute key="weight" value="8500" />
-        <attribute key="armor" value="14" />
+        <attribute key="armor" value="12" />
         <attribute key="slotType" value="body" />
+        <attribute key="skillSword" value="2" />
+        <attribute key="skillClub" value="2" />
+        <attribute key="skillAxe" value="2" />
         <attribute key="absorbPercentPhysical" value="2" />
     </item>
     <item id="8877" article="a" name="lavos armor">

@@ -41,7 +41,7 @@ if (getPlayerStorageValue(cid,2040) == 1) then
 		selfSay('Do you want to forge: {strong leather armor} or {hunter quilted armor}?', cid)
 
 	elseif(msgcontains(msg, 'strong leather armor') and talkState[talkUser] == 1) then
-	 	selfSay('Strong leather armor (Arm:14, Physical:-2%), I would need {5 iron ores},{30 boar furs} and {30 leathers}, do you have they?.', cid)
+	 	selfSay('Strong leather armor (Arm:12, Physical:-2%, meele: +2), I would need {5 iron ores},{30 boar furs} and {30 leathers}, do you have they?.', cid)
 		talkState[talkUser] = 2
 	elseif(msgcontains(msg, 'yes') and talkState[talkUser] == 2) then
 		if(getPlayerItemCount(cid, 5883) >= 30 and getPlayerItemCount(cid, 5880) >= 5 and getPlayerItemCount(cid, 5878) >= 30) then

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Aldur" nameDescription="Aldur, a dwarf from the Blue Mountains." script="aldur.lua" walkinterval="2000" floorchange="1">
+
+	<health now="150" max="150"/>
+
+	<look type="160" head="114" body="105" legs="116" feet="115" corpse="2212"/>
+
+	<parameters>
+        	<parameter key="message_greet" value="Hello young man, what do you need? Speak quickly, we are troubled here.."/>
+    	</parameters>	
+</npc>
