@@ -32,7 +32,7 @@
 		<attack name="lifedrain" interval="1000" chance="40" range="2" min="-50" max="-150"/>
 	</attacks>
 	<defenses armor="25" defense="30">
-		<defense name="healing" interval="3000" chance="50" min="75" max="125">
+		<defense name="healing" interval="3000" chance="50" min="75" max="150">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
