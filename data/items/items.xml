@@ -16978,7 +16978,7 @@
     </item>
     <item id="11135" article="a" name="corned fish">
         <attribute key="description" value="This fish has been salted and already prepared as provision for soldiers." />
-        <attribute key="weight" value="510" />
+        <attribute key="weight" value="310" />
     </item>
     <item id="11138" name="nightmare doll">
         <attribute key="weight" value="1800" />

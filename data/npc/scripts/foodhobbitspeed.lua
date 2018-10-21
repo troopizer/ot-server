@@ -17,10 +17,10 @@ function creatureSayCallback(cid, type, msg)
 
 if(msgcontains(msg, 'mission')) then
 if (getPlayerStorageValue(cid,2112) == 0) then
-if(getPlayerItemCount(cid, 2803) >= 20 and  getPlayerItemCount(cid, 2793) >= 20 and getPlayerItemCount(cid, 2694) >= 20) then
+if(getPlayerItemCount(cid, 2803) >= 20 and  getPlayerItemCount(cid, 2793) >= 20 and getPlayerItemCount(cid, 2692) >= 20) then
 				doPlayerRemoveItem(cid, 2803, 20)
 				doPlayerRemoveItem(cid, 2793, 20)
-				doPlayerRemoveItem(cid, 2694, 20)
+				doPlayerRemoveItem(cid, 2692, 20)
 selfSay('Great!, now lets speak about {cook}.', cid)
 setPlayerStorageValue(cid,2112,1)
 else
@@ -36,21 +36,21 @@ if (getPlayerStorageValue(cid,2112) == 1) then
 
 
 	elseif(msgcontains(msg, 'halfling bread of speed') and talkState[talkUser] == 1) then
-	 	selfSay('Soo my special recipe, I would need {5 mushrooms}, {5 bunches of wheat} and {5 gold coins}, do you have they?.', cid)
+	 	selfSay('Soo my special recipe, I would need {5 mushrooms}, {5 flour} and {5 gold coins}, do you have they?.', cid)
 		talkState[talkUser] = 3
 elseif(msgcontains(msg, 'yes') and talkState[talkUser] == 3) then
 		
-		if(getPlayerItemCount(cid, 2793) >= 5 and getPlayerItemCount(cid, 2694) >= 5) then
+		if(getPlayerItemCount(cid, 2793) >= 5 and getPlayerItemCount(cid, 2692) >= 5) then
 			if(doPlayerRemoveMoney(cid, 5)) then
 				doPlayerRemoveItem(cid, 2793, 5)
-				doPlayerRemoveItem(cid, 2694, 5)
+				doPlayerRemoveItem(cid, 2692, 5)
 				doPlayerAddItem(cid,2691,1)
 				selfSay('Here you are.', cid)
 			else
 				selfSay('Sorry, you don\'t have enough gold.', cid)
 			end
 		else
-			selfSay('Sorry, you don\'t have enough mushrooms or herbs.', cid)
+			selfSay('Sorry, you don\'t have enough mushrooms or flour.', cid)
 		end
 		talkState[talkUser] = 0
 
@@ -66,7 +66,7 @@ selfSay('We are the best Inn along the Shire, so we always need more supplies, w
 end
 if(msgcontains(msg, 'ok')) then
 if (getPlayerStorageValue(cid,2112) < 0) then
-selfSay('Great!So please, bring me some herbs and mushrooms. I need 20 powder herbs, 20 mushrooms and 20 bunches of wheat. You will find them in the countryside and forests', cid)
+selfSay('Great!So please, bring me some herbs and mushrooms. I need 20 powder herbs, 20 mushrooms and 20 flour. You will find them in the countryside and forests', cid)
 setPlayerStorageValue(cid,30023,22)
 setPlayerStorageValue(cid,2112,0)
 end

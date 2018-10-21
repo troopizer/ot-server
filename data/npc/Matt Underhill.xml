@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Matt Underhill"  script="herbs.lua" nameDescription="Matt Underhill, the Old Grange keeper" walkinterval="2000" floorchange="0">
+
+	<health now="100" max="100"/>
+
+	<look type="904" head="117" body="38" legs="115" feet="114"/>
+	<parameters>
+ 
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Hi |PLAYERNAME|. Looking for some supplies?"/>
+		<parameter key="shop_buyable" value="powder herb,2803,10;shadow herb,2804,20;stone herb,2799,20;star herb,2800,20;troll green,2805,20;blood herb,2798,20;sling herb,2802,20;mushrooms,2793,10;"/>
+	</parameters>
+</npc>

@@ -31,4 +31,8 @@
   <house name="Frogmorton 2" houseid="33" entryx="277" entryy="973" entryz="7" rent="100" townid="4" size="44"/>
   <house name="Whitfurrows 2" houseid="34" entryx="329" entryy="979" entryz="7" rent="50" townid="4" size="11"/>
   <house name="Whitfurrows 1" houseid="35" entryx="344" entryy="985" entryz="7" rent="50" townid="4" size="26"/>
+  <house name="Bywater 1" houseid="36" entryx="176" entryy="972" entryz="7" rent="100" townid="5" size="36"/>
+  <house name="Hobbiton 1" houseid="37" entryx="152" entryy="942" entryz="7" rent="100" townid="5" size="41"/>
+  <house name="Hobbiton 2" houseid="38" entryx="152" entryy="937" entryz="7" rent="150" townid="5" size="49"/>
+  <house name="Hobbiton 3" houseid="39" entryx="163" entryy="919" entryz="7" rent="50" townid="5" size="27"/>
 </houses>

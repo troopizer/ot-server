@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Brett" nameDescription="Brett, a fisherman." walkinterval="2000" floorchange="1">
+<npc name="Brett" nameDescription="Brett, a fisherman." script="brett.lua" walkinterval="2000" floorchange="1">
 
 	<health now="150" max="150"/>
 

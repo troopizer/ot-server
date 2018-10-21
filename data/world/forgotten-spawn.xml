@@ -3039,6 +3039,9 @@
     <monster name="Rabbit" x="2" y="0" z="7" spawntime="300"/>
     <monster name="Rabbit" x="-2" y="2" z="7" spawntime="300"/>
   </spawn>
+  <spawn centerx="171" centery="903" centerz="7" radius="1">
+    <npc name="Matt Underhill" x="0" y="-1" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="470" centery="903" centerz="7" radius="2">
     <monster name="Wasp" x="1" y="0" z="7" spawntime="130"/>
     <monster name="Bug" x="-1" y="2" z="7" spawntime="130"/>
@@ -3236,6 +3239,9 @@
   <spawn centerx="1338" centery="925" centerz="7" radius="2">
     <monster name="Wild Boar" x="0" y="-1" z="7" spawntime="300"/>
   </spawn>
+  <spawn centerx="178" centery="926" centerz="7" radius="1">
+    <npc name="Tom Sandyman" x="-1" y="0" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="471" centery="927" centerz="7" radius="2">
     <monster name="Wasp" x="2" y="1" z="7" spawntime="130"/>
   </spawn>
@@ -3334,6 +3340,9 @@
   <spawn centerx="1407" centery="935" centerz="7" radius="2">
     <monster name="Fierce Wolf" x="-2" y="0" z="7" spawntime="300"/>
     <monster name="Fierce Wolf" x="0" y="1" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="161" centery="936" centerz="7" radius="1">
+    <npc name="Ron Rumble" x="1" y="0" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="722" centery="936" centerz="7" radius="5">
     <monster name="Wasp" x="-2" y="-2" z="7" spawntime="60"/>
