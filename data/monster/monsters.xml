@@ -92,6 +92,7 @@
 	<monster name="Forgotten Mother" file="Quests/forgotten mother.xml"/>
 	<monster name="Harald Ferner" file="Quests/harald ferner.xml"/>
 	<monster name="Rorkduf" file="Quests/rorkduf.xml"/>
+	<monster name="Doran Hawk" file="Quests/doran hawk.xml"/>
 
 	<!-- Misc -->
 	<monster name="Badger" file="Misc/badger.xml"/>

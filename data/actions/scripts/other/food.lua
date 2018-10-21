@@ -80,6 +80,7 @@ local foods = {
 	[11246] = {15, "Yum."}, -- rice ball
 	[11370] = {3, "Urgh."}, -- terramite eggs
 	[11429] = {10, "Mmmm."}, -- crocodile steak
+	[11135] = {15, "Mmmm."}, -- cooked fish
 	[12415] = {20, "Yum."}, -- pineapple
 	[12416] = {10, "Munch."}, -- aubergine
 	[12417] = {8, "Crunch."}, -- broccoli

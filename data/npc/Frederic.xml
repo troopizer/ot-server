@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Frederic"  script="foodhobbitspeed.lua" nameDescription="Frederic a hobbit chef" walkinterval="2000" floorchange="0">
+<npc name="Frederic"  script="foodhobbitfish.lua" nameDescription="Frederic a hobbit chef" walkinterval="2000" floorchange="0">
 
 	<health now="100" max="100"/>
 

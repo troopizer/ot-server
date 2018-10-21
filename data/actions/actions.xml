@@ -82,6 +82,7 @@
 
 	<!-- Middle Earth Adventures -->
 	<action itemid="2691" script="liquids/halfling_bread_of_speed.lua"/>
+	<action itemid="11135" script="food/cooked_fish.lua"/>
 
 	<!-- Food -->
 	<action itemid="2362" script="other/food.lua" />

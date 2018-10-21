@@ -16,19 +16,19 @@ function creatureSayCallback(cid, type, msg)
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 
 if(msgcontains(msg, 'mission')) then
-if (getPlayerStorageValue(cid,2015) == 0) then
-if(getPlayerItemCount(cid, 2803) >= 10 and  getPlayerItemCount(cid, 2793) >= 10 and getPlayerItemCount(cid, 2805) >= 5) then
-				doPlayerRemoveItem(cid, 2803, 10)
-				doPlayerRemoveItem(cid, 2793, 10)
-				doPlayerRemoveItem(cid, 2805, 5)
+if (getPlayerStorageValue(cid,2112) == 0) then
+if(getPlayerItemCount(cid, 2803) >= 20 and  getPlayerItemCount(cid, 2793) >= 20 and getPlayerItemCount(cid, 2694) >= 20) then
+				doPlayerRemoveItem(cid, 2803, 20)
+				doPlayerRemoveItem(cid, 2793, 20)
+				doPlayerRemoveItem(cid, 2694, 20)
 selfSay('Great!, now lets speak about {cook}.', cid)
-setPlayerStorageValue(cid,2015,1)
+setPlayerStorageValue(cid,2112,1)
 else
 selfSay('You dont have all the ingredients, please search for them.', cid)
 end
 end
 end
-if (getPlayerStorageValue(cid,2015) == 1) then
+if (getPlayerStorageValue(cid,2112) == 1) then
 
 	if(msgcontains(msg, 'cook')) then
 		talkState[talkUser] = 1
@@ -36,13 +36,12 @@ if (getPlayerStorageValue(cid,2015) == 1) then
 
 
 	elseif(msgcontains(msg, 'halfling bread of speed') and talkState[talkUser] == 1) then
-	 	selfSay('Soo my special recipe, I would need {5 powder herbs}, {5 mushrooms}, {5 bunches of wheat} and {10 gold coins}, do you have they?.', cid)
+	 	selfSay('Soo my special recipe, I would need {5 mushrooms}, {5 bunches of wheat} and {5 gold coins}, do you have they?.', cid)
 		talkState[talkUser] = 3
 elseif(msgcontains(msg, 'yes') and talkState[talkUser] == 3) then
 		
-		if(getPlayerItemCount(cid, 2803) >= 5 and  getPlayerItemCount(cid, 2793) >= 5 and getPlayerItemCount(cid, 2694) >= 5) then
-			if(doPlayerRemoveMoney(cid, 10)) then
-				doPlayerRemoveItem(cid, 2803, 5)
+		if(getPlayerItemCount(cid, 2793) >= 5 and getPlayerItemCount(cid, 2694) >= 5) then
+			if(doPlayerRemoveMoney(cid, 5)) then
 				doPlayerRemoveItem(cid, 2793, 5)
 				doPlayerRemoveItem(cid, 2694, 5)
 				doPlayerAddItem(cid,2691,1)
@@ -62,14 +61,14 @@ elseif(msgcontains(msg, 'yes') and talkState[talkUser] == 3) then
 
 	return true
 end
-if (getPlayerStorageValue(cid,2015) < 0) then
-selfSay('I am the best chef in Buckland, but I dont get all the special ingredients that I need, would you help me? I will cook for you if yo do, {ok}?.', cid)
+if (getPlayerStorageValue(cid,2112) < 0) then
+selfSay('We are the best Inn along the Shire, so we always need more supplies, would you help me? I will cook for you if yo do, {ok}?.', cid)
 end
 if(msgcontains(msg, 'ok')) then
-if (getPlayerStorageValue(cid,2015) < 0) then
-selfSay('Great!So please, bring me some herbs and mushrooms. I need 10 powder herbs, 10 mushrooms and 5 troll green. You will find them in the countryside and forests', cid)
-setPlayerStorageValue(cid,30006,5)
-setPlayerStorageValue(cid,2015,0)
+if (getPlayerStorageValue(cid,2112) < 0) then
+selfSay('Great!So please, bring me some herbs and mushrooms. I need 20 powder herbs, 20 mushrooms and 20 bunches of wheat. You will find them in the countryside and forests', cid)
+setPlayerStorageValue(cid,30023,22)
+setPlayerStorageValue(cid,2112,0)
 end
 end
 end

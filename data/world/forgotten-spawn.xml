@@ -1127,6 +1127,9 @@
     <monster name="Great Bear" x="-2" y="0" z="6" spawntime="300"/>
     <monster name="Great Bear" x="1" y="1" z="6" spawntime="300"/>
   </spawn>
+  <spawn centerx="1305" centery="873" centerz="6" radius="1">
+    <npc name="Arador" x="1" y="0" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="482" centery="874" centerz="6" radius="2">
     <monster name="Great Bear" x="-1" y="2" z="6" spawntime="130"/>
   </spawn>
@@ -3094,6 +3097,9 @@
   <spawn centerx="1043" centery="908" centerz="7" radius="2">
     <monster name="Wild Horse" x="1" y="-1" z="7" spawntime="300"/>
   </spawn>
+  <spawn centerx="173" centery="909" centerz="7" radius="1">
+    <npc name="Shire Patrol" x="-1" y="0" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="591" centery="910" centerz="7" radius="2">
     <monster name="Wolf" x="-2" y="1" z="7" spawntime="60"/>
   </spawn>
@@ -3378,6 +3384,9 @@
   <spawn centerx="1093" centery="941" centerz="7" radius="2">
     <monster name="Lone Lands Horseman" x="2" y="1" z="7" spawntime="300"/>
   </spawn>
+  <spawn centerx="165" centery="942" centerz="7" radius="1">
+    <npc name="Shire Patrol" x="1" y="0" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="478" centery="942" centerz="7" radius="2">
     <monster name="Wolf" x="-1" y="-1" z="7" spawntime="130"/>
     <monster name="Wolf" x="0" y="-1" z="7" spawntime="130"/>
@@ -3594,6 +3603,9 @@
     <monster name="Warg Wolf" x="-2" y="-1" z="7" spawntime="300"/>
     <monster name="Warg Wolf" x="1" y="2" z="7" spawntime="300"/>
   </spawn>
+  <spawn centerx="193" centery="963" centerz="7" radius="1">
+    <npc name="Jim Boffin" x="-1" y="0" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="523" centery="964" centerz="7" radius="2">
     <monster name="Deer" x="1" y="-1" z="7" spawntime="130"/>
     <monster name="Deer" x="-1" y="1" z="7" spawntime="130"/>
@@ -3689,6 +3701,9 @@
     <monster name="Snake" x="0" y="-4" z="7" spawntime="60"/>
     <monster name="Snake" x="4" y="-1" z="7" spawntime="60"/>
     <monster name="Wasp" x="-1" y="2" z="7" spawntime="150"/>
+  </spawn>
+  <spawn centerx="182" centery="973" centerz="7" radius="1">
+    <npc name="Shire Patrol" x="1" y="-1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="280" centery="973" centerz="7" radius="1">
     <npc name="Shire Patrol" x="1" y="-1" z="7" spawntime="300"/>
@@ -3866,6 +3881,9 @@
   </spawn>
   <spawn centerx="790" centery="991" centerz="7" radius="2">
     <monster name="Snake" x="2" y="0" z="7" spawntime="150"/>
+  </spawn>
+  <spawn centerx="224" centery="992" centerz="7" radius="1">
+    <npc name="Shire Patrol" x="-1" y="-1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="630" centery="992" centerz="7" radius="1">
     <npc name="Bree Guard" x="-1" y="0" z="7" spawntime="100"/>
@@ -4907,6 +4925,7 @@
   <spawn centerx="1352" centery="1103" centerz="7" radius="2">
     <monster name="Lone Lands Savage" x="-2" y="-1" z="7" spawntime="300"/>
     <monster name="Lone Lands Hunter" x="0" y="1" z="7" spawntime="300"/>
+    <monster name="Doran Hawk" x="2" y="1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="1066" centery="1104" centerz="7" radius="2">
     <monster name="Wild Boar" x="1" y="0" z="7" spawntime="300"/>

@@ -1,5 +1,5 @@
 local condition = Condition(CONDITION_HASTE)
-condition:setParameter(CONDITION_PARAM_TICKS, 60000) -- 1 minutes
+condition:setParameter(CONDITION_PARAM_TICKS, 60000) -- 1 minute
 condition:setFormula(0.3, -24, 0.3, -24)
 local FOODS =
 {

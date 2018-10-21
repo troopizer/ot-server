@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Doran Hawk" nameDescription="Doran Hawk, lider of the outlaws in Lone Lands" race="blood" experience="1500" speed="400" manacost="450">
+
+	<health now="2000" max="2000"/>
+	<look type="143" head="113" body="95" legs="132" feet="115" addons="1" corpse="6080"/>
+
+	<targetchange interval="5000" chance="20"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="0"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="0"/>
+
+		<flag convinceable="0"/>
+
+		<flag pushable="1"/>
+
+		<flag canpushitems="1"/>
+
+		<flag canpushcreatures="1"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="0"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="2000" skill="55" attack="65"/>
+
+		<attack name="physical" interval="2000" chance="40" range="5" min="-100" max="-200">
+
+			<attribute key="shootEffect" value="spear"/>
+
+		</attack>
+
+
+	</attacks>
+
+	<defenses armor="35" defense="40"/>
+
+	<elements>
+
+		<element firePercent="-5"/>
+		<element earthPercent="0"/>
+
+		<element holyPercent="0"/>
+
+		<element icePercent="0"/>
+
+		<element deathPercent="-5"/>
+		<element energyPercent="-5"/>
+
+	</elements>
+
+	<voices interval="5000" chance="20">
+
+		<voice sentence="It looks like you are lost here, outsider."/>
+
+		<voice sentence="Diee!"/>
+
+		<voice sentence="Kill Him!"/>
+
+	</voices>
+
+	<loot>
+
+
+		<item id="3968" chance="1000"/><!-- eriador guardian armor -->
+
+		<item id="8891" chance="1000"/><!-- eriador warrior armor -->
+
+		<item id="8872" chance="1000"/><!-- eriador ranger cape -->
+
+		<item id="3974" chance="5000"/><!-- savage shield -->
+
+		<item id="5913" countmax="6" chance="8000"/><!-- brown piece of cloth -->
+
+		<item id="5909" countmax="5" chance="5000"/><!-- white piece of cloth -->
+
+		<item id="2389" countmax="2" chance="10000"/><!-- spear -->
+
+		<item id="3965" chance="5000"/><!-- hunting spear -->
+
+		<item id="1987" chance="80000"/><!-- bag -->
+
+		<item id="2152" countmax="6" chance="90000"/><!-- platinum coin -->
+
+		<item id="2787" countmax="6" chance="20000"/><!-- white mushroom -->
+
+		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
+
+		<item id="2641" countmax="1" chance="3000"/><!-- iron studded boots -->
+
+		<item id="2200" chance="8000"/><!-- protection amulet-->
+
+		<item id="2502" chance="800"/><!-- a archer helmet-->
+
+		<item id="2463" chance="4000"/><!-- iron armor -->
+
+		<item id="2477" chance="500"/><!-- arnorian chain legs -->
+
+		<item id="2647" chance="3000"/><!-- iron legs -->	
+
+		<item id="3967" chance="5000"/><!-- eriador battle helmet -->
+
+		<item id="7385" chance="200"/><!-- steel sword -->
+
+		<item id="3964" chance="200"/><!-- steel axe -->
+
+		<item id="7387" chance="200"/><!-- steel club -->
+
+	</loot>
+
+</monster>

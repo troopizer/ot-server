@@ -30,14 +30,23 @@ function creatureSayCallback(cid, type, msg)
 			end
 	elseif(msgcontains(msg, 'most wanted') or msgcontains(msg, 'dead or alive')) then
 			if(getPlayerStorageValue(cid,2038) < 0) then
-				selfSay('This is our last most wanted list, kill the targets an you will get a nice reward.', cid)
+				selfSay('This is our last most wanted list, kill the targets and get a nice reward.', cid)
 				setPlayerStorageValue(cid,30009,8)
 				setPlayerStorageValue(cid,2038,0)
+				setPlayerStorageValue(cid,2111,0)
+			elseif(getPlayerStorageValue(cid,2111) < 0) then
+				setPlayerStorageValue(cid,2111,0)
 			elseif(getPlayerStorageValue(cid,2038) == 1) then
 				selfSay('Great job! (you received 2000 experience, 500 gold and 1 iron soldier helmet).', cid)
 				doPlayerAddExperience(cid,2000)
 				doPlayerAddItem(cid,2148,500)
 				doPlayerAddItem(cid,2481,1)
+				setPlayerStorageValue(cid,2038,2)
+			elseif(getPlayerStorageValue(cid,2111) == 1) then
+				selfSay('Great job! (you received 15000 experience, 3000 gold and 1 eriador battle helmet).', cid)
+				doPlayerAddExperience(cid,15000)
+				doPlayerAddItem(cid,2152,30)
+				doPlayerAddItem(cid,3967,1)
 				setPlayerStorageValue(cid,2038,2)
 			end
  	elseif(msgcontains(msg, 'bree')) then

@@ -15,7 +15,9 @@
 	<event type="kill" name="Renegades 10" script="renegades10.lua"/>
 	<event type="kill" name="Savage 20" script="savage20.lua"/>
 	<event type="kill" name="Fierce 20" script="fierce20.lua"/>
+	<event type="kill" name="Wargs 10" script="wargs10.lua"/>
 	<event type="kill" name="Larry Halfsnout" script="larryhalfsnout.lua"/>
+	<event type="kill" name="Doran Hawk" script="doranhawk.lua"/>
 	<event type="kill" name="Harald Ferner" script="haraldferner.lua"/>
 	<event type="kill" name="Rorkduf" script="rorkduf.lua"/>
 	<event type="kill" name="Bandits 10" script="bandits10.lua"/>

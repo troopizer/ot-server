@@ -140,7 +140,7 @@
             <missionstate id="2" description="Mission Complete."/>
         </mission>
         <mission name="The great chef of Buckland" storageid="2015" startvalue="0" endvalue="1">
-            <missionstate id="0" description="Look for 10 powder herbs, 10 mushrooms and 5 troll green for Frederic. Search through the countryside."/>
+            <missionstate id="0" description="Look for 20 powder herbs, 20 mushrooms and catch 20 rainbow trout for Frederic. Search through the countryside and go fishing in the river."/>
             <missionstate id="1" description="Mission Complete."/>
         </mission>
         <mission name="The best tailor in town" storageid="2032" startvalue="0" endvalue="1">
@@ -224,7 +224,12 @@
             <missionstate id="0" description="Look for Larry Halfsnout, the leader of bandits in Midgewater and kill him."/>
             <missionstate id="1" description="You got him, ask for your reward."/> 
             <missionstate id="2" description="Killed."/>   
-        </mission>  
+        </mission>
+        <mission name="Doran Hawk" storageid="2111" startvalue="0" endvalue="2">
+            <missionstate id="0" description="Look for Doran Hawk, lider of the outlaws in Lone Lands and kill him."/>
+            <missionstate id="1" description="You got him, ask for your reward."/> 
+            <missionstate id="2" description="Killed."/>   
+        </mission>    
     </quest>
     <quest name="Lone Lands Tales" startstorageid="30010" startstoragevalue="9">
         <mission name="Poachers and Savages" storageid="2041" startvalue="0" endvalue="21">
@@ -633,5 +638,11 @@
             <missionstate id="4" description="You got them, ask for your reward."/> 
             <missionstate id="5" description="Mission Complete."/>   
         </mission>
+    </quest>
+    <quest name="The Shire Tales" startstorageid="30023" startstoragevalue="22">
+        <mission name="Bread of the Green Dragon Inn" storageid="2112" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Look for 20 powder herbs, 20 mushrooms and catch 20 bunches of wheat for Jim Boffin. Search through the countryside."/>
+            <missionstate id="1" description="Mission Complete."/>
+        </mission>  
     </quest>
 </quests>
