@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="BLack Warg Leader" nameDescription="a great black warg, pack leader" race="blood" experience="1500" speed="410" manacost="0">
+	<health now="2000" max="2000"/>
+	<look type="716" corpse="6009"/>
+	<targetchange interval="2000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="60" attack="62"/>
+	</attacks>
+	<defenses armor="30" defense="40"/>
+	<elements>
+		<element firePercent="-10"/>
+		<element earthPercent="0"/>
+		<element holyPercent="0"/>
+		<element icePercent="5"/>
+		<element deathPercent="-10"/>
+		<element energyPercent="-10"/>
+	</elements>
+	<voices interval="3000" chance="30">
+		<voice sentence="Grooorr" yell="1"/>
+		<voice sentence="Yoooohhuuuu!" yell="1"/>
+	</voices>
+	<loot>
+		<item id="3976" countmax="10" chance="50000"/><!-- worm -->
+		<item id="2671" countmax="5" chance="33333"/><!-- ham -->
+		<item id="2804" countmax="3" chance="10000"/><!-- shadow herb -->
+		<item id="2803" countmax="4" chance="10000"/><!-- powder herb -->
+		<item id="5878" countmax="6" chance="15000"/><!-- leather -->
+		<item id="5897" countmax="4" chance="20000"/><!-- wolf paw -->
+		<item id="11235" countmax="2" chance="15000"/><!-- wolf fur-->
+	</loot>
+</monster>

@@ -80,9 +80,9 @@
 
 		<item id="2468" chance="2000"/><!-- studded legs -->
 
-		<item id="5913" countmax="1" chance="7000"/><!-- brown piece of cloth -->
+		<item id="5913" countmax="1" chance="8000"/><!-- brown piece of cloth -->
 
-		<item id="5909" countmax="1" chance="2000"/><!-- white piece of cloth -->
+		<item id="5909" countmax="1" chance="1000"/><!-- white piece of cloth -->
 
 		<item id="1987" chance="80000"/><!-- bag -->
 

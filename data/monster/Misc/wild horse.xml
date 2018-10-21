@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Wild Horse" nameDescription="a wild horse" race="blood" experience="300" speed="410">
+	<health now="300" max="300" />
+	<look type="436" corpse="5970" />
+	<targetchange interval="1000" chance="20" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="0" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="300" />
+	</flags>
+	<attacks>
+
+		<attack name="melee" interval="2000" skill="10" attack="2"/>
+
+	</attacks>
+
+	<defenses armor="20" defense="20"/>
+
+	<elements>
+
+		<element firePercent="-10"/>
+		<element earthPercent="0"/>
+
+		<element holyPercent="0"/>
+
+		<element icePercent="0"/>
+
+		<element deathPercent="-10"/>
+		<element energyPercent="-10"/>
+
+	</elements>
+	<voices interval="5000" chance="20">
+		<voice sentence="Weeeeheeeeeee" />
+		<voice sentence="*snort*" />
+		<voice sentence="*Weeeeheeeeaaa*" />
+	</voices>
+	<loot>
+
+		<item id="2666" countmax="3" chance="90000"/><!-- meat -->
+
+ 		<item id="5878" countmax="2" chance="15000"/><!-- leather -->
+
+ 		<item id="2803" countmax="2" chance="15000"/><!-- powder herb -->
+
+ 		<item id="2800" countmax="1" chance="5000"/><!-- star herb -->
+
+ 		<item id="2802" countmax="1" chance="5000"/><!-- sling herb -->
+
+ 		<item id="2671" countmax="3" chance="40000"/><!-- ham -->
+
+	</loot>
+</monster>

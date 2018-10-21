@@ -1,6 +1,6 @@
-local condition = createConditionObject(CONDITION_HASTE)
-setConditionParam(condition, CONDITION_PARAM_TICKS, 1 * 60 * 1000) -- 1 minutes
-setConditionFormula(condition, 0.2, -16, 0.2, -16)
+local condition = Condition(CONDITION_HASTE)
+condition:setParameter(CONDITION_PARAM_TICKS, 60000) -- 1 minutes
+condition:setFormula(0.3, -24, 0.3, -24)
 local FOODS =
 {
 

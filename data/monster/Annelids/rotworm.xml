@@ -63,7 +63,7 @@
 
 		<item id="5880" chance="500"/><!-- iron ore -->
 
-		<item id="2145" chance="200"/><!-- small diamond -->
+		<item id="2145" chance="100"/><!-- small diamond -->
 
 		<item id="2804" countmax="1" chance="5000"/><!-- shadow herb -->
 

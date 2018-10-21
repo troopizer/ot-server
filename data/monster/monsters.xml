@@ -34,7 +34,8 @@
 	<monster name="Dog" file="Canines/dog.xml"/>
 	<monster name="Hellhound" file="Canines/hellhound.xml"/>
 	<monster name="Husky" file="Canines/husky.xml"/>	
-	<monster name="Warg wolf" file="Canines/war wolf.xml"/>
+	<monster name="Warg Wolf" file="Canines/war wolf.xml"/>
+	<monster name="Black Warg Leader" file="Canines/warg leader.xml"/>
 	<monster name="Werewolf" file="Canines/werewolf.xml"/>
 	<monster name="Winter wolf" file="Canines/winter wolf.xml"/>
 	<monster name="Wolf" file="Canines/wolf.xml"/>
@@ -106,6 +107,7 @@
 	<monster name="Squirrel" file="Misc/squirrel.xml"/>
 	<monster name="Water Buffalo" file="Misc/water buffalo.xml"/>
 	<monster name="Wild Boar" file="Misc/wild boar.xml"/>
+	<monster name="Wild Horse" file="Misc/wild horse.xml"/>
 
 	<!-- Necromancers -->
 	<monster name="Necromancer" file="Necromancers/necromancer.xml"/>
@@ -136,6 +138,8 @@
 	<monster name="Lone Lands Poacher" file="Outlaws/lone lands poacher.xml"/>
 	<monster name="Lone Lands Savage" file="Outlaws/lone lands savage.xml"/>
 	<monster name="Lone Lands Hunter" file="Outlaws/mad hunter.xml"/>
+	<monster name="Lone Lands Horseman" file="Outlaws/lone lands horseman.xml"/>
+	<monster name="Lone Lands Witch" file="Outlaws/lone lands witch.xml"/>
 
 	<!-- Rats -->
 	<monster name="Cave Rat" file="Rats/cave rat.xml"/>

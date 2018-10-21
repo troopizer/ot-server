@@ -44,9 +44,10 @@
 	</voices>
 	<loot>
 		<item id="2648" chance="3000"/><!-- iron chain legs -->
+		<item id="11303" chance="200"/><!-- goblin looter boots-->
 		<item id="3975" chance="1000"/><!-- iron goblin shield -->
-		<item id="2389" countmax="1" chance="10000"/><!-- spear -->
-		<item id="3965" chance="1000"/><!-- hunting spear -->
+		<item id="2389" countmax="2" chance="10000"/><!-- spear -->
+		<item id="3965" chance="4000"/><!-- hunting spear -->
 		<item id="2483" chance="1000"/><!-- iron scale armor -->
 		<item id="1987" chance="80000"/><!-- bag -->
 				<item id="1294" countmax="4" chance="10000"/><!-- small stone -->

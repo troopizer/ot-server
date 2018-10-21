@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<monster name="Fierce Wolf" nameDescription="a fierce wolf" race="blood" experience="150" speed="280" manacost="255">
+<monster name="Fierce Wolf" nameDescription="a fierce wolf" race="blood" experience="180" speed="280" manacost="255">
 
 	<health now="200" max="200"/>
 

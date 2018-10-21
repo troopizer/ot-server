@@ -47,11 +47,9 @@
 		<voice sentence="Firee!"/>
 	</voices>
 	<loot>
-		<item id="7899" chance="200"/><!-- fire armor -->
-		<item id="7894" chance="400"/><!-- fire legs -->
-		<item id="7891" chance="600"/><!-- boots -->
-		<item id="7900" chance="800"/><!-- fire helmet -->
-		<item id="7890" chance="800"/><!-- fire amulet -->
+		<item id="7891" chance="400"/><!-- boots -->
+		<item id="7900" chance="600"/><!-- fire helmet -->
+		<item id="7890" chance="600"/><!-- fire amulet -->
 		<item id="2152" countmax="4" chance="40000"/><!-- p coin -->
 		<item id="2804" countmax="2" chance="20000"/><!-- shadow herb -->
 		<item id="2191" chance="5000"/><!-- fire wand -->

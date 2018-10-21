@@ -47,10 +47,8 @@
 		<voice sentence="Energy!"/>
 	</voices>
 	<loot>
-		<item id="7898" chance="200"/><!-- energy armor -->
-		<item id="7895" chance="400"/><!-- energy legs -->
-		<item id="7893" chance="600"/><!-- boots -->
-		<item id="7901" chance="800"/><!-- energy helmet -->
+		<item id="7893" chance="400"/><!-- boots -->
+		<item id="7901" chance="600"/><!-- energy helmet -->
 		<item id="7889" chance="800"/><!-- energy amulet -->
 		<item id="2152" countmax="4" chance="40000"/><!-- p coin -->
 		<item id="2804" countmax="2" chance="20000"/><!-- shadow herb -->

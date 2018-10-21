@@ -44,7 +44,7 @@
 
 	<defenses armor="9" defense="18">
 
-		<defense name="speed" interval="1000" chance="6" speedchange="200" duration="2000">
+		<defense name="speed" interval="1000" chance="6" speedchange="250" duration="2000">
 
 			<attribute key="areaEffect" value="redshimmer"/>
 
@@ -87,8 +87,6 @@
 		<item id="2439" chance="10000"/><!-- iron club -->
 
 		<item id="5913" countmax="1" chance="5000"/><!-- brown piece of cloth -->
-
-		<item id="5909" countmax="1" chance="500"/><!-- white piece of cloth -->
 
 		<item id="1987" chance="80000"/><!-- bag -->
 

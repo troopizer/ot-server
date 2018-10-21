@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Lone Lands Horseman" nameDescription="a lone lands mounted bandit" race="blood" experience="700" speed="410" manacost="450">
+
+	<health now="1300" max="1300"/>
+	<look type="143" head="114" body="115" legs="113" feet="116" mount="438" corpse="6080"/>
+
+	<targetchange interval="5000" chance="8"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="1"/>
+
+		<flag convinceable="1"/>
+
+		<flag pushable="1"/>
+
+		<flag canpushitems="1"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="25"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="2000" skill="45" attack="55"/>
+		<attack name="physical" interval="2000" chance="50" range="4" min="-30" max="-70">
+
+			<attribute key="shootEffect" value="spear"/>
+
+		</attack>
+
+
+
+	</attacks>
+
+	<defenses armor="30" defense="40">
+	
+</defenses>
+
+	<elements>
+
+		<element firePercent="-5"/>
+		<element earthPercent="0"/>
+
+		<element holyPercent="0"/>
+
+		<element icePercent="0"/>
+
+		<element deathPercent="-5"/>
+		<element energyPercent="-5"/>
+
+	</elements>
+	<immunities>
+
+		<immunity paralyze="1"/>
+
+	</immunities>
+
+	<voices interval="5000" chance="20">
+
+		<voice sentence="You will not escape!"/>
+
+		<voice sentence="Chaarge!"/>
+
+	</voices>
+
+	<loot>
+		<item id="2419" chance="5000"/><!-- iron scimitar -->
+
+		<item id="8601" chance="800"/><!-- iron battle axe -->
+
+		<item id="2459" chance="5000"/><!-- iron helmet -->
+
+		<item id="3967" chance="800"/><!-- eriador battle helmet -->
+
+		<item id="2647" chance="800"/><!-- iron legs -->
+
+		<item id="2483" chance="2000"/><!-- iron scale armor -->
+
+		<item id="8891" chance="200"/><!-- eriador warrior armor-->
+
+		<item id="5913" countmax="2" chance="10000"/><!-- brown piece of cloth -->
+
+		<item id="5909" countmax="1" chance="6000"/><!-- white piece of cloth -->
+
+		<item id="1987" chance="80000"/><!-- bag -->
+
+		<item id="2148" countmax="100" chance="90000"/><!-- gold coin -->
+
+		<item id="2152" countmax="1" chance="60000"/><!-- p coin -->
+
+		<item id="2787" countmax="4" chance="20000"/><!-- white mushroom -->
+
+		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
+
+	</loot>
+
+</monster>

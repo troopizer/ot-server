@@ -63,11 +63,6 @@
 		<element energyPercent="-5"/>
 
 	</elements>
-	<immunities>
-
-		<immunity paralyze="1"/>
-
-	</immunities>
 
 	<voices interval="5000" chance="10">
 
@@ -82,11 +77,11 @@
 
 		<item id="7425" chance="1000"/><!-- iron battle mace -->
 
-		<item id="5924" chance="4000"/><!-- damaged steel -->
+		<item id="5924" chance="5000"/><!-- damaged steel -->
 
 		<item id="2473" chance="5000"/><!-- iron hornet helmet -->
 
-		<item id="3974" chance="500"/><!-- savage shield -->
+		<item id="3974" chance="800"/><!-- savage shield -->
 
 		<item id="5913" countmax="1" chance="8000"/><!-- brown piece of cloth -->
 
@@ -104,7 +99,7 @@
 
 		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
 
-		<item id="7457" countmax="1" chance="200"/><!-- fur boots -->
+		<item id="7457" countmax="1" chance="800"/><!-- fur boots -->
 
 	</loot>
 

@@ -94,14 +94,12 @@ function creatureSayCallback(cid, type, msg)
 			selfSay("Go and get me my boots!",cid)
 		end
 		if (getPlayerStorageValue(cid,2011) == 3) then
-			if (doPlayerRemoveItem(cid, 9817, 1) == true) then
 				selfSay("You got them !",cid)
 				selfSay("You truely are a heroe ! Hey ! Your good for nothing monkeys ! This kiddo could bring my rusty father's useless boots !",cid)
 				selfSay("Thank you very much. I cannot sleep without this old boots. (You received 3000 exp and 20 platinum coins)", cid)
 				doPlayerAddExperience(cid,6000)
 				doPlayerAddItem(cid,2152,20)
 				setPlayerStorageValue(cid,2011,4)
-			end
 		end
 	end
 

@@ -5,7 +5,7 @@ combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_ENERGYBALL)
 
 local condition = Condition(CONDITION_PARALYZE)
 condition:setParameter(CONDITION_PARAM_TICKS, 10000)
-condition:setFormula(-0.7, 0, -0.7, 0)
+condition:setFormula(-0.5, 0, -0.5, 0)
 combat:setCondition(condition)
 
 function onCastSpell(creature, variant, isHotkey)

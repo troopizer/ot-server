@@ -115,7 +115,7 @@ loginTries = 10
 retryTimeout = 5 * 1000
 loginTimeout = 60 * 1000
 maxPlayers = 1000
-motd = "Welcome to Middle Earth Adventures 0.2!"
+motd = "Welcome to Middle Earth Adventures 1.0!"
 displayOnOrOffAtCharlist = false
 onePlayerOnlinePerAccount = true
 allowClones = false
@@ -146,10 +146,10 @@ updateHighscoresAfterMinutes = 60
 
 -- Houses
 buyableAndSellableHouses = true
-houseNeedPremium = true
+houseNeedPremium = false
 bedsRequirePremium = true
 levelToBuyHouse = 1
-housesPerAccount = 0
+housesPerAccount = 10
 houseRentAsPrice = false
 housePriceAsRent = false
 housePriceEachSquare = 1000
@@ -165,7 +165,7 @@ hotkeyAimbotEnabled = true
 -- Map
 -- NOTE: storeTrash costs more memory, but will perform alot faster cleaning.
 mapName = "forgotten"
-mapAuthor = "Lord Sapuxxx"
+mapAuthor = "Don Sapu"
 randomizeTiles = true
 storeTrash = true
 cleanProtectedZones = true
@@ -196,7 +196,7 @@ allowChangeOutfit = true
 allowChangeColors = true
 allowChangeAddons = true
 disableOutfitsForPrivilegedPlayers = false
-addonsOnlyPremium = true
+addonsOnlyPremium = false
 
 -- Miscellaneous
 -- NOTE: promptExceptionTracerErrorBox works only with precompiled support feature,

@@ -35,14 +35,14 @@ if (getPlayerStorageValue(cid,2012) == 1) then
 	 	selfSay('I can forge: {bronze armor} (arm:10).', cid)
 		talkState[talkUser] = 2
 	elseif(msgcontains(msg, 'bronze armor') and talkState[talkUser] == 2) then
-	 	selfSay('bronze armor, I would need {8 copper ores}, {8 tin ores} and {50 gold coins}, do you have they?.', cid)
+	 	selfSay('bronze armor, I would need {6 copper ores}, {6 tin ores} and {20 gold coins}, do you have they?.', cid)
 		talkState[talkUser] = 3
 elseif(msgcontains(msg, 'yes') and talkState[talkUser] == 3) then
 		
-		if(getPlayerItemCount(cid, 2261) >= 8 and  getPlayerItemCount(cid, 2311) >= 8) then
-			if(doPlayerRemoveMoney(cid, 50)) then
-				doPlayerRemoveItem(cid, 2261, 8)
-				doPlayerRemoveItem(cid, 2311, 8)
+		if(getPlayerItemCount(cid, 2261) >= 6 and  getPlayerItemCount(cid, 2311) >= 6) then
+			if(doPlayerRemoveMoney(cid, 20)) then
+				doPlayerRemoveItem(cid, 2261, 6)
+				doPlayerRemoveItem(cid, 2311, 6)
 				doPlayerAddItem(cid,2465,1)
 				selfSay('Here you are.', cid)
 			else
@@ -58,12 +58,12 @@ elseif(msgcontains(msg, 'legs') and talkState[talkUser] == 1) then
 	 	selfSay('I can forge: {bronze legs} (Arm:5).', cid)
 		talkState[talkUser] = 4
 	elseif(msgcontains(msg, 'bronze legs') and talkState[talkUser] == 4) then
-	 	selfSay('So.. bronze legs, I would need {6 copper ores}, {6 tin ores} and {50 gold coins}, do you have they?.', cid)
+	 	selfSay('So.. bronze legs, I would need {6 copper ores}, {6 tin ores} and {20 gold coins}, do you have they?.', cid)
 		talkState[talkUser] = 11
 elseif(msgcontains(msg, 'yes') and talkState[talkUser] == 11) then
 		
 		if(getPlayerItemCount(cid, 2261) >= 6 and  getPlayerItemCount(cid, 2311) >= 6) then
-			if(doPlayerRemoveMoney(cid, 50)) then
+			if(doPlayerRemoveMoney(cid, 20)) then
 				doPlayerRemoveItem(cid, 2261, 6)
 				doPlayerRemoveItem(cid, 2311, 6)
 				doPlayerAddItem(cid,2478,1)

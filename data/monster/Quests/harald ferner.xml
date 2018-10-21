@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<monster name="Harald Ferner" nameDescription="harald ferner, one of the renegades general" race="blood" experience="700" speed="250" manacost="450">
+<monster name="Harald Ferner" nameDescription="harald ferner, one of the renegades general" race="blood" experience="800" speed="300" manacost="450">
 
 	<health now="1300" max="1300"/>
 	<look type="134" head="114" body="38" legs="113" feet="114" addons="3" corpse="6080"/>
@@ -98,25 +98,25 @@
 
 	<loot>
 
-		<item id="2383" chance="3000"/><!-- iron spike sword -->
+		<item id="2383" chance="1000"/><!-- iron spike sword -->
 
-		<item id="2394" chance="3000"/><!-- iron morning star -->
+		<item id="2394" chance="1000"/><!-- iron morning star -->
 
-		<item id="8601" chance="3000"/><!-- iron battle axe -->
+		<item id="8601" chance="1000"/><!-- iron battle axe -->
 
-		<item id="2463" chance="1000"/><!-- iron armor -->
+		<item id="2463" chance="600"/><!-- iron armor -->
 
 		<item id="2459" chance="500"/><!-- steel helmet -->
 
-		<item id="2647" chance="1000"/><!-- iron legs -->
+		<item id="2647" chance="600"/><!-- iron legs -->
 
 		<item id="2513" chance="1000"/><!-- iron kite shield -->
 
-		<item id="3968" chance="200"/><!-- eriador guardian armor -->
+		<item id="3968" chance="100"/><!-- eriador guardian armor -->
 
-		<item id="8891" chance="200"/><!-- eriador warrior armor -->
+		<item id="8891" chance="100"/><!-- eriador warrior armor -->
 
-		<item id="8872" chance="200"/><!-- eriador ranger cape -->
+		<item id="8872" chance="100"/><!-- eriador ranger cape -->
 
 		<item id="5913" countmax="2" chance="1500"/><!-- brown piece of cloth -->
 

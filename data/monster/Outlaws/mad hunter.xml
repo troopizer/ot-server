@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<monster name="Lone Lands Hunter" nameDescription="a lone lands mad hunter" race="blood" experience="450" speed="240" manacost="450">
+<monster name="Lone Lands Hunter" nameDescription="a lone lands mad hunter" race="blood" experience="600" speed="280" manacost="450">
 
 	<health now="850" max="850"/>
 	<look type="129" head="119" body="116" legs="119" feet="114" addons="1" corpse="6080"/>
@@ -11,7 +11,7 @@
 
 	<flags>
 
-		<flag summonable="1"/>
+		<flag summonable="0"/>
 
 		<flag attackable="1"/>
 
@@ -48,7 +48,7 @@
 
 	</attacks>
 
-	<defenses armor="25" defense="28"/>
+	<defenses armor="25" defense="25"/>
 
 	<elements>
 
@@ -63,11 +63,6 @@
 		<element energyPercent="-5"/>
 
 	</elements>
-	<immunities>
-
-		<immunity paralyze="1"/>
-
-	</immunities>
 
 	<voices interval="5000" chance="30">
 
@@ -79,7 +74,7 @@
 
 	<loot>
 
-		<item id="2383" chance="1000"/><!-- iron spike sword -->
+		<item id="2383" chance="800"/><!-- iron spike sword -->
 
 		<item id="3982" chance="1000"/><!-- ranger boots -->
 

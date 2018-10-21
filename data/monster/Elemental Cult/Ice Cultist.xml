@@ -47,11 +47,9 @@
 		<voice sentence="Ice!"/>
 	</voices>
 	<loot>
-		<item id="7897" chance="200"/><!-- ice armor -->
-		<item id="7896" chance="400"/><!-- ice legs -->
-		<item id="7892" chance="600"/><!-- boots -->
-		<item id="7902" chance="800"/><!-- ice helmet -->
-		<item id="7888" chance="800"/><!-- ice amulet -->
+		<item id="7892" chance="400"/><!-- boots -->
+		<item id="7902" chance="600"/><!-- ice helmet -->
+		<item id="7888" chance="600"/><!-- ice amulet -->
 		<item id="2152" countmax="4" chance="40000"/><!-- p coin -->
 		<item id="2804" countmax="2" chance="20000"/><!-- shadow herb -->
 		<item id="2186" chance="5000"/><!-- ice wand -->

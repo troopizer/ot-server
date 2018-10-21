@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Goblin Heavy Infantry" nameDescription="a goblin infantry warrior" race="blood" experience="650" speed="280" manacost="290">
-	<health now="1000" max="1000"/>
+<monster name="Goblin Heavy Infantry" nameDescription="a goblin heavy infantry warrior" race="blood" experience="900" speed="300" manacost="290">
+	<health now="1500" max="1500"/>
 	<look type="909" corpse="6002"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -19,8 +19,13 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="55" attack="55"/>
+		<attack name="physical" interval="2000" chance="20" range="4" min="-60" max="-100">
+
+			<attribute key="shootEffect" value="spear"/>
+
+		</attack>
 	</attacks>
-	<defenses armor="30" defense="35"/>
+	<defenses armor="35" defense="40"/>
 	<elements>
 		<element earthPercent="5"/>
 		<element icePercent="-5"/>
@@ -29,26 +34,27 @@
 		<element holyPercent="-10"/>
 		<element energyPercent="-5"/>
 	</elements>
-	<voices interval="5000" chance="15">
+	<voices interval="5000" chance="25">
 		<voice sentence="ukmaukh! drepa!"/>
 		<voice sentence="shara fleukh!!"/>
-		<voice sentence="Kriiark!" yell="1"/>
-		<voice sentence="Krooork!"/>
+		<voice sentence="Kriiark!"/>
+		<voice sentence="Krooork!" yell="1"/>
 	</voices>
 	<loot>
 		<item id="2648" chance="5000"/><!-- iron chain legs -->
 		<item id="3975" chance="5000"/><!-- iron goblin shield -->
 		<item id="8602" chance="1000"/><!-- goblin blade -->
 		<item id="2423" chance="1000"/><!-- goblin mace -->
-		<item id="2441" chance="1000"/><!-- goblin battle axe-->
-		<item id="2483" chance="2000"/><!-- iron scale armor -->
+		<item id="2428" chance="1000"/><!-- goblin battle axe-->
+		<item id="2463" chance="2000"/><!-- iron armor -->
+		<item id="12645" chance="200"/><!-- goblin heavy helmet -->
+		<item id="12642" chance="200"/><!-- goblin scale armor -->
 		<item id="1987" chance="80000"/><!-- bag -->
-				<item id="1294" countmax="4" chance="10000"/><!-- small stone -->
 				<item id="2230" chance="10000"/><!-- bone -->
 				<item id="2235" chance="10000"/><!-- moldy cheese -->
 				<item id="2450" chance="5000"/><!-- bone sword -->
 				<item id="2666" countmax="1" chance="60000"/><!-- meat -->
 				<item id="3976" countmax="10" chance="50000"/><!-- worm -->
-				<item id="2148" countmax="50" chance="90000"/><!-- gold coin -->
+				<item id="2148" countmax="100" chance="90000"/><!-- gold coin -->
 	</loot>
 </monster>

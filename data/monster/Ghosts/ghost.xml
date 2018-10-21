@@ -78,17 +78,17 @@
 
 	<loot>
 
-		<item id="2148" countmax="80" chance="80000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="80000"/><!-- gold coin -->
 
 		<item id="2419" chance="8000"/><!-- iron scymitar -->
 	
-		<item id="5909" countmax="2" chance="10000"/><!-- white piece of cloth -->
+		<item id="5909" countmax="3" chance="10000"/><!-- white piece of cloth -->
 
-		<item id="2394" chance="1000"/><!-- morning star -->
+		<item id="2394" chance="8000"/><!-- morning star -->
 
-		<item id="2513" chance="2000"/><!-- iron kite shield -->
+		<item id="2513" chance="3000"/><!-- iron kite shield -->
 
-		<item id="5904" chance="8000"/><!-- magic sulphurs -->
+		<item id="5904" chance="9000"/><!-- magic sulphurs -->
 
 		<item id="2199" chance="5000"/><!-- garlic neckclace -->
 

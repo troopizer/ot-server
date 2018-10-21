@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<monster name="Wild Boar" nameDescription="a wild boar" race="blood" experience="400" speed="310">
+<monster name="Wild Boar" nameDescription="a wild boar" race="blood" experience="500" speed="350">
 	<health now="800" max="800" />
-	<look type="380" corpse="6000" />
+	<look type="380" corpse="13308" />
 	<targetchange interval="4000" chance="10" />
 	<flags>
 		<flag summonable="0" />
@@ -41,9 +41,9 @@
 	</voices>
 	<loot>
 		<item id="2804" countmax="1" chance="10000"/><!-- shadow herb -->
-		<item id="2803" countmax="2" chance="10000"/><!-- powder herb -->
+		<item id="2803" countmax="3" chance="10000"/><!-- powder herb -->
 		<item id="5878" countmax="4" chance="15000"/><!-- leather -->
-		<item id="5883" countmax="1" chance="10000"/><!-- boar fur -->
+		<item id="5883" countmax="1" chance="15000"/><!-- boar fur -->
 		<item name="meat" countmax="4" chance="33600" />
 		<item name="ham" countmax="3" chance="39200" />
 	</loot>

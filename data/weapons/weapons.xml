@@ -91,9 +91,7 @@
 		<vocation id="4"/>
 		<vocation id="8" showInDescription="0"/>
 	</melee>
-	<melee id="7403" level="65" unproperly="1" event="function" value="default">
-		<vocation id="4"/>
-		<vocation id="8" showInDescription="0"/>
+	<melee id="7403" level="50" unproperly="1" event="function" value="default">
 	</melee>
 	<melee id="7418" level="70" unproperly="1" event="function" value="default"/>
 	<melee id="7405" level="70" unproperly="1" event="function" value="default"/>
@@ -177,7 +175,7 @@
 	<melee id="7411" level="50" unproperly="1" event="function" value="default"/>
 	<melee id="2447" level="50" unproperly="1" event="function" value="default"/>
 	<melee id="7388" level="55" unproperly="1" event="function" value="default"/>
-	<melee id="2427" level="55" unproperly="1" event="function" value="default"/>
+	<melee id="2427" level="50" unproperly="1" event="function" value="default"/>
 	<melee id="7389" level="60" unproperly="1" event="function" value="default"/>
 	<melee id="2414" level="60" unproperly="1" event="function" value="default"/>
 	<melee id="11299" level="60" unproperly="1" event="function" value="default"/>

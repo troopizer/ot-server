@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Angmars Ghoul" nameDescription="an angmars ghoul" race="undead" experience="350" speed="220" manacost="0">
+<monster name="Angmars Ghoul" nameDescription="an angmars ghoul" race="undead" experience="350" speed="300" manacost="0">
 	<health now="500" max="500"/>
 	<look type="100" corpse="6029"/>
 	<targetchange interval="5000" chance="8"/>
@@ -42,7 +42,7 @@
 
 		<item id="2148" countmax="90" chance="80000"/><!-- gold coin -->
 
-		<item id="2483" chance="2000"/><!-- iron scale armor -->
+		<item id="2483" chance="3000"/><!-- iron scale armor -->
 
 		<item id="5913" countmax="3" chance="8000"/><!-- brown piece of cloth -->
 
@@ -52,7 +52,7 @@
 	
 		<item id="5909" countmax="2" chance="10000"/><!-- white piece of cloth -->
 
-		<item id="2394" chance="1500"/><!-- morning star -->
+		<item id="2394" chance="3000"/><!-- morning star -->
 
 		<item id="2513" chance="2000"/><!-- iron kite shield -->
 

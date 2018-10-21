@@ -95,12 +95,12 @@ elseif(msgcontains(msg, 'yes') and talkState[talkUser] == 9) then
 		end
 		talkState[talkUser] = 1
 elseif(msgcontains(msg, '5 hunting spears') and talkState[talkUser] == 2) then
-	 	selfSay('Nice, so hunting spears, I would need {5 wood plank} , {1 iron ore} and {30 gold coins} to make 5 hunting spears, do you have they?.', cid)
+	 	selfSay('Nice, so hunting spears, I would need {5 wood plank} , {1 iron ore} and {150 gold coins} to make 5 hunting spears, do you have they?.', cid)
 		talkState[talkUser] = 10
 elseif(msgcontains(msg, 'yes') and talkState[talkUser] == 10) then
 		
 		if(getPlayerItemCount(cid, 5901) >= 5  and getPlayerItemCount(cid, 5880) >= 1)then
-			if(doPlayerRemoveMoney(cid, 30)) then
+			if(doPlayerRemoveMoney(cid, 150)) then
 				doPlayerRemoveItem(cid, 5901, 5)
 				doPlayerRemoveItem(cid, 5880, 1)
 				doPlayerAddItem(cid,3965,5)

@@ -39,6 +39,15 @@
 	<rune group="healing" name="Herbal Healing" id="2265" allowfaruse="1" charges="1" lvl="15" maglv="5" exhaustion="2000" needtarget="1" blocktype="solid" script="runes/healing rune.lua">
 
 	</rune>
+	<rune group="support" name="Herbal Strong Paralyze" id="2281" allowfaruse="1" charges="1" lvl="40" maglv="15" exhaustion="2000" needtarget="1" blocktype="solid" script="runes/strong paralyze rune.lua">
+
+	</rune>
+	<rune group="support" name="Herbal Strong Poison" id="2286" allowfaruse="1" charges="1" lvl="40" maglv="15" exhaustion="2000" needtarget="1" blocktype="solid" script="runes/strong poison rune.lua">
+
+	</rune>
+	<rune group="healing" name="Herbal Strong Healing" id="2273" allowfaruse="1" charges="1" lvl="40" maglv="15" exhaustion="2000" needtarget="1" blocktype="solid" script="runes/strong healing rune.lua">
+
+	</rune>
 	<rune name="Herbal Light Explosion" id="2313" allowfaruse="1" charges="1" lvl="30" maglv="15" exhaustion="2000" blocktype="solid" script="runes/light explosion rune.lua"/>
 	<rune name="Herbal Wide Light Explosion" id="2310" allowfaruse="1" charges="1" lvl="30" maglv="15" exhaustion="2000" blocktype="solid" script="runes/light wide explosion rune.lua"/>
 		<!-- Conjure Herbal Runes -->
@@ -49,6 +58,15 @@
 
 	</instant>
 	<instant name="Herbal Healing Rune" words="asea envinyata certa" lvl="15"  maglv="5" mana="120" soul="2" prem="0" exhaustion="2000" needlearn="0" script="conjure runes/herbal healing rune.lua">
+
+	</instant>
+	<instant name="Herbal Strong Paralyze Rune" words="asea turca halcin certa" lvl="40"  maglv="15" mana="250" soul="3" prem="0" exhaustion="2000" needlearn="0" script="conjure runes/herbal strong paralyze rune.lua">
+
+	</instant>
+	<instant name="Herbal Strong Poison Rune" words="asea turca hloima certa" lvl="40"  maglv="15" mana="250" soul="3" prem="0" exhaustion="2000" needlearn="0" script="conjure runes/herbal strong poison rune.lua">
+
+	</instant>
+	<instant name="Herbal Strong Healing Rune" words="asea turca envinyata certa" lvl="40"  maglv="15" mana="250" soul="3" prem="0" exhaustion="2000" needlearn="0" script="conjure runes/herbal strong healing rune.lua">
 
 	</instant>
 	<instant name="Herbal Light Explosion Rune" words="asea milya narquelion" lvl="30" maglv="15" mana="200" soul="2" exhaustion="2000" needlearn="0" script="conjure runes/herbal light explosion rune.lua">

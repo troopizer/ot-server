@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Baefur"  script="diamond1.lua" nameDescription="Baefur, a Blue Mountains mechant" walkinterval="2000" floorchange="0">
+
+	<health now="100" max="100"/>
+
+	<look type="160" head="114" body="115" legs="116" feet="115" addons="0"/>
+
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I sell dwarven items for diamonds. Tell me if you want to {trade}."/>
+	</parameters>
+</npc>

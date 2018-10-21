@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<monster name="Badger" namedescription="a badger" race="blood" experience="5" speed="180" manacost="200">
-	<health now="20" max="20"/>
+<monster name="Badger" namedescription="a badger" race="blood" experience="110" speed="250" manacost="200">
+	<health now="200" max="200"/>
 	<look type="105" corpse="6034"/>
 	<targetchange interval="2000" chance="20"/>
 	<strategy attack="100" defense="0"/>
@@ -15,14 +15,18 @@
 		<flag canpushcreatures="0"/>
 		<flag targetdistance="1"/>
 		<flag staticattack="90"/>
-		<flag runonhealth="10"/>
+		<flag runonhealth="30"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="17" attack="10"/>
+		<attack name="melee" interval="2000" skill="30" attack="35"/>
 	</attacks>
-	<defenses armor="1" defense="3"/>
+	<defenses armor="10" defense="15"/>
 	<loot>
 		<item id="3976" countmax="10" chance="50000"/><!-- worm -->
-		<item id="2671" chance="50000"/><!-- ham -->
+		<item id="2666" countmax="2" chance="90000"/><!-- meat -->
+ 		<item id="5878" countmax="2" chance="15000"/><!-- leather -->
+ 		<item id="2803" countmax="2" chance="15000"/><!-- powder herb -->
+ 		<item id="2800" countmax="1" chance="5000"/><!-- star herb -->
+ 		<item id="2802" countmax="1" chance="5000"/><!-- sling herb -->
 	</loot>
 </monster>

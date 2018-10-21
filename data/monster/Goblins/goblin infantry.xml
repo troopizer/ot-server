@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Goblin Infantry" nameDescription="a goblin infantry warrior" race="blood" experience="350" speed="250" manacost="290">
-	<health now="500" max="500"/>
+<monster name="Goblin Infantry" nameDescription="a goblin infantry warrior" race="blood" experience="350" speed="300" manacost="290">
+	<health now="600" max="600"/>
 	<look type="61" corpse="6002"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -29,7 +29,7 @@
 		<element holyPercent="-10"/>
 		<element energyPercent="-5"/>
 	</elements>
-	<voices interval="5000" chance="15">
+	<voices interval="5000" chance="25">
 		<voice sentence="ukmaukh! drepa!"/>
 		<voice sentence="shara fleukh!!"/>
 		<voice sentence="Kriiark!" yell="1"/>
@@ -40,7 +40,7 @@
 		<item id="3975" chance="1000"/><!-- iron goblin shield -->
 		<item id="8602" chance="500"/><!-- goblin blade -->
 		<item id="2423" chance="500"/><!-- goblin mace -->
-		<item id="2441" chance="500"/><!-- goblin battle axe-->
+		<item id="2428" chance="500"/><!-- goblin battle axe-->
 		<item id="2483" chance="1000"/><!-- iron scale armor -->
 		<item id="1987" chance="80000"/><!-- bag -->
 				<item id="1294" countmax="4" chance="10000"/><!-- small stone -->
@@ -49,6 +49,6 @@
 				<item id="2450" chance="5000"/><!-- bone sword -->
 				<item id="2666" countmax="1" chance="60000"/><!-- meat -->
 				<item id="3976" countmax="10" chance="50000"/><!-- worm -->
-				<item id="2148" countmax="50" chance="90000"/><!-- gold coin -->
+				<item id="2148" countmax="70" chance="90000"/><!-- gold coin -->
 	</loot>
 </monster>

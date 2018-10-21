@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Rorkduf" nameDescription="Rorkduf a goblin minor chief" race="blood" experience="450" speed="260" manacost="290">
+<monster name="Rorkduf" nameDescription="Rorkduf a minor goblin chief" race="blood" experience="550" speed="320" manacost="290">
 	<health now="800" max="800"/>
 	<look type="61" corpse="6002"/>
 	<targetchange interval="5000" chance="8"/>
@@ -43,7 +43,7 @@
 		<item id="3975" chance="2000"/><!-- iron goblin shield -->
 		<item id="8602" chance="1000"/><!-- goblin blade -->
 		<item id="2423" chance="1000"/><!-- goblin mace -->
-		<item id="2441" chance="1000"/><!-- goblin battle axe-->
+		<item id="2428" chance="1000"/><!-- goblin battle axe-->
 		<item id="2483" chance="1500"/><!-- iron scale armor -->
 		<item id="1987" chance="80000"/><!-- bag -->
 		<item id="1294" countmax="4" chance="10000"/><!-- small stone -->

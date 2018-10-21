@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Beifur"  script="weapons.lua" nameDescription="Beifur, a Blue Mountains mechant" walkinterval="2000" floorchange="0">
+
+	<health now="100" max="100"/>
+
+	<look type="160" head="115" body="119" legs="116" feet="114" addons="0"/>
+
+	<parameters>
+	
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I buy and sell weapons and equipment."/>
+		<parameter key="shop_sellable" value="crossbow,2455,500;bolt,2543,2;throwing knife,2410,10;small stone,1294,5;bow,2456,80;arrow,2544,1;"/>
+	
+		<parameter key="shop_buyable" value="crossbow,2455,1500;bolt,2543,5;throwing knife,2410,40;small stone,1294,20;bow,2456,200;arrow,2544,2;"				/>
+	</parameters>
+</npc>

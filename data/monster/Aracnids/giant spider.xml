@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<monster name="Giant Spider" nameDescription="a giant spider" race="venom" experience="900" speed="280" manacost="0">
+<monster name="Giant Spider" nameDescription="a giant spider" race="venom" experience="1200" speed="350" manacost="0">
 
-	<health now="1300" max="1300"/>
+	<health now="1500" max="1500"/>
 
 	<look type="38" corpse="5977"/>
 
@@ -46,7 +46,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="20" defense="20">
-		<defense name="speed" interval="1000" chance="6" speedchange="310" duration="20000">
+		<defense name="speed" interval="1000" chance="6" speedchange="400" duration="20000">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</defense>
 	</defenses>
@@ -69,13 +69,13 @@
 		<summon name="Poison Spider" interval="1000" chance="30" max="3"/>
 	</summons>
 	<loot>
-		<item id="2200" chance="5000"/><!-- protection amulet-->
-		<item id="2477" chance="800"/><!-- arnorian chain legs -->
-		<item id="2647" chance="2000"/><!-- iron legs -->	
-		<item id="2463" chance="5000"/><!-- iron armor -->		
+		<item id="2200" chance="1000"/><!-- protection amulet-->
+		<item id="2477" chance="200"/><!-- arnorian chain legs -->
+		<item id="2647" chance="1000"/><!-- iron legs -->	
+		<item id="2463" chance="2000"/><!-- iron armor -->		
 		<item id="5893" countmax="1" chance="10000"/><!-- perfect behemoth fang -->
 		<item id="5904" countmax="2" chance="10000"/><!-- magic sulphur -->
-		<item id="5879" countmax="15" chance="50000"/><!-- giant spider silk -->
+		<item id="5879" countmax="20" chance="50000"/><!-- giant spider silk -->
 		<item id="2545" countmax="12" chance="40000"/><!-- poison arrow -->
 		<item id="2150" chance="200"/><!-- small amethyst -->
 		<item id="2146" chance="200"/><!-- small sapphire -->

@@ -69,19 +69,19 @@
 
 	<loot>
 
-		<item id="2648" chance="10000"/><!-- chain legs -->
+		<item id="2648" chance="1000"/><!-- chain legs -->
 
-		<item id="2465" chance="5000"/><!-- brass armor-->
+		<item id="2465" chance="2000"/><!-- brass armor-->
 
 		<item id="2417" chance="10000"/><!-- battle hammer-->
 		
 		<item id="2661" chance="10000"/><!-- scarf -->
 
-		<item id="2513" chance="5000"/><!-- iron kite shield shield -->
+		<item id="2513" chance="800"/><!-- iron kite shield-->
 
 		<item id="1987" chance="80000"/><!-- bag -->
 
-		<item id="2148" countmax="80" chance="90000"/><!-- gold coin -->
+		<item id="2148" countmax="90" chance="90000"/><!-- gold coin -->
 		
 		<item id="2389" chance="20000"/><!-- spear -->
 
