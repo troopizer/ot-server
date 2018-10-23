@@ -22,12 +22,12 @@ function creatureSayCallback(cid, type, msg)
 	 	selfSay('I sell: {west dwarven helmet}(Arm:8, Club fighting:+1, Axe fighting:+1, Physical abs:2%).', cid)
 		talkState[talkUser] = 2 
 	elseif(msgcontains(msg, 'west dwarven helmet') and talkState[talkUser] == 2) then
-	 	selfSay('For one west dwarven helmet, it would be {8 small diamonds}, do you have them?.', cid)
+	 	selfSay('For one west dwarven helmet, it would be {10 small diamonds}, do you have them?.', cid)
 		talkState[talkUser] = 3
 	elseif(msgcontains(msg, 'yes') and talkState[talkUser] == 3) then
 		
-		if(getPlayerItemCount(cid, 2145) >= 6) then
-				doPlayerRemoveItem(cid, 2145, 6)
+		if(getPlayerItemCount(cid, 2145) >= 10) then
+				doPlayerRemoveItem(cid, 2145, 10)
 				doPlayerAddItem(cid,2479,1)
 				selfSay('Here you are.', cid)
 		else
@@ -39,12 +39,12 @@ elseif(msgcontains(msg, 'shields') and talkState[talkUser] == 1) then
 	 	selfSay('I sell: {west dwarven shield} (def:33).', cid)
 		talkState[talkUser] = 2
 	elseif(msgcontains(msg, 'west dwarven shield') and talkState[talkUser] == 2) then
-	 	selfSay('For 1 dwarven light shield, it would be {8 small diamonds}, do you have them?.', cid)
+	 	selfSay('For 1 dwarven light shield, it would be {10 small diamonds}, do you have them?.', cid)
 		talkState[talkUser] = 5
 elseif(msgcontains(msg, 'yes') and talkState[talkUser] == 5) then
 		
-		if(getPlayerItemCount(cid, 2145) >= 8) then
-				doPlayerRemoveItem(cid, 2145, 8)
+		if(getPlayerItemCount(cid, 2145) >= 10) then
+				doPlayerRemoveItem(cid, 2145, 10)
 				doPlayerAddItem(cid,2525,1)
 				selfSay('Here you are.', cid)
 		else

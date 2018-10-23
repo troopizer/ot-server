@@ -644,5 +644,9 @@
             <missionstate id="0" description="Look for 20 powder herbs, 20 mushrooms and catch 20 bunches of wheat for Jim Boffin. Search through the countryside."/>
             <missionstate id="1" description="Mission Complete."/>
         </mission>  
+        <mission name="A doll for Bilbo" storageid="2113" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Look for a doll for Bungos son, Bilbo."/>
+            <missionstate id="1" description="Mission Complete."/>
+        </mission>  
     </quest>
 </quests>

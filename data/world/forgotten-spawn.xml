@@ -1079,6 +1079,9 @@
   <spawn centerx="729" centery="861" centerz="6" radius="1">
     <monster name="Wolf" x="-1" y="1" z="6" spawntime="300"/>
   </spawn>
+  <spawn centerx="175" centery="865" centerz="6" radius="1">
+    <npc name="Bungo Baggins" x="-1" y="0" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="499" centery="868" centerz="6" radius="2">
     <monster name="Bear" x="-1" y="0" z="6" spawntime="300"/>
     <monster name="Great Bear" x="2" y="1" z="6" spawntime="300"/>
@@ -1524,6 +1527,7 @@
     <monster name="Deer" x="-1" y="-1" z="6" spawntime="150"/>
   </spawn>
   <spawn centerx="1286" centery="1058" centerz="6" radius="2">
+    <monster name="Lone Lands Hunter" x="1" y="-2" z="6" spawntime="300"/>
     <monster name="Lone Lands Witch" x="1" y="0" z="6" spawntime="300"/>
     <monster name="Lone Lands Hunter" x="-2" y="2" z="6" spawntime="300"/>
   </spawn>
@@ -1533,6 +1537,10 @@
   </spawn>
   <spawn centerx="733" centery="1061" centerz="6" radius="2">
     <monster name="Deer" x="0" y="-1" z="6" spawntime="150"/>
+  </spawn>
+  <spawn centerx="1284" centery="1065" centerz="6" radius="2">
+    <monster name="Lone Lands Hunter" x="2" y="-1" z="6" spawntime="300"/>
+    <monster name="Lone Lands Savage" x="-1" y="0" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="711" centery="1066" centerz="6" radius="2">
     <monster name="Deer" x="-2" y="0" z="6" spawntime="150"/>
