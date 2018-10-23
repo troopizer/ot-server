@@ -616,40 +616,6 @@
   <spawn centerx="816" centery="1115" centerz="5" radius="2">
     <monster name="Rabbit" x="1" y="-1" z="5" spawntime="150"/>
   </spawn>
-  <spawn centerx="556" centery="520" centerz="6" radius="5">
-    <monster name="Wolf" x="-1" y="-1" z="6" spawntime="60"/>
-    <monster name="Bear" x="0" y="2" z="6" spawntime="60"/>
-  </spawn>
-  <spawn centerx="575" centery="521" centerz="6" radius="5">
-    <monster name="Wolf" x="-1" y="-1" z="6" spawntime="60"/>
-  </spawn>
-  <spawn centerx="566" centery="524" centerz="6" radius="5">
-    <monster name="Bat" x="1" y="-2" z="6" spawntime="60"/>
-    <monster name="Bat" x="3" y="-1" z="6" spawntime="60"/>
-    <monster name="Bear" x="-2" y="0" z="6" spawntime="60"/>
-    <monster name="Bear" x="1" y="3" z="6" spawntime="60"/>
-  </spawn>
-  <spawn centerx="565" centery="532" centerz="6" radius="5">
-    <monster name="Wolf" x="2" y="-1" z="6" spawntime="60"/>
-    <monster name="Wolf" x="-4" y="3" z="6" spawntime="60"/>
-    <monster name="Wolf" x="5" y="3" z="6" spawntime="60"/>
-  </spawn>
-  <spawn centerx="574" centery="533" centerz="6" radius="5">
-    <monster name="Wolf" x="-1" y="-3" z="6" spawntime="60"/>
-    <monster name="Wolf" x="2" y="1" z="6" spawntime="60"/>
-  </spawn>
-  <spawn centerx="559" centery="537" centerz="6" radius="5">
-    <monster name="Wolf" x="-4" y="1" z="6" spawntime="60"/>
-  </spawn>
-  <spawn centerx="555" centery="540" centerz="6" radius="5">
-    <monster name="Wolf" x="-2" y="5" z="6" spawntime="60"/>
-  </spawn>
-  <spawn centerx="511" centery="543" centerz="6" radius="1">
-    <npc name="mailman maily" x="0" y="-1" z="6" spawntime="60"/>
-  </spawn>
-  <spawn centerx="493" centery="558" centerz="6" radius="5">
-    <npc name="Dimral" x="-1" y="0" z="6" spawntime="60"/>
-  </spawn>
   <spawn centerx="729" centery="624" centerz="6" radius="2">
     <monster name="Necromancer Apprentice" x="-2" y="0" z="6" spawntime="300"/>
   </spawn>
@@ -1774,47 +1740,6 @@
   </spawn>
   <spawn centerx="530" centery="518" centerz="7" radius="5">
     <monster name="Wolf" x="1" y="1" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="533" centery="534" centerz="7" radius="5">
-    <monster name="Rabbit" x="-1" y="-1" z="7" spawntime="60"/>
-    <monster name="Rabbit" x="-2" y="4" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="544" centery="535" centerz="7" radius="5">
-    <monster name="Snake" x="5" y="-3" z="7" spawntime="60"/>
-    <monster name="Sheep" x="1" y="-1" z="7" spawntime="60"/>
-    <monster name="Sheep" x="0" y="2" z="7" spawntime="60"/>
-    <monster name="Sheep" x="4" y="2" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="562" centery="543" centerz="7" radius="5">
-    <monster name="Crab" x="5" y="-2" z="7" spawntime="60"/>
-    <monster name="Rabbit" x="-1" y="2" z="7" spawntime="60"/>
-    <monster name="Crab" x="4" y="2" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="537" centery="546" centerz="7" radius="5">
-    <monster name="Rabbit" x="-3" y="-2" z="7" spawntime="60"/>
-    <monster name="Sheep" x="4" y="-1" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="515" centery="547" centerz="7" radius="1">
-    <npc name="bankman billy" x="0" y="1" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="506" centery="549" centerz="7" radius="1">
-    <npc name="Soya" x="0" y="1" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="506" centery="557" centerz="7" radius="1">
-    <npc name="Eryn" x="0" y="-1" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="533" centery="561" centerz="7" radius="5">
-    <monster name="Sheep" x="1" y="1" z="7" spawntime="60"/>
-    <monster name="Sheep" x="0" y="3" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="533" centery="574" centerz="7" radius="5">
-    <monster name="Rabbit" x="-4" y="-4" z="7" spawntime="60"/>
-    <monster name="Rabbit" x="0" y="2" z="7" spawntime="60"/>
-    <monster name="Rabbit" x="-3" y="3" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="545" centery="574" centerz="7" radius="5">
-    <monster name="Deer" x="-2" y="-3" z="7" spawntime="60"/>
-    <monster name="Deer" x="-2" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="583" centery="626" centerz="7" radius="2">
     <monster name="Skeleton Warrior" x="1" y="-2" z="7" spawntime="300"/>
@@ -5496,64 +5421,6 @@
     <monster name="Cave Rat" x="1" y="1" z="8" spawntime="60"/>
     <monster name="Rat" x="-2" y="2" z="8" spawntime="60"/>
   </spawn>
-  <spawn centerx="522" centery="530" centerz="8" radius="5">
-    <monster name="Bat" x="1" y="-1" z="8" spawntime="60"/>
-    <monster name="Bat" x="-2" y="1" z="8" spawntime="60"/>
-  </spawn>
-  <spawn centerx="504" centery="532" centerz="8" radius="5">
-    <monster name="Cave Rat" x="0" y="-3" z="8" spawntime="60"/>
-    <monster name="Rat" x="0" y="-1" z="8" spawntime="60"/>
-    <monster name="Rat" x="0" y="0" z="8" spawntime="60"/>
-  </spawn>
-  <spawn centerx="504" centery="539" centerz="8" radius="5">
-    <monster name="Rat" x="4" y="0" z="8" spawntime="60"/>
-    <monster name="Rat" x="-3" y="4" z="8" spawntime="60"/>
-  </spawn>
-  <spawn centerx="517" centery="539" centerz="8" radius="5">
-    <monster name="Rat" x="2" y="0" z="8" spawntime="60"/>
-  </spawn>
-  <spawn centerx="533" centery="539" centerz="8" radius="5">
-    <monster name="Rat" x="0" y="-1" z="8" spawntime="60"/>
-    <monster name="Cave Rat" x="2" y="1" z="8" spawntime="60"/>
-  </spawn>
-  <spawn centerx="512" centery="549" centerz="8" radius="5">
-    <monster name="Rat" x="5" y="0" z="8" spawntime="60"/>
-  </spawn>
-  <spawn centerx="532" centery="549" centerz="8" radius="5">
-    <monster name="Rat" x="1" y="-2" z="8" spawntime="60"/>
-    <monster name="Cave Rat" x="3" y="-2" z="8" spawntime="60"/>
-  </spawn>
-  <spawn centerx="501" centery="552" centerz="8" radius="5">
-    <monster name="Rat" x="0" y="-1" z="8" spawntime="60"/>
-    <monster name="Rat" x="0" y="5" z="8" spawntime="60"/>
-  </spawn>
-  <spawn centerx="523" centery="554" centerz="8" radius="5">
-    <monster name="Rat" x="1" y="-5" z="8" spawntime="60"/>
-    <monster name="Rat" x="1" y="3" z="8" spawntime="60"/>
-  </spawn>
-  <spawn centerx="501" centery="564" centerz="8" radius="5">
-    <monster name="Rat" x="-1" y="0" z="8" spawntime="60"/>
-    <monster name="Rat" x="0" y="0" z="8" spawntime="60"/>
-    <monster name="Rat" x="5" y="1" z="8" spawntime="60"/>
-  </spawn>
-  <spawn centerx="508" centery="567" centerz="8" radius="5">
-    <monster name="Rat" x="2" y="0" z="8" spawntime="60"/>
-  </spawn>
-  <spawn centerx="523" centery="567" centerz="8" radius="5">
-    <monster name="Rat" x="1" y="3" z="8" spawntime="60"/>
-  </spawn>
-  <spawn centerx="501" centery="573" centerz="8" radius="5">
-    <monster name="Rat" x="0" y="-2" z="8" spawntime="60"/>
-    <monster name="Rat" x="2" y="3" z="8" spawntime="60"/>
-  </spawn>
-  <spawn centerx="510" centery="576" centerz="8" radius="5">
-    <monster name="Rat" x="4" y="-1" z="8" spawntime="60"/>
-    <monster name="Rat" x="-4" y="5" z="8" spawntime="60"/>
-  </spawn>
-  <spawn centerx="523" centery="576" centerz="8" radius="5"/>
-  <spawn centerx="512" centery="582" centerz="8" radius="5">
-    <monster name="Cave Rat" x="1" y="2" z="8" spawntime="60"/>
-  </spawn>
   <spawn centerx="559" centery="583" centerz="8" radius="1">
     <monster name="Crypt shambler" x="1" y="0" z="8" spawntime="300"/>
   </spawn>
@@ -7031,10 +6898,6 @@
   <spawn centerx="499" centery="1147" centerz="9" radius="2">
     <monster name="Ghoul" x="-1" y="1" z="9" spawntime="300"/>
   </spawn>
-  <spawn centerx="498" centery="563" centerz="10" radius="5"/>
-  <spawn centerx="522" centery="563" centerz="10" radius="5">
-    <monster name="Tarantula" x="3" y="0" z="10" spawntime="60"/>
-  </spawn>
   <spawn centerx="1189" centery="563" centerz="10" radius="1">
     <monster name="Iron Deposit" x="1" y="0" z="10" spawntime="300"/>
   </spawn>
@@ -7056,9 +6919,6 @@
   </spawn>
   <spawn centerx="1187" centery="571" centerz="10" radius="1">
     <monster name="Iron Deposit" x="-1" y="1" z="10" spawntime="300"/>
-  </spawn>
-  <spawn centerx="498" centery="572" centerz="10" radius="5">
-    <monster name="Blood Crab" x="-2" y="-2" z="10" spawntime="60"/>
   </spawn>
   <spawn centerx="1179" centery="572" centerz="10" radius="1">
     <monster name="Iron Deposit" x="-1" y="0" z="10" spawntime="300"/>
