@@ -21,8 +21,9 @@ if(getPlayerItemCount(cid, 2803) >= 20 and  getPlayerItemCount(cid, 2793) >= 20 
 				doPlayerRemoveItem(cid, 2803, 20)
 				doPlayerRemoveItem(cid, 2793, 20)
 				doPlayerRemoveItem(cid, 7158, 20)
-selfSay('Great!, now lets speak about {cook}.', cid)
+selfSay('Great!, now lets speak about {cook}.(You recived 5000 exp)', cid)
 setPlayerStorageValue(cid,2015,1)
+doPlayerAddExperience(cid,5000)
 else
 selfSay('You dont have all the ingredients, please search for them.', cid)
 end

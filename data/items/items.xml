@@ -4374,18 +4374,18 @@
         <attribute key="weight" value="80" />
     </item>
     <item id="2691" name="halfling bread of speed">
-        <attribute key="weight" value="600" />
+        <attribute key="weight" value="350" />
         <attribute key="showcount" value="0" />
     </item>
     <item id="2692" name="flour">
-        <attribute key="weight" value="500" />
+        <attribute key="weight" value="100" />
         <attribute key="showcount" value="0" />
     </item>
     <item id="2693" article="a" name="lump of dough" plural="lumps of dough">
         <attribute key="weight" value="500" />
     </item>
     <item id="2694" article="a" name="bunch of wheat" plural="bunches of wheat">
-        <attribute key="weight" value="1250" />
+        <attribute key="weight" value="450" />
     </item>
     <item id="2695" article="an" name="egg" plural="eggs">
         <attribute key="weight" value="30" />
@@ -7739,8 +7739,8 @@
         <attribute key="decayTo" value="0" />
         <attribute key="duration" value="600" />
     </item>
-    <item id="4849" name="flour">
-        <attribute key="weight" value="500" />
+    <item id="4849" name="flour2">
+        <attribute key="weight" value="200" />
         <attribute key="showcount" value="0" />
     </item>
     <item id="4850" article="a" name="hydra egg">
@@ -11427,7 +11427,7 @@
     <item fromid="7143" toid="7144" article="a" name="wooden archway" />
     <item fromid="7145" toid="7157" name="ice" />
     <item id="7158" article="a" name="rainbow trout">
-        <attribute key="weight" value="1200" />
+        <attribute key="weight" value="800" />
     </item>
     <item id="7159" article="a" name="green perch" plural="green perches">
         <attribute key="weight" value="800" />

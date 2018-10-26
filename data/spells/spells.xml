@@ -177,6 +177,9 @@
 
 	</instant>
 	<instant name="God Ice Rage" words="just frozen" lvl="1" maglv="1" mana="25" exhaustion="1000" prem="1" access="5" needlearn="0" blockwalls="0" aggressive="1" script="god/god ice rage.lua">
+	</instant>
+			<!-- Food Spells -->
+	<instant name="Halfling Bread of Speed" words="hobbit masta" lvl="20"  soul="1" prem="0" exhaustion="2000" needlearn="0" script="food/halfling bread of speed.lua">
 
 	</instant>
 </spells>

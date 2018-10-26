@@ -641,12 +641,24 @@
     </quest>
     <quest name="The Shire Tales" startstorageid="30023" startstoragevalue="22">
         <mission name="Bread of the Green Dragon Inn" storageid="2112" startvalue="0" endvalue="1">
-            <missionstate id="0" description="Look for 20 powder herbs, 20 mushrooms and catch 20 bunches of wheat for Jim Boffin. Search through the countryside."/>
+            <missionstate id="0" description="Look for 20 powder herbs, 20 mushrooms and catch 20 flour units for Jim Boffin. Search through the countryside."/>
             <missionstate id="1" description="Mission Complete."/>
         </mission>  
         <mission name="A doll for Bilbo" storageid="2113" startvalue="0" endvalue="1">
             <missionstate id="0" description="Look for a doll for Bungos son, Bilbo."/>
             <missionstate id="1" description="Mission Complete."/>
+        </mission>
+        <mission name="Bread of the Green Dragon Inn (Part 2)" storageid="2115" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Look for 1 haunch of boar for Jim Boffin."/>
+            <missionstate id="1" description="Mission Complete."/>
         </mission>  
     </quest>
+    <quest name="Cooking Trait" startstorageid="30024" startstoragevalue="23">
+        <mission name="Halfling Bread of Speed - hobbit masta" storageid="2114" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Halfling Bread of Speed - Words: hobbit masta - lvl: 20 - create a bread that makes you feel faster."/>
+        </mission>
+        <mission name="Corned Fish - hobbit masta" storageid="2116" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Corned Fish - Words: hobbit masta - lvl: 20 - create a bread that makes you feel faster."/>
+        </mission>
+    </quest>   
 </quests>

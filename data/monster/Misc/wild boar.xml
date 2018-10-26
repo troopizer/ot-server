@@ -44,6 +44,7 @@
 		<item id="2803" countmax="3" chance="10000"/><!-- powder herb -->
 		<item id="5878" countmax="4" chance="15000"/><!-- leather -->
 		<item id="5883" countmax="1" chance="15000"/><!-- boar fur -->
+		<item id="13297" countmax="1" chance="1000"/><!-- haunch of boar -->
 		<item name="meat" countmax="4" chance="33600" />
 		<item name="ham" countmax="3" chance="39200" />
 	</loot>

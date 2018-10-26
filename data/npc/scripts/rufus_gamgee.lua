@@ -63,8 +63,9 @@ function creatureSayCallback(cid, type, msg)
 		end
 	end
 	if (getPlayerStorageValue(cid,2014) == 1) then
-		selfSay("You have killed Misses Daisy Gamwich's cat. Now I'm free to work properlly. If you will I can make you new clothes to improve your battle appearance. ({addon})")
+		selfSay("You have killed Misses Daisy Gamwich's cat. Now I'm free to work properlly. If you will I can make you new clothes to improve your battle appearance. {addon}(you received 5000 exp)")
 		setPlayerStorageValue(cid,2014,2)
+		doPlayerAddExperience(cid,5000)
 		return true
 	end
 

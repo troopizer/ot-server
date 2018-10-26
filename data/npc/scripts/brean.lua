@@ -24,8 +24,9 @@ end
 if (getPlayerStorageValue(cid,2102) == 0) then
 if(getPlayerItemCount(cid, 5883) >= 20) then
 				doPlayerRemoveItem(cid, 5883, 20)
-selfSay('Thanks! Now lets speak about {forge}.', cid)
+selfSay('Thanks! Now lets speak about {forge}.(You recived 10000 exp)', cid)
 setPlayerStorageValue(cid,2102,1)
+doPlayerAddExperience(cid,10000)
 end
 end
 		talkState[talkUser] = 4
