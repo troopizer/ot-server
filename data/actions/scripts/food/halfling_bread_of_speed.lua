@@ -14,7 +14,7 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		return false
 	end
 
-	if((getPlayerFood(cid) + food[1]) >= 400) then
+	if((getPlayerFood(cid) + food[1]) >= 1200) then
 		doPlayerSendCancel(cid, "You are full.")
 		return true
 	end

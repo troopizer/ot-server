@@ -77,7 +77,7 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 				player:addItem(7158, 1)
 				return true
 		end
-		player:addItem("fish", 1)
+		player:addItem(2667, 1)
 	end
 	return true
 end

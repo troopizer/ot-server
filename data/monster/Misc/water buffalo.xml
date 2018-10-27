@@ -43,7 +43,7 @@
 	<loot>
 		<item id="2804" countmax="1" chance="10000"/><!-- shadow herb -->
 		<item id="2803" countmax="2" chance="15000"/><!-- powder herb -->
-		<item id="5878" countmax="2" chance="15000"/><!-- leather -->
+		<item id="5878" countmax="2" chance="25000"/><!-- leather -->
 		<item id="5954" countmax="1" chance="3000" /><!-- horn -->
 		<item name="meat" countmax="4" chance="33600" />
 		<item name="ham" countmax="3" chance="39200" />
