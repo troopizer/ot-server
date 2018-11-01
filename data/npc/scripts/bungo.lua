@@ -49,6 +49,9 @@ if(msgcontains(msg, 'yes')) then
 		setPlayerStorageValue(cid,2113,0)
 	end
 end
+if(msgcontains(msg, 'bungo baggins')) then
+	selfSay('Yes, I am Bungo Baggins, husband of Belladonna Took and father of Bilbo Baggins.', cid)
+end
 end
 
 npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)

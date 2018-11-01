@@ -39,7 +39,7 @@ elseif(msgcontains(msg, 'shields') and talkState[talkUser] == 1) then
 	 	selfSay('I sell: {west dwarven shield} (def:33).', cid)
 		talkState[talkUser] = 2
 	elseif(msgcontains(msg, 'west dwarven shield') and talkState[talkUser] == 2) then
-	 	selfSay('For 1 dwarven light shield, it would be {10 small diamonds}, do you have them?.', cid)
+	 	selfSay('For 1 west dwarven shield, it would be {10 small diamonds}, do you have them?.', cid)
 		talkState[talkUser] = 5
 elseif(msgcontains(msg, 'yes') and talkState[talkUser] == 5) then
 		

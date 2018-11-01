@@ -27,11 +27,11 @@
 
 		<flag canpushcreatures="0"/>
 
-		<flag targetdistance="1"/>
+		<flag targetdistance="5"/>
 
 		<flag staticattack="90"/>
 
-		<flag runonhealth="850"/>
+		<flag runonhealth="50"/>
 
 	</flags>
 

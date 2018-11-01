@@ -25,21 +25,37 @@ function creatureSayCallback(cid, type, msg)
 					selfSay('Great! you are a skilled hunter. (you received 20000 exp) ', cid)
 					setPlayerStorageValue(cid,2106,11)
 					doPlayerAddExperience(cid,20000)
+			elseif(getPlayerStorageValue(cid,2106) == 11 and getPlayerStorageValue(cid,2107) < 0) then
+					selfSay('My father, Argonui, send me here in order to ensure peace in {Lone Lands}. But we are just a few rangers and the enemies are hundreds.', cid)
+					selfSay('We must face packs of wargs as big as horses, outlaws that even have a leader and some witches with them. And as you should know there is a camp of goblins in the Weather Hills.', cid)			
+					selfSay('You have proven to be a good friend of the Dunedain many times, you have earned my trust, friend. If you have the time I want you to join us in this campaign. Can you help us? {Yes}? ', cid)			
+				talkState[talkUser] = 1
+			elseif(getPlayerStorageValue(cid,2107) == 2) then
+					selfSay('Thanks you, let me see that report. (you received 30000 exp) ', cid)
+					setPlayerStorageValue(cid,2107,3)
+					doPlayerAddExperience(cid,30000)		
 			end
 			
  	elseif(msgcontains(msg, 'bree')) then
 				selfSay('Bree is this peaceful town, is the center of men in this area. It might be just a little town, but we will protect them of evil.', cid)
-
+	elseif(msgcontains(msg, 'arador')) then
+				selfSay('Yes my name is Arador, son of Argonui. My father is currently the chieftain of the Dúnedain. My son Arathorn is being trained for now.', cid)
+	elseif(msgcontains(msg, 'lone lands')) then
+				selfSay('The Lone Lands is the name used by Hobbits and Bree-landers for the wilderness east of Bree-land. The west border are the Weather Hills and the east border is considered the Hoarwell river, where lies the last bridge.', cid)
 	elseif(msgcontains(msg, 'yes')) then
 		if(talkState[talkUser] == 1) then
 			if(getPlayerStorageValue(cid,2106) < 0) then
-				selfSay('You have a strong spirit, go and teach a lesson to the lone land poachers and savages, defeat 20 of them and I will pay you with a nice item.', cid)
+				selfSay('Ok hunt 10 of them.', cid)
 				setPlayerStorageValue(cid,30022,21)
 				setPlayerStorageValue(cid,2106,0)
 			end
+			if(getPlayerStorageValue(cid,2106) == 11 and getPlayerStorageValue(cid,2107) < 0) then
+				selfSay('Great! I need you to talk with one of my men, Eranuir. He is spying the outlaws in the area. You might find him west from here.', cid)
+				setPlayerStorageValue(cid,2107,0)
+			end
 		end
 	elseif(msgcontains(msg, 'no') and isInArray({1}, talkState[talkUser])) then
-		selfSay('Ok then.', cid)
+		selfSay('Ok. I understand, I hope to see you again.', cid)
 		talkState[talkUser] = 0
 	end
 	
