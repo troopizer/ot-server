@@ -585,19 +585,11 @@
             <missionstate id="10" description="You got them, ask for your reward."/> 
             <missionstate id="11" description="Mission Complete."/>   
         </mission>
-        <mission name="2 Wipe the apprentices out!" storageid="2107" startvalue="0" endvalue="11">
-            <missionstate id="0" description="Kill 10 Necromancer Apprentice."/>
-            <missionstate id="1" description="Kill 9 Necromancer Apprentice."/>
-            <missionstate id="2" description="Kill 8 Necromancer Apprentice."/>
-            <missionstate id="3" description="Kill 7 Necromancer Apprentice."/>
-            <missionstate id="4" description="Kill 6 Necromancer Apprentice."/>
-            <missionstate id="5" description="Kill 5 Necromancer Apprentice."/>
-            <missionstate id="6" description="Kill 4 Necromancer Apprentice."/>
-            <missionstate id="7" description="Kill 3 Necromancer Apprentice."/>
-            <missionstate id="8" description="Kill 2 Necromancer Apprentice."/>
-            <missionstate id="9" description="Kill 1 Necromancer Apprentice."/>
-            <missionstate id="10" description="You got them, ask for your reward."/> 
-            <missionstate id="11" description="Mission Complete."/>   
+        <mission name="2 Look for Information" storageid="2107" startvalue="0" endvalue="4">
+            <missionstate id="0" description="Look for Eranuir, the spy of Arador."/>
+            <missionstate id="1" description="Finish your conversation."/>
+            <missionstate id="2" description="Report to Arador."/>
+            <missionstate id="3" description="Mission Complete."/>
         </mission>
         <mission name="3 The book" storageid="2108" startvalue="0" endvalue="4">
             <missionstate id="0" description="Find the dunedain spy in the second area of Fornost Erain."/>
@@ -658,7 +650,7 @@
             <missionstate id="0" description="Halfling Bread of Speed - Words: hobbit masta - lvl: 20 - create a bread that makes you feel faster."/>
         </mission>
         <mission name="Corned Fish - hobbit masta" storageid="2116" startvalue="0" endvalue="0">
-            <missionstate id="0" description="Corned Fish - Words: hobbit masta - lvl: 20 - create a bread that makes you feel faster."/>
+            <missionstate id="0" description="Corned Fish - Words: hobbit masta - lvl: 20 - cook your fish for extra nutrition."/>
         </mission>
     </quest>   
 </quests>

@@ -3691,7 +3691,7 @@
         <attribute key="skillClub" value="3" />
         <attribute key="skillAxe" value="3" />
     </item>
-    <item id="2509" article="a" name="arnorian shield">
+    <item id="2509" article="an" name="old arnorian shield">
         <attribute key="weight" value="5800" />
         <attribute key="defense" value="25" />
         <attribute key="weaponType" value="shield" />

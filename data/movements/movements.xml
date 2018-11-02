@@ -286,6 +286,8 @@
 	<movevent event="StepOut" itemid="5405" script="drowning.lua" />
 
 	<!-- Boots -->
+	<movevent event="Equip" itemid="3982" slot="feet" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="3982" slot="feet" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="11114" slot="feet" function="onEquipItem" />
 	<movevent event="DeEquip" itemid="11114" slot="feet" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="2195" slot="feet" function="onEquipItem" />
