@@ -35,9 +35,9 @@ function creatureSayCallback(cid, type, msg)
 			if(getPlayerStorageValue(cid,2051) == 0) then
 				if(getPlayerItemCount(cid,1961) >= 1) then
 					doPlayerRemoveItem(cid,1961,1)
-					doPlayerAddExperience(cid,8000)
+					doPlayerAddExperience(cid,10000)
 				 doPlayerAddItem(cid,2152,10)
-					selfSay('Thanks you!! Now Please choose one of this armors: {eriador guardian armor} (for defensive players), {eriador warrior armor} (for melee players) and {eriador ranger cape} (for distance players). (You have received 8000 exp and 10 platinum coins)', cid)
+					selfSay('Thanks you!! Now Please choose one of this armors: {eriador guardian armor} (for defensive players), {eriador warrior armor} (for melee players) and {eriador ranger cape} (for distance players). (You have received 10000 exp and 10 platinum coins)', cid)
 					setPlayerStorageValue(cid,2051,1)
 				talkState[talkUser] = 2
 				end

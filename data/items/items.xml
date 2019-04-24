@@ -2001,7 +2001,8 @@
     <item id="2166" article="a" name="distance ring">
         <attribute key="weight" value="80" />
         <attribute key="slotType" value="ring" />
-        <attribute key="transformEquipTo" value="2203" />
+        <attribute key="skillDist" value="1" />
+        <attribute key="showattributes" value="1" />
     </item>
     <item id="2167" article="an" name="energy ring">
         <attribute key="weight" value="80" />
@@ -2040,8 +2041,9 @@
     <item id="2172" article="a" name="bronze amulet">
         <attribute key="weight" value="500" />
         <attribute key="slotType" value="necklace" />
+        <attribute key="charges" value="150" />
         <attribute key="showcharges" value="1" />
-        <attribute key="absorbPercentManaDrain" value="20" />
+        <attribute key="absorbPercentPhysical" value="7" />
         <attribute key="showattributes" value="1" />
     </item>
     <item id="2173" article="an" name="amulet of loss">
@@ -2197,9 +2199,9 @@
 		<attribute key="weight" value="550" />
 		<attribute key="slotType" value="necklace" />
 		<attribute key="charges" value="200" />
-		<attribute key="showcharges" value="1" />
-		<attribute key="absorbPercentPhysical" value="10" />
-		<attribute key="showattributes" value="1" />
+        <attribute key="showcharges" value="1" />
+        <attribute key="absorbPercentManaDrain" value="20" />
+        <attribute key="showattributes" value="1" />
 	</item>
 	<item id="2201" article="a" name="dragon necklace">
 		<attribute key="weight" value="630" />
@@ -2218,11 +2220,11 @@
 		<attribute key="showduration" value="1" />
 		<attribute key="invisible" value="1" />
 	</item>
-	<item id="2203" article="a" name="distance ring">
+	<item id="2203" article="a" name="awaken distance ring">
 		<attribute key="weight" value="80" />
 		<attribute key="slotType" value="ring" />
-		<attribute key="transformDeEquipTo" value="2166" />
-		<attribute key="skillDist" value="1" />
+		<attribute key="skillDist" value="5" />
+        <attribute key="showattributes" value="1" />
 	</item>
 	<item id="2204" article="an" name="energy ring">
 		<attribute key="weight" value="80" />
@@ -2254,38 +2256,45 @@
 		<attribute key="showduration" value="1" />
 		<attribute key="speed" value="60" />
 	</item>
-	<item id="2207" article="a" name="sword ring">
+	<item id="2207" article="a" name="meele ring">
 		<attribute key="weight" value="90" />
 		<attribute key="slotType" value="ring" />
-		<attribute key="transformEquipTo" value="2210" />
+        <attribute key="skillSword" value="1" />
+        <attribute key="skillAxe" value="1" />
+        <attribute key="skillClub" value="1" />
+        <attribute key="showattributes" value="1" />
 	</item>
 	<item id="2208" article="an" name="axe ring">
 		<attribute key="weight" value="90" />
 		<attribute key="slotType" value="ring" />
-		<attribute key="transformEquipTo" value="2211" />
+        <attribute key="skillAxe" value="1" />
+        <attribute key="showattributes" value="1" />
 	</item>
-	<item id="2209" article="a" name="club ring">
+	<item id="2209" article="a" name="magic ring">
 		<attribute key="weight" value="90" />
 		<attribute key="slotType" value="ring" />
-		<attribute key="transformEquipTo" value="2212" />
+        <attribute key="magiclevelpoints" value="1" />
+        <attribute key="showattributes" value="1" />
 	</item>
-	<item id="2210" article="a" name="sword ring">
+	<item id="2210" article="a" name="awaken melee ring">
 		<attribute key="weight" value="90" />
 		<attribute key="slotType" value="ring" />
-		<attribute key="transformDeEquipTo" value="2207" />
-		<attribute key="skillSword" value="1" />
+		<attribute key="skillSword" value="5" />
+        <attribute key="skillAxe" value="5" />
+        <attribute key="skillClub" value="5" />
+        <attribute key="showattributes" value="1" />
 	</item>
-	<item id="2211" article="an" name="axe ring">
+	<item id="2211" article="an" name="awaken axe ring">
 		<attribute key="weight" value="90" />
 		<attribute key="slotType" value="ring" />
-		<attribute key="transformDeEquipTo" value="2208" />
-		<attribute key="skillAxe" value="1" />
+		<attribute key="skillAxe" value="5" />
+        <attribute key="showattributes" value="1" />
 	</item>
-	<item id="2212" article="a" name="club ring">
+	<item id="2212" article="a" name="awaken magic ring">
 		<attribute key="weight" value="90" />
 		<attribute key="slotType" value="ring" />
-		<attribute key="transformDeEquipTo" value="2209" />
-		<attribute key="skillClub" value="1" />
+        <attribute key="magiclevelpoints" value="5" />
+        <attribute key="showattributes" value="1" />
 	</item>
 	<item id="2213" article="a" name="dwarven ring">
 		<attribute key="weight" value="110" />
@@ -2604,7 +2613,7 @@
         <attribute key="slotType" value="necklace" />
     </item>
     <item id="2320" article="a" name="skull" plural="skulls">
-        <attribute key="weight" value="2180" />
+        <attribute key="weight" value="250" />
     </item>
     <item id="2321" article="a" name="giant smithhammer">
         <attribute key="description" value="This cyclopean hammer seems to be an awesome smithing tool." />
@@ -3074,16 +3083,16 @@
     </item>
     <item id="2412" article="a" name="katana">
         <attribute key="description" value="Sharp steel blade." />
-        <attribute key="weight" value="4200" />
-        <attribute key="defense" value="31" />
-        <attribute key="attack" value="35" />
+        <attribute key="weight" value="5000" />
+        <attribute key="defense" value="32" />
+        <attribute key="attack" value="37" />
         <attribute key="weaponType" value="sword" />
         <attribute key="slotType" value="two-handed" />
     </item>
     <item id="2413" article="a" name="steel broadsword">
         <attribute key="weight" value="6050" />
-        <attribute key="defense" value="29" />
-        <attribute key="attack" value="33" />
+        <attribute key="defense" value="30" />
+        <attribute key="attack" value="35" />
         <attribute key="weaponType" value="sword" />
         <attribute key="slotType" value="two-handed" />
     </item>
@@ -3172,18 +3181,18 @@
     </item>
     <item id="2426" article="a" name="steel light halberd">
         <attribute key="weight" value="6000" />
-        <attribute key="defense" value="19" />
-        <attribute key="attack" value="35" />
+        <attribute key="defense" value="22" />
+        <attribute key="attack" value="37" />
         <attribute key="weaponType" value="axe" />
         <attribute key="slotType" value="two-handed" />
     </item>
-    <item id="2427" article="a" name="goblin halberd">
+    <item id="2427" article="a" name="goblin heavy halberd">
         <attribute key="weight" value="8500" />
         <attribute key="defense" value="15" />
-        <attribute key="attack" value="38" />
+        <attribute key="attack" value="41" />
         <attribute key="weaponType" value="axe" />
-        <attribute key="skillAxe" value="1" />
-        <attribute key="skillShield" value="-2" />
+        <attribute key="skillAxe" value="3" />
+        <attribute key="skillShield" value="-3" />
         <attribute key="slotType" value="two-handed" />
     </item>
     <item id="2428" article="an" name="goblin battle axe">
@@ -3390,7 +3399,7 @@
         <attribute key="range" value="6" />
     </item>
     <item id="2457" article="a" name="steel helmet">
-        <attribute key="weight" value="3000" />
+        <attribute key="weight" value="4000" />
         <attribute key="armor" value="6" />
         <attribute key="slotType" value="head" />
     </item>
@@ -3400,7 +3409,7 @@
         <attribute key="slotType" value="head" />
     </item>
     <item id="2459" article="an" name="iron helmet">
-        <attribute key="weight" value="5000" />
+        <attribute key="weight" value="5800" />
         <attribute key="armor" value="5" />
         <attribute key="slotType" value="head" />
     </item>
@@ -3476,17 +3485,17 @@
         <attribute key="slotType" value="body" />
     </item>
     <item id="2473" article="a" name="iron hornet helmet">
-        <attribute key="weight" value="4000" />
+        <attribute key="weight" value="4800" />
         <attribute key="armor" value="4" />
         <attribute key="slotType" value="head" />
     </item>
     <item id="2474" article="a" name="witch king helmet">
         <attribute key="description" value="It is the old helmet of the witch king of Angmar." />
         <attribute key="weight" value="3200" />
-        <attribute key="armor" value="15" />
+        <attribute key="armor" value="18" />
         <attribute key="slotType" value="head" />
         <attribute key="absorbPercentDeath" value="20" />
-        <attribute key="absorbPercentPhysical" value="20" />
+        <attribute key="absorbPercentPhysical" value="10" />
         <attribute key="absorbPercentFire" value="10" />
         <attribute key="absorbPercentEnergy" value="10" />
         <attribute key="absorbPercentEarth" value="10" />
@@ -3494,8 +3503,8 @@
         <attribute key="absorbPercentHoly" value="-5" />
         <attribute key="magiclevelpoints" value="10" />
     </item>
-    <item id="2475" article="a" name="warrior helmet">
-        <attribute key="weight" value="6800" />
+    <item id="2475" article="a" name="rhudaur knightly helmet">
+        <attribute key="weight" value="5100" />
         <attribute key="armor" value="8" />
         <attribute key="slotType" value="head" />
     </item>
@@ -3506,9 +3515,9 @@
     </item>
     <item id="2477" name="arnorian chain legs">
         <attribute key="weight" value="4000" />
-        <attribute key="armor" value="7" />
+        <attribute key="armor" value="8" />
         <attribute key="slotType" value="legs" />
-        <attribute key="absorbPercentPhysical" value="2" />
+        <attribute key="absorbPercentPhysical" value="1" />
     </item>
     <item id="2478" name="bronze legs">
         <attribute key="weight" value="7200" />
@@ -3516,20 +3525,20 @@
         <attribute key="slotType" value="legs" />
     </item>
     <item id="2479" article="a" name="west dwarven helmet">
-        <attribute key="weight" value="5200" />
-        <attribute key="armor" value="8" />
+        <attribute key="weight" value="5000" />
+        <attribute key="armor" value="9" />
         <attribute key="slotType" value="head" />
         <attribute key="skillAxe" value="1" />
         <attribute key="skillClub" value="1" />
         <attribute key="absorbPercentPhysical" value="2" />
     </item>
     <item id="2480" article="a" name="iron chain helmet">
-        <attribute key="weight" value="3000" />
+        <attribute key="weight" value="3500" />
         <attribute key="armor" value="4" />
         <attribute key="slotType" value="head" />
     </item>
     <item id="2481" article="a" name="iron soldier helmet">
-        <attribute key="weight" value="3500" />
+        <attribute key="weight" value="4500" />
         <attribute key="armor" value="5" />
         <attribute key="slotType" value="head" />
     </item>
@@ -3553,10 +3562,11 @@
         <attribute key="armor" value="9" />
         <attribute key="slotType" value="body" />
     </item>
-    <item id="2486" article="a" name="noble armor">
-        <attribute key="weight" value="12000" />
-        <attribute key="armor" value="11" />
+    <item id="2486" article="a" name="rhudaur knightly armor">
+        <attribute key="weight" value="11000" />
+        <attribute key="armor" value="14" />
         <attribute key="slotType" value="body" />
+        <attribute key="absorbPercentPhysical" value="2" />
     </item>
     <item id="2487" article="a" name="crown armor">
         <attribute key="weight" value="9900" />
@@ -3622,10 +3632,10 @@
     </item>
     <item id="2499" article="an" name="arnorian full helmet">
         <attribute key="description" value="Strong steel helmet made in the old kingdom of Arnor." />
-        <attribute key="weight" value="5000" />
+        <attribute key="weight" value="5200" />
         <attribute key="armor" value="9" />
         <attribute key="slotType" value="head" />
-        <attribute key="absorbPercentPhysical" value="2" />
+        <attribute key="absorbPercentPhysical" value="1" />
     </item>
 
     <item id="2500" article="a" name="steel studded armor">
@@ -3640,7 +3650,7 @@
     </item>
     <item id="2502" article="a" name="arnorian archer helmet">
         <attribute key="weight" value="2900" />
-        <attribute key="armor" value="7" />
+        <attribute key="armor" value="6" />
         <attribute key="slotType" value="head" />
         <attribute key="skillDist" value="1" />
     </item>
@@ -3649,7 +3659,7 @@
         <attribute key="description" value="Strong steel armor made in the old kingdom of Arnor." />
         <attribute key="armor" value="15" />
         <attribute key="slotType" value="body" />
-        <attribute key="absorbPercentPhysical" value="4" />
+        <attribute key="absorbPercentPhysical" value="3" />
         <attribute key="skillShield" value="2" />
         <attribute key="skillSword" value="2" />
         <attribute key="skillClub" value="2" />
@@ -3660,7 +3670,7 @@
         <attribute key="description" value="Strong steel legs made in the old kingdom of Arnor." />
         <attribute key="armor" value="9" />
         <attribute key="slotType" value="legs" />
-        <attribute key="absorbPercentPhysical" value="4" />
+        <attribute key="absorbPercentPhysical" value="2" />
     </item>
     <item id="2505" article="an" name="elven armor">
         <attribute key="weight" value="11400" />
@@ -3757,7 +3767,7 @@
     </item>
     <item id="2521" article="a" name="angmar battle shield">
         <attribute key="description" value="An old heavy shield used by evil soldiers in the army of the witch king." />
-        <attribute key="weight" value="6200" />
+        <attribute key="weight" value="7000" />
         <attribute key="defense" value="31" />
         <attribute key="weaponType" value="shield" />
     </item>
@@ -3800,10 +3810,10 @@
         <attribute key="defense" value="34" />
         <attribute key="weaponType" value="shield" />
     </item>
-    <item id="2529" article="a" name="black rhudaur shield">
+    <item id="2529" article="a" name="rhudaur shield">
         <attribute key="description" value="An old shield of the evil men of Rhundaur." />
         <attribute key="weight" value="4500" />
-        <attribute key="defense" value="27" />
+        <attribute key="defense" value="29" />
         <attribute key="weaponType" value="shield" />
     </item>
     <item id="2530" article="a" name="bronze round shield">
@@ -3811,10 +3821,11 @@
         <attribute key="defense" value="20" />
         <attribute key="weaponType" value="shield" />
     </item>
-    <item id="2531" article="a" name="arnorian light shield">
-        <attribute key="weight" value="4000" />
+    <item id="2531" article="a" name="rhudaur light shield">
+        <attribute key="weight" value="3200" />
         <attribute key="defense" value="28" />
         <attribute key="weaponType" value="shield" />
+        <attribute key="description" value="A shield used by the infantry of Rhundaur." />
     </item>
     <item id="2532" article="an" name="ancient shield">
         <attribute key="weight" value="6100" />
@@ -3953,14 +3964,14 @@
     <item id="2556" article="a" name="wooden hammer">
         <attribute key="weight" value="600" />
     </item>
-    <item id="2557" article="a" name="carpenter hammer">
+    <item id="2557" article="a" name="crafting hammer">
         <attribute key="weight" value="800" />
     </item>
     <item id="2558" article="a" name="saw">
         <attribute key="weight" value="1400" />
     </item>
     <item id="2559" article="a" name="small axe">
-        <attribute key="weight" value="2000" />
+        <attribute key="weight" value="1500" />
     </item>
     <item id="2560" article="a" name="mirror">
         <attribute key="weight" value="950" />
@@ -4219,10 +4230,14 @@
         <attribute key="armor" value="3" />
         <attribute key="slotType" value="body" />
     </item>
-    <item id="2654" article="a" name="cotton cape">
-        <attribute key="weight" value="1800" />
-        <attribute key="armor" value="2" />
+    <item id="2654" article="a" name="west dwarven armor">
+        <attribute key="weight" value="11500" />
+        <attribute key="armor" value="15" />
         <attribute key="slotType" value="body" />
+        <attribute key="skillShield" value="3" />
+        <attribute key="skillClub" value="2" />
+        <attribute key="skillAxe" value="2" />
+        <attribute key="absorbPercentPhysical" value="4" />
     </item>
     <item id="2655" article="a" name="red cotton robe">
         <attribute key="weight" value="2000" />
@@ -4274,9 +4289,9 @@
     <item id="2663" article="a" name="mystic turban">
         <attribute key="description" value="Something is strange about this turban." />
         <attribute key="weight" value="1550" />
-        <attribute key="armor" value="4" />
+        <attribute key="armor" value="5" />
         <attribute key="slotType" value="head" />
-        <attribute key="magiclevelpoints" value="2" />
+        <attribute key="magiclevelpoints" value="3" />
     </item>
     <item id="2664" article="a" name="cowl">
         <attribute key="weight" value="700" />
@@ -4374,18 +4389,18 @@
         <attribute key="weight" value="80" />
     </item>
     <item id="2691" name="halfling bread of speed">
-        <attribute key="weight" value="350" />
+        <attribute key="weight" value="250" />
         <attribute key="showcount" value="0" />
     </item>
     <item id="2692" name="flour">
-        <attribute key="weight" value="100" />
+        <attribute key="weight" value="50" />
         <attribute key="showcount" value="0" />
     </item>
     <item id="2693" article="a" name="lump of dough" plural="lumps of dough">
         <attribute key="weight" value="500" />
     </item>
     <item id="2694" article="a" name="bunch of wheat" plural="bunches of wheat">
-        <attribute key="weight" value="450" />
+        <attribute key="weight" value="350" />
     </item>
     <item id="2695" article="an" name="egg" plural="eggs">
         <attribute key="weight" value="30" />
@@ -4464,7 +4479,9 @@
     <item id="2767" article="a" name="bush" />
     <item id="2768" article="a" name="small fir tree" />
     <item id="2769" article="a" name="bush" />
-    <item id="2770" article="a" name="branch" />
+    <item id="2770" article="a" name="branch">
+         <attribute key="weight" value="100" />
+    </item>
     <item fromid="2771" toid="2772" article="a" name="swamp plant" />
     <item id="2773" article="a" name="mud whip" />
     <item id="2774" article="a" name="swamp plant" />
@@ -4515,28 +4532,28 @@
     </item>
     <item id="2797" article="a" name="stone" />
     <item id="2798" article="a" name="blood herb" plural="blood herbs">
-        <attribute key="weight" value="150" />
+        <attribute key="weight" value="80" />
     </item>
     <item id="2799" article="a" name="stone herb" plural="stone herbs">
-        <attribute key="weight" value="100" />
+        <attribute key="weight" value="50" />
     </item>
     <item id="2800" article="a" name="star herb" plural="star herbs">
-        <attribute key="weight" value="100" />
+        <attribute key="weight" value="50" />
     </item>
     <item id="2801" article="a" name="fern" plural="ferns">
         <attribute key="weight" value="50" />
     </item>
     <item id="2802" article="a" name="sling herb" plural="sling herbs">
-        <attribute key="weight" value="90" />
-    </item>
-    <item id="2803" article="a" name="powder herb" plural="powder herbs">
         <attribute key="weight" value="50" />
     </item>
+    <item id="2803" article="a" name="powder herb" plural="powder herbs">
+        <attribute key="weight" value="30" />
+    </item>
     <item id="2804" article="a" name="shadow herb" plural="shadow herbs">
-        <attribute key="weight" value="100" />
+        <attribute key="weight" value="50" />
     </item>
     <item id="2805" article="a" name="troll green" plural="troll greens">
-        <attribute key="weight" value="100" />
+        <attribute key="weight" value="50" />
     </item>
     <item id="2806" article="a" name="dead troll">
         <attribute key="weight" value="60000" />
@@ -7012,7 +7029,7 @@
         <attribute key="extradef" value="2" />
     </item>
     <item id="3967" article="a" name="eriador battle helmet">
-        <attribute key="weight" value="4000" />
+        <attribute key="weight" value="4200" />
         <attribute key="armor" value="7" />
         <attribute key="slotType" value="head" />
     </item>
@@ -7060,7 +7077,7 @@
         <attribute key="weaponType" value="shield" />
     </item>
     <item id="3976" article="a" name="worm" plural="worms">
-        <attribute key="weight" value="20" />
+        <attribute key="weight" value="5" />
     </item>
     <item fromid="3977" toid="3980" article="a" name="crane" />
     <item id="3981" article="a" name="mailbox">
@@ -7070,7 +7087,7 @@
         <attribute key="armor" value="1" />
         <attribute key="description" value="its easier to walk with this boots." />
         <attribute key="slotType" value="feet" />
-        <attribute key="speed" value="10" />
+        <attribute key="speed" value="20" />
         <attribute key="weight" value="1200" />
     </item>
     <item id="3983" article="a" name="bast skirt">
@@ -7729,8 +7746,10 @@
         <attribute key="attack" value="18" />
         <attribute key="weaponType" value="club" />
     </item>
-    <item id="4847" article="a" name="spectral dress">
-        <attribute key="weight" value="1000" />
+    <item id="4847" article="a" name="cardolan chain armor">
+        <attribute key="weight" value="6500" />
+        <attribute key="description" value="Old steel chain mail used by Cardolan soldiers." />
+        <attribute key="armor" value="12" />
         <attribute key="slotType" value="body" />
     </item>
     <item id="4848" article="an" name="icicle">
@@ -8916,9 +8935,9 @@
     <item id="5897" article="a" name="wolf paw" plural="wolf paws">
         <attribute key="weight" value="80" />
     </item>
-    <item id="5898" article="a" name="beholder eye" plural="beholder eyes">
+    <item id="5898" article="a" name="slug eye" plural="slug eyes">
         <attribute key="description" value="You could swear it just winked at you." />
-        <attribute key="weight" value="500" />
+        <attribute key="weight" value="100" />
     </item>
     <item id="5899" article="a" name="turtle shell" plural="turtle shells">
         <attribute key="weight" value="500" />
@@ -8928,8 +8947,8 @@
         <attribute key="weight" value="50" />
     </item>
     <item id="5901" name="wood plank">
-        <attribute key="weight" value="500" />
-        <attribute key="showcount" value="0" />
+        <attribute key="weight" value="300" />
+        <attribute key="showcount" value="1" />
     </item>
     <item id="5902" article="a" name="honeycomb" plural="honeycombs">
         <attribute key="weight" value="80" />
@@ -8960,22 +8979,22 @@
         <attribute key="weight" value="100" />
     </item>
     <item id="5909" article="a" name="white piece of cloth" plural="white pieces of cloth">
-        <attribute key="weight" value="500" />
+        <attribute key="weight" value="200" />
     </item>
     <item id="5910" article="a" name="green piece of cloth" plural="green pieces of cloth">
-        <attribute key="weight" value="500" />
+        <attribute key="weight" value="200" />
     </item>
     <item id="5911" article="a" name="red piece of cloth" plural="red pieces of cloth">
-        <attribute key="weight" value="500" />
+        <attribute key="weight" value="200" />
     </item>
     <item id="5912" article="a" name="blue piece of cloth" plural="blue pieces of cloth">
-        <attribute key="weight" value="500" />
+        <attribute key="weight" value="200" />
     </item>
     <item id="5913" article="a" name="brown piece of cloth" plural="brown pieces of cloth">
-        <attribute key="weight" value="500" />
+        <attribute key="weight" value="200" />
     </item>
     <item id="5914" article="a" name="yellow piece of cloth" plural="yellow pieces of cloth">
-        <attribute key="weight" value="500" />
+        <attribute key="weight" value="200" />
     </item>
     <item fromid="5915" toid="5916" article="a" name="large throne" />
     <item id="5917" article="a" name="bandana">
@@ -9002,7 +9021,7 @@
     <item id="5924" article="a" name="damaged steel helmet">
         <attribute key="description" value="A damaged helmet of rough steel, it seems useful enough." />
         <attribute key="armor" value="4" />
-        <attribute key="weight" value="3000" />
+        <attribute key="weight" value="3900" />
     </item>
     <item id="5925" article="a" name="hardened bone" plural="hardened bones">
         <attribute key="weight" value="200" />
@@ -12064,11 +12083,12 @@
         <attribute key="weaponType" value="club" />
         <attribute key="slotType" value="two-handed" />
     </item>
-    <item id="7410" article="a" name="queen's sceptre">
+    <item id="7410" article="a" name="life rod">
+        <attribute key="description" value="You can feel life power and light." />
         <attribute key="weight" value="2300" />
-        <attribute key="defense" value="19" />
-        <attribute key="attack" value="43" />
-        <attribute key="weaponType" value="club" />
+        <attribute key="weaponType" value="wand" />
+        <attribute key="shootType" value="holy" />
+        <attribute key="range" value="3" />
     </item>
     <item id="7411" article="an" name="ornamented axe">
         <attribute key="weight" value="6150" />
@@ -12265,8 +12285,8 @@
         <attribute key="weaponType" value="distance" />
         <attribute key="ammoType" value="arrow" />
         <attribute key="range" value="6" />
-        <attribute key="hitChance" value="7" />
-        <attribute key="attack" value="3" />
+        <attribute key="hitChance" value="5" />
+        <attribute key="attack" value="2" />
     </item>
     <item id="7439" article="a" name="berserk potion">
         <attribute key="weight" value="200" />
@@ -12314,8 +12334,8 @@
     </item>
     <item id="7451" article="a" name="steel heavy sceptre">
         <attribute key="weight" value="6100" />
-        <attribute key="defense" value="26" />
-        <attribute key="attack" value="34" />
+        <attribute key="defense" value="28" />
+        <attribute key="attack" value="36" />
         <attribute key="weaponType" value="club" />
         <attribute key="slotType" value="two-handed" />
     </item>
@@ -12357,7 +12377,7 @@
         <attribute key="weaponType" value="axe" />
     </item>
     <item id="7457" article="a" name="fur boots">
-        <attribute key="weight" value="2000" />
+        <attribute key="weight" value="3000" />
         <attribute key="armor" value="2" />
         <attribute key="slotType" value="feet" />
         <attribute key="speed" value="-10" />
@@ -14638,16 +14658,17 @@
     <item id="8820" article="a" name="mage hat">
         <attribute key="description" value="This hat used to belong to a sorcerer." />
         <attribute key="weight" value="750" />
-        <attribute key="armor" value="2" />
+        <attribute key="armor" value="3" />
         <attribute key="slotType" value="head" />
         <attribute key="magiclevelpoints" value="2" />
     </item>
     <item id="8821" article="a" name="necromantic cloak">
         <attribute key="description" value="This cloak increases your necromantic summon power." />
         <attribute key="weight" value="2500" />
-        <attribute key="armor" value="8" />
+        <attribute key="armor" value="11" />
         <attribute key="absorbPercentDeath" value="8" />
-        <attribute key="magiclevelpoints" value="2" />
+        <attribute key="absorbPercentHoly" value="8" />
+        <attribute key="magiclevelpoints" value="3" />
         <attribute key="slotType" value="body" />
     </item>
     <item fromid="8822" toid="8823" />
@@ -14768,7 +14789,7 @@
         <attribute key="weaponType" value="distance" />
         <attribute key="ammoType" value="arrow" />
         <attribute key="range" value="6" />
-        <attribute key="hitChance" value="12" />
+        <attribute key="hitChance" value="8" />
         <attribute key="attack" value="1" />
     </item>
     <item id="8857" article="a" name="silkweaver bow">
@@ -14827,7 +14848,7 @@
         <attribute key="armor" value="8" />
         <attribute key="slotType" value="body" />
         <attribute key="weight" value="2650" />
-        <attribute key="magiclevelpoints" value="2" />
+        <attribute key="magiclevelpoints" value="3" />
     </item>
     <item id="8871" article="a" name="focus cape">
         <attribute key="weight" value="2100" />
@@ -15111,9 +15132,9 @@
         <attribute key="shootType" value="death" />
         <attribute key="range" value="3" />
     </item>
-    <item id="8923" name="ranger legs">
-        <attribute key="weight" value="3500" />
-        <attribute key="armor" value="5" />
+    <item id="8923" name="cardolan chain legs">
+        <attribute key="weight" value="3100" />
+        <attribute key="armor" value="6" />
         <attribute key="slotType" value="legs" />
     </item>
     <item id="8924" article="a" name="hellforged axe">
@@ -15757,11 +15778,14 @@
         <attribute key="containerSize" value="8" />
         <attribute key="slotType" value="backpack" />
     </item>
-    <item id="9776" article="a" name="yalahari armor">
-        <attribute key="weight" value="7000" />
-        <attribute key="armor" value="16" />
+    <item id="9776" article="a" name="life robe">
+        <attribute key="description" value="This robe increases life summon power." />
+        <attribute key="weight" value="2500" />
+        <attribute key="armor" value="11" />
         <attribute key="slotType" value="body" />
-        <attribute key="absorbPercentDeath" value="3" />
+        <attribute key="magiclevelpoints" value="3" />
+        <attribute key="absorbPercentDeath" value="8" />
+        <attribute key="absorbPercentHoly" value="8" />
     </item>
     <item id="9777" article="a" name="yalahari leg piece">
         <attribute key="weight" value="6500" />
@@ -17279,19 +17303,29 @@
     <item id="11331" article="a" name="petrified scream" plural="petrified scream">
         <attribute key="weight" value="150" />
     </item>
-    <item id="11349" name="spellweaver's robe">
-        <attribute key="armor" value="11" />
-        <attribute key="weight" value="2450" />
-        <attribute key="slotType" value="body" />
-        <attribute key="absorbPercentEnergy" value="10" />
-        <attribute key="absorbPercentEarth" value="-10" />
+    <item id="11347" article="a" name="dead terramite">
+        <attribute key="containerSize" value="10" />
+        <attribute key="decayTo" value="11348" />
+        <attribute key="duration" value="10" />
+        <attribute key="corpseType" value="venom" />
+        <attribute key="fluidSource" value="slime" />
     </item>
-    <item id="11350" name="zaoan robe">
-        <attribute key="armor" value="11" />
-        <attribute key="weight" value="2450" />
-        <attribute key="slotType" value="body" />
-        <attribute key="absorbPercentFire" value="10" />
-        <attribute key="absorbPercentIce" value="-10" />
+    <item id="11348" article="a" name="dead terramite">
+        <attribute key="containerSize" value="10" />
+        <attribute key="decayTo" value="11349" />
+        <attribute key="duration" value="300" />
+        <attribute key="corpseType" value="venom" />
+        <attribute key="fluidSource" value="slime" />
+    </item>
+    <item id="11349" article="a" name="dead terramite">
+        <attribute key="decayTo" value="11350" />
+        <attribute key="duration" value="300" />
+        <attribute key="corpseType" value="venom" />
+    </item>
+    <item id="11350" article="a" name="dead terramite">
+        <attribute key="decayTo" value="0" />
+        <attribute key="duration" value="60" />
+        <attribute key="corpseType" value="venom" />
     </item>
     <item id="11355" article="a" name="dragon priest wandtip">
         <attribute key="weight" value="155" />
@@ -17308,21 +17342,23 @@
         <attribute key="magiclevelpoints" value="1" />
         <attribute key="slotType" value="head" />
     </item>
-    <item id="11363" article="a" name="terramite shell">
-        <attribute key="weight" value="150" />
-    </item>
-    <item id="11364" article="a" name="terramite eggs" plural="terramite's eggs">
-        <attribute key="weight" value="20" />
-        <attribute key="showcount" value="0" />
-    </item>
-    <item id="11365" article="a" name="terramite legs" plural="terramite's legs">
-        <attribute key="weight" value="115" />
-    </item>
     <item id="11366" article="a" name="lancer beetle shell">
         <attribute key="weight" value="107" />
     </item>
     <item id="11367" article="a" name="sandcrawler shell">
         <attribute key="weight" value="75" />
+    </item>
+    <item id="11369" article="a" name="terramite shell" plural="terramite shells">
+        <attribute key="weight" value="150" />
+        <attribute key="showcount" value="1" />
+    </item>
+    <item id="11370" article="a" name="terramite eggs" plural="terramite eggs">
+        <attribute key="weight" value="20" />
+        <attribute key="showcount" value="1" />
+    </item>
+    <item id="11371" article="a" name="terramite legs" plural="terramite legs">
+        <attribute key="weight" value="115" />
+        <attribute key="showcount" value="1" />
     </item>
     <item id="11368" name="beetle necklace">
         <attribute key="speed" value="4" />
@@ -17353,7 +17389,7 @@
 	<item id="20028" name="swamp" />
 	<item id="20035" name="tea" />
 
-<item id="11341" article="a" name="Dead Terramite">
+<item id="11341" article="a" name="no se">
 		<attribute key="containerSize" value="10" />
 
 <attribute key="duration" value="600" />
@@ -17947,10 +17983,9 @@
         <attribute key="armor" value="8" />
         <attribute key="slotType" value="head" />
         <attribute key="skillShield" value="-3" />
-        <attribute key="skillSword" value="1" />
-        <attribute key="skillAxe" value="1" />
-        <attribute key="skillClub" value="1" />
-        <attribute key="absorbPercentPhysical" value="2" />
+        <attribute key="skillSword" value="2" />
+        <attribute key="skillAxe" value="2" />
+        <attribute key="skillClub" value="2" />
     </item>
     <item id="12646" name="draken boots">
         <attribute key="armor" value="3" />
@@ -18686,8 +18721,8 @@
     <item id="13506" article="a" name="medicine pouch">
         <attribute key="weight" value="1200" />
     </item>
-    <item id="13508" article="a" name="slug drug">
-        <attribute key="description" value="A hermit near Carlin might be able to tell you more about it." />
+    <item id="13508" article="a" name="slug drug" plural="slug drugs">
+        <attribute key="description" value="A strage slug residue." />
         <attribute key="weight" value="200" />
     </item>
     <item id="13509" article="a" name="dead donkey">

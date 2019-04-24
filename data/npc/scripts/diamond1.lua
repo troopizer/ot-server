@@ -51,7 +51,7 @@ elseif(msgcontains(msg, 'yes') and talkState[talkUser] == 5) then
 			selfSay('Sorry, you don\'t have enough small diamonds.', cid)
 		end
 		talkState[talkUser] = 1
-	elseif(msgcontains(msg, 'no') and isInArray({1}, talkState[talkUser])) then
+	elseif(msgcontains(msg, 'no')) then
 		talkState[talkUser] = 1
 		selfSay('Ok then.', cid)
 	end

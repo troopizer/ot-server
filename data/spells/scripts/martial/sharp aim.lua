@@ -10,7 +10,7 @@ combat:setCondition(condition)
 
 local exhaust = Condition(CONDITION_EXHAUST)
 exhaust:setParameter(CONDITION_PARAM_SUBID, 2)
-exhaust:setParameter(CONDITION_PARAM_TICKS, 8000)
+exhaust:setParameter(CONDITION_PARAM_TICKS, 4000)
 combat:setCondition(exhaust)
 
 function onCastSpell(creature, variant)

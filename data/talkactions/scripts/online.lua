@@ -1,4 +1,4 @@
-local maxPlayersPerMessage = 10
+local maxPlayersPerMessage = 20
 
 function onSay(player, words, param)
 	local hasAccess = player:getGroup():getAccess()

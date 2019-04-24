@@ -11,6 +11,6 @@
 		<parameter key="module_shop" value="1"/>
 		<parameter key="message_greet" value="Hello |PLAYERNAME|. I sell and buy tools."/>
 		<parameter key="shop_sellable" value="fishing rod,2580,70;shovel,2554,25;rope,2120,20;machete,2420,20;backpack,1988,4;pick,2553,25"/>
-		<parameter key="shop_buyable" value="machete,2420,100;torch,2050,5;fishing rod,2580,120;shovel,2554,50;rope,2120,40;worm,3976,2;backpack,1988,40;bag,1987,10;pick,2553,50"/>
+		<parameter key="shop_buyable" value="machete,2420,100;torch,2050,5;fishing rod,2580,120;shovel,2554,50;rope,2120,40;worm,3976,2;backpack,1988,40;bag,1987,10;pick,2553,50;small axe,2559,50;crafting hammer,2557,50;"/>
 	</parameters>
 </npc>

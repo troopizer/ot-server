@@ -20,10 +20,10 @@ if(msgcontains(msg, 'mission') or msgcontains(msg, 'mount')) then
 		if(getPlayerItemCount(cid, 5954) >= 3) then
 			if(doPlayerRemoveMoney(cid, 5000)) then
 				doPlayerRemoveItem(cid, 5954, 3)
-				selfSay('Great!, This donkey will be very useful for you.(You recived 3000 exp)', cid)
+				selfSay('Great!, This donkey will be very useful for you.(You recived 8000 exp)', cid)
 				doPlayerAddMount(cid, 13)
 				setPlayerStorageValue(cid,2058,1)
-				doPlayerAddExperience(cid,3000)
+				doPlayerAddExperience(cid,8000)
 			else
 				selfSay('Bring more money.', cid)
 			end

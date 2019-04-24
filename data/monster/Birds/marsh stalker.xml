@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Marsh Stalker" nameDescription="a marsh stalker" race="blood" experience="350" speed="310">
+	<health now="500" max="500" />
+	<look type="530" corpse="19708" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="10" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="40" attack="50"/>
+	</attacks>
+	<defenses armor="20" defense="25" />
+	<elements>
+		<element firePercent="-10"/>
+		<element earthPercent="0"/>
+		<element holyPercent="0"/>
+		<element icePercent="0"/>
+		<element deathPercent="-10"/>
+		<element energyPercent="-10"/>
+	</elements>
+	<voices interval="5000" chance="30">
+		<voice sentence="Rrrawk! Rrrrawk!" />
+	</voices>
+	<loot>
+		<item id="2804" countmax="1" chance="10000"/><!-- shadow herb -->
+		<item id="2803" countmax="2" chance="30000"/><!-- powder herb -->
+		<item id="2667" countmax="2" chance="30000" /><!-- Fish -->
+		<item id="19741" chance="10000" /><!-- Marsh Stalker Beak -->
+		<item id="19742" chance="5000" /><!-- Marsh Stalker Feather -->
+	</loot>
+</monster>

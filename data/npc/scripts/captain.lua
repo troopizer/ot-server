@@ -37,15 +37,15 @@ function creatureSayCallback(cid, type, msg)
 			elseif(getPlayerStorageValue(cid,2111) < 0) then
 				setPlayerStorageValue(cid,2111,0)
 			elseif(getPlayerStorageValue(cid,2038) == 1) then
-				selfSay('Great job! (you received 2000 experience, 500 gold and 1 iron soldier helmet).', cid)
-				doPlayerAddExperience(cid,2000)
+				selfSay('Great job! (you received 5000 experience, 500 gold and 1 iron soldier helmet).', cid)
+				doPlayerAddExperience(cid,5000)
 				doPlayerAddItem(cid,2148,500)
 				doPlayerAddItem(cid,2481,1)
 				setPlayerStorageValue(cid,2038,2)
 			elseif(getPlayerStorageValue(cid,2111) == 1) then
-				selfSay('Great job! (you received 15000 experience, 3000 gold and 1 eriador battle helmet).', cid)
-				doPlayerAddExperience(cid,15000)
-				doPlayerAddItem(cid,2152,30)
+				selfSay('Great job! (you received 50000 experience, 8000 gold and 1 eriador battle helmet).', cid)
+				doPlayerAddExperience(cid,50000)
+				doPlayerAddItem(cid,2152,80)
 				doPlayerAddItem(cid,3967,1)
 				setPlayerStorageValue(cid,2038,2)
 			end

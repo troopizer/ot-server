@@ -10,7 +10,7 @@ function onTargetTile(cid, pos)
 	if(corpse.uid > 0 and isCorpse(corpse.uid) and isMoveable(corpse.uid)) then
 		if (getCreatureSummonN(cid) < n) then
 			doRemoveItem(corpse.uid)
-			doConvinceCreature(cid, doSummonCreature("Skeleton Warrior", pos))
+			doConvinceCreature(cid, doSummonCreature("Skeleton Soldier", pos))
 
 			doSendMagicEffect(pos, CONST_ME_MAGIC_BLUE)
 			return true
@@ -28,9 +28,9 @@ setCombatArea(combat, area)
 setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_BLUE)
 setCombatCallback(combat, CALLBACK_PARAM_TARGETTILE, "onTargetTile")
 
-function onCastSpell(cid, var)
+function onCastSpell(creature, variant, isHotkey)
 	if(getPlayerStorageValue(creature,2065) == 0) then
-		return doCombat(cid, combat, var)
+		return doCombat(creature, variant)
 	else
 		return false
 	end

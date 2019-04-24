@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Fire Cultist" nameDescription="a fire cultist" race="blood" experience="800" speed="250" manacost="0">
+<monster name="Fire Cultist" nameDescription="a fire cultist" race="blood" experience="1000" speed="250" manacost="0">
 	<health now="1200" max="1200"/>
 	<look type="194" head="132" body="94" legs="114" feet="113" corpse="6080"/>
 	<targetchange interval="5000" chance="8"/>
@@ -27,7 +27,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="15" defense="25">
-		<defense name="healing" interval="1000" chance="25" min="50" max="80">
+		<defense name="healing" interval="1000" chance="20" min="50" max="80">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>

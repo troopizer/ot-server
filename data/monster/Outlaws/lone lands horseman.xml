@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<monster name="Lone Lands Horseman" nameDescription="a lone lands mounted bandit" race="blood" experience="700" speed="410" manacost="450">
+<monster name="Lone Lands Horseman" nameDescription="a lone lands mounted bandit" race="blood" experience="700" speed="450" manacost="450">
 
 	<health now="1300" max="1300"/>
 	<look type="143" head="114" body="115" legs="113" feet="116" mount="438" corpse="6080"/>
 
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="5000" chance="15"/>
 
 	<strategy attack="100" defense="0"/>
 
@@ -25,20 +25,20 @@
 
 		<flag canpushitems="1"/>
 
-		<flag canpushcreatures="0"/>
+		<flag canpushcreatures="1"/>
 
 		<flag targetdistance="1"/>
 
 		<flag staticattack="90"/>
 
-		<flag runonhealth="25"/>
+		<flag runonhealth="0"/>
 
 	</flags>
 
 	<attacks>
 
-		<attack name="melee" interval="2000" skill="45" attack="55"/>
-		<attack name="physical" interval="2000" chance="50" range="4" min="-30" max="-70">
+		<attack name="melee" interval="2000" skill="55" attack="60"/>
+		<attack name="physical" interval="2000" chance="20" range="4" min="-50" max="-100">
 
 			<attribute key="shootEffect" value="spear"/>
 
@@ -86,13 +86,15 @@
 
 		<item id="2459" chance="5000"/><!-- iron helmet -->
 
+		<item id="2531" chance="300"/><!-- rhundaur light shield -->
+
 		<item id="3967" chance="800"/><!-- eriador battle helmet -->
 
 		<item id="2647" chance="800"/><!-- iron legs -->
 
 		<item id="2483" chance="2000"/><!-- iron scale armor -->
 
-		<item id="8891" chance="200"/><!-- eriador warrior armor-->
+		<item id="8891" chance="300"/><!-- eriador warrior armor-->
 
 		<item id="5913" countmax="2" chance="10000"/><!-- brown piece of cloth -->
 

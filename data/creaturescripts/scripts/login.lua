@@ -45,6 +45,14 @@ function onLogin(player)
 	player:registerEvent("Necroapp 10")
 	player:registerEvent("Priestess 20")
 	player:registerEvent("Cult 4")
-	
+	player:registerEvent("Witches Delegate")
+	player:registerEvent("Eriador Renegades Delegate")
+	player:registerEvent("Cave Rat 20 Hunt")
+	player:registerEvent("Wolf 20 Hunt")
+	player:registerEvent("Bear 20 Hunt")
+	player:registerEvent("Great Bear 40 Hunt")
+	player:registerEvent("Tarantula 40 Hunt")
+	player:registerEvent("Fierce Wolf 40 Hunt")
+	player:registerEvent("Green Rabbit 10")
 	return true
 end

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Mountain Troll" nameDescription="a mountain troll" race="blood" experience="3500" speed="320" manacost="0">
+<monster name="Mountain Troll" nameDescription="a mountain troll" race="blood" experience="3500" speed="360" manacost="0">
 	<health now="4000" max="4000"/>
 	<look type="55" corpse="5999"/>
 	<targetchange interval="5000" chance="8"/>
@@ -18,16 +18,16 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="75" attack="60"/>
+		<attack name="melee" interval="2000" skill="75" attack="65"/>
 		<attack name="physical" interval="2000" chance="20" range="7" min="-100" max="-200">
 			<attribute key="shootEffect" value="largerock"/>
 		</attack>
-		<attack name="physical" interval="1000" chance="20" range="4" radius="4" target="0" min="-100" max="-250">
+		<attack name="physical" interval="1000" chance="20" range="0" radius="4" target="0" min="-100" max="-250">
 			<attribute key="areaEffect" value="poff"/>
 		</attack>
 	</attacks>
 	<defenses armor="40" defense="45">
-		<defense name="speed" interval="1000" chance="7" speedchange="300" duration="4000">
+		<defense name="speed" interval="1000" chance="10" speedchange="420" duration="8000">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</defense>
 	</defenses>
@@ -59,11 +59,11 @@
 		        <item id="2231" countmax="1" chance="20000"/><!-- big bone -->
 				<item id="2457" chance="10000"/><!-- steel helmet -->
 				<item id="3967" chance="5000"/><!-- eriador battle helmet -->
-				<item id="2528" chance="300"/><!-- arnorian heavy shield -->
+				<item id="2475" chance="200"/><!-- rhudaur knightly helmet -->
 				<item id="2150" chance="500"/><!-- small amethyst -->
 				<item id="2146" chance="500"/><!-- small sapphire -->
 				<item id="2147" chance="500"/><!-- small ruby -->
 				<item id="2149" chance="500"/><!-- small emerald-->
-				<item id="2200" chance="5000"/><!-- protection amulet-->
+				<item id="2172" chance="10000"/><!-- bronze amulet-->
 	</loot>
 </monster>

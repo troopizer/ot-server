@@ -51,8 +51,8 @@ function creatureSayCallback(cid, type, msg)
 		if (getPlayerStorageValue(cid,2009) == 0) then
 			if (doPlayerRemoveItem(cid, 5879, 11) == TRUE) then -- item : spider silk
 				setPlayerStorageValue(cid,2009,1)
-				selfSay("Well done! Now I can give you a real {mission}. (You received 1500 exp)", cid)
-				doPlayerAddExperience(cid,1500)
+				selfSay("Well done! Now I can give you a real {mission}. (You received 3000 exp)", cid)
+				doPlayerAddExperience(cid,3000)
 				return true
 			else
 				selfSay("Can't you get just 11 spider silks?", cid)
@@ -72,8 +72,8 @@ function creatureSayCallback(cid, type, msg)
 				selfSay("R-r-rea ...", cid)
 				selfSay("It seams the Mayor and his incertion plan are getting results. You are an example for the fat populiest's policies.", cid)
 				selfSay("You have earn the most precious item on this mountain. Hey, boys! Learn from this Kido that brought us breakfast !", cid)
-				selfSay("You could achive great respect. You remind me of an elf I knew onces. Oh his sister, her ears, so sticky ...(You received 2500 exp)", cid)
-				doPlayerAddExperience(cid,2500)
+				selfSay("You could achive great respect. You remind me of an elf I knew onces. Oh his sister, her ears, so sticky ...(You received 7000 exp)", cid)
+				doPlayerAddExperience(cid,7000)
 				setPlayerStorageValue(cid,2010,1)
 				return true
 			else
@@ -96,8 +96,8 @@ function creatureSayCallback(cid, type, msg)
 		if (getPlayerStorageValue(cid,2011) == 3) then
 				selfSay("You got them !",cid)
 				selfSay("You truely are a heroe ! Hey ! Your good for nothing monkeys ! This kiddo could bring my rusty father's useless boots !",cid)
-				selfSay("Thank you very much. I cannot sleep without this old boots. (You received 3000 exp and 20 platinum coins)", cid)
-				doPlayerAddExperience(cid,6000)
+				selfSay("Thank you very much. I cannot sleep without this old boots. (You received 10000 exp and 20 platinum coins)", cid)
+				doPlayerAddExperience(cid,10000)
 				doPlayerAddItem(cid,2152,20)
 				setPlayerStorageValue(cid,2011,4)
 		end

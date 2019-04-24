@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Barrow Wight" nameDescription="a barrow wight" race="undead" experience="4000" speed="320" manacost="0">
+<monster name="Barrow Wight" nameDescription="a barrow wight" race="undead" experience="4000" speed="360" manacost="0">
 	<health now="2500" max="2500"/>
 	<look type="235" head="20" corpse="6348"/>
 	<targetchange interval="5000" chance="8"/>
@@ -23,22 +23,25 @@
 			<attribute key="shootEffect" value="suddendeath"/>
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
-		<attack name="poisonfield" interval="1000" chance="27" range="7" radius="4" target="1">
-			<attribute key="shootEffect" value="poison"/>
+		<attack name="death" interval="2000" chance="50" range="7" radius="1" target="1" min="-150" max="-350">
+			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
-		<attack name="manadrain" interval="3000" chance="50" range="7" min="-10" max="-300">
+		<attack name="manadrain" interval="3000" chance="40" range="5" min="-10" max="-300">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
-		<attack name="lifedrain" interval="1000" chance="40" range="2" min="-50" max="-150"/>
+		<attack name="lifedrain" interval="1000" chance="40" range="5" min="-80" max="-200">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
 	</attacks>
 	<defenses armor="25" defense="30">
-		<defense name="healing" interval="3000" chance="50" min="75" max="150">
+		<defense name="healing" interval="2000" chance="35" min="75" max="150">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
 	<elements>
 		<element earthPercent="30"/>
-		<element deathPercent="60"/>
+		<element deathPercent="100"/>
 		<element physicalPercent="100"/>
 		<element icePercent="50"/>
 		<element firePercent="10"/>
@@ -49,7 +52,7 @@
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 	</immunities>
-	<voices interval="5000" chance="15">
+	<voices interval="5000" chance="25">
 		<voice sentence="Revenge ...!"/>
 		<voice sentence="Life...force! Feed me your... lifeforce!"/>
 		<voice sentence="For Angmar..! For the Witch King!"/>
@@ -59,19 +62,22 @@
 		<item id="5909" countmax="5" chance="20000"/><!-- white piece of cloth -->
 		<item id="1987" chance="100000"/><!-- bag -->
 		<item id="5904" countmax="8" chance="15000"/><!-- magic sulphurs -->
-		<item id="2528" chance="500"/><!-- arnorian heavy shield -->
-		<item id="2499" chance="300"/><!-- arnorian full helmet -->
-		<item id="2503" chance="300"/><!-- arnorian full armor -->
-		<item id="2504" chance="500"/><!-- arnorian full legs -->
-		<item id="7383" chance="500"/><!-- elemental sword -->
-		<item id="7392" chance="500"/><!-- elemental club -->
-		<item id="2430" chance="500"/><!-- elemental axe -->
-		<item id="2457" chance="10000"/><!-- steel helmet -->
-		<item id="2199" chance="8000"/><!-- garlic neckclace -->
-				<item id="2150" chance="1000"/><!-- small amethyst -->
-				<item id="2146" chance="1000"/><!-- small sapphire -->
-				<item id="2147" chance="1000"/><!-- small ruby -->
-				<item id="2149" chance="1000"/><!-- small emerald-->
+		<item id="2528" chance="300"/><!-- arnorian heavy shield -->
+		<item id="2531" chance="3000"/><!-- rhudaur light shield -->
+		<item id="2477" chance="2000"/><!-- arnorian chain legs -->
+		<item id="2499" chance="500"/><!-- arnorian full helmet -->
+		<item id="2503" chance="200"/><!-- arnorian full armor -->
+		<item id="2504" chance="300"/><!-- arnorian full legs -->
+		<item id="7383" chance="600"/><!-- elemental sword -->
+		<item id="7392" chance="600"/><!-- elemental club -->
+		<item id="2430" chance="600"/><!-- elemental axe -->
+		<item id="2457" chance="20000"/><!-- steel helmet -->
+		<item id="2199" chance="10000"/><!-- garlic neckclace -->
+		<item id="2200" chance="10000"/><!-- protection amulet-->
+				<item id="2150" chance="2000"/><!-- small amethyst -->
+				<item id="2146" chance="2000"/><!-- small sapphire -->
+				<item id="2147" chance="2000"/><!-- small ruby -->
+				<item id="2149" chance="2000"/><!-- small emerald-->
 
 	</loot>
 </monster>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<monster name="Ghost" nameDescription="a ghost" race="undead" experience="300" speed="220" manacost="100">
+<monster name="Ghost" nameDescription="a ghost" race="undead" experience="300" speed="250" manacost="100">
 
 	<health now="300" max="300"/>
 
@@ -50,7 +50,7 @@
 
 		<element physicalPercent="100"/>
 		<element earthPercent="20"/>
-		<element deathPercent="20"/>
+		<element deathPercent="100"/>
 		<element holyPercent="-70"/>
 		<element icePercent="20"/>
 		<element firePercent="10"/>
@@ -91,6 +91,8 @@
 		<item id="5904" chance="9000"/><!-- magic sulphurs -->
 
 		<item id="2199" chance="5000"/><!-- garlic neckclace -->
+
+		<item id="2798" countmax="1" chance="15000"/><!-- blood herb -->
 
 	</loot>
 

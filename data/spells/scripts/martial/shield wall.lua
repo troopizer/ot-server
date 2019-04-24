@@ -14,7 +14,7 @@ combat:setCondition(disable)
 
 local exhaust = Condition(CONDITION_EXHAUST)
 exhaust:setParameter(exhaust, CONDITION_PARAM_SUBID, 1)
-exhaust:setParameter(exhaust, CONDITION_PARAM_TICKS, 8000)
+exhaust:setParameter(exhaust, CONDITION_PARAM_TICKS, 4000)
 combat:setCondition(exhaust)
 
 function onCastSpell(creature, variant)

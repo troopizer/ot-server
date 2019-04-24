@@ -82,6 +82,8 @@
 
 		<item id="3967" chance="500"/><!-- eriador battle helmet -->
 
+		<item id="8872" chance="500"/><!-- eriador ranger cape -->
+
 		<item id="7364" countmax="5" chance="10000"/><!-- sniper arrows -->
 
 		<item id="2544" countmax="12" chance="20000"/><!-- arrows -->

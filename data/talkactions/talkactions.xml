@@ -6,11 +6,11 @@
 	<talkaction words="/unban" separator=" " script="unban.lua" />
 	<talkaction words="/up" access="5" script="up.lua" />
 	<talkaction words="/down" access="5" script="down.lua" />
-	<talkaction words="/c" separator=" " script="teleport_creature_here.lua" />
-	<talkaction words="/goto" separator=" " script="teleport_to_creature.lua" />
+	<talkaction words="/c" access="5" separator=" " script="teleport_creature_here.lua" />
+	<talkaction words="/goto" access="5" separator=" " script="teleport_to_creature.lua" />
 	<talkaction words="/owner" separator=" " script="owner.lua" />
 	<talkaction words="/t" script="teleport_home.lua" />
-	<talkaction words="/town" separator=" " script="teleport_to_town.lua" />
+	<talkaction words="/town" access="5" separator=" " script="teleport_to_town.lua" />
 	<talkaction words="/a" access="5" separator=" " script="teleport_ntiles.lua" />
 	<talkaction words="/pos" separator=" " script="position.lua" />
 	<talkaction words="/info" separator=" " script="info.lua" />
@@ -29,7 +29,7 @@
 	<talkaction words="/chameleon" separator=" " script="chameleon.lua" />
 	<talkaction words="/addskill" separator=" " script="add_skill.lua" />
 	<talkaction words="/mccheck" script="mccheck.lua" />
-	<talkaction words="/ghost" script="ghost.lua" />
+	<talkaction words="/ghost" access="5" script="ghost.lua" />
 	<talkaction words="/clean" script="clean.lua" />
 	<talkaction words="/hide" script="hide.lua" />
 	<talkaction words="/reload" separator=" " script="reload.lua" />
@@ -42,7 +42,7 @@
 	<talkaction words="!leavehouse" script="leavehouse.lua" />
 	<talkaction words="!changesex" script="changesex.lua" />
 	<talkaction words="!uptime" script="uptime.lua" />
-	<talkaction words="!deathlist" script="deathlist.lua" />
+	<talkaction words="!deathlist" separator=" " script="deathlist.lua" />
 	<talkaction words="!kills" script="kills.lua" />
 	<talkaction words="!online" script="online.lua" />
 	<talkaction words="!serverinfo" script="serverinfo.lua" />

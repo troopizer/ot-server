@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Terramite" nameDescription="a terramite" race="venom" experience="1800" speed="350" manacost="0">
+
+	<health now="2000" max="2000"/>
+
+	<look type="346" corpse="11347"/>
+
+	<targetchange interval="5000" chance="8"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="0"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="0"/>
+
+		<flag convinceable="0"/>
+
+		<flag pushable="0"/>
+
+		<flag canpushitems="1"/>
+
+		<flag canpushcreatures="1"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="0"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="2000" min="-100" max="-350"/>
+		<attack name="earth" interval="2000" chance="25" range="5" min="-80" max="-200">
+			<attribute key="shootEffect" value="earth"/>
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="30">
+		<defense name="speed" interval="1000" chance="6" speedchange="400" duration="20000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="-10"/>
+		<element earthPercent="50"/>
+		<element deathPercent="-10"/>
+		<element holyPercent="0"/>
+		<element icePercent="-10"/>
+		<element energyPercent="-10"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot>
+		<item id="2200" chance="2000"/><!-- protection amulet-->
+		<item id="2477" chance="400"/><!-- arnorian chain legs -->
+		<item id="2647" chance="2000"/><!-- iron legs -->	
+		<item id="2463" chance="4000"/><!-- iron armor -->		
+		<item id="11369" countmax="1" chance="10000"/><!-- perfect behemoth fang -->
+		<item id="5904" countmax="3" chance="10000"/><!-- magic sulphur -->
+		<item id="11371" countmax="2" chance="20000"/><!-- terramite legs -->
+		<item id="2545" countmax="12" chance="40000"/><!-- poison arrow -->
+		<item id="2150" chance="300"/><!-- small amethyst -->
+		<item id="2146" chance="300"/><!-- small sapphire -->
+		<item id="2147" chance="300"/><!-- small ruby -->
+		<item id="2149" chance="300"/><!-- small emerald-->
+		<item id="2804" countmax="5" chance="10000"/><!-- shadow herb -->
+		<item id="2145" chance="600"/><!-- small diamond -->
+ 		<item id="2803" countmax="3" chance="10000"/><!-- powder herb -->
+	</loot>
+</monster>

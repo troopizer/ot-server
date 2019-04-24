@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 
-<monster name="Tarantula" nameDescription="a tarantula" race="venom" experience="230" speed="295" manacost="485">
+<monster name="Tarantula" nameDescription="a tarantula" race="venom" experience="230" speed="300" manacost="485">
 
 	<health now="350" max="350"/>
 
@@ -51,9 +51,9 @@
 
 	</attacks>
 
-	<defenses armor="15" defense="17">
+	<defenses armor="15" defense="20">
 
-		<defense name="speed" interval="1000" chance="13" speedchange="334" duration="5000">
+		<defense name="speed" interval="1000" chance="13" speedchange="350" duration="5000">
 
 			<attribute key="areaEffect" value="redshimmer"/>
 
@@ -90,7 +90,7 @@
 
  		<item id="2799" countmax="3" chance="5000"/><!-- stone herb -->
 
- 		<item id="2463" chance="200"/><!-- iron armor -->
+ 		<item id="2463" chance="100"/><!-- iron armor -->
  		<item id="2647" chance="100"/><!-- iron legs -->	
 
 	</loot>

@@ -20,8 +20,9 @@ if (getPlayerStorageValue(cid,2012) == 0) then
 if(getPlayerItemCount(cid, 2668) >= 3 and  getPlayerItemCount(cid, 2689) >= 5) then
 				doPlayerRemoveItem(cid, 2668, 3)
 				doPlayerRemoveItem(cid, 2689, 5)
-selfSay('Great! I really like eating bread with salmon!, now lets speak about {forge}.', cid)
+selfSay('Great! I really like eating bread with salmon!, now lets speak about {forge}. (you received 5000 exp)', cid)
 setPlayerStorageValue(cid,2012,1)
+doPlayerAddExperience(cid,5000)
 end
 end
 end

@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Angmars Ghoul" nameDescription="an angmars ghoul" race="undead" experience="350" speed="300" manacost="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Angmars Ghoul" nameDescription="an angmars ghoul" race="undead" experience="400" speed="300" manacost="0">
 	<health now="500" max="500"/>
 	<look type="100" corpse="6029"/>
 	<targetchange interval="5000" chance="8"/>
@@ -23,7 +23,7 @@
 	</attacks>
 	<defenses armor="15" defense="25"/>
 	<elements>
-		<element earthPercent="50"/>
+		<element earthPercent="40"/>
 		<element deathPercent="100"/>
 		<element holyPercent="-60"/>
 		<element icePercent="20"/>
@@ -42,13 +42,11 @@
 
 		<item id="2148" countmax="90" chance="80000"/><!-- gold coin -->
 
-		<item id="2483" chance="3000"/><!-- iron scale armor -->
+		<item id="4847" chance="1500"/><!-- cardolan chain armor -->
 
 		<item id="5913" countmax="3" chance="8000"/><!-- brown piece of cloth -->
 
-		<item id="2477" chance="100"/><!-- a chain legs -->
-
-		<item id="2521" chance="400"/><!-- angmar guardian shield -->
+		<item id="2521" chance="400"/><!-- angmar battle shield -->
 	
 		<item id="5909" countmax="2" chance="10000"/><!-- white piece of cloth -->
 
@@ -58,7 +56,9 @@
 
 		<item id="5904" chance="10000"/><!-- magic sulphurs -->
 
-		<item id="2457" chance="800"/><!-- steel helmet -->
+		<item id="2457" chance="1000"/><!-- steel helmet -->
+
+		<item id="2798" countmax="2" chance="20000"/><!-- blood herb -->
 
 	</loot>
 </monster>

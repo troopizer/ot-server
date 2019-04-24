@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Skeleton Minion" nameDescription="a skeleton minion" race="undead" experience="35" speed="280" manacost="300">
+
+	<health now="150" max="150"/>
+
+	<look type="33" corpse="5972"/>
+
+	<targetchange interval="2000" chance="0"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="1"/>
+
+		<flag convinceable="1"/>
+
+		<flag pushable="1"/>
+
+		<flag canpushitems="0"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="0"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="2000" skill="20" attack="30"/>
+
+		<attack name="lifedrain" interval="1000" chance="10" range="2" min="-10" max="-20"/>
+
+	</attacks>
+
+	<defenses armor="5" defense="12">
+		<defense name="healing" interval="2000" chance="10" min="5" max="15">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+
+	<elements>
+
+		<element deathPercent="100"/>
+
+		<element holyPercent="-60"/>
+
+		<element icePercent="20"/>
+
+	</elements>
+
+	<loot>
+
+				<item id="2467" chance="15000"/><!-- leather armor -->
+
+				<item id="2511" chance="300"/><!-- brass shield -->
+
+				<item id="2458" chance="5000"/><!-- chain helmet -->
+
+				<item id="2376" chance="2000"/><!-- sword -->
+
+				<item id="2050" chance="20000"/><!-- torch -->
+
+				<item id="2230" chance="50000"/><!-- bone -->
+
+				<item id="2229" chance="20000"/><!-- skull -->
+
+				<item id="2798" countmax="1" chance="10000"/><!-- blood herb -->
+
+				<item id="2148" countmax="20" chance="70000"/><!-- gold coin -->
+
+	</loot>
+
+</monster>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Cardolan Ghost" nameDescription="a cardolan ghost" race="undead" experience="350" speed="280" manacost="100">
+
+	<health now="400" max="400"/>
+
+	<look type="48" corpse="5993"/>
+
+	<targetchange interval="5000" chance="8"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+	
+		<flag summonable="0"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="0"/>
+
+		<flag convinceable="0"/>
+
+		<flag pushable="0"/>
+
+		<flag canpushitems="1"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="0"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="2000" skill="40" attack="45"/>
+
+		<attack name="lifedrain" interval="1000" chance="15" range="2" min="-35" max="-65"/>
+
+	</attacks>
+
+	<defenses armor="17" defense="25"/>
+
+	<elements>
+
+		<element physicalPercent="100"/>
+		<element earthPercent="20"/>
+		<element deathPercent="100"/>
+		<element holyPercent="-70"/>
+		<element icePercent="20"/>
+		<element firePercent="10"/>
+		<element energyPercent="10"/>
+
+	</elements>
+
+	<immunities>
+	
+		<immunity lifedrain="1"/>
+
+		<immunity paralyze="1"/>
+
+	</immunities>
+
+	<voices interval="5000" chance="10">
+
+		<voice sentence="Huh!"/>
+
+		<voice sentence="Shhhhhh"/>
+
+		<voice sentence="Buuuuuh"/>
+
+	</voices>
+
+	<loot>
+
+		<item id="2148" countmax="100" chance="80000"/><!-- gold coin -->
+
+		<item id="2419" chance="8000"/><!-- iron scymitar -->
+	
+		<item id="5909" countmax="3" chance="10000"/><!-- white piece of cloth -->
+
+		<item id="2394" chance="8000"/><!-- morning star -->
+
+		<item id="4847" chance="2000"/><!-- cardolan chain armor -->
+
+		<item id="8923" chance="1000"/><!-- cardolan chain legs -->
+
+		<item id="2513" chance="3000"/><!-- iron kite shield -->
+
+		<item id="5904" chance="9000"/><!-- magic sulphurs -->
+
+		<item id="2199" chance="5000"/><!-- garlic neckclace -->
+
+		<item id="2798" countmax="1" chance="15000"/><!-- blood herb -->
+
+	</loot>
+
+</monster>

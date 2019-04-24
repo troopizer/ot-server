@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<monster name="Wild Boar" nameDescription="a wild boar" race="blood" experience="500" speed="350">
+<monster name="Wild Boar" nameDescription="a wild boar" race="blood" experience="500" speed="380">
 	<health now="800" max="800" />
 	<look type="380" corpse="13308" />
 	<targetchange interval="4000" chance="10" />
@@ -17,9 +17,9 @@
 		<flag runonhealth="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="45" attack="52"/>
+		<attack name="melee" interval="2000" skill="50" attack="52"/>
 	</attacks>
-	<defenses armor="20" defense="30"/>
+	<defenses armor="23" defense="35"/>
 	<elements>
 
 		<element firePercent="-10"/>
@@ -41,10 +41,10 @@
 	</voices>
 	<loot>
 		<item id="2804" countmax="1" chance="10000"/><!-- shadow herb -->
-		<item id="2803" countmax="3" chance="10000"/><!-- powder herb -->
-		<item id="5878" countmax="4" chance="15000"/><!-- leather -->
+		<item id="2803" countmax="3" chance="30000"/><!-- powder herb -->
+		<item id="5878" countmax="6" chance="15000"/><!-- leather -->
 		<item id="5883" countmax="1" chance="15000"/><!-- boar fur -->
-		<item id="13297" countmax="1" chance="1000"/><!-- haunch of boar -->
+		<item id="13297" countmax="1" chance="5000"/><!-- haunch of boar -->
 		<item name="meat" countmax="4" chance="33600" />
 		<item name="ham" countmax="3" chance="39200" />
 	</loot>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Lone Lands Witch" nameDescription="a lone lands witch" race="blood" experience="1000" speed="280" manacost="0">
+<monster name="Lone Lands Witch" nameDescription="a lone lands witch" race="blood" experience="1400" speed="300" manacost="0">
 	<health now="1200" max="1200"/>
 	<look type="158" head="175" body="131" legs="115" feet="132" corpse="6080"/>
 	<targetchange interval="5000" chance="8"/>
@@ -20,12 +20,15 @@
 	<attacks>
 		<attack name="melee" interval="2000" min="50" max="105"/>
 		<attack name="energy" interval="2000" chance="25" range="6" radius="1" target="1" min="-150" max="-250">
+			<attribute key="shootEffect" value="energy"/>
 			<attribute key="areaEffect" value="purpleenergy"/>
 		</attack>
 		<attack name="energy" interval="2000" chance="30" range="6" radius="4" target="1" min="-100" max="-200">
+			<attribute key="shootEffect" value="energy"/>
 			<attribute key="areaEffect" value="purpleenergy"/>
 		</attack>
 		<attack name="fire" interval="2000" chance="25" range="6" radius="1" target="1" min="-80" max="-150">
+			<attribute key="shootEffect" value="fire"/>
 			<attribute key="areaEffect" value="fire"/>
 		</attack>
 	</attacks>
@@ -61,6 +64,7 @@
 		<item id="8820" chance="3000"/><!-- mage hat -->
 		<item id="5904" chance="40000"/><!-- magic sulphur -->
 		<item id="8870" chance="3000"/><!-- spirit cloak -->
+		<item id="8871" chance="500"/><!-- focus cape -->
 		<item id="1987" chance="80000"/><!-- bag -->
 		<item id="2150" chance="1000"/><!-- small amethyst -->
 		<item id="2147" chance="1000"/><!-- small ruby -->	

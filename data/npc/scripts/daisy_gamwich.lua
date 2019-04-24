@@ -26,7 +26,7 @@ function creatureSayCallback(cid, type, msg)
 	if (getPlayerStorageValue(cid,2013) == 2) then
 		if (msgcontains(msg, 'addon')) then
 			if (doPlayerRemoveItem(cid,5890,10) and doPlayerRemoveItem(cid,5878,20) and doPlayerRemoveItem(cid,5897,1) ) then
-				selfSay("Sorry but my back hurts and I cant mend your clothes, but thanks for helping an old woman.", cid)
+				selfSay("Sorry but my back hurts and I cant mend your clothes, but thanks for helping an old woman. I will keep the materials...", cid)
 			else
 				selfSay("I used to mend the clothes of the citzen of Buckland and Bree.", cid)
 				selfSay("I would fabric you new clothes without any cost, but nowadays I don't have the materials anymore.", cid)
@@ -59,9 +59,9 @@ function creatureSayCallback(cid, type, msg)
 	if (getPlayerStorageValue(cid,2013) == 1) then
 		if msgcontains(msg, 'wheat') then
 			if doPlayerRemoveItem(cid, 2694, 10) then
-				selfSay("You brought the wheat for my cat ! Thank you very much. Now I ought you a favor. I'm a little old, but I can design clothes to improve your appearance. Just ask for it.{addon}.(you received 5000 exp)", cid)
+				selfSay("You brought the wheat for my cat ! Thank you very much. Now I ought you a favor. I'm a little old, but I can design clothes to improve your appearance. Just ask for it.{addon}.(you received 10000 exp)", cid)
 				setPlayerStorageValue(cid,2013,2)
-				doPlayerAddExperience(cid,5000)
+				doPlayerAddExperience(cid,10000)
 				return true
 			else
 				selfSay("Thank you, but I would need 10 wheats.", cid)

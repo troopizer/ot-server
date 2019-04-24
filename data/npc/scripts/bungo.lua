@@ -19,10 +19,10 @@ if(msgcontains(msg, 'mission') or msgcontains(msg, 'addon')) then
 	if (getPlayerStorageValue(cid,2113) == 0) then
 		if(getPlayerItemCount(cid, 2110) >= 1) then
 			doPlayerRemoveItem(cid, 2110, 1)
-			selfSay('Thanks! You are a very kind man, Bilbo will love this doll. You have my gratitude and will be always welcome in Bag End. Take this present (new Addon and 10000 exp).', cid)
+			selfSay('Thanks! You are a very kind man, Bilbo will love this doll. You have my gratitude and will be always welcome in Bag End. Take this present (new Addon and 50000 exp).', cid)
 			doPlayerAddOutfit(cid, 140, 1)
 			doPlayerAddOutfit(cid, 132, 1)
-			doPlayerAddExperience(cid,10000)
+			doPlayerAddExperience(cid,50000)
 			setPlayerStorageValue(cid,2113,1)
 		else
 			selfSay('I hope you can find a nice doll.', cid)
@@ -51,6 +51,9 @@ if(msgcontains(msg, 'yes')) then
 end
 if(msgcontains(msg, 'bungo baggins')) then
 	selfSay('Yes, I am Bungo Baggins, husband of Belladonna Took and father of Bilbo Baggins.', cid)
+end
+if(msgcontains(msg, 'bilbo')) then
+	selfSay('Bilbo is my litle son. He isnt ay home.', cid)
 end
 end
 

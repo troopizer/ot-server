@@ -81,7 +81,7 @@ function creatureSayCallback(cid, type, msg)
 			end
 			if(getPlayerStorageValue(cid,2067) == 2 or getPlayerStorageValue(cid,2060) == 0 or getPlayerStorageValue(cid,2061) == 0 or getPlayerStorageValue(cid,2062) == 0 or getPlayerStorageValue(cid,2063) == 0 or getPlayerStorageValue(cid,2064) == 0) then
 				if(getPlayerStorageValue(cid,2086) < 0) then
-					selfSay('Its looks like you are a fellow sorcerer now, I am glad. But you still have a lo to learn.', cid)
+					selfSay('Its looks like you are a fellow sorcerer now, I am glad. But you still have a lot to learn.', cid)
 					selfSay('I am in the need of some diamonds, soo.. if you get {5 small diamonds} for me, I will teach you some spells, {ok}?', cid)
 					talkState[talkUser] = 3
 				end

@@ -4,13 +4,13 @@ combat:setParameter(COMBAT_PARAM_AGGRESSIVE, false)
 
 local condition = Condition(CONDITION_ATTRIBUTES)
 condition:setParameter(CONDITION_PARAM_TICKS, 8000)
-condition:setParameter(CONDITION_PARAM_SKILL_MELEEPERCENT, 220)
+condition:setParameter(CONDITION_PARAM_SKILL_MELEEPERCENT, 300)
 condition:setParameter(CONDITION_PARAM_BUFF, true)
 combat:setCondition(condition)
 
 local exhaust = Condition(CONDITION_EXHAUST)
 exhaust:setParameter(CONDITION_PARAM_SUBID, 2)
-exhaust:setParameter(CONDITION_PARAM_TICKS, 8000)
+exhaust:setParameter(CONDITION_PARAM_TICKS, 4000)
 combat:setCondition(exhaust)
 
 function onCastSpell(creature, variant)

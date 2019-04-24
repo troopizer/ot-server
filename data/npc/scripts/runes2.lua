@@ -13,7 +13,16 @@ npcHandler:addModule(shopModule)
 
 
 shopModule:addBuyableItem({'blank rune'}, 2260, 8, 1, 'blank rune')
-shopModule:addBuyableItem({'mana potion'}, 7620, 70, 1, 'mana potion')
+shopModule:addBuyableItem({'mana potion'}, 7620, 40, 1, 'mana potion')
+shopModule:addBuyableItem({'strong mana potion'}, 7589, 80, 1, 'strong mana potion')
+shopModule:addBuyableItem({'small health'}, 8704, 20, 1, 'small health potion')
+shopModule:addBuyableItem({'health potion'}, 7618, 45, 1, 'health potion')
+shopModule:addBuyableItem({'strong health potion'}, 7588, 85, 1, 'strong health potion')
+
+
+shopModule:addSellableItem({'normal potion flask', 'normal flask'}, 7636, 5, 'empty small potion flask')
+shopModule:addSellableItem({'strong potion flask', 'strong flask'}, 7634, 10, 'empty strong potion flask')
+shopModule:addSellableItem({'great potion flask', 'great flask'}, 7635, 15, 'empty great potion flask')
 
 
 
@@ -98,7 +107,7 @@ function creatureSayCallback(cid, type, msg)
 		end
 	end
 	if(msgcontains(msg, 'mission') or msgcontains(msg, 'death') or msgcontains(msg, 'prove')) then
-		if(getPlayerStorageValue(cid,2066) == 0 and getPlayerItemCount(cid,5904) >= 100 and getPlayerSkullType(cid) == SKULL_WHITE) then
+		if(getPlayerStorageValue(cid,2066) == 0 and getPlayerItemCount(cid,5904) >= 100) then
 			doPlayerRemoveItem(cid,5904,100)
 			selfSay('Here you have a life crystal, you will have to look for an Ainurs Statue. You will find one here in Fornost Erain. Do it quickly or you will have to get white skull again.', cid)
 			doPlayerAddItem(cid,2177,1)

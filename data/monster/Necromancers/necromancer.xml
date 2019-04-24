@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Necromancer" nameDescription="a necromancer" race="blood" experience="700" speed="220" manacost="0">
+<monster name="Necromancer" nameDescription="a necromancer" race="blood" experience="800" speed="280" manacost="0">
 	<health now="1000" max="1000"/>
 	<look type="9" corpse="6080"/>
 	<targetchange interval="5000" chance="8"/>
@@ -19,15 +19,18 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="35" attack="40" poison="90"/>
-		<attack name="lifedrain" interval="1000" chance="50" range="2" min="-60" max="-100">
+		<attack name="lifedrain" interval="2000" chance="50" range="5" min="-60" max="-100">
 			<attribute key="areaEffect" value="redspark"/>
 		</attack>
-		<attack name="death" interval="3000" chance="50" range="7" min="-80" max="-150">
+		<attack name="death" interval="2000" chance="40" range="7" min="-100" max="-180">
+			<attribute key="shootEffect" value="suddendeath"/>
+		</attack>
+		<attack name="death" interval="2000" chance="20" range="5" radius="3" min="-50" max="-80">
 			<attribute key="shootEffect" value="suddendeath"/>
 		</attack>
 	</attacks>
 	<defenses armor="25" defense="25">
-		<defense name="healing" interval="1000" chance="25" min="60" max="100">
+		<defense name="healing" interval="2000" chance="25" min="40" max="70">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -43,9 +46,9 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<summons maxSummons="4">
-		<summon name="Ghoul" interval="1000" chance="25" max="1"/>
-		<summon name="Ghost" interval="1000" chance="20" max="1"/>
-		<summon name="Skeleton Warrior" interval="1000" chance="20" max="2"/>
+		<summon name="Ghoul" interval="2000" chance="35" max="1"/>
+		<summon name="Ghost" interval="2000" chance="25" max="1"/>
+		<summon name="Skeleton Warrior" interval="2000" chance="35" max="2"/>
 	</summons>
 	<voices interval="5000" chance="10">
 		<voice sentence="Your corpse will be mine!"/>
@@ -62,7 +65,7 @@
 		<item id="2229" countmax="3" chance="20000"/><!-- skull -->
 		<item id="2663" chance="100"/><!-- mystic turban -->
 		<item id="8820" chance="1000"/><!-- mage hat -->
-		<item id="5904" chance="8000"/><!-- magic sulphur -->
+		<item id="5904" chance="10000"/><!-- magic sulphur -->
 		<item id="8870" chance="2000"/><!-- spirit cloak -->
 		<item id="2199" chance="3000"/><!-- garlic neckclace -->
 		<item id="1987" chance="80000"/><!-- bag -->		

@@ -35,9 +35,9 @@ function creatureSayCallback(cid, type, msg)
 				if(getPlayerItemCount(cid, 2406) >= 3) then
 					doPlayerRemoveItem(cid, 2406, 3)
 					setPlayerStorageValue(cid,2019,1)
-					doPlayerAddExperience(cid,1000)
+					doPlayerAddExperience(cid,3000)
 					doPlayerAddItem(cid,2148,200)					
-					selfSay('Good job! (You have received 1000 experience and 200 gp)', cid)
+					selfSay('Good job! (You have received 3000 experience and 200 gp)', cid)
 				end
 			elseif(getPlayerStorageValue(cid,2019) == 1 and getPlayerStorageValue(cid,2037) < 0) then
 				selfSay('Its time to teach those renegades who owns this land. Are you up to the task? Would you kill 10 of them?, {yes}?', cid)
@@ -45,18 +45,18 @@ function creatureSayCallback(cid, type, msg)
 			end
 			if(getPlayerStorageValue(cid,2037) == 10) then
 					setPlayerStorageValue(cid,2037,11)
-					doPlayerAddExperience(cid,3000)
+					doPlayerAddExperience(cid,8000)
 					doPlayerAddItem(cid,2152,5)					
-					selfSay('Just Great! You teach those bastards a good lesson. (You have received 3000 experience and 500 gp)', cid)
+					selfSay('Just Great! You teach those bastards a good lesson. (You have received 8000 experience and 500 gp)', cid)
 			elseif(getPlayerStorageValue(cid,2037) == 11 and getPlayerStorageValue(cid,2039) < 0) then			
 					selfSay('You really like to work, I like that kid.. man! I should say after that last mission. I need you to break into the renegades town, are you ready?, {yes}?', cid)
 						talkState[talkUser] = 3
 			end
 			if(getPlayerStorageValue(cid,2039) == 1) then
 					setPlayerStorageValue(cid,2039,2)
-					doPlayerAddExperience(cid,3000)
+					doPlayerAddExperience(cid,15000)
 					doPlayerAddItem(cid,2152,5)					
-					selfSay('Thanks that info will be very useful. (You have received 3000 experience and 500 gp)', cid)
+					selfSay('Thanks that info will be very useful. (You have received 15000 experience and 500 gp)', cid)
 			elseif(getPlayerStorageValue(cid,2039) == 2 and getPlayerStorageValue(cid,2048) < 0) then		
 					selfSay('The spy told us that one of the renegades generals is in this fortress, his name is Harald Ferner and is in the northern part of the settlement.', cid)			
 					selfSay('Harald Ferner is a very strong warrior, but you have proved your self as well, can you go after him?, {yes}?', cid)	
@@ -64,13 +64,13 @@ function creatureSayCallback(cid, type, msg)
 			end
 			if(getPlayerStorageValue(cid,2048) == 1) then
 					setPlayerStorageValue(cid,2048,2)
-					doPlayerAddExperience(cid,15000)
+					doPlayerAddExperience(cid,20000)
 					doPlayerAddItem(cid,2152,15)
 					doPlayerAddItem(cid,2483,1)
 					doPlayerAddOutfit(cid, 139, 1)
 					doPlayerAddOutfit(cid, 131, 1)
 					
-					selfSay('Thanks for all your work, you are a great warrior! I will tell everyone about your strong spirit, take this reward. (You have received 15000 experience, 1500 gp, an addon and a iron scale armor)', cid)
+					selfSay('Thanks for all your work, you are a great warrior! I will tell everyone about your strong spirit, take this reward. (You have received 20000 experience, 1500 gp, an addon and a iron scale armor)', cid)
  			elseif(getPlayerStorageValue(cid,2048) == 2) then		
 					selfSay('I dont have more missions for you my friend', cid)			
 	

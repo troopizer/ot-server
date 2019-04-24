@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Energy Cultist" nameDescription="an energy cultist" race="blood" experience="800" speed="250" manacost="0">
+<monster name="Energy Cultist" nameDescription="an energy cultist" race="blood" experience="1000" speed="250" manacost="0">
 	<health now="1200" max="1200"/>
 	<look type="194" head="128" body="90" legs="114" feet="109" corpse="6080"/>
 	<targetchange interval="5000" chance="8"/>

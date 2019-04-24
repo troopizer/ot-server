@@ -173,18 +173,18 @@ function creatureSayCallback(cid, type, msg)
 		if (getPlayerStorageValue(cid,2006) == 1) then
 			if(doPlayerRemoveItem(cid,5805,1) == TRUE) then
 				setPlayerStorageValue(cid,2006,2)
-				doPlayerAddExperience(cid,1500)
+				doPlayerAddExperience(cid,2000)
 				doPlayerAddItem(cid,2148,200)
-				selfSay('Nice done, It a very important treasure for Bree.(you received 1500 experience and 200 gold).', cid)
+				selfSay('Nice done, It a very important treasure for Bree.(you received 2000 experience and 200 gold).', cid)
 			else
 				selfSay('Where is the golden goblet?, bring it.', cid)
 			end
 		end
 		if (getPlayerStorageValue(cid,2007) == 3) then
 			setPlayerStorageValue(cid,2007,4)
-			doPlayerAddExperience(cid,2000)
+			doPlayerAddExperience(cid,3000)
 			doPlayerAddItem(cid,2148,300)
-			selfSay('Allright then.(you have received 2000 experience points and 300 gold). ', cid)
+			selfSay('Allright then.(you have received 3000 experience points and 300 gold). ', cid)
 		end
 	end
 
@@ -192,9 +192,9 @@ function creatureSayCallback(cid, type, msg)
 		if (getPlayerStorageValue(cid,2006) == 1) then
 			if(doPlayerRemoveItem(cid,5805,1) == TRUE) then
 				setPlayerStorageValue(cid,2006,2)
-				doPlayerAddExperience(cid,1500)
+				doPlayerAddExperience(cid,2000)
 				doPlayerAddItem(cid,2148,200)
-				selfSay('Nice done, It a very important treasure for Bree.(you received 1500 experience and 200 gold).', cid)
+				selfSay('Nice done, It a very important treasure for Bree.(you received 2000 experience and 200 gold).', cid)
 			else
 				selfSay('Where is the golden goblet?, bring it.', cid)
 			end

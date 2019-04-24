@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Goblin Heavy Infantry" nameDescription="a goblin heavy infantry warrior" race="blood" experience="900" speed="300" manacost="290">
+<monster name="Goblin Heavy Infantry" nameDescription="a goblin heavy infantry warrior" race="blood" experience="900" speed="360" manacost="290">
 	<health now="1500" max="1500"/>
 	<look type="909" corpse="6002"/>
 	<targetchange interval="5000" chance="8"/>
@@ -18,31 +18,32 @@
 		<flag runonhealth="15"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="55" attack="55"/>
-		<attack name="physical" interval="2000" chance="20" range="4" min="-60" max="-100">
+		<attack name="melee" interval="2000" skill="60" attack="60"/>
+		<attack name="physical" interval="2000" chance="20" range="4" min="-60" max="-120">
 
 			<attribute key="shootEffect" value="spear"/>
 
 		</attack>
 	</attacks>
-	<defenses armor="35" defense="40"/>
+	<defenses armor="40" defense="45"/>
 	<elements>
 		<element earthPercent="5"/>
-		<element icePercent="-5"/>
+		<element icePercent="0"/>
 		<element deathPercent="-5"/>
 		<element firePercent="-5"/>
 		<element holyPercent="-10"/>
 		<element energyPercent="-5"/>
 	</elements>
-	<voices interval="5000" chance="25">
+	<voices interval="5000" chance="40">
 		<voice sentence="ukmaukh! drepa!"/>
 		<voice sentence="shara fleukh!!"/>
 		<voice sentence="Kriiark!"/>
 		<voice sentence="Krooork!" yell="1"/>
 	</voices>
 	<loot>
-		<item id="2648" chance="5000"/><!-- iron chain legs -->
-		<item id="3975" chance="5000"/><!-- iron goblin shield -->
+		<item id="2648" chance="8000"/><!-- iron chain legs -->
+		<item id="2647" chance="800"/><!-- iron legs -->
+		<item id="3975" chance="8000"/><!-- iron goblin shield -->
 		<item id="8602" chance="1000"/><!-- goblin blade -->
 		<item id="2423" chance="1000"/><!-- goblin mace -->
 		<item id="2428" chance="1000"/><!-- goblin battle axe-->

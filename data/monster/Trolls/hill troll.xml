@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hill Troll" nameDescription="a hill troll" race="blood" experience="3000" speed="380" manacost="0">
+	<health now="3000" max="3000"/>
+	<look type="857" corpse="5999"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="75" attack="70"/>
+		<attack name="physical" interval="2000" chance="20" range="7" min="-120" max="-250">
+			<attribute key="shootEffect" value="largerock"/>
+		</attack>
+		<attack name="physical" interval="1000" chance="20" range="0" radius="4" target="0" min="-150" max="-300">
+			<attribute key="areaEffect" value="poff"/>
+		</attack>
+	</attacks>
+	<defenses armor="45" defense="50">
+		<defense name="speed" interval="1000" chance="10" speedchange="420" duration="8000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element earthPercent="70"/>
+		<element holyPercent="-15"/>
+		<element firePercent="10"/>
+		<element energyPercent="20"/>
+		<element physicalPercent="50"/>
+		<element deathPercent="-10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="20">
+		<voice sentence="GROOOOR!" yell="1"/>
+		<voice sentence="shara fleukh!!" yell="1"/>
+	</voices>
+	<loot>
+		<item id="1987" chance="80000"/><!-- bag -->
+				<item id="7432" chance="500"/><!-- troll club -->
+				<item id="2413" chance="3000"/><!-- steel broadsword -->
+				<item id="2426" chance="3000"/><!-- steel light halberd -->
+				<item id="7451" chance="3000"/><!-- steel heavy sceptre -->
+				<item id="2666" countmax="6" chance="40000"/><!-- meat -->
+				<item id="5930" countmax="1" chance="20000"/><!-- behemoth claw -->
+		        <item id="2148" countmax="100" chance="900000"/><!-- gold coin -->
+		        <item id="2148" countmax="100" chance="900000"/><!-- gold coin -->
+		        <item id="2148" countmax="100" chance="900000"/><!-- gold coin -->
+		        <item id="2671" countmax="3" chance="20000"/><!-- ham -->
+		        <item id="2231" countmax="1" chance="20000"/><!-- big bone -->
+				<item id="2457" chance="10000"/><!-- steel helmet -->
+				<item id="3967" chance="5000"/><!-- eriador battle helmet -->
+				<item id="2475" chance="300"/><!-- rhudaur knightly helmet -->
+				<item id="2486" chance="200"/><!-- rhudaur knightly armor -->
+				<item id="2150" chance="500"/><!-- small amethyst -->
+				<item id="2146" chance="500"/><!-- small sapphire -->
+				<item id="2147" chance="500"/><!-- small ruby -->
+				<item id="2149" chance="500"/><!-- small emerald-->
+				<item id="2172" chance="10000"/><!-- bronze amulet-->
+	</loot>
+</monster>

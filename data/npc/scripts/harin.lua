@@ -72,8 +72,8 @@ if (getPlayerStorageValue(cid,2040) == 2) then
 
 	elseif(msgcontains(msg, 'eriador battle mace') and talkState[talkUser] == 1) then
 	 	selfSay('eriador battle mace, I would need {10 iron ores},{1 wood plank} and {1 leather}, do you have they?.', cid)
-		talkState[talkUser] = 3
-	elseif(msgcontains(msg, 'yes') and talkState[talkUser] == 3) then
+		talkState[talkUser] = 4
+	elseif(msgcontains(msg, 'yes') and talkState[talkUser] == 4) then
 		if(getPlayerItemCount(cid, 5901) >= 1 and getPlayerItemCount(cid, 5880) >= 10 and getPlayerItemCount(cid, 5878) >= 1) then
 				doPlayerRemoveItem(cid, 5901, 1)
 				doPlayerRemoveItem(cid, 5880, 10)

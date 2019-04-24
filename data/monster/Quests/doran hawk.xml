@@ -91,7 +91,7 @@
 
 		<item id="2389" countmax="2" chance="10000"/><!-- spear -->
 
-		<item id="3965" chance="5000"/><!-- hunting spear -->
+		<item id="3965" chance="10000"/><!-- hunting spear -->
 
 		<item id="1987" chance="80000"/><!-- bag -->
 
@@ -101,7 +101,7 @@
 
 		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
 
-		<item id="2641" countmax="1" chance="3000"/><!-- iron studded boots -->
+		<item id="2641" countmax="1" chance="5000"/><!-- iron studded boots -->
 
 		<item id="2200" chance="8000"/><!-- protection amulet-->
 

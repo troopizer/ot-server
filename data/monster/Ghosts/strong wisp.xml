@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Strong Wisp" nameDescription="a strong wisp" race="undead" experience="0" speed="260" manacost="0">
-	<health now="200" max="200"/>
+<monster name="Strong Wisp" nameDescription="a strong wisp" race="undead" experience="0" speed="350" manacost="0">
+	<health now="400" max="400"/>
 	<look type="294" corpse="6324"/>
 	<targetchange interval="60000" chance="0"/>
 	<strategy attack="100" defense="0"/>
@@ -19,13 +19,13 @@
 		<flag runonhealth="15"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="25" attack="25"/>
-		<attack name="lifedrain" interval="2000" min="-30" max="-50">
+		<attack name="melee" interval="2000" skill="35" attack="40"/>
+		<attack name="lifedrain" interval="1000" chance="15" min="-30" max="-60">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
 	</attacks>
 	<defenses armor="13" defense="18">
-		<defense name="speed" interval="10000" chance="40" speedchange="310" duration="20000">
+		<defense name="speed" interval="10000" chance="40" speedchange="380" duration="20000">
 			<attribute key="areaEffect" value="greenshimmer"/>
 		</defense>
 		<defense name="healing" interval="5000" chance="60" min="30" max="85">

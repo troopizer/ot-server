@@ -7,8 +7,8 @@ combat:setParameter(COMBAT_PARAM_DISPEL, CONDITION_PARALYZE)
 
 -- Mean and Differance between max and min
 local levelConstantFactor  = 2.0
-local mlevelConstantFactor = 8.0
-local radiousFactor        = (levelConstantFactor+mlevelConstantFactor)*3.0
+local mlevelConstantFactor = 6.0
+local radiousFactor        = (levelConstantFactor+mlevelConstantFactor)*20.0
 
 function onGetFormulaValues(player, level, maglevel)
 	local min = level*levelConstantFactor + maglevel*mlevelConstantFactor - radiousFactor

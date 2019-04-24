@@ -15,6 +15,9 @@ npcHandler:addModule(shopModule)
 shopModule:addBuyableItem({'small health'}, 8704, 20, 1, 'small health potion')
 shopModule:addBuyableItem({'health potion'}, 7618, 45, 1, 'health potion')
 shopModule:addBuyableItem({'strong health potion'}, 7588, 85, 1, 'strong health potion')
+shopModule:addBuyableItem({'blank rune'}, 2260, 10, 1, 'blank rune')
+shopModule:addBuyableItem({'mana potion'}, 7620, 50, 1, 'mana potion')
+shopModule:addBuyableItem({'strong mana potion'}, 7589, 90, 1, 'strong mana potion')
 
 
 shopModule:addSellableItem({'normal potion flask', 'normal flask'}, 7636, 5, 'empty small potion flask')
@@ -28,6 +31,10 @@ function creatureSayCallback(cid, type, msg)
 	end
 
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
+    if(msgcontains(msg, 'year') or msgcontains(msg, 'date') or msgcontains(msg, 'tales') or msgcontains(msg, 'information')) then
+				selfSay('We are in the year 2900 of the third age.', cid)
+				selfSay('I have been told that Gerontius Took "The Old Took" is currently the Thain of the Shire. That Argonui is currently the 13th captain of the dunedain. And for 50 years Thorin Oakenshield have been the king of Durins folk.', cid)
+	end
 	if(msgcontains(msg, 'herbs')) then
 				selfSay('There are many herbs in this world, some have special properties. They can be used in potions and for {herbalist magic}.', cid)
 	end
@@ -69,7 +76,7 @@ function creatureSayCallback(cid, type, msg)
 			end
 			if(getPlayerStorageValue(cid,2022) < 0 and getPlayerStorageValue(cid,2021) == 1) then
 				selfSay('Ok, you have probed to be a strong and brave man. So I will tell you about something I discovered in an old journal.', cid)
-				selfSay('It seems that in the Barrow Downs lies the tomb of Gharazon, a great sorcerer. There you will find a {memory stone}, that saves some of his knowledge.', cid)
+				selfSay('It seems like in the Barrow Downs lies the tomb of Gharazon, a great sorcerer. There you will find a {memory stone}, that saves some of his knowledge.', cid)
 				selfSay('If you go there and bring me this stone, I will teach you another useful herbalist spell. Do we have a deal, {yes}?', cid)
 				talkState[talkUser] = 1
 

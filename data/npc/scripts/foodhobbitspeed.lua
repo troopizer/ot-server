@@ -31,11 +31,11 @@ if(msgcontains(msg, 'mission')) then
 	if(getPlayerStorageValue(cid,2115) == 0) then
 		if(getPlayerItemCount(cid, 13297) >= 1) then
 				doPlayerRemoveItem(cid, 13297, 1)
-			selfSay('Thanks! this is the recipe for {halfling bread of speed} (You recived 8000 exp and look your cooking trait).', cid)
+			selfSay('Thanks! this is the recipe for {halfling bread of speed} (You recived 20000 exp and look your cooking trait).', cid)
 			setPlayerStorageValue(cid,2115,1)
 			setPlayerStorageValue(cid,30024,23)
 			setPlayerStorageValue(cid,2114,0)
-			doPlayerAddExperience(cid,8000)
+			doPlayerAddExperience(cid,20000)
 		else
 		selfSay('I am sure you will get it.', cid)
 		end

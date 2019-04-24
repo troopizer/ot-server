@@ -147,6 +147,10 @@
             <missionstate id="0" description="Bring 10 white pieces of cloth, 20 brown pieces of cloth and 300 gold coins to Haroc."/>
             <missionstate id="1" description="Mission Complete."/>
         </mission>
+        <mission name="The great chef of Buckland (Part 2)" storageid="2117" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Cath {40 rainbow trouts} for Frederic. Go fishing in the river."/>
+            <missionstate id="1" description="Mission Complete."/>
+        </mission>
     </quest>
     <quest name="Barrow Downs Chapter 1" startstorageid="30004" startstoragevalue="6">
         <mission name="1 Blood herbs" storageid="2017" startvalue="0" endvalue="1">
@@ -166,7 +170,7 @@
             <missionstate id="1" description="Mission Complete."/>  
         </mission>
     </quest>  
-    <quest name="Herbalist Magic Trait" startstorageid="30008" startstoragevalue="7">
+    <quest name="+ Herbalist Magic Trait" startstorageid="30008" startstoragevalue="7">
         <mission name="Herbal light healing - asea envinyata" storageid="2020" startvalue="0" endvalue="0">
             <missionstate id="0" description="Basic herbal healing - Words: asea envinyata - Reagents: powder herbs."/>
         </mission>
@@ -265,8 +269,12 @@
             <missionstate id="0" description="Get 20 boar furs for Brean."/>
             <missionstate id="1" description="Mission Complete."/>   
         </mission>
+        <mission name="The peaceful witch" storageid="2118" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Ask Brean to make 1 Strong Leather Armor for Eliana."/>
+            <missionstate id="1" description="Mission Complete."/>   
+        </mission>
     </quest>
-    <quest name="Martial Arts Trait" startstorageid="30011" startstoragevalue="10">
+    <quest name="+ Martial Arts Trait" startstorageid="30011" startstoragevalue="10">
         <mission name="Strong Strike - turca pente" storageid="2042" startvalue="0" endvalue="0">
             <missionstate id="0" description="Strong Strike - Words: turca pente - lvl: 20 - mlvl: 7 - One concentrated hit."/>
         </mission>
@@ -290,6 +298,9 @@
         </mission>
         <mission name="Warrior Rage - mahtar" storageid="2101" startvalue="0" endvalue="0">
             <missionstate id="0" description="Warrior Rage - Words: mahtar - lvl: 40 - mlvl: 15 - Attack with all your strenght."/>
+        </mission>
+        <mission name="Charge - nor eldo" storageid="2134" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Charge - Words: nor eldo - lvl: 40 - mlvl: 15 - Use your strenght to move much faster."/>
         </mission>
     </quest>
     <quest name="Lone Lands Chapter 1" startstorageid="30012" startstoragevalue="11">
@@ -343,7 +354,7 @@
             <missionstate id="1" description="Mission Complete."/>
         </mission>  
     </quest>
-    <quest name="Fire Magic Trait" startstorageid="30014" startstoragevalue="13">
+    <quest name="+ Fire Magic Trait" startstorageid="30014" startstoragevalue="13">
         <mission name="Fire Sorcerer Level" storageid="2060" startvalue="0" endvalue="5">
             <missionstate id="0" description="Fire Sorcerer Level 1. Basic spells: Fire Strike - nar pente (mana:30)."/>
             <missionstate id="1" description="Fire Sorcerer Level 2."/>
@@ -368,7 +379,7 @@
             <missionstate id="0" description="Fire Disenchantment - Words: nar nancarluce - lvl: 40 (mana:120)."/>
         </mission>
     </quest>
-    <quest name="Earth Magic Trait" startstorageid="30015" startstoragevalue="14">
+    <quest name="+ Earth Magic Trait" startstorageid="30015" startstoragevalue="14">
         <mission name="Earth Sorcerer Level" storageid="2061" startvalue="0" endvalue="5">
             <missionstate id="0" description="Earth Sorcerer Level 1. Basic spells: Earth Strike - cen pente (mana:30)."/>
             <missionstate id="1" description="Earth Sorcerer Level 2."/>
@@ -393,7 +404,7 @@
             <missionstate id="0" description="Earth Disenchantment - Words: cen nancarluce - lvl: 40 (mana:120)."/>
         </mission>
     </quest>
-    <quest name="Energy Magic Trait" startstorageid="30016" startstoragevalue="15">
+    <quest name="+ Energy Magic Trait" startstorageid="30016" startstoragevalue="15">
         <mission name="Energy Sorcerer Level" storageid="2062" startvalue="0" endvalue="5">
             <missionstate id="0" description="Energy Sorcerer Level 1. Basic spells: Energy Strike - sure pente (mana:30)."/>
             <missionstate id="1" description="Energy Sorcerer Level 2."/>
@@ -418,7 +429,7 @@
             <missionstate id="0" description="Energy Disenchantment - Words: sure nancarluce - lvl: 40 (mana:120)."/>
         </mission>
     </quest>
-    <quest name="Ice Magic Trait" startstorageid="30017" startstoragevalue="16">
+    <quest name="+ Ice Magic Trait" startstorageid="30017" startstoragevalue="16">
         <mission name="Ice Sorcerer Level" storageid="2063" startvalue="0" endvalue="5">
             <missionstate id="0" description="Ice Sorcerer Level 1. Basic spells: Ice Strike - nen pente (mana:30)."/>
             <missionstate id="1" description="Ice Sorcerer Level 2."/>
@@ -443,7 +454,7 @@
             <missionstate id="0" description="Ice Disenchantment - Words: nen nancarluce - lvl: 40 (mana:120)."/>
         </mission>
     </quest>
-    <quest name="Life Magic Trait" startstorageid="30018" startstoragevalue="17">
+    <quest name="+ Life Magic Trait" startstorageid="30018" startstoragevalue="17">
         <mission name="Druid Level" storageid="2064" startvalue="0" endvalue="5">
             <missionstate id="0" description="Druid Level 1. Basic spells: Life Strike - coi pente (mana:30), Wisp Summon - coi feaminte enyalie (mana:400)."/>
             <missionstate id="1" description="Druid Level 2."/>
@@ -462,7 +473,7 @@
             <missionstate id="0" description="Twisting Life Slash - Words: coi aucirhanc - lvl: 40 (mana:80)."/>
         </mission>
     </quest>
-    <quest name="Death Magic Trait" startstorageid="30019" startstoragevalue="18">
+    <quest name="+ Death Magic Trait" startstorageid="30019" startstoragevalue="18">
         <mission name="Necromancer Level" storageid="2065" startvalue="0" endvalue="5">
             <missionstate id="0" description="Necromancer Level 1. Basic spells: Death Strike - kurz kallog (mana:30), Skeleton Legion - kurz kafak ushtar (mana:300)."/>
             <missionstate id="1" description="Necromancer Level 2."/>
@@ -512,7 +523,7 @@
             <missionstate id="6" description="Kill 4 Outlaws."/>
             <missionstate id="7" description="Kill 3 Outlaws."/>
             <missionstate id="8" description="Kill 2 Outlaws."/>
-            <missionstate id="9" description="Kill 1 Outlaws."/>
+            <missionstate id="9" description="Kill 1 Outlaw."/>
             <missionstate id="10" description="You got them, ask for your reward."/> 
             <missionstate id="11" description="Mission Complete."/>   
         </mission>
@@ -557,7 +568,7 @@
             <missionstate id="16" description="Kill 4 Priestesses."/>
             <missionstate id="17" description="Kill 3 Priestesses."/>
             <missionstate id="18" description="Kill 2 Priestesses."/>
-            <missionstate id="19" description="Kill 1 Priestesses."/>
+            <missionstate id="19" description="Kill 1 Priest."/>
             <missionstate id="20" description="You got them, ask for your reward."/> 
             <missionstate id="21" description="Mission Complete."/>   
         </mission>
@@ -565,7 +576,7 @@
             <missionstate id="0" description="Kill 4 Elemental Cultists."/>
             <missionstate id="1" description="Kill 3 Elemental Cultists."/>
             <missionstate id="2" description="Kill 2 Elemental Cultists."/>
-            <missionstate id="3" description="Kill 1 Elemental Cultists."/>
+            <missionstate id="3" description="Kill 1 Elemental Cultist."/>
             <missionstate id="4" description="You got them, ask for your reward."/> 
             <missionstate id="5" description="Mission Complete."/>   
         </mission>
@@ -581,7 +592,7 @@
             <missionstate id="6" description="Kill 4 Warg Wolves."/>
             <missionstate id="7" description="Kill 3 Warg Wolves."/>
             <missionstate id="8" description="Kill 2 Warg Wolves."/>
-            <missionstate id="9" description="Kill 1 Warg Wolves."/>
+            <missionstate id="9" description="Kill 1 Warg Wolf."/>
             <missionstate id="10" description="You got them, ask for your reward."/> 
             <missionstate id="11" description="Mission Complete."/>   
         </mission>
@@ -591,12 +602,12 @@
             <missionstate id="2" description="Report to Arador."/>
             <missionstate id="3" description="Mission Complete."/>
         </mission>
-        <mission name="3 The book" storageid="2108" startvalue="0" endvalue="4">
-            <missionstate id="0" description="Find the dunedain spy in the second area of Fornost Erain."/>
-            <missionstate id="1" description="Look for the book of rituals in the necromancers catacombs and take it to Bregor."/>
-            <missionstate id="2" description="Find the elven sorcerer in the South Downs."/>
-            <missionstate id="3" description="Go back to Bregor."/>
-            <missionstate id="4" description="Mission Complete."/>   
+        <mission name="3 The keys" storageid="2108" startvalue="0" endvalue="3">
+            <missionstate id="0" description="Go to the weather hills and infiltrate into the renegades camp (Near the goblins camp). Kill the witches delegate"/>
+            <missionstate id="1" description="Find the first key in a chest near the delegate. Now go to the witches camp and look for the second key around the old castle. You also have to kill the renegades delegate in the camp."/>
+            <missionstate id="2" description="Go back to Arador."/>
+            <missionstate id="3" description="Mission Complete."/>
+            <missionstate id="4" description="Mission Complete."/>     
         </mission>
         <mission name="4 No more priestesses!" storageid="2109" startvalue="0" endvalue="21">
             <missionstate id="0" description="Kill 20 Priestesses."/>
@@ -643,14 +654,282 @@
         <mission name="Bread of the Green Dragon Inn (Part 2)" storageid="2115" startvalue="0" endvalue="1">
             <missionstate id="0" description="Look for 1 haunch of boar for Jim Boffin."/>
             <missionstate id="1" description="Mission Complete."/>
-        </mission>  
+        </mission>
+        <mission name="The cookies of Greenfields" storageid="2135" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Get 20 halfling bread of speed for Han Wheater."/>
+            <missionstate id="1" description="Mission Complete."/>
+        </mission>
+        <mission name="How to ride a sheep" storageid="2136" startvalue="0" endvalue="12">
+            <missionstate id="0" description="Get 20 portions of flour, 10 cookies and 10 rainbow trouts for Tom Wooler."/>
+            <missionstate id="1" description="Kill 10 Greenfields Rabbits."/>
+            <missionstate id="2" description="Kill 9 Greenfields Rabbits."/>
+            <missionstate id="3" description="Kill 8 Greenfields Rabbits."/>
+            <missionstate id="4" description="Kill 7 Greenfields Rabbits."/>
+            <missionstate id="5" description="Kill 6 Greenfields Rabbits."/>
+            <missionstate id="6" description="Kill 5 Greenfields Rabbits."/>
+            <missionstate id="7" description="Kill 4 Greenfields Rabbits."/>
+            <missionstate id="8" description="Kill 3 Greenfields Rabbits."/>
+            <missionstate id="9" description="Kill 2 Greenfields Rabbits."/>
+            <missionstate id="10" description="Kill 1 Greenfields Rabbit."/>
+            <missionstate id="11" description="You got them, ask for your reward."/> 
+            <missionstate id="12" description="Mission Complete."/> 
+        </mission>        
     </quest>
-    <quest name="Cooking Trait" startstorageid="30024" startstoragevalue="23">
+    <quest name="+ Cooking Trait" startstorageid="30024" startstoragevalue="23">
         <mission name="Halfling Bread of Speed - hobbit masta" storageid="2114" startvalue="0" endvalue="0">
-            <missionstate id="0" description="Halfling Bread of Speed - Words: hobbit masta - lvl: 20 - create a bread that makes you feel faster."/>
+            <missionstate id="0" description="Halfling Bread of Speed - Words: hobbit masta - lvl: 20 - create a bread that makes you feel faster - Reagents: 5 flour and 5 mushrooms."/>
         </mission>
-        <mission name="Corned Fish - hobbit masta" storageid="2116" startvalue="0" endvalue="0">
-            <missionstate id="0" description="Corned Fish - Words: hobbit masta - lvl: 20 - cook your fish for extra nutrition."/>
+        <mission name="Cooked Fish - hobbit hala" storageid="2116" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Corned Fish - Words: hobbit hala - lvl: 20 - cook your fish for extra nutrition  - Reagents: 1 rainbow trout and 1 powder herb."/>
         </mission>
-    </quest>   
+        <mission name="Cookies - cookies craft" storageid="2137" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Cookies - Words: cookies craft - lvl: 10 - make tasty cookies  - Reagents: 1 flour and 1 blueberry."/>
+        </mission>
+    </quest>
+    <quest name="Hunting Guild Initiation" startstorageid="30025" startstoragevalue="24">
+        <mission name="Hunting Cave Rats" storageid="2119" startvalue="0" endvalue="21">
+           <missionstate id="0" description="Kill 20 Cave Rats."/>
+            <missionstate id="1" description="Kill 19 Cave Rats."/>
+            <missionstate id="2" description="Kill 18 Cave Rats."/>
+            <missionstate id="3" description="Kill 17 Cave Rats."/>
+            <missionstate id="4" description="Kill 16 Cave Rats."/>
+            <missionstate id="5" description="Kill 15 Cave Rats."/>
+            <missionstate id="6" description="Kill 14 Cave Rats."/>
+            <missionstate id="7" description="Kill 13 Cave Rats."/>
+            <missionstate id="8" description="Kill 12 Cave Rats."/>
+            <missionstate id="9" description="Kill 11 Cave Rats."/>          
+            <missionstate id="10" description="Kill 10 Cave Rats."/>
+            <missionstate id="11" description="Kill 9 Cave Rats."/>
+            <missionstate id="12" description="Kill 8 Cave Rats."/>
+            <missionstate id="13" description="Kill 7 Cave Rats."/>
+            <missionstate id="14" description="Kill 6 Cave Rats."/>
+            <missionstate id="15" description="Kill 5 Cave Rats."/>
+            <missionstate id="16" description="Kill 4 Cave Rats."/>
+            <missionstate id="17" description="Kill 3 Cave Rats."/>
+            <missionstate id="18" description="Kill 2 Cave Rats."/>
+            <missionstate id="19" description="Kill 1 Cave Rat."/>
+            <missionstate id="20" description="You got them, ask for your reward."/> 
+            <missionstate id="21" description="Mission Complete."/>   
+        </mission>
+        <mission name="Hunting Wolves" storageid="2120" startvalue="0" endvalue="21">
+           <missionstate id="0" description="Kill 20 Wolves."/>
+            <missionstate id="1" description="Kill 19 Wolves."/>
+            <missionstate id="2" description="Kill 18 Wolves."/>
+            <missionstate id="3" description="Kill 17 Wolves."/>
+            <missionstate id="4" description="Kill 16 Wolves."/>
+            <missionstate id="5" description="Kill 15 Wolves."/>
+            <missionstate id="6" description="Kill 14 Wolves."/>
+            <missionstate id="7" description="Kill 13 Wolves."/>
+            <missionstate id="8" description="Kill 12 Wolves."/>
+            <missionstate id="9" description="Kill 11 Wolves."/>          
+            <missionstate id="10" description="Kill 10 Wolves."/>
+            <missionstate id="11" description="Kill 9 Wolves."/>
+            <missionstate id="12" description="Kill 8 Wolves."/>
+            <missionstate id="13" description="Kill 7 Wolves."/>
+            <missionstate id="14" description="Kill 6 Wolves."/>
+            <missionstate id="15" description="Kill 5 Wolves."/>
+            <missionstate id="16" description="Kill 4 Wolves."/>
+            <missionstate id="17" description="Kill 3 Wolves."/>
+            <missionstate id="18" description="Kill 2 Wolves."/>
+            <missionstate id="19" description="Kill 1 Wolf."/>
+            <missionstate id="20" description="You got them, ask for your reward."/> 
+            <missionstate id="21" description="Mission Complete."/>   
+        </mission>
+        <mission name="Hunting Bears" storageid="2121" startvalue="0" endvalue="21">
+           <missionstate id="0" description="Kill 20 Bears."/>
+            <missionstate id="1" description="Kill 19 Bears."/>
+            <missionstate id="2" description="Kill 18 Bears."/>
+            <missionstate id="3" description="Kill 17 Bears."/>
+            <missionstate id="4" description="Kill 16 Bears."/>
+            <missionstate id="5" description="Kill 15 Bears."/>
+            <missionstate id="6" description="Kill 14 Bears."/>
+            <missionstate id="7" description="Kill 13 Bears."/>
+            <missionstate id="8" description="Kill 12 Bears."/>
+            <missionstate id="9" description="Kill 11 Bears."/>          
+            <missionstate id="10" description="Kill 10 Bears."/>
+            <missionstate id="11" description="Kill 9 Bears."/>
+            <missionstate id="12" description="Kill 8 Bears."/>
+            <missionstate id="13" description="Kill 7 Bears."/>
+            <missionstate id="14" description="Kill 6 Bears."/>
+            <missionstate id="15" description="Kill 5 Bears."/>
+            <missionstate id="16" description="Kill 4 Bears."/>
+            <missionstate id="17" description="Kill 3 Bears."/>
+            <missionstate id="18" description="Kill 2 Bears."/>
+            <missionstate id="19" description="Kill 1 Bear."/>
+            <missionstate id="20" description="You got them, ask for your reward."/> 
+            <missionstate id="21" description="Mission Complete."/>   
+        </mission>
+    </quest>    
+    <quest name="Hunting Guild Bree" startstorageid="30026" startstoragevalue="25">
+        <mission name="Hunting Great Bears" storageid="2122" startvalue="0" endvalue="41">
+            <missionstate id="0" description="Kill 40 Great Bears."/>
+            <missionstate id="1" description="Kill 39 Great Bears."/>
+            <missionstate id="2" description="Kill 38 Great Bears."/>
+            <missionstate id="3" description="Kill 37 Great Bears."/>
+            <missionstate id="4" description="Kill 36 Great Bears."/>
+            <missionstate id="5" description="Kill 35 Great Bears."/>
+            <missionstate id="6" description="Kill 34 Great Bears."/>
+            <missionstate id="7" description="Kill 33 Great Bears."/>
+            <missionstate id="8" description="Kill 32 Great Bears."/>
+            <missionstate id="9" description="Kill 31 Great Bears."/>          
+            <missionstate id="10" description="Kill 30 Great Bears."/>
+            <missionstate id="11" description="Kill 29 Great Bears."/>
+            <missionstate id="12" description="Kill 28 Great Bears."/>
+            <missionstate id="13" description="Kill 27 Great Bears."/>
+            <missionstate id="14" description="Kill 26 Great Bears."/>
+            <missionstate id="15" description="Kill 25 Great Bears."/>
+            <missionstate id="16" description="Kill 24 Great Bears."/>
+            <missionstate id="17" description="Kill 23 Great Bears."/>
+            <missionstate id="18" description="Kill 22 Great Bears."/>
+            <missionstate id="19" description="Kill 21 Great Bears"/>           
+            <missionstate id="20" description="Kill 20 Great Bears."/>
+            <missionstate id="21" description="Kill 19 Great Bears."/>
+            <missionstate id="22" description="Kill 18 Great Bears."/>
+            <missionstate id="23" description="Kill 17 Great Bears."/>
+            <missionstate id="24" description="Kill 16 Great Bears."/>
+            <missionstate id="25" description="Kill 15 Great Bears."/>
+            <missionstate id="26" description="Kill 14 Great Bears."/>
+            <missionstate id="27" description="Kill 13 Great Bears."/>
+            <missionstate id="28" description="Kill 12 Great Bears."/>
+            <missionstate id="29" description="Kill 11 Great Bears."/>          
+            <missionstate id="30" description="Kill 10 Great Bears."/>
+            <missionstate id="31" description="Kill 9 Great Bears."/>
+            <missionstate id="32" description="Kill 8 Great Bears."/>
+            <missionstate id="33" description="Kill 7 Great Bears."/>
+            <missionstate id="34" description="Kill 6 Great Bears."/>
+            <missionstate id="35" description="Kill 5 Great Bears."/>
+            <missionstate id="36" description="Kill 4 Great Bears."/>
+            <missionstate id="37" description="Kill 3 Great Bears."/>
+            <missionstate id="38" description="Kill 2 Great Bears."/>
+            <missionstate id="39" description="Kill 1 Great Bear."/>
+            <missionstate id="40" description="You got them, ask for your reward."/> 
+            <missionstate id="41" description="Mission Complete."/>   
+        </mission>
+        <mission name="Hunting Tarantulas" storageid="2123" startvalue="0" endvalue="41">
+            <missionstate id="0" description="Kill 40 Tarantulas."/>
+            <missionstate id="1" description="Kill 39 Tarantulas."/>
+            <missionstate id="2" description="Kill 38 Tarantulas."/>
+            <missionstate id="3" description="Kill 37 Tarantulas."/>
+            <missionstate id="4" description="Kill 36 Tarantulas."/>
+            <missionstate id="5" description="Kill 35 Tarantulas."/>
+            <missionstate id="6" description="Kill 34 Tarantulas."/>
+            <missionstate id="7" description="Kill 33 Tarantulas."/>
+            <missionstate id="8" description="Kill 32 Tarantulas."/>
+            <missionstate id="9" description="Kill 31 Tarantulas."/>          
+            <missionstate id="10" description="Kill 30 Tarantulas."/>
+            <missionstate id="11" description="Kill 29 Tarantulas."/>
+            <missionstate id="12" description="Kill 28 Tarantulas."/>
+            <missionstate id="13" description="Kill 27 Tarantulas."/>
+            <missionstate id="14" description="Kill 26 Tarantulas."/>
+            <missionstate id="15" description="Kill 25 Tarantulas."/>
+            <missionstate id="16" description="Kill 24 Tarantulas."/>
+            <missionstate id="17" description="Kill 23 Tarantulas."/>
+            <missionstate id="18" description="Kill 22 Tarantulas."/>
+            <missionstate id="19" description="Kill 21 Tarantulas"/>           
+            <missionstate id="20" description="Kill 20 Tarantulas."/>
+            <missionstate id="21" description="Kill 19 Tarantulas."/>
+            <missionstate id="22" description="Kill 18 Tarantulas."/>
+            <missionstate id="23" description="Kill 17 Tarantulas."/>
+            <missionstate id="24" description="Kill 16 Tarantulas."/>
+            <missionstate id="25" description="Kill 15 Tarantulas."/>
+            <missionstate id="26" description="Kill 14 Tarantulas."/>
+            <missionstate id="27" description="Kill 13 Tarantulas."/>
+            <missionstate id="28" description="Kill 12 Tarantulas."/>
+            <missionstate id="29" description="Kill 11 Tarantulas."/>          
+            <missionstate id="30" description="Kill 10 Tarantulas."/>
+            <missionstate id="31" description="Kill 9 Tarantulas."/>
+            <missionstate id="32" description="Kill 8 Tarantulas."/>
+            <missionstate id="33" description="Kill 7 Tarantulas."/>
+            <missionstate id="34" description="Kill 6 Tarantulas."/>
+            <missionstate id="35" description="Kill 5 Tarantulas."/>
+            <missionstate id="36" description="Kill 4 Tarantulas."/>
+            <missionstate id="37" description="Kill 3 Tarantulas."/>
+            <missionstate id="38" description="Kill 2 Tarantulas."/>
+            <missionstate id="39" description="Kill 1 Tarantula."/>
+            <missionstate id="40" description="You got them, ask for your reward."/> 
+            <missionstate id="41" description="Mission Complete."/>   
+        </mission>
+        <mission name="Hunting Fierce Wolves" storageid="2124" startvalue="0" endvalue="41">
+            <missionstate id="0" description="Kill 40 Fierce Wolves."/>
+            <missionstate id="1" description="Kill 39 Fierce Wolves."/>
+            <missionstate id="2" description="Kill 38 Fierce Wolves."/>
+            <missionstate id="3" description="Kill 37 Fierce Wolves."/>
+            <missionstate id="4" description="Kill 36 Fierce Wolves."/>
+            <missionstate id="5" description="Kill 35 Fierce Wolves."/>
+            <missionstate id="6" description="Kill 34 Fierce Wolves."/>
+            <missionstate id="7" description="Kill 33 Fierce Wolves."/>
+            <missionstate id="8" description="Kill 32 Fierce Wolves."/>
+            <missionstate id="9" description="Kill 31 Fierce Wolves."/>          
+            <missionstate id="10" description="Kill 30 Fierce Wolves."/>
+            <missionstate id="11" description="Kill 29 Fierce Wolves."/>
+            <missionstate id="12" description="Kill 28 Fierce Wolves."/>
+            <missionstate id="13" description="Kill 27 Fierce Wolves."/>
+            <missionstate id="14" description="Kill 26 Fierce Wolves."/>
+            <missionstate id="15" description="Kill 25 Fierce Wolves."/>
+            <missionstate id="16" description="Kill 24 Fierce Wolves."/>
+            <missionstate id="17" description="Kill 23 Fierce Wolves."/>
+            <missionstate id="18" description="Kill 22 Fierce Wolves."/>
+            <missionstate id="19" description="Kill 21 Fierce Wolves"/>           
+            <missionstate id="20" description="Kill 20 Fierce Wolves."/>
+            <missionstate id="21" description="Kill 19 Fierce Wolves."/>
+            <missionstate id="22" description="Kill 18 Fierce Wolves."/>
+            <missionstate id="23" description="Kill 17 Fierce Wolves."/>
+            <missionstate id="24" description="Kill 16 Fierce Wolves."/>
+            <missionstate id="25" description="Kill 15 Fierce Wolves."/>
+            <missionstate id="26" description="Kill 14 Fierce Wolves."/>
+            <missionstate id="27" description="Kill 13 Fierce Wolves."/>
+            <missionstate id="28" description="Kill 12 Fierce Wolves."/>
+            <missionstate id="29" description="Kill 11 Fierce Wolves."/>          
+            <missionstate id="30" description="Kill 10 Fierce Wolves."/>
+            <missionstate id="31" description="Kill 9 Fierce Wolves."/>
+            <missionstate id="32" description="Kill 8 Fierce Wolves."/>
+            <missionstate id="33" description="Kill 7 Fierce Wolves."/>
+            <missionstate id="34" description="Kill 6 Fierce Wolves."/>
+            <missionstate id="35" description="Kill 5 Fierce Wolves."/>
+            <missionstate id="36" description="Kill 4 Fierce Wolves."/>
+            <missionstate id="37" description="Kill 3 Fierce Wolves."/>
+            <missionstate id="38" description="Kill 2 Fierce Wolves."/>
+            <missionstate id="39" description="Kill 1 Fierce Wolf."/>
+            <missionstate id="40" description="You got them, ask for your reward."/> 
+            <missionstate id="41" description="Mission Complete."/>  
+        </mission>
+    </quest>
+    <quest name="Crafting Guild Initiation" startstorageid="30027" startstoragevalue="26">
+        <mission name="Gathering Materials" storageid="2125" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Get 30 wood pieces, 2 tin ores and 2 copper ores."/>
+            <missionstate id="1" description="Mission Complete."/>   
+        </mission>
+    </quest>
+    <quest name="Crafting Guild" startstorageid="30028" startstoragevalue="27">
+        <mission name="Crafting Spears" storageid="2126" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Get 5 hunting spears."/>
+            <missionstate id="1" description="Mission Complete."/>   
+        </mission>
+        <mission name="Crafting Arrows" storageid="2127" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Get 100 sniper arrows."/>
+            <missionstate id="1" description="Mission Complete."/>   
+        </mission>
+        <mission name="Crafting Throwing Knifes" storageid="2128" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Get 5 iron ores."/>
+            <missionstate id="1" description="Mission Complete."/>   
+        </mission>
+        <mission name="Crafting Bronze Amulets" storageid="2129" startvalue="0" endvalue="1">
+            <missionstate id="0" description="Get 1 bronze legs."/>
+            <missionstate id="1" description="Mission Complete."/>   
+        </mission>
+    </quest>
+    <quest name="+ Crafting Trait" startstorageid="30029" startstoragevalue="28">
+        <mission name="Crafting Spears - spear craft" storageid="2130" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Crafting Spears - Words: spear craft - lvl: 10 - craft 1 to 0 spears - Reagents: 1 wood plank."/>
+        </mission>
+        <mission name="Crafting Arrows - arrows craft" storageid="2131" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Craftting Arrows - Words: arrows craft - lvl: 20 - craft 10 to 0 arrows - Reagents: 1 wood plank."/>
+        </mission>
+        <mission name="Crafting Throwing Knifes - throwing knifes craft" storageid="2132" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Craftting Throwing Knifes - Words: throwing knifes craft - lvl: 30 - craft 6 to 0 throwing knifes - Reagents: 1 iron ore."/>
+        </mission>
+        <mission name="Crafting Bronze Amulets - bronze amulet craft" storageid="2133" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Craftting Bronze Amulets - Words: bronze amulet craft - lvl: 30 - craft 1 to 0 bronze amulets - Reagents: 1 tin ore and 1 copper ore."/>
+        </mission>
+    </quest>    
 </quests>

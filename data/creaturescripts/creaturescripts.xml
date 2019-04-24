@@ -24,4 +24,13 @@
 	<event type="kill" name="Necroapp 10" script="necroapp10.lua"/>
 	<event type="kill" name="Priestess 20" script="priestess20.lua"/>
 	<event type="kill" name="Cult 4" script="cult4.lua"/>
+	<event type="kill" name="Witches Delegate" script="witchesdelegate.lua"/>
+	<event type="kill" name="Eriador Renegades Delegate" script="eriadorrenegadesdelegate.lua"/>
+	<event type="kill" name="Cave Rat 20 Hunt" script="caverat20hunt.lua"/>
+	<event type="kill" name="Wolf 20 Hunt" script="wolf20hunt.lua"/>
+	<event type="kill" name="Bear 20 Hunt" script="bear20hunt.lua"/>
+	<event type="kill" name="Great Bear 40 Hunt" script="greatbear40hunt.lua"/>
+	<event type="kill" name="Tarantula 40 Hunt" script="tarantula40hunt.lua"/>
+	<event type="kill" name="Fierce Wolf 40 Hunt" script="fiercewolf40hunt.lua"/>
+	<event type="kill" name="Green Rabbit 10" script="greenrabbit10.lua"/>
 </creaturescripts>

@@ -20,7 +20,7 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('I have no mission for you, but thanks.', cid)
 			elseif(getPlayerStorageValue(cid,2107) == 0) then
 					selfSay('Shhh... there are some bandits around here.', cid)			
-					selfSay('Shit. They discovered us!', cid)
+					selfSay('Shit! They discovered us!', cid)
 				setPlayerStorageValue(cid,2107,1)
 				x=getPlayerPosition(cid)
 				doSummonCreature("lone lands horseman",x)

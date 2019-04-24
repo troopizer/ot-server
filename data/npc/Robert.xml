@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Robert" nameDescription="Robert, Crafting Guild Officer, Leader of Brees Guild." walkinterval="2000" script="craftingbree.lua" floorchange="1">
+
+	<health now="150" max="150"/>
+
+	<look type="132" head="58" body="11" legs="117" feet="116" corpse="2212"/>
+
+  <interaction range="3" idletime="60">
+
+
+    <interact keywords="hi" focus="1">
+
+      <keywords>hello</keywords>
+
+ 
+     <response text="Hi..">
+
+     </response>
+
+   </interact>
+ 
+   <interact keywords="bye" focus="0">
+
+      <keywords>farewell</keywords>
+
+
+      <response text="Good bye."/>
+ 
+   </interact>
+
+  </interaction>
+
+</npc>

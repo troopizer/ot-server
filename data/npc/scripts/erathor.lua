@@ -22,9 +22,9 @@ function creatureSayCallback(cid, type, msg)
 					selfSay('Hi brave man, we are the dunedain, the descendants of the mighty warriors of Arnor, if you want to help us in a mission, I can give you a pretty nice reward,{ok}?.', cid)
 				talkState[talkUser] = 1
 			elseif(getPlayerStorageValue(cid,2041) == 20) then
-					selfSay('Great! you are pretty strong, you can now pick one of this rings, they are lesser magic rigns, but are valuable:{club ring}, {sword ring}, {axe ring}, {distance ring} and {life ring}, wich one? (you received 4000 exp) ', cid)
+					selfSay('Great! you are pretty strong, you can now pick one of this rings, they are lesser magic rigns, but are valuable:{meele ring}, {distance ring} and {magic ring}, wich one? (you received 10000 exp) ', cid)
 					setPlayerStorageValue(cid,2041,21)
-					doPlayerAddExperience(cid,4000)
+					doPlayerAddExperience(cid,10000)
 					talkState[talkUser] = 2
 			end
 			
@@ -39,25 +39,18 @@ function creatureSayCallback(cid, type, msg)
 				setPlayerStorageValue(cid,2041,0)
 			end
 		end
-	elseif(msgcontains(msg, 'club ring')) then
+	elseif(msgcontains(msg, 'magic ring')) then
 		if(talkState[talkUser] == 2) then
 			if(getPlayerStorageValue(cid,2041) == 21) then
 				selfSay('here you are.', cid)
 					doPlayerAddItem(cid,2209,1)
 			end
 		end
-	elseif(msgcontains(msg, 'sword ring')) then
+	elseif(msgcontains(msg, 'melee ring')) then
 		if(talkState[talkUser] == 2) then
 			if(getPlayerStorageValue(cid,2041) == 21) then
 				selfSay('here you are.', cid)
 					doPlayerAddItem(cid,2207,1)
-			end
-		end
-	elseif(msgcontains(msg, 'axe ring')) then
-		if(talkState[talkUser] == 2) then
-			if(getPlayerStorageValue(cid,2041) == 21) then
-				selfSay('here you are.', cid)
-					doPlayerAddItem(cid,2208,1)
 			end
 		end
 	elseif(msgcontains(msg, 'distance ring')) then
@@ -65,13 +58,6 @@ function creatureSayCallback(cid, type, msg)
 			if(getPlayerStorageValue(cid,2041) == 21) then
 				selfSay('here you are.', cid)
 					doPlayerAddItem(cid,2203,1)
-			end
-		end
-	elseif(msgcontains(msg, 'life ring')) then
-		if(talkState[talkUser] == 2) then
-			if(getPlayerStorageValue(cid,2041) == 21) then
-				selfSay('here you are.', cid)
-					doPlayerAddItem(cid,2205,1)
 			end
 		end
 		talkState[talkUser] = 0

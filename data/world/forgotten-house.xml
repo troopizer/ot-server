@@ -4,9 +4,8 @@
   <house name="Bree 4" houseid="3" entryx="587" entryy="975" entryz="7" rent="200" townid="1" size="23"/>
   <house name="Bree 1" houseid="4" entryx="586" entryy="1003" entryz="7" rent="100" townid="1" size="12"/>
   <house name="Bree 2" houseid="5" entryx="586" entryy="997" entryz="7" rent="100" townid="1" size="12"/>
-  <house name="Bree 6" houseid="7" entryx="594" entryy="984" entryz="7" rent="300" townid="1" size="33"/>
   <house name="Bree 5" houseid="8" entryx="587" entryy="967" entryz="7" rent="300" townid="1" size="17"/>
-  <house name="Bree farm 1" houseid="10" entryx="608" entryy="956" entryz="7" rent="200" townid="1" size="35"/>
+  <house name="" houseid="10" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="33"/>
   <house name="Bree Prancing Poney 2" houseid="12" entryx="620" entryy="975" entryz="6" rent="100" townid="1" size="4"/>
   <house name="Bree Prancing Poney 3" houseid="13" entryx="619" entryy="972" entryz="6" rent="200" townid="1" size="8"/>
   <house name="Bree Prancing Poney 4" houseid="14" entryx="624" entryy="972" entryz="6" rent="200" townid="1" size="4"/>

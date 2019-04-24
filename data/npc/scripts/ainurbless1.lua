@@ -117,8 +117,12 @@ function creatureSayCallback(cid, type, msg)
 	end
 	if(msgcontains(msg, 'Death') and talkState[talkUser] == 1) then
 		if(getPlayerStorageValue(cid,2060) < 0 and getPlayerStorageValue(cid,2061) < 0 and getPlayerStorageValue(cid,2062) < 0 and getPlayerStorageValue(cid,2063) < 0 and getPlayerStorageValue(cid,2064) < 0 and getPlayerStorageValue(cid,2065) < 0)then
-			if(getPlayerItemCount(cid,2177) >= 1 and getPlayerSkullType(cid) == SKULL_WHITE)then
-				doPlayerRemoveItem(cid,2177,1)
+			if(getPlayerItemCount(cid,2177) >= 1 and getPlayerItemCount(cid,2147) >= 1 and getPlayerItemCount(cid,2146) >= 1 and getPlayerItemCount(cid,2150) >= 1 and getPlayerItemCount(cid,2149) >= 1)then
+				doPlayerRemoveItem(cid,2177,1) 
+				doPlayerRemoveItem(cid,2147,1)
+				doPlayerRemoveItem(cid,2149,1)
+				doPlayerRemoveItem(cid,2146,1)
+				doPlayerRemoveItem(cid,2150,1)
 				setPlayerStorageValue(cid,30019,18)
 				setPlayerStorageValue(cid,2065,0)
 				selfSay('You are now blessed as Necromancer level 1.', cid)	

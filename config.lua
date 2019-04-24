@@ -6,11 +6,11 @@ require 'secrets'
 accountManager = true
 namelockManager = true
 newPlayerChooseVoc = true
-newPlayerSpawnPosX = 1000
-newPlayerSpawnPosY = 1000
-newPlayerSpawnPosZ = 7
+newPlayerSpawnPosX = 616
+newPlayerSpawnPosY = 986
+newPlayerSpawnPosZ = 6
 newPlayerTownId = 1
-newPlayerLevel = 8
+newPlayerLevel = 1
 newPlayerMagicLevel = 0
 generateAccountNumber = false
 
@@ -88,8 +88,8 @@ removeWeaponCharges = true
 removeRuneCharges = true
 whiteSkullTime = 15 * 60 * 1000
 noDamageToSameLookfeet = false
-showHealingDamage = false
-showHealingDamageForMonsters = false
+showHealingDamage = true
+showHealingDamageForMonsters = true
 fieldOwnershipDuration = 5 * 1000
 stopAttackingAtExit = false
 oldConditionAccuracy = false
@@ -240,7 +240,7 @@ premiumForPromotion = true
 -- Blessings
 -- NOTE: blessingReduction* regards items/containers loss.
 -- eachBlessReduction is how much each bless reduces the experience/magic/skills loss.
-blessingOnlyPremium = true
+blessingOnlyPremium = false
 blessingReductionBase = 30
 blessingReductionDecreament = 5
 eachBlessReduction = 8
@@ -293,9 +293,9 @@ staminaThresholdOnlyPremium = true
 experienceShareRadiusX = 30
 experienceShareRadiusY = 30
 experienceShareRadiusZ = 1
-experienceShareLevelDifference = 2 / 3
+experienceShareLevelDifference = 1 / 3
 extraPartyExperienceLimit = 20
-extraPartyExperiencePercent = 5
+extraPartyExperiencePercent = 10
 experienceShareActivity = 2 * 60 * 1000
 
 -- Global save
@@ -308,12 +308,12 @@ cleanMapAtGlobalSave = false
 
 -- Spawns
 deSpawnRange = 2
-deSpawnRadius = 50
+deSpawnRadius = 100
 
 -- Summons
-maxPlayerSummons = 2
+maxPlayerSummons = 8
 teleportAllSummons = false
-teleportPlayerSummons = false
+teleportPlayerSummons = true
 
 -- Status
 ownerName = ""

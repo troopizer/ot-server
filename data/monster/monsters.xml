@@ -29,6 +29,7 @@
 	<monster name="Penguin" file="Birds/penguin.xml"/>
 	<monster name="Seagull" file="Birds/seagull.xml"/>
 	<monster name="Terror Bird" file="Birds/terror bird.xml"/>
+	<monster name="Marsh Stalker" file="Birds/marsh stalker.xml"/>
 
 	<!-- Canines -->
 	<monster name="Dog" file="Canines/dog.xml"/>
@@ -59,6 +60,7 @@
 	<monster name="Wisp" file="Ghosts/wisp.xml"/>
 	<monster name="Strong Wisp" file="Ghosts/strong wisp.xml"/>
 	<monster name="Lost Soul" file="Ghosts/lost soul.xml"/>
+	<monster name="Cardolan Ghost" file="Ghosts/cardolan ghost.xml"/>
 
 	<!-- Goblins -->
 	<monster name="Goblin" file="Goblins/goblin.xml"/>
@@ -82,6 +84,8 @@
 	<monster name="Scarab" file="Insects/scarab.xml"/>
 	<monster name="Wasp" file="Insects/wasp.xml"/>
 	<monster name="Yellow Butterfly" file="Insects/yellow butterfly.xml"/>
+	<monster name="Terramite" file="Insects/terramite.xml"/>
+	<monster name="Slug" file="Insects/slug.xml"/>
 
 	<!-- Quests -->
 	<monster name="Raging Wolf" file="Quests/raging wolf.xml"/>
@@ -109,6 +113,7 @@
 	<monster name="Water Buffalo" file="Misc/water buffalo.xml"/>
 	<monster name="Wild Boar" file="Misc/wild boar.xml"/>
 	<monster name="Wild Horse" file="Misc/wild horse.xml"/>
+	<monster name="Greenfields Rabbit" file="Misc/greenfields rabbit.xml"/>
 
 	<!-- Necromancers -->
 	<monster name="Necromancer" file="Necromancers/necromancer.xml"/>
@@ -141,6 +146,7 @@
 	<monster name="Lone Lands Hunter" file="Outlaws/mad hunter.xml"/>
 	<monster name="Lone Lands Horseman" file="Outlaws/lone lands horseman.xml"/>
 	<monster name="Lone Lands Witch" file="Outlaws/lone lands witch.xml"/>
+	<monster name="Witches Delegate" file="Outlaws/witches delegate.xml"/>
 
 	<!-- Rats -->
 	<monster name="Cave Rat" file="Rats/cave rat.xml"/>
@@ -154,6 +160,7 @@
 	<monster name="Eriador Renegades Looter" file="Outlaws/eriador renegades looter.xml"/>
 	<monster name="Eriador Renegades Recruit" file="Outlaws/eriador renegades recruit.xml"/>
 	<monster name="Eriador Renegades Knife Sister" file="Outlaws/eriador renegades knife sister.xml"/>
+	<monster name="Eriador Renegades Delegate" file="Outlaws/eriador renegades delegate.xml"/>
 
 	<!-- Reptiles -->
 	<monster name="Crocodile" file="Reptiles/crocodile.xml"/>
@@ -182,7 +189,8 @@
 	<monster name="Skeleton Warrior" file="Skeletons/skeleton warrior.xml"/>
 	<monster name="Undead Dragon" file="Skeletons/undead dragon.xml"/>
 	<monster name="Undead Gladiator" file="Skeletons/undead gladiator.xml"/>
-
+	<monster name="Skeleton Minion" file="Skeletons/skeleton minion.xml"/>
+	<monster name="Skeleton Soldier" file="Skeletons/skeleton soldier.xml"/>
 	<!-- Undead -->
 	<monster name="Ghoul" file="Undead Humanoids/ghoul.xml"/>
 	<monster name="Crypt Shambler" file="Undead Humanoids/crypt shambler.xml"/>
@@ -192,6 +200,7 @@
 
 	<!-- Trolls -->
 	<monster name="Mountain Troll" file="Trolls/Mountain Troll.xml"/>
+	<monster name="Hill Troll" file="Trolls/hill troll.xml"/>
 
 	<!-- Mounts -->
 	<monster name="Donkey" file="Mounts/donkey.xml"/>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Eriador Renegades Delegate" nameDescription="a eriador renegades delegate" race="blood" experience="500" speed="290" manacost="450">
+
+	<health now="600" max="600"/>
+	<look type="131" head="116" body="95" legs="114" feet="115" addons="1" corpse="6080"/>
+
+	<targetchange interval="5000" chance="8"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="1"/>
+
+		<flag convinceable="1"/>
+
+		<flag pushable="1"/>
+
+		<flag canpushitems="1"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="25"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="2000" skill="45" attack="45"/>
+
+	</attacks>
+
+	<defenses armor="23" defense="28"/>
+
+	<elements>
+
+		<element firePercent="-5"/>
+		<element earthPercent="0"/>
+
+		<element holyPercent="0"/>
+
+		<element icePercent="0"/>
+
+		<element deathPercent="-5"/>
+		<element energyPercent="-5"/>
+
+	</elements>
+
+	<voices interval="5000" chance="10">
+
+		<voice sentence="In the name of the renegades!"/>
+
+		<voice sentence="My life for the renegades!"/>
+
+	</voices>
+
+	<loot>
+
+		<item id="2429" chance="800"/><!-- iron hoe -->
+
+		<item id="2417" chance="800"/><!-- iron battle hammer -->
+
+		<item id="2485" chance="2000"/><!-- iron chain armor -->
+
+		<item id="2459" chance="2000"/><!-- iron helmet -->
+
+		<item id="2478" chance="800"/><!-- bronze legs -->
+
+		<item id="5913" countmax="1" chance="8000"/><!-- brown piece of cloth -->
+
+		<item id="5909" countmax="1" chance="800"/><!-- white piece of cloth -->
+
+		<item id="1987" chance="80000"/><!-- bag -->
+
+		<item id="2148" countmax="70" chance="90000"/><!-- gold coin -->
+
+		<item id="2787" countmax="3" chance="20000"/><!-- white mushroom -->
+
+		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
+
+	</loot>
+
+</monster>
