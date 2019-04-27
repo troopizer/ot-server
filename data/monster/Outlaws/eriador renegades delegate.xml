@@ -44,15 +44,11 @@
 	<defenses armor="23" defense="28"/>
 
 	<elements>
-
 		<element firePercent="-5"/>
 		<element earthPercent="0"/>
-
 		<element holyPercent="0"/>
-
 		<element icePercent="0"/>
-
-		<element deathPercent="-5"/>
+		<element deathPercent="-10"/>
 		<element energyPercent="-5"/>
 
 	</elements>

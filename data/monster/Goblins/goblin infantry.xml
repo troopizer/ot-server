@@ -23,10 +23,10 @@
 	<defenses armor="25" defense="30"/>
 	<elements>
 		<element earthPercent="5"/>
-		<element icePercent="-5"/>
-		<element deathPercent="-5"/>
+		<element icePercent="0"/>
+		<element deathPercent="-10"/>
 		<element firePercent="-5"/>
-		<element holyPercent="-10"/>
+		<element holyPercent="0"/>
 		<element energyPercent="-5"/>
 	</elements>
 	<voices interval="5000" chance="25">

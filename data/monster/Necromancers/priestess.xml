@@ -35,7 +35,7 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="5"/>
+		<element earthPercent="10"/>
 		<element icePercent="0"/>
 		<element deathPercent="5"/>
 		<element firePercent="-5"/>

@@ -22,9 +22,9 @@
 	<defenses armor="20" defense="25" />
 	<elements>
 		<element firePercent="-10"/>
-		<element earthPercent="0"/>
+		<element earthPercent="10"/>
 		<element holyPercent="0"/>
-		<element icePercent="0"/>
+		<element icePercent="-10"/>
 		<element deathPercent="-10"/>
 		<element energyPercent="-10"/>
 	</elements>

@@ -36,10 +36,11 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="-10"/>
-		<element deathPercent="-50"/>
+		<element energyPercent="-5"/>
+		<element earthPercent="0"/>
+		<element deathPercent="-30"/>
 		<element holyPercent="90"/>
-		<element icePercent="-20"/>
+		<element icePercent="-5"/>
 	</elements>
 	<immunities>
 		<immunity drunk="1"/>

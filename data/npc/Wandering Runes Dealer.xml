@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Wandering Runes Dealer" script="weapons.lua" nameDescription="a runes dealer" walkinterval="2000" floorchange="0">
+
+	<health now="100" max="100"/>
+
+	<look type="138" head="0" body="114" legs="114" feet="114" addons="3"/>
+
+	<parameters>
+	
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I buy and sell runes."/>
+		<parameter key="shop_buyable" value="herbal paralyze rune,2278,50;herbal poison rune,2285,50;herbal healing rune,2265,70;fire missile rune,2303,150;energy missile rune,2279,150;ice missile rune,2271,150;earth missile rune,2287,150;life missile rune,2295,150;death missile rune,2263,150"/>
+	</parameters>
+</npc>

@@ -47,14 +47,14 @@
 	<elements>
 
 		<element firePercent="-10"/>
-		<element earthPercent="20"/>
+		<element earthPercent="30"/>
 
 		<element holyPercent="0"/>
 
-		<element icePercent="-10"/>
+		<element icePercent="-5"/>
 
 		<element deathPercent="-10"/>
-		<element energyPercent="-10"/>
+		<element energyPercent="-5"/>
 
 	</elements>
 
@@ -74,15 +74,15 @@
 
 	<loot>
 
-		<item id="3976" countmax="15" chance="70000"/><!-- worm -->
+		<item id="3976" countmax="18" chance="70000"/><!-- worm -->
 
 		<item id="5880" chance="1000"/><!-- iron ore -->
 
 		<item id="11186" chance="20000"/><!--carrion worm fang-->
 		
-		<item id="2145" chance="300"/><!-- small diamond -->
+		<item id="2145" chance="200"/><!-- small diamond -->
 
-		<item id="2146" chance="200"/><!-- small sapphire -->
+		<item id="2149" chance="300"/><!-- small emerald-->
 
 		<item id="2804" countmax="1" chance="5000"/><!-- shadow herb -->
 

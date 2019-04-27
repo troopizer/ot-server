@@ -25,9 +25,9 @@
 		<element firePercent="-10"/>
 		<element earthPercent="0"/>
 		<element holyPercent="0"/>
-		<element icePercent="5"/>
+		<element icePercent="15"/>
 		<element deathPercent="-10"/>
-		<element energyPercent="-10"/>
+		<element energyPercent="-5"/>
 	</elements>
 	<voices interval="3000" chance="30">
 		<voice sentence="Groooarrrrrr" yell="1"/>

@@ -2438,7 +2438,10 @@
         <attribute key="runeSpellName" value="adevo mas vis" />
         <attribute key="weight" value="120" />
     </item>
-    <item fromid="2263" toid="2264" article="a" name="spell rune">
+    <item id="2263" article="a" name="death missile rune">
+        <attribute key="weight" value="120" />
+    </item>
+    <item id="2264" article="a" name="spell rune">
         <attribute key="weight" value="120" />
     </item>
     <item id="2265" article="a" name="herbal healing rune">
@@ -2463,7 +2466,7 @@
     <item id="2270" article="a" name="spell rune">
         <attribute key="weight" value="120" />
     </item>
-    <item id="2271" article="an" name="icicle rune">
+    <item id="2271" article="an" name="ice missile rune">
         <attribute key="runeSpellName" value="adori frigo" />
         <attribute key="weight" value="120" />
     </item>
@@ -2489,7 +2492,7 @@
         <attribute key="runeSpellName" value="asëa turca halcin certa" />
         <attribute key="weight" value="120" />
     </item>
-    <item id="2279" article="an" name="energy wall rune">
+    <item id="2279" article="an" name="energy missile rune">
         <attribute key="runeSpellName" value="adevo mas grav vis" />
         <attribute key="weight" value="120" />
     </item>
@@ -2511,7 +2514,7 @@
         <attribute key="runeSpellName" value="adevo mas pox" />
         <attribute key="weight" value="120" />
     </item>
-    <item id="2287" article="a" name="light magic missile rune">
+    <item id="2287" article="a" name="earth missile rune">
         <attribute key="runeSpellName" value="adori min vis" />
         <attribute key="weight" value="120" />
     </item>
@@ -2542,7 +2545,7 @@
     <item id="2294" article="a" name="spell rune">
         <attribute key="weight" value="120" />
     </item>
-    <item id="2295" article="a" name="holy missile rune">
+    <item id="2295" article="a" name="life missile rune">
         <attribute key="runeSpellName" value="adori san" />
         <attribute key="weight" value="120" />
     </item>
@@ -2557,7 +2560,7 @@
         <attribute key="runeSpellName" value="adori flam" />
         <attribute key="weight" value="120" />
     </item>
-    <item id="2303" article="a" name="fire wall rune">
+    <item id="2303" article="a" name="fire missile rune">
         <attribute key="runeSpellName" value="adevo mas grav flam" />
         <attribute key="weight" value="120" />
     </item>
@@ -4165,8 +4168,8 @@
 		<attribute key="manaTicks" value="3000" />
 		<attribute key="showduration" value="1" />
 	</item>
-    <item id="2641" name="iron studded boots">
-        <attribute key="weight" value="1500" />
+    <item id="2641" name="studded boots">
+        <attribute key="weight" value="2000" />
         <attribute key="armor" value="2" />
         <attribute key="slotType" value="feet" />
     </item>

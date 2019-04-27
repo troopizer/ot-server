@@ -38,7 +38,7 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element holyPercent="-10"/>
+		<element holyPercent="-5"/>
 		<element firePercent="20"/>
 		<element earthPercent="-20"/>
 		<element icePercent="-10"/>

@@ -56,7 +56,7 @@
 		<element deathPercent="-10"/>
 		<element holyPercent="0"/>
 		<element icePercent="-10"/>
-		<element energyPercent="-10"/>
+		<element energyPercent="-5"/>
 	</elements>
 	<immunities>
 		<immunity lifedrain="0"/>

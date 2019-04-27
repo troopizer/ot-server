@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <monster name="Mountain Troll" nameDescription="a mountain troll" race="blood" experience="3500" speed="360" manacost="0">
 	<health now="4000" max="4000"/>
 	<look type="55" corpse="5999"/>
@@ -33,7 +33,7 @@
 	</defenses>
 	<elements>
 		<element earthPercent="70"/>
-		<element holyPercent="-15"/>
+		<element holyPercent="0"/>
 		<element firePercent="10"/>
 		<element energyPercent="20"/>
 		<element physicalPercent="50"/>
@@ -49,7 +49,7 @@
 	</voices>
 	<loot>
 		<item id="1987" chance="80000"/><!-- bag -->
-				<item id="7432" chance="5000"/><!-- troll club -->
+				<item id="7432" chance="1000"/><!-- troll club -->
 				<item id="2666" countmax="6" chance="40000"/><!-- meat -->
 				<item id="5930" countmax="1" chance="20000"/><!-- behemoth claw -->
 		        <item id="2148" countmax="100" chance="900000"/><!-- gold coin -->

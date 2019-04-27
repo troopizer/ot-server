@@ -50,7 +50,7 @@
 	</defenses>
 	<elements>
 		<element firePercent="-10"/>
-		<element earthPercent="50"/>
+		<element earthPercent="70"/>
 		<element deathPercent="-10"/>
 		<element holyPercent="0"/>
 		<element icePercent="-10"/>
@@ -65,7 +65,8 @@
 	</immunities>
 	<loot>
 		<item id="2200" chance="2000"/><!-- protection amulet-->
-		<item id="2477" chance="400"/><!-- arnorian chain legs -->
+		<item id="3967" chance="3000"/><!-- eriador battle helmet -->
+		<item id="2477" chance="800"/><!-- arnorian chain legs -->
 		<item id="2647" chance="2000"/><!-- iron legs -->	
 		<item id="2463" chance="4000"/><!-- iron armor -->		
 		<item id="11369" countmax="1" chance="10000"/><!-- perfect behemoth fang -->
@@ -77,7 +78,7 @@
 		<item id="2147" chance="300"/><!-- small ruby -->
 		<item id="2149" chance="300"/><!-- small emerald-->
 		<item id="2804" countmax="5" chance="10000"/><!-- shadow herb -->
-		<item id="2145" chance="600"/><!-- small diamond -->
+		<item id="2145" chance="800"/><!-- small diamond -->
  		<item id="2803" countmax="3" chance="10000"/><!-- powder herb -->
 	</loot>
 </monster>

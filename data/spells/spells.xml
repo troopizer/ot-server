@@ -117,6 +117,7 @@
 	</instant>
 	<instant group="support" name="Fire Disenchantment" words="nar nancarluce" lvl="50" mana="120" prem="0" range="0" soul="5" blockwalls="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="fire/fire disenchantment.lua">
 	</instant>
+	<rune group="attack" name="Fire Missile" id="2303" allowfaruse="1" charges="1" lvl="50" maglv="20" cooldown="1000" groupcooldown="2000" blocktype="solid" script="runes/fire missile rune.lua"/>
 		<!-- Wind Spells-->
 	<instant group="attack" name="Energy Basic Shoot" words="sure pente" lvl="40" maglv="20" mana="40" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="wind/energy strike.lua">
 	</instant>
@@ -130,6 +131,7 @@
 	</instant>
 	<instant group="support" name="Energy Disenchantment" words="sure nancarluce" lvl="50" mana="120" prem="0" range="0" soul="5" blockwalls="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="wind/energy disenchantment.lua">
 	</instant>
+	<rune group="attack" name="Energy Missile" id="2279" allowfaruse="1" charges="1" lvl="50" maglv="20" cooldown="1000" groupcooldown="2000" blocktype="solid" script="runes/energy missile rune.lua"/>
 		<!-- Earth Spells-->
 	<instant group="attack" name="Earth Basic Shoot" words="cen pente" lvl="40" maglv="20" mana="40" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="earth/terra strike.lua">
 	</instant>
@@ -143,6 +145,7 @@
 	</instant>
 	<instant group="support" name="Earth Disenchantment" words="cen nancarluce" lvl="50" mana="120" prem="0" range="0" soul="5" blockwalls="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="earth/earth disenchantment.lua">
 	</instant>
+	<rune group="attack" name="Earth Missile" id="2287" allowfaruse="1" charges="1" lvl="50" maglv="20" cooldown="1000" groupcooldown="2000" blocktype="solid" script="runes/earth missile rune.lua"/>
 		<!-- Water Spells-->
 	<instant group="attack" name="Ice Basic Shoot" words="nen pente" lvl="40" maglv="20" mana="40" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="water/ice strike.lua">
 	</instant>
@@ -156,6 +159,7 @@
 	</instant>
 	<instant group="support" name="Ice Disenchantment" words="nen nancarluce" lvl="50" mana="120" prem="0" range="0" soul="5" blockwalls="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="water/ice disenchantment.lua">
 	</instant>
+	<rune group="attack" name="Ice Missile" id="2271" allowfaruse="1" charges="1" lvl="50" maglv="20" cooldown="1000" groupcooldown="2000" blocktype="solid" script="runes/ice missile rune.lua"/>
 		<!-- Life Spells-->
 	<instant group="attack" name="Life Basic Shoot" words="coi pente" lvl="40" maglv="20" mana="40" prem="0" range="3" casterTargetOrDirection="1" needlearn="0" blockwalls="1" cooldown="1000" groupcooldown="2000" script="life/divine missile.lua">
 	</instant>
@@ -167,6 +171,7 @@
 	</instant>
 	<instant group="attack" name="Twisting Life Slash" words="coi aucirhanc" lvl="50" mana="80" prem="0" range="0" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="life/twisting life slash.lua">
 	</instant>
+	<rune group="attack" name="Life Missile" id="2295" allowfaruse="1" charges="1" lvl="50" maglv="20" cooldown="1000" groupcooldown="2000" blocktype="solid" script="runes/life missile rune.lua"/>
 		<!-- Death Spells-->
 	<instant group="attack" name="Death Basic Shoot" words="kurz kallog" lvl="40" maglv="20" mana="40" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="death/death strike.lua">
 	</instant>
@@ -178,6 +183,7 @@
 	</instant>
 	<instant group="attack" name="Twisting Death Slash" words="kurz faglind" lvl="50" mana="80" prem="0" range="0" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="death/twisting death slash.lua">
 	</instant>
+	<rune group="attack" name="Death Missile" id="2263" allowfaruse="1" charges="1" lvl="50" maglv="20" cooldown="1000" groupcooldown="2000" blocktype="solid" script="runes/death missile rune.lua"/>
 		<!-- God Spells
     <instant name="God Rage" words="just die" lvl="1" maglv="1" mana="1" exhaustion="1000" access="5" needlearn="0" blockwalls="0" aggressive="1" script="god/god rage.lua">
 

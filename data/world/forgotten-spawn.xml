@@ -4501,6 +4501,9 @@
   <spawn centerx="1194" centery="979" centerz="7" radius="2">
     <monster name="Warg Wolf" x="0" y="-1" z="7" spawntime="300"/>
   </spawn>
+  <spawn centerx="618" centery="980" centerz="7" radius="1">
+    <npc name="Wandering Runes Dealer" x="-1" y="0" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="672" centery="980" centerz="7" radius="1">
     <npc name="Deniam" x="0" y="-1" z="7" spawntime="360"/>
   </spawn>
@@ -6738,6 +6741,9 @@
   <spawn centerx="681" centery="633" centerz="8" radius="2">
     <monster name="Necromancer Apprentice" x="-2" y="-1" z="8" spawntime="300"/>
   </spawn>
+  <spawn centerx="1136" centery="633" centerz="8" radius="2">
+    <monster name="Goblin Heavy Infantry" x="1" y="-1" z="8" spawntime="300"/>
+  </spawn>
   <spawn centerx="533" centery="637" centerz="8" radius="1">
     <monster name="Ghost" x="-1" y="-1" z="8" spawntime="300"/>
     <monster name="Ghoul" x="1" y="1" z="8" spawntime="300"/>
@@ -6868,12 +6874,12 @@
   <spawn centerx="515" centery="773" centerz="8" radius="1">
     <monster name="Eriador Renegades Recruit" x="0" y="-1" z="8" spawntime="130"/>
   </spawn>
-  <spawn centerx="767" centery="774" centerz="8" radius="2">
-    <monster name="Mountain Troll" x="-1" y="1" z="8" spawntime="600"/>
-  </spawn>
   <spawn centerx="503" centery="775" centerz="8" radius="1">
     <monster name="Cooper Deposit" x="-1" y="1" z="8" spawntime="360"/>
     <monster name="Cooper Deposit" x="1" y="1" z="8" spawntime="360"/>
+  </spawn>
+  <spawn centerx="769" centery="775" centerz="8" radius="2">
+    <monster name="Hill Troll" x="-1" y="0" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="490" centery="776" centerz="8" radius="1">
     <monster name="Iron Deposit" x="-1" y="0" z="8" spawntime="300"/>
@@ -7753,6 +7759,7 @@
   </spawn>
   <spawn centerx="1153" centery="574" centerz="9" radius="2">
     <monster name="Goblin Infantry" x="1" y="-1" z="9" spawntime="300"/>
+    <monster name="Goblin Heavy Infantry" x="2" y="0" z="9" spawntime="300"/>
   </spawn>
   <spawn centerx="1162" centery="574" centerz="9" radius="1">
     <monster name="Tin Deposit" x="0" y="1" z="9" spawntime="300"/>
@@ -7773,6 +7780,10 @@
   <spawn centerx="1153" centery="580" centerz="9" radius="1">
     <monster name="Tin Deposit" x="1" y="0" z="9" spawntime="300"/>
     <monster name="Tin Deposit" x="-1" y="1" z="9" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1139" centery="583" centerz="9" radius="2">
+    <monster name="Goblin Skirmisher" x="2" y="-1" z="9" spawntime="300"/>
+    <monster name="Goblin Heavy Infantry" x="-1" y="2" z="9" spawntime="300"/>
   </spawn>
   <spawn centerx="569" centery="586" centerz="9" radius="1">
     <monster name="Ghoul" x="1" y="-1" z="9" spawntime="300"/>
@@ -7813,6 +7824,9 @@
     <monster name="Goblin Skirmisher" x="1" y="1" z="9" spawntime="300"/>
     <monster name="Goblin Infantry" x="-1" y="2" z="9" spawntime="300"/>
   </spawn>
+  <spawn centerx="1121" centery="598" centerz="9" radius="2">
+    <monster name="Goblin Heavy Infantry" x="0" y="-1" z="9" spawntime="300"/>
+  </spawn>
   <spawn centerx="1125" centery="598" centerz="9" radius="2">
     <monster name="Goblin Infantry" x="1" y="1" z="9" spawntime="300"/>
   </spawn>
@@ -7823,9 +7837,12 @@
     <monster name="Goblin Infantry" x="-1" y="-1" z="9" spawntime="300"/>
     <monster name="Goblin Infantry" x="2" y="2" z="9" spawntime="300"/>
   </spawn>
-  <spawn centerx="1172" centery="601" centerz="9" radius="1">
-    <monster name="Iron Deposit" x="0" y="1" z="9" spawntime="300"/>
+  <spawn centerx="1170" centery="600" centerz="9" radius="2">
+    <monster name="Goblin Infantry" x="1" y="-2" z="9" spawntime="300"/>
+    <monster name="Goblin Skirmisher" x="-1" y="2" z="9" spawntime="300"/>
+    <monster name="Iron Deposit" x="2" y="2" z="9" spawntime="300"/>
   </spawn>
+  <spawn centerx="1172" centery="601" centerz="9" radius="1"/>
   <spawn centerx="1143" centery="602" centerz="9" radius="2">
     <monster name="Goblin Skirmisher" x="0" y="-2" z="9" spawntime="300"/>
     <monster name="Goblin Infantry" x="1" y="0" z="9" spawntime="300"/>
@@ -8328,6 +8345,9 @@
   <spawn centerx="1117" centery="579" centerz="10" radius="1">
     <monster name="Iron Deposit" x="-1" y="0" z="10" spawntime="300"/>
   </spawn>
+  <spawn centerx="1150" centery="580" centerz="10" radius="2">
+    <monster name="Hill Troll" x="2" y="1" z="10" spawntime="300"/>
+  </spawn>
   <spawn centerx="1184" centery="580" centerz="10" radius="1">
     <monster name="Iron Deposit" x="1" y="-1" z="10" spawntime="300"/>
   </spawn>
@@ -8336,10 +8356,6 @@
   </spawn>
   <spawn centerx="1114" centery="582" centerz="10" radius="1">
     <monster name="Iron Deposit" x="1" y="-1" z="10" spawntime="300"/>
-  </spawn>
-  <spawn centerx="1152" centery="582" centerz="10" radius="2">
-    <monster name="Goblin Skirmisher" x="1" y="0" z="10" spawntime="300"/>
-    <monster name="Goblin Heavy Infantry" x="1" y="2" z="10" spawntime="300"/>
   </spawn>
   <spawn centerx="1162" centery="583" centerz="10" radius="2">
     <monster name="Goblin Infantry" x="-1" y="0" z="10" spawntime="300"/>
@@ -8352,6 +8368,7 @@
   </spawn>
   <spawn centerx="1113" centery="586" centerz="10" radius="2">
     <monster name="Goblin Skirmisher" x="-2" y="-2" z="10" spawntime="300"/>
+    <monster name="Goblin Skirmisher" x="-2" y="1" z="10" spawntime="300"/>
     <monster name="Goblin Infantry" x="2" y="2" z="10" spawntime="300"/>
   </spawn>
   <spawn centerx="1159" centery="590" centerz="10" radius="2">
@@ -8359,7 +8376,7 @@
     <monster name="Goblin Infantry" x="1" y="1" z="10" spawntime="300"/>
   </spawn>
   <spawn centerx="1152" centery="591" centerz="10" radius="2">
-    <monster name="Mountain Troll" x="0" y="-1" z="10" spawntime="300"/>
+    <monster name="Hill Troll Hunter" x="-1" y="-1" z="10" spawntime="300"/>
   </spawn>
   <spawn centerx="1107" centery="592" centerz="10" radius="2">
     <monster name="Goblin Heavy Infantry" x="-2" y="2" z="10" spawntime="300"/>
@@ -8375,10 +8392,19 @@
     <monster name="Goblin Heavy Infantry" x="-2" y="-1" z="10" spawntime="300"/>
     <monster name="Goblin Infantry" x="2" y="-1" z="10" spawntime="300"/>
   </spawn>
+  <spawn centerx="1131" centery="601" centerz="10" radius="2">
+    <monster name="Goblin Heavy Infantry" x="-1" y="0" z="10" spawntime="300"/>
+    <monster name="Goblin Infantry" x="2" y="1" z="10" spawntime="300"/>
+  </spawn>
   <spawn centerx="1109" centery="604" centerz="10" radius="2">
     <monster name="Goblin Infantry" x="2" y="-1" z="10" spawntime="300"/>
   </spawn>
+  <spawn centerx="1160" centery="604" centerz="10" radius="2">
+    <monster name="Goblin Skirmisher" x="0" y="-1" z="10" spawntime="300"/>
+    <monster name="Goblin Heavy Infantry" x="-1" y="1" z="10" spawntime="300"/>
+  </spawn>
   <spawn centerx="1128" centery="607" centerz="10" radius="2">
+    <monster name="Goblin Skirmisher" x="-2" y="0" z="10" spawntime="300"/>
     <monster name="Goblin Heavy Infantry" x="2" y="0" z="10" spawntime="300"/>
   </spawn>
   <spawn centerx="1109" centery="608" centerz="10" radius="1">
@@ -8391,6 +8417,10 @@
   </spawn>
   <spawn centerx="1133" centery="613" centerz="10" radius="2">
     <monster name="Goblin Infantry" x="2" y="2" z="10" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1143" centery="617" centerz="10" radius="2">
+    <monster name="Goblin Heavy Infantry" x="-1" y="-1" z="10" spawntime="300"/>
+    <monster name="Goblin Skirmisher" x="-2" y="1" z="10" spawntime="300"/>
   </spawn>
   <spawn centerx="537" centery="626" centerz="10" radius="1">
     <monster name="Ghoul" x="0" y="1" z="10" spawntime="300"/>
@@ -8442,6 +8472,7 @@
   </spawn>
   <spawn centerx="1151" centery="635" centerz="10" radius="2">
     <monster name="Goblin Skirmisher" x="-2" y="0" z="10" spawntime="300"/>
+    <monster name="Goblin Heavy Infantry" x="2" y="1" z="10" spawntime="300"/>
   </spawn>
   <spawn centerx="1164" centery="636" centerz="10" radius="1">
     <monster name="Iron Deposit" x="0" y="1" z="10" spawntime="300"/>
@@ -8473,6 +8504,7 @@
   </spawn>
   <spawn centerx="1135" centery="638" centerz="10" radius="2">
     <monster name="Goblin Infantry" x="0" y="-1" z="10" spawntime="300"/>
+    <monster name="Goblin Skirmisher" x="2" y="0" z="10" spawntime="300"/>
   </spawn>
   <spawn centerx="1140" centery="638" centerz="10" radius="1">
     <monster name="Tin Deposit" x="-1" y="-1" z="10" spawntime="300"/>
@@ -8674,7 +8706,7 @@
     <monster name="Iron Deposit" x="1" y="0" z="11" spawntime="300"/>
   </spawn>
   <spawn centerx="1162" centery="563" centerz="11" radius="2">
-    <monster name="Mountain Troll" x="1" y="-1" z="11" spawntime="300"/>
+    <monster name="Hill Troll" x="1" y="-1" z="11" spawntime="300"/>
     <monster name="Iron Deposit" x="2" y="2" z="11" spawntime="300"/>
   </spawn>
   <spawn centerx="1172" centery="563" centerz="11" radius="1">
@@ -8703,10 +8735,16 @@
   <spawn centerx="1151" centery="574" centerz="11" radius="2">
     <monster name="Goblin Skirmisher" x="1" y="-1" z="11" spawntime="300"/>
     <monster name="Goblin Infantry" x="-1" y="2" z="11" spawntime="300"/>
+    <monster name="Goblin Heavy Infantry" x="1" y="2" z="11" spawntime="300"/>
   </spawn>
   <spawn centerx="1105" centery="576" centerz="11" radius="2">
     <monster name="Goblin Skirmisher" x="-1" y="-1" z="11" spawntime="300"/>
     <monster name="Goblin Infantry" x="0" y="1" z="11" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1143" centery="576" centerz="11" radius="2">
+    <monster name="Goblin Infantry" x="-1" y="0" z="11" spawntime="300"/>
+    <monster name="Goblin Skirmisher" x="2" y="0" z="11" spawntime="300"/>
+    <monster name="Goblin Infantry" x="1" y="2" z="11" spawntime="300"/>
   </spawn>
   <spawn centerx="1180" centery="578" centerz="11" radius="2">
     <monster name="Goblin Skirmisher" x="2" y="0" z="11" spawntime="300"/>
@@ -8757,6 +8795,7 @@
   <spawn centerx="1103" centery="601" centerz="11" radius="2">
     <monster name="Goblin Infantry" x="-1" y="-2" z="11" spawntime="300"/>
     <monster name="Goblin Heavy Infantry" x="1" y="0" z="11" spawntime="300"/>
+    <monster name="Goblin Heavy Infantry" x="1" y="2" z="11" spawntime="300"/>
   </spawn>
   <spawn centerx="1099" centery="602" centerz="11" radius="1">
     <monster name="Cooper Deposit" x="-1" y="1" z="11" spawntime="300"/>
@@ -8772,6 +8811,7 @@
     <monster name="Goblin Skirmisher" x="1" y="2" z="11" spawntime="300"/>
   </spawn>
   <spawn centerx="1100" centery="609" centerz="11" radius="2">
+    <monster name="Goblin Heavy Infantry" x="2" y="-1" z="11" spawntime="300"/>
     <monster name="Goblin Infantry" x="-1" y="0" z="11" spawntime="300"/>
   </spawn>
   <spawn centerx="1105" centery="609" centerz="11" radius="1">
@@ -8783,6 +8823,7 @@
   <spawn centerx="1113" centery="617" centerz="11" radius="2">
     <monster name="Goblin Infantry" x="0" y="-2" z="11" spawntime="300"/>
     <monster name="Goblin Skirmisher" x="-1" y="1" z="11" spawntime="300"/>
+    <monster name="Goblin Heavy Infantry" x="1" y="2" z="11" spawntime="300"/>
   </spawn>
   <spawn centerx="1132" centery="621" centerz="11" radius="1">
     <monster name="Iron Deposit" x="0" y="1" z="11" spawntime="300"/>
@@ -8851,6 +8892,7 @@
   </spawn>
   <spawn centerx="1148" centery="564" centerz="12" radius="2">
     <monster name="Goblin Heavy Infantry" x="0" y="-1" z="12" spawntime="300"/>
+    <monster name="Goblin Skirmisher" x="2" y="-1" z="12" spawntime="300"/>
   </spawn>
   <spawn centerx="1161" centery="564" centerz="12" radius="1">
     <monster name="Iron Deposit" x="-1" y="0" z="12" spawntime="300"/>
@@ -8862,15 +8904,17 @@
   </spawn>
   <spawn centerx="1145" centery="567" centerz="12" radius="1"/>
   <spawn centerx="1155" centery="567" centerz="12" radius="2">
+    <monster name="Goblin Skirmisher" x="0" y="-2" z="12" spawntime="300"/>
     <monster name="Goblin Infantry" x="1" y="-1" z="12" spawntime="300"/>
     <monster name="Goblin Skirmisher" x="-1" y="0" z="12" spawntime="300"/>
+    <monster name="Goblin Heavy Infantry" x="1" y="2" z="12" spawntime="300"/>
   </spawn>
   <spawn centerx="1186" centery="568" centerz="12" radius="2">
     <monster name="Goblin Skirmisher" x="1" y="-1" z="12" spawntime="300"/>
     <monster name="Goblin Heavy Infantry" x="-1" y="1" z="12" spawntime="300"/>
   </spawn>
   <spawn centerx="1192" centery="568" centerz="12" radius="2">
-    <monster name="Mountain Troll" x="2" y="-1" z="12" spawntime="300"/>
+    <monster name="Hill Troll Hunter" x="1" y="-1" z="12" spawntime="300"/>
     <monster name="Goblin Infantry" x="1" y="1" z="12" spawntime="300"/>
   </spawn>
   <spawn centerx="1151" centery="569" centerz="12" radius="1">
@@ -8895,6 +8939,7 @@
   </spawn>
   <spawn centerx="1195" centery="576" centerz="12" radius="2">
     <monster name="Goblin Heavy Infantry" x="2" y="-1" z="12" spawntime="300"/>
+    <monster name="Hill Troll" x="-1" y="1" z="12" spawntime="300"/>
   </spawn>
   <spawn centerx="1160" centery="577" centerz="12" radius="2">
     <monster name="Goblin Skirmisher" x="0" y="-2" z="12" spawntime="300"/>
@@ -8938,6 +8983,9 @@
     <monster name="Goblin Skirmisher" x="1" y="-1" z="12" spawntime="300"/>
     <monster name="Goblin Infantry" x="-1" y="1" z="12" spawntime="300"/>
   </spawn>
+  <spawn centerx="1153" centery="594" centerz="12" radius="2">
+    <monster name="Hill Troll" x="-1" y="0" z="12" spawntime="300"/>
+  </spawn>
   <spawn centerx="1104" centery="597" centerz="12" radius="2">
     <monster name="Goblin Infantry" x="2" y="0" z="12" spawntime="300"/>
     <monster name="Goblin Skirmisher" x="2" y="1" z="12" spawntime="300"/>
@@ -8947,7 +8995,7 @@
   </spawn>
   <spawn centerx="1140" centery="599" centerz="12" radius="2">
     <monster name="Goblin Infantry" x="-2" y="0" z="12" spawntime="300"/>
-    <monster name="Mountain Troll" x="0" y="2" z="12" spawntime="300"/>
+    <monster name="Hill Troll" x="-1" y="1" z="12" spawntime="300"/>
   </spawn>
   <spawn centerx="1109" centery="600" centerz="12" radius="2">
     <monster name="Goblin Infantry" x="2" y="-1" z="12" spawntime="300"/>

@@ -37,7 +37,7 @@
 	<elements>
 		<element earthPercent="10"/>
 		<element icePercent="10"/>
-		<element deathPercent="20"/>
+		<element deathPercent="25"/>
 		<element firePercent="-5"/>
 		<element holyPercent="-20"/>
 	</elements>

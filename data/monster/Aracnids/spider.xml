@@ -23,11 +23,11 @@
 	<defenses armor="2" defense="2"/>
 	<elements>
 		<element firePercent="-10"/>
-		<element earthPercent="30"/>
+		<element earthPercent="50"/>
 		<element deathPercent="-10"/>
 		<element holyPercent="0"/>
 		<element icePercent="-10"/>
-		<element energyPercent="-10"/>
+		<element energyPercent="-5"/>
 	</elements>
 	<loot>
   		<item id="5879" countmax="1" chance="30000"/><!-- spidersilk -->	</loot>

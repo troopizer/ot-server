@@ -50,20 +50,20 @@
 
 		<element holyPercent="0"/>
 
-		<element icePercent="-10"/>
+		<element icePercent="-5"/>
 
 		<element deathPercent="-10"/>
-		<element energyPercent="-10"/>
+		<element energyPercent="-5"/>
 
 	</elements>
 
 	<loot>
 
-		<item id="3976" countmax="12" chance="70000"/><!-- worm -->
+		<item id="3976" countmax="15" chance="70000"/><!-- worm -->
 
 		<item id="5880" chance="500"/><!-- iron ore -->
 
-		<item id="2145" chance="100"/><!-- small diamond -->
+		<item id="2145" chance="50"/><!-- small diamond -->
 
 		<item id="2804" countmax="1" chance="5000"/><!-- shadow herb -->
 

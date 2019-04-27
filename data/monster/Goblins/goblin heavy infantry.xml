@@ -19,7 +19,7 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="60" attack="60"/>
-		<attack name="physical" interval="2000" chance="20" range="4" min="-60" max="-120">
+		<attack name="physical" interval="2000" chance="30" range="4" min="-60" max="-120">
 
 			<attribute key="shootEffect" value="spear"/>
 
@@ -29,9 +29,9 @@
 	<elements>
 		<element earthPercent="5"/>
 		<element icePercent="0"/>
-		<element deathPercent="-5"/>
+		<element deathPercent="-10"/>
 		<element firePercent="-5"/>
-		<element holyPercent="-10"/>
+		<element holyPercent="0"/>
 		<element energyPercent="-5"/>
 	</elements>
 	<voices interval="5000" chance="40">
