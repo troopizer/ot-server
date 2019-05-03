@@ -186,6 +186,7 @@ end
 getCreaturePos = getCreaturePosition
 
 function doCreatureAddHealth(cid, health) local c = Creature(cid) return c ~= nil and c:addHealth(health) or false end
+function doCreatureTeleport(cid, position) local c = Creature(cid) return c ~= nil and c:teleportTo(position) or false end
 function doCreatureSetMaxHealth(cid, maxhealth) local c = Creature(cid) return c ~= nil and c:setMaxHealth(maxhealth) or false end
 function doCreatureSetMaxMana(cid, maxmana) local c = Creature(cid) return c ~= nil and c:setMaxMana(maxmana) or false end
 function doRemoveCreature(cid) local c = Creature(cid) return c ~= nil and c:remove() or false end

@@ -3,7 +3,7 @@ combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_YELLOWENERGY)
 combat:setParameter(COMBAT_PARAM_AGGRESSIVE, false)
 local condition = Condition(CONDITION_ATTRIBUTES)
 condition:setParameter(CONDITION_PARAM_TICKS, 600000)
-condition:setParameter(CONDITION_PARAM_SKILL_SHIELDPERCENT, 110)
+condition:setParameter(CONDITION_PARAM_SKILL_SHIELDPERCENT, 115)
 condition:setParameter(CONDITION_PARAM_BUFF, true)
 combat:setCondition(condition)
 

@@ -76,33 +76,34 @@
 
 		<!-- Martial Spells-->
 
-	<instant group="attack" name="Strong Strike" words="turca pente" lvl="30" maglv="7" mana="60" cooldown="1000" groupcooldown="2000" prem="0" needlearn="0" range="1" casterTargetOrDirection="1" blockwalls="1" aggressive="1" script="martial/strong strike.lua">
+	<instant group="attack" name="Strong Strike" words="turca pente" lvl="30" mana="60" cooldown="1000" groupcooldown="2000" prem="0" needlearn="0" range="1" casterTargetOrDirection="1" blockwalls="1" aggressive="1" script="martial/strong strike.lua">
 	</instant>
-	<instant group="attack" name="Twisting Slash" words="aucirhanc" lvl="30" maglv="7" mana="80" range="0" cooldown="1000" groupcooldown="2000" prem="0" needlearn="0" blockwalls="1" aggressive="1" script="martial/twisting slash.lua">
-	</instant>
-
-	<instant group="support" name="Shield Wall" words="thangail" lvl="30" maglv="7" mana="120" cooldown="1000" groupcooldown="10000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" script="martial/shield wall.lua">
+	<instant group="attack" name="Twisting Slash" words="aucirhanc" lvl="30" mana="80" range="0" cooldown="1000" groupcooldown="2000" prem="0" needlearn="0" blockwalls="1" aggressive="1" script="martial/twisting slash.lua">
 	</instant>
 
-	<instant group="support" name="Sharp Aim" words="hendumaica" lvl="30" maglv="7" mana="150" cooldown="1000" groupcooldown="20000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" script="martial/sharp aim.lua">
+	<instant group="support" name="Shield Wall" words="thangail" lvl="30" mana="120" cooldown="1000" groupcooldown="10000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" script="martial/shield wall.lua">
 	</instant>
 
-	<instant group="support" name="Forced march" words="nire eldo" lvl="30" maglv="7" mana="60" cooldown="1000" groupcooldown="1000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" script="martial/forced march.lua">
+	<instant group="support" name="Sharp Aim" words="hendumaica" lvl="30" mana="150" cooldown="1000" groupcooldown="20000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" script="martial/sharp aim.lua">
+	</instant>
+
+	<instant group="support" name="Forced march" words="nire eldo" lvl="30" mana="60" cooldown="1000" groupcooldown="1000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" script="martial/forced march.lua">
 	</instant>
 
 	<instant group="support" name="Climbing" words="retto" lvl="30" mana="50" prem="1" aggressive="0" cooldown="1000" groupcooldown="1000" params="1" needlearn="0" event="function" value="Levitate">
     </instant>
-
-    <instant group="attack" name="Spear Throw" words="hatal pente" lvl="40" maglv="15" mana="60" range="5" needtarget="1" cooldown="1000" groupcooldown="2000" blockwalls="1" needlearn="0" script="martial/spear throw.lua">
+	<instant group="support" name="Find Person" words="exiva" lvl="40" mana="20" aggressive="0" params="1" exhaustion="1000" needlearn="0" event="function" value="searchPlayer">
+    </instant>
+    <instant group="attack" name="Spear Throw" words="hatal pente" lvl="40" mana="60" range="5" needtarget="1" cooldown="1000" groupcooldown="2000" blockwalls="1" needlearn="0" script="martial/spear throw.lua">
 	</instant>
 
-	<instant group="attack" name="Frontal Long Slash" words="anda pente" lvl="40" maglv="15" mana="100" range="0" direction="1" cooldown="1000" groupcooldown="2000" prem="0" needlearn="0" blockwalls="1" aggressive="1" script="martial/frontal long slash.lua">
+	<instant group="attack" name="Frontal Long Slash" words="anda pente" lvl="40" mana="100" range="0" direction="1" cooldown="1000" groupcooldown="2000" prem="0" needlearn="0" blockwalls="1" aggressive="1" script="martial/frontal long slash.lua">
 	</instant>
 
-	<instant group="support" name="Warrior Rage" words="mahtar" lvl="40" maglv="15" mana="180" cooldown="1000" groupcooldown="20000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" script="martial/warrior rage.lua">
+	<instant group="support" name="Warrior Rage" words="mahtar" lvl="40" mana="180" cooldown="1000" groupcooldown="20000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" script="martial/warrior rage.lua">
 	</instant>
 
-	<instant group="support" name="Charge" words="nor eldo" lvl="40" maglv="15" mana="100" cooldown="1000" groupcooldown="1000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" script="martial/charge.lua">
+	<instant group="support" name="Charge" words="nor eldo" lvl="40" mana="100" cooldown="1000" groupcooldown="1000" prem="0" needlearn="0" selftarget="1" blockwalls="1" aggressive="0" script="martial/charge.lua">
 	</instant>
 		<!-- Fire Spells-->
 	<instant group="attack" name="Fire Basic Shoot" words="nar pente" lvl="40" maglv="20" mana="40" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="fire/flame strike.lua">
@@ -118,6 +119,8 @@
 	<instant group="support" name="Fire Disenchantment" words="nar nancarluce" lvl="50" mana="120" prem="0" range="0" soul="5" blockwalls="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="fire/fire disenchantment.lua">
 	</instant>
 	<rune group="attack" name="Fire Missile" id="2303" allowfaruse="1" charges="1" lvl="50" maglv="20" cooldown="1000" groupcooldown="2000" blocktype="solid" script="runes/fire missile rune.lua"/>
+	<instant group="support" name="Fire Missile Rune" words="nar pente certa" lvl="50" maglv="40" mana="250" soul="3" cooldown="1000" groupcooldown="1000" needlearn="0" aggressive="0" script="conjure runes/fire missile rune.lua">
+	</instant>
 		<!-- Wind Spells-->
 	<instant group="attack" name="Energy Basic Shoot" words="sure pente" lvl="40" maglv="20" mana="40" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="wind/energy strike.lua">
 	</instant>
@@ -132,6 +135,8 @@
 	<instant group="support" name="Energy Disenchantment" words="sure nancarluce" lvl="50" mana="120" prem="0" range="0" soul="5" blockwalls="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="wind/energy disenchantment.lua">
 	</instant>
 	<rune group="attack" name="Energy Missile" id="2279" allowfaruse="1" charges="1" lvl="50" maglv="20" cooldown="1000" groupcooldown="2000" blocktype="solid" script="runes/energy missile rune.lua"/>
+	<instant group="support" name="Energy Missile Rune" words="sure pente certa" lvl="50" maglv="40" mana="250" soul="3" cooldown="1000" groupcooldown="1000" needlearn="0" aggressive="0" script="conjure runes/energy missile rune.lua">
+	</instant>
 		<!-- Earth Spells-->
 	<instant group="attack" name="Earth Basic Shoot" words="cen pente" lvl="40" maglv="20" mana="40" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="earth/terra strike.lua">
 	</instant>
@@ -146,6 +151,8 @@
 	<instant group="support" name="Earth Disenchantment" words="cen nancarluce" lvl="50" mana="120" prem="0" range="0" soul="5" blockwalls="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="earth/earth disenchantment.lua">
 	</instant>
 	<rune group="attack" name="Earth Missile" id="2287" allowfaruse="1" charges="1" lvl="50" maglv="20" cooldown="1000" groupcooldown="2000" blocktype="solid" script="runes/earth missile rune.lua"/>
+	<instant group="support" name="Earth Missile Rune" words="cen pente certa" lvl="50" maglv="40" mana="250" soul="3" cooldown="1000" groupcooldown="1000" needlearn="0" aggressive="0" script="conjure runes/earth missile rune.lua">
+	</instant>
 		<!-- Water Spells-->
 	<instant group="attack" name="Ice Basic Shoot" words="nen pente" lvl="40" maglv="20" mana="40" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="water/ice strike.lua">
 	</instant>
@@ -160,6 +167,8 @@
 	<instant group="support" name="Ice Disenchantment" words="nen nancarluce" lvl="50" mana="120" prem="0" range="0" soul="5" blockwalls="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="water/ice disenchantment.lua">
 	</instant>
 	<rune group="attack" name="Ice Missile" id="2271" allowfaruse="1" charges="1" lvl="50" maglv="20" cooldown="1000" groupcooldown="2000" blocktype="solid" script="runes/ice missile rune.lua"/>
+	<instant group="support" name="Ice Missile Rune" words="nen pente certa" lvl="50" maglv="40" mana="250" soul="3" cooldown="1000" groupcooldown="1000" needlearn="0" aggressive="0" script="conjure runes/ice missile rune.lua">
+	</instant>
 		<!-- Life Spells-->
 	<instant group="attack" name="Life Basic Shoot" words="coi pente" lvl="40" maglv="20" mana="40" prem="0" range="3" casterTargetOrDirection="1" needlearn="0" blockwalls="1" cooldown="1000" groupcooldown="2000" script="life/divine missile.lua">
 	</instant>
@@ -172,6 +181,8 @@
 	<instant group="attack" name="Twisting Life Slash" words="coi aucirhanc" lvl="50" mana="80" prem="0" range="0" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="life/twisting life slash.lua">
 	</instant>
 	<rune group="attack" name="Life Missile" id="2295" allowfaruse="1" charges="1" lvl="50" maglv="20" cooldown="1000" groupcooldown="2000" blocktype="solid" script="runes/life missile rune.lua"/>
+	<instant group="support" name="Life Missile Rune" words="coi pente certa" lvl="50" maglv="40" mana="250" soul="3" cooldown="1000" groupcooldown="1000" needlearn="0" aggressive="0" script="conjure runes/life missile rune.lua">
+	</instant>
 		<!-- Death Spells-->
 	<instant group="attack" name="Death Basic Shoot" words="kurz kallog" lvl="40" maglv="20" mana="40" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="death/death strike.lua">
 	</instant>
@@ -184,6 +195,8 @@
 	<instant group="attack" name="Twisting Death Slash" words="kurz faglind" lvl="50" mana="80" prem="0" range="0" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="death/twisting death slash.lua">
 	</instant>
 	<rune group="attack" name="Death Missile" id="2263" allowfaruse="1" charges="1" lvl="50" maglv="20" cooldown="1000" groupcooldown="2000" blocktype="solid" script="runes/death missile rune.lua"/>
+	<instant group="support" name="Death Missile Rune" words="kurz ar kallog" lvl="50" maglv="40" mana="250" soul="3" cooldown="1000" groupcooldown="1000" needlearn="0" aggressive="0" script="conjure runes/death missile rune.lua">
+	</instant>
 		<!-- God Spells
     <instant name="God Rage" words="just die" lvl="1" maglv="1" mana="1" exhaustion="1000" access="5" needlearn="0" blockwalls="0" aggressive="1" script="god/god rage.lua">
 
@@ -205,5 +218,8 @@
 	<instant name="Throwing Knifes Crafting" words="throwing knifes craft" lvl="20"  range="1" direction="1" soul="3" prem="0" exhaustion="1000" needlearn="0" aggressive="0" script="crafting/throwing knifes.lua">
 	</instant>
 	<instant name="Bronze Amulet Crafting" words="bronze amulet craft" lvl="20"  range="1" direction="1" soul="5" prem="0" exhaustion="1000" needlearn="0" aggressive="0" script="crafting/bronze amulet.lua">
+	</instant>
+			<!-- Reading Spells -->
+	<instant name="Read" words="hentie" lvl="40" prem="0" exhaustion="1000" needlearn="0" aggressive="0" script="read/read.lua">
 	</instant>
 </spells>

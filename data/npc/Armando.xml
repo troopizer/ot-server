@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Armando"  script="travellastbridge.lua" nameDescription="Armando a traveling agent" walkinterval="2000" floorchange="0">
+
+	<health now="100" max="100"/>
+
+	<look type="129" head="116" body="118" legs="60" feet="115" corpse="2212"/>
+	<parameters>
+        	<parameter key="message_greet" value="Greetings, do you want to {travel} somewhere?"/>
+    	</parameters>	
+</npc>

@@ -1679,6 +1679,9 @@
     <monster name="Lone Lands Hunter" x="1" y="-1" z="6" spawntime="300"/>
     <monster name="Lone Lands Poacher" x="0" y="1" z="6" spawntime="300"/>
   </spawn>
+  <spawn centerx="390" centery="1011" centerz="6" radius="1">
+    <npc name="Amadoc" x="0" y="-1" z="6" spawntime="300"/>
+  </spawn>
   <spawn centerx="1103" centery="1011" centerz="6" radius="2">
     <monster name="Lone Lands Savage" x="-2" y="0" z="6" spawntime="300"/>
     <monster name="Lone Lands Poacher" x="-1" y="1" z="6" spawntime="300"/>
@@ -1701,6 +1704,9 @@
     <monster name="Deer" x="-1" y="0" z="6" spawntime="300"/>
     <monster name="Rabbit" x="2" y="0" z="6" spawntime="300"/>
     <monster name="Deer" x="1" y="1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="396" centery="1014" centerz="6" radius="1">
+    <monster name="Donkey" x="0" y="1" z="6" spawntime="300"/>
   </spawn>
   <spawn centerx="1057" centery="1014" centerz="6" radius="2">
     <monster name="Lone Lands Poacher" x="0" y="-2" z="6" spawntime="300"/>
@@ -3537,6 +3543,9 @@
   <spawn centerx="1436" centery="886" centerz="7" radius="2">
     <monster name="Wild Boar" x="2" y="1" z="7" spawntime="300"/>
   </spawn>
+  <spawn centerx="1526" centery="886" centerz="7" radius="1">
+    <npc name="Armando" x="-1" y="0" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="338" centery="888" centerz="7" radius="2">
     <monster name="Sheep" x="1" y="-2" z="7" spawntime="300"/>
     <monster name="Sheep" x="0" y="1" z="7" spawntime="300"/>
@@ -3601,6 +3610,12 @@
   </spawn>
   <spawn centerx="552" centery="894" centerz="7" radius="1">
     <npc name="Aldrean" x="-1" y="0" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1519" centery="894" centerz="7" radius="1">
+    <monster name="Horse" x="0" y="1" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1522" centery="894" centerz="7" radius="1">
+    <monster name="Horse" x="-1" y="0" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="1047" centery="895" centerz="7" radius="2">
     <monster name="Lone Lands Horseman" x="2" y="-1" z="7" spawntime="300"/>
@@ -4334,6 +4349,9 @@
   <spawn centerx="193" centery="963" centerz="7" radius="1">
     <npc name="Jim Boffin" x="-1" y="0" z="7" spawntime="300"/>
   </spawn>
+  <spawn centerx="199" centery="964" centerz="7" radius="1">
+    <monster name="Donkey" x="1" y="0" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="523" centery="964" centerz="7" radius="2">
     <monster name="Deer" x="1" y="-1" z="7" spawntime="130"/>
     <monster name="Deer" x="-1" y="1" z="7" spawntime="130"/>
@@ -4369,6 +4387,9 @@
   <spawn centerx="1345" centery="967" centerz="7" radius="2">
     <monster name="Lone Lands Horseman" x="1" y="-1" z="7" spawntime="300"/>
     <monster name="Lone Lands Poacher" x="-1" y="0" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="195" centery="968" centerz="7" radius="1">
+    <npc name="Josue" x="-1" y="-1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="282" centery="968" centerz="7" radius="1">
     <npc name="Fengo" x="1" y="-1" z="7" spawntime="300"/>
@@ -4619,6 +4640,9 @@
   <spawn centerx="630" centery="992" centerz="7" radius="1">
     <npc name="Bree Guard" x="-1" y="0" z="7" spawntime="100"/>
   </spawn>
+  <spawn centerx="657" centery="992" centerz="7" radius="1">
+    <npc name="Jean" x="-1" y="0" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="1122" centery="992" centerz="7" radius="2">
     <monster name="Wild Boar" x="-1" y="1" z="7" spawntime="300"/>
   </spawn>
@@ -4640,6 +4664,9 @@
   </spawn>
   <spawn centerx="398" centery="996" centerz="7" radius="1">
     <npc name="Buckland Patrol" x="-1" y="0" z="7" spawntime="360"/>
+  </spawn>
+  <spawn centerx="650" centery="996" centerz="7" radius="1">
+    <monster name="Horse" x="1" y="0" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="735" centery="996" centerz="7" radius="2">
     <monster name="Snake" x="-1" y="0" z="7" spawntime="150"/>
@@ -4682,12 +4709,19 @@
   </spawn>
   <spawn centerx="631" centery="999" centerz="7" radius="2">
     <monster name="Chicken" x="0" y="-2" z="7" spawntime="240"/>
+    <monster name="Sheep" x="-1" y="-1" z="7" spawntime="300"/>
     <monster name="Chicken" x="1" y="-1" z="7" spawntime="240"/>
     <monster name="Chicken" x="-1" y="0" z="7" spawntime="240"/>
     <monster name="Chicken" x="-1" y="1" z="7" spawntime="240"/>
   </spawn>
   <spawn centerx="641" centery="999" centerz="7" radius="1">
     <npc name="Ryan" x="-1" y="0" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="650" centery="999" centerz="7" radius="1">
+    <monster name="Horse" x="0" y="1" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="653" centery="999" centerz="7" radius="1">
+    <monster name="Donkey" x="-1" y="1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="760" centery="999" centerz="7" radius="2">
     <monster name="Snake" x="-1" y="1" z="7" spawntime="150"/>
@@ -4730,11 +4764,6 @@
     <monster name="Wolf" x="-1" y="0" z="7" spawntime="130"/>
     <monster name="Wolf" x="1" y="2" z="7" spawntime="130"/>
   </spawn>
-  <spawn centerx="650" centery="1002" centerz="7" radius="5">
-    <monster name="Rabbit" x="-1" y="-4" z="7" spawntime="60"/>
-    <monster name="Wolf" x="5" y="2" z="7" spawntime="60"/>
-    <monster name="Rabbit" x="-1" y="3" z="7" spawntime="60"/>
-  </spawn>
   <spawn centerx="772" centery="1002" centerz="7" radius="2">
     <monster name="Wasp" x="0" y="-1" z="7" spawntime="150"/>
     <monster name="Snake" x="2" y="0" z="7" spawntime="150"/>
@@ -4758,6 +4787,7 @@
   </spawn>
   <spawn centerx="627" centery="1004" centerz="7" radius="2">
     <monster name="Sheep" x="-1" y="-2" z="7" spawntime="300"/>
+    <monster name="Sheep" x="1" y="-2" z="7" spawntime="300"/>
     <monster name="Sheep" x="1" y="0" z="7" spawntime="300"/>
     <monster name="Sheep" x="0" y="1" z="7" spawntime="300"/>
     <monster name="Sheep" x="-1" y="2" z="7" spawntime="300"/>
@@ -4780,6 +4810,7 @@
   </spawn>
   <spawn centerx="631" centery="1005" centerz="7" radius="2">
     <monster name="Chicken" x="0" y="-2" z="7" spawntime="240"/>
+    <monster name="Sheep" x="1" y="-2" z="7" spawntime="300"/>
     <monster name="Chicken" x="1" y="-1" z="7" spawntime="240"/>
     <monster name="Chicken" x="0" y="0" z="7" spawntime="768"/>
     <monster name="Chicken" x="-1" y="1" z="7" spawntime="240"/>
@@ -4813,6 +4844,11 @@
   </spawn>
   <spawn centerx="1127" centery="1006" centerz="7" radius="2">
     <monster name="Wild Boar" x="-1" y="0" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="650" centery="1007" centerz="7" radius="2">
+    <monster name="Rabbit" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Rabbit" x="1" y="1" z="7" spawntime="300"/>
+    <monster name="Rabbit" x="-1" y="2" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="722" centery="1007" centerz="7" radius="2">
     <monster name="Wasp" x="0" y="-1" z="7" spawntime="150"/>
@@ -4866,6 +4902,10 @@
   <spawn centerx="468" centery="1015" centerz="7" radius="2">
     <npc name="Urubb" x="-1" y="0" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="668" centery="1015" centerz="7" radius="2">
+    <monster name="Wolf" x="-1" y="-1" z="7" spawntime="300"/>
+    <monster name="Wolf" x="1" y="1" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="718" centery="1016" centerz="7" radius="2">
     <monster name="Snake" x="-1" y="-1" z="7" spawntime="150"/>
     <monster name="Wasp" x="1" y="-1" z="7" spawntime="150"/>
@@ -4895,8 +4935,12 @@
     <monster name="Deer" x="-1" y="-1" z="7" spawntime="300"/>
     <monster name="Deer" x="0" y="1" z="7" spawntime="300"/>
   </spawn>
+  <spawn centerx="650" centery="1021" centerz="7" radius="2">
+    <monster name="Wolf" x="-1" y="-2" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="661" centery="1021" centerz="7" radius="2">
     <monster name="Deer" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Rabbit" x="-1" y="2" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="730" centery="1021" centerz="7" radius="2">
     <monster name="Wasp" x="-1" y="-2" z="7" spawntime="150"/>
@@ -4988,6 +5032,9 @@
     <monster name="Deer" x="2" y="0" z="7" spawntime="60"/>
     <monster name="Wolf" x="1" y="1" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="874" centery="1032" centerz="7" radius="1">
+    <npc name="Roman" x="1" y="0" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="957" centery="1032" centerz="7" radius="2">
     <monster name="Fierce Wolf" x="2" y="1" z="7" spawntime="300"/>
   </spawn>
@@ -5003,6 +5050,7 @@
     <monster name="Rabbit" x="2" y="1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="620" centery="1033" centerz="7" radius="2">
+    <monster name="Rabbit" x="2" y="-2" z="7" spawntime="300"/>
     <monster name="Wolf" x="1" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="830" centery="1033" centerz="7" radius="2">
@@ -5018,6 +5066,12 @@
   </spawn>
   <spawn centerx="1348" centery="1033" centerz="7" radius="2">
     <monster name="Wild Boar" x="1" y="1" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="866" centery="1034" centerz="7" radius="1">
+    <monster name="Horse" x="0" y="1" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="869" centery="1034" centerz="7" radius="1">
+    <monster name="Horse" x="1" y="0" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="680" centery="1035" centerz="7" radius="2">
     <monster name="Rabbit" x="-1" y="-1" z="7" spawntime="60"/>
@@ -6343,6 +6397,9 @@
   <spawn centerx="1078" centery="1256" centerz="7" radius="2">
     <monster name="Marsh Stalker" x="1" y="0" z="7" spawntime="300"/>
   </spawn>
+  <spawn centerx="1195" centery="1257" centerz="7" radius="2">
+    <monster name="Warg Wolf" x="-1" y="1" z="7" spawntime="0"/>
+  </spawn>
   <spawn centerx="1138" centery="1261" centerz="7" radius="2">
     <monster name="Wild Boar" x="-1" y="-1" z="7" spawntime="300"/>
     <monster name="Wild Boar" x="-1" y="2" z="7" spawntime="300"/>
@@ -6356,6 +6413,12 @@
   </spawn>
   <spawn centerx="1086" centery="1264" centerz="7" radius="2">
     <monster name="Marsh Stalker" x="-1" y="2" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1211" centery="1264" centerz="7" radius="2">
+    <monster name="Warg Wolf" x="-1" y="1" z="7" spawntime="0"/>
+  </spawn>
+  <spawn centerx="1226" centery="1265" centerz="7" radius="2">
+    <monster name="Warg Wolf" x="-2" y="0" z="7" spawntime="0"/>
   </spawn>
   <spawn centerx="1340" centery="1266" centerz="7" radius="2">
     <monster name="Wild Boar" x="1" y="-1" z="7" spawntime="300"/>
@@ -6451,12 +6514,18 @@
   <spawn centerx="1333" centery="1338" centerz="7" radius="2">
     <monster name="Wild Boar" x="1" y="-1" z="7" spawntime="300"/>
   </spawn>
+  <spawn centerx="1206" centery="1351" centerz="7" radius="2">
+    <monster name="Warg Wolf" x="-1" y="1" z="7" spawntime="300"/>
+  </spawn>
   <spawn centerx="1160" centery="1354" centerz="7" radius="2">
     <monster name="Lone Lands Poacher" x="1" y="-1" z="7" spawntime="300"/>
     <monster name="Lone Lands Hunter" x="0" y="2" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="1271" centery="1354" centerz="7" radius="2">
     <monster name="Wild Boar" x="0" y="1" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1219" centery="1355" centerz="7" radius="2">
+    <monster name="Warg Wolf" x="-1" y="2" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="1301" centery="1356" centerz="7" radius="2">
     <monster name="Wild Boar" x="-1" y="1" z="7" spawntime="300"/>
@@ -6475,15 +6544,21 @@
   </spawn>
   <spawn centerx="1210" centery="1365" centerz="7" radius="2">
     <monster name="Warg Wolf" x="-1" y="1" z="7" spawntime="300"/>
+    <monster name="Warg Wolf" x="1" y="1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="1220" centery="1367" centerz="7" radius="2">
     <monster name="Warg Wolf" x="-1" y="1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="1196" centery="1371" centerz="7" radius="2">
     <monster name="Warg Wolf" x="-1" y="-1" z="7" spawntime="300"/>
+    <monster name="Warg Wolf" x="1" y="0" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="1210" centery="1374" centerz="7" radius="2">
     <monster name="Warg Wolf" x="-1" y="0" z="7" spawntime="300"/>
+    <monster name="Warg Wolf" x="1" y="1" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1212" centery="1378" centerz="7" radius="2">
+    <monster name="BLack Warg Leader" x="1" y="0" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="1249" centery="1379" centerz="7" radius="2">
     <monster name="Water Buffalo" x="2" y="0" z="7" spawntime="300"/>
@@ -6958,6 +7033,7 @@
   </spawn>
   <spawn centerx="823" centery="812" centerz="8" radius="2">
     <monster name="Giant Spider" x="1" y="-1" z="8" spawntime="300"/>
+    <monster name="Giant Spider" x="-1" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="528" centery="813" centerz="8" radius="1">
     <monster name="Iron Deposit" x="1" y="0" z="8" spawntime="300"/>
@@ -6969,6 +7045,7 @@
   </spawn>
   <spawn centerx="814" centery="814" centerz="8" radius="2">
     <monster name="Tarantula" x="-1" y="2" z="8" spawntime="300"/>
+    <monster name="Giant Spider" x="1" y="2" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="833" centery="814" centerz="8" radius="2">
     <monster name="Tarantula" x="1" y="-1" z="8" spawntime="300"/>
@@ -6981,6 +7058,9 @@
   <spawn centerx="520" centery="816" centerz="8" radius="1">
     <monster name="Cooper Deposit" x="1" y="-1" z="8" spawntime="360"/>
     <monster name="Cooper Deposit" x="-1" y="1" z="8" spawntime="360"/>
+  </spawn>
+  <spawn centerx="819" centery="820" centerz="8" radius="2">
+    <monster name="Giant Spider" x="-1" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="545" centery="821" centerz="8" radius="2">
     <monster name="spider" x="-2" y="0" z="8" spawntime="150"/>
@@ -7933,8 +8013,12 @@
     <monster name="Giant Spider" x="0" y="-1" z="9" spawntime="300"/>
     <monster name="Giant Spider" x="-1" y="1" z="9" spawntime="300"/>
   </spawn>
+  <spawn centerx="817" centery="806" centerz="9" radius="2">
+    <monster name="Giant Spider" x="1" y="-1" z="9" spawntime="300"/>
+  </spawn>
   <spawn centerx="822" centery="808" centerz="9" radius="2">
     <monster name="Giant Spider" x="-1" y="0" z="9" spawntime="300"/>
+    <monster name="Giant Spider" x="2" y="1" z="9" spawntime="300"/>
     <monster name="Tarantula" x="1" y="2" z="9" spawntime="300"/>
   </spawn>
   <spawn centerx="706" centery="814" centerz="9" radius="2">
@@ -7953,6 +8037,7 @@
   </spawn>
   <spawn centerx="845" centery="821" centerz="9" radius="2">
     <monster name="Giant Spider" x="-1" y="-1" z="9" spawntime="300"/>
+    <monster name="Giant Spider" x="0" y="2" z="9" spawntime="300"/>
   </spawn>
   <spawn centerx="703" centery="822" centerz="9" radius="2">
     <monster name="Rotworm" x="-1" y="-1" z="9" spawntime="180"/>
@@ -7967,6 +8052,7 @@
   </spawn>
   <spawn centerx="838" centery="825" centerz="9" radius="2">
     <monster name="Tarantula" x="-1" y="-1" z="9" spawntime="300"/>
+    <monster name="Giant Spider" x="2" y="0" z="9" spawntime="300"/>
     <monster name="Giant Spider" x="-1" y="2" z="9" spawntime="300"/>
     <monster name="Tarantula" x="1" y="2" z="9" spawntime="300"/>
   </spawn>
@@ -7993,6 +8079,7 @@
   </spawn>
   <spawn centerx="848" centery="833" centerz="9" radius="2">
     <monster name="Tarantula" x="0" y="-1" z="9" spawntime="300"/>
+    <monster name="Giant Spider" x="0" y="2" z="9" spawntime="300"/>
   </spawn>
   <spawn centerx="706" centery="836" centerz="9" radius="2">
     <monster name="Rotworm" x="-2" y="-1" z="9" spawntime="300"/>
@@ -8661,6 +8748,7 @@
     <monster name="Ghost" x="-2" y="0" z="10" spawntime="300"/>
   </spawn>
   <spawn centerx="810" centery="807" centerz="10" radius="2">
+    <monster name="Giant Spider" x="-1" y="-1" z="10" spawntime="300"/>
     <monster name="Giant Spider" x="1" y="0" z="10" spawntime="300"/>
   </spawn>
   <spawn centerx="823" centery="809" centerz="10" radius="2">
@@ -8670,12 +8758,15 @@
   <spawn centerx="802" centery="811" centerz="10" radius="2">
     <monster name="Tarantula" x="0" y="-1" z="10" spawntime="300"/>
     <monster name="Tarantula" x="-1" y="2" z="10" spawntime="300"/>
+    <monster name="Giant Spider" x="1" y="2" z="10" spawntime="300"/>
   </spawn>
   <spawn centerx="847" centery="812" centerz="10" radius="2">
     <monster name="Giant Spider" x="0" y="-1" z="10" spawntime="300"/>
+    <monster name="Giant Spider" x="1" y="2" z="10" spawntime="300"/>
   </spawn>
   <spawn centerx="821" centery="820" centerz="10" radius="2">
     <monster name="Tarantula" x="-1" y="-1" z="10" spawntime="300"/>
+    <monster name="Giant Spider" x="2" y="1" z="10" spawntime="300"/>
   </spawn>
   <spawn centerx="828" centery="824" centerz="10" radius="2">
     <monster name="Tarantula" x="-1" y="-1" z="10" spawntime="300"/>
@@ -8686,6 +8777,7 @@
   <spawn centerx="847" centery="830" centerz="10" radius="2">
     <monster name="Tarantula" x="-1" y="-1" z="10" spawntime="300"/>
     <monster name="Giant Spider" x="2" y="-1" z="10" spawntime="300"/>
+    <monster name="Giant Spider" x="-1" y="2" z="10" spawntime="300"/>
     <monster name="Tarantula" x="1" y="2" z="10" spawntime="300"/>
   </spawn>
   <spawn centerx="816" centery="839" centerz="10" radius="2">

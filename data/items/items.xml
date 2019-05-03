@@ -3087,15 +3087,15 @@
     <item id="2412" article="a" name="katana">
         <attribute key="description" value="Sharp steel blade." />
         <attribute key="weight" value="5000" />
-        <attribute key="defense" value="32" />
-        <attribute key="attack" value="37" />
+        <attribute key="defense" value="34" />
+        <attribute key="attack" value="41" />
         <attribute key="weaponType" value="sword" />
         <attribute key="slotType" value="two-handed" />
     </item>
     <item id="2413" article="a" name="steel broadsword">
         <attribute key="weight" value="6050" />
-        <attribute key="defense" value="30" />
-        <attribute key="attack" value="35" />
+        <attribute key="defense" value="32" />
+        <attribute key="attack" value="38" />
         <attribute key="weaponType" value="sword" />
         <attribute key="slotType" value="two-handed" />
     </item>
@@ -3163,7 +3163,7 @@
         <attribute key="description" value="A raw-steel mace made by goblins." />
         <attribute key="weight" value="5800" />
         <attribute key="defense" value="15" />
-        <attribute key="attack" value="31" />
+        <attribute key="attack" value="32" />
         <attribute key="weaponType" value="club" />
         <attribute key="skillClub" value="1" />
         <attribute key="skillShield" value="-2" />
@@ -3184,15 +3184,15 @@
     </item>
     <item id="2426" article="a" name="steel light halberd">
         <attribute key="weight" value="6000" />
-        <attribute key="defense" value="22" />
-        <attribute key="attack" value="37" />
+        <attribute key="defense" value="23" />
+        <attribute key="attack" value="40" />
         <attribute key="weaponType" value="axe" />
         <attribute key="slotType" value="two-handed" />
     </item>
     <item id="2427" article="a" name="goblin heavy halberd">
         <attribute key="weight" value="8500" />
-        <attribute key="defense" value="15" />
-        <attribute key="attack" value="41" />
+        <attribute key="defense" value="20" />
+        <attribute key="attack" value="44" />
         <attribute key="weaponType" value="axe" />
         <attribute key="skillAxe" value="3" />
         <attribute key="skillShield" value="-3" />
@@ -3201,7 +3201,7 @@
     <item id="2428" article="an" name="goblin battle axe">
         <attribute key="weight" value="5800" />
         <attribute key="defense" value="9" />
-        <attribute key="attack" value="32" />
+        <attribute key="attack" value="33" />
         <attribute key="weaponType" value="axe" />
         <attribute key="skillAxe" value="1" />
         <attribute key="skillShield" value="-2" />
@@ -3253,9 +3253,9 @@
         <attribute key="weaponType" value="club" />
     </item>
     <item id="2435" article="a" name="dwarven battle axe">
-        <attribute key="weight" value="5500" />
-        <attribute key="defense" value="19" />
-        <attribute key="attack" value="35" />
+        <attribute key="weight" value="3800" />
+        <attribute key="defense" value="20" />
+        <attribute key="attack" value="38" />
         <attribute key="weaponType" value="axe" />
         <attribute key="skillAxe" value="2" />
         <attribute key="description" value="A dwarven steel axe." />
@@ -3269,9 +3269,9 @@
         <attribute key="extradef" value="1" />
     </item>
     <item id="2437" article="a" name="dwarven hammer">
-        <attribute key="weight" value="5500" />
-        <attribute key="defense" value="25" />
-        <attribute key="attack" value="34" />
+        <attribute key="weight" value="3700" />
+        <attribute key="defense" value="28" />
+        <attribute key="attack" value="37" />
         <attribute key="weaponType" value="club" />
         <attribute key="skillClub" value="1" />
         <attribute key="skillShield" value="2" />
@@ -7014,7 +7014,7 @@
     <item id="3964" article="a" name="steel lance">
         <attribute key="weight" value="4000" />
         <attribute key="defense" value="18" />
-        <attribute key="attack" value="33" />
+        <attribute key="attack" value="37" />
         <attribute key="weaponType" value="axe" />
     </item>
     <item id="3965" article="a" name="hunting spear" plural="hunting spears">
@@ -11950,8 +11950,8 @@
     </item>
     <item id="7385" article="a" name="steel sword">
         <attribute key="weight" value="3800" />
-        <attribute key="defense" value="27" />
-        <attribute key="attack" value="31" />
+        <attribute key="defense" value="30" />
+        <attribute key="attack" value="35" />
         <attribute key="weaponType" value="sword" />
     </item>
     <item id="7386" article="a" name="eriador guardian sword">
@@ -11964,8 +11964,8 @@
     </item>
     <item id="7387" article="a" name="steel sceptre">
         <attribute key="weight" value="3900" />
-        <attribute key="defense" value="24" />
-        <attribute key="attack" value="32" />
+        <attribute key="defense" value="25" />
+        <attribute key="attack" value="36" />
         <attribute key="weaponType" value="club" />
     </item>
     <item id="7388" article="a" name="vile axe">
@@ -12037,9 +12037,9 @@
         <attribute key="slotType" value="two-handed" />
     </item>
     <item id="7403" name="dwarven sword">
-        <attribute key="weight" value="5000" />
-        <attribute key="defense" value="28" />
-        <attribute key="attack" value="32" />
+        <attribute key="weight" value="3500" />
+        <attribute key="defense" value="21" />
+        <attribute key="attack" value="34" />
         <attribute key="weaponType" value="sword" />
         <attribute key="description" value="a dwarven steel sword." />
         <attribute key="SkillShield" value="2" />
@@ -12243,7 +12243,7 @@
     <item id="7432" article="a" name="troll club">
         <attribute key="weight" value="12000" />
         <attribute key="defense" value="25" />
-        <attribute key="attack" value="42" />
+        <attribute key="attack" value="43" />
         <attribute key="weaponType" value="club" />
         <attribute key="slotType" value="two-handed" />
     </item>
@@ -12338,7 +12338,7 @@
     <item id="7451" article="a" name="steel heavy sceptre">
         <attribute key="weight" value="6100" />
         <attribute key="defense" value="28" />
-        <attribute key="attack" value="36" />
+        <attribute key="attack" value="39" />
         <attribute key="weaponType" value="club" />
         <attribute key="slotType" value="two-handed" />
     </item>
@@ -12514,7 +12514,17 @@
         <attribute key="weight" value="1100" />
     </item>
     <item id="7527" article="a" name="coal basin" />
-    <item fromid="7528" toid="7535" article="a" name="parchment" />
+    <item id="7528" article="a" name="parchment" />
+    <item id="7529" article="a" name="parchment" />
+    <item id="7530" article="a" name="parchment" />
+    <item id="7531" article="a" name="parchment" />
+    <item id="7532" article="a" name="parchment" />
+    <item id="7533" article="a" name="parchment" />
+    <item id="7534" article="a" name="parchment" />
+    <item id="7535" article="a" name="parchment of elemental missiles runes" >
+        <attribute key="description" value="If you discover how to read it, you will surely learn something useful." />
+        <attribute key="weight" value="600" />
+    </item>
     <item id="7536" article="a" name="destroyed cocoon">
         <attribute key="decayTo" value="7537" />
         <attribute key="duration" value="600" />
@@ -14492,8 +14502,8 @@
     <item id="8602" article="a" name="goblin blade">
         <attribute key="description" value="A raw-steel blade made by goblins." />
         <attribute key="weight" value="5500" />
-        <attribute key="defense" value="17" />
-        <attribute key="attack" value="30" />
+        <attribute key="defense" value="19" />
+        <attribute key="attack" value="31" />
         <attribute key="weaponType" value="sword" />
         <attribute key="skillSword" value="1" />
         <attribute key="skillShield" value="-2" />

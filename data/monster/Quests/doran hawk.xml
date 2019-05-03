@@ -107,8 +107,6 @@
 
 		<item id="2502" chance="800"/><!-- a archer helmet-->
 
-		<item id="2463" chance="4000"/><!-- iron armor -->
-
 		<item id="2477" chance="500"/><!-- arnorian chain legs -->
 
 		<item id="2647" chance="3000"/><!-- iron legs -->	
@@ -120,6 +118,10 @@
 		<item id="3964" chance="200"/><!-- steel axe -->
 
 		<item id="7387" chance="200"/><!-- steel club -->
+
+		<item id="2475" chance="100"/><!-- rhudaur knightly helmet -->
+
+		<item id="2486" chance="50"/><!-- rhudaur knightly armor -->
 
 	</loot>
 
