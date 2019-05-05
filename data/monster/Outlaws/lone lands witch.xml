@@ -67,6 +67,8 @@
 		<item id="8871" chance="500"/><!-- focus cape -->
 		<item id="1987" chance="80000"/><!-- bag -->
 		<item id="2150" chance="1000"/><!-- small amethyst -->
-		<item id="2147" chance="1000"/><!-- small ruby -->	
+		<item id="2147" chance="1000"/><!-- small ruby -->
+		<item id="7535" chance="500"/><!-- parchment missiles -->
+		<item id="7534" chance="100"/><!-- parchment explosions -->	
 	</loot>
 </monster>

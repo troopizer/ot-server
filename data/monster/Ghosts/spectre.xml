@@ -19,18 +19,18 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="-60" max="-250"/>
-		<attack name="death" interval="2000" chance="30" range="7" radius="5" target="1" min="-100" max="-300">
+		<attack name="death" interval="2000" chance="25" range="7" radius="5" target="1" min="-100" max="-300">
 			<attribute key="shootEffect" value="suddendeath"/>
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
-		<attack name="death" interval="2000" chance="50" range="7" radius="1" target="1" min="-150" max="-350">
+		<attack name="death" interval="2000" chance="30" range="7" radius="1" target="1" min="-150" max="-350">
 			<attribute key="shootEffect" value="suddendeath"/>
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
 		<attack name="manadrain" interval="3000" chance="40" range="5" min="-10" max="-300">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
-		<attack name="lifedrain" interval="1000" chance="40" range="5" min="-80" max="-200">
+		<attack name="lifedrain" interval="2000" chance="40" range="5" min="-80" max="-200">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
 	</attacks>
@@ -78,6 +78,8 @@
 				<item id="2146" chance="2000"/><!-- small sapphire -->
 				<item id="2147" chance="2000"/><!-- small ruby -->
 				<item id="2149" chance="2000"/><!-- small emerald-->
+		<item id="7535" chance="800"/><!-- parchment missiles -->
+		<item id="7534" chance="400"/><!-- parchment explosions -->
 
 	</loot>
 </monster>

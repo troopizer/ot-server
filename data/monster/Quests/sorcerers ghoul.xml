@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Sorcerer's Ghoul" nameDescription="a sorcerer that became ghoul" race="blood" experience="500" speed="300" manacost="450">
+
+	<health now="800" max="800"/>
+
+	<look type="18" corpse="5976"/>
+
+	<targetchange interval="2000" chance="0"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="1"/>
+
+		<flag convinceable="1"/>
+
+		<flag pushable="0"/>
+
+		<flag canpushitems="1"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="0"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="2000" skill="40" attack="50"/>
+
+		<attack name="lifedrain" interval="1000" chance="20" range="4" min="-55" max="-115"/>
+
+	</attacks>
+
+	<defenses armor="11" defense="17">
+
+		<defense name="healing" interval="1000" chance="20" min="30" max="65">
+
+			<attribute key="areaEffect" value="blueshimmer"/>
+
+		</defense>
+
+	</defenses>
+
+	<elements>
+
+		<element deathPercent="100"/>
+
+		<element energyPercent="10"/>
+
+		<element earthPercent="10"/>
+
+		<element holyPercent="-60"/>
+
+		<element icePercent="20"/>
+
+
+	</elements>
+
+	<immunities>
+
+		<immunity lifedrain="1"/>
+
+		<immunity paralyze="1"/>
+
+	</immunities>
+
+	<loot>
+
+		<item id="3976" countmax="10" chance="50000"/><!-- worm -->
+
+		<item id="2148" countmax="90" chance="80000"/><!-- gold coin -->
+
+		<item id="2050" chance="20000"/><!-- torch -->
+
+		<item id="8870" chance="3000"/><!-- spirit cloak -->
+
+		<item id="8820" chance="3000"/><!-- mage hat -->
+
+		<item id="2186" chance="2000"/><!-- ice wand -->
+
+		<item id="2230" chance="10000"/><!-- bone -->
+
+		<item id="5913" countmax="3" chance="8000"/><!-- brown piece of cloth -->
+
+		<item id="5909" countmax="2" chance="5000"/><!-- white piece of cloth -->
+
+		<item id="2229" countmax="2" chance="20000"/><!-- skull -->
+
+		<item id="2798" countmax="1" chance="20000"/><!-- blood herb -->
+
+		<item id="7535" chance="3000"/><!-- parchment missiles -->
+
+	</loot>
+
+</monster>
+
+
+
+

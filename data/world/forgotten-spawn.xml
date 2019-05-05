@@ -1720,12 +1720,14 @@
   <spawn centerx="389" centery="1016" centerz="6" radius="1">
     <npc name="Buckland Patrol" x="-1" y="0" z="6" spawntime="360"/>
   </spawn>
-  <spawn centerx="681" centery="1021" centerz="6" radius="2">
-    <monster name="Wolf" x="0" y="-2" z="6" spawntime="180"/>
-    <monster name="Raging Wolf" x="-1" y="1" z="6" spawntime="180"/>
+  <spawn centerx="682" centery="1019" centerz="6" radius="1">
+    <monster name="Wolf" x="-1" y="0" z="6" spawntime="180"/>
   </spawn>
   <spawn centerx="943" centery="1021" centerz="6" radius="2">
     <monster name="Fierce Wolf" x="-1" y="-1" z="6" spawntime="300"/>
+  </spawn>
+  <spawn centerx="681" centery="1022" centerz="6" radius="1">
+    <monster name="Raging Wolf" x="-1" y="0" z="6" spawntime="180"/>
   </spawn>
   <spawn centerx="1048" centery="1023" centerz="6" radius="2">
     <monster name="Wild Boar" x="-2" y="1" z="6" spawntime="300"/>
@@ -6397,8 +6399,8 @@
   <spawn centerx="1078" centery="1256" centerz="7" radius="2">
     <monster name="Marsh Stalker" x="1" y="0" z="7" spawntime="300"/>
   </spawn>
-  <spawn centerx="1195" centery="1257" centerz="7" radius="2">
-    <monster name="Warg Wolf" x="-1" y="1" z="7" spawntime="0"/>
+  <spawn centerx="1195" centery="1258" centerz="7" radius="1">
+    <monster name="Warg Wolf" x="-1" y="0" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="1138" centery="1261" centerz="7" radius="2">
     <monster name="Wild Boar" x="-1" y="-1" z="7" spawntime="300"/>
@@ -6414,11 +6416,8 @@
   <spawn centerx="1086" centery="1264" centerz="7" radius="2">
     <monster name="Marsh Stalker" x="-1" y="2" z="7" spawntime="300"/>
   </spawn>
-  <spawn centerx="1211" centery="1264" centerz="7" radius="2">
-    <monster name="Warg Wolf" x="-1" y="1" z="7" spawntime="0"/>
-  </spawn>
-  <spawn centerx="1226" centery="1265" centerz="7" radius="2">
-    <monster name="Warg Wolf" x="-2" y="0" z="7" spawntime="0"/>
+  <spawn centerx="1211" centery="1266" centerz="7" radius="1">
+    <monster name="Warg Wolf" x="-1" y="0" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="1340" centery="1266" centerz="7" radius="2">
     <monster name="Wild Boar" x="1" y="-1" z="7" spawntime="300"/>
@@ -6431,6 +6430,9 @@
   </spawn>
   <spawn centerx="1095" centery="1269" centerz="7" radius="2">
     <monster name="Marsh Stalker" x="-1" y="-1" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1222" centery="1271" centerz="7" radius="2">
+    <monster name="Warg Wolf" x="1" y="-1" z="7" spawntime="300"/>
   </spawn>
   <spawn centerx="1249" centery="1273" centerz="7" radius="2">
     <monster name="Warg Wolf" x="1" y="2" z="7" spawntime="300"/>
@@ -7543,9 +7545,9 @@
     <monster name="Bug" x="0" y="-1" z="8" spawntime="100"/>
     <monster name="Bug" x="1" y="0" z="8" spawntime="300"/>
   </spawn>
-  <spawn centerx="664" centery="976" centerz="8" radius="2">
-    <monster name="Bug" x="-1" y="0" z="8" spawntime="0"/>
-    <monster name="Bug" x="1" y="2" z="8" spawntime="0"/>
+  <spawn centerx="664" centery="977" centerz="8" radius="1">
+    <monster name="Bug" x="-1" y="-1" z="8" spawntime="300"/>
+    <monster name="Bug" x="1" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="581" centery="978" centerz="8" radius="3">
     <monster name="Rat" x="-1" y="-1" z="8" spawntime="60"/>
@@ -7554,9 +7556,9 @@
   <spawn centerx="600" centery="981" centerz="8" radius="2">
     <monster name="Rat" x="1" y="-1" z="8" spawntime="60"/>
   </spawn>
-  <spawn centerx="669" centery="982" centerz="8" radius="2">
-    <monster name="Bug" x="-1" y="-1" z="8" spawntime="0"/>
-    <monster name="Bug" x="1" y="1" z="8" spawntime="0"/>
+  <spawn centerx="668" centery="981" centerz="8" radius="1">
+    <monster name="Bug" x="-1" y="-1" z="8" spawntime="300"/>
+    <monster name="Bug" x="1" y="1" z="8" spawntime="300"/>
   </spawn>
   <spawn centerx="571" centery="994" centerz="8" radius="3">
     <monster name="Rat" x="-2" y="0" z="8" spawntime="60"/>
@@ -7805,6 +7807,9 @@
   </spawn>
   <spawn centerx="890" centery="1173" centerz="8" radius="2">
     <monster name="Slug" x="-2" y="0" z="8" spawntime="300"/>
+  </spawn>
+  <spawn centerx="1214" centery="1374" centerz="8" radius="2">
+    <monster name="Sorcerer's Ghoul" x="1" y="1" z="8" spawntime="600"/>
   </spawn>
   <spawn centerx="1167" centery="565" centerz="9" radius="1">
     <monster name="Tin Deposit" x="-1" y="0" z="9" spawntime="300"/>

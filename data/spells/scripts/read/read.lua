@@ -49,6 +49,53 @@ function onCastSpell(creature, variant, isHotkey)
 			return false
 		end
 			return combat:execute(creature, variant)
+	elseif(getPlayerItemCount(creature,7534) >= 1) then
+		if(getPlayerStorageValue(creature,2065) == 0) then
+			if(getPlayerStorageValue(creature,2148) < 0) then
+				setPlayerStorageValue(creature,2148,0)
+				doPlayerRemoveItem(creature,7534, 1)
+			else
+				return false
+			end
+		elseif(getPlayerStorageValue(creature,2064) == 0) then
+			if(getPlayerStorageValue(creature,2149) < 0) then
+				setPlayerStorageValue(creature,2149,0)
+				doPlayerRemoveItem(creature,7534, 1)
+			else
+				return false
+			end
+		elseif(getPlayerStorageValue(creature,2063) == 0) then
+			if(getPlayerStorageValue(creature,2150) < 0) then
+				setPlayerStorageValue(creature,2150,0)
+				doPlayerRemoveItem(creature,7534, 1)
+			else
+				return false
+			end
+		elseif(getPlayerStorageValue(creature,2062) == 0) then
+			if(getPlayerStorageValue(creature,2151) < 0) then
+				setPlayerStorageValue(creature,2151,0)
+				doPlayerRemoveItem(creature,7534, 1)
+			else
+				return false
+			end
+		elseif(getPlayerStorageValue(creature,2061) == 0) then
+			if(getPlayerStorageValue(creature,2152) < 0) then
+				setPlayerStorageValue(creature,2152,0)
+				doPlayerRemoveItem(creature,7534, 1)
+			else
+				return false
+			end
+		elseif(getPlayerStorageValue(creature,2060) == 0) then
+			if(getPlayerStorageValue(creature,2153) < 0) then
+				setPlayerStorageValue(creature,2153,0)
+				doPlayerRemoveItem(creature,7534, 1)
+			else
+				return false
+			end
+		else
+			return false
+		end
+			return combat:execute(creature, variant)
 	else
 		return false
 	end

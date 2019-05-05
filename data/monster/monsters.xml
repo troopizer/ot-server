@@ -46,6 +46,9 @@
 	<monster name="Blood Crab" file="Crustaceans/blood crab.xml"/>
 	<monster name="Crab" file="Crustaceans/crab.xml"/>
 
+	<!-- Dragons -->
+	<monster name="Dragon" file="Dragons/dragon.xml"/>
+
 	<!-- Felines -->
 	<monster name="Cat" file="Felines/cat.xml"/>
 	<monster name="Lion" file="Felines/lion.xml"/>
@@ -97,6 +100,7 @@
 	<monster name="Harald Ferner" file="Quests/harald ferner.xml"/>
 	<monster name="Rorkduf" file="Quests/rorkduf.xml"/>
 	<monster name="Doran Hawk" file="Quests/doran hawk.xml"/>
+	<monster name="Sorcerer's Ghoul" file="Quests/sorcerers ghoul.xml"/>
 
 	<!-- Misc -->
 	<monster name="Badger" file="Misc/badger.xml"/>

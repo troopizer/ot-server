@@ -10,6 +10,6 @@
 	
 		<parameter key="module_shop" value="1"/>
 		<parameter key="message_greet" value="Hello |PLAYERNAME|. I buy and sell runes."/>
-		<parameter key="shop_buyable" value="herbal paralyze rune,2278,50;herbal poison rune,2285,50;herbal healing rune,2265,70;fire missile rune,2303,150;energy missile rune,2279,150;ice missile rune,2271,150;earth missile rune,2287,150;life missile rune,2295,150;death missile rune,2263,150"/>
+		<parameter key="shop_buyable" value="herbal paralyze rune,2278,50;herbal poison rune,2285,50;herbal healing rune,2265,70;herbal explosion rune,2313,100;herbal wide explosion rune,2310,120;fire missile rune,2303,150;energy missile rune,2279,150;ice missile rune,2271,150;earth missile rune,2287,150;life missile rune,2295,150;death missile rune,2263,150;fire explosion rune,2302,200;energy explosion rune,2280,200;ice explosion rune,2270,200;earth explosion rune,2288,200;life explosion rune,2294,200;death explosion rune,2262,200"/>
 	</parameters>
 </npc>

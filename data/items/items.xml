@@ -2434,8 +2434,7 @@
     <item id="2261" article="an" name="copper ore" plural="copper ores">
         <attribute key="weight" value="200" />
     </item>
-    <item id="2262" article="a" name="energy bomb rune">
-        <attribute key="runeSpellName" value="adevo mas vis" />
+    <item id="2262" article="a" name="death explosion rune">
         <attribute key="weight" value="120" />
     </item>
     <item id="2263" article="a" name="death missile rune">
@@ -2463,7 +2462,7 @@
         <attribute key="runeSpellName" value="adevo grav vita" />
         <attribute key="weight" value="120" />
     </item>
-    <item id="2270" article="a" name="spell rune">
+    <item id="2270" article="a" name="ice explosion rune">
         <attribute key="weight" value="120" />
     </item>
     <item id="2271" article="an" name="ice missile rune">
@@ -2493,10 +2492,9 @@
         <attribute key="weight" value="120" />
     </item>
     <item id="2279" article="an" name="energy missile rune">
-        <attribute key="runeSpellName" value="adevo mas grav vis" />
         <attribute key="weight" value="120" />
     </item>
-    <item id="2280" article="a" name="spell rune">
+    <item id="2280" article="a" name="energy explosion rune">
         <attribute key="weight" value="120" />
     </item>
     <item id="2281" article="a" name="herbal strong paralyze rune">
@@ -2518,8 +2516,7 @@
         <attribute key="runeSpellName" value="adori min vis" />
         <attribute key="weight" value="120" />
     </item>
-    <item id="2288" article="a" name="stone shower rune">
-        <attribute key="runeSpellName" value="adori mas tera" />
+    <item id="2288" article="a" name="earth explosion rune">
         <attribute key="weight" value="120" />
     </item>
     <item id="2289" article="a" name="poison wall rune">
@@ -2542,11 +2539,10 @@
         <attribute key="runeSpellName" value="adevo grav tera" />
         <attribute key="weight" value="120" />
     </item>
-    <item id="2294" article="a" name="spell rune">
+    <item id="2294" article="a" name="life explosion rune">
         <attribute key="weight" value="120" />
     </item>
     <item id="2295" article="a" name="life missile rune">
-        <attribute key="runeSpellName" value="adori san" />
         <attribute key="weight" value="120" />
     </item>
     <item fromid="2296" toid="2300" article="a" name="spell rune">
@@ -2556,8 +2552,7 @@
         <attribute key="runeSpellName" value="adevo grav flam" />
         <attribute key="weight" value="120" />
     </item>
-    <item id="2302" article="a" name="fireball rune">
-        <attribute key="runeSpellName" value="adori flam" />
+    <item id="2302" article="a" name="fire explosion rune">
         <attribute key="weight" value="120" />
     </item>
     <item id="2303" article="a" name="fire missile rune">
@@ -12520,7 +12515,10 @@
     <item id="7531" article="a" name="parchment" />
     <item id="7532" article="a" name="parchment" />
     <item id="7533" article="a" name="parchment" />
-    <item id="7534" article="a" name="parchment" />
+    <item id="7534" article="a" name="parchment of elemental explosion runes" >
+        <attribute key="description" value="If you discover how to read it, you will surely learn something useful." />
+        <attribute key="weight" value="600" />
+    </item>
     <item id="7535" article="a" name="parchment of elemental missiles runes" >
         <attribute key="description" value="If you discover how to read it, you will surely learn something useful." />
         <attribute key="weight" value="600" />
