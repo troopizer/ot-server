@@ -22,7 +22,7 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Soo.. Can we start your training, {yes}? ', cid)
 				talkState[talkUser] = 1
 	elseif(msgcontains(msg, 'agility')) then
-				selfSay('Agility let all types of attacks to be stronger', cid)
+				selfSay('Agility let melee and distance types of attacks to be stronger', cid)
 				selfSay('0 points -- Damage x 0.8', cid)
 				selfSay('1 points -- Damage x 1', cid)
 				selfSay('2 points -- Damage x 1.3', cid)
@@ -41,9 +41,15 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('3 points -- Max Manapoints x 3 and regeneration 6 hp', cid)
 	elseif(msgcontains(msg, 'yes')) then
 		if(talkState[talkUser] == 1) then
+		if(getPlayerStorageValue(cid,2200) == 0) then
 				selfSay('Your points balance is ' ..getPlayerVocationName(cid) .. '.', cid)
-				selfSay('To change this balance you will have to pay {10000 gp}, {ok}? ', cid)
+				selfSay('To change this balance you will have to pay {3000 gp} and you will LOSE 5% OF YOUR EXPERIENCE POINTS, {ok}? ', cid)
 				talkState[talkUser] = 2
+		else
+				selfSay('Your points balance is ' ..getPlayerVocationName(cid) .. '.', cid)
+				selfSay('To change this balance you will have to pay {3000 gp}. As this is your firt time, you wont lose experince points , {ok}? ', cid)
+				talkState[talkUser] = 2
+		end
 		end
 	elseif(msgcontains(msg, 'ok')) then
 		if(talkState[talkUser] == 2) then
@@ -57,13 +63,22 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Wich balance do you want? {A1 S1 I1}, {A0 S2 I1}, {A0 S1 I2}, {A0 S3 I0}, {A0 S0 I3}, {A1 S2 I0}, {A1 S0 I2}, {A2 S1 I0}, {A2 S0 I1}, {A3 S0 I0} ', cid)
 				talkState[talkUser] = 3
 			else
-			 	if(doPlayerRemoveMoney(cid, 10000)) then
+			 	if(doPlayerRemoveMoney(cid, 3000)) then
 			 		doPlayerSetVocation(cid, 0)
 			 		local h = (getPlayerLevel(cid)-1)*10
 			 		doCreatureSetMaxHealth(cid, 150+h)
 			 		local m = (getPlayerLevel(cid))*10
 			 		doCreatureSetMaxMana(cid, m)
 					selfSay('Your points balance have been change.', cid)
+					if(getPlayerStorageValue(cid,2200) == 0) then
+						local player= Player(cid)
+						local exp= (player:getExperience())*0.05
+						doPlayerAddExperience(cid,-exp)
+						selfSay('You lost 5% of your exp points.', cid)
+					else
+						setPlayerStorageValue(cid,2200,0)
+						selfSay('Next time you will lose exp points.', cid)
+					end
 				else
 					selfSay('You need more money.', cid)
 				end
@@ -77,13 +92,22 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Wich balance do you want? {A1 S1 I1}, {A0 S2 I1}, {A0 S1 I2}, {A0 S3 I0}, {A0 S0 I3}, {A1 S2 I0}, {A1 S0 I2}, {A2 S1 I0}, {A2 S0 I1}, {A3 S0 I0} ', cid)
 				talkState[talkUser] = 3
 			else
-			 	if(doPlayerRemoveMoney(cid, 10000)) then
+			 	if(doPlayerRemoveMoney(cid, 3000)) then
 			 		doPlayerSetVocation(cid, 1)
 			 		local h = (getPlayerLevel(cid)-1)*15
 			 		doCreatureSetMaxHealth(cid, 150+h)
 			 		local m = (getPlayerLevel(cid))*10
 			 		doCreatureSetMaxMana(cid, m)
 					selfSay('Your points balance have been change.', cid)
+					if(getPlayerStorageValue(cid,2200) == 0) then
+						local player= Player(cid)
+						local exp= (player:getExperience())*0.05
+						doPlayerAddExperience(cid,-exp)
+						selfSay('You lost 5% of your exp points.', cid)
+					else
+						setPlayerStorageValue(cid,2200,0)
+						selfSay('Next time you will lose exp points.', cid)
+					end
 				else
 					selfSay('You need more money.', cid)
 				end
@@ -97,13 +121,22 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Wich balance do you want? {A1 S1 I1}, {A0 S2 I1}, {A0 S1 I2}, {A0 S3 I0}, {A0 S0 I3}, {A1 S2 I0}, {A1 S0 I2}, {A2 S1 I0}, {A2 S0 I1}, {A3 S0 I0} ', cid)
 				talkState[talkUser] = 3
 			else
-			 	if(doPlayerRemoveMoney(cid, 10000)) then
+			 	if(doPlayerRemoveMoney(cid, 3000)) then
 			 		doPlayerSetVocation(cid, 2)
 			 		local h = (getPlayerLevel(cid)-1)*10
 			 		doCreatureSetMaxHealth(cid, 150+h)
 			 		local m = (getPlayerLevel(cid))*20
 			 		doCreatureSetMaxMana(cid, m)
 					selfSay('Your points balance have been change.', cid)
+					if(getPlayerStorageValue(cid,2200) == 0) then
+						local player= Player(cid)
+						local exp= (player:getExperience())*0.05
+						doPlayerAddExperience(cid,-exp)
+						selfSay('You lost 5% of your exp points.', cid)
+					else
+						setPlayerStorageValue(cid,2200,0)
+						selfSay('Next time you will lose exp points.', cid)
+					end
 				else
 					selfSay('You need more money.', cid)
 				end
@@ -117,13 +150,22 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Wich balance do you want? {A1 S1 I1}, {A0 S2 I1}, {A0 S1 I2}, {A0 S3 I0}, {A0 S0 I3}, {A1 S2 I0}, {A1 S0 I2}, {A2 S1 I0}, {A2 S0 I1}, {A3 S0 I0} ', cid)
 				talkState[talkUser] = 3
 			else
-			 	if(doPlayerRemoveMoney(cid, 10000)) then
+			 	if(doPlayerRemoveMoney(cid, 3000)) then
 			 		doPlayerSetVocation(cid, 3)
 			 		local h = (getPlayerLevel(cid)-1)*20
 			 		doCreatureSetMaxHealth(cid, 150+h)
 			 		local m = (getPlayerLevel(cid))*5
 			 		doCreatureSetMaxMana(cid, m)
 					selfSay('Your points balance have been change.', cid)
+					if(getPlayerStorageValue(cid,2200) == 0) then
+						local player= Player(cid)
+						local exp= (player:getExperience())*0.05
+						doPlayerAddExperience(cid,-exp)
+						selfSay('You lost 5% of your exp points.', cid)
+					else
+						setPlayerStorageValue(cid,2200,0)
+						selfSay('Next time you will lose exp points.', cid)
+					end
 				else
 					selfSay('You need more money.', cid)
 				end
@@ -137,13 +179,22 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Wich balance do you want? {A1 S1 I1}, {A0 S2 I1}, {A0 S1 I2}, {A0 S3 I0}, {A0 S0 I3}, {A1 S2 I0}, {A1 S0 I2}, {A2 S1 I0}, {A2 S0 I1}, {A3 S0 I0} ', cid)
 				talkState[talkUser] = 3
 			else
-			 	if(doPlayerRemoveMoney(cid, 10000)) then
+			 	if(doPlayerRemoveMoney(cid, 3000)) then
 			 		doPlayerSetVocation(cid, 4)
 			 		local h = (getPlayerLevel(cid)-1)*5
 			 		doCreatureSetMaxHealth(cid, 150+h)
 			 		local m = (getPlayerLevel(cid))*30
 			 		doCreatureSetMaxMana(cid, m)
 					selfSay('Your points balance have been change.', cid)
+					if(getPlayerStorageValue(cid,2200) == 0) then
+						local player= Player(cid)
+						local exp= (player:getExperience())*0.05
+						doPlayerAddExperience(cid,-exp)
+						selfSay('You lost 5% of your exp points.', cid)
+					else
+						setPlayerStorageValue(cid,2200,0)
+						selfSay('Next time you will lose exp points.', cid)
+					end
 				else
 					selfSay('You need more money.', cid)
 				end
@@ -157,13 +208,22 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Wich balance do you want? {A1 S1 I1}, {A0 S2 I1}, {A0 S1 I2}, {A0 S3 I0}, {A0 S0 I3}, {A1 S2 I0}, {A1 S0 I2}, {A2 S1 I0}, {A2 S0 I1}, {A3 S0 I0} ', cid)
 				talkState[talkUser] = 3
 			else
-			 	if(doPlayerRemoveMoney(cid, 10000)) then
+			 	if(doPlayerRemoveMoney(cid, 3000)) then
 			 		doPlayerSetVocation(cid, 5)
 			 		local h = (getPlayerLevel(cid)-1)*15
 			 		doCreatureSetMaxHealth(cid, 150+h)
 			 		local m = (getPlayerLevel(cid))*5
 			 		doCreatureSetMaxMana(cid, m)
 					selfSay('Your points balance have been change.', cid)
+					if(getPlayerStorageValue(cid,2200) == 0) then
+						local player= Player(cid)
+						local exp= (player:getExperience())*0.05
+						doPlayerAddExperience(cid,-exp)
+						selfSay('You lost 5% of your exp points.', cid)
+					else
+						setPlayerStorageValue(cid,2200,0)
+						selfSay('Next time you will lose exp points.', cid)
+					end
 				else
 					selfSay('You need more money.', cid)
 				end
@@ -177,13 +237,22 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Wich balance do you want? {A1 S1 I1}, {A0 S2 I1}, {A0 S1 I2}, {A0 S3 I0}, {A0 S0 I3}, {A1 S2 I0}, {A1 S0 I2}, {A2 S1 I0}, {A2 S0 I1}, {A3 S0 I0} ', cid)
 				talkState[talkUser] = 3
 			else
-			 	if(doPlayerRemoveMoney(cid, 10000)) then
+			 	if(doPlayerRemoveMoney(cid, 3000)) then
 			 		doPlayerSetVocation(cid, 6)
 			 		local h = (getPlayerLevel(cid)-1)*5
 			 		doCreatureSetMaxHealth(cid, 150+h)
 			 		local m = (getPlayerLevel(cid))*20
 			 		doCreatureSetMaxMana(cid, m)
 					selfSay('Your points balance have been change.', cid)
+					if(getPlayerStorageValue(cid,2200) == 0) then
+						local player= Player(cid)
+						local exp= (player:getExperience())*0.05
+						doPlayerAddExperience(cid,-exp)
+						selfSay('You lost 5% of your exp points.', cid)
+					else
+						setPlayerStorageValue(cid,2200,0)
+						selfSay('Next time you will lose exp points.', cid)
+					end
 				else
 					selfSay('You need more money.', cid)
 				end
@@ -197,13 +266,22 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Wich balance do you want? {A1 S1 I1}, {A0 S2 I1}, {A0 S1 I2}, {A0 S3 I0}, {A0 S0 I3}, {A1 S2 I0}, {A1 S0 I2}, {A2 S1 I0}, {A2 S0 I1}, {A3 S0 I0} ', cid)
 				talkState[talkUser] = 3
 			else
-			 	if(doPlayerRemoveMoney(cid, 10000)) then
+			 	if(doPlayerRemoveMoney(cid, 3000)) then
 			 		doPlayerSetVocation(cid, 7)
 			 		local h = (getPlayerLevel(cid)-1)*10
 			 		doCreatureSetMaxHealth(cid, 150+h)
 			 		local m = (getPlayerLevel(cid))*5
 			 		doCreatureSetMaxMana(cid, m)
 					selfSay('Your points balance have been change.', cid)
+					if(getPlayerStorageValue(cid,2200) == 0) then
+						local player= Player(cid)
+						local exp= (player:getExperience())*0.05
+						doPlayerAddExperience(cid,-exp)
+						selfSay('You lost 5% of your exp points.', cid)
+					else
+						setPlayerStorageValue(cid,2200,0)
+						selfSay('Next time you will lose exp points.', cid)
+					end
 				else
 					selfSay('You need more money.', cid)
 				end
@@ -217,13 +295,22 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Wich balance do you want? {A1 S1 I1}, {A0 S2 I1}, {A0 S1 I2}, {A0 S3 I0}, {A0 S0 I3}, {A1 S2 I0}, {A1 S0 I2}, {A2 S1 I0}, {A2 S0 I1}, {A3 S0 I0} ', cid)
 				talkState[talkUser] = 3
 			else
-			 	if(doPlayerRemoveMoney(cid, 10000)) then
+			 	if(doPlayerRemoveMoney(cid, 3000)) then
 			 		doPlayerSetVocation(cid, 8)
 			 		local h = (getPlayerLevel(cid)-1)*5
 			 		doCreatureSetMaxHealth(cid, 150+h)
 			 		local m = (getPlayerLevel(cid))*10
 			 		doCreatureSetMaxMana(cid, m)
 					selfSay('Your points balance have been change.', cid)
+					if(getPlayerStorageValue(cid,2200) == 0) then
+						local player= Player(cid)
+						local exp= (player:getExperience())*0.05
+						doPlayerAddExperience(cid,-exp)
+						selfSay('You lost 5% of your exp points.', cid)
+					else
+						setPlayerStorageValue(cid,2200,0)
+						selfSay('Next time you will lose exp points.', cid)
+					end
 				else
 					selfSay('You need more money.', cid)
 				end
@@ -237,13 +324,22 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Wich balance do you want? {A1 S1 I1}, {A0 S2 I1}, {A0 S1 I2}, {A0 S3 I0}, {A0 S0 I3}, {A1 S2 I0}, {A1 S0 I2}, {A2 S1 I0}, {A2 S0 I1}, {A3 S0 I0} ', cid)
 				talkState[talkUser] = 3
 			else
-			 	if(doPlayerRemoveMoney(cid, 10000)) then
+			 	if(doPlayerRemoveMoney(cid, 3000)) then
 			 		doPlayerSetVocation(cid, 9)
 			 		local h = (getPlayerLevel(cid)-1)*5
 			 		doCreatureSetMaxHealth(cid, 150+h)
 			 		local m = (getPlayerLevel(cid))*5
 			 		doCreatureSetMaxMana(cid, m)
 					selfSay('Your points balance have been change.', cid)
+					if(getPlayerStorageValue(cid,2200) == 0) then
+						local player= Player(cid)
+						local exp= (player:getExperience())*0.05
+						doPlayerAddExperience(cid,-exp)
+						selfSay('You lost 5% of your exp points.', cid)
+					else
+						setPlayerStorageValue(cid,2200,0)
+						selfSay('Next time you will lose exp points.', cid)
+					end
 				else
 					selfSay('You need more money.', cid)
 				end

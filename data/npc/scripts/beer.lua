@@ -16,7 +16,7 @@ function creatureSayCallback(cid, type, msg)
 
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 	if(msgcontains(msg, 'bandits')) then
-				selfSay('Dear, around all towns you can find groups of bandits and Bree isnt the exception. But I dont know where is their lair.', cid)
+				selfSay('Dear.. around all towns you can find groups of bandits and Bree isnt the exception. But I dont know where is their lair.', cid)
 	end
 	if(msgcontains(msg, 'year') or msgcontains(msg, 'date') or msgcontains(msg, 'tales') or msgcontains(msg, 'information')) then
 				selfSay('We are in the year 2900 of the third age.', cid)
