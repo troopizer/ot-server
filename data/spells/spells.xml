@@ -240,4 +240,9 @@
 			<!-- Reading Spells -->
 	<instant name="Read" words="hentie" lvl="40" prem="0" exhaustion="1000" needlearn="0" aggressive="0" script="read/read.lua">
 	</instant>
+			<!-- Mercenary Spells -->
+	<instant group="support" name="Mercenary Call" words="bree mercenary call" mana="200" prem="0" soul="40" cooldown="1000" groupcooldown="2000" needlearn="0" script="summon/mercenary call.lua">
+	</instant>
+	<instant group="support" name="Bree Archer Call" words="bree archer call" mana="200" prem="0" soul="40" cooldown="1000" groupcooldown="2000" needlearn="0" script="summon/bree archer call.lua">
+	</instant>
 </spells>

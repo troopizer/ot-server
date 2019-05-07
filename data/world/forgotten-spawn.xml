@@ -1547,6 +1547,9 @@
   <spawn centerx="1475" centery="950" centerz="6" radius="2">
     <monster name="Badger" x="1" y="-1" z="6" spawntime="300"/>
   </spawn>
+  <spawn centerx="573" centery="953" centerz="6" radius="1">
+    <npc name="Bree Mercenaries Officer" x="-1" y="-1" z="6" spawntime="600"/>
+  </spawn>
   <spawn centerx="1050" centery="953" centerz="6" radius="2">
     <monster name="Fierce Wolf" x="1" y="-1" z="6" spawntime="300"/>
   </spawn>
@@ -3497,6 +3500,9 @@
   <spawn centerx="349" centery="884" centerz="7" radius="1">
     <npc name="Tom Wooler" x="-1" y="0" z="7" spawntime="300"/>
   </spawn>
+  <spawn centerx="639" centery="884" centerz="7" radius="1">
+    <npc name="Bree Mercenaries Officer" x="-1" y="-1" z="7" spawntime="600"/>
+  </spawn>
   <spawn centerx="1262" centery="884" centerz="7" radius="2">
     <monster name="Wild Boar" x="-1" y="-1" z="7" spawntime="300"/>
   </spawn>
@@ -4303,6 +4309,12 @@
   <spawn centerx="304" centery="957" centerz="7" radius="1">
     <npc name="Norman" x="-1" y="0" z="7" spawntime="300"/>
   </spawn>
+  <spawn centerx="589" centery="957" centerz="7" radius="1">
+    <npc name="Farmer" x="0" y="-1" z="7" spawntime="600"/>
+  </spawn>
+  <spawn centerx="603" centery="957" centerz="7" radius="1">
+    <npc name="Farmer" x="-1" y="-1" z="7" spawntime="600"/>
+  </spawn>
   <spawn centerx="728" centery="957" centerz="7" radius="5">
     <monster name="Snake" x="4" y="1" z="7" spawntime="60"/>
     <monster name="Snake" x="-1" y="4" z="7" spawntime="60"/>
@@ -4459,6 +4471,9 @@
   <spawn centerx="280" centery="973" centerz="7" radius="1">
     <npc name="Shire Patrol" x="1" y="-1" z="7" spawntime="300"/>
   </spawn>
+  <spawn centerx="567" centery="973" centerz="7" radius="1">
+    <npc name="Farmer" x="1" y="0" z="7" spawntime="600"/>
+  </spawn>
   <spawn centerx="738" centery="973" centerz="7" radius="5">
     <monster name="Snake" x="3" y="-3" z="7" spawntime="60"/>
     <monster name="Wasp" x="-3" y="-2" z="7" spawntime="60"/>
@@ -4567,6 +4582,9 @@
   <spawn centerx="1302" centery="983" centerz="7" radius="2">
     <monster name="Lone Lands Poacher" x="2" y="0" z="7" spawntime="300"/>
     <monster name="Lone Lands Savage" x="0" y="1" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="569" centery="984" centerz="7" radius="1">
+    <npc name="Farmer" x="1" y="0" z="7" spawntime="600"/>
   </spawn>
   <spawn centerx="703" centery="984" centerz="7" radius="5">
     <monster name="Wasp" x="1" y="-3" z="7" spawntime="60"/>
@@ -4911,6 +4929,9 @@
   <spawn centerx="718" centery="1016" centerz="7" radius="2">
     <monster name="Snake" x="-1" y="-1" z="7" spawntime="150"/>
     <monster name="Wasp" x="1" y="-1" z="7" spawntime="150"/>
+  </spawn>
+  <spawn centerx="599" centery="1017" centerz="7" radius="1">
+    <npc name="Farmer" x="0" y="-1" z="7" spawntime="600"/>
   </spawn>
   <spawn centerx="773" centery="1017" centerz="7" radius="2">
     <monster name="Snake" x="2" y="0" z="7" spawntime="150"/>

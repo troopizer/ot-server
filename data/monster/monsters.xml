@@ -119,6 +119,9 @@
 	<monster name="Wild Horse" file="Misc/wild horse.xml"/>
 	<monster name="Greenfields Rabbit" file="Misc/greenfields rabbit.xml"/>
 
+	<!-- Mercenaries -->
+	<monster name="Bree Mercenary" file="Mercenaries/bree mercenary.xml"/>
+	<monster name="Bree Archer" file="Mercenaries/bree archer.xml"/>
 	<!-- Necromancers -->
 	<monster name="Necromancer" file="Necromancers/necromancer.xml"/>
 	<monster name="Necromancer Apprentice" file="Necromancers/necromancer apprentice.xml"/>

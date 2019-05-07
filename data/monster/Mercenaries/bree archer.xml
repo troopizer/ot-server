@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Bree Archer" nameDescription="a mercenary archer of Bree" race="blood" experience="400" speed="400" manacost="450">
+
+	<health now="250" max="250"/>
+	<look type="129" head="114" body="115" legs="120" feet="114" addons="0" corpse="6080"/>
+
+	<targetchange interval="5000" chance="8"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="1"/>
+
+		<flag convinceable="0"/>
+
+		<flag pushable="1"/>
+
+		<flag canpushitems="1"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="6"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="25"/>
+
+	</flags>
+
+	<attacks>
+
+		<attack name="melee" interval="2000" skill="25" attack="30"/>
+
+		<attack name="physical" interval="2000" chance="50" range="6" min="-50" max="-100">
+
+			<attribute key="shootEffect" value="arrow"/>
+
+		</attack>
+
+
+	</attacks>
+
+	<defenses armor="15" defense="15">
+		<defense name="healing" interval="2000" chance="10" min="5" max="15">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+
+	<elements>
+
+		<element firePercent="-5"/>
+		<element earthPercent="0"/>
+		<element holyPercent="0"/>
+		<element icePercent="0"/>
+		<element deathPercent="-10"/>
+		<element energyPercent="-5"/>
+
+	</elements>
+
+	<voices interval="5000" chance="20">
+
+		<voice sentence="As you comand!"/>
+
+	</voices>
+
+	<loot>
+
+		<item id="1987" chance="80000"/><!-- bag -->
+
+	</loot>
+
+</monster>

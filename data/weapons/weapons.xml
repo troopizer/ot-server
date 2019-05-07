@@ -377,23 +377,23 @@
 	<distance id="1294" breakchance="2" /> <!-- small stone -->
 	<distance id="3965" breakchance="1" level="20" event="function" value="default"/> <!-- Hunting Spear -->
 	<distance id="7378" breakchance="1" level="50" event="function" value="default"/> <!-- Royal Spear -->
-	<distance id="7367" breakchance="1" level="70" event="function" value="default"/> <!-- Enchanted Spear -->
-	<distance id="7368" level="80" event="function" value="default"/> <!-- Assassin Star -->
-	<distance id="7366" event="script" value="viper_star.lua"/>  <!-- Viper Star -->
+	<distance id="7367" breakchance="1" level="80" event="function" value="default"/> <!-- Enchanted Spear -->
+	<distance id="7368" breakchance="1" level="100" event="function" value="default"/> <!-- Assassin Star -->
+	<distance id="7366" breakchance="1" event="script" value="viper_star.lua"/>  <!-- Viper Star -->
 
 
  	<!-- Ammunition -->
 	<distance id="2545" breakchance="100" event="script" value="poison_arrow.lua"/>
-	<distance id="2546" event="script" value="burst_arrow.lua"/>
+	<distance id="2546" breakchance="100" event="script" value="burst_arrow.lua"/>
 	<distance id="7838" type="energy" breakchance="100" event="function" value="default"/>
 	<distance id="7839" type="ice" breakchance="100" event="function" value="default"/>
 	<distance id="7840" type="fire" breakchance="100" event="function" value="default"/>
 	<distance id="7850" type="earth" breakchance="100" event="function" value="default"/>
-	<distance id="7364" level="20" breakchance="100" event="function" value="default"/> <!-- Sniper Arrow -->
-	<distance id="7365" level="50" event="function" value="default"/> <!-- Onyx Arrow -->
-	<distance id="7363" level="50" event="function" value="default"/> <!-- Piercing Bolt -->
-	<distance id="2547" level="70" event="function" value="default"/> <!-- Power Bolt -->
-	<distance id="6529" level="90" event="function" value="default"/> <!-- Infernal Bolt -->
+	<distance id="7364" level="30" breakchance="100" event="function" value="default"/> <!-- Sniper Arrow -->
+	<distance id="7365" level="70" breakchance="100" event="function" value="default"/> <!-- Onyx Arrow -->
+	<distance id="7363" level="50" breakchance="100" event="function" value="default"/> <!-- Piercing Bolt -->
+	<distance id="2547" level="80" breakchance="100" event="function" value="default"/> <!-- Power Bolt -->
+	<distance id="6529" level="100" breakchance="100" event="function" value="default"/> <!-- Infernal Bolt -->
 	<distance id="2544" breakchance="100" /> <!-- arrow -->
 	<distance id="2543" breakchance="100" /> <!-- bolt -->
 </weapons>

@@ -10945,7 +10945,7 @@
     <item id="6529" article="an" name="infernal bolt" plural="infernal bolts">
         <attribute key="weight" value="90" />
         <attribute key="slotType" value="ammo" />
-        <attribute key="attack" value="43" />
+        <attribute key="attack" value="45" />
         <attribute key="maxHitChance" value="90" />
         <attribute key="weaponType" value="ammunition" />
         <attribute key="ammoType" value="bolt" />
@@ -11835,7 +11835,7 @@
     <item id="7363" article="a" name="piercing bolt" plural="piercing bolts">
         <attribute key="weight" value="80" />
         <attribute key="slotType" value="ammo" />
-        <attribute key="attack" value="33" />
+        <attribute key="attack" value="35" />
         <attribute key="maxHitChance" value="90" />
         <attribute key="weaponType" value="ammunition" />
         <attribute key="ammoType" value="bolt" />
@@ -11859,27 +11859,27 @@
         <attribute key="ammoType" value="arrow" />
         <attribute key="shootType" value="onyxarrow" />
     </item>
-    <item id="7366" article="a" name="Enforced Star" plural="Enforced Stars">
+    <item id="7366" article="a" name="viper star" plural="viper stars">
         <attribute key="weight" value="200" />
-        <attribute key="attack" value="70" />
+        <attribute key="attack" value="40" />
         <attribute key="weaponType" value="distance" />
         <attribute key="shootType" value="greenstar" />
-        <attribute key="range" value="10" />
+        <attribute key="range" value="4" />
         <attribute key="maxHitChance" value="100" />
     </item>
     <item id="7367" article="an" name="enchanted spear" plural="enchanted spears">
-        <attribute key="weight" value="2000" />
-        <attribute key="attack" value="38" />
+        <attribute key="weight" value="1500" />
+        <attribute key="attack" value="40" />
         <attribute key="weaponType" value="distance" />
         <attribute key="shootType" value="enchantedspear" />
-        <attribute key="range" value="7" />
+        <attribute key="range" value="4" />
     </item>
     <item id="7368" article="an" name="assassin star" plural="assassin stars">
         <attribute key="weight" value="200" />
         <attribute key="attack" value="65" />
         <attribute key="weaponType" value="distance" />
         <attribute key="shootType" value="redstar" />
-        <attribute key="range" value="5" />
+        <attribute key="range" value="4" />
     </item>
     <item id="7369" article="a" name="golden trophy">
         <attribute key="weight" value="3500" />
@@ -11894,11 +11894,11 @@
         <attribute key="weight" value="120" />
     </item>
     <item id="7378" article="a" name="royal spear" plural="royal spears">
-        <attribute key="weight" value="1800" />
+        <attribute key="weight" value="1300" />
         <attribute key="attack" value="35" />
         <attribute key="weaponType" value="distance" />
         <attribute key="shootType" value="royalspear" />
-        <attribute key="range" value="5" />
+        <attribute key="range" value="4" />
     </item>
     <item id="7379" name="brutetamer's staff">
         <attribute key="weight" value="3800" />

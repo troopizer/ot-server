@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Bree Mercenaries Officer" script="merceofficer.lua" nameDescription="an officer of the mercenary infantry of bree" walkinterval="3000" floorchange="0">
+
+	<health now="150" max="150"/>
+
+	<look type="131" head="114" body="57" legs="120" feet="115" addons="1"/>
+  <parameters>
+    <parameter key="message_greet" value="Hi chief |PLAYERNAME|. Do you want to {recruit} any mercenaries?."/>
+  </parameters>
+</npc>

@@ -21,7 +21,11 @@
 		<attack name="melee" interval="2000" skill="60" attack="45"/>
 		<attack name="lifedrain" interval="1000" chance="15" range="2" min="-25" max="-75"/>
 	</attacks>
-	<defenses armor="15" defense="25"/>
+	<defenses armor="15" defense="25">
+		<defense name="healing" interval="1000" chance="15" min="25" max="75">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
 	<elements>
 		<element earthPercent="40"/>
 		<element deathPercent="100"/>

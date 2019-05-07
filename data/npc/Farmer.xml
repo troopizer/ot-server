@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Farmer"  script="herbs.lua" nameDescription="a farmer working in this farm" walkinterval="2000" floorchange="0">
+
+	<health now="100" max="100"/>
+
+	<look type="128" head="117" body="38" legs="115" feet="114"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Hi master |PLAYERNAME|. What do you want to produce ({trade})?"/>
+		<parameter key="shop_buyable" value="powder herb,2803,3;shadow herb,2804,5;stone herb,2799,5;star herb,2800,5;troll green,2805,5;blood herb,2798,5;sling herb,2802,5;mushrooms,2793,5;bunch of wheat,2694,2;"/>
+	</parameters>
+</npc>

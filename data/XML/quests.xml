@@ -981,5 +981,19 @@
         <mission name="The Last Bridge" storageid="2141" startvalue="0" endvalue="0">
             <missionstate id="0" description="You unlocked The Last Bridge."/>
         </mission>
-    </quest>    
+    </quest> 
+    <quest name="Mercenaries State" startstorageid="30031" startstoragevalue="30">
+        <mission name="Bree Mercenary" storageid="2201" startvalue="0" endvalue="3">
+            <missionstate id="0" description="You can call a bree mercenary 3 more times. Just say {bree mercenary call}"/>
+            <missionstate id="1" description="You can call a bree mercenary 2 more times. Just say {bree mercenary call}"/>
+            <missionstate id="2" description="You can call a bree mercenary 1 more time. Just say {bree mercenary call}"/>
+            <missionstate id="3" description="You cant call any bree mercenaries, hire another one."/>
+        </mission>
+        <mission name="Bree Archer" storageid="2202" startvalue="0" endvalue="3">
+            <missionstate id="0" description="You can call a bree archer 3 more times. Just say {bree arher call}"/>
+            <missionstate id="1" description="You can call a bree archer 2 more times. Just say {bree archer call}"/>
+            <missionstate id="2" description="You can call a bree archer 1 more time. Just say {bree archer call}"/>
+            <missionstate id="3" description="You cant call any bree archers, hire another one."/>
+        </mission>
+    </quest>       
 </quests>
