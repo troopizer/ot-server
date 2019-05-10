@@ -2961,7 +2961,7 @@
         <attribute key="attack" value="25" />
         <attribute key="weaponType" value="club" />
     </item>
-    <item id="2395" article="a" name="dwarven sword">
+    <item id="2395" article="a" name="exdwarven sword">
         <attribute key="weight" value="4500" />
         <attribute key="defense" value="28" />
         <attribute key="attack" value="33" />
@@ -3916,8 +3916,8 @@
     <item id="2546" article="a" name="burst arrow" plural="burst arrows">
         <attribute key="weight" value="90" />
         <attribute key="slotType" value="ammo" />
-        <attribute key="attack" value="28" />
-        <attribute key="hitChance" value="100" />
+        <attribute key="attack" value="30" />
+        <attribute key="maxhitChance" value="90" />
         <attribute key="weaponType" value="ammunition" />
         <attribute key="ammoType" value="arrow" />
         <attribute key="shootType" value="burstarrow" />
@@ -4214,7 +4214,7 @@
         <attribute key="slotType" value="body" />
     </item>
     <item id="2651" article="a" name="coat">
-        <attribute key="weight" value="2700" />
+        <attribute key="weight" value="2400" />
         <attribute key="armor" value="1" />
         <attribute key="slotType" value="body" />
     </item>
@@ -4261,6 +4261,7 @@
         <attribute key="absorbPercentPhysical" value="2" />
     </item>
     <item id="2658" article="a" name="white dress">
+        <attribute key="armor" value="1" />
         <attribute key="weight" value="2400" />
         <attribute key="slotType" value="body" />
     </item>
@@ -11865,7 +11866,6 @@
         <attribute key="weaponType" value="distance" />
         <attribute key="shootType" value="greenstar" />
         <attribute key="range" value="4" />
-        <attribute key="maxHitChance" value="100" />
     </item>
     <item id="7367" article="an" name="enchanted spear" plural="enchanted spears">
         <attribute key="weight" value="1500" />
@@ -12033,7 +12033,7 @@
     </item>
     <item id="7403" name="dwarven sword">
         <attribute key="weight" value="3500" />
-        <attribute key="defense" value="21" />
+        <attribute key="defense" value="31" />
         <attribute key="attack" value="34" />
         <attribute key="weaponType" value="sword" />
         <attribute key="description" value="a dwarven steel sword." />

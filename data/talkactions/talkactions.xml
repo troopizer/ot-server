@@ -40,9 +40,12 @@
 	<talkaction words="!buyhouse" script="buyhouse.lua" />
 	<talkaction words="!sellhouse" separator=" " script="sellhouse.lua" />
 	<talkaction words="!leavehouse" script="leavehouse.lua" />
+	<talkaction words="!invite" separator=" " script="invite.lua" />
+	<talkaction words="!invitelist" separator=" " script="invitelist.lua" />
 	<talkaction words="!changesex" script="changesex.lua" />
 	<talkaction words="!uptime" script="uptime.lua" />
 	<talkaction words="!deathlist" separator=" " script="deathlist.lua" />
+	<talkaction words="!highscore" separator=" " script="highscore.lua" />
 	<talkaction words="!kills" script="kills.lua" />
 	<talkaction words="!online" script="online.lua" />
 	<talkaction words="!serverinfo" script="serverinfo.lua" />

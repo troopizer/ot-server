@@ -53,10 +53,11 @@
 	</wand>
 
 	<!-- Swords -->
-	<melee id="2395" level="50" unproperly="1" event="function" value="default"/>
+	<melee id="2395" level="70" unproperly="1" event="function" value="default"/>
+	<melee id="2412" level="80" unproperly="1" event="function" value="default"/>
 	<melee id="7386" level="30" unproperly="1" event="function" value="default"/>
-	<melee id="2413" level="30" unproperly="1" event="function" value="default"/>
-	<melee id="7385" level="30" unproperly="1" event="function" value="default"/>
+	<melee id="2413" level="50" unproperly="1" event="function" value="default"/>
+	<melee id="7385" level="50" unproperly="1" event="function" value="default"/>
 	<melee id="11303" level="20" unproperly="1" event="function" value="default"/>
 	<melee id="7408" level="25" unproperly="1" event="function" value="default"/>
 	<melee id="7449" level="25" unproperly="1" event="function" value="default">
@@ -151,13 +152,15 @@
 
 	<!-- Axes -->
 	<melee id="2415" level="30" unproperly="1" event="function" value="default"/>
-	<melee id="2435" level="50" unproperly="1" event="function" value="default"/>
+	<melee id="3964" level="50" unproperly="1" event="function" value="default"/>
+	<melee id="2426" level="50" unproperly="1" event="function" value="default"/>
+	<melee id="2435" level="70" unproperly="1" event="function" value="default"/>
+	<melee id="2427" level="80" unproperly="1" event="function" value="default"/>
 	<melee id="2425" level="20" unproperly="1" event="function" value="default"/>
 	<melee id="2430" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="2387" level="25" unproperly="1" event="function" value="default"/>
 	<melee id="2381" level="25" unproperly="1" event="function" value="default"/>
 	<melee id="2440" level="25" unproperly="1" event="function" value="default"/>
-	<melee id="2426" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="11317" level="25" unproperly="1" event="function" value="default"/>
 	<melee id="3962" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="7454" level="30" unproperly="1" event="function" value="default">
@@ -177,7 +180,6 @@
 	<melee id="7411" level="50" unproperly="1" event="function" value="default"/>
 	<melee id="2447" level="50" unproperly="1" event="function" value="default"/>
 	<melee id="7388" level="55" unproperly="1" event="function" value="default"/>
-	<melee id="2427" level="50" unproperly="1" event="function" value="default"/>
 	<melee id="7389" level="60" unproperly="1" event="function" value="default"/>
 	<melee id="2414" level="60" unproperly="1" event="function" value="default"/>
 	<melee id="11299" level="60" unproperly="1" event="function" value="default"/>
@@ -241,11 +243,14 @@
 
 	<!-- Clubs -->
 	<melee id="7452" level="30" unproperly="1" event="function" value="default"/>
+	<melee id="7387" level="50" unproperly="1" event="function" value="default"/>
+	<melee id="7451" level="50" unproperly="1" event="function" value="default"/>
+	<melee id="2437" level="70" unproperly="1" event="function" value="default"/>
+	<melee id="7432" level="80" unproperly="1" event="function" value="default"/>
+	<melee id="23590" level="100" unproperly="1" event="function" value="default"/>
 	<melee id="2423" level="20" unproperly="1" event="function" value="default"/>
 	<melee id="7381" level="20" unproperly="1" event="function" value="default"/>
-	<melee id="7432" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="2434" level="25" unproperly="1" event="function" value="default"/>
-	<melee id="7387" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="7379" level="25" unproperly="1" event="function" value="default"/>
 	<melee id="7430" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="2436" level="30" unproperly="1" event="function" value="default"/>
@@ -253,7 +258,6 @@
 	<melee id="7424" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="3961" level="35" unproperly="1" event="function" value="default"/>
 	<melee id="2445" level="35" unproperly="1" event="function" value="default"/>
-	<melee id="7451" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="7392" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="7426" level="40" unproperly="1" event="function" value="default"/>
 	<melee id="2424" level="45" unproperly="1" event="function" value="default"/>
@@ -281,7 +285,6 @@
 	<melee id="7422" level="70" unproperly="1" event="function" value="default"/>
 	<melee id="7429" level="75" unproperly="1" event="function" value="default"/>
 	<melee id="2453" level="75" unproperly="1" event="function" value="default"/>
-	<melee id="2437" level="50" unproperly="1" event="function" value="default"/>
 	<melee id="7431" level="80" unproperly="1" event="function" value="default"/>
 	<melee id="2421" level="85" unproperly="1" event="function" value="default"/>
 	<melee id="7423" level="85" unproperly="1" event="function" value="default">
@@ -375,22 +378,22 @@
 	<distance id="2399" breakchance="2" /> <!-- throwing star -->
 	<distance id="2410" breakchance="2" /> <!-- throwing knife -->
 	<distance id="1294" breakchance="2" /> <!-- small stone -->
-	<distance id="3965" breakchance="1" level="20" event="function" value="default"/> <!-- Hunting Spear -->
-	<distance id="7378" breakchance="1" level="50" event="function" value="default"/> <!-- Royal Spear -->
-	<distance id="7367" breakchance="1" level="80" event="function" value="default"/> <!-- Enchanted Spear -->
-	<distance id="7368" breakchance="1" level="100" event="function" value="default"/> <!-- Assassin Star -->
-	<distance id="7366" breakchance="1" event="script" value="viper_star.lua"/>  <!-- Viper Star -->
+	<distance id="3965" breakchance="2" level="20" event="function" value="default"/> <!-- Hunting Spear -->
+	<distance id="7378" breakchance="2" level="50" event="function" value="default"/> <!-- Royal Spear -->
+	<distance id="7367" breakchance="3" level="80" event="function" value="default"/> <!-- Enchanted Spear -->
+	<distance id="7368" breakchance="10" level="100" event="function" value="default"/> <!-- Assassin Star -->
+	<distance id="7366" breakchance="15" level="80" script="viper_star.lua" />
 
 
  	<!-- Ammunition -->
-	<distance id="2545" breakchance="100" event="script" value="poison_arrow.lua"/>
-	<distance id="2546" breakchance="100" event="script" value="burst_arrow.lua"/>
+	<distance id="2545" breakchance="100" script="poison_arrow.lua" />
+	<distance id="2546" breakchance="100" script="burst_arrow.lua" />
 	<distance id="7838" type="energy" breakchance="100" event="function" value="default"/>
 	<distance id="7839" type="ice" breakchance="100" event="function" value="default"/>
 	<distance id="7840" type="fire" breakchance="100" event="function" value="default"/>
 	<distance id="7850" type="earth" breakchance="100" event="function" value="default"/>
 	<distance id="7364" level="30" breakchance="100" event="function" value="default"/> <!-- Sniper Arrow -->
-	<distance id="7365" level="70" breakchance="100" event="function" value="default"/> <!-- Onyx Arrow -->
+	<distance id="7365" level="80" breakchance="100" event="function" value="default"/> <!-- Onyx Arrow -->
 	<distance id="7363" level="50" breakchance="100" event="function" value="default"/> <!-- Piercing Bolt -->
 	<distance id="2547" level="80" breakchance="100" event="function" value="default"/> <!-- Power Bolt -->
 	<distance id="6529" level="100" breakchance="100" event="function" value="default"/> <!-- Infernal Bolt -->

@@ -39,7 +39,7 @@
 
 		<attack name="melee" interval="2000" skill="35" attack="45"/>
 
-		<attack name="physical" interval="2000" chance="35" range="6" min="-100" max="-200">
+		<attack name="physical" interval="2000" chance="35" range="6" min="-100" max="-200" poison="60">
 
 			<attribute key="shootEffect" value="arrow"/>
 
@@ -81,9 +81,11 @@
 
 		<item id="8872" chance="500"/><!-- eriador ranger cape -->
 
-		<item id="7364" countmax="5" chance="10000"/><!-- sniper arrows -->
+		<item id="7364" countmax="5" chance="8000"/><!-- sniper arrows -->
 
-		<item id="2544" countmax="12" chance="20000"/><!-- arrows -->
+		<item id="2544" countmax="15" chance="20000"/><!-- arrows -->
+
+		<item id="2545" countmax="8" chance="10000"/>
 
 		<item id="3965" chance="3000"/><!-- hunting spear -->
 

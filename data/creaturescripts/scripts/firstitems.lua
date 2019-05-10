@@ -1,12 +1,19 @@
 local firstItems = {2050, 2382}
 
 function onLogin(player)
-	if player:getLastLoginSaved() == 0 then
+	if player:getLastLoginSaved() <= 0 then
 		for i = 1, #firstItems do
-			player:addItem(firstItems[i], 1)
+			doPlayerAddItem(player,firstItems[i],1)
 		end
-		player:addItem(player:getSex() == 0 and 2651 or 2650, 1)
-		player:addItem(1987, 1):addItem(2674, 1)
+		if (getPlayerSex(player) == 0)then
+			doPlayerAddItem(player,2651,1)
+		else
+			doPlayerAddItem(player,2650,1)
+		end
+		doPlayerAddItem(player,1987,1)
+		doPlayerAddItem(player,2674,1)
+		doPlayerAddItem(player,2405,1)
+		doPlayerAddItem(player,2403,1)
 	end
 	return true
 end
