@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Death Master" nameDescription="a death master" race="blood" experience="2000" speed="280" manacost="0">
+	<health now="2500" max="2500"/>
+	<look type="278" head="114" body="95" legs="114" feet="114" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="4"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="40" attack="45" poison="90"/>
+		<attack name="lifedrain" interval="2000" chance="20" range="5" min="-100" max="-150">
+			<attribute key="areaEffect" value="redspark"/>
+		</attack>
+		<attack name="death" interval="2000" chance="25" range="6" min="-140" max="-180">
+			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="death" interval="2000" chance="20" range="5" radius="3" min="-110" max="-150">
+			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="25">
+		<defense name="healing" interval="2000" chance="25" min="80" max="120">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element earthPercent="10"/>
+		<element icePercent="10"/>
+		<element deathPercent="50"/>
+		<element firePercent="-5"/>
+		<element holyPercent="-20"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<summons maxSummons="4">
+		<summon name="Ghost" interval="2000" chance="30" max="3"/>
+	</summons>
+	<voices interval="5000" chance="10">
+		<voice sentence="Your corpse will be mine!"/>
+		<voice sentence="Taste the sweetness of death!"/>
+		<voice sentence="The secrets of death will be found!"/>
+	</voices>
+	<loot>
+		<item id="8821" chance="400"/><!-- necromantic cloak -->
+		<item id="2152" countmax="3" chance="40000"/><!-- p coin -->
+		<item id="2804" countmax="2" chance="20000"/><!-- shadow herb -->
+		<item id="2185" chance="5000"/><!-- necrotic rod -->
+		<item id="2229" countmax="5" chance="20000"/><!-- skull -->
+		<item id="2663" chance="200"/><!-- mystic turban -->
+		<item id="8820" chance="5000"/><!-- mage hat -->
+		<item id="5904" chance="10000"/><!-- magic sulphur -->
+		<item id="8871" chance="1000"/><!-- focus cape -->
+		<item id="8870" chance="5000"/><!-- spirit cloak -->
+		<item id="18400" chance="400"/><!-- magician legs -->
+		<item id="2199" chance="3000"/><!-- garlic neckclace -->
+		<item id="7535" chance="400"/><!-- parchment missiles -->
+		<item id="7534" chance="200"/><!-- parchment explosions -->	
+		<item id="1987" chance="80000"/><!-- bag -->		
+	</loot>
+</monster>

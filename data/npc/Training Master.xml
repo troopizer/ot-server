@@ -6,31 +6,9 @@
 
 	<look type="131" head="114" body="57" legs="114" feet="115" addons="1"/>
 
-  <interaction range="3" idletime="60">
-
-
-    <interact keywords="hi" focus="1">
-
-      <keywords>hello</keywords>
-
- 
-     <response text="Hi! looking for {training}?">
-  
-    </response>
-
-    </interact>
-
- 
-   <interact keywords="bye" focus="0">
-
-      <keywords>farewell</keywords>
-
-
-      <response text="Good bye."/>
- 
-   </interact>
-
-  </interaction>
+  <parameters>
+      <parameter key="message_greet" value="Hello |PLAYERNAME|. I can help you with your {training}."/>
+  </parameters>
 
 </npc>
 

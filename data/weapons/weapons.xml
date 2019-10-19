@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <weapons>
 	<!-- Lotr wands -->
-	<wand id="2327" level="10" mana="2" min="5" max="10" type="holy" event="function" value="default"> <!-- Ankh -->
+	<wand id="2327" level="10" mana="2" min="5" max="12" type="holy" event="function" value="default"> <!-- Ankh -->
 	</wand>
-	<wand id="2182" level="30" mana="5" min="25" max="35" type="earth" event="function" value="default"> <!-- Snakebite Rod -->
+	<wand id="2182" level="30" mana="12" min="50" max="75" type="earth" event="function" value="default"> <!-- Snakebite Rod -->
 	</wand>
-	<wand id="2190" level="30" mana="5" min="25" max="35" type="energy" event="function" value="default"> <!-- Wand of Vortex -->
+	<wand id="2190" level="30" mana="12" min="50" max="75" type="energy" event="function" value="default"> <!-- Wand of Vortex -->
 	</wand>
-	<wand id="2186" level="30" mana="5" min="25" max="35" type="ice" event="function" value="default"> <!-- Moonlight Rod -->
+	<wand id="2186" level="30" mana="12" min="50" max="75" type="ice" event="function" value="default"> <!-- Moonlight Rod -->
 	</wand>
-	<wand id="2191" level="30" mana="5" min="25" max="35" type="fire" event="function" value="default"> <!-- Wand of Dragonbreath -->
+	<wand id="2191" level="30" mana="12" min="50" max="75" type="fire" event="function" value="default"> <!-- Wand of Dragonbreath -->
 	</wand>
-	<wand id="2185" level="40" mana="5" min="25" max="35" type="death" event="function" value="default"> <!-- Necrotic Rod -->
+	<wand id="2185" level="40" mana="12" min="50" max="75" type="death" event="function" value="default"> <!-- Necrotic Rod -->
 	</wand>
-	<wand id="7410" level="40" mana="5" min="25" max="35" type="holy" event="function" value="default"> <!-- Life Rod -->
+	<wand id="7410" level="40" mana="12" min="50" max="75" type="holy" event="function" value="default"> <!-- Life Rod -->
 	</wand>
 	<!-- Rods -->
-	<wand id="8911" level="22" mana="5" min="27" max="33" type="ice" event="function" value="default"> <!-- Northwind Rod -->
+	<wand id="8911" level="60" mana="18" min="75" max="95" type="ice" event="function" value="default"> <!-- Northwind Rod -->
 		<vocation id="2"/>
 	</wand>
-	<wand id="2181" level="26" mana="8" min="42" max="48" type="earth" event="function" value="default"> <!-- Terra Rod -->
+	<wand id="2181" level="60" mana="18" min="75" max="95" type="earth" event="function" value="default"> <!-- Terra Rod -->
 		<vocation id="2"/>
 	</wand>
-	<wand id="2183" level="33" mana="13" min="55" max="75" type="ice" event="function" value="default"> <!-- Hailstorm Rod -->
+	<wand id="2183" level="80" mana="20" min="85" max="105" type="ice" event="function" value="default"> <!-- Hailstorm Rod -->
 		<vocation id="2"/>
 	</wand>
 	<wand id="8912" level="37" mana="13" min="55" max="75" type="earth" event="function" value="default"> <!-- Springsprout Rod -->
@@ -33,13 +33,13 @@
 	</wand>
 
 	<!-- Wands -->
-	<wand id="2188" level="19" mana="5" min="27" max="33" type="death" event="function" value="default"> <!-- Wand of Decay -->
+	<wand id="2188" level="70" mana="18" min="75" max="95" type="death" event="function" value="default"> <!-- Wand of Decay -->
 		<vocation id="1"/>
 	</wand>
-	<wand id="8921" level="22" mana="5" min="27" max="33" type="fire" event="function" value="default"> <!-- Wand of Draconia -->
+	<wand id="8921" level="60" mana="18" min="75" max="95" type="fire" event="function" value="default"> <!-- Wand of Draconia -->
 		<vocation id="1"/>
 	</wand>
-	<wand id="2189" level="26" mana="8" min="42" max="48" type="energy" event="function" value="default"> <!-- Wand of Cosmic Energy -->
+	<wand id="2189" level="60" mana="18" min="75" max="95" type="energy" event="function" value="default"> <!-- Wand of Cosmic Energy -->
 		<vocation id="1"/>
 	</wand>
 	<wand id="2187" level="33" mana="13" min="55" max="75" type="fire" event="function" value="default"> <!-- Wand of Inferno -->
@@ -51,8 +51,14 @@
 	<wand id="8922" level="42" mana="13" min="55" max="75" type="death" event="function" value="default"> <!-- Wand of Voodoo -->
 		<vocation id="1"/>
 	</wand>
+	<!-- Staffs -->
+	<wand id="2433" level="100" mana="25" min="125" max="155" type="ice" event="function" value="default"> <!-- Ice Staff -->
+	</wand>
+	<wand id="2411" level="100" mana="25" min="125" max="155" type="earth" event="function" value="default"> <!-- Ice Staff -->
+	</wand>
 
 	<!-- Swords -->
+	<melee id="8602" level="20" unproperly="1" event="function" value="default"/>
 	<melee id="2395" level="70" unproperly="1" event="function" value="default"/>
 	<melee id="2412" level="80" unproperly="1" event="function" value="default"/>
 	<melee id="7386" level="30" unproperly="1" event="function" value="default"/>
@@ -94,7 +100,7 @@
 		<vocation id="4"/>
 		<vocation id="8" showInDescription="0"/>
 	</melee>
-	<melee id="7403" level="50" unproperly="1" event="function" value="default">
+	<melee id="7403" level="70" unproperly="1" event="function" value="default">
 	</melee>
 	<melee id="7418" level="70" unproperly="1" event="function" value="default"/>
 	<melee id="7405" level="70" unproperly="1" event="function" value="default"/>
@@ -151,6 +157,7 @@
 	</melee>
 
 	<!-- Axes -->
+	<melee id="2428" level="20" unproperly="1" event="function" value="default"/>
 	<melee id="2415" level="30" unproperly="1" event="function" value="default"/>
 	<melee id="3964" level="50" unproperly="1" event="function" value="default"/>
 	<melee id="2426" level="50" unproperly="1" event="function" value="default"/>
@@ -363,8 +370,8 @@
 		<vocation id="3"/>
 		<vocation id="7" showInDescription="0"/>
 	</distance>
-	<distance id="8856" level="30" unproperly="1" event="function" value="default"/> <!-- Arnorian Bow -->
-	<distance id="7438" level="40" unproperly="1" event="function" value="default"/> <!-- War Bow -->
+	<distance id="8856" level="50" unproperly="1" event="function" value="default"/> <!-- Arnorian Bow -->
+	<distance id="7438" level="50" unproperly="1" event="function" value="default"/> <!-- War Bow -->
 	<distance id="8858" level="70" unproperly="1" event="function" value="default"> <!-- Elethriel's Elemental Bow -->
 		<vocation id="3"/>
 		<vocation id="7" showInDescription="0"/>
@@ -374,15 +381,15 @@
 		<vocation id="7" showInDescription="0"/>
 	</distance>
 	<!-- Distance Weapons -->
-	<distance id="2389" breakchance="2" /> <!-- spear -->
-	<distance id="2399" breakchance="2" /> <!-- throwing star -->
-	<distance id="2410" breakchance="2" /> <!-- throwing knife -->
-	<distance id="1294" breakchance="2" /> <!-- small stone -->
-	<distance id="3965" breakchance="2" level="20" event="function" value="default"/> <!-- Hunting Spear -->
-	<distance id="7378" breakchance="2" level="50" event="function" value="default"/> <!-- Royal Spear -->
-	<distance id="7367" breakchance="3" level="80" event="function" value="default"/> <!-- Enchanted Spear -->
+	<distance id="2389" breakchance="4" /> <!-- spear -->
+	<distance id="2399" breakchance="5" /> <!-- throwing star -->
+	<distance id="2410" breakchance="5" /> <!-- throwing knife -->
+	<distance id="1294" breakchance="5" /> <!-- small stone -->
+	<distance id="3965" breakchance="4" level="20" event="function" value="default"/> <!-- Hunting Spear -->
+	<distance id="7378" breakchance="4" level="50" event="function" value="default"/> <!-- Royal Spear -->
+	<distance id="7367" breakchance="6" level="80" event="function" value="default"/> <!-- Enchanted Spear -->
 	<distance id="7368" breakchance="10" level="100" event="function" value="default"/> <!-- Assassin Star -->
-	<distance id="7366" breakchance="15" level="80" script="viper_star.lua" />
+	<distance id="7366" breakchance="5" level="80" script="viper_star.lua" />
 
 
  	<!-- Ammunition -->

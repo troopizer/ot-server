@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ice Matriarch" nameDescription="an ice matriarch" race="blood" experience="2000" speed="280" manacost="0">
+	<health now="2500" max="2500"/>
+	<look type="149" head="10" body="86" legs="11" feet="105" corpse="6081"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="4"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="40" attack="45"/>
+		<attack name="ice" interval="2000" chance="30" range="6" min="-140" max="-220">
+			<attribute key="shootEffect" value="ice"/>
+			<attribute key="areaEffect" value="iceattack"/>
+		</attack>
+		<attack name="ice" interval="2000" chance="30" range="5" radius="4" min="-120" max="-160">
+			<attribute key="shootEffect" value="ice"/>
+			<attribute key="areaEffect" value="iceattack"/>
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="25">
+		<defense name="healing" interval="2000" chance="25" min="80" max="120">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element holyPercent="-10"/>
+		<element firePercent="-20"/>
+		<element earthPercent="20"/>
+		<element icePercent="50"/>
+		<element physicalPercent="-10"/>
+		<element energyPercent="-10"/>
+		<element deathPercent="-10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Your corpse will be mine!"/>
+		<voice sentence="Taste the sweetness of death!"/>
+		<voice sentence="The secrets of death will be found!"/>
+	</voices>
+	<loot>
+		<item id="7892" chance="400"/><!-- boots -->
+		<item id="7902" chance="1500"/><!-- ice helmet -->
+		<item id="7896" chance="400"/><!-- ice legs -->
+		<item id="7897" chance="200"/><!-- ice armor -->
+		<item id="7888" chance="800"/><!-- ice amulet -->
+		<item id="2152" countmax="3" chance="40000"/><!-- p coin -->
+		<item id="2804" countmax="2" chance="20000"/><!-- shadow herb -->
+		<item id="2186" chance="5000"/><!-- ice wand -->
+		<item id="2663" chance="200"/><!-- mystic turban -->
+		<item id="8820" chance="5000"/><!-- mage hat -->
+		<item id="5904" chance="30000"/><!-- magic sulphur -->
+		<item id="8871" chance="1000"/><!-- focus cape -->
+		<item id="8870" chance="5000"/><!-- spirit cloak -->
+		<item id="18400" chance="400"/><!-- magician legs -->
+		<item id="7535" chance="400"/><!-- parchment missiles -->
+		<item id="7534" chance="200"/><!-- parchment explosions -->
+		<item id="2146" chance="800"/><!-- small sapphire -->
+		<item id="1987" chance="80000"/><!-- bag -->		
+	</loot>
+</monster>

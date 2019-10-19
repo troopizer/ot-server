@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mountain Lion" nameDescription="a mountain lion" race="blood" experience="500" speed="400" manacost="320">
+	<health now="600" max="600"/>
+	<look type="41" corpse="5986"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="10"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="50" attack="55"/>
+	</attacks>
+	<defenses armor="6" defense="13"/>
+	<elements>
+		<element firePercent="-10"/>
+		<element earthPercent="0"/>
+		<element holyPercent="0"/>
+		<element icePercent="10"/>
+		<element deathPercent="-10"/>
+		<element energyPercent="-5"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Groarrr!"/>
+	</voices>
+	<loot>
+		<item id="2666" countmax="2" chance="90000"/><!-- meat -->
+		<item id="3976" countmax="4" chance="50000"/><!-- worm -->
+		<item id="2671" countmax="1" chance="80000"/><!-- ham -->
+		<item id="2804" countmax="2" chance="10000"/><!-- shadow herb -->
+		<item id="2803" countmax="2" chance="30000"/><!-- powder herb -->
+		<item id="5878" countmax="5" chance="15000"/><!-- leather -->
+		<!--<item id="11222" countmax="1" chance="10000"/> sabretooth -->
+	</loot>
+</monster>

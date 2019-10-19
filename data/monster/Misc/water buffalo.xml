@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<monster name="Water Buffalo" nameDescription="a water buffalo" race="blood" experience="100" speed="210">
+<monster name="Water Buffalo" nameDescription="a water buffalo" race="blood" experience="120" speed="210">
 	<health now="230" max="230" />
 	<look type="523" corpse="19701" />
 	<targetchange interval="4000" chance="10" />
@@ -19,7 +19,7 @@
 	<attacks>
 		<attack name="melee" interval="2000" skill="20" attack="30"/>
 	</attacks>
-	<defenses armor="8" defense="10"/>
+	<defenses armor="15" defense="15"/>
 	<elements>
 
 		<element firePercent="-10"/>

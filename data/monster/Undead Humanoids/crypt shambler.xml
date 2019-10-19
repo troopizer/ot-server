@@ -44,7 +44,7 @@
 	</voices>
 	<loot>
 
-		<item id="2148" countmax="90" chance="80000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="80000"/><!-- gold coin -->
 
 		<item id="4847" chance="1500"/><!-- cardolan chain armor -->
 

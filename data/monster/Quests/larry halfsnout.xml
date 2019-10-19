@@ -49,11 +49,17 @@
 
 	<defenses armor="25" defense="40"/>
 
-	<immunities>
 
-		<immunity paralyze="1"/>
+	<elements>
 
-	</immunities>
+		<element firePercent="-5"/>
+		<element earthPercent="0"/>
+		<element holyPercent="0"/>
+		<element icePercent="0"/>
+		<element deathPercent="-10"/>
+		<element energyPercent="-5"/>
+
+	</elements>
 
 	<voices interval="3000" chance="30">
 
@@ -63,7 +69,7 @@
 
 		<voice sentence="You will die here!"/>
 
-		<voice sentence="Chetwood, Midgewater, Bree, its all mine!"/>
+		<voice sentence="Chetwood, Midgewater, Bree.. its all mine!"/>
 
 	</voices>
 

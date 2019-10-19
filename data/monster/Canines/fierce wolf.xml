@@ -41,7 +41,7 @@
 
 	</attacks>
 
-	<defenses armor="20" defense="30"/>
+	<defenses armor="15" defense="20"/>
 
 	<elements>
 

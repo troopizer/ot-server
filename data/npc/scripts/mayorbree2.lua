@@ -15,10 +15,10 @@ function creatureSayCallback(cid, type, msg)
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
     if(msgcontains(msg, 'year') or msgcontains(msg, 'date') or msgcontains(msg, 'tales') or msgcontains(msg, 'information')) then
 				selfSay('We are in the year 2900 of the third age.', cid)
-				selfSay('I have been informed that Gerontius Took "The Old Took" is currently the Thain of the Shire, also Túrin II is the 22th Steward of Gondor.', cid)
+				selfSay('I have been informed that Gerontius Took "The Old Took" is currently the Thain of the Shire, also Turin II is the 22th Steward of Gondor.', cid)
     end
 	if(msgcontains(msg, 'bree')) then
-		selfSay('Bree is a litle town, but the biggest of men in Erianor. Its a good place to learn basic skills and start your adventures', cid)
+		selfSay('Bree is a litle town, but the biggest of men in Erianor. Its a good place to learn basic skills and start your adventures. You may become a {citizen} of Bree.', cid)
 	end
 	if(msgcontains(msg, 'prancing pony')) then
 		selfSay('The Prancing Pony is a famous Inn in the north side of Bree, travelers of all kind stop there for drinks and food.', cid)
@@ -29,12 +29,30 @@ function creatureSayCallback(cid, type, msg)
 	if(msgcontains(msg, 'aldur')) then
 		selfSay('Aldur is an important merchant of the blue mountains, he might be close to Thorin, their leader.', cid)
 	end
-
+	if(msgcontains(msg, 'bandit')) then
+		selfSay('Sadly, there are many bandits gangs around Bree-Land. But they seem to have a common leader.', cid)
+	end
+	if(msgcontains(msg, 'renegade')) then
+		selfSay('The Eriador Renegades! They are the biggest threat for Bree. They are organized Outlaws and they even have an stronghold in the East Brandywine Hills.', cid)
+	end
+	if(msgcontains(msg, 'east brandywine hills')) then
+		selfSay('The East Brandywine Hills are a group of hills north-west of Bree. They lay east from the Brandywine river, between some marshland.', cid)
+	end
+	if(msgcontains(msg, 'citizen')) then
+		selfSay('If you decide to be a citizen of Bree, you will lose your previous citizenship. Are you sure? {yes}?', cid)
+		talkState[talkUser] = 10
+	end
+	if(msgcontains(msg, 'yes') and talkState[talkUser] == 10) then
+		doPlayerSetTown(cid, 1)
+		selfSay('Ok.. sign this papers... Ready! you are now a citizen of Bree.', cid)
+		talkState[talkUser] = 0
+	end
 
 
 	if(msgcontains(msg, 'mission')) then
 		if (getPlayerStorageValue(cid,2000) < 0) then
 			selfSay('Welcome to {Bree}, I am the Mayor of this town. Doing missions you will become stronger, also earn some money and position on the mens world, Are you here for missions?, {yes}?', cid)
+			talkState[talkUser] = 1
 		end
 		if (getPlayerStorageValue(cid,2000) == 0) then
 			selfSay('You are on a mission, do you have the {book}?', cid)
@@ -86,7 +104,7 @@ function creatureSayCallback(cid, type, msg)
 	end
 
 	---------------------------------------------------------
-	if(msgcontains(msg, 'yes')) then
+	if(msgcontains(msg, 'yes') and talkState[talkUser] == 1) then
 		if (getPlayerStorageValue(cid,2000) < 0) then
 			selfSay('Long time ago when brees {sewers} were made, the workers left behind some tools. Find this tools and keep them, I just dont want they down there, come back when you are ready,{ok}?', cid)
 		end
@@ -114,11 +132,12 @@ function creatureSayCallback(cid, type, msg)
 			talkState[talkUser] = 1
 		end
 		if (getPlayerStorageValue(cid,2001)== 2 and getPlayerStorageValue(cid,2002) < 0 ) then
-			selfSay('Go to the Armourer Workshop west to the market and talk to {Andrew the Armourer}, he can forge you an iron studded armor, take this iron ore and look for 2 leathers.',cid)
+			selfSay('Go to the Armourer Workshop west to the market and talk to {Andrew the Armourer}, he can forge you a bronze studded armor, take this copper ore and tin ore. You will have to look for 2 leathers.',cid)
 			setPlayerStorageValue(cid,30001,1)			
 			setPlayerStorageValue(cid,2002,0)
-			doPlayerAddItem(cid,5880,1)
-			talkState[talkUser] = 1
+			doPlayerAddItem(cid,2311,1)
+			doPlayerAddItem(cid,2261,1)
+			talkState[talkUser] = 0
 		end
 		if (getPlayerStorageValue(cid,2004) == 1 and getPlayerStorageValue(cid,2005) < 0 ) then
 			selfSay('I want you to learn about the little villages around Bree, go to {Archet} north from here and talk to {Hudson}, he needs help delivering some wood supplies.', cid)

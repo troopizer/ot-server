@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="John Bankman"  script="bank.lua" nameDescription="John Bankman" walkinterval="2000" floorchange="0">
+
+	<health now="100" max="100"/>
+
+	<look type="128" head="115" body="96" legs="114" feet="116" addons="0"/>
+
+	<parameters>
+	
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. This is  the bank and mail office of Bree, I can {trade} you letters and parcels. And also help you with your bank {account}."/>
+		<parameter key="shop_buyable" value="parcel,2595,20;letter,2597,10;label,2599,5;"/>
+	</parameters>
+</npc>

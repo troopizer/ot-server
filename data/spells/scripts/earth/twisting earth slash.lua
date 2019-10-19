@@ -1,13 +1,13 @@
 local combat = Combat()
 combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_EARTHDAMAGE)
-combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_CARNIPHILA)
+combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_GROUNDSHAKER)
 combat:setParameter(COMBAT_PARAM_BLOCKARMOR, true)
 combat:setParameter(COMBAT_PARAM_USECHARGES, true)
 combat:setArea(createCombatArea(AREA_SQUARE1X1))
 
 function onGetFormulaValues(player, skill, attack, factor)
-	local min = (player:getLevel() / 5) + (skill + attack * 0.8)
-	local max = (player:getLevel() / 5) + (skill*1.5 + attack * 1.3)
+	local min = ((player:getLevel() / 4) + (skill*skill + attack*attack)/90 + 50)*0.8
+	local max = (player:getLevel() / 4) + (skill*skill + attack *attack)/90 + 50
 	return -min, -max
 end
 

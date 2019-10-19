@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Goblin Infantry" nameDescription="a goblin infantry warrior" race="blood" experience="300" speed="300" manacost="290">
+<monster name="Goblin Infantry" nameDescription="a goblin infantry warrior" race="blood" experience="400" speed="300" manacost="290">
 	<health now="600" max="600"/>
 	<look type="61" corpse="6002"/>
 	<targetchange interval="5000" chance="8"/>

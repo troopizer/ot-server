@@ -2,9 +2,9 @@
 
 <monster name="Cardolan Ghost" nameDescription="a cardolan ghost" race="undead" experience="350" speed="280" manacost="100">
 
-	<health now="400" max="400"/>
+	<health now="500" max="500"/>
 
-	<look type="48" corpse="5993"/>
+	<look type="566" corpse="5993"/>
 
 	<targetchange interval="5000" chance="8"/>
 
@@ -86,9 +86,9 @@
 
 		<item id="2394" chance="8000"/><!-- morning star -->
 
-		<item id="4847" chance="2000"/><!-- cardolan chain armor -->
+		<item id="4847" chance="500"/><!-- cardolan chain armor -->
 
-		<item id="8923" chance="1000"/><!-- cardolan chain legs -->
+		<item id="8923" chance="800"/><!-- cardolan chain legs -->
 
 		<item id="2513" chance="3000"/><!-- iron kite shield -->
 

@@ -4,8 +4,8 @@ setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_CARNIPHILA)
 setCombatParam(combat, COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_EARTH)
 
 function onGetFormulaValues(player, level, maglevel)
-	local min = (level / 4) + (maglevel*2) -30
-	local max = (level / 4) + (maglevel *3) -30
+	local min = (70 + (level / 4) + (maglevel*maglevel)/90)*0.8
+	local max = 70 + (level / 4) + (maglevel *maglevel)/90
 	return -min, -max
 end
 

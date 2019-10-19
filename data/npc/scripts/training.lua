@@ -15,7 +15,10 @@ function creatureSayCallback(cid, type, msg)
 	end
 
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
-
+   --if(msgcontains(msg, 'sesion')) then
+    --doPlayerAddManaSpent(cid, 172800)
+    --selfSay('You earned 24 hours of used mana.', cid)
+   --end
 	if(msgcontains(msg, 'training')) then
 				selfSay('By this training you can balance your 3 basic abilities: {Agility},{Strength} and {Intelligence}.', cid)
 				selfSay('You have 3 training points that you can assign to this abilities as you want, you start with 1 point in each ability. ', cid)
@@ -67,7 +70,7 @@ function creatureSayCallback(cid, type, msg)
 			 		doPlayerSetVocation(cid, 0)
 			 		local h = (getPlayerLevel(cid)-1)*10
 			 		doCreatureSetMaxHealth(cid, 150+h)
-			 		local m = (getPlayerLevel(cid))*10
+			 		local m = (getPlayerLevel(cid)-1)*10
 			 		doCreatureSetMaxMana(cid, m)
 					selfSay('Your points balance have been change.', cid)
 					if(getPlayerStorageValue(cid,2200) == 0) then
@@ -96,7 +99,7 @@ function creatureSayCallback(cid, type, msg)
 			 		doPlayerSetVocation(cid, 1)
 			 		local h = (getPlayerLevel(cid)-1)*15
 			 		doCreatureSetMaxHealth(cid, 150+h)
-			 		local m = (getPlayerLevel(cid))*10
+			 		local m = (getPlayerLevel(cid)-1)*10
 			 		doCreatureSetMaxMana(cid, m)
 					selfSay('Your points balance have been change.', cid)
 					if(getPlayerStorageValue(cid,2200) == 0) then
@@ -125,7 +128,7 @@ function creatureSayCallback(cid, type, msg)
 			 		doPlayerSetVocation(cid, 2)
 			 		local h = (getPlayerLevel(cid)-1)*10
 			 		doCreatureSetMaxHealth(cid, 150+h)
-			 		local m = (getPlayerLevel(cid))*20
+			 		local m = (getPlayerLevel(cid)-1)*20
 			 		doCreatureSetMaxMana(cid, m)
 					selfSay('Your points balance have been change.', cid)
 					if(getPlayerStorageValue(cid,2200) == 0) then
@@ -154,7 +157,7 @@ function creatureSayCallback(cid, type, msg)
 			 		doPlayerSetVocation(cid, 3)
 			 		local h = (getPlayerLevel(cid)-1)*20
 			 		doCreatureSetMaxHealth(cid, 150+h)
-			 		local m = (getPlayerLevel(cid))*5
+			 		local m = (getPlayerLevel(cid)-1)*5
 			 		doCreatureSetMaxMana(cid, m)
 					selfSay('Your points balance have been change.', cid)
 					if(getPlayerStorageValue(cid,2200) == 0) then
@@ -183,7 +186,7 @@ function creatureSayCallback(cid, type, msg)
 			 		doPlayerSetVocation(cid, 4)
 			 		local h = (getPlayerLevel(cid)-1)*5
 			 		doCreatureSetMaxHealth(cid, 150+h)
-			 		local m = (getPlayerLevel(cid))*30
+			 		local m = (getPlayerLevel(cid)-1)*30
 			 		doCreatureSetMaxMana(cid, m)
 					selfSay('Your points balance have been change.', cid)
 					if(getPlayerStorageValue(cid,2200) == 0) then
@@ -212,7 +215,7 @@ function creatureSayCallback(cid, type, msg)
 			 		doPlayerSetVocation(cid, 5)
 			 		local h = (getPlayerLevel(cid)-1)*15
 			 		doCreatureSetMaxHealth(cid, 150+h)
-			 		local m = (getPlayerLevel(cid))*5
+			 		local m = (getPlayerLevel(cid)-1)*5
 			 		doCreatureSetMaxMana(cid, m)
 					selfSay('Your points balance have been change.', cid)
 					if(getPlayerStorageValue(cid,2200) == 0) then
@@ -241,7 +244,7 @@ function creatureSayCallback(cid, type, msg)
 			 		doPlayerSetVocation(cid, 6)
 			 		local h = (getPlayerLevel(cid)-1)*5
 			 		doCreatureSetMaxHealth(cid, 150+h)
-			 		local m = (getPlayerLevel(cid))*20
+			 		local m = (getPlayerLevel(cid)-1)*20
 			 		doCreatureSetMaxMana(cid, m)
 					selfSay('Your points balance have been change.', cid)
 					if(getPlayerStorageValue(cid,2200) == 0) then
@@ -270,7 +273,7 @@ function creatureSayCallback(cid, type, msg)
 			 		doPlayerSetVocation(cid, 7)
 			 		local h = (getPlayerLevel(cid)-1)*10
 			 		doCreatureSetMaxHealth(cid, 150+h)
-			 		local m = (getPlayerLevel(cid))*5
+			 		local m = (getPlayerLevel(cid)-1)*5
 			 		doCreatureSetMaxMana(cid, m)
 					selfSay('Your points balance have been change.', cid)
 					if(getPlayerStorageValue(cid,2200) == 0) then
@@ -299,7 +302,7 @@ function creatureSayCallback(cid, type, msg)
 			 		doPlayerSetVocation(cid, 8)
 			 		local h = (getPlayerLevel(cid)-1)*5
 			 		doCreatureSetMaxHealth(cid, 150+h)
-			 		local m = (getPlayerLevel(cid))*10
+			 		local m = (getPlayerLevel(cid)-1)*10
 			 		doCreatureSetMaxMana(cid, m)
 					selfSay('Your points balance have been change.', cid)
 					if(getPlayerStorageValue(cid,2200) == 0) then
@@ -328,7 +331,7 @@ function creatureSayCallback(cid, type, msg)
 			 		doPlayerSetVocation(cid, 9)
 			 		local h = (getPlayerLevel(cid)-1)*5
 			 		doCreatureSetMaxHealth(cid, 150+h)
-			 		local m = (getPlayerLevel(cid))*5
+			 		local m = (getPlayerLevel(cid)-1)*5
 			 		doCreatureSetMaxMana(cid, m)
 					selfSay('Your points balance have been change.', cid)
 					if(getPlayerStorageValue(cid,2200) == 0) then

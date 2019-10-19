@@ -40,7 +40,7 @@
 
 		<attack name="melee" interval="2000" skill="25" attack="25"/>
 
-		<attack name="physical" interval="2000" chance="50" range="7" min="-40" max="-100">
+		<attack name="physical" interval="2000" chance="50" range="6" min="-30" max="-80">
 
 			<attribute key="shootEffect" value="arrow"/>
 
@@ -49,7 +49,7 @@
 
 	</attacks>
 
-	<defenses armor="12" defense="16"/>
+	<defenses armor="12" defense="18"/>
 
 	<elements>
 
@@ -92,11 +92,15 @@
 
 		<item id="1987" chance="80000"/><!-- bag -->
 
-		<item id="2148" countmax="70" chance="90000"/><!-- gold coin -->
+		<item id="2148" countmax="70" chance="60000"/><!-- gold coin -->
 
-		<item id="2787" countmax="2" chance="20000"/><!-- white mushroom -->
+		<item id="2643" chance="5000"/><!-- leather boots -->
+
+		<item id="2787" countmax="2" chance="15000"/><!-- white mushroom -->
 
 		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
+
+		<item id="2050" countmax="1" chance="5000"/><!-- torch -->
 
 	</loot>
 

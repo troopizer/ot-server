@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Priestess" nameDescription="a priestess" race="blood" experience="550" speed="250" manacost="0">
+<monster name="Priestess" nameDescription="a priestess" race="blood" experience="600" speed="250" manacost="0">
 	<health now="500" max="500"/>
 	<look type="58" corpse="6081"/>
 	<targetchange interval="5000" chance="8"/>
@@ -19,13 +19,13 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="25" attack="30" poison="80"/>
-		<attack name="death" interval="2000" chance="40" range="7" min="-25" max="-55">
+		<attack name="death" interval="2000" chance="30" range="7" min="-25" max="-55">
 			<attribute key="shootEffect" value="suddendeath"/>
 		</attack>
 		<attack name="poison" interval="2000" chance="30" range="7" min="-55" max="-95">
 			<attribute key="shootEffect" value="poison"/>
 		</attack>
-		<attack name="manadrain" interval="2000" chance="30" range="7" min="-60" max="-120">
+		<attack name="manadrain" interval="2000" chance="30" range="7" min="-60" max="-100">
 			<attribute key="areaEffect" value="redshimmer"/>
 	</attack>
 	</attacks>

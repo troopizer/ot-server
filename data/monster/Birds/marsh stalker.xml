@@ -35,6 +35,7 @@
 		<item id="2804" countmax="1" chance="10000"/><!-- shadow herb -->
 		<item id="2803" countmax="2" chance="30000"/><!-- powder herb -->
 		<item id="2667" countmax="2" chance="30000" /><!-- Fish -->
+		<item id="7158" countmax="1" chance="3000"/><!-- rainbow trout -->
 		<item id="19741" chance="10000" /><!-- Marsh Stalker Beak -->
 		<item id="19742" chance="5000" /><!-- Marsh Stalker Feather -->
 	</loot>

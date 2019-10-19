@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Frogmorton king" nameDescription="frogmorton king" race="blood" experience="300" speed="350" manacost="400">
+	<health now="500" max="500"/>
+	<look type="222" corpse="6077"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag staticattack="90"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="20"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-40" max="-100"/>
+		<attack name="physical" interval="1000" chance="20" range="6" min="-40" max="-60">
+			<attribute key="shootEffect" value="poison"/>
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="20">
+
+		<defense name="invisible" interval="1000" chance="25" duration="5000">
+
+			<attribute key="areaEffect" value="blueshimmer"/>
+
+		</defense>
+
+	</defenses>
+	<elements>
+		<element firePercent="-10"/>
+		<element earthPercent="40"/>
+
+		<element holyPercent="0"/>
+
+		<element icePercent="0"/>
+
+		<element deathPercent="-5"/>
+		<element energyPercent="-10"/>
+	</elements>
+	<voices interval="5000" chance="30">
+		<voice sentence="Ribbit, ribbit!"/>
+		<voice sentence="Ribbit!"/>
+	</voices>
+	<loot>
+		<item id="2666" countmax="2" chance="12000"/><!-- meat -->
+		<item id="2667" countmax="2" chance="10000"/><!-- fish -->
+		<item id="7158" countmax="1" chance="10000"/><!-- rainbow trout -->
+		<item id="5878" countmax="3" chance="20000"/><!-- leather -->
+		<item id="2804" countmax="1" chance="5000"/><!-- shadow herb -->
+ 		<item id="2803" countmax="3" chance="10000"/><!-- powder herb -->
+ 		<item id="2805" countmax="2" chance="10000"/><!-- troll green -->
+ 		<item id="2802" countmax="2" chance="10000"/><!-- sling herb -->
+	</loot>
+</monster>

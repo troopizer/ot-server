@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<monster name="Skeleton Minion" nameDescription="a skeleton minion" race="undead" experience="35" speed="280" manacost="300">
+<monster name="Skeleton Minion" nameDescription="a skeleton minion" race="undead" experience="35" speed="300" manacost="300">
 
-	<health now="150" max="150"/>
+	<health now="180" max="180"/>
 
 	<look type="33" corpse="5972"/>
 
@@ -38,14 +38,14 @@
 
 	<attacks>
 
-		<attack name="melee" interval="2000" skill="20" attack="30"/>
+		<attack name="melee" interval="2000" skill="25" attack="35"/>
 
-		<attack name="lifedrain" interval="1000" chance="10" range="2" min="-10" max="-20"/>
+		<attack name="lifedrain" interval="1000" chance="20" range="3" min="-15" max="-30"/>
 
 	</attacks>
 
-	<defenses armor="5" defense="12">
-		<defense name="healing" interval="2000" chance="20" min="5" max="15">
+	<defenses armor="10" defense="12">
+		<defense name="healing" interval="2000" chance="20" min="10" max="35">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>

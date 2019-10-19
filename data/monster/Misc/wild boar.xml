@@ -24,15 +24,10 @@
 
 		<element firePercent="-10"/>
 		<element earthPercent="0"/>
-
 		<element holyPercent="0"/>
-
 		<element icePercent="10"/>
-
 		<element deathPercent="-10"/>
-
 		<element energyPercent="-5"/>
-
 	</elements>
 	<voices interval="5000" chance="20">
 		<voice sentence="Gnorrr!" />

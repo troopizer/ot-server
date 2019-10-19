@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<monster name="Skeleton Soldier" nameDescription="a skeleton Soldier" race="undead" experience="115" speed="320" manacost="350">
+<monster name="Skeleton Soldier" nameDescription="a skeleton Soldier" race="undead" experience="115" speed="380" manacost="350">
 
-	<health now="350" max="350"/>
+	<health now="400" max="400"/>
 
 	<look type="298" corpse="5972"/>
 
@@ -38,9 +38,9 @@
 
 	<attacks>
 
-		<attack name="melee" interval="2000" skill="35" attack="40"/>
+		<attack name="melee" interval="2000" skill="45" attack="45"/>
 
-		<attack name="lifedrain" interval="1000" chance="15" range="4" min="-15" max="-40">
+		<attack name="lifedrain" interval="1000" chance="20" range="3" min="-35" max="-55">
 
 			<attribute key="areaEffect" value="redshimmer"/>
 
@@ -49,7 +49,7 @@
 	</attacks>
 
 	<defenses armor="18" defense="25">
-		<defense name="healing" interval="2000" chance="10" min="20" max="30">
+		<defense name="healing" interval="2000" chance="20" min="30" max="65">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>

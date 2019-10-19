@@ -97,7 +97,7 @@ function creatureSayCallback(cid, type, msg)
 			if(getPlayerStorageValue(cid,2031) < 0 and getPlayerStorageValue(cid,2022) == 1) then
 				selfSay('You really want to learn more, if you are asking for another mission', cid)
 				selfSay('The memory stone yo bring me is very hard to use, but I have read that there was a man in the army of Elendil, that marched and died during the war with the dark lord.', cid)
-				selfSay('His name was Aerdinul and he knew how to use the memory stones, he was burried in the barrow downs along the warriors that feld in the battle of Dagorlad. You can find that book, {yes}?', cid)
+				selfSay('His name was Aerdinul and he knew how to use the memory stones, he was burried in the barrow downs along the warriors that feld in the battle of Dagorlad. In his tomb you may find a book with his notes, would you go? {yes}?', cid)
 				talkState[talkUser] = 1
 
 			elseif(getPlayerStorageValue(cid,2031) == 0) then

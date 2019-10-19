@@ -5,7 +5,7 @@ require 'secrets'
 -- Account manager
 accountManager = true
 namelockManager = true
-newPlayerChooseVoc = true
+newPlayerChooseVoc = false
 newPlayerSpawnPosX = 616
 newPlayerSpawnPosY = 986
 newPlayerSpawnPosZ = 6
@@ -80,7 +80,7 @@ protectionLevel = 1
 pvpTileIgnoreLevelAndVocationProtection = true
 pzLocked = 60 * 1000
 huntingDuration = 60 * 1000
-criticalHitChance = 7
+criticalHitChance = 5
 criticalHitMultiplier = 1
 displayCriticalHitNotify = false
 removeWeaponAmmunition = true
@@ -115,12 +115,12 @@ loginTries = 10
 retryTimeout = 5 * 1000
 loginTimeout = 60 * 1000
 maxPlayers = 30
-motd = "Welcome to Middle Earth Adventures 1.0!"
+motd = "Welcome to Middle Earth Adventures 1.0!\nBUGS REPORTED:\n   - The market is not working for now. But you can find your items in any depot chest, on any town.\n   - Poison antidote isnt working for now."
 displayOnOrOffAtCharlist = false
 onePlayerOnlinePerAccount = true
 allowClones = false
 serverName = "Middle Earth"
-loginMessage = "The search for the ring continues!"
+loginMessage = "Travel around Middle Earth!"
 statusTimeout = 5 * 60 * 1000
 replaceKickOnLogin = true
 forceSlowConnectionsToDisconnect = false
@@ -168,7 +168,7 @@ mapName = "forgotten"
 mapAuthor = "Don Sapu"
 randomizeTiles = true
 storeTrash = true
-cleanProtectedZones = true
+cleanProtectedZones = false
 mailboxDisabledTowns = "-1"
 
 -- Process
@@ -212,7 +212,7 @@ maxMessageBuffer = 4
 -- Saving-related
 -- useHouseDataStorage usage may be found at README.
 saveGlobalStorage = true
-useHouseDataStorage = false
+useHouseDataStorage = true
 storePlayerDirection = false
 
 -- Loot

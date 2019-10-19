@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Jovan" nameDescription="Jovan, Adventurers Guild Trainer." walkinterval="2000" script="sessionbree.lua" floorchange="1">
+
+	<health now="150" max="150"/>
+
+	<look type="131" head="116" body="57" legs="115" feet="116" addons="1" corpse="2212"/>
+
+  <parameters>
+      <parameter key="message_greet" value="Hello |PLAYERNAME|. Wellcome to the Adventurers Guild, do you want to take training {sessions}."/>
+  </parameters>
+</npc>

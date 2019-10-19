@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Eriador Renegades Knife Sister" nameDescription="a eriador renegades knife sister" race="blood" experience="220" speed="230" manacost="390">
+<monster name="Eriador Renegades Knife Sister" nameDescription="a eriador renegades knife sister" race="blood" experience="160" speed="230" manacost="390">
 	<health now="200" max="200"/>
 	<look type="137" head="132" body="117" legs="114" feet="132" corpse="6081"/>
 	<targetchange interval="5000" chance="8"/>
@@ -19,11 +19,11 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="20" attack="30"/>
-		<attack name="physical" interval="2000" chance="30" range="7" min="-15" max="-65">
+		<attack name="physical" interval="2000" chance="30" range="5" min="-15" max="-65">
 			<attribute key="shootEffect" value="throwingknife"/>
 		</attack>
 	</attacks>
-	<defenses armor="15" defense="20"/>
+	<defenses armor="12" defense="18"/>
 	<elements>
 
 		<element firePercent="-5"/>
@@ -39,7 +39,7 @@
 	</voices>
 	<loot>
 
-  		<item id="2410" countmax="4" chance="30000"/><!-- throwing knife-->
+  		<item id="2410" countmax="4" chance="10000"/><!-- throwing knife-->
 
 		<item id="2379" chance="10000"/><!-- iron dagger -->
 
@@ -47,21 +47,23 @@
 
 		<item id="2648" chance="500"/><!-- iron chain legs -->
 
-		<item id="2389" countmax="1" chance="5000"/><!-- spear -->
-
 		<item id="5913" countmax="1" chance="8000"/><!-- brown piece of cloth -->
 
 		<item id="5909" countmax="1" chance="800"/><!-- white piece of cloth -->
 
 		<item id="1987" chance="80000"/><!-- bag -->
 
-		<item id="2148" countmax="70" chance="90000"/><!-- gold coin -->
+		<item id="2148" countmax="60" chance="50000"/><!-- gold coin -->
 
-		<item id="2787" countmax="2" chance="20000"/><!-- white mushroom -->
+		<item id="2643" chance="5000"/><!-- leather boots -->
+
+		<item id="2787" countmax="2" chance="15000"/><!-- white mushroom -->
 
 		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
 
 		<item id="2467" chance="43000"/><!-- leather armor -->
+
+		<item id="2050" countmax="1" chance="5000"/><!-- torch -->
 
 	</loot>
 </monster>

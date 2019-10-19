@@ -8,6 +8,6 @@
 	<parameters>
 		<parameter key="module_shop" value="1"/>
 		<parameter key="message_greet" value="Hi master |PLAYERNAME|. What do you want to produce ({trade})?"/>
-		<parameter key="shop_buyable" value="powder herb,2803,3;shadow herb,2804,5;stone herb,2799,5;star herb,2800,5;troll green,2805,5;blood herb,2798,5;sling herb,2802,5;mushrooms,2793,5;bunch of wheat,2694,2;"/>
+		<parameter key="shop_buyable" value="powder herb,2803,2;shadow herb,2804,3;stone herb,2799,3;star herb,2800,3;troll green,2805,3;blood herb,2798,3;sling herb,2802,3;mushrooms,2793,3;bunch of wheat,2694,1;"/>
 	</parameters>
 </npc>

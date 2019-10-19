@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Necromancer" nameDescription="a necromancer" race="blood" experience="800" speed="280" manacost="0">
-	<health now="1000" max="1000"/>
+<monster name="Necromancer" nameDescription="a necromancer" race="blood" experience="1000" speed="280" manacost="0">
+	<health now="1200" max="1200"/>
 	<look type="9" corpse="6080"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -19,25 +19,27 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="35" attack="40" poison="90"/>
-		<attack name="lifedrain" interval="2000" chance="50" range="5" min="-60" max="-100">
+		<attack name="lifedrain" interval="2000" chance="30" range="5" min="-60" max="-100">
 			<attribute key="areaEffect" value="redspark"/>
 		</attack>
-		<attack name="death" interval="2000" chance="40" range="7" min="-100" max="-180">
+		<attack name="death" interval="2000" chance="25" range="6" min="-80" max="-130">
 			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
 		<attack name="death" interval="2000" chance="20" range="5" radius="3" min="-50" max="-80">
 			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
 	</attacks>
 	<defenses armor="25" defense="25">
-		<defense name="healing" interval="2000" chance="25" min="40" max="70">
+		<defense name="healing" interval="2000" chance="25" min="50" max="90">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
 	<elements>
 		<element earthPercent="10"/>
 		<element icePercent="10"/>
-		<element deathPercent="25"/>
+		<element deathPercent="50"/>
 		<element firePercent="-5"/>
 		<element holyPercent="-20"/>
 	</elements>
@@ -57,17 +59,20 @@
 	</voices>
 	<loot>
 		<item id="8821" chance="200"/><!-- necromantic cloak -->
-		<item id="2152" countmax="3" chance="40000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="70000"/><!-- gold coin -->
+		<item id="2148" countmax="50" chance="40000"/><!-- gold coin -->
 		<item id="2804" countmax="2" chance="20000"/><!-- shadow herb -->
 		<item id="2185" chance="2000"/><!-- necrotic rod -->
 		<item id="2483" chance="5000"/><!-- scale armor -->
 		<item id="2500" chance="5000"/><!-- steel studded armor -->
 		<item id="2229" countmax="3" chance="20000"/><!-- skull -->
 		<item id="2663" chance="100"/><!-- mystic turban -->
-		<item id="8820" chance="1000"/><!-- mage hat -->
-		<item id="5904" chance="10000"/><!-- magic sulphur -->
+		<item id="8820" chance="3000"/><!-- mage hat -->
+		<item id="5904" chance="20000"/><!-- magic sulphur -->
 		<item id="8870" chance="2000"/><!-- spirit cloak -->
+		<item id="18400" chance="200"/><!-- magician legs -->
 		<item id="2199" chance="3000"/><!-- garlic neckclace -->
-		<item id="1987" chance="80000"/><!-- bag -->		
+		<item id="1987" chance="80000"/><!-- bag -->
+		<item id="7535" chance="300"/><!-- parchment missiles -->		
 	</loot>
 </monster>

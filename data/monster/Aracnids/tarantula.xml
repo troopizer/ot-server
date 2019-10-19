@@ -90,8 +90,8 @@
 
  		<item id="2799" countmax="3" chance="5000"/><!-- stone herb -->
 
- 		<item id="2463" chance="100"/><!-- iron armor -->
- 		<item id="2647" chance="100"/><!-- iron legs -->	
+ 		<item id="2463" chance="30"/><!-- iron armor -->
+ 		<item id="2647" chance="50"/><!-- iron legs -->	
 
 	</loot>
 

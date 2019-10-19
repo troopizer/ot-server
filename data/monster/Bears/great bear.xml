@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<monster name="Great Bear" namedescription="a great bear" race="blood" experience="130" speed="185" manacost="300">
+<monster name="Great Bear" namedescription="a great bear" race="blood" experience="210" speed="185" manacost="300">
 
-	<health now="250" max="250"/>
+	<health now="300" max="300"/>
 
 	<look type="16" corpse="5975"/>
 
@@ -38,11 +38,11 @@
 
 	<attacks>
 
-		<attack name="melee" interval="2000" skill="25" attack="35"/>
+		<attack name="melee" interval="2000" skill="30" attack="35"/>
 
 	</attacks>
 
-	<defenses armor="8" defense="10"/>
+	<defenses armor="18" defense="22"/>
 
 	<elements>
 
@@ -71,11 +71,11 @@
 
 		<item id="2666" countmax="4" chance="90000"/><!-- meat -->
 
-		<item id="5902" countmax="1" chance="20000"/><!-- honeycomb -->
+		<item id="5902" countmax="1" chance="5000"/><!-- honeycomb -->
 
 		<item id="5878" countmax="3" chance="15000"/><!-- leather -->
 
-		<item id="5896" countmax="1" chance="10000"/><!-- bear paw -->
+		<item id="5896" countmax="1" chance="5000"/><!-- bear paw -->
 
 		<item id="2804" countmax="1" chance="10000"/><!-- shadow herb -->
 

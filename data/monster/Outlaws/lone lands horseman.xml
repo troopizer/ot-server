@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<monster name="Lone Lands Horseman" nameDescription="a lone lands mounted bandit" race="blood" experience="700" speed="450" manacost="450">
+<monster name="Lone Lands Horseman" nameDescription="a lone lands mounted bandit" race="blood" experience="800" speed="450" manacost="450">
 
 	<health now="1300" max="1300"/>
 	<look type="143" head="114" body="115" legs="113" feet="116" mount="438" corpse="6080"/>
@@ -48,9 +48,15 @@
 
 	</attacks>
 
-	<defenses armor="30" defense="40">
+	<defenses armor="25" defense="30">
+		<defense name="healing" interval="1000" chance="10" min="20" max="45">
+
+			<attribute key="areaEffect" value="blueshimmer"/>
+
+		</defense>
+
 	
-</defenses>
+	</defenses>
 
 	<elements>
 		<element firePercent="-5"/>
@@ -92,6 +98,10 @@
 
 		<item id="8891" chance="300"/><!-- eriador warrior armor-->
 
+		<item id="2475" chance="50"/><!-- rhudaur knightly helmet -->
+
+		<item id="2641" chance="100"/><!-- studded boots -->
+
 		<item id="5913" countmax="2" chance="10000"/><!-- brown piece of cloth -->
 
 		<item id="5909" countmax="1" chance="6000"/><!-- white piece of cloth -->
@@ -102,9 +112,13 @@
 
 		<item id="2152" countmax="1" chance="60000"/><!-- p coin -->
 
+		<item id="2643" chance="5000"/><!-- leather boots -->
+
 		<item id="2787" countmax="4" chance="20000"/><!-- white mushroom -->
 
 		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
+
+		<item id="2050" countmax="1" chance="5000"/><!-- torch -->
 
 	</loot>
 

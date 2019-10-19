@@ -2,7 +2,7 @@
 
 <monster name="Centipede" namedescription="a centipede" race="venom" experience="120" speed="205" manacost="335">
 
-	<health now="180" max="180"/>
+	<health now="140" max="140"/>
 
 	<look type="124" corpse="6050"/>
 

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Ghost Assassin" nameDescription="a ghost assassin" race="undead" experience="300" speed="400" manacost="100">
+
+	<health now="120" max="120"/>
+
+	<look type="48" corpse="5993"/>
+
+	<targetchange interval="5000" chance="8"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+	
+		<flag summonable="0"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="0"/>
+
+		<flag convinceable="0"/>
+
+		<flag pushable="0"/>
+
+		<flag canpushitems="1"/>
+
+		<flag canpushcreatures="0"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="90"/>
+
+		<flag runonhealth="0"/>
+
+	</flags>
+
+	<attacks>
+		<attack name="melee" interval="2000" skill="50" attack="50"/>
+		<attack name="death" interval="1000" chance="25" range="4" min="-50" max="-80">
+			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+	</attacks>
+
+	<defenses armor="15" defense="20">
+		<defense name="healing" interval="1000" chance="100" min="-10" max="-10">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+		<defense name="invisible" interval="1000" chance="20" duration="5000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+
+	<elements>
+
+		<element physicalPercent="100"/>
+		<element earthPercent="20"/>
+		<element deathPercent="100"/>
+		<element holyPercent="-70"/>
+		<element icePercent="20"/>
+		<element firePercent="10"/>
+		<element energyPercent="10"/>
+
+	</elements>
+
+	<immunities>
+	
+		<immunity lifedrain="1"/>
+
+		<immunity paralyze="1"/>
+
+	</immunities>
+
+	<voices interval="4000" chance="50">
+
+		<voice sentence="DEAATHH!"/>
+
+	</voices>
+
+</monster>

@@ -19,6 +19,7 @@
 	<event type="kill" name="Larry Halfsnout" script="larryhalfsnout.lua"/>
 	<event type="kill" name="Doran Hawk" script="doranhawk.lua"/>
 	<event type="kill" name="Harald Ferner" script="haraldferner.lua"/>
+	<event type="kill" name="Gerald Ford" script="geraldford.lua"/>
 	<event type="kill" name="Rorkduf" script="rorkduf.lua"/>
 	<event type="kill" name="Bandits 10" script="bandits10.lua"/>
 	<event type="kill" name="Necroapp 10" script="necroapp10.lua"/>

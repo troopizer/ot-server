@@ -28,8 +28,17 @@ if(msgcontains(msg, 'shire')) then
 selfSay('The Shire is the land west from the river, its a nice place, but hobbits there are a little bit strange. ', cid)
 end
 if(msgcontains(msg, 'buckland')) then
-selfSay('Buckland is this green and beautiful land, the most eastern hobbit settlement, it was founded by my ancestor Gorhendad Oldbuck. People here love our river and fear the old forest, but we live in peace.', cid)
+selfSay('Buckland is this green and beautiful land, the most eastern hobbit settlement, it was founded by my ancestor Gorhendad Oldbuck. People here love our river and fear the old forest, but we live in peace. You may become a {citizen} of Buckland.', cid)
 end
+	if(msgcontains(msg, 'citizen')) then
+		selfSay('If you decide to be a citizen of Buckland, you will lose your previous citizenship. Are you sure? {yes}?', cid)
+		talkState[talkUser] = 10
+	end
+	if(msgcontains(msg, 'yes') and talkState[talkUser] == 10) then
+		doPlayerSetTown(cid, 2)
+		selfSay('Ok.. sign this papers... Ready! you are now a citizen of Buckland.', cid)
+		talkState[talkUser] = 0
+	end
 
 
 

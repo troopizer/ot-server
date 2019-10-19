@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Argodoc" nameDescription="Argodoc, the banker" script="bank.lua" walkinterval="4000" floorchange="1">
+
+	<health now="150" max="150"/>
+
+	<look type="904" head="97" body="96" legs="117" feet="115" corpse="2212"/>
+
+	<parameters>
+	
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. This is  the bank and mail office of Buckland, I can {trade} you letters and parcels. And also help you with your bank {account}."/>
+		<parameter key="shop_buyable" value="parcel,2595,20;letter,2597,10;label,2599,5;"/>
+	</parameters>
+</npc>

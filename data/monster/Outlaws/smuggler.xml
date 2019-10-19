@@ -69,6 +69,8 @@
 
 		<item id="2376" chance="1000"/><!-- iron sword -->
 
+		<item id="2384" chance="5000"/><!-- iron rapier-->
+
 		<item id="2458" chance="500"/><!-- chain helmet -->
 
 		<item id="2468" chance="1000"/><!-- studded legs -->
@@ -79,6 +81,10 @@
 
 		<item id="1987" chance="80000"/><!-- bag -->
 
+		<item id="2643" chance="5000"/><!-- leather boots -->
+
+		<item id="2787" countmax="1" chance="1000"/><!-- white mushroom -->
+
 		<item id="2671" countmax="1" chance="10000"/><!-- ham -->
 
 		<item id="2544" countmax="5" chance="10000"/><!-- arrow -->
@@ -88,6 +94,8 @@
 		<item id="2050" chance="20000"/><!-- torch -->
 	
 		<item id="2148" countmax="20" chance="90000"/><!-- gold coin -->
+
+		<item id="2050" countmax="1" chance="5000"/><!-- torch -->
 
 	</loot>
 

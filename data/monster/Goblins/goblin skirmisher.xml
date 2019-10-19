@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Goblin Skirmisher" nameDescription="a goblin skirmisher" race="blood" experience="320" speed="250" manacost="290">
-	<health now="350" max="350"/>
+<monster name="Goblin Skirmisher" nameDescription="a goblin skirmisher" race="blood" experience="420" speed="250" manacost="290">
+	<health now="400" max="400"/>
 	<look type="905" corpse="6002"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -21,7 +21,7 @@
 
 		<attack name="melee" interval="2000" skill="25" attack="35"/>
 
-		<attack name="physical" interval="2000" chance="60" range="5" min="-60" max="-120">
+		<attack name="physical" interval="2000" chance="60" range="4" min="-60" max="-120">
 
 			<attribute key="shootEffect" value="spear"/>
 
@@ -44,7 +44,7 @@
 	</voices>
 	<loot>
 		<item id="2648" chance="3000"/><!-- iron chain legs -->
-		<item id="11303" chance="50"/><!-- goblin looter boots-->
+		<item id="11303" chance="30"/><!-- goblin looter boots-->
 		<item id="3975" chance="800"/><!-- iron goblin shield -->
 		<item id="2389" countmax="2" chance="10000"/><!-- spear -->
 		<item id="3965" chance="4000"/><!-- hunting spear -->

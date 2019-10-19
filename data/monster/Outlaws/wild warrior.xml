@@ -88,8 +88,14 @@
 		<item id="1987" chance="80000"/><!-- bag -->
 
 		<item id="2148" countmax="30" chance="90000"/><!-- gold coin -->
+		
+		<item id="2643" chance="3000"/><!-- leather boots -->
+
+		<item id="2787" countmax="1" chance="2000"/><!-- white mushroom -->
 
 		<item id="2666" countmax="2" chance="20000"/><!-- meat -->
+
+		<item id="2050" countmax="1" chance="5000"/><!-- torch -->
 
 	</loot>
 

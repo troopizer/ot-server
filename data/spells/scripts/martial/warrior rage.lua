@@ -4,7 +4,7 @@ combat:setParameter(COMBAT_PARAM_AGGRESSIVE, false)
 
 local condition = Condition(CONDITION_ATTRIBUTES)
 condition:setParameter(CONDITION_PARAM_TICKS, 8000)
-condition:setParameter(CONDITION_PARAM_SKILL_MELEEPERCENT, 300)
+condition:setParameter(CONDITION_PARAM_SKILL_MELEEPERCENT, 200)
 condition:setParameter(CONDITION_PARAM_BUFF, true)
 combat:setCondition(condition)
 

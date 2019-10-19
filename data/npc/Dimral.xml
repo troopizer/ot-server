@@ -6,7 +6,7 @@
 	<parameters>
 		<parameter key="module_shop" value="1"/>
 		<parameter key="message_greet" value="Hello |PLAYERNAME|. I buy creature products, you dont think that animals will be carrying money?"/>
-		<parameter key="shop_sellable" value="fish,2667,3;bat wing,5894,15;worm,3976,1;cheese,2696,2;leather,5878,15;ham,2671,3;meat,2666,2;wolf paw,5897,20;bear paw,5896,90;spider silk,5879,8;white pearl,2143,40;honeycomb,5902,35;iron ore,5880,25;tin ore,2311,15;copper ore,2261,15;egg,2695,2;small diamond,2145,300;small sapphire,2146,350;small ruby,2147,350;small amethyst,2150,350;small emerald,2149,350;carrion worm fang,11186,25;brown piece of cloth,5913,50;white piece of cloth,5909,80;centipede leg,11218,45;giant spider fang,5893,300;troll claw,5930,500;tarantula egg,11192,60;boar fur,5883,150;warg wolf fur,11235,200;horn,5954,50;marsh stalker beak,19741,50;marsh stalker feather,19742,80"/>
-		<parameter key="shop_buyable" value="fish,2667,6;bat wing,5894,25;worm,3976,2;cheese,2696,4;leather,5878,40;ham,2671,6;meat,2666,5;wolf paw,5897,50;bear paw,5896,130;white pearl,2143,100;honeycomb,5902,90;"/>
+		<parameter key="shop_sellable" value="fish,2667,3;bat wing,5894,15;worm,3976,1;cheese,2696,2;leather,5878,15;ham,2671,3;meat,2666,2;wolf paw,5897,20;bear paw,5896,90;spider silk,5879,8;white pearl,2143,40;honeycomb,5902,50;iron ore,5880,25;tin ore,2311,15;copper ore,2261,15;egg,2695,2;small diamond,2145,300;small sapphire,2146,350;small ruby,2147,350;small amethyst,2150,350;small emerald,2149,350;carrion worm fang,11195,50;brown piece of cloth,5913,50;white piece of cloth,5909,80;centipede leg,11218,45;giant spider fang,5893,300;troll claw,5930,500;tarantula egg,11192,60;boar fur,5883,150;warg wolf fur,11235,200;horn,5954,50;marsh stalker beak,19741,50;marsh stalker feather,19742,80"/>
+		<parameter key="shop_buyable" value="fish,2667,8;worm,3976,2;cheese,2696,5;ham,2671,8;meat,2666,6;"/>
 	</parameters>
 </npc>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Earth Apprentice" nameDescription="an earth apprentice" race="blood" experience="400" speed="250" manacost="0">
+	<health now="450" max="450"/>
+	<look type="133" head="115" body="63" legs="114" feet="101" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag staticattack="90"/>
+		<flag targetdistance="5"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="10" max="60"/>
+		<attack name="earth" interval="2000" chance="25" range="6" radius="1" target="1" min="-40" max="-70">
+			<attribute key="shootEffect" value="earth"/>
+			<attribute key="areaEffect" value="smallplants"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="20" range="6" radius="4" target="1" min="-20" max="-50">
+			<attribute key="shootEffect" value="earth"/>
+			<attribute key="areaEffect" value="smallplants"/>
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="25">
+		<defense name="healing" interval="1000" chance="25" min="20" max="40">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element holyPercent="-10"/>
+		<element firePercent="-20"/>
+		<element earthPercent="25"/>
+		<element icePercent="10"/>
+		<element physicalPercent="-10"/>
+		<element energyPercent="-10"/>
+		<element deathPercent="-10"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Earth!"/>
+	</voices>
+	<loot>
+		<item id="7903" chance="50"/><!-- earth helmet -->
+		<item id="2148" countmax="80" chance="50000"/><!-- gold coin -->
+		<item id="2804" countmax="2" chance="20000"/><!-- shadow herb -->
+		<item id="2182" chance="200"/><!-- earth wand -->
+		<item id="2500" chance="5000"/><!-- steel studded armor -->
+		<item id="5904" chance="2000"/><!-- magic sulphur -->
+		<item id="2662" chance="800"/><!-- apprentice hat -->	
+		<item id="8819" chance="800"/><!-- mage cape -->
+		<item id="1987" chance="80000"/><!-- bag -->
+		<item id="2149" chance="50"/><!-- small emerald-->
+	</loot>
+</monster>

@@ -9,6 +9,6 @@
  
 		<parameter key="module_shop" value="1"/>
 		<parameter key="message_greet" value="Hi |PLAYERNAME|. Wellcome to the Newbury tavern, Do you want something to eat?."/>
-		<parameter key="shop_buyable" value="bread,2689,2;cheese,2696,2;salmon,2668,10;"/>
+		<parameter key="shop_buyable" value="bread,2689,2;cheese,2696,2;salmon,2668,10;;ham,2671,6;meat,2666,3;"/>
 	</parameters>
 </npc>

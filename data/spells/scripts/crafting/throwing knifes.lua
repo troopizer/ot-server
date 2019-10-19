@@ -9,11 +9,11 @@ function onTargetTile(cid, pos)
 		if(getPlayerItemCount(cid,5880) >= 1 and getPlayerItemCount(cid,2557) >= 1) then
 			doPlayerRemoveItem(cid,5880, 1)
 			if rareChance <= 70 then
-				doPlayerAddItem(cid,2410, 6)
-				cid:sendTextMessage(MESSAGE_STATUS_SMALL, "You made 6 throwing knifes.")
+				doPlayerAddItem(cid,2410, 2)
+				cid:sendTextMessage(MESSAGE_STATUS_SMALL, "You made 2 throwing knifes.")
 			elseif rareChance > 80 then
-				doPlayerAddItem(cid,2410, 3)
-				cid:sendTextMessage(MESSAGE_STATUS_SMALL, "You made 3 throwing knifes.")
+				doPlayerAddItem(cid,2410, 1)
+				cid:sendTextMessage(MESSAGE_STATUS_SMALL, "You made 1 throwing knifes.")
 			else
 				cid:sendTextMessage(MESSAGE_STATUS_SMALL, "You made 0 throwing knifes.")
 			end

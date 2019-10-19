@@ -2,7 +2,7 @@
 
 <monster name="Bree Mercenary" nameDescription="a mercenary of Bree" race="blood" experience="400" speed="400" manacost="450">
 
-	<health now="400" max="400"/>
+	<health now="500" max="500"/>
 	<look type="131" head="116" body="115" legs="120" feet="114" addons="1" corpse="6080"/>
 
 	<targetchange interval="5000" chance="8"/>
@@ -39,7 +39,7 @@
 
 		<attack name="melee" interval="2000" skill="45" attack="50"/>
 
-		<attack name="physical" interval="2000" chance="30" range="5" min="-30" max="-70">
+		<attack name="physical" interval="2000" chance="30" range="5" min="-35" max="-75">
 
 			<attribute key="shootEffect" value="spear"/>
 
@@ -49,7 +49,7 @@
 	</attacks>
 
 	<defenses armor="20" defense="30">
-		<defense name="healing" interval="2000" chance="10" min="10" max="30">
+		<defense name="healing" interval="2000" chance="20" min="20" max="50">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>

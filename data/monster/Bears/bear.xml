@@ -71,11 +71,11 @@
 
 		<item id="2666" countmax="2" chance="90000"/><!-- meat -->
 
-		<item id="5902" countmax="1" chance="10000"/><!-- honeycomb -->
+		<item id="5902" countmax="1" chance="3000"/><!-- honeycomb -->
 
 		<item id="5878" countmax="2" chance="15000"/><!-- leather -->
 
-		<item id="5896" countmax="1" chance="5000"/><!-- bear paw -->
+		<item id="5896" countmax="1" chance="1000"/><!-- bear paw -->
 
 		<item id="2804" countmax="1" chance="5000"/><!-- shadow herb -->
 

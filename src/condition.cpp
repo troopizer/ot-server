@@ -151,6 +151,7 @@ Condition* Condition::createCondition(ConditionId_t id, ConditionType_t type, in
 		case CONDITION_ENERGY:
 		case CONDITION_DROWN:
 		case CONDITION_FREEZING:
+			return new ConditionSpeed(id, type, ticks, buff, subId, param);
 		case CONDITION_DAZZLED:
 		case CONDITION_CURSED:
 		case CONDITION_BLEEDING:

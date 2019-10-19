@@ -19,7 +19,7 @@ function creatureSayCallback(cid, type, msg)
 		selfSay('Do you want to make: {club}, {axe}, {sword} or {distance weapon} ?', cid)
 		talkState[talkUser] = 1
 	elseif(msgcontains(msg, 'distance weapon') and talkState[talkUser] == 1) then
-	 	selfSay('I can forge: {1 spear} (atk:25),{5 spear} (atk:25), {5 hunting spears} (atk:32), {bow}, {10 arrows} (atk:25), {100 arrows} (atk:25) or {100 sniper arrows} (atk:28) .', cid)
+	 	selfSay('I can forge: {1 spear} (atk:25),{5 spears} (atk:25), {5 hunting spears} (atk:32), {bow}, {10 arrows} (atk:25), {100 arrows} (atk:25) or {100 sniper arrows} (atk:28) .', cid)
 		talkState[talkUser] = 2 
 	elseif(msgcontains(msg, '1 spear') and talkState[talkUser] == 2) then
 	 	selfSay('To make a spear, I would need {1 wood plank} and {5 gold coins}, do you have they?.', cid)

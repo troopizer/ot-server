@@ -7,9 +7,11 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	if itemId == 2559 then
 		if target.type == 1 and table.contains(oldTrees, target.itemid) then
 			if rareChance <= 40 then
+				doSendMagicEffect(toPosition, CONST_ME_BLOCKHIT)
 				player:addItem(5901, 1)
 				return true
 			else
+				doSendMagicEffect(toPosition, CONST_ME_POFF)
 				return true
 			end
 		end

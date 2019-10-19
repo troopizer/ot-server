@@ -1,37 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Ted" nameDescription="Ted, a hobbit." walkinterval="2000" floorchange="1">
+<npc name="Ted" nameDescription="Ted, a hobbit." script="beer8.lua" walkinterval="2000" floorchange="1">
 
 	<health now="150" max="150"/>
 
 	<look type="904" head="116" body="0" legs="116" feet="114" corpse="2212"/>
 
-  <interaction range="3" idletime="60">
-
-
-    <interact keywords="hi" focus="1">
-
-      <keywords>hello</keywords>
-
+  <parameters>
  
-     <response text="Hello. Wellcome to my bar!">
-
-        <action name="idle" value="1"/>
-  
-    </response>
-
-    </interact>
-
- 
-   <interact keywords="bye" focus="0">
-
-      <keywords>farewell</keywords>
-
-
-      <response text="Good bye."/>
- 
-   </interact>
-
-  </interaction>
-
+    <parameter key="module_shop" value="1"/>
+    <parameter key="message_greet" value="Hello |PLAYERNAME|. Wellcome to my bar, Do you want something to drink?."/>
+        <parameter key="shop_buyable" value="bread,2689,2;cheese,2696,2;ham,2671,6;meat,2666,3;"/>
+  </parameters>
 </npc>

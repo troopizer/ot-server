@@ -48,7 +48,15 @@
 
 	</attacks>
 
-	<defenses armor="25" defense="25"/>
+	<defenses armor="25" defense="25">
+		<defense name="healing" interval="1000" chance="10" min="20" max="40">
+
+			<attribute key="areaEffect" value="blueshimmer"/>
+
+		</defense>
+
+	
+	</defenses>
 
 	<elements>
 
@@ -73,7 +81,7 @@
 
 		<item id="2383" chance="800"/><!-- iron spike sword -->
 
-		<item id="3982" chance="1000"/><!-- ranger boots -->
+		<item id="3982" chance="400"/><!-- ranger boots -->
 
 		<item id="2464" chance="3000"/><!-- iron chain armor -->
 
@@ -95,13 +103,19 @@
 
 		<item id="1987" chance="80000"/><!-- bag -->
 
-		<item id="2148" countmax="80" chance="90000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="90000"/><!-- gold coin -->
+
+		<item id="2643" chance="5000"/><!-- leather boots -->
 
 		<item id="2787" countmax="4" chance="20000"/><!-- white mushroom -->
 
 		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
 
-		<item id="7438" countmax="1" chance="200"/><!-- war bow -->
+		<item id="7438" countmax="1" chance="100"/><!-- war bow -->
+
+		<item id="2050" countmax="1" chance="5000"/><!-- torch -->
+
+		<item id="2661" chance="1000"/><!-- scarf-->
 
 	</loot>
 

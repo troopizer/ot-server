@@ -38,14 +38,20 @@
 
 	<attacks>
 
-		<attack name="melee" interval="2000" min="-100" max="-350"/>
-		<attack name="earth" interval="2000" chance="25" range="5" min="-80" max="-200">
-			<attribute key="shootEffect" value="earth"/>
+		<attack name="melee" interval="2000" skill="75" attack="75"/>
+		<attack name="earth" interval="2000" chance="25" range="5" min="-80" max="-150">
+			<attribute key="areaEffect" value="stones"/>
+		</attack>
+		<attack name="earth" interval="3000" chance="30" length="6" spread="0" min="-150" max="-250">
+			<attribute key="areaEffect" value="groundshaker"/>
 		</attack>
 	</attacks>
-	<defenses armor="25" defense="30">
+	<defenses armor="30" defense="35">
 		<defense name="speed" interval="1000" chance="6" speedchange="400" duration="20000">
 			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+		<defense name="healing" interval="2000" chance="20" min="20" max="40">
+			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
 	<elements>
@@ -58,27 +64,28 @@
 	</elements>
 	<immunities>
 		<immunity lifedrain="0"/>
-		<immunity paralyze="0"/>
+		<immunity paralyze="1"/>
 		<immunity outfit="1"/>
 		<immunity drunk="1"/>
 		<immunity invisible="1"/>
 	</immunities>
 	<loot>
-		<item id="2200" chance="2000"/><!-- protection amulet-->
-		<item id="3967" chance="3000"/><!-- eriador battle helmet -->
+		<item id="3967" chance="2000"/><!-- eriador battle helmet -->
 		<item id="2477" chance="800"/><!-- arnorian chain legs -->
 		<item id="2647" chance="2000"/><!-- iron legs -->	
-		<item id="2463" chance="4000"/><!-- iron armor -->		
-		<item id="11369" countmax="1" chance="10000"/><!-- perfect behemoth fang -->
+		<item id="2463" chance="4000"/><!-- iron armor -->
+		<item id="2502" chance="200"/><!-- a archer helmet-->	
 		<item id="5904" countmax="3" chance="10000"/><!-- magic sulphur -->
 		<item id="11371" countmax="2" chance="20000"/><!-- terramite legs -->
+		<item id="11369" countmax="1" chance="20000"/><!-- terramite shell -->
 		<item id="2545" countmax="12" chance="40000"/><!-- poison arrow -->
 		<item id="2150" chance="300"/><!-- small amethyst -->
 		<item id="2146" chance="300"/><!-- small sapphire -->
 		<item id="2147" chance="300"/><!-- small ruby -->
 		<item id="2149" chance="300"/><!-- small emerald-->
 		<item id="2804" countmax="5" chance="10000"/><!-- shadow herb -->
-		<item id="2145" chance="800"/><!-- small diamond -->
+		<item id="2145" chance="100"/><!-- small diamond -->
  		<item id="2803" countmax="3" chance="10000"/><!-- powder herb -->
+ 		<item id="5880" chance="2000"/><!-- iron ore -->
 	</loot>
 </monster>

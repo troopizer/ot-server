@@ -37,9 +37,9 @@
 
 	<attacks>
 
-		<attack name="melee" interval="2000" skill="35" attack="40"/>
+		<attack name="melee" interval="2000" skill="35" attack="35"/>
 
-		<attack name="physical" interval="2000" chance="30" range="5" min="-50" max="-100">
+		<attack name="physical" interval="2000" chance="30" range="5" min="-40" max="-90">
 
 			<attribute key="shootEffect" value="spear"/>
 
@@ -73,7 +73,7 @@
 
 		<item id="2419" chance="1000"/><!-- iron scimitar -->
 
-		<item id="3982" chance="200"/><!-- ranger boots -->
+		<item id="3982" chance="50"/><!-- ranger boots -->
 
 		<item id="2464" chance="3000"/><!-- iron chain armor -->
 
@@ -91,9 +91,13 @@
 
 		<item id="2148" countmax="50" chance="90000"/><!-- gold coin -->
 
-		<item id="2787" countmax="4" chance="20000"/><!-- white mushroom -->
+		<item id="2643" chance="5000"/><!-- leather boots -->
+
+		<item id="2787" countmax="2" chance="15000"/><!-- white mushroom -->
 
 		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
+
+		<item id="2050" countmax="1" chance="5000"/><!-- torch -->
 
 	</loot>
 

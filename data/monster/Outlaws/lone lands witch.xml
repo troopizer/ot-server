@@ -19,21 +19,25 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="50" max="105"/>
-		<attack name="energy" interval="2000" chance="25" range="6" radius="1" target="1" min="-150" max="-250">
+		<attack name="energy" interval="2000" chance="25" range="6" radius="1" target="1" min="-60" max="-120">
 			<attribute key="shootEffect" value="energy"/>
 			<attribute key="areaEffect" value="purpleenergy"/>
 		</attack>
-		<attack name="energy" interval="2000" chance="30" range="6" radius="4" target="1" min="-100" max="-200">
+		<attack name="energy" interval="2000" chance="30" range="6" radius="4" target="1" min="-50" max="-120">
 			<attribute key="shootEffect" value="energy"/>
 			<attribute key="areaEffect" value="purpleenergy"/>
 		</attack>
-		<attack name="fire" interval="2000" chance="25" range="6" radius="1" target="1" min="-80" max="-150">
+		<attack name="fire" interval="2000" chance="30" range="6" radius="4" target="1" min="-100" max="-150">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="fire"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="25" range="6" radius="1" target="1" min="-120" max="-180">
 			<attribute key="shootEffect" value="fire"/>
 			<attribute key="areaEffect" value="fire"/>
 		</attack>
 	</attacks>
-	<defenses armor="15" defense="25">
-		<defense name="healing" interval="1000" chance="25" min="50" max="80">
+	<defenses armor="15" defense="22">
+		<defense name="healing" interval="1000" chance="30" min="50" max="110">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -60,15 +64,16 @@
 		<item id="2804" countmax="2" chance="20000"/><!-- shadow herb -->
 		<item id="2190" chance="5000"/><!-- energy wand -->
 		<item id="2191" chance="5000"/><!-- fire wand -->
-		<item id="2663" chance="200"/><!-- mystic turban -->
+		<item id="2663" chance="100"/><!-- mystic turban -->
 		<item id="8820" chance="3000"/><!-- mage hat -->
 		<item id="5904" chance="40000"/><!-- magic sulphur -->
 		<item id="8870" chance="3000"/><!-- spirit cloak -->
-		<item id="8871" chance="500"/><!-- focus cape -->
+		<item id="8871" chance="800"/><!-- focus cape -->
 		<item id="1987" chance="80000"/><!-- bag -->
 		<item id="2150" chance="1000"/><!-- small amethyst -->
 		<item id="2147" chance="1000"/><!-- small ruby -->
 		<item id="7535" chance="500"/><!-- parchment missiles -->
 		<item id="7534" chance="100"/><!-- parchment explosions -->	
+		<item id="18400" chance="200"/><!-- magician legs -->
 	</loot>
 </monster>

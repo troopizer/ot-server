@@ -21,7 +21,7 @@ if(msgcontains(msg, 'mission') or msgcontains(msg, 'mount')) then
 				doPlayerRemoveItem(cid, 2687, 10)
 				doPlayerRemoveItem(cid, 2692, 20)
 				doPlayerRemoveItem(cid, 7158, 10)
-				selfSay('Thanks! But I have another problem.. Here in greefields the population of {greenfields rabbits} its too high, {kill 10} of them and we will finish our business.', cid)
+				selfSay('Thanks! But I have another problem.. In this area the population of {greenfields rabbits} has grown too high, those damned rabbits had come from the north. {Kill 10} of them and we will finish our business.', cid)
 				setPlayerStorageValue(cid,2136,1)
 			else
 				selfSay('I will wait...', cid)

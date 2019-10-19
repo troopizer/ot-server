@@ -102,16 +102,31 @@ bool Player::isPushable() const
 std::string Player::getDescription(int32_t lookDistance) const
 {
 	std::ostringstream s;
+	double xx = (level*level/4)+((getSkillLevel(SKILL_DISTANCE)-10)*(getSkillLevel(SKILL_DISTANCE)-10))+((getSkillLevel(SKILL_FIST)-10)*(getSkillLevel(SKILL_FIST)-10))+((getSkillLevel(SKILL_AXE)-10)*(getSkillLevel(SKILL_AXE)-10))+((getSkillLevel(SKILL_SWORD)-10)*(getSkillLevel(SKILL_SWORD)-10))+((getSkillLevel(SKILL_CLUB)-10)*(getSkillLevel(SKILL_CLUB)-10))+((getSkillLevel(SKILL_SHIELD)-10)*(getSkillLevel(SKILL_SHIELD)-10))+(magLevel*magLevel);
 
 	if (lookDistance == -1) {
 		s << "yourself.";
 
 		if (group->access) {
 			s << " You are " << group->name << '.';
-		} else if (vocation->getId() != VOCATION_NONE) {
-			s << " You are " << vocation->getVocDescription() << '.';
+		} else if (xx < 1500) {
+			s << " Your fighting power is Wood.";
+		} else if (xx < 4000) {
+			s << " Your fighting power is Bronze.";
+		} else if (xx < 10000) {
+			s << " Your fighting power is Iron.";
+		} else if (xx < 15000) {
+			s << " Your fighting power is Steel.";
+		} else if (xx < 20000) {
+			s << " Your fighting power is Silver.";
+		} else if (xx < 30000) {
+			s << " Your fighting power is Gold.";
+		} else if (xx < 50000) {
+			s << " Your fighting power is Diamond.";
+		} else if (xx >= 50000) {
+			s << " Your fighting power is Mithril.";
 		} else {
-			s << " You have no vocation.";
+			s << " You are an adventurer.";
 		}
 	} else {
 		s << name;
@@ -128,10 +143,8 @@ std::string Player::getDescription(int32_t lookDistance) const
 
 		if (group->access) {
 			s << " is " << group->name << '.';
-		} else if (vocation->getId() != VOCATION_NONE) {
-			s << " is " << vocation->getVocDescription() << '.';
 		} else {
-			s << " has no vocation.";
+			s << " is an adventurer.";
 		}
 	}
 

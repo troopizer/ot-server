@@ -1,11 +1,11 @@
 local combat = Combat()
 combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_EARTHDAMAGE)
-combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_CARNIPHILA)
+combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_SMALLPLANTS)
 combat:setArea(createCombatArea(AREA_BEAM5))
 
 function onGetFormulaValues(player, level, maglevel)
-	local min = (level / 4) + (maglevel*3)
-	local max = (level / 4) + (maglevel *5)
+	local min = (100 + (level / 2) + (maglevel*maglevel)/25)*0.8
+	local max = 100 + (level / 2) + (maglevel*maglevel)/25
 	return -min, -max
 end
 

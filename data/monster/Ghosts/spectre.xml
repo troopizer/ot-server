@@ -19,22 +19,25 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="-60" max="-250"/>
-		<attack name="death" interval="2000" chance="25" range="7" radius="5" target="1" min="-100" max="-300">
+		<attack name="death" interval="2000" chance="25" range="6" radius="5" target="1" min="-100" max="-180">
 			<attribute key="shootEffect" value="suddendeath"/>
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
-		<attack name="death" interval="2000" chance="30" range="7" radius="1" target="1" min="-150" max="-350">
+		<attack name="death" interval="2000" chance="30" range="6" radius="1" target="1" min="-150" max="-250">
 			<attribute key="shootEffect" value="suddendeath"/>
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
-		<attack name="manadrain" interval="3000" chance="40" range="5" min="-10" max="-300">
+		<attack name="death" interval="2000" chance="30" length="7" spread="0" target="0" min="-250" max="-450">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="manadrain" interval="3000" chance="20" range="5" min="-10" max="-300">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
-		<attack name="lifedrain" interval="2000" chance="40" range="5" min="-80" max="-200">
+		<attack name="lifedrain" interval="2000" chance="30" range="5" min="-80" max="-200">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
 	</attacks>
-	<defenses armor="25" defense="30">
+	<defenses armor="25" defense="35">
 		<defense name="healing" interval="2000" chance="35" min="75" max="150">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
@@ -58,16 +61,16 @@
 		<voice sentence="For Angmar..! For the Witch King!"/>
 	</voices>
 	<loot>
-		<item id="2152" countmax="10" chance="40000"/><!-- platinum coin -->
+		<item id="2152" countmax="5" chance="40000"/><!-- platinum coin -->
 		<item id="5909" countmax="5" chance="20000"/><!-- white piece of cloth -->
 		<item id="1987" chance="100000"/><!-- bag -->
 		<item id="5904" countmax="8" chance="15000"/><!-- magic sulphurs -->
-		<item id="2528" chance="300"/><!-- arnorian heavy shield -->
+		<item id="2528" chance="100"/><!-- arnorian heavy shield -->
 		<item id="2531" chance="3000"/><!-- rhudaur light shield -->
 		<item id="2477" chance="2000"/><!-- arnorian chain legs -->
-		<item id="2499" chance="500"/><!-- arnorian full helmet -->
-		<item id="2503" chance="200"/><!-- arnorian full armor -->
-		<item id="2504" chance="300"/><!-- arnorian full legs -->
+		<item id="2499" chance="300"/><!-- arnorian full helmet -->
+		<item id="2503" chance="100"/><!-- arnorian full armor -->
+		<item id="2504" chance="200"/><!-- arnorian full legs -->
 		<item id="7383" chance="600"/><!-- elemental sword -->
 		<item id="7392" chance="600"/><!-- elemental club -->
 		<item id="2430" chance="600"/><!-- elemental axe -->

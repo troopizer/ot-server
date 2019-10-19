@@ -29,25 +29,43 @@ function creatureSayCallback(cid, type, msg)
 					selfSay('I dont have more missions for you right now.', cid)
 			end
 	elseif(msgcontains(msg, 'most wanted') or msgcontains(msg, 'dead or alive')) then
+			selfSay('This is our newest most wanted list, kill the targets and get a nice reward.', cid)
 			if(getPlayerStorageValue(cid,2038) < 0) then
-				selfSay('This is our last most wanted list, kill the targets and get a nice reward.', cid)
+				selfSay('New Target.', cid)
 				setPlayerStorageValue(cid,30009,8)
 				setPlayerStorageValue(cid,2038,0)
+			end
+			if(getPlayerStorageValue(cid,2111) < 0) then
+				selfSay('New Target.', cid)
+				setPlayerStorageValue(cid,30009,8)
 				setPlayerStorageValue(cid,2111,0)
-			elseif(getPlayerStorageValue(cid,2111) < 0) then
-				setPlayerStorageValue(cid,2111,0)
-			elseif(getPlayerStorageValue(cid,2038) == 1) then
-				selfSay('Great job! (you received 5000 experience, 500 gold and 1 iron soldier helmet).', cid)
-				doPlayerAddExperience(cid,5000)
+			end
+			if(getPlayerStorageValue(cid,2154) < 0) then
+				selfSay('New Target.', cid)
+				setPlayerStorageValue(cid,30009,8)
+				setPlayerStorageValue(cid,2154,0)
+			end
+	elseif(msgcontains(msg, 'reward')) then
+			if(getPlayerStorageValue(cid,2038) == 1) then
+				selfSay('Great job! (you received 10000 experience, 500 gold and 1 iron soldier helmet).', cid)
+				doPlayerAddExperience(cid,10000)
 				doPlayerAddItem(cid,2148,500)
 				doPlayerAddItem(cid,2481,1)
 				setPlayerStorageValue(cid,2038,2)
 			elseif(getPlayerStorageValue(cid,2111) == 1) then
-				selfSay('Great job! (you received 50000 experience, 8000 gold and 1 eriador battle helmet).', cid)
+				selfSay('Great job! (you received 50000 experience, 8000 gold and 1 small diamond).', cid)
 				doPlayerAddExperience(cid,50000)
 				doPlayerAddItem(cid,2152,80)
-				doPlayerAddItem(cid,3967,1)
-				setPlayerStorageValue(cid,2038,2)
+				doPlayerAddItem(cid,2145,1)
+				setPlayerStorageValue(cid,2111,2)
+			elseif(getPlayerStorageValue(cid,2154) == 1) then
+				selfSay('Great job! (you received 60000 experience, 10000 gold and 1 small diamond).', cid)
+				doPlayerAddExperience(cid,60000)
+				doPlayerAddItem(cid,2152,100)
+				doPlayerAddItem(cid,2145,1)
+				setPlayerStorageValue(cid,2154,2)
+			else
+				selfSay('You have not earned any rewards.', cid)
 			end
  	elseif(msgcontains(msg, 'bree')) then
 				selfSay('Bree is this beatiful town where we are, is the center of men in this area. It might be just a little town, but we work every day to make it greater.', cid)

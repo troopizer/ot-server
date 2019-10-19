@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Gaston"  script="beer7.lua" nameDescription="Gaston the tavern keeper, a hobbit" walkinterval="2000" floorchange="0">
+
+	<health now="100" max="100"/>
+
+	<look type="904" head="115" body="3" legs="116" feet="115"/>
+	<parameters>
+ 
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Hi |PLAYERNAME|. Wellcome to the Quarrys Tavern, Do you want something to eat? I also buy some creature products and {trade} letters and parcels."/>
+		<parameter key="shop_sellable" value="fish,2667,3;bat wing,5894,15;worm,3976,1;cheese,2696,2;leather,5878,15;ham,2671,3;meat,2666,2;wolf paw,5897,20;bear paw,5896,90;spider silk,5879,8;white pearl,2143,40;honeycomb,5902,50;egg,2695,2;carrion worm fang,11195,25;brown piece of cloth,5913,50;white piece of cloth,5909,80;centipede leg,11218,45;tarantula egg,11192,60;horn,5954,50;"/>
+		<parameter key="shop_buyable" value="bread,2689,2;cheese,2696,2;ham,2671,6;meat,2666,3;parcel,2595,20;letter,2597,10;label,2599,5;"/>
+	</parameters>
+</npc>

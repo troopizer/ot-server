@@ -5,6 +5,7 @@
 	<!-- Annelids -->
 	<monster name="Carrion Worm" file="Annelids/carrion worm.xml"/>
 	<monster name="Rotworm" file="Annelids/rotworm.xml"/>
+	<monster name="Rotworm Queen" file="Annelids/rotworm queen.xml"/>
 
 	<!-- Aracnids -->
 	<monster name="Crystal Spider" file="Aracnids/crystal spider.xml"/>
@@ -52,7 +53,16 @@
 	<!-- Felines -->
 	<monster name="Cat" file="Felines/cat.xml"/>
 	<monster name="Lion" file="Felines/lion.xml"/>
+	<monster name="Mountain Lion" file="Felines/mountain lion.xml"/>
 	<monster name="Tiger" file="Felines/tiger.xml"/>
+
+	<!-- Frogs -->
+	<monster name="Azure Frog" file="Frogs/azure frog.xml"/>
+	<monster name="Coral Frog" file="Frogs/coral frog.xml"/>
+	<monster name="Crimson Frog" file="Frogs/crimson frog.xml"/>
+	<monster name="Green Frog" file="Frogs/green frog.xml"/>
+	<monster name="Orchid Frog" file="Frogs/orchid frog.xml"/>
+	<monster name="Toad" file="Frogs/toad.xml"/>
 
 	<!-- Ghosts -->
 	<monster name="Ghost" file="Ghosts/ghost.xml"/>
@@ -64,7 +74,7 @@
 	<monster name="Strong Wisp" file="Ghosts/strong wisp.xml"/>
 	<monster name="Lost Soul" file="Ghosts/lost soul.xml"/>
 	<monster name="Cardolan Ghost" file="Ghosts/cardolan ghost.xml"/>
-
+	<monster name="Ghost Assassin" file="Ghosts/ghost assassin.xml"/>
 	<!-- Goblins -->
 	<monster name="Goblin" file="Goblins/goblin.xml"/>
 	<monster name="Goblin Heavy Infantry" file="Goblins/goblin heavy infantry.xml"/>
@@ -101,6 +111,8 @@
 	<monster name="Rorkduf" file="Quests/rorkduf.xml"/>
 	<monster name="Doran Hawk" file="Quests/doran hawk.xml"/>
 	<monster name="Sorcerer's Ghoul" file="Quests/sorcerers ghoul.xml"/>
+	<monster name="Gerald Ford" file="Quests/gerald ford.xml"/>
+	<monster name="Frogmorton King" file="Quests/frogmorton king.xml"/>
 
 	<!-- Misc -->
 	<monster name="Badger" file="Misc/badger.xml"/>
@@ -126,6 +138,7 @@
 	<monster name="Necromancer" file="Necromancers/necromancer.xml"/>
 	<monster name="Necromancer Apprentice" file="Necromancers/necromancer apprentice.xml"/>
 	<monster name="Priestess" file="Necromancers/priestess.xml"/>
+	<monster name="Death Master" file="Necromancers/death master.xml"/>
 
 	<!-- Ores -->
 	<monster name="Tin Deposit" file="Ores/tin deposit.xml"/>
@@ -198,6 +211,7 @@
 	<monster name="Undead Gladiator" file="Skeletons/undead gladiator.xml"/>
 	<monster name="Skeleton Minion" file="Skeletons/skeleton minion.xml"/>
 	<monster name="Skeleton Soldier" file="Skeletons/skeleton soldier.xml"/>
+	<monster name="Skeleton Assassin" file="Skeletons/skeleton assassin.xml"/>
 	<!-- Undead -->
 	<monster name="Ghoul" file="Undead Humanoids/ghoul.xml"/>
 	<monster name="Crypt Shambler" file="Undead Humanoids/crypt shambler.xml"/>
@@ -219,4 +233,11 @@
 	<monster name="Ice Cultist" file="Elemental Cult/Ice Cultist.xml"/>
 	<monster name="Energy Cultist" file="Elemental Cult/Energy Cultist.xml"/>
 	<monster name="Earth Cultist" file="Elemental Cult/Earth Cultist.xml"/>
+	<monster name="Earth Apprentice" file="Elemental Cult/Earth Apprentice.xml"/>
+	<monster name="Fire Apprentice" file="Elemental Cult/Fire Apprentice.xml"/>
+	<monster name="Ice Apprentice" file="Elemental Cult/Ice Apprentice.xml"/>
+	<monster name="Energy Apprentice" file="Elemental Cult/Energy Apprentice.xml"/>
+	<monster name="Life Priest" file="Elemental Cult/Life Priest.xml"/>
+	<monster name="Life Apprentice" file="Elemental Cult/Life Apprentice.xml"/>
+	<monster name="Ice Matriarch" file="Elemental Cult/ice matriarch.xml"/>
 </monsters>

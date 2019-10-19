@@ -27,7 +27,12 @@ if(getPlayerItemCount(cid, 5883) >= 20) then
 selfSay('Thanks! Now lets speak about {forge}.(You recived 50000 exp)', cid)
 setPlayerStorageValue(cid,2102,1)
 doPlayerAddExperience(cid,50000)
+else
+selfSay('I will keep waiting those furs.', cid)
 end
+end
+if (getPlayerStorageValue(cid,2102) == 1) then
+selfSay('I dont have more missions for you, but I can {forge} something for you.', cid)
 end
 		talkState[talkUser] = 4
 elseif(msgcontains(msg, 'ok') and talkState[talkUser] == 4) then
@@ -35,14 +40,14 @@ elseif(msgcontains(msg, 'ok') and talkState[talkUser] == 4) then
 	setPlayerStorageValue(cid,2102,0)
 	selfSay('Thanks! Get 20 boar furs.', cid)
 end
-if (getPlayerStorageValue(cid,2040) == 1) then
+if (getPlayerStorageValue(cid,2102) == 1) then
 
 	if(msgcontains(msg, 'forge')) then
 		talkState[talkUser] = 1
 		selfSay('Do you want to forge: {strong leather armor} or {hunter quilted armor}?', cid)
 
 	elseif(msgcontains(msg, 'strong leather armor') and talkState[talkUser] == 1) then
-	 	selfSay('Strong leather armor (Arm:12, Physical:-2%, meele: +2), I would need {5 iron ores},{30 boar furs} and {30 leathers}, do you have they?.', cid)
+	 	selfSay('Strong leather armor (Arm:12, Physical:2%, meele: +2), I would need {5 iron ores},{30 boar furs} and {30 leathers}, do you have they?.', cid)
 		talkState[talkUser] = 2
 	elseif(msgcontains(msg, 'yes') and talkState[talkUser] == 2) then
 		if(getPlayerItemCount(cid, 5883) >= 30 and getPlayerItemCount(cid, 5880) >= 5 and getPlayerItemCount(cid, 5878) >= 30) then

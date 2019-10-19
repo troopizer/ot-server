@@ -6,7 +6,8 @@ function onTargetTile(cid, pos)
 		if (getPlayerSlotItem(cid, armor) == 8821) then
 			n = 8
 		end
-	if(corpse.uid > 0 and isCorpse(corpse.uid) and isMoveable(corpse.uid)) then
+	if(corpse.uid > 0 and isMoveable(corpse.uid)) then
+	if (isCorpse(corpse.uid) or getItemId(corpse.uid) == 2229) then
 		if (getCreatureSummonN(cid) < n) then
 			doRemoveItem(corpse.uid)
 			doConvinceCreature(cid, doSummonCreature("Skeleton Minion", pos))
@@ -16,6 +17,7 @@ function onTargetTile(cid, pos)
 		else
 			return false
 		end
+	end
 	end
 
 	return false

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<monster name="Rotworm" nameDescription="a rotworm" race="blood" experience="40" speed="176" manacost="305">
+<monster name="Rotworm" nameDescription="a rotworm" race="blood" experience="100" speed="200" manacost="305">
 
-	<health now="65" max="65"/>
+	<health now="130" max="130"/>
 
 	<look type="26" corpse="5967"/>
 	<targetchange interval="2000" chance="0"/>
@@ -37,7 +37,7 @@
 
 	<attacks>
 
-		<attack name="melee" interval="2000" skill="20" attack="18"/>
+		<attack name="melee" interval="2000" skill="25" attack="25"/>
 
 	</attacks>
 
@@ -63,7 +63,7 @@
 
 		<item id="5880" chance="500"/><!-- iron ore -->
 
-		<item id="2145" chance="50"/><!-- small diamond -->
+		<item id="2145" chance="10"/><!-- small diamond -->
 
 		<item id="2804" countmax="1" chance="5000"/><!-- shadow herb -->
 
@@ -72,6 +72,8 @@
 		<item id="2666" countmax="3" chance="40000"/><!-- meat -->
 
 		<item id="2671" countmax="2" chance="20000"/><!-- ham -->
+
+		<item id="5878" countmax="1" chance="15000"/><!-- leather -->
 
 
 	</loot>

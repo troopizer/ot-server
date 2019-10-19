@@ -22,7 +22,7 @@ function creatureSayCallback(cid, type, msg)
 					selfSay('Hi brave man, we are the dunedain, the descendants of the mighty warriors of Arnor, if you want to help us in a mission, I can give you a pretty nice reward,{ok}?.', cid)
 				talkState[talkUser] = 1
 			elseif(getPlayerStorageValue(cid,2041) == 20) then
-					selfSay('Great! you are pretty strong, you can now pick one of this rings, they are lesser magic rigns, but are valuable:{meele ring}, {distance ring} and {magic ring}, wich one? (you received 10000 exp) ', cid)
+					selfSay('Great! you are pretty strong, you can now pick one of this rings. They are lesser magic rings I found in Eregion and they are very valuable: {meele ring}, {distance ring} and {magic ring}, wich one? (you received 10000 exp) ', cid)
 					setPlayerStorageValue(cid,2041,21)
 					doPlayerAddExperience(cid,10000)
 					talkState[talkUser] = 2

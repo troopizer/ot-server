@@ -15,15 +15,20 @@ function creatureSayCallback(cid, type, msg)
 
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 
-	if(msgcontains(msg, 'hunting') or msgcontains(msg, 'guild')) then
-		selfSay('The Hunting Guild is an organization of hunters spread around Middle Earth. We give work and training to hunters that are looking for stronger preys.', cid)
-		selfSay('If you join the guild you will get rewards like experience, money and some items, for accomplishing hunting missions.', cid)
+	if(msgcontains(msg, 'adventurers') or msgcontains(msg, 'guild')) then
+		selfSay('The Adventurers Guild is an organization of adventurers spread around Middle Earth. We give work and training to adventurers that are looking for the power to explore this lands.', cid)
+		selfSay('If you join the guild you will get rewards like experience, money and some items, for accomplishing hunting missions. Or you can improve your skills with training {sessions}', cid)
+		selfSay('If you want to join us, you will have to do a little {mission}.', cid)
+	end
+	if(msgcontains(msg, 'training') or msgcontains(msg, 'sessions')) then
+		selfSay('As a member of the Adventurers Guild, you can take up to 3 training sessions with our trainer, Jovan. You will have to pay a good amount of money and be at least lvl 40.', cid)
+		selfSay('You should speak with him for more information.', cid)
 	end
 	if(msgcontains(msg, 'mission')) then
 			if(getPlayerStorageValue(cid,2119) == 0 and getPlayerStorageValue(cid,2120) == 0 and getPlayerStorageValue(cid,2121) == 0) then
 				selfSay('I am waiting for you to finish the mission.', cid)
 			elseif(getPlayerStorageValue(cid,2119) < 0 or getPlayerStorageValue(cid,2120) < 0 or getPlayerStorageValue(cid,2121) < 0) then
-					selfSay('I am the leader of the {Hunting Guild} in Bree. If you want to join us, you will have to prove your basic hunting skills. {ok}?', cid)
+					selfSay('I am the leader of the {Adventurers Guild} in Bree. If you want to join us, you will have to prove your basic hunting skills. {ok}?', cid)
 				talkState[talkUser] = 1
 			elseif(getPlayerStorageValue(cid,2119) == 20) then
 					selfSay('Well done. (You received 100 gp and 500 exp)', cid)

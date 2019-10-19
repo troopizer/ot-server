@@ -204,6 +204,7 @@ function registerCreatureEvent(cid, name) local c = Creature(cid) return c ~= ni
 function unregisterCreatureEvent(cid, name) local c = Creature(cid) return c ~= nil and c:unregisterEvent(name) or false end
 
 function getPlayerByName(name) local p = Player(name) return p ~= nil and p:getId() or false end
+function getPlayerByGUID(GUID) local p = Player(GUID) return p ~= nil and p:getId() or false end
 function getIPByPlayerName(name) local p = Player(name) return p ~= nil and p:getIp() or false end
 function getPlayerGUID(cid) local p = Player(cid) return p ~= nil and p:getGuid() or false end
 function getPlayerIp(cid) local p = Player(cid) return p ~= nil and p:getIp() or false end
@@ -576,7 +577,14 @@ function doSetItemActionId(uid, actionId) local i = Item(uid) return i ~= nil an
 function doTransformItem(uid, newItemId, ...) local i = Item(uid) return i ~= nil and i:transform(newItemId, ...) or false end
 function doChangeTypeItem(uid, newType) local i = Item(uid) return i ~= nil and i:transform(i:getId(), newType) or false end
 function doRemoveItem(uid, ...) local i = Item(uid) return i ~= nil and i:remove(...) or false end
-
+function doDeleteItem(itemid, pos)
+	local tile = Tile(pos)
+	if not tile then
+		return false
+	end
+	movement.RemoveItemField(itemid, pos)
+	return false
+end
 function getContainerSize(uid) local c = Container(uid) return c ~= nil and c:getSize() or false end
 function getContainerCap(uid) local c = Container(uid) return c ~= nil and c:getCapacity() or false end
 function getContainerItem(uid, slot)
@@ -636,6 +644,7 @@ function getHouseTilesSize(houseId) local h = House(houseId) return h ~= nil and
 
 function isItemStackable(itemId) return ItemType(itemId):isStackable() end
 function isItemRune(itemId) return ItemType(itemId):isRune() end
+function getItemId(uid) local i = Item(uid) return i ~= nil and i:getId() or false end
 function isItemDoor(itemId) return ItemType(itemId):isDoor() end
 function isItemContainer(itemId) return ItemType(itemId):isContainer() end
 function isItemFluidContainer(itemId) return ItemType(itemId):isFluidContainer() end
@@ -930,13 +939,15 @@ function doRelocate(fromPos, toPos)
 		local thing = fromTile:getThing(i)
 		if thing ~= nil then
 			if thing:isItem() then
-				if ItemType(thing:getId()):isMovable() then
-					thing:moveTo(toPos)
-				end
-			elseif thing:isCreature() then
+			if thing:isCreature() then
 				thing:teleportTo(toPos)
+			else
+				if ItemType(thing:getId()):isMovable() then
+				thing:moveTo(toPos)
+				end
 			end
 		end
+	end
 	end
 	return true
 end

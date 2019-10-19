@@ -19,7 +19,7 @@ function creatureSayCallback(cid, type, msg)
 			if(getPlayerStorageValue(cid,2096) == 0) then
 				selfSay('I am waiting for you to finish the mission.', cid)
 			elseif(getPlayerStorageValue(cid,2007) == 4 and getPlayerStorageValue(cid,2096) < 0) then
-					selfSay('Hi friend, we are the dunedain, the descendants of old Arnor. Fornost was once our capital, now is a evil and forgotten place..', cid)
+					selfSay('Hi friend, we are the dunedain, the descendants of old Arnor. Fornost was once our capital, now is an evil and forgotten place..', cid)
 					selfSay('We were send by our leader Argonui, in order to control any evil power that raises here. If you want to help us, I can pay you for your work,{ok}?. ', cid)				
 				talkState[talkUser] = 1
 			elseif(getPlayerStorageValue(cid,2096) == 10) then
@@ -43,13 +43,13 @@ function creatureSayCallback(cid, type, msg)
 					selfSay('I see! Its very important to know about their plan. But I cant read this... there is a elven sorcerer in the South Downs, find this elf and ask him to read this book.', cid)
 					setPlayerStorageValue(cid,2098,2)
 			elseif(getPlayerItemCount(cid,11237) >= 1 and getPlayerStorageValue(cid,2098) == 3) then
-					selfSay('Thanks you! Wellcome back! (you received 30000 exp and 3000 gp)', cid)
+					selfSay('Thanks you! Wellcome back!.. I see! they are doing rituals in order to summon powerful spirits. I will try to build a plan against them. (you received 30000 exp and 3000 gp)', cid)
 					setPlayerStorageValue(cid,2098,4)
 					doPlayerRemoveItem(cid,11237,1)
 					doPlayerAddExperience(cid,30000)
 					doPlayerAddItem(cid,2152,30)	
 			elseif(getPlayerStorageValue(cid,2098) == 4 and getPlayerStorageValue(cid,2099) < 0) then
-					selfSay('I am still planning our next move, for the time being we should get rid of most priestesses. You should get rid of some of them, while you train, {ok}? ', cid)
+					selfSay('I am still planning our next move, for the time being we should get rid of some of their priestesses. Go to Fornost and get that done, {ok}? ', cid)
 					talkState[talkUser] = 1
 			elseif(getPlayerStorageValue(cid,2099) == 20) then
 					selfSay('All right, you are true warrior. Now you should choose between 2 martial spells: {Warrior Rage} (Meele) or {Spear Throw} (Distance). (you received 50000 exp)', cid)
@@ -87,7 +87,7 @@ function creatureSayCallback(cid, type, msg)
 				setPlayerStorageValue(cid,30021,20)
 				setPlayerStorageValue(cid,2098,0)
 			elseif(getPlayerStorageValue(cid,2098) == 4 and getPlayerStorageValue(cid,2099) < 0) then
-				selfSay('Great! Kill 20 priestesses, that way I may teach you some martial skills.', cid)
+				selfSay('Great! Kill 20 priestesses, then I may teach you some martial skills.', cid)
 				setPlayerStorageValue(cid,30021,20)
 				setPlayerStorageValue(cid,2099,0)
 			elseif(getPlayerStorageValue(cid,2099) == 21 and getPlayerStorageValue(cid,2100) < 0) then

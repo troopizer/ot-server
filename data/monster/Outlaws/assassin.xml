@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<monster name="Assassin" nameDescription="an assassin" race="blood" experience="145" speed="244" manacost="450">
+<monster name="Assassin" nameDescription="an assassin" race="blood" experience="600" speed="320" manacost="450">
 
-	<health now="230" max="230"/>
+	<health now="1000" max="1000"/>
 
 	<look type="152" head="95" body="95" legs="95" feet="95" addons="1" corpse="6080"/>
 
@@ -36,9 +36,9 @@
 
 	<attacks>
 
-		<attack name="melee" interval="1800" skill="25" attack="35"/>
+		<attack name="melee" interval="2000" skill="45" attack="55"/>
 
-		<attack name="physical" interval="1000" chance="13" range="7" min="-18" max="-38">
+		<attack name="physical" interval="1000" chance="20" range="5" min="-80" max="-120">
 
 			<attribute key="shootEffect" value="throwingstar"/>
 
@@ -54,15 +54,15 @@
 
 	</attacks>
 
-	<defenses armor="15" defense="25">
+	<defenses armor="20" defense="25">
 
-		<defense name="speed" interval="1000" chance="9" speedchange="1201" duration="3000">
+		<defense name="speed" interval="1000" chance="9" speedchange="500" duration="5000">
 
 			<attribute key="areaEffect" value="redshimmer"/>
 
 		</defense>
 
-		<defense name="invisible" interval="1000" chance="9" duration="2000">
+		<defense name="invisible" interval="1000" chance="15" duration="5000">
 
 			<attribute key="areaEffect" value="blueshimmer"/>
 
@@ -106,27 +106,29 @@
 
 		<item id="2468" countmax="1" chance="12000"/><!-- studded legs -->
 
-		<item id="2410" countmax="4" chance="10000"/><!-- Throwing knife -->
+		<item id="2641" chance="50"/><!-- studded boots -->
 
-		<item id="2148" countmax="40" chance="80000"/><!-- gold coin -->
+		<item id="2410" countmax="6" chance="20000"/><!-- Throwing knife -->
 
-		<item id="2148" countmax="10" chance="20000"/><!-- gold coin -->
+		<item id="2148" countmax="80" chance="80000"/><!-- gold coin -->
 
-		<item id="2403" countmax="1" chance="10000"/><!-- knife -->
+		<item id="2148" countmax="90" chance="20000"/><!-- gold coin -->
 
-		<item id="2464" countmax="1" chance="7000"/><!--iron chain armor -->
+		<item id="2379" countmax="1" chance="10000"/><!-- dagger -->
 
-		<item id="2643" countmax="1" chance="20000"/><!-- boots -->
+		<item id="28876" countmax="1" chance="1000"/><!--strong leather armor -->
 
-		<item id="2145" countmax="1" chance="500"/><!-- small diamond -->
+		<item id="2500" chance="8000"/><!-- steel studded armor -->
 
-		<item id="5909" countmax="1" chance="5000"/><!-- white piece of cloth -->
+		<item id="2643" countmax="1" chance="10000"/><!-- boots -->
+
+		<item id="5909" countmax="3" chance="5000"/><!-- white piece of cloth -->
 
 		<item id="1987" chance="80000"/><!-- bag -->
 
-		<item id="2399" countmax="3" chance="5000"/><!-- Throwing star -->
+		<item id="2399" countmax="4" chance="15000"/><!-- Throwing star -->
 	
-		<item id="2050" countmax="2" chance="30000"/><!-- torch -->
+		<item id="2050" countmax="1" chance="5000"/><!-- torch -->
 
 	</loot>
 

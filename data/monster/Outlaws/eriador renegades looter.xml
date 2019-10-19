@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<monster name="Eriador Renegades Looter" nameDescription="a eriador renegades looter" race="blood" experience="90" speed="195" manacost="450">
+<monster name="Eriador Renegades Looter" nameDescription="a eriador renegades looter" race="blood" experience="100" speed="195" manacost="450">
 
 	<health now="195" max="195"/>
 	<look type="129" head="114" body="116" legs="113" feet="116" corpse="6080"/>
@@ -82,9 +82,13 @@
 
 		<item id="2148" countmax="30" chance="90000"/><!-- gold coin -->
 
-		<item id="2787" countmax="2" chance="20000"/><!-- white mushroom -->
+		<item id="2643" chance="5000"/><!-- leather boots -->
+
+		<item id="2787" countmax="1" chance="5000"/><!-- white mushroom -->
 
 		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
+
+		<item id="2050" countmax="1" chance="5000"/><!-- torch -->
 
 	</loot>
 
