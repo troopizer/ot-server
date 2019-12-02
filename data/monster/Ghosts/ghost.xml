@@ -40,7 +40,7 @@
 
 		<attack name="melee" interval="2000" skill="30" attack="40"/>
 
-		<attack name="lifedrain" interval="1000" chance="15" range="2" min="-25" max="-45"/>
+		<attack name="lifedrain" interval="1000" chance="15" range="3" min="-25" max="-45"/>
 
 	</attacks>
 
@@ -78,7 +78,7 @@
 
 	<loot>
 
-		<item id="2148" countmax="100" chance="80000"/><!-- gold coin -->
+		<item id="2148" countmax="60" chance="50000"/><!-- gold coin -->
 
 		<item id="2419" chance="8000"/><!-- iron scymitar -->
 	

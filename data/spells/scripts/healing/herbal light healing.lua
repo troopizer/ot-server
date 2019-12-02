@@ -10,8 +10,8 @@ local mlevelConstantFactor = 2.2
 local radiousFactor        = 0.8
 
 function onGetFormulaValues(player, level, maglevel)
-	local min = (50 + (level / 3) + (maglevel*maglevel)/90)*0.8
-	local max = 50 + (level / 3) + (maglevel*maglevel)/90
+	local min = (50 + (level / 3) + (maglevel*maglevel)/80)*0.8
+	local max = 50 + (level / 3) + (maglevel*maglevel)/80
 	return min, max
 end
 combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")

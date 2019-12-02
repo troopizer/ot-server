@@ -63,7 +63,7 @@ function creatureSayCallback(cid, type, msg)
 				talkState[talkUser] = 2
 			end
 		end	
-	elseif(msgcontains(msg, 'mission') or msgcontains(msg, 'life cristal') or msgcontains(msg, 'sulphur')) then
+	elseif(msgcontains(msg, 'mission') or msgcontains(msg, 'life crystal') or msgcontains(msg, 'sulphur')) then
 			if(getPlayerItemCount(cid,11237) >= 1 and getPlayerStorageValue(cid,2098) == 2) then
 					selfSay('Soo.. you come in behave of Bregor the dunedain. I am friend of the dunedains so I will help you.', cid)
 					selfSay('...It looks like the ritual that this necromancers want to realice is to wake up elemental spirits, strange.. they need to sacrifice some priestesses in order to achieve the ritual.', cid)
@@ -82,7 +82,7 @@ function creatureSayCallback(cid, type, msg)
 			if(getPlayerStorageValue(cid,2067) == 2 or getPlayerStorageValue(cid,2060) == 0 or getPlayerStorageValue(cid,2061) == 0 or getPlayerStorageValue(cid,2062) == 0 or getPlayerStorageValue(cid,2063) == 0 or getPlayerStorageValue(cid,2064) == 0) then
 				if(getPlayerStorageValue(cid,2086) < 0) then
 					selfSay('Its looks like you are a fellow sorcerer now, I am glad. But you still have a lot to learn.', cid)
-					selfSay('I am in the need of some diamonds, soo.. if you get {5 small diamonds} for me, I will teach you some spells, {ok}?', cid)
+					selfSay('I am in the need of some diamonds, soo.. if you get {3 small diamonds} for me, I will teach you some spells, {ok}?', cid)
 					talkState[talkUser] = 3
 				end
 			end
@@ -114,8 +114,8 @@ function creatureSayCallback(cid, type, msg)
 					talkState[talkUser] = 9
 				end
 			end
-			if(getPlayerItemCount(cid,2145) >= 5 and getPlayerStorageValue(cid,2086) == 0) then
-					doPlayerRemoveItem(cid,2145,5)
+			if(getPlayerItemCount(cid,2145) >= 3 and getPlayerStorageValue(cid,2086) == 0) then
+					doPlayerRemoveItem(cid,2145,3)
 					setPlayerStorageValue(cid,2086,1)
 					doPlayerAddExperience(cid,10000)
 					selfSay('Great! thanks you.', cid)

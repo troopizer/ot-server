@@ -98,11 +98,17 @@
 
 	<loot>
 
-		<item id="2383" chance="1000"/><!-- iron spike sword -->
+		<item id="2383" chance="3000"/><!-- iron spike sword -->
 
-		<item id="2394" chance="1000"/><!-- iron morning star -->
+		<item id="2394" chance="3000"/><!-- iron morning star -->
 
-		<item id="8601" chance="1000"/><!-- iron battle axe -->
+		<item id="8601" chance="3000"/><!-- iron battle axe -->
+
+		<item id="7385" chance="50"/><!-- steel sword -->
+
+		<item id="3964" chance="50"/><!-- steel axe -->
+
+		<item id="7387" chance="50"/><!-- steel club -->
 
 		<item id="2463" chance="2000"/><!-- iron armor -->
 

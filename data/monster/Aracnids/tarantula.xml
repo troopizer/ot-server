@@ -82,7 +82,7 @@
 
 	<loot>
 
-		<item id="5879" countmax="12" chance="40000"/> 	<!-- spider silk -->
+		<item id="5879" countmax="8" chance="40000"/> 	<!-- spider silk -->
 
 		<item id="11192" countmax="2" chance="20000"/> 	<!-- tarantula egg -->
 

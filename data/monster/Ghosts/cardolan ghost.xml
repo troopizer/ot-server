@@ -40,7 +40,7 @@
 
 		<attack name="melee" interval="2000" skill="40" attack="45"/>
 
-		<attack name="lifedrain" interval="1000" chance="15" range="2" min="-35" max="-65"/>
+		<attack name="lifedrain" interval="1000" chance="15" range="3" min="-35" max="-65"/>
 
 	</attacks>
 
@@ -78,7 +78,7 @@
 
 	<loot>
 
-		<item id="2148" countmax="100" chance="80000"/><!-- gold coin -->
+		<item id="2148" countmax="65" chance="60000"/><!-- gold coin -->
 
 		<item id="2419" chance="8000"/><!-- iron scymitar -->
 	
@@ -86,9 +86,9 @@
 
 		<item id="2394" chance="8000"/><!-- morning star -->
 
-		<item id="4847" chance="500"/><!-- cardolan chain armor -->
+		<item id="4847" chance="400"/><!-- cardolan chain armor -->
 
-		<item id="8923" chance="800"/><!-- cardolan chain legs -->
+		<item id="8923" chance="600"/><!-- cardolan chain legs -->
 
 		<item id="2513" chance="3000"/><!-- iron kite shield -->
 

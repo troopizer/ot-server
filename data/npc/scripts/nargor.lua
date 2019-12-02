@@ -19,7 +19,7 @@ function creatureSayCallback(cid, type, msg)
 			if(getPlayerStorageValue(cid,2046) == 0) then
 				selfSay('I am waiting for you to finish the mission.', cid)
 			elseif(getPlayerStorageValue(cid,2046) < 0) then
-					selfSay('Hi young man, we are the dunedain, the descendants of the kingdom Arnor, if you want to help us, I can give you rewards,{ok}?.', cid)
+					selfSay('Hi young man, we are the dunedain, the descendants of the kingdom of Arnor, if you want to help us, I can give you rewards,{ok}?.', cid)
 				talkState[talkUser] = 1
 			elseif(getPlayerStorageValue(cid,2046) == 20) then
 					selfSay('You are quite strong, I have anothe {mission} for you (you received 10000 exp and 500 gp) ', cid)
@@ -67,9 +67,9 @@ function creatureSayCallback(cid, type, msg)
 					selfSay('You are one of our greatest warrior, go to their camp and defeat Rorkduf, before its too late, {ok}?.', cid)
 					talkState[talkUser] = 1
 			elseif(getPlayerStorageValue(cid,2053) == 1) then
-					selfSay('Nice done! As your payment take this platinum amulet symbol of the dunedain, you have worked as one of us.(you received 50000 exp and a platinum amulet) ', cid)
+					selfSay('Nice done! As your payment take this diamond, you have worked as one of us.(you received 50000 exp and a small diamond) ', cid)
 					setPlayerStorageValue(cid,2053,2)
-					doPlayerAddItem(cid,2171,1)
+					doPlayerAddItem(cid,2145,1)
 					doPlayerAddExperience(cid,50000)
 			elseif(getPlayerStorageValue(cid,2053) == 2) then
 					selfSay('I dont have more missions for you my friend ', cid)

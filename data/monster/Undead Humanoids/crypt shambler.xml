@@ -44,13 +44,13 @@
 	</voices>
 	<loot>
 
-		<item id="2148" countmax="100" chance="80000"/><!-- gold coin -->
+		<item id="2148" countmax="80" chance="50000"/><!-- gold coin -->
 
 		<item id="4847" chance="1500"/><!-- cardolan chain armor -->
 
 		<item id="5913" countmax="3" chance="8000"/><!-- brown piece of cloth -->
 
-		<item id="2521" chance="400"/><!-- angmar battle shield -->
+		<item id="2521" chance="200"/><!-- angmar battle shield -->
 	
 		<item id="5909" countmax="2" chance="10000"/><!-- white piece of cloth -->
 

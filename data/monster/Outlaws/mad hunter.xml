@@ -103,13 +103,27 @@
 
 		<item id="1987" chance="80000"/><!-- bag -->
 
-		<item id="2148" countmax="100" chance="90000"/><!-- gold coin -->
+		<item id="2148" countmax="80" chance="60000"/><!-- gold coin -->
 
 		<item id="2643" chance="5000"/><!-- leather boots -->
 
-		<item id="2787" countmax="4" chance="20000"/><!-- white mushroom -->
+		<item id="2787" countmax="2" chance="20000"/><!-- white mushroom -->
 
-		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
+		<item id="2671" countmax="2" chance="40000"/><!-- ham -->
+
+		<item id="2666" countmax="2" chance="50000"/><!-- meat -->
+
+		<item id="5878" countmax="1" chance="20000"/><!-- leather -->
+
+		<item id="5896" countmax="1" chance="500"/><!-- bear paw -->
+
+		<item id="5897" countmax="1" chance="2000"/><!-- wolf paw -->
+
+		<item id="11235" chance="100"/><!-- wolf fur-->
+
+		<item id="5883" countmax="1" chance="200"/><!-- boar fur -->
+
+		<item id="13297" countmax="1" chance="500"/><!-- haunch of boar -->
 
 		<item id="7438" countmax="1" chance="100"/><!-- war bow -->
 

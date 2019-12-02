@@ -22,12 +22,12 @@
 		<attack name="lifedrain" interval="2000" chance="30" range="3" min="-20" max="-40">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
-		<attack name="death" interval="2000" chance="20" range="5" min="-15" max="-70">
+		<attack name="death" interval="2000" chance="20" range="6" min="-15" max="-70">
 			<attribute key="shootEffect" value="suddendeath"/>
 		</attack>
 	</attacks>
 	<defenses armor="20" defense="20">
-		<defense name="healing" interval="2000" chance="25" min="12" max="30">
+		<defense name="healing" interval="2000" chance="20" min="20" max="40">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -47,16 +47,15 @@
 		<voice sentence="Die!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="80" chance="50000"/><!-- gold coin -->
+		<item id="2148" countmax="40" chance="50000"/><!-- gold coin -->
 		<item id="2804" countmax="2" chance="20000"/><!-- shadow herb -->
-		<item id="2185" chance="200"/><!-- necrotic rod -->
+		<item id="2185" chance="50"/><!-- necrotic rod -->
 		<item id="2500" chance="2000"/><!-- steel studded armor -->
 		<item id="2229" countmax="3" chance="20000"/><!-- skull -->
 		<item id="2662" chance="800"/><!-- apprentice hat -->	
 		<item id="8819" chance="800"/><!-- mage cape -->
 		<item id="1987" chance="80000"/><!-- bag -->
 		<item id="2787" countmax="2" chance="20000"/><!-- white mushroom -->
-		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->	
 		<item id="2050" countmax="1" chance="5000"/><!-- torch -->	
 	</loot>
 </monster>

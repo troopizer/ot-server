@@ -69,9 +69,9 @@
 	<instant group="support" name="Herbal Strong Healing Rune" words="asea turca envinyata certa" lvl="40"  maglv="15" mana="250" soul="3" prem="0" cooldown="1000" groupcooldown="1000" needlearn="0" aggressive="0" script="conjure runes/herbal strong healing rune.lua">
 
 	</instant>
-	<instant group="support" name="Herbal Light Explosion Rune" words="asea milya narquelion" lvl="30" maglv="15" mana="200" soul="2" cooldown="1000" groupcooldown="1000" needlearn="0" aggressive="0" script="conjure runes/herbal light explosion rune.lua">
+	<instant group="support" name="Herbal Light Explosion Rune" words="asea milya narquelion certa" lvl="30" maglv="15" mana="200" soul="2" cooldown="1000" groupcooldown="1000" needlearn="0" aggressive="0" script="conjure runes/herbal light explosion rune.lua">
 	</instant>
-	<instant group="support" name="Herbal Wide Light Explosion Rune" words="asea landa milya narquelion" lvl="30" maglv="15" mana="200" soul="2" cooldown="1000" groupcooldown="1000" needlearn="0" aggressive="0" script="conjure runes/herbal wide light explosion rune.lua">
+	<instant group="support" name="Herbal Wide Light Explosion Rune" words="asea landa milya narquelion certa" lvl="30" maglv="15" mana="200" soul="2" cooldown="1000" groupcooldown="1000" needlearn="0" aggressive="0" script="conjure runes/herbal wide light explosion rune.lua">
 	</instant>
 
 		<!-- Martial Spells-->
@@ -126,6 +126,18 @@
 	</instant>
 	<instant group="attack" name="Fire Touch" words="nar apa" lvl="60" maglv="40" mana="60" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="fire/fire touch.lua">
 	</instant>
+	<instant group="attack" name="Fire Grenade" words="nar narquelion hatal" lvl="60" mana="100" range="5" needtarget="1" prem="0"  cooldown="1000" groupcooldown="2000" needlearn="0" script="fire/fire grenade.lua">
+	</instant>
+	<instant group="attack" name="Fire Explosion" words="nar narquelion" lvl="60"  maglv="40" mana="1000" prem="0" cooldown="1000" groupcooldown="2000" needlearn="0" script="fire/fire explosion.lua">
+	</instant>
+	<instant group="attack" name="Elite Twisting Fire Slash" words="nar turca aucirhanc" lvl="60" mana="100" prem="0" range="0" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="fire/elite twisting fire slash.lua">
+	</instant>
+	<instant group="attack" name="Elite Fire Slash" words="nar turca rista" lvl="60"  mana="80" prem="0" range="1" casterTargetOrDirection="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="fire/elite fire slash.lua">
+	</instant>
+	<instant group="attack" name="Elite Fire Spear" words="nar turca hatal" lvl="60"  mana="80" prem="0" needtarget="1" range="5" cooldown="1000" groupcooldown="2000" needlearn="0" script="fire/elite fire spear.lua">
+	</instant>
+	<instant group="attack" name="Elite Fire Strike" words="nar turca pente" lvl="60" maglv="40" mana="100" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="fire/elite fire strike.lua">
+	</instant>
 		<!-- Wind Spells-->
 	<instant group="attack" name="Energy Strike" words="sure pente" lvl="40" maglv="20" mana="40" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="wind/energy strike.lua">
 	</instant>
@@ -149,6 +161,18 @@
 	</instant>
 	<instant group="support" name="Energy Aura" words="sure curu" lvl="60" mana="100" prem="0" range="0"  cooldown="1000" selftarget="1" groupcooldown="1000" needlearn="0" script="wind/energy aura.lua">
 	</instant>
+	<instant group="attack" name="Energy Grenade" words="sure narquelion hatal" lvl="60" mana="100" range="5" needtarget="1" prem="0"  cooldown="1000" groupcooldown="2000" needlearn="0" script="wind/energy grenade.lua">
+	</instant>
+	<instant group="attack" name="Energy Explosion" words="sure narquelion" lvl="60"  maglv="40" mana="1000" prem="0" cooldown="1000" groupcooldown="2000" needlearn="0" script="wind/energy explosion.lua">
+	</instant>
+	<instant group="attack" name="Elite Twisting Energy Slash" words="sure turca aucirhanc" lvl="60" mana="100" prem="0" range="0" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="wind/elite twisting energy slash.lua">
+	</instant>
+	<instant group="attack" name="Elite Energy Slash" words="sure turca rista" lvl="60"  mana="80" prem="0" range="1" casterTargetOrDirection="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="wind/elite energy slash.lua">
+	</instant>
+	<instant group="attack" name="Elite Energy Spear" words="sure turca hatal" lvl="60"  mana="80" prem="0" needtarget="1" range="5" cooldown="1000" groupcooldown="2000" needlearn="0" script="wind/elite energy spear.lua">
+	</instant>
+	<instant group="attack" name="Elite Energy Strike" words="sure turca pente" lvl="60" maglv="40" mana="100" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="wind/elite energy strike.lua">
+	</instant>
 		<!-- Earth Spells-->
 	<instant group="attack" name="Earth Strike" words="cen pente" lvl="40" maglv="20" mana="40" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="earth/terra strike.lua">
 	</instant>
@@ -169,6 +193,18 @@
 	<instant group="support" name="Earth Explosion Rune" words="cen milya narquelion" lvl="50" maglv="40" mana="300" soul="4" cooldown="1000" groupcooldown="1000" needlearn="0" aggressive="0" script="conjure runes/earth explosion rune.lua">
 	</instant>
 	<instant group="attack" name="Earth Touch" words="cen apa" lvl="60" maglv="40" mana="60" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="5000" needlearn="0" script="earth/earth touch.lua">
+	</instant>
+	<instant group="attack" name="Earth Grenade" words="cen narquelion hatal" lvl="60" mana="100" range="5" needtarget="1" prem="0"  cooldown="1000" groupcooldown="2000" needlearn="0" script="earth/earth grenade.lua">
+	</instant>
+	<instant group="attack" name="Earth Explosion" words="cen narquelion" lvl="60"  maglv="40" mana="1000" prem="0" cooldown="1000" groupcooldown="2000" needlearn="0" script="earth/earth explosion.lua">
+	</instant>
+	<instant group="attack" name="Elite Twisting Earth Slash" words="cen turca aucirhanc" lvl="60" mana="100" prem="0" range="0" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="earth/elite twisting earth slash.lua">
+	</instant>
+	<instant group="attack" name="Elite Earth Slash" words="cen turca rista" lvl="60"  mana="80" prem="0" range="1" sterTargetOrDirection="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="earth/elite earth slash.lua">
+	</instant>
+	<instant group="attack" name="Elite Earth Spear" words="cen turca hatal" lvl="60"  mana="80" prem="0" needtarget="1" range="5" cooldown="1000" groupcooldown="2000" needlearn="0" script="earth/elite earth spear.lua">
+	</instant>
+	<instant group="attack" name="Elite Earth Strike" words="cen turca pente" lvl="60" maglv="40" mana="100" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="earth/elite earth strike.lua">
 	</instant>
 		<!-- Water Spells-->
 	<instant group="attack" name="Ice Strike" words="nen pente" lvl="40" maglv="20" mana="40" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="water/ice strike.lua">
@@ -191,10 +227,22 @@
 	</instant>
 	<instant group="attack" name="Ice Touch" words="nen apa" lvl="60" maglv="40" mana="60" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="water/ice touch.lua">
 	</instant>
+	<instant group="attack" name="Ice Grenade" words="nen narquelion hatal" lvl="60" mana="100" range="5" needtarget="1" prem="0"  cooldown="1000" groupcooldown="2000" needlearn="0" script="water/ice grenade.lua">
+	</instant>
+	<instant group="attack" name="Ice Explosion" words="nen narquelion" lvl="60"  maglv="40" mana="1000" prem="0" cooldown="1000" groupcooldown="2000" needlearn="0" script="water/ice explosion.lua">
+	</instant>
+	<instant group="attack" name="Elite Twisting Ice Slash" words="nen turca aucirhanc" lvl="60" mana="100" prem="0" range="0" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="water/elite twisting ice slash.lua">
+	</instant>
+	<instant group="attack" name="Elite Ice Slash" words="nen turca rista" lvl="60"  mana="80" prem="0" range="1" casterTargetOrDirection="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="water/elite ice slash.lua">
+	</instant>
+	<instant group="attack" name="Elite Ice Spear" words="nen turca hatal" lvl="60"  mana="80" prem="0" needtarget="1" range="5" cooldown="1000" groupcooldown="2000" needlearn="0" script="water/elite ice spear.lua">
+	</instant>
+	<instant group="attack" name="Elite Ice Strike" words="nen turca pente" lvl="60" maglv="40" mana="100" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="water/elite ice strike.lua">
+	</instant>
 		<!-- Life Spells-->
 	<instant group="attack" name="Life Strike" words="coi pente" lvl="40" maglv="20" mana="40" prem="0" range="3" casterTargetOrDirection="1" needlearn="0" blockwalls="1" cooldown="1000" groupcooldown="2000" script="life/divine missile.lua">
 	</instant>
-	<instant group="support" name="Wisp Summon" words="coi feaminte enyalie" lvl="40" maglv="30" mana="400" prem="0" cooldown="1000" groupcooldown="1000" needlearn="0" script="life/wisp summon.lua">
+	<instant group="support" name="Wisp Summon" words="coi feaminte enyalie" lvl="40" maglv="30" mana="800" prem="0" cooldown="1000" groupcooldown="1000" needlearn="0" script="life/wisp summon.lua">
 	</instant>
 	<instant group="attack" name="Life Spear" words="coi hatal" lvl="50" mana="50" prem="0" range="5" needtarget="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="life/life spear.lua">
 	</instant>
@@ -206,16 +254,30 @@
 	<instant group="support" name="Life Missile Rune" words="coi pente certa" lvl="50" maglv="40" mana="250" soul="3" cooldown="1000" groupcooldown="1000" needlearn="0" aggressive="0" script="conjure runes/life missile rune.lua">
 	</instant>
 	<rune group="attack" name="Life Explosion" id="2294" allowfaruse="1" charges="1" lvl="50" maglv="30" cooldown="1000" groupcooldown="2000" blocktype="solid" script="runes/life explosion rune.lua"/>
-	<instant group="support" name="Life Explosion Rune" words="coi milya narquelion" lvl="50" maglv="40" mana="300" soul="4" cooldown="1000" groupcooldown="1000" needlearn="0" aggressive="0" script="conjure runes/life explosion rune.lua">
+	<instant group="support" name="Life Explosion Rune" words="coi milya narquelion certa" lvl="50" maglv="40" mana="300" soul="4" cooldown="1000" groupcooldown="1000" needlearn="0" aggressive="0" script="conjure runes/life explosion rune.lua">
 	</instant>
-	<instant group="attack" name="Life Touch" words="coi apa" lvl="60" maglv="40" mana="60" prem="0" range="3" needtarget="1" needlearn="0" blockwalls="1" cooldown="1000" groupcooldown="2000" script="life/life touch.lua">
+	<instant group="attack" name="Life Touch" words="coi apa" lvl="60" maglv="40" mana="200" prem="0" range="0" needlearn="0" blockwalls="1" cooldown="1000" groupcooldown="2000" script="life/life touch.lua">
+	</instant>
+	<instant group="attack" name="Life Grenade" words="coi narquelion hatal" lvl="60" mana="100" range="5" needtarget="1" prem="0"  cooldown="1000" groupcooldown="2000" needlearn="0" script="life/life grenade.lua">
+	</instant>
+	<instant group="attack" name="Life Explosion" words="coi narquelion" lvl="60"  maglv="40" mana="1000" prem="0" cooldown="1000" groupcooldown="2000" needlearn="0" script="life/life explosion.lua">
+	</instant>
+	<instant group="attack" name="Elite Twisting Life Slash" words="coi turca aucirhanc" lvl="60" mana="100" prem="0" range="0" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="life/elite twisting life slash.lua">
+	</instant>
+	<instant group="attack" name="Elite Life Slash" words="coi turca rista" lvl="60"  mana="80" prem="0" casterTargetOrDirection="1" range="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="life/elite life slash.lua">
+	</instant>
+	<instant group="attack" name="Elite Life Spear" words="coi turca hatal" lvl="60"  mana="80" prem="0" needtarget="1" range="5" cooldown="1000" groupcooldown="2000" needlearn="0" script="life/elite life spear.lua">
+	</instant>
+	<instant group="attack" name="Elite Life Strike" words="coi turca pente" lvl="60" maglv="40" mana="100" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="life/elite life strike.lua">
+	</instant>
+	<instant group="support" name="Battle Wisp Summon" words="coi turca feaminte enyalie" lvl="60" maglv="40" mana="1500" prem="0" cooldown="1000" groupcooldown="1000" needlearn="0" script="life/battle wisp summon.lua">
 	</instant>
 		<!-- Death Spells-->
 	<instant group="attack" name="Death Strike" words="kurz kallog" lvl="40" maglv="20" mana="40" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="death/death strike.lua">
 	</instant>
 	<instant group="support" name="Skeleton Legion" words="kurz kafak ushtar" lvl="40"  maglv="30" mana="250" prem="0" cooldown="1000" groupcooldown="1000" needlearn="0" script="death/undead legion.lua">
 	</instant>
-	<instant group="support" name="Skeleton Legion II" words="kurz bubhosh kafak ushtar" lvl="60"  maglv="40" mana="500" prem="0" cooldown="1000" groupcooldown="1000" needlearn="0" script="death/undead legion 2.lua">
+	<instant group="support" name="Skeleton Legion II" words="kurz bubhosh kafak ushtar" lvl="60"  maglv="40" mana="600" prem="0" cooldown="1000" groupcooldown="1000" needlearn="0" script="death/undead legion 2.lua">
 	</instant>
 	<instant group="attack" name="Death Spear" words="kurz engan" lvl="50" mana="50" prem="0" range="5" needtarget="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="death/death spear.lua">
 	</instant>
@@ -229,18 +291,20 @@
 	<rune group="attack" name="Death Explosion" id="2262" allowfaruse="1" charges="1" lvl="50" maglv="30" cooldown="1000" groupcooldown="2000" blocktype="solid" script="runes/death explosion rune.lua"/>
 	<instant group="support" name="Death Explosion Rune" words="kurz ar ghash kallog" lvl="50" maglv="40" mana="300" soul="4" cooldown="1000" groupcooldown="1000" needlearn="0" aggressive="0" script="conjure runes/death explosion rune.lua">
 	</instant>
-	<instant group="attack" name="Death assassin" words="kurz tusc" lvl="60" maglv="40" mana="120" prem="0"  cooldown="1000" groupcooldown="2000" needlearn="0" script="death/death assassin.lua">
+	<instant group="attack" name="Death Assassin" words="kurz tusc" lvl="60" maglv="40" mana="300" prem="0"  cooldown="1000" groupcooldown="2000" needlearn="0" script="death/death assassin.lua">
 	</instant>
-	<!--<instant group="attack" name="Death Explosion" words="kurz ghash kallog" lvl="60"  maglv="40" mana="600" prem="0" cooldown="1000" groupcooldown="2000" needlearn="0" script="death/death explosion.lua">
+	<instant group="attack" name="Death Grenade" words="kurz ghash engan" lvl="60" mana="100" range="5" needtarget="1" prem="0"  cooldown="1000" groupcooldown="2000" needlearn="0" script="death/death grenade.lua">
+	</instant>
+	<instant group="attack" name="Death Explosion" words="kurz ghash kallog" lvl="60"  maglv="40" mana="1000" prem="0" cooldown="1000" groupcooldown="2000" needlearn="0" script="death/death explosion.lua">
 	</instant>
 	<instant group="attack" name="Elite Twisting Death Slash" words="kurz bubhosh faglind" lvl="60" mana="100" prem="0" range="0" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="death/elite twisting death slash.lua">
 	</instant>
-	<instant group="attack" name="Elite Death Slash" words="kurz bubhosh throth" lvl="60"  mana="80" prem="0" casterTargetOrDirection="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="death/elite death slash.lua">
+	<instant group="attack" name="Elite Death Slash" words="kurz bubhosh throth" lvl="60"  mana="80" prem="0" casterTargetOrDirection="1" range="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="death/elite death slash.lua">
 	</instant>
-	<instant group="attack" name="Elite Death Spear" words="kurz bubhosh engan" lvl="60"  mana="80" prem="0" needtarget="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="death/elite death spear.lua">
+	<instant group="attack" name="Elite Death Spear" words="kurz bubhosh engan" lvl="60"  mana="80" prem="0" needtarget="1" range="5" cooldown="1000" groupcooldown="2000" needlearn="0" script="death/elite death spear.lua">
 	</instant>
-	<instant group="attack" name="Elite Death Strike" words="kurz bubhosh kallog" lvl="60" maglv="40" mana="80" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="death/elite death strike.lua">
-	</instant>-->
+	<instant group="attack" name="Elite Death Strike" words="kurz bubhosh kallog" lvl="60" maglv="40" mana="100" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="death/elite death strike.lua">
+	</instant>
 		<!-- God Spells
     <instant name="God Rage" words="just die" lvl="1" maglv="1" mana="1" exhaustion="1000" access="5" needlearn="0" blockwalls="0" aggressive="1" script="god/god rage.lua">
 

@@ -61,7 +61,7 @@
 
 		<item id="3976" countmax="15" chance="70000"/><!-- worm -->
 
-		<item id="5880" chance="500"/><!-- iron ore -->
+		<item id="5880" chance="200"/><!-- iron ore -->
 
 		<item id="2145" chance="10"/><!-- small diamond -->
 
@@ -73,7 +73,11 @@
 
 		<item id="2671" countmax="2" chance="20000"/><!-- ham -->
 
-		<item id="5878" countmax="1" chance="15000"/><!-- leather -->
+		<item id="5878" countmax="1" chance="25000"/><!-- leather -->
+
+		<item id="2261" chance="500"/><!-- cooper ore -->
+
+		<item id="2311" chance="500"/><!-- tin ore -->
 
 
 	</loot>

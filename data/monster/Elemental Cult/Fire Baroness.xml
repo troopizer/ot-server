@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Fire Baroness" nameDescription="a fire baroness" race="blood" experience="2200" speed="280" manacost="0">
+	<health now="2500" max="2500"/>
+	<look type="635" head="132" body="94" legs="78" feet="113" addons="1" corpse="6081"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag staticattack="90"/>
+		<flag targetdistance="6"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-100"/>
+		<attack name="fire" interval="2000" chance="40" range="6" min="-160" max="-240">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="fire"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="35" range="6" radius="4" target="1" min="-140" max="-180">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="fire"/>
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="25">
+		<defense name="healing" interval="2000" chance="25" min="100" max="150">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element holyPercent="-10"/>
+		<element firePercent="50"/>
+		<element earthPercent="-10"/>
+		<element icePercent="-20"/>
+		<element physicalPercent="-10"/>
+		<element energyPercent="20"/>
+		<element deathPercent="-10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Firee!"/>
+	</voices>
+	<loot>
+		<item id="7891" chance="400"/><!-- boots -->
+		<item id="7900" chance="1500"/><!-- fire helmet -->
+		<item id="7890" chance="800"/><!-- fire amulet -->
+		<item id="7894" chance="400"/><!-- fire legs -->
+		<item id="7899" chance="200"/><!-- fire armor -->
+		<item id="2152" countmax="3" chance="40000"/><!-- p coin -->
+		<item id="2804" countmax="2" chance="20000"/><!-- shadow herb -->
+		<item id="2191" chance="5000"/><!-- fire wand -->
+		<item id="2663" chance="200"/><!-- mystic turban -->
+		<item id="8820" chance="5000"/><!-- mage hat -->
+		<item id="5904" chance="30000"/><!-- magic sulphur -->
+		<item id="8871" chance="1000"/><!-- focus cape -->
+		<item id="8870" chance="5000"/><!-- spirit cloak -->
+		<item id="18400" chance="400"/><!-- magician legs -->
+		<item id="7535" chance="400"/><!-- parchment missiles -->
+		<item id="7534" chance="200"/><!-- parchment explosions -->
+		<item id="2147" chance="800"/><!-- small ruby -->
+		<item id="1987" chance="80000"/><!-- bag -->		
+	</loot>
+</monster>

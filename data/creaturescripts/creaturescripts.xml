@@ -34,4 +34,6 @@
 	<event type="kill" name="Tarantula 40 Hunt" script="tarantula40hunt.lua"/>
 	<event type="kill" name="Fierce Wolf 40 Hunt" script="fiercewolf40hunt.lua"/>
 	<event type="kill" name="Green Rabbit 10" script="greenrabbit10.lua"/>
+	<event type="kill" name="Cult 40" script="cultist40.lua"/>
+	<event type="kill" name="Cult Master 40" script="cultistmaster40.lua"/>
 </creaturescripts>

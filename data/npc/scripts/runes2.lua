@@ -141,10 +141,10 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Dont mind, Its look like you are not stronger enough to learn from me.', cid)
 			elseif(getPlayerStorageValue(cid,2086) < 0 and getPlayerStorageValue(cid,2065) == 0) then
 				selfSay('It looks like you manage to get that blessing, well done! I can teach you more death magic if yo want.', cid)
-				selfSay('Bring me 5 {small diamonds} and I will teach you, {ok}?.', cid)
+				selfSay('Bring me 3 {small diamonds} and I will teach you, {ok}?.', cid)
 				talkState[talkUser] = 5
-			elseif(getPlayerItemCount(cid,2145) >= 5 and getPlayerStorageValue(cid,2086) == 0) then
-					doPlayerRemoveItem(cid,2145,5)
+			elseif(getPlayerItemCount(cid,2145) >= 3 and getPlayerStorageValue(cid,2086) == 0) then
+					doPlayerRemoveItem(cid,2145,3)
 					setPlayerStorageValue(cid,2086,1)
 					doPlayerAddExperience(cid,10000)
 					selfSay('Great! thanks you.', cid)

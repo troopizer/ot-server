@@ -42,7 +42,7 @@
 
 	</attacks>
 
-	<defenses armor="7" defense="6"/>
+	<defenses armor="8" defense="10"/>
 
 	<elements>
 
@@ -65,7 +65,7 @@
 	
 	<loot>
 
-		<item id="3976" countmax="9" chance="50000"/><!-- worm -->
+		<item id="3976" countmax="6" chance="50000"/><!-- worm -->
 
 		<item id="2671" countmax="2" chance="80000"/><!-- ham -->
 

@@ -18,7 +18,7 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="10" max="60"/>
+		<attack name="melee" interval="2000" min="0" max="-60"/>
 		<attack name="fire" interval="2000" chance="25" range="6" radius="1" target="1" min="-40" max="-70">
 			<attribute key="shootEffect" value="fire"/>
 			<attribute key="areaEffect" value="fire"/>
@@ -29,7 +29,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="15" defense="25">
-		<defense name="healing" interval="1000" chance="20" min="20" max="40">
+		<defense name="healing" interval="2000" chance="20" min="20" max="40">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -47,14 +47,15 @@
 	</voices>
 	<loot>
 		<item id="7900" chance="50"/><!-- fire helmet -->
-		<item id="2148" countmax="80" chance="50000"/><!-- gold coin -->
+		<item id="2148" countmax="40" chance="50000"/><!-- gold coin -->
 		<item id="2804" countmax="2" chance="20000"/><!-- shadow herb -->
-		<item id="2191" chance="200"/><!-- fire wand -->
-		<item id="2500" chance="5000"/><!-- steel studded armor -->
+		<item id="2191" chance="50"/><!-- fire wand -->
+		<item id="2500" chance="2000"/><!-- steel studded armor -->
 		<item id="5904" chance="2000"/><!-- magic sulphur -->
 		<item id="2662" chance="800"/><!-- apprentice hat -->	
 		<item id="8819" chance="800"/><!-- mage cape -->
 		<item id="1987" chance="80000"/><!-- bag -->
-		<item id="2147" chance="50"/><!-- small ruby -->	
+		<item id="2147" chance="50"/><!-- small ruby -->
+		<item id="2787" countmax="2" chance="5000"/><!-- white mushroom -->	
 	</loot>
 </monster>

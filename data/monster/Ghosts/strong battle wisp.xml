@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Strong Battle Wisp" nameDescription="a strong battle wisp" race="undead" experience="0" speed="420" manacost="0">
+	<health now="800" max="800"/>
+	<look type="712" corpse="6324"/>
+	<targetchange interval="60000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag staticattack="15"/>
+		<flag lightlevel="2"/>
+		<flag lightcolor="0"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="15"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="50" attack="50"/>
+		<attack name="holy" interval="2000" chance="25" range="6" target="1" min="-70" max="-110">
+			<attribute key="shootEffect" value="holy"/>
+		</attack>
+	</attacks>
+	<defenses armor="17" defense="27">
+		<defense name="speed" interval="10000" chance="40" speedchange="450" duration="20000">
+			<attribute key="areaEffect" value="greenshimmer"/>
+		</defense>
+		<defense name="healing" interval="2000" chance="20" min="70" max="110">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="Invisible" interval="4000" chance="10" duration="5000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element energyPercent="-5"/>
+		<element earthPercent="0"/>
+		<element deathPercent="-30"/>
+		<element holyPercent="90"/>
+		<element icePercent="-5"/>
+	</elements>
+	<immunities>
+		<immunity drunk="1"/>
+	</immunities>
+	<voices interval="2000" chance="5">
+		<voice sentence="Crackle!"/>
+		<voice sentence="Tsshh"/>
+	</voices>
+	<loot>
+		<item id="10521" chance="200"/><!-- moon backpack -->
+	</loot>
+</monster>

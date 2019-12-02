@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="BLack Warg Leader" nameDescription="a great black warg, a pack leader" race="blood" experience="1000" speed="430" manacost="0">
+<monster name="Black Warg Leader" nameDescription="a great black warg, a pack leader" race="blood" experience="1000" speed="430" manacost="0">
 	<health now="2000" max="2000"/>
 	<look type="716" corpse="6009"/>
 	<targetchange interval="2000" chance="0"/>
@@ -34,7 +34,7 @@
 		<voice sentence="Yoooohhuuuu!" yell="1"/>
 	</voices>
 	<loot>
-		<item id="3976" countmax="10" chance="50000"/><!-- worm -->
+		<item id="3976" countmax="6" chance="50000"/><!-- worm -->
 		<item id="2671" countmax="5" chance="33333"/><!-- ham -->
 		<item id="2804" countmax="3" chance="20000"/><!-- shadow herb -->
 		<item id="2803" countmax="4" chance="20000"/><!-- powder herb -->

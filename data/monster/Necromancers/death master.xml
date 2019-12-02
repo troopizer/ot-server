@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Death Master" nameDescription="a death master" race="blood" experience="2000" speed="280" manacost="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Death Master" nameDescription="a death master" race="blood" experience="2200" speed="280" manacost="0">
 	<health now="2500" max="2500"/>
 	<look type="278" head="114" body="95" legs="114" feet="114" corpse="6080"/>
 	<targetchange interval="5000" chance="8"/>
@@ -19,14 +19,14 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="40" attack="45" poison="90"/>
-		<attack name="lifedrain" interval="2000" chance="20" range="5" min="-100" max="-150">
+		<attack name="lifedrain" interval="2000" chance="20" range="4" min="-100" max="-150">
 			<attribute key="areaEffect" value="redspark"/>
 		</attack>
 		<attack name="death" interval="2000" chance="25" range="6" min="-140" max="-180">
 			<attribute key="shootEffect" value="suddendeath"/>
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
-		<attack name="death" interval="2000" chance="20" range="5" radius="3" min="-110" max="-150">
+		<attack name="death" interval="2000" chance="20" range="6" radius="5" target="1" min="-110" max="-150">
 			<attribute key="shootEffect" value="suddendeath"/>
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
@@ -48,7 +48,7 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<summons maxSummons="4">
-		<summon name="Ghost" interval="2000" chance="30" max="3"/>
+		<summon name="Ghost" interval="2000" chance="30" max="4"/>
 	</summons>
 	<voices interval="5000" chance="10">
 		<voice sentence="Your corpse will be mine!"/>
@@ -63,7 +63,7 @@
 		<item id="2229" countmax="5" chance="20000"/><!-- skull -->
 		<item id="2663" chance="200"/><!-- mystic turban -->
 		<item id="8820" chance="5000"/><!-- mage hat -->
-		<item id="5904" chance="10000"/><!-- magic sulphur -->
+		<item id="5904" chance="30000"/><!-- magic sulphur -->
 		<item id="8871" chance="1000"/><!-- focus cape -->
 		<item id="8870" chance="5000"/><!-- spirit cloak -->
 		<item id="18400" chance="400"/><!-- magician legs -->

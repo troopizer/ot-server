@@ -101,7 +101,7 @@
 
 		<item id="2798" countmax="1" chance="20000"/><!-- blood herb -->
 
-		<item id="7535" chance="3000"/><!-- parchment missiles -->
+		<item id="7535" chance="5000"/><!-- parchment missiles -->
 
 	</loot>
 

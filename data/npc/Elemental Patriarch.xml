@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Elemental Patriarch" nameDescription="an elemental patriarch"  walkinterval="2000" floorchange="1">
+<npc name="Elemental Patriarch" nameDescription="an elemental patriarch"  script="elementalpatriarch.lua" walkinterval="2000" floorchange="1">
 
 	<health now="150" max="150"/>
 
@@ -8,7 +8,7 @@
 
 	<parameters>
 
-		<parameter key="message_greet" value="Hello |PLAYERNAME|. "/>
+		<parameter key="message_greet" value="May the Ainurs bless you! |PLAYERNAME|. "/>
 
 		<parameter key="message_decline" value="Get out of here!"/>
 

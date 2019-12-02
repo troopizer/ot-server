@@ -1,5 +1,5 @@
 local condition = Condition(CONDITION_DROWN)
-condition:setParameter(CONDITION_PARAM_PERIODICDAMAGE, 8)
+condition:setParameter(CONDITION_PARAM_PERIODICDAMAGE, 15)
 condition:setParameter(CONDITION_PARAM_TICKS, 60000)
 condition:setParameter(CONDITION_PARAM_TICKINTERVAL, 2000)
 local FOODS =

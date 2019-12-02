@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Cockroach" nameDescription="a cockroach" race="venom" experience="0" speed="100" manacost="0">
-	<health now="1" max="1"/>
+<monster name="Cockroach" nameDescription="a cockroach" race="venom" experience="50" speed="300" manacost="0">
+	<health now="100" max="100"/>
 	<look type="284" corpse="8593"/>
 	<targetchange interval="60000" chance="0"/>
 	<strategy attack="0" defense="0"/>
@@ -15,14 +15,28 @@
 		<flag staticattack="50"/>
 		<flag lightlevel="0"/>
 		<flag lightcolor="0"/>
-		<flag targetdistance="5"/>
-		<flag runonhealth="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="5"/>
 	</flags>
-	<defenses armor="0" defense="0"/>
+	<defenses armor="3" defense="7"/>
+	<elements>
+
+		<element earthPercent="50"/>
+		<element icePercent="-10"/>
+		<element deathPercent="-10"/>
+		<element firePercent="-10"/>
+		<element holyPercent="0"/>
+		<element energyPercent="-10"/>
+
+	</elements>
 	<immunities>
 		<immunity poison="1"/>
 	</immunities>
 	<loot>
-		<item id="8710" chance="99999"/><!-- cockroach leg -->
+		<item id="8710" chance="20000"/><!-- cockroach leg -->
+		<item id="3976" countmax="10" chance="50000"/><!-- worm -->
+		<item id="2805" countmax="1" chance="5000"/><!-- troll green -->
+ 		<item id="2802" countmax="1" chance="5000"/><!-- sling herb -->
+ 		<item id="2666" countmax="1" chance="30000"/><!-- meat -->
 	</loot>
 </monster>

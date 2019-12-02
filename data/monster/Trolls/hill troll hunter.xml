@@ -50,14 +50,14 @@
 	<loot>
 		<item id="1987" chance="80000"/><!-- bag -->
 				<item id="7432" chance="1000"/><!-- troll club -->
-				<item id="2413" chance="300"/><!-- steel broadsword -->
-				<item id="2426" chance="300"/><!-- steel light halberd -->
-				<item id="7451" chance="300"/><!-- steel heavy sceptre -->
+				<item id="2413" chance="200"/><!-- steel broadsword -->
+				<item id="2426" chance="200"/><!-- steel light halberd -->
+				<item id="7451" chance="200"/><!-- steel heavy sceptre -->
 				<item id="2666" countmax="6" chance="40000"/><!-- meat -->
 				<item id="5930" countmax="1" chance="25000"/><!-- behemoth claw -->
-		        <item id="2148" countmax="100" chance="900000"/><!-- gold coin -->
-		        <item id="2148" countmax="100" chance="900000"/><!-- gold coin -->
-		        <item id="2148" countmax="100" chance="900000"/><!-- gold coin -->
+		        <item id="2148" countmax="80" chance="600000"/><!-- gold coin -->
+		        <item id="2148" countmax="80" chance="600000"/><!-- gold coin -->
+		        <item id="2148" countmax="80" chance="600000"/><!-- gold coin -->
 		        <item id="2671" countmax="3" chance="20000"/><!-- ham -->
 		        <item id="2231" countmax="1" chance="20000"/><!-- big bone -->
 				<item id="2457" chance="10000"/><!-- steel helmet -->

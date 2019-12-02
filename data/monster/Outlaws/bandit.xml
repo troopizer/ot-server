@@ -2,7 +2,7 @@
 
 <monster name="Bree Bandit" nameDescription="a bree bandit" race="blood" experience="100" speed="190" manacost="450">
 
-	<health now="245" max="245"/>
+	<health now="200" max="200"/>
 
 	<look type="129" head="58" body="59" legs="45" feet="114" corpse="6080"/>
 
@@ -80,17 +80,21 @@
 
 		<item id="2468" chance="2000"/><!-- studded legs -->
 
+		<item id="2526" chance="5000"/><!-- studded shield -->	
+
 		<item id="5913" countmax="1" chance="8000"/><!-- brown piece of cloth -->
 
 		<item id="5909" countmax="1" chance="1000"/><!-- white piece of cloth -->
 
 		<item id="1987" chance="80000"/><!-- bag -->
 
-		<item id="2148" countmax="40" chance="90000"/><!-- gold coin -->
+		<item id="2148" countmax="30" chance="50000"/><!-- gold coin -->
 
 		<item id="2643" chance="5000"/><!-- leather boots -->
 
-		<item id="2787" countmax="1" chance="8000"/><!-- white mushroom -->
+		<item id="2787" countmax="1" chance="600"/><!-- white mushroom -->
+
+		<item id="2666" countmax="2" chance="5000"/><!-- meat -->
 
 		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
 

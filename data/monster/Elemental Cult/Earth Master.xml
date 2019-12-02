@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Earth Master" nameDescription="an earth master" race="blood" experience="2000" speed="280" manacost="0">
+	<health now="2700" max="2700"/>
+	<look type="432" head="2" body="63" legs="114" feet="101" corpse="6080"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag staticattack="90"/>
+		<flag targetdistance="5"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-100"/>
+		<attack name="earth" interval="2000" chance="40" range="6" min="-140" max="-220">
+			<attribute key="shootEffect" value="earth"/>
+			<attribute key="areaEffect" value="smallplants"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="30" range="6" radius="5" target="1" min="-120" max="-160">
+			<attribute key="shootEffect" value="earth"/>
+			<attribute key="areaEffect" value="smallplants"/>
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="25">
+		<defense name="healing" interval="2000" chance="25" min="100" max="150">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element holyPercent="-10"/>
+		<element firePercent="-20"/>
+		<element earthPercent="50"/>
+		<element icePercent="20"/>
+		<element physicalPercent="-10"/>
+		<element energyPercent="-10"/>
+		<element deathPercent="-10"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Earth!"/>
+	</voices>
+	<loot>
+		<item id="7886" chance="400"/><!-- boots -->
+		<item id="7903" chance="1500"/><!-- earth helmet -->
+		<item id="7887" chance="800"/><!-- earth amulet -->
+		<item id="7885" chance="400"/><!-- earth legs -->
+		<item id="7884" chance="200"/><!-- earth armor -->
+		<item id="2152" countmax="3" chance="60000"/><!-- p coin -->
+		<item id="2804" countmax="2" chance="20000"/><!-- shadow herb -->
+		<item id="2182" chance="5000"/><!-- earth wand -->
+		<item id="2663" chance="200"/><!-- mystic turban -->
+		<item id="8820" chance="5000"/><!-- mage hat -->
+		<item id="5904" countmax="3" chance="30000"/><!-- magic sulphur -->
+		<item id="8871" chance="1000"/><!-- focus cape -->
+		<item id="8870" chance="5000"/><!-- spirit cloak -->
+		<item id="18400" chance="400"/><!-- magician legs -->
+		<item id="7535" chance="400"/><!-- parchment missiles -->
+		<item id="7534" chance="200"/><!-- parchment explosions -->
+		<item id="1987" chance="80000"/><!-- bag -->
+		<item id="2149" chance="800"/><!-- small emerald-->
+		<item id="2787" countmax="2" chance="20000"/><!-- white mushroom -->
+	</loot>
+</monster>

@@ -20,7 +20,7 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="30" attack="38"/>
-		<attack name="lifedrain" interval="1000" chance="20" min="-25" max="-45">
+		<attack name="lifedrain" interval="2000" chance="20" range="4" min="-35" max="-55">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
 	</attacks>
@@ -28,10 +28,10 @@
 		<defense name="speed" interval="10000" chance="40" speedchange="350" duration="20000">
 			<attribute key="areaEffect" value="greenshimmer"/>
 		</defense>
-		<defense name="healing" interval="2000" chance="30" min="25" max="65">
+		<defense name="healing" interval="2000" chance="20" min="45" max="75">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
-		<defense name="Invisible" interval="4000" chance="5">
+		<defense name="Invisible" interval="4000" chance="5" duration="5000">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>

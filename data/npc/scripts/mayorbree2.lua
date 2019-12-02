@@ -13,7 +13,7 @@ function creatureSayCallback(cid, type, msg)
 	end
 
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
-    if(msgcontains(msg, 'year') or msgcontains(msg, 'date') or msgcontains(msg, 'tales') or msgcontains(msg, 'information')) then
+    if(msgcontains(msg, 'year') or msgcontains(msg, 'date') or msgcontains(msg, 'tales') or msgcontains(msg, 'info')) then
 				selfSay('We are in the year 2900 of the third age.', cid)
 				selfSay('I have been informed that Gerontius Took "The Old Took" is currently the Thain of the Shire, also Turin II is the 22th Steward of Gondor.', cid)
     end
@@ -25,6 +25,12 @@ function creatureSayCallback(cid, type, msg)
 	end
 	if(msgcontains(msg, 'nothing')) then
 		selfSay('I dont have time to lose...', cid)
+	end
+	if(msgcontains(msg, 'edward')) then
+		selfSay('My name is Edward Mapleton. Since years I have been the mayor of Bree.', cid)
+		selfSay('As mayor I have to look for the safety and stability of not only Bree, also Staddle, Archet and Combe. And I think that I have been doing a fairly good job.', cid)
+		selfSay('Many years ago the mayor was also the commander of the Bree guards, but since the Eriador Renegades became more powerful. I gave the command of the guards to my son Jeff.', cid)
+		selfSay('He grow up to be a fine warrior and everyone in Bree-Land respect him. He has manage to keep the renegades out of our lands.', cid)
 	end
 	if(msgcontains(msg, 'aldur')) then
 		selfSay('Aldur is an important merchant of the blue mountains, he might be close to Thorin, their leader.', cid)
@@ -51,7 +57,7 @@ function creatureSayCallback(cid, type, msg)
 
 	if(msgcontains(msg, 'mission')) then
 		if (getPlayerStorageValue(cid,2000) < 0) then
-			selfSay('Welcome to {Bree}, I am the Mayor of this town. Doing missions you will become stronger, also earn some money and position on the mens world, Are you here for missions?, {yes}?', cid)
+			selfSay('Welcome to {Bree}, I am the Mayor of this town. By doing missions you will become stronger, also earn some money and position on the mens world, Are you here for missions?, {yes}?', cid)
 			talkState[talkUser] = 1
 		end
 		if (getPlayerStorageValue(cid,2000) == 0) then
@@ -156,7 +162,7 @@ function creatureSayCallback(cid, type, msg)
 			setPlayerStorageValue(cid,2006,0)
 		end
 		if (getPlayerStorageValue(cid,2006) == 2 and getPlayerStorageValue(cid,2007) < 0 ) then
-			selfSay('Our town have some relations with the Blue Mountains Dwarfs, they use to trade jewels and treasures of their mines here. But yesterday, two dwarf merchants were assaulted and as mayor of this region, I want to help them. Go to the {Prancing Pony} and talk to {Aldur}.', cid)
+			selfSay('Our town have some relations with the Blue Mountains Dwarfs, they use to trade jewels and treasures of their mines here. But yesterday, two dwarven merchants were assaulted and as mayor of this region, I want to help them. Go to the {Prancing Pony} and talk to {Aldur}.', cid)
 			setPlayerStorageValue(cid,30001,1)				
 			setPlayerStorageValue(cid,2007,0)
 		end
@@ -194,7 +200,7 @@ function creatureSayCallback(cid, type, msg)
 				setPlayerStorageValue(cid,2006,2)
 				doPlayerAddExperience(cid,2000)
 				doPlayerAddItem(cid,2148,200)
-				selfSay('Nice done, It a very important treasure for Bree.(you received 2000 experience and 200 gold).', cid)
+				selfSay('Nice done, Its a very important treasure for Bree.(you received 2000 experience and 200 gold).', cid)
 			else
 				selfSay('Where is the golden goblet?, bring it.', cid)
 			end
@@ -228,10 +234,7 @@ function creatureSayCallback(cid, type, msg)
 		end
 	end
 
-	if(msgcontains(msg, 'book')) then
-		if (getPlayerStorageValue(cid,2000) == 1) then
-			selfSay('Thanks for your work!', cid)
-		end
+	if(msgcontains(msg, 'book') or msgcontains(msg, 'yes')) then
 		if (getPlayerStorageValue(cid,2000) == 0) then
 			if(doPlayerRemoveItem(cid, 1958, 1) == TRUE) then
 				setPlayerStorageValue(cid,2000,1)

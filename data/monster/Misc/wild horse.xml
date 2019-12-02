@@ -6,14 +6,14 @@
 	<flags>
 		<flag summonable="0" />
 		<flag attackable="1" />
-		<flag hostile="0" />
+		<flag hostile="1" />
 		<flag illusionable="0" />
 		<flag convinceable="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
-		<flag targetdistance="6" />
-		<flag staticattack="90" />
+		<flag targetdistance="7" />
+		<flag staticattack="10" />
 		<flag runonhealth="300" />
 	</flags>
 	<attacks>

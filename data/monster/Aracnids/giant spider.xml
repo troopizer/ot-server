@@ -76,7 +76,7 @@
 		<item id="2463" chance="1000"/><!-- iron armor -->		
 		<item id="5893" countmax="1" chance="10000"/><!-- perfect behemoth fang -->
 		<item id="5904" countmax="2" chance="10000"/><!-- magic sulphur -->
-		<item id="5879" countmax="40" chance="50000"/><!-- giant spider silk -->
+		<item id="5879" countmax="20" chance="50000"/><!-- giant spider silk -->
 		<item id="2545" countmax="12" chance="40000"/><!-- poison arrow -->
 		<item id="2804" countmax="5" chance="10000"/><!-- shadow herb -->
 

@@ -65,7 +65,7 @@
 	
 	<loot>
 
-		<item id="3976" countmax="15" chance="50000"/><!-- worm -->
+		<item id="3976" countmax="8" chance="50000"/><!-- worm -->
 
 		<item id="2671" countmax="3" chance="80000"/><!-- ham -->
 
@@ -73,7 +73,7 @@
 
 		<item id="5902" countmax="1" chance="5000"/><!-- honeycomb -->
 
-		<item id="5878" countmax="3" chance="15000"/><!-- leather -->
+		<item id="5878" countmax="4" chance="15000"/><!-- leather -->
 
 		<item id="5896" countmax="1" chance="5000"/><!-- bear paw -->
 

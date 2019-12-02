@@ -207,11 +207,11 @@
         <mission name="Herbal Strong Hit Points Boost - asea turca coi" storageid="2055" startvalue="0" endvalue="0">
             <missionstate id="0" description="Herbal Strong Hit Points Boost - Words: asea turca coi - lvl: 30 - Reagents: blood herbs."/>
         </mission>
-        <mission name="Herbal Light Explosion Rune - asea milya narquelion" storageid="2054" startvalue="0" endvalue="0">
-            <missionstate id="0" description="Herbal Light Explosion Rune - Words: asea milya narquelion - lvl: 30 - mlvl: 15 - Reagents: blank rune, powder herbs and star herbs."/>
+        <mission name="Herbal Light Explosion Rune - asea milya narquelion certa" storageid="2054" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Light Explosion Rune - Words: asea milya narquelion certa - lvl: 30 - mlvl: 15 - Reagents: blank rune, powder herbs and star herbs."/>
         </mission>
-        <mission name="Herbal Wide Light Explosion Rune - asea landa milya narquelion" storageid="2068" startvalue="0" endvalue="0">
-            <missionstate id="0" description="Herbal Wide Light Explosion Rune - Words: asea landa milya narquelion - lvl: 30 - mlvl: 15 - Reagents: blank rune, powder herbs and star herbs."/>
+        <mission name="Herbal Wide Light Explosion Rune - asea landa milya narquelion certa" storageid="2068" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Herbal Wide Light Explosion Rune - Words: asea landa milya narquelion certa - lvl: 30 - mlvl: 15 - Reagents: blank rune, powder herbs and star herbs."/>
         </mission>
         <mission name="Herbal Strong Poison Rune - asea turca hloima certa" storageid="2103" startvalue="0" endvalue="0">
             <missionstate id="0" description="Herbal Strong Poison Rune - Words: asea turca hloima certa - lvl: 40 - mlvl: 15 - Reagents: blank rune and troll green."/>
@@ -360,10 +360,10 @@
         </mission>  
     </quest>
     <quest name="+ Fire Magic Trait" startstorageid="30014" startstoragevalue="13">
-        <mission name="Fire Sorcerer Level" storageid="2060" startvalue="0" endvalue="5">
-            <missionstate id="0" description="Fire Sorcerer Level 1. Basic spells: Fire Strike - nar pente (mana:40)."/>
-            <missionstate id="1" description="Fire Sorcerer Level 2."/>
-            <missionstate id="2" description="Fire Sorcerer Level 3."/>
+        <mission name="Fire Sorcerer Tier" storageid="2060" startvalue="0" endvalue="5">
+            <missionstate id="0" description="Fire Sorcerer Tier 1. Basic spells: Fire Strike - nar pente (mana:40)."/>
+            <missionstate id="1" description="Fire Sorcerer Tier 2. Basic spells: Fire Strike - nar pente (mana:40)."/>
+            <missionstate id="2" description="Fire Sorcerer Tier 3."/>
             <missionstate id="3" description="Fire Sorcerer Level 4."/>
             <missionstate id="4" description="Fire Sorcerer Level 5."/>
             <missionstate id="5" description="Fire Sorcerer Level 6."/>
@@ -389,12 +389,33 @@
         <mission name="Fire Explosion Rune" storageid="2153" startvalue="0" endvalue="0">
             <missionstate id="0" description="Fire Explosion Rune - Words: nar milya narquelion - lvl: 50 - mlvl: 40 (mana:300)."/>
         </mission>
+        <mission name="Elite Fire Spear" storageid="2159" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Fire Spear - Words: nar turca hatal - lvl: 60 (mana:80)."/>
+        </mission>
+        <mission name="Fire Explosion" storageid="2160" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Fire Explosion - Words: nar narquelion - lvl: 60 - mlvl: 40 (mana:1000)."/>
+        </mission>
+        <mission name="Elite Twisting Fire Slash" storageid="2161" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Twisting Fire Slash - Words: nar turca aucirhanc - lvl: 60 (mana:100)."/>
+        </mission>
+        <mission name="Elite Fire Slash" storageid="2162" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Fire Slash - Words: nar turca luce - lvl: 60 (mana:80)."/>
+        </mission>
+        <mission name="Fire Grenade" storageid="2163" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Fire Grenade - Words: nar narquelion hatal - lvl: 60 (mana:100)."/>
+        </mission>
+        <mission name="Elite Fire Strike" storageid="2164" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Fire Strike- Words: nar pente certa - lvl: 60 - mlvl: 40 (mana:100)."/>
+        </mission>
+        <mission name="Fire Touch" storageid="2165" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Fire Touch - Words: nar apa - lvl: 60 - mlvl: 40 (mana:60)."/>
+        </mission>
     </quest>
     <quest name="+ Earth Magic Trait" startstorageid="30015" startstoragevalue="14">
-        <mission name="Earth Sorcerer Level" storageid="2061" startvalue="0" endvalue="5">
-            <missionstate id="0" description="Earth Sorcerer Level 1. Basic spells: Earth Strike - cen pente (mana:40)."/>
-            <missionstate id="1" description="Earth Sorcerer Level 2."/>
-            <missionstate id="2" description="Earth Sorcerer Level 3."/>
+        <mission name="Earth Sorcerer Tier" storageid="2061" startvalue="0" endvalue="5">
+            <missionstate id="0" description="Earth Sorcerer Tier 1. Basic spells: Earth Strike - cen pente (mana:40)."/>
+            <missionstate id="1" description="Earth Sorcerer Tier 2. Basic spells: Earth Strike - cen pente (mana:40)."/>
+            <missionstate id="2" description="Earth Sorcerer Tier 3."/>
             <missionstate id="3" description="Earth Sorcerer Level 4."/>
             <missionstate id="4" description="Earth Sorcerer Level 5."/>
             <missionstate id="5" description="Earth Sorcerer Level 6."/>
@@ -420,12 +441,33 @@
         <mission name="Earth Explosion Rune" storageid="2152" startvalue="0" endvalue="0">
             <missionstate id="0" description="Earth Explosion Rune - Words: cen milya narquelion - lvl: 50 - mlvl: 40 (mana:300)."/>
         </mission>
+        <mission name="Elite Earth Spear" storageid="2166" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Earth Spear - Words: cen turca hatal - lvl: 60 (mana:80)."/>
+        </mission>
+        <mission name="Earth Explosion" storageid="2167" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Earth Explosion - Words: cen narquelion - lvl: 60 - mlvl: 40 (mana:1000)."/>
+        </mission>
+        <mission name="Elite Twisting Earth Slash" storageid="2168" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Twisting Earth Slash - Words: cen turca aucirhanc - lvl: 60 (mana:100)."/>
+        </mission>
+        <mission name="Elite Earth Slash" storageid="2169" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Earth Slash - Words: cen turca luce - lvl: 60 (mana:80)."/>
+        </mission>
+        <mission name="Earth Grenade" storageid="2170" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Earth Grenade - Words: cen narquelion hatal - lvl: 60 (mana:100)."/>
+        </mission>
+        <mission name="Elite Earth Strike" storageid="2171" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Earth Strike- Words: cen pente certa - lvl: 60 - mlvl: 40 (mana:100)."/>
+        </mission>
+        <mission name="Earth Touch" storageid="2172" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Earth Touch - Words: cen apa - lvl: 60 - mlvl: 40 (mana:60)."/>
+        </mission>
     </quest>
     <quest name="+ Energy Magic Trait" startstorageid="30016" startstoragevalue="15">
-        <mission name="Energy Sorcerer Level" storageid="2062" startvalue="0" endvalue="5">
-            <missionstate id="0" description="Energy Sorcerer Level 1. Basic spells: Energy Strike - sure pente (mana:40)."/>
-            <missionstate id="1" description="Energy Sorcerer Level 2."/>
-            <missionstate id="2" description="Energy Sorcerer Level 3."/>
+        <mission name="Energy Sorcerer Tier" storageid="2062" startvalue="0" endvalue="5">
+            <missionstate id="0" description="Energy Sorcerer Tier 1. Basic spells: Energy Strike - sure pente (mana:40)."/>
+            <missionstate id="1" description="Energy Sorcerer Tier 2. Basic spells: Energy Strike - sure pente (mana:40)"/>
+            <missionstate id="2" description="Energy Sorcerer Tier 3."/>
             <missionstate id="3" description="Energy Sorcerer Level 4."/>
             <missionstate id="4" description="Energy Sorcerer Level 5."/>
             <missionstate id="5" description="Energy Sorcerer Level 6."/>
@@ -451,12 +493,33 @@
         <mission name="Energy Explosion Rune" storageid="2151" startvalue="0" endvalue="0">
             <missionstate id="0" description="Energy Explosion Rune - Words: sure milya narquelion - lvl: 50 - mlvl: 40 (mana:300)."/>
         </mission>
+        <mission name="Elite Energy Spear" storageid="2173" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Energy Spear - Words: sure turca hatal - lvl: 60 (mana:80)."/>
+        </mission>
+        <mission name="Energy Explosion" storageid="2174" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Energy Explosion - Words: sure narquelion - lvl: 60 - mlvl: 40 (mana:1000)."/>
+        </mission>
+        <mission name="Elite Twisting Energy Slash" storageid="2175" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Twisting Energy Slash - Words: sure turca aucirhanc - lvl: 60 (mana:100)."/>
+        </mission>
+        <mission name="Elite Energy Slash" storageid="2176" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Energy Slash - Words: sure turca luce - lvl: 60 (mana:80)."/>
+        </mission>
+        <mission name="Energy Grenade" storageid="2177" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Energy Grenade - Words: sure narquelion hatal - lvl: 60 (mana:100)."/>
+        </mission>
+        <mission name="Elite Energy Strike" storageid="2178" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Energy Strike- Words: sure pente certa - lvl: 60 - mlvl: 40 (mana:100)."/>
+        </mission>
+        <mission name="Energy Touch" storageid="2179" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Energy Touch - Words: sure apa - lvl: 60 - mlvl: 40 (mana:60)."/>
+        </mission>
     </quest>
     <quest name="+ Ice Magic Trait" startstorageid="30017" startstoragevalue="16">
-        <mission name="Ice Sorcerer Level" storageid="2063" startvalue="0" endvalue="5">
-            <missionstate id="0" description="Ice Sorcerer Level 1. Basic spells: Ice Strike - nen pente (mana:40)."/>
-            <missionstate id="1" description="Ice Sorcerer Level 2."/>
-            <missionstate id="2" description="Ice Sorcerer Level 3."/>
+        <mission name="Ice Sorcerer Tier" storageid="2063" startvalue="0" endvalue="5">
+            <missionstate id="0" description="Ice Sorcerer Tier 1. Basic spells: Ice Strike - nen pente (mana:40)."/>
+            <missionstate id="1" description="Ice Sorcerer Tier 2. Basic spells: Ice Strike - nen pente (mana:40)"/>
+            <missionstate id="2" description="Ice Sorcerer Tier 3."/>
             <missionstate id="3" description="Ice Sorcerer Level 4."/>
             <missionstate id="4" description="Ice Sorcerer Level 5."/>
             <missionstate id="5" description="Ice Sorcerer Level 6."/>
@@ -482,12 +545,33 @@
         <mission name="Ice Explosion Rune" storageid="2150" startvalue="0" endvalue="0">
             <missionstate id="0" description="Ice Explosion Rune - Words: nen milya narquelion - lvl: 50 - mlvl: 40 (mana:300)."/>
         </mission>
+        <mission name="Elite Ice Spear" storageid="2180" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Ice Spear - Words: nen turca hatal - lvl: 60 (mana:80)."/>
+        </mission>
+        <mission name="Ice Explosion" storageid="2181" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Ice Explosion - Words: nen narquelion - lvl: 60 - mlvl: 40 (mana:1000)."/>
+        </mission>
+        <mission name="Elite Twisting Ice Slash" storageid="2182" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Twisting Ice Slash - Words: nen turca aucirhanc - lvl: 60 (mana:100)."/>
+        </mission>
+        <mission name="Elite Ice Slash" storageid="2183" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Ice Slash - Words: nen turca luce - lvl: 60 (mana:80)."/>
+        </mission>
+        <mission name="Ice Grenade" storageid="2184" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Ice Grenade - Words: nen narquelion hatal - lvl: 60 (mana:100)."/>
+        </mission>
+        <mission name="Elite Ice Strike" storageid="2185" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Ice Strike- Words: nen pente certa - lvl: 60 - mlvl: 40 (mana:100)."/>
+        </mission>
+        <mission name="Ice Touch" storageid="2186" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Ice Touch - Words: nen apa - lvl: 60 - mlvl: 40 (mana:60)."/>
+        </mission>
     </quest>
     <quest name="+ Life Magic Trait" startstorageid="30018" startstoragevalue="17">
-        <mission name="Druid Level" storageid="2064" startvalue="0" endvalue="5">
-            <missionstate id="0" description="Druid Level 1. Basic spells: Life Strike - coi pente (mana:40), Wisp Summon - coi feaminte enyalie (mana:400)."/>
-            <missionstate id="1" description="Druid Level 2."/>
-            <missionstate id="2" description="Druid Level 3."/>
+        <mission name="Druid Tier" storageid="2064" startvalue="0" endvalue="5">
+            <missionstate id="0" description="Druid Tier 1. Basic spells: Life Strike - coi pente (mana:40), Wisp Summon - coi feaminte enyalie (mana:800)."/>
+            <missionstate id="1" description="Druid Tier 2. Basic spells: Life Strike - coi pente (mana:40), Wisp Summon - coi feaminte enyalie (mana:800)"/>
+            <missionstate id="2" description="Druid Tier 3."/>
             <missionstate id="3" description="Druid Level 4."/>
             <missionstate id="4" description="Druid Level 5."/>
             <missionstate id="5" description="Druid Level 6."/>
@@ -505,14 +589,38 @@
             <missionstate id="0" description="Life Missile Rune - Words: coi pente certa - lvl: 50 - mlvl: 40 (mana:250)."/>
         </mission>
         <mission name="Life Explosion Rune" storageid="2149" startvalue="0" endvalue="0">
-            <missionstate id="0" description="Life Explosion Rune - Words: coi milya narquelion - lvl: 50 - mlvl: 40 (mana:300)."/>
+            <missionstate id="0" description="Life Explosion Rune - Words: coi milya narquelion certa - lvl: 50 - mlvl: 40 (mana:300)."/>
+        </mission>
+        <mission name="Elite Life Spear" storageid="2187" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Life Spear - Words: coi turca hatal - lvl: 60 (mana:80)."/>
+        </mission>
+        <mission name="Life Explosion" storageid="2188" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Life Explosion - Words: coi narquelion - lvl: 60 - mlvl: 40 (mana:1000)."/>
+        </mission>
+        <mission name="Elite Twisting Life Slash" storageid="2189" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Twisting Life Slash - Words: coi turca aucirhanc - lvl: 60 (mana:100)."/>
+        </mission>
+        <mission name="Elite Life Slash" storageid="2190" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Life Slash - Words: coi turca luce - lvl: 60 (mana:80)."/>
+        </mission>
+        <mission name="Life Grenade" storageid="2191" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Life Grenade - Words: coi narquelion hatal - lvl: 60 (mana:100)."/>
+        </mission>
+        <mission name="Elite Life Strike" storageid="2192" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Life Strike- Words: coi pente certa - lvl: 60 - mlvl: 40 (mana:100)."/>
+        </mission>
+        <mission name="Life Touch" storageid="2193" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Life Touch - Words: coi apa - lvl: 60 - mlvl: 40 (mana:200)."/>
+        </mission>
+        <mission name="Battle Wisp Summon" storageid="2194" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Battle Wisp Summon - Words: coi turca feaminte enyalie - lvl: 60 - mlvl: 40 (mana:1500)."/>
         </mission>
     </quest>
     <quest name="+ Death Magic Trait" startstorageid="30019" startstoragevalue="18">
-        <mission name="Necromancer Level" storageid="2065" startvalue="0" endvalue="5">
-            <missionstate id="0" description="Necromancer Level 1. Basic spells: Death Strike - kurz kallog (mana:40), Skeleton Legion - kurz kafak ushtar (mana:250)."/>
-            <missionstate id="1" description="Necromancer Level 2."/>
-            <missionstate id="2" description="Necromancer Level 3."/>
+        <mission name="Necromancer Tier" storageid="2065" startvalue="0" endvalue="5">
+            <missionstate id="0" description="Necromancer Tier 1. Basic spells: Death Strike - kurz kallog (mana:40), Skeleton Legion - kurz kafak ushtar (mana:250)."/>
+            <missionstate id="1" description="Necromancer Tier 2. Basic spells: Death Strike - kurz kallog (mana:40), Skeleton Legion - kurz kafak ushtar (mana:250)"/>
+            <missionstate id="2" description="Necromancer Tier 3."/>
             <missionstate id="3" description="Necromancer Level 4."/>
             <missionstate id="4" description="Necromancer Level 5."/>
             <missionstate id="5" description="Necromancer Level 6."/>
@@ -532,25 +640,148 @@
         <mission name="Death Explosion Rune" storageid="2148" startvalue="0" endvalue="0">
             <missionstate id="0" description="Death Explosion Rune - Words: kurz ar ghash kallog - lvl: 50 - mlvl: 40 (mana:300)."/>
         </mission>
+        <mission name="Elite Death Spear" storageid="2195" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Death Spear - Words: kurz kurz bubhosh engan - lvl: 60 (mana:80)."/>
+        </mission>
+        <mission name="Death Explosion" storageid="2196" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Death Explosion - Words: kurz ghash kallog - lvl: 60 - mlvl: 40 (mana:1000)."/>
+        </mission>
+        <mission name="Elite Twisting Death Slash" storageid="2197" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Twisting Death Slash - Words: kurz bubhosh faglind - lvl: 60 (mana:100)."/>
+        </mission>
+        <mission name="Elite Death Slash" storageid="2198" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Death Slash - Words: kurz bubhosh throth - lvl: 60 (mana:80)."/>
+        </mission>
+        <mission name="Death Grenade" storageid="2199" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Death Grenade - Words: kurz ghash engan - lvl: 60 (mana:100)."/>
+        </mission>
+        <mission name="Elite Death Strike" storageid="2200" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Elite Death Strike- Words: kurz bubhosh kallog - lvl: 60 - mlvl: 40 (mana:100)."/>
+        </mission>
+        <mission name="Death Assassin" storageid="2300" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Death Assassin - Words: kurz tusc - lvl: 60 - mlvl: 40 (mana:300)."/>
+        </mission>
+        <mission name="Skeleton Legion II" storageid="2301" startvalue="0" endvalue="0">
+            <missionstate id="0" description="Skeleton Legion II - Words: kurz bubhosh kafak ushtar - lvl: 60 - mlvl: 40 (mana:600)."/>
+        </mission>
     </quest>
     <quest name="Elemental Magic Path" startstorageid="30020" startstoragevalue="19">
         <mission name="Death Magic Start" storageid="2066" startvalue="0" endvalue="2">
-            <missionstate id="0" description="Find a master able to craft one life cristal, you will have to kill people in order to prove yourself, by being with white skull."/>
-            <missionstate id="1" description="Find one Ainur statue and ask for blessing, while being with red skull."/>
+            <missionstate id="0" description="Find 100 magic sulphurs to craft a life crystals."/>
+            <missionstate id="1" description="Find one Ainur statue and ask for blessing, you will need elemental jewels."/>
             <missionstate id="2" description="Completed."/>
         </mission>
         <mission name="Elemental Magic Start" storageid="2067" startvalue="0" endvalue="2">
-            <missionstate id="0" description="Find a master able to craft one life cristal."/>
+            <missionstate id="0" description="Find 100 magic sulphurs to craft a life crystals."/>
             <missionstate id="1" description="Find one Ainur statue and ask for the blessing, you will need elemental jewels."/>
             <missionstate id="2" description="Completed."/>
         </mission>
         <mission name="The Beam, the Spear or the Slash" storageid="2086" startvalue="0" endvalue="1">
-            <missionstate id="0" description="Find 5 small diamonds."/>
+            <missionstate id="0" description="Find 3 small diamonds."/>
             <missionstate id="1" description="Completed."/>
         </mission>
         <mission name="Enchanting" storageid="2087" startvalue="0" endvalue="1">
             <missionstate id="0" description="Find 2 elemental jewels (Of your element)."/>
             <missionstate id="1" description="Completed."/>
+        </mission>
+        <mission name="Elemental Magic Part 2" storageid="2156" startvalue="0" endvalue="2">
+            <missionstate id="0" description="Find 300 magic sulphurs to craft 3 life crystals."/>
+            <missionstate id="1" description="Find one Ainur statue and ask for the blessing, you will need elemental jewels and the life crystals."/>
+            <missionstate id="2" description="Completed."/>
+        </mission>
+        <mission name="Death Magic Part 2" storageid="2157" startvalue="0" endvalue="2">
+            <missionstate id="0" description="Find 300 magic sulphurs to craft 3 life crystals."/>
+            <missionstate id="1" description="Find one Ainur statue and ask for the blessing, you will need elemental jewels and the life crystals."/>
+            <missionstate id="2" description="Completed."/>
+        </mission>
+        <mission name="Annuminas Temple 1" storageid="2302" startvalue="0" endvalue="41">
+            <missionstate id="0" description="Kill 40 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="1" description="Kill 39 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="2" description="Kill 38 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="3" description="Kill 37 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="4" description="Kill 36 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="5" description="Kill 35 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="6" description="Kill 34 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="7" description="Kill 33 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="8" description="Kill 32 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="9" description="Kill 31 Cultists and find 1 of each elemental jewels."/>          
+            <missionstate id="10" description="Kill 30 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="11" description="Kill 29 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="12" description="Kill 28 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="13" description="Kill 27 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="14" description="Kill 26 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="15" description="Kill 25 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="16" description="Kill 24 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="17" description="Kill 23 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="18" description="Kill 22 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="19" description="Kill 21 Cultists and find 1 of each elemental jewels"/>           
+            <missionstate id="20" description="Kill 20 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="21" description="Kill 19 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="22" description="Kill 18 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="23" description="Kill 17 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="24" description="Kill 16 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="25" description="Kill 15 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="26" description="Kill 14 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="27" description="Kill 13 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="28" description="Kill 12 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="29" description="Kill 11 Cultists and find 1 of each elemental jewels."/>          
+            <missionstate id="30" description="Kill 10 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="31" description="Kill 9 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="32" description="Kill 8 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="33" description="Kill 7 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="34" description="Kill 6 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="35" description="Kill 5 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="36" description="Kill 4 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="37" description="Kill 3 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="38" description="Kill 2 Cultists and find 1 of each elemental jewels."/>
+            <missionstate id="39" description="Kill 1 Cultist and find 1 of each elemental jewels."/>
+            <missionstate id="40" description="You got them, go back to the primate with the jewels."/>
+            <missionstate id="41" description="Completed."/>
+        </mission>
+        <mission name="Annuminas Temple 2" storageid="2303" startvalue="0" endvalue="42">
+            <missionstate id="0" description="Kill 40 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="1" description="Kill 39 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="2" description="Kill 38 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="3" description="Kill 37 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="4" description="Kill 36 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="5" description="Kill 35 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="6" description="Kill 34 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="7" description="Kill 33 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="8" description="Kill 32 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="9" description="Kill 31 Cult Masters and find 1 of each elemental jewels."/>          
+            <missionstate id="10" description="Kill 30 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="11" description="Kill 29 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="12" description="Kill 28 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="13" description="Kill 27 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="14" description="Kill 26 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="15" description="Kill 25 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="16" description="Kill 24 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="17" description="Kill 23 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="18" description="Kill 22 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="19" description="Kill 21 Cult Masters and find 1 of each elemental jewels"/>           
+            <missionstate id="20" description="Kill 20 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="21" description="Kill 19 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="22" description="Kill 18 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="23" description="Kill 17 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="24" description="Kill 16 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="25" description="Kill 15 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="26" description="Kill 14 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="27" description="Kill 13 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="28" description="Kill 12 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="29" description="Kill 11 Cult Masters and find 1 of each elemental jewels."/>          
+            <missionstate id="30" description="Kill 10 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="31" description="Kill 9 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="32" description="Kill 8 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="33" description="Kill 7 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="34" description="Kill 6 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="35" description="Kill 5 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="36" description="Kill 4 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="37" description="Kill 3 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="38" description="Kill 2 Cult Masters and find 1 of each elemental jewels."/>
+            <missionstate id="39" description="Kill 1 Cult Master and find 1 of each elemental jewels."/>
+            <missionstate id="40" description="You got them, go back to the primate with the jewels."/>
+            <missionstate id="41" description="Completed."/>
+            <missionstate id="42" description="Completed."/>
         </mission>
     </quest>
     <quest name="Fornost Erain Chapter 1" startstorageid="30021" startstoragevalue="20">
@@ -1008,5 +1239,10 @@
             <missionstate id="2" description="You have done 3 of 3 allowed training sessions in Bree. (72 hrs of training)"/>
         </mission>
 
-    </quest>       
+    </quest>
+    <quest name="Special Admissions" startstorageid="30033" startstoragevalue="32">
+            <mission name="Annuminas Elemental Temple" storageid="2158" startvalue="0" endvalue="0">
+            <missionstate id="0" description="You have been blessed by the Elemental Patriarch of Annuminas, granting you entrance to the main temple."/>
+        </mission>
+    </quest>         
 </quests>

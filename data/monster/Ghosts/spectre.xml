@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Barrow Wight" nameDescription="a barrow wight" race="undead" experience="4000" speed="360" manacost="0">
-	<health now="2500" max="2500"/>
+	<health now="3000" max="3000"/>
 	<look type="235" head="20" corpse="6348"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -27,7 +27,7 @@
 			<attribute key="shootEffect" value="suddendeath"/>
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
-		<attack name="death" interval="2000" chance="30" length="7" spread="0" target="0" min="-250" max="-450">
+		<attack name="death" interval="2000" chance="30" length="6" spread="0" target="0" min="-250" max="-450">
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
 		<attack name="manadrain" interval="3000" chance="20" range="5" min="-10" max="-300">
@@ -38,7 +38,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="25" defense="35">
-		<defense name="healing" interval="2000" chance="35" min="75" max="150">
+		<defense name="healing" interval="2000" chance="35" min="100" max="150">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -49,15 +49,14 @@
 		<element icePercent="50"/>
 		<element firePercent="10"/>
 		<element energyPercent="10"/>
-		<element holyPercent="-70"/>
+		<element holyPercent="-50"/>
 	</elements>
 	<immunities>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 	</immunities>
-	<voices interval="5000" chance="25">
+	<voices interval="5000" chance="50">
 		<voice sentence="Revenge ...!"/>
-		<voice sentence="Life...force! Feed me your... lifeforce!"/>
 		<voice sentence="For Angmar..! For the Witch King!"/>
 	</voices>
 	<loot>
@@ -77,10 +76,10 @@
 		<item id="2457" chance="20000"/><!-- steel helmet -->
 		<item id="2199" chance="10000"/><!-- garlic neckclace -->
 		<item id="2200" chance="10000"/><!-- protection amulet-->
-				<item id="2150" chance="2000"/><!-- small amethyst -->
-				<item id="2146" chance="2000"/><!-- small sapphire -->
-				<item id="2147" chance="2000"/><!-- small ruby -->
-				<item id="2149" chance="2000"/><!-- small emerald-->
+				<item id="2150" chance="3000"/><!-- small amethyst -->
+				<item id="2146" chance="3000"/><!-- small sapphire -->
+				<item id="2147" chance="3000"/><!-- small ruby -->
+				<item id="2149" chance="3000"/><!-- small emerald-->
 		<item id="7535" chance="800"/><!-- parchment missiles -->
 		<item id="7534" chance="400"/><!-- parchment explosions -->
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Life Priest" nameDescription="a life priest" race="blood" experience="1000" speed="280" manacost="0">
-	<health now="1200" max="1200"/>
-	<look type="194" head="98" body="0" legs="98" feet="3" corpse="6080"/>
+<monster name="Life Priest" nameDescription="a life priest" race="blood" experience="2000" speed="280" manacost="0">
+	<health now="2500" max="2500"/>
+	<look type="309" corpse="6080"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
@@ -18,17 +18,17 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="50" max="105"/>
-		<attack name="holy" interval="2000" chance="30" range="6" radius="1" target="1" min="-100" max="-150">
+		<attack name="melee" interval="2000" min="0" max="-100"/>
+		<attack name="holy" interval="2000" chance="40" range="6" min="-140" max="-220">
 			<attribute key="shootEffect" value="holy"/>
 		</attack>
-		<attack name="holy" interval="2000" chance="25" range="6" radius="4" target="1" min="-50" max="-120">
+		<attack name="holy" interval="2000" chance="30" range="6" radius="5" target="1" min="-120" max="-160">
 			<attribute key="shootEffect" value="holy"/>
 			<attribute key="areaEffect" value="holyarea"/>
 		</attack>
 	</attacks>
 	<defenses armor="15" defense="25">
-		<defense name="healing" interval="1000" chance="25" min="50" max="80">
+		<defense name="healing" interval="2000" chance="25" min="120" max="180">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -44,22 +44,25 @@
 	<immunities>
 		<immunity invisible="1"/>
 	</immunities>
+	<summons maxSummons="2">
+		<summon name="Strong Wisp" interval="2000" chance="20" max="2"/>
+	</summons>
 	<voices interval="5000" chance="10">
 		<voice sentence="Lifeee!"/>
 	</voices>
 	<loot>
-		<item id="9776" chance="200"/><!-- life armor -->
-		<item id="2148" countmax="100" chance="70000"/><!-- gold coin -->
-		<item id="2148" countmax="50" chance="40000"/><!-- gold coin -->
+		<item id="9776" chance="400"/><!-- life armor -->
+		<item id="2152" countmax="3" chance="40000"/><!-- p coin -->
 		<item id="2804" countmax="2" chance="20000"/><!-- shadow herb -->
-		<item id="7410" chance="2000"/><!-- life wand -->
-		<item id="2500" chance="5000"/><!-- steel studded armor -->
-		<item id="8820" chance="3000"/><!-- mage hat -->
-		<item id="5904" chance="20000"/><!-- magic sulphur -->
-		<item id="18400" chance="200"/><!-- magician legs -->
-		<item id="8870" chance="2000"/><!-- spirit cloak -->
+		<item id="7410" chance="5000"/><!-- life wand -->
+		<item id="2663" chance="200"/><!-- mystic turban -->
+		<item id="8820" chance="5000"/><!-- mage hat -->
+		<item id="5904" chance="30000"/><!-- magic sulphur -->
+		<item id="8871" chance="1000"/><!-- focus cape -->
+		<item id="8870" chance="5000"/><!-- spirit cloak -->
+		<item id="18400" chance="400"/><!-- magician legs -->
+		<item id="7535" chance="400"/><!-- parchment missiles -->
+		<item id="7534" chance="200"/><!-- parchment explosions -->
 		<item id="1987" chance="80000"/><!-- bag -->
-		<item id="2149" chance="400"/><!-- small emerald-->
-		<item id="7535" chance="300"/><!-- parchment missiles -->
 	</loot>
 </monster>

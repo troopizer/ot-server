@@ -3475,7 +3475,7 @@
     </item>
     <item id="2460" article="a" name="bronze helmet">
         <attribute key="weight" value="6000" />
-        <attribute key="armor" value="4" />
+        <attribute key="armor" value="3" />
         <attribute key="slotType" value="head" />
     </item>
     <item id="2461" article="a" name="leather helmet">
@@ -14663,8 +14663,7 @@
         <attribute key="floorchange" value="west" />
     </item>
     <item id="8710" article="a" name="cockroach leg" plural="cockroach legs">
-        <attribute key="weight" value="10" />
-        <attribute key="description" value="This is proof for Santiago that you have killed a cockroach." />
+        <attribute key="weight" value="50" />
     </item>
     <item id="8711" article="a" name="glowing shovel">
         <attribute key="weight" value="3500" />

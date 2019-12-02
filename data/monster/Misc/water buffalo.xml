@@ -47,5 +47,6 @@
 		<item id="5954" countmax="1" chance="3000" /><!-- horn -->
 		<item name="meat" countmax="4" chance="33600" />
 		<item name="ham" countmax="3" chance="39200" />
+		<item id="3976" countmax="4" chance="50000"/><!-- worm -->
 	</loot>
 </monster>

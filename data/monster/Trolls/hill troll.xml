@@ -22,7 +22,7 @@
 		<attack name="physical" interval="2000" chance="20" range="7" min="-120" max="-250">
 			<attribute key="shootEffect" value="largerock"/>
 		</attack>
-		<attack name="physical" interval="1000" chance="20" range="0" radius="4" target="0" min="-150" max="-300">
+		<attack name="physical" interval="1000" chance="20" range="0" radius="4" target="0" min="-180" max="-300">
 			<attribute key="areaEffect" value="groundshaker"/>
 		</attack>
 	</attacks>
@@ -50,14 +50,13 @@
 	<loot>
 		<item id="1987" chance="80000"/><!-- bag -->
 				<item id="7432" chance="500"/><!-- troll club -->
-				<item id="2413" chance="100"/><!-- steel broadsword -->
-				<item id="2426" chance="100"/><!-- steel light halberd -->
-				<item id="7451" chance="100"/><!-- steel heavy sceptre -->
+				<item id="2413" chance="50"/><!-- steel broadsword -->
+				<item id="2426" chance="50"/><!-- steel light halberd -->
+				<item id="7451" chance="50"/><!-- steel heavy sceptre -->
 				<item id="2666" countmax="6" chance="40000"/><!-- meat -->
 				<item id="5930" countmax="1" chance="20000"/><!-- behemoth claw -->
-		        <item id="2148" countmax="100" chance="900000"/><!-- gold coin -->
-		        <item id="2148" countmax="100" chance="900000"/><!-- gold coin -->
-		        <item id="2148" countmax="100" chance="900000"/><!-- gold coin -->
+		        <item id="2148" countmax="80" chance="600000"/><!-- gold coin -->
+		        <item id="2148" countmax="90" chance="600000"/><!-- gold coin -->
 		        <item id="2671" countmax="3" chance="20000"/><!-- ham -->
 		        <item id="2231" countmax="1" chance="20000"/><!-- big bone -->
 				<item id="2457" chance="10000"/><!-- steel helmet -->

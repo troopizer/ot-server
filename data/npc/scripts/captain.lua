@@ -16,8 +16,16 @@ function creatureSayCallback(cid, type, msg)
 
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 
+	if(msgcontains(msg, 'edward')) then
+		selfSay('Edward Mapleton is the mayor of Bree and my father.', cid)
+	end
+	if(msgcontains(msg, 'jeff')) then
+		selfSay('My name is Jeff Mapleton. Since a few years I have been the captain of the Bree guards.', cid)
+		selfSay('My father, the mayor, gave my this task. He is no warrior, so I take the responsibility of defending our land.', cid)
+		selfSay('Since then, me and my men have been fighting those bastards of the renegades.', cid)
+	end
 	if(msgcontains(msg, 'captain') or msgcontains(msg, 'guard')) then
-				selfSay('I am the leader of Bree´s militia, this is our headquarter. Here we train in order to defend peace.', cid)
+				selfSay('I am the leader of Brees militia, this is our headquarter. Here we train in order to defend peace.', cid)
 				selfSay('We have people in many posts around Bree, and they are fighting bandits and renegades. ', cid)
 				selfSay('Ahh the renegades! They are our most dangerous enemy. In this region there isnt Orcs, but men can be evil as well. Maybe you may want to work with us in some {mission}? ', cid)
 	elseif(msgcontains(msg, 'mission') or msgcontains(msg, 'bree chapter 2')) then
@@ -26,7 +34,7 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('One of my comrades is leading a force over there, Can you go there and help him? {yes}?', cid)
 				talkState[talkUser] = 1
 			elseif(getPlayerStorageValue(cid,2018) >= 0) then
-					selfSay('I dont have more missions for you right now.', cid)
+					selfSay('I dont have more missions for you right now. You can see our {most wanted} list. Or maybe you are here for a {reward}?', cid)
 			end
 	elseif(msgcontains(msg, 'most wanted') or msgcontains(msg, 'dead or alive')) then
 			selfSay('This is our newest most wanted list, kill the targets and get a nice reward.', cid)

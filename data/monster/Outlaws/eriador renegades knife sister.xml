@@ -53,13 +53,17 @@
 
 		<item id="1987" chance="80000"/><!-- bag -->
 
-		<item id="2148" countmax="60" chance="50000"/><!-- gold coin -->
+		<item id="2148" countmax="30" chance="50000"/><!-- gold coin -->
 
 		<item id="2643" chance="5000"/><!-- leather boots -->
 
-		<item id="2787" countmax="2" chance="15000"/><!-- white mushroom -->
+		<item id="2787" countmax="1" chance="5000"/><!-- white mushroom -->
 
 		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
+
+		<item id="2671" countmax="1" chance="10000"/><!-- ham -->
+
+		<item id="2666" countmax="2" chance="20000"/><!-- meat -->
 
 		<item id="2467" chance="43000"/><!-- leather armor -->
 

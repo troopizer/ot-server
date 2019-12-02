@@ -12,7 +12,7 @@ end
 combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
 
 function onCastSpell(creature, variant, isHotkey)
-	if(getPlayerStorageValue(creature,2065) == 0) then
+	if(getPlayerStorageValue(creature,2065) >= 0) then
 		return combat:execute(creature, variant)
 	else
 		return false

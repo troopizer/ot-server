@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Lone Lands Witch" nameDescription="a lone lands witch" race="blood" experience="1400" speed="300" manacost="0">
+<monster name="Lone Lands Witch" nameDescription="a lone lands witch" race="blood" experience="1300" speed="300" manacost="0">
 	<health now="1200" max="1200"/>
 	<look type="158" head="175" body="131" legs="115" feet="132" corpse="6080"/>
 	<targetchange interval="5000" chance="8"/>
@@ -75,5 +75,8 @@
 		<item id="7535" chance="500"/><!-- parchment missiles -->
 		<item id="7534" chance="100"/><!-- parchment explosions -->	
 		<item id="18400" chance="200"/><!-- magician legs -->
+        <item id="2787" countmax="2" chance="20000"/><!-- white mushroom -->
+		<item id="2666" countmax="1" chance="10000"/><!-- meat -->
+
 	</loot>
 </monster>

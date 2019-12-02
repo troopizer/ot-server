@@ -18,7 +18,7 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="50" max="105"/>
+		<attack name="melee" interval="2000" min="0" max="-100"/>
 		<attack name="energy" interval="2000" chance="25" range="6" radius="1" target="1" min="-100" max="-150">
 			<attribute key="shootEffect" value="energy"/>
 			<attribute key="areaEffect" value="purpleenergy"/>
@@ -29,7 +29,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="15" defense="25">
-		<defense name="healing" interval="1000" chance="25" min="50" max="80">
+		<defense name="healing" interval="2000" chance="25" min="50" max="80">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -49,17 +49,16 @@
 		<voice sentence="Energy!"/>
 	</voices>
 	<loot>
-		<item id="7893" chance="400"/><!-- boots -->
+		<item id="7893" chance="100"/><!-- boots -->
 		<item id="7901" chance="600"/><!-- energy helmet -->
 		<item id="7889" chance="800"/><!-- energy amulet -->
-		<item id="2148" countmax="100" chance="70000"/><!-- gold coin -->
-		<item id="2148" countmax="50" chance="40000"/><!-- gold coin -->
+		<item id="2148" countmax="90" chance="70000"/><!-- gold coin -->
 		<item id="2804" countmax="2" chance="20000"/><!-- shadow herb -->
 		<item id="2190" chance="2000"/><!-- energy wand -->
 		<item id="2500" chance="5000"/><!-- steel studded armor -->
 		<item id="8820" chance="2000"/><!-- mage hat -->
 		<item id="5904" chance="20000"/><!-- magic sulphur -->
-		<item id="8870" chance="2000"/><!-- spirit cloak -->
+		<item id="8870" chance="1000"/><!-- spirit cloak -->
 		<item id="1987" chance="80000"/><!-- bag -->
 		<item id="2150" chance="400"/><!-- small amethyst -->
 		<item id="7535" chance="300"/><!-- parchment missiles -->

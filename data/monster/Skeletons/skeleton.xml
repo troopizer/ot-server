@@ -78,7 +78,7 @@
 
 				<item id="2798" countmax="1" chance="10000"/><!-- blood herb -->
 
-				<item id="2148" countmax="20" chance="70000"/><!-- gold coin -->
+				<item id="2148" countmax="20" chance="50000"/><!-- gold coin -->
 
 	</loot>
 

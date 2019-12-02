@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="False Balrog" nameDescription="a false balrog" race="fire" experience="30000" speed="350" manacost="0">
+	<health now="20000" max="20000"/>
+	<look type="35" corpse="5995"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="40"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-0" max="-300"/>
+		<attack name="manadrain" interval="2000" chance="20" range="6" min="-80" max="-200"/>
+		<attack name="fire" interval="2000" chance="30" range="6" radius="6" target="1" min="-150" max="-200">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="firefield" interval="2000" chance="20" range="6" radius="1" target="1">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+		<attack name="death" interval="2000" chance="35" length="6" spread="0" min="-300" max="-500">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+	</attacks>
+	<defenses armor="45" defense="50">
+		<defense name="healing" interval="2000" chance="15" min="90" max="150">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="1000" chance="15" speedchange="400" duration="20000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element physicalPercent="20"/>
+		<element earthpercent="20"/>
+		<element energyPercent="20"/>
+		<element deathPercent="50"/>
+		<element icePercent="-15"/>
+		<element holyPercent="-30"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="MUHAHAHAHA!" yell="1"/>
+		<voice sentence="FOR MORGOTH!" yell="1"/>
+		<voice sentence="MELKOOR!" yell="1"/>
+		<voice sentence="Your resistance is futile!"/>
+		<voice sentence="Your soul will be mine!" yell="0"/>
+	</voices>
+	<loot>
+		<item id="2150" countmax="10" chance="50000"/><!-- small amethyst -->
+		<item id="2146" countmax="10" chance="50000"/><!-- small sapphire -->
+		<item id="2147" countmax="10" chance="50000"/><!-- small ruby -->
+		<item id="2149" countmax="10" chance="50000"/><!-- small emerald-->
+		<item id="2145" countmax="10" chance="50000"/><!-- small diamond -->
+		<item id="5904" countmax="30" chance="80000"/><!-- magic sulphur -->
+		<item id="2475" chance="30000"/><!-- rhudaur knightly helmet -->
+		<item id="2486" chance="20000"/><!-- rhudaur knightly armor -->
+	</loot>
+</monster>

@@ -28,7 +28,7 @@ end
 end
 if(msgcontains(msg, 'yes')) then
 if (getPlayerStorageValue(cid,2007) == 0) then
-selfSay('Fine, as you know some bandits attacked us and stole 4 jewel cases, we dont know who were the robbers, but someone in this town knows. Please, investigate this matter.', cid)
+selfSay('Fine, as you know some bandits attacked us and stole 4 jewel cases, we dont know who the robbers are, but someone in this town knows. Please, investigate this matter.', cid)
 setPlayerStorageValue(cid,2007,1)
 end
 if (getPlayerStorageValue(cid,2007) == 2 and doPlayerRemoveItem(cid, 6104, 4) == TRUE) then

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Wind Primate" nameDescription="an wind primate"  script="energyprimate.lua" walkinterval="2000" floorchange="1">
+
+	<health now="150" max="150"/>
+
+	<look type="634" head="2" body="90" legs="114" feet="109" corpse="6080"/>
+
+	<parameters>
+
+		<parameter key="message_greet" value="May Manwe bless you! |PLAYERNAME|. "/>
+
+		<parameter key="message_decline" value="Get out of here!"/>
+
+	</parameters>
+</npc>

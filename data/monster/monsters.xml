@@ -72,6 +72,12 @@
 	<monster name="Spectre" file="Ghosts/spectre.xml"/>
 	<monster name="Wisp" file="Ghosts/wisp.xml"/>
 	<monster name="Strong Wisp" file="Ghosts/strong wisp.xml"/>
+	<monster name="Elite Wisp" file="Ghosts/elite wisp.xml"/>
+	<monster name="Elder Wisp" file="Ghosts/elder wisp.xml"/>
+	<monster name="Battle Wisp" file="Ghosts/battle wisp.xml"/>
+	<monster name="Strong Battle Wisp" file="Ghosts/strong battle wisp.xml"/>
+	<monster name="Elite Battle Wisp" file="Ghosts/elite battle wisp.xml"/>
+	<monster name="Elder Battle Wisp" file="Ghosts/elder battle wisp.xml"/>
 	<monster name="Lost Soul" file="Ghosts/lost soul.xml"/>
 	<monster name="Cardolan Ghost" file="Ghosts/cardolan ghost.xml"/>
 	<monster name="Ghost Assassin" file="Ghosts/ghost assassin.xml"/>
@@ -113,6 +119,7 @@
 	<monster name="Sorcerer's Ghoul" file="Quests/sorcerers ghoul.xml"/>
 	<monster name="Gerald Ford" file="Quests/gerald ford.xml"/>
 	<monster name="Frogmorton King" file="Quests/frogmorton king.xml"/>
+	<monster name="False Balrog" file="Quests/false balrog.xml"/>
 
 	<!-- Misc -->
 	<monster name="Badger" file="Misc/badger.xml"/>
@@ -238,6 +245,10 @@
 	<monster name="Ice Apprentice" file="Elemental Cult/Ice Apprentice.xml"/>
 	<monster name="Energy Apprentice" file="Elemental Cult/Energy Apprentice.xml"/>
 	<monster name="Life Priest" file="Elemental Cult/Life Priest.xml"/>
+	<monster name="Life Acolyte" file="Elemental Cult/Life Acolyte.xml"/>
 	<monster name="Life Apprentice" file="Elemental Cult/Life Apprentice.xml"/>
 	<monster name="Ice Matriarch" file="Elemental Cult/ice matriarch.xml"/>
+	<monster name="Fire Baroness" file="Elemental Cult/Fire Baroness.xml"/>
+	<monster name="Storm Master" file="Elemental Cult/Storm Master.xml"/>
+	<monster name="Earth Master" file="Elemental Cult/Earth Master.xml"/>
 </monsters>

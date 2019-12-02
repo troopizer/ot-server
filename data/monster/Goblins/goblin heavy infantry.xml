@@ -42,7 +42,7 @@
 	</voices>
 	<loot>
 		<item id="2648" chance="8000"/><!-- iron chain legs -->
-		<item id="2647" chance="800"/><!-- iron legs -->
+		<item id="2647" chance="1000"/><!-- iron legs -->
 		<item id="3975" chance="8000"/><!-- iron goblin shield -->
 		<item id="8602" chance="1000"/><!-- goblin blade -->
 		<item id="2423" chance="1000"/><!-- goblin mace -->

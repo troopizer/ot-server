@@ -33,27 +33,27 @@ function onKill(cid, target)
 		end
 	end
 	if (getCreatureName(target) == name or getCreatureName(target) == name1 or getCreatureName(target) == name2 or getCreatureName(target) == name3 or getCreatureName(target) == name4 or getCreatureName(target) == name5) then
-		if getPlayerStorageValue(cid,2016) == 4 then
+		if getPlayerStorageValue(cid,2106) == 4 then
 		setPlayerStorageValue(cid, storage, 5)
 		end
 	end
 	if (getCreatureName(target) == name or getCreatureName(target) == name1 or getCreatureName(target) == name2 or getCreatureName(target) == name3 or getCreatureName(target) == name4 or getCreatureName(target) == name5) then
-		if getPlayerStorageValue(cid,2016) == 3 then
+		if getPlayerStorageValue(cid,2106) == 3 then
 		setPlayerStorageValue(cid, storage, 4)
 		end
 	end
 	if (getCreatureName(target) == name or getCreatureName(target) == name1 or getCreatureName(target) == name2 or getCreatureName(target) == name3 or getCreatureName(target) == name4 or getCreatureName(target) == name5) then
-		if getPlayerStorageValue(cid,2016) == 2 then
+		if getPlayerStorageValue(cid,2106) == 2 then
 		setPlayerStorageValue(cid, storage, 3)
 		end
 	end
 	if (getCreatureName(target) == name or getCreatureName(target) == name1 or getCreatureName(target) == name2 or getCreatureName(target) == name3 or getCreatureName(target) == name4 or getCreatureName(target) == name5) then
-		if getPlayerStorageValue(cid,2016) == 1 then
+		if getPlayerStorageValue(cid,2106) == 1 then
 		setPlayerStorageValue(cid, storage, 2)
 		end
 	end
 	if (getCreatureName(target) == name or getCreatureName(target) == name1 or getCreatureName(target) == name2 or getCreatureName(target) == name3 or getCreatureName(target) == name4 or getCreatureName(target) == name5) then
-		if getPlayerStorageValue(cid,2016) == 0 then
+		if getPlayerStorageValue(cid,2106) == 0 then
 		setPlayerStorageValue(cid, storage, 1)
 		end
 	end

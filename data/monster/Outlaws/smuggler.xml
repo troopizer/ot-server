@@ -75,6 +75,8 @@
 
 		<item id="2468" chance="1000"/><!-- studded legs -->
 
+		<item id="2526" chance="1000"/><!-- studded shield -->		
+
 		<item id="5913" countmax="1" chance="5000"/><!-- brown piece of cloth -->
 
 		<item id="5909" countmax="1" chance="500"/><!-- white piece of cloth -->
@@ -83,17 +85,17 @@
 
 		<item id="2643" chance="5000"/><!-- leather boots -->
 
-		<item id="2787" countmax="1" chance="1000"/><!-- white mushroom -->
+		<item id="2787" countmax="1" chance="600"/><!-- white mushroom -->
 
-		<item id="2671" countmax="1" chance="10000"/><!-- ham -->
+		<item id="2671" countmax="1" chance="5000"/><!-- ham -->
+
+		<item id="2666" countmax="2" chance="5000"/><!-- meat -->
 
 		<item id="2544" countmax="5" chance="10000"/><!-- arrow -->
 
-		<item id="2675" countmax="2" chance="6666"/><!-- orange -->
-
 		<item id="2050" chance="20000"/><!-- torch -->
 	
-		<item id="2148" countmax="20" chance="90000"/><!-- gold coin -->
+		<item id="2148" countmax="20" chance="50000"/><!-- gold coin -->
 
 		<item id="2050" countmax="1" chance="5000"/><!-- torch -->
 

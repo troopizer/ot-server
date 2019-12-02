@@ -2728,7 +2728,7 @@
 		<monster name="Necromancer Apprentice" x="0" y="1" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="710" centery="656" centerz="7" radius="2">
-		<monster name="Necromancer Apprentice" x="2" y="-1" z="7" spawntime="300" />
+		<monster name="Necromancer Apprentice" x="1" y="0" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="450" centery="660" centerz="7" radius="2">
 		<monster name="Water Buffalo" x="-1" y="2" z="7" spawntime="420" />
@@ -7255,6 +7255,7 @@
 		<monster name="Lone Lands Poacher" x="-2" y="0" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1196" centery="1362" centerz="7" radius="2">
+		<monster name="Marsh Stalker" x="1" y="-2" z="7" spawntime="300" />
 		<monster name="Marsh Stalker" x="-1" y="0" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1263" centery="1362" centerz="7" radius="2">
@@ -7265,14 +7266,18 @@
 	</spawn>
 	<spawn centerx="1210" centery="1365" centerz="7" radius="2">
 		<monster name="Marsh Stalker" x="-1" y="-1" z="7" spawntime="300" />
+		<monster name="Marsh Stalker" x="1" y="1" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1220" centery="1367" centerz="7" radius="2">
+		<monster name="Marsh Stalker" x="1" y="-1" z="7" spawntime="300" />
 		<monster name="Marsh Stalker" x="-2" y="1" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1196" centery="1371" centerz="7" radius="2">
+		<monster name="Marsh Stalker" x="1" y="-1" z="7" spawntime="300" />
 		<monster name="Water Buffalo" x="-1" y="0" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1210" centery="1374" centerz="7" radius="2">
+		<monster name="Marsh Stalker" x="-2" y="-2" z="7" spawntime="300" />
 		<monster name="Marsh Stalker" x="1" y="1" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1212" centery="1378" centerz="7" radius="2">
@@ -7286,6 +7291,7 @@
 	</spawn>
 	<spawn centerx="1202" centery="1383" centerz="7" radius="2">
 		<monster name="Water Buffalo" x="1" y="0" z="7" spawntime="300" />
+		<monster name="Marsh Stalker" x="-1" y="2" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1269" centery="1383" centerz="7" radius="2">
 		<monster name="Water Buffalo" x="-1" y="-1" z="7" spawntime="300" />
@@ -7296,12 +7302,15 @@
 		<monster name="Water Buffalo" x="0" y="1" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1243" centery="1387" centerz="7" radius="2">
+		<monster name="Marsh Stalker" x="2" y="-1" z="7" spawntime="300" />
 		<monster name="Marsh Stalker" x="-1" y="0" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1256" centery="1390" centerz="7" radius="2">
 		<monster name="Marsh Stalker" x="1" y="-1" z="7" spawntime="300" />
+		<monster name="Marsh Stalker" x="0" y="2" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1236" centery="1392" centerz="7" radius="2">
+		<monster name="Marsh Stalker" x="-2" y="-1" z="7" spawntime="300" />
 		<monster name="Marsh Stalker" x="0" y="1" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1225" centery="1394" centerz="7" radius="2">
@@ -7309,38 +7318,48 @@
 	</spawn>
 	<spawn centerx="1246" centery="1395" centerz="7" radius="2">
 		<monster name="Marsh Stalker" x="0" y="-2" z="7" spawntime="300" />
+		<monster name="Marsh Stalker" x="2" y="1" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1261" centery="1395" centerz="7" radius="2">
 		<monster name="Marsh Stalker" x="1" y="-1" z="7" spawntime="300" />
+		<monster name="Marsh Stalker" x="0" y="2" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1215" centery="1399" centerz="7" radius="2">
 		<monster name="Marsh Stalker" x="1" y="1" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1231" centery="1399" centerz="7" radius="2">
 		<monster name="Marsh Stalker" x="1" y="-1" z="7" spawntime="300" />
+		<monster name="Marsh Stalker" x="-1" y="2" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1254" centery="1401" centerz="7" radius="2">
+		<monster name="Marsh Stalker" x="-1" y="-1" z="7" spawntime="300" />
 		<monster name="Marsh Stalker" x="1" y="2" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1203" centery="1402" centerz="7" radius="2">
+		<monster name="Marsh Stalker" x="-2" y="-2" z="7" spawntime="300" />
 		<monster name="Water Buffalo" x="1" y="1" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1235" centery="1407" centerz="7" radius="2">
 		<monster name="Marsh Stalker" x="-1" y="-2" z="7" spawntime="300" />
+		<monster name="Marsh Stalker" x="0" y="2" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1248" centery="1407" centerz="7" radius="2">
 		<monster name="Marsh Stalker" x="1" y="0" z="7" spawntime="300" />
+		<monster name="Marsh Stalker" x="-2" y="1" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1207" centery="1408" centerz="7" radius="2">
 		<monster name="Marsh Stalker" x="1" y="0" z="7" spawntime="300" />
+		<monster name="Marsh Stalker" x="2" y="2" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1223" centery="1409" centerz="7" radius="2">
+		<monster name="Marsh Stalker" x="0" y="-2" z="7" spawntime="300" />
 		<monster name="Marsh Stalker" x="0" y="1" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1185" centery="1411" centerz="7" radius="2">
 		<monster name="Water Buffalo" x="0" y="2" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1199" centery="1411" centerz="7" radius="2">
+		<monster name="Marsh Stalker" x="-2" y="-1" z="7" spawntime="300" />
 		<monster name="Water Buffalo" x="1" y="1" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="1175" centery="1413" centerz="7" radius="2">
@@ -9618,6 +9637,9 @@
 		<monster name="Tin Deposit" x="-1" y="0" z="10" spawntime="300" />
 		<monster name="Cooper Deposit" x="1" y="1" z="10" spawntime="300" />
 	</spawn>
+	<spawn centerx="128" centery="583" centerz="10" radius="1">
+		<monster name="Energy Cultist" x="1" y="-1" z="10" spawntime="300" />
+	</spawn>
 	<spawn centerx="1162" centery="583" centerz="10" radius="2">
 		<monster name="Goblin Infantry" x="1" y="-1" z="10" spawntime="300" />
 		<monster name="Goblin Skirmisher" x="-1" y="1" z="10" spawntime="300" />
@@ -9632,6 +9654,18 @@
 	<spawn centerx="1113" centery="586" centerz="10" radius="2">
 		<monster name="Goblin Skirmisher" x="-1" y="-2" z="10" spawntime="300" />
 		<monster name="Goblin Infantry" x="2" y="1" z="10" spawntime="300" />
+	</spawn>
+	<spawn centerx="124" centery="587" centerz="10" radius="1">
+		<monster name="Energy Apprentice" x="-1" y="-1" z="10" spawntime="300" />
+	</spawn>
+	<spawn centerx="129" centery="588" centerz="10" radius="1">
+		<monster name="Energy Apprentice" x="1" y="0" z="10" spawntime="300" />
+	</spawn>
+	<spawn centerx="153" centery="589" centerz="10" radius="1">
+		<monster name="Ice Apprentice" x="1" y="-1" z="10" spawntime="300" />
+	</spawn>
+	<spawn centerx="158" centery="589" centerz="10" radius="1">
+		<monster name="Ice Cultist" x="1" y="0" z="10" spawntime="300" />
 	</spawn>
 	<spawn centerx="1159" centery="590" centerz="10" radius="2">
 		<monster name="Goblin Infantry" x="2" y="-2" z="10" spawntime="300" />
@@ -9648,11 +9682,20 @@
 		<monster name="Goblin Infantry" x="1" y="-2" z="10" spawntime="300" />
 		<monster name="Goblin Heavy Infantry" x="0" y="1" z="10" spawntime="300" />
 	</spawn>
+	<spawn centerx="158" centery="593" centerz="10" radius="1">
+		<monster name="Ice Apprentice" x="1" y="0" z="10" spawntime="300" />
+	</spawn>
+	<spawn centerx="121" centery="594" centerz="10" radius="1">
+		<monster name="Priestess" x="-1" y="0" z="10" spawntime="300" />
+	</spawn>
 	<spawn centerx="136" centery="594" centerz="10" radius="1">
 		<monster name="Energy Apprentice" x="-1" y="-1" z="10" spawntime="300" />
 	</spawn>
 	<spawn centerx="144" centery="595" centerz="10" radius="1">
 		<monster name="Ice Apprentice" x="1" y="0" z="10" spawntime="300" />
+	</spawn>
+	<spawn centerx="125" centery="596" centerz="10" radius="1">
+		<monster name="Ice Apprentice" x="0" y="-1" z="10" spawntime="300" />
 	</spawn>
 	<spawn centerx="1128" centery="597" centerz="10" radius="2">
 		<monster name="Goblin Infantry" x="-2" y="-1" z="10" spawntime="300" />
@@ -9676,14 +9719,23 @@
 	<spawn centerx="135" centery="604" centerz="10" radius="1">
 		<monster name="Fire Apprentice" x="-1" y="0" z="10" spawntime="300" />
 	</spawn>
+	<spawn centerx="153" centery="604" centerz="10" radius="1">
+		<monster name="Life Apprentice" x="1" y="1" z="10" spawntime="300" />
+	</spawn>
 	<spawn centerx="1109" centery="604" centerz="10" radius="2">
 		<monster name="Goblin Infantry" x="1" y="0" z="10" spawntime="300" />
 	</spawn>
 	<spawn centerx="1160" centery="604" centerz="10" radius="2">
 		<monster name="Goblin Infantry" x="-1" y="1" z="10" spawntime="300" />
 	</spawn>
+	<spawn centerx="122" centery="605" centerz="10" radius="1">
+		<monster name="Fire Apprentice" x="-1" y="0" z="10" spawntime="300" />
+	</spawn>
 	<spawn centerx="140" centery="607" centerz="10" radius="1">
 		<monster name="Life Apprentice" x="0" y="-1" z="10" spawntime="300" />
+	</spawn>
+	<spawn centerx="156" centery="607" centerz="10" radius="1">
+		<monster name="Earth Apprentice" x="1" y="0" z="10" spawntime="300" />
 	</spawn>
 	<spawn centerx="1128" centery="607" centerz="10" radius="2">
 		<monster name="Goblin Skirmisher" x="1" y="-1" z="10" spawntime="300" />
@@ -9696,12 +9748,33 @@
 	<spawn centerx="1155" centery="608" centerz="10" radius="2">
 		<monster name="Goblin Skirmisher" x="2" y="1" z="10" spawntime="300" />
 	</spawn>
+	<spawn centerx="125" centery="610" centerz="10" radius="1">
+		<monster name="Fire Apprentice" x="-1" y="1" z="10" spawntime="300" />
+	</spawn>
+	<spawn centerx="121" centery="612" centerz="10" radius="1">
+		<monster name="Fire Cultist" x="0" y="1" z="10" spawntime="300" />
+	</spawn>
+	<spawn centerx="146" centery="612" centerz="10" radius="1">
+		<monster name="Earth Apprentice" x="1" y="1" z="10" spawntime="300" />
+	</spawn>
 	<spawn centerx="1133" centery="613" centerz="10" radius="2">
 		<monster name="Goblin Infantry" x="1" y="0" z="10" spawntime="300" />
 		<monster name="Goblin Skirmisher" x="0" y="2" z="10" spawntime="300" />
 	</spawn>
+	<spawn centerx="133" centery="615" centerz="10" radius="1">
+		<monster name="Life Apprentice" x="-1" y="0" z="10" spawntime="300" />
+	</spawn>
+	<spawn centerx="155" centery="615" centerz="10" radius="1">
+		<monster name="Earth Cultist" x="-1" y="1" z="10" spawntime="300" />
+	</spawn>
+	<spawn centerx="150" centery="616" centerz="10" radius="1">
+		<monster name="Earth Apprentice" x="1" y="1" z="10" spawntime="300" />
+	</spawn>
 	<spawn centerx="1143" centery="617" centerz="10" radius="2">
 		<monster name="Goblin Heavy Infantry" x="-1" y="-1" z="10" spawntime="300" />
+	</spawn>
+	<spawn centerx="131" centery="619" centerz="10" radius="1">
+		<monster name="Life Acolyte" x="1" y="1" z="10" spawntime="300" />
 	</spawn>
 	<spawn centerx="537" centery="626" centerz="10" radius="1">
 		<monster name="Ghoul" x="0" y="1" z="10" spawntime="300" />
@@ -10006,7 +10079,7 @@
 		<monster name="Death Master" x="1" y="1" z="11" spawntime="300" />
 	</spawn>
 	<spawn centerx="233" centery="559" centerz="11" radius="1">
-		<monster name="Ice Matriarch" x="0" y="-1" z="11" spawntime="300" />
+		<monster name="Ice Apprentice" x="1" y="-1" z="11" spawntime="300" />
 	</spawn>
 	<spawn centerx="1155" centery="559" centerz="11" radius="1">
 		<monster name="Iron Deposit" x="1" y="-1" z="11" spawntime="300" />
@@ -10069,6 +10142,9 @@
 		<monster name="Goblin Skirmisher" x="-2" y="-2" z="11" spawntime="300" />
 		<monster name="Goblin Infantry" x="1" y="2" z="11" spawntime="300" />
 	</spawn>
+	<spawn centerx="48" centery="570" centerz="11" radius="1">
+		<monster name="Storm Master" x="-1" y="-1" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="1157" centery="570" centerz="11" radius="1">
 		<monster name="Iron Deposit" x="0" y="-1" z="11" spawntime="300" />
 		<monster name="Iron Deposit" x="-1" y="1" z="11" spawntime="300" />
@@ -10076,8 +10152,20 @@
 	<spawn centerx="256" centery="571" centerz="11" radius="1">
 		<monster name="Ice Cultist" x="1" y="0" z="11" spawntime="300" />
 	</spawn>
+	<spawn centerx="82" centery="572" centerz="11" radius="1">
+		<monster name="Storm Master" x="0" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="140" centery="572" centerz="11" radius="1">
+		<monster name="Necromancer" x="0" y="-1" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="250" centery="573" centerz="11" radius="1">
 		<monster name="Ice Cultist" x="1" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="50" centery="574" centerz="11" radius="1">
+		<monster name="Energy Cultist" x="1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="86" centery="574" centerz="11" radius="1">
+		<monster name="Energy Cultist" x="0" y="-1" z="11" spawntime="300" />
 	</spawn>
 	<spawn centerx="1151" centery="574" centerz="11" radius="2">
 		<monster name="Goblin Skirmisher" x="2" y="-1" z="11" spawntime="300" />
@@ -10086,6 +10174,9 @@
 	<spawn centerx="262" centery="575" centerz="11" radius="1">
 		<monster name="Ice Matriarch" x="-1" y="-1" z="11" spawntime="300" />
 	</spawn>
+	<spawn centerx="150" centery="576" centerz="11" radius="1">
+		<monster name="Necromancer Apprentice" x="-1" y="0" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="1105" centery="576" centerz="11" radius="2">
 		<monster name="Goblin Skirmisher" x="-2" y="-1" z="11" spawntime="300" />
 		<monster name="Goblin Heavy Infantry" x="-1" y="0" z="11" spawntime="300" />
@@ -10093,6 +10184,22 @@
 	<spawn centerx="1143" centery="576" centerz="11" radius="2">
 		<monster name="Goblin Infantry" x="1" y="0" z="11" spawntime="300" />
 		<monster name="Goblin Skirmisher" x="-2" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="48" centery="577" centerz="11" radius="1">
+		<monster name="Energy Cultist" x="1" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="139" centery="577" centerz="11" radius="1">
+		<monster name="Necromancer Apprentice" x="1" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="155" centery="577" centerz="11" radius="1">
+		<monster name="Priestess" x="-1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="86" centery="578" centerz="11" radius="1">
+		<monster name="Energy Cultist" x="-1" y="-1" z="11" spawntime="300" />
+		<monster name="Energy Apprentice" x="1" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="145" centery="578" centerz="11" radius="1">
+		<monster name="Necromancer Apprentice" x="0" y="1" z="11" spawntime="300" />
 	</spawn>
 	<spawn centerx="1180" centery="578" centerz="11" radius="2">
 		<monster name="Goblin Infantry" x="-2" y="-1" z="11" spawntime="300" />
@@ -10108,10 +10215,16 @@
 		<monster name="Goblin Infantry" x="-1" y="-1" z="11" spawntime="300" />
 		<monster name="Goblin Skirmisher" x="0" y="1" z="11" spawntime="300" />
 	</spawn>
+	<spawn centerx="171" centery="580" centerz="11" radius="1">
+		<monster name="Ice Apprentice" x="1" y="1" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="1163" centery="580" centerz="11" radius="2">
 		<monster name="Goblin Skirmisher" x="-2" y="-2" z="11" spawntime="300" />
 		<monster name="Goblin Infantry" x="1" y="-1" z="11" spawntime="300" />
 		<monster name="Goblin Heavy Infantry" x="-1" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="127" centery="581" centerz="11" radius="1">
+		<monster name="Fire Apprentice" x="0" y="1" z="11" spawntime="300" />
 	</spawn>
 	<spawn centerx="1129" centery="581" centerz="11" radius="2">
 		<monster name="Goblin Heavy Infantry" x="-2" y="-1" z="11" spawntime="300" />
@@ -10121,23 +10234,76 @@
 		<monster name="Goblin Infantry" x="2" y="-1" z="11" spawntime="300" />
 		<monster name="Goblin Infantry" x="-2" y="1" z="11" spawntime="300" />
 	</spawn>
+	<spawn centerx="155" centery="582" centerz="11" radius="1">
+		<monster name="Necromancer Apprentice" x="0" y="-1" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="1168" centery="582" centerz="11" radius="2">
 		<monster name="Goblin Infantry" x="0" y="-2" z="11" spawntime="300" />
 		<monster name="Goblin Heavy Infantry" x="1" y="2" z="11" spawntime="300" />
 	</spawn>
+	<spawn centerx="179" centery="583" centerz="11" radius="1">
+		<monster name="Ice Apprentice" x="0" y="1" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="234" centery="583" centerz="11" radius="1">
 		<monster name="Ice Cultist" x="0" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="59" centery="584" centerz="11" radius="1">
+		<monster name="Storm Master" x="-1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="124" centery="584" centerz="11" radius="1">
+		<monster name="Energy Apprentice" x="-1" y="-1" z="11" spawntime="300" />
+		<monster name="Necromancer Apprentice" x="1" y="1" z="11" spawntime="300" />
 	</spawn>
 	<spawn centerx="1109" centery="584" centerz="11" radius="2">
 		<monster name="Goblin Heavy Infantry" x="1" y="0" z="11" spawntime="300" />
 		<monster name="Goblin Infantry" x="-1" y="2" z="11" spawntime="300" />
 	</spawn>
+	<spawn centerx="64" centery="585" centerz="11" radius="1">
+		<monster name="Energy Cultist" x="-1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="96" centery="585" centerz="11" radius="1">
+		<monster name="Energy Cultist" x="-1" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="148" centery="585" centerz="11" radius="1">
+		<monster name="Necromancer Apprentice" x="1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="188" centery="585" centerz="11" radius="1">
+		<monster name="Ice Cultist" x="1" y="-1" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="229" centery="585" centerz="11" radius="1">
 		<monster name="Ice Matriarch" x="1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="101" centery="587" centerz="11" radius="1">
+		<monster name="Energy Apprentice" x="1" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="183" centery="587" centerz="11" radius="1">
+		<monster name="Ice Apprentice" x="-1" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="64" centery="588" centerz="11" radius="1">
+		<monster name="Energy Cultist" x="1" y="0" z="11" spawntime="300" />
+		<monster name="Energy Apprentice" x="-1" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="125" centery="588" centerz="11" radius="1">
+		<monster name="Energy Apprentice" x="-1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="130" centery="588" centerz="11" radius="1">
+		<monster name="Energy Apprentice" x="0" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="157" centery="588" centerz="11" radius="1">
+		<monster name="Energy Apprentice" x="1" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="111" centery="589" centerz="11" radius="1">
+		<monster name="Energy Apprentice" x="0" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="152" centery="589" centerz="11" radius="1">
+		<monster name="Ice Cultist" x="1" y="-1" z="11" spawntime="300" />
 	</spawn>
 	<spawn centerx="1133" centery="589" centerz="11" radius="2">
 		<monster name="Goblin Infantry" x="0" y="-2" z="11" spawntime="300" />
 		<monster name="Goblin Heavy Infantry" x="0" y="2" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="103" centery="590" centerz="11" radius="1">
+		<monster name="Energy Apprentice" x="1" y="1" z="11" spawntime="300" />
 	</spawn>
 	<spawn centerx="1173" centery="590" centerz="11" radius="2">
 		<monster name="Goblin Skirmisher" x="-1" y="-1" z="11" spawntime="300" />
@@ -10149,6 +10315,12 @@
 	<spawn centerx="1166" centery="592" centerz="11" radius="2">
 		<monster name="Goblin Infantry" x="1" y="-1" z="11" spawntime="300" />
 	</spawn>
+	<spawn centerx="153" centery="593" centerz="11" radius="1">
+		<monster name="Ice Apprentice" x="-1" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="157" centery="594" centerz="11" radius="1">
+		<monster name="Ice Apprentice" x="1" y="0" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="1104" centery="595" centerz="11" radius="1">
 		<monster name="Iron Deposit" x="0" y="-1" z="11" spawntime="300" />
 		<monster name="Iron Deposit" x="1" y="0" z="11" spawntime="300" />
@@ -10156,6 +10328,10 @@
 	<spawn centerx="1131" centery="595" centerz="11" radius="2">
 		<monster name="Goblin Infantry" x="-1" y="-2" z="11" spawntime="300" />
 		<monster name="Goblin Skirmisher" x="0" y="2" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="125" centery="596" centerz="11" radius="1">
+		<monster name="Earth Apprentice" x="1" y="0" z="11" spawntime="300" />
+		<monster name="Energy Apprentice" x="-1" y="1" z="11" spawntime="300" />
 	</spawn>
 	<spawn centerx="1103" centery="601" centerz="11" radius="2">
 		<monster name="Goblin Infantry" x="-1" y="-1" z="11" spawntime="300" />
@@ -10170,6 +10346,12 @@
 		<monster name="Iron Deposit" x="0" y="-1" z="11" spawntime="300" />
 		<monster name="Iron Deposit" x="1" y="1" z="11" spawntime="300" />
 	</spawn>
+	<spawn centerx="153" centery="604" centerz="11" radius="1">
+		<monster name="Energy Cultist" x="-1" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="121" centery="605" centerz="11" radius="1">
+		<monster name="Fire Apprentice" x="1" y="0" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="1097" centery="606" centerz="11" radius="1">
 		<monster name="Iron Deposit" x="0" y="-1" z="11" spawntime="300" />
 		<monster name="Iron Deposit" x="0" y="1" z="11" spawntime="300" />
@@ -10179,6 +10361,12 @@
 		<monster name="Goblin Heavy Infantry" x="1" y="1" z="11" spawntime="300" />
 		<monster name="Goblin Skirmisher" x="-1" y="2" z="11" spawntime="300" />
 	</spawn>
+	<spawn centerx="156" centery="607" centerz="11" radius="1">
+		<monster name="Earth Cultist" x="0" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="124" centery="608" centerz="11" radius="1">
+		<monster name="Fire Apprentice" x="-1" y="0" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="1100" centery="609" centerz="11" radius="2" />
 	<spawn centerx="1105" centery="609" centerz="11" radius="1">
 		<monster name="Iron Deposit" x="-1" y="0" z="11" spawntime="300" />
@@ -10187,7 +10375,13 @@
 	<spawn centerx="73" centery="610" centerz="11" radius="1">
 		<monster name="Fire Cultist" x="-1" y="0" z="11" spawntime="300" />
 	</spawn>
-	<spawn centerx="65" centery="611" centerz="11" radius="1" />
+	<spawn centerx="65" centery="611" centerz="11" radius="1">
+		<monster name="Fire Baroness" x="-1" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="149" centery="612" centerz="11" radius="1">
+		<monster name="Fire Apprentice" x="-1" y="-1" z="11" spawntime="300" />
+		<monster name="Earth Apprentice" x="0" y="1" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="1096" centery="612" centerz="11" radius="1">
 		<monster name="Iron Deposit" x="-1" y="-1" z="11" spawntime="300" />
 		<monster name="Iron Deposit" x="1" y="1" z="11" spawntime="300" />
@@ -10195,14 +10389,52 @@
 	<spawn centerx="68" centery="613" centerz="11" radius="1">
 		<monster name="Fire Cultist" x="-1" y="1" z="11" spawntime="300" />
 	</spawn>
+	<spawn centerx="120" centery="613" centerz="11" radius="1">
+		<monster name="Fire Cultist" x="-1" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="155" centery="613" centerz="11" radius="1">
+		<monster name="Earth Apprentice" x="-1" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="125" centery="614" centerz="11" radius="1">
+		<monster name="Fire Apprentice" x="0" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="132" centery="614" centerz="11" radius="1">
+		<monster name="Life Apprentice" x="1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="146" centery="615" centerz="11" radius="1">
+		<monster name="Life Apprentice" x="-1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="103" centery="616" centerz="11" radius="1">
+		<monster name="Fire Apprentice" x="-1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="154" centery="616" centerz="11" radius="1">
+		<monster name="Earth Apprentice" x="1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="164" centery="617" centerz="11" radius="1">
+		<monster name="Earth Apprentice" x="1" y="1" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="1113" centery="617" centerz="11" radius="2">
 		<monster name="Goblin Infantry" x="-1" y="-1" z="11" spawntime="300" />
 		<monster name="Goblin Infantry" x="-2" y="0" z="11" spawntime="300" />
 		<monster name="Goblin Skirmisher" x="1" y="1" z="11" spawntime="300" />
 	</spawn>
-	<spawn centerx="57" centery="618" centerz="11" radius="1" />
+	<spawn centerx="57" centery="618" centerz="11" radius="1">
+		<monster name="Fire Baroness" x="-1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="96" centery="618" centerz="11" radius="1">
+		<monster name="Fire Cultist" x="-1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="127" centery="619" centerz="11" radius="1">
+		<monster name="Fire Apprentice" x="-1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="131" centery="620" centerz="11" radius="1">
+		<monster name="Earth Apprentice" x="1" y="1" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="61" centery="621" centerz="11" radius="1">
 		<monster name="Fire Cultist" x="-1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="111" centery="621" centerz="11" radius="1">
+		<monster name="Fire Apprentice" x="-1" y="-1" z="11" spawntime="300" />
 	</spawn>
 	<spawn centerx="1132" centery="621" centerz="11" radius="1">
 		<monster name="Iron Deposit" x="-1" y="-1" z="11" spawntime="300" />
@@ -10211,22 +10443,43 @@
 	<spawn centerx="53" centery="623" centerz="11" radius="1">
 		<monster name="Fire Cultist" x="1" y="-1" z="11" spawntime="300" />
 	</spawn>
+	<spawn centerx="107" centery="624" centerz="11" radius="1">
+		<monster name="Fire Apprentice" x="1" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="166" centery="624" centerz="11" radius="1">
+		<monster name="Earth Apprentice" x="0" y="-1" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="548" centery="625" centerz="11" radius="2">
 		<monster name="Ghost" x="1" y="-1" z="11" spawntime="300" />
 		<monster name="Ghost" x="-2" y="0" z="11" spawntime="300" />
+		<monster name="Crypt Shambler" x="0" y="2" z="11" spawntime="300" />
 	</spawn>
 	<spawn centerx="1131" centery="625" centerz="11" radius="1">
 		<monster name="Iron Deposit" x="0" y="-1" z="11" spawntime="300" />
 		<monster name="Iron Deposit" x="1" y="1" z="11" spawntime="300" />
 	</spawn>
+	<spawn centerx="171" centery="626" centerz="11" radius="1">
+		<monster name="Earth Cultist" x="1" y="-1" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="1135" centery="626" centerz="11" radius="1">
 		<monster name="Iron Deposit" x="1" y="-1" z="11" spawntime="300" />
 		<monster name="Iron Deposit" x="0" y="1" z="11" spawntime="300" />
 	</spawn>
+	<spawn centerx="164" centery="628" centerz="11" radius="1">
+		<monster name="Earth Apprentice" x="-1" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="197" centery="628" centerz="11" radius="1">
+		<monster name="Earth Master" x="1" y="-1" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="50" centery="629" centerz="11" radius="1">
 		<monster name="Fire Cultist" x="0" y="-1" z="11" spawntime="300" />
+		<monster name="Fire Apprentice" x="1" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="132" centery="630" centerz="11" radius="1">
+		<monster name="Life Apprentice" x="1" y="0" z="11" spawntime="300" />
 	</spawn>
 	<spawn centerx="555" centery="630" centerz="11" radius="2">
+		<monster name="Spectre" x="1" y="-2" z="11" spawntime="300" />
 		<monster name="Ghost" x="0" y="-1" z="11" spawntime="300" />
 		<monster name="Ghost" x="0" y="2" z="11" spawntime="300" />
 	</spawn>
@@ -10239,45 +10492,123 @@
 	<spawn centerx="1128" centery="631" centerz="11" radius="1">
 		<monster name="Iron Deposit" x="-1" y="0" z="11" spawntime="300" />
 	</spawn>
+	<spawn centerx="139" centery="632" centerz="11" radius="1">
+		<monster name="Life Apprentice" x="0" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="148" centery="632" centerz="11" radius="1">
+		<monster name="Life Apprentice" x="-1" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="202" centery="632" centerz="11" radius="1">
+		<monster name="Earth Cultist" x="1" y="1" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="54" centery="634" centerz="11" radius="1">
 		<monster name="Fire Cultist" x="1" y="1" z="11" spawntime="300" />
 	</spawn>
 	<spawn centerx="1135" centery="634" centerz="11" radius="1">
 		<monster name="Iron Deposit" x="1" y="-1" z="11" spawntime="300" />
 	</spawn>
-	<spawn centerx="77" centery="635" centerz="11" radius="1" />
+	<spawn centerx="77" centery="635" centerz="11" radius="1">
+		<monster name="Fire Baroness" x="1" y="-1" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="1140" centery="635" centerz="11" radius="1">
 		<monster name="Iron Deposit" x="-1" y="-1" z="11" spawntime="300" />
 		<monster name="Iron Deposit" x="0" y="1" z="11" spawntime="300" />
 	</spawn>
+	<spawn centerx="198" centery="636" centerz="11" radius="1">
+		<monster name="Earth Cultist" x="1" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="208" centery="636" centerz="11" radius="1">
+		<monster name="Earth Apprentice" x="1" y="-1" z="11" spawntime="300" />
+		<monster name="Earth Cultist" x="-1" y="1" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="550" centery="636" centerz="11" radius="2">
 		<monster name="Ghost" x="2" y="-2" z="11" spawntime="300" />
+		<monster name="Crypt Shambler" x="2" y="0" z="11" spawntime="300" />
 		<monster name="Spectre" x="-1" y="1" z="11" spawntime="300" />
 	</spawn>
 	<spawn centerx="74" centery="637" centerz="11" radius="1">
 		<monster name="Fire Cultist" x="1" y="1" z="11" spawntime="300" />
 	</spawn>
-	<spawn centerx="60" centery="638" centerz="11" radius="1" />
+	<spawn centerx="60" centery="638" centerz="11" radius="1">
+		<monster name="Fire Baroness" x="0" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="139" centery="638" centerz="11" radius="1">
+		<monster name="Life Acolyte" x="-1" y="0" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="1137" centery="638" centerz="11" radius="1">
 		<monster name="Iron Deposit" x="0" y="-1" z="11" spawntime="300" />
 		<monster name="Iron Deposit" x="1" y="1" z="11" spawntime="300" />
 	</spawn>
-	<spawn centerx="68" centery="640" centerz="11" radius="1" />
+	<spawn centerx="68" centery="640" centerz="11" radius="1">
+		<monster name="Fire Baroness" x="-1" y="-1" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="1142" centery="640" centerz="11" radius="1">
 		<monster name="Iron Deposit" x="1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="217" centery="643" centerz="11" radius="1">
+		<monster name="Earth Master" x="0" y="-1" z="11" spawntime="300" />
 	</spawn>
 	<spawn centerx="71" centery="644" centerz="11" radius="1">
 		<monster name="Fire Cultist" x="1" y="-1" z="11" spawntime="300" />
 	</spawn>
+	<spawn centerx="225" centery="647" centerz="11" radius="1">
+		<monster name="Earth Cultist" x="-1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="192" centery="648" centerz="11" radius="1">
+		<monster name="Earth Cultist" x="-1" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="186" centery="649" centerz="11" radius="1">
+		<monster name="Earth Apprentice" x="1" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="197" centery="649" centerz="11" radius="1">
+		<monster name="Earth Cultist" x="-1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="221" centery="651" centerz="11" radius="1">
+		<monster name="Earth Cultist" x="1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="194" centery="653" centerz="11" radius="1">
+		<monster name="Earth Cultist" x="1" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="225" centery="654" centerz="11" radius="1">
+		<monster name="Earth Cultist" x="-1" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="128" centery="655" centerz="11" radius="1">
+		<monster name="Life Priest" x="-1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="218" centery="655" centerz="11" radius="1">
+		<monster name="Earth Cultist" x="1" y="0" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="580" centery="656" centerz="11" radius="2">
 		<monster name="Spectre" x="-1" y="-1" z="11" spawntime="300" />
 	</spawn>
+	<spawn centerx="151" centery="657" centerz="11" radius="1">
+		<monster name="Life Priest" x="0" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="123" centery="658" centerz="11" radius="1">
+		<monster name="Life Acolyte" x="1" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="221" centery="658" centerz="11" radius="1">
+		<monster name="Earth Master" x="-1" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="152" centery="662" centerz="11" radius="1">
+		<monster name="Life Acolyte" x="0" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="121" centery="664" centerz="11" radius="1">
+		<monster name="Life Acolyte" x="1" y="0" z="11" spawntime="300" />
+		<monster name="Life Apprentice" x="-1" y="1" z="11" spawntime="300" />
+	</spawn>
 	<spawn centerx="585" centery="665" centerz="11" radius="2">
+		<monster name="Spectre" x="0" y="-2" z="11" spawntime="300" />
 		<monster name="Crypt Shambler" x="0" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="154" centery="667" centerz="11" radius="1">
+		<monster name="Life Acolyte" x="1" y="-1" z="11" spawntime="300" />
+		<monster name="Life Apprentice" x="-1" y="1" z="11" spawntime="300" />
 	</spawn>
 	<spawn centerx="567" centery="667" centerz="11" radius="2">
 		<monster name="Ghost" x="0" y="-1" z="11" spawntime="300" />
 		<monster name="Crypt Shambler" x="2" y="0" z="11" spawntime="300" />
+		<monster name="Spectre" x="-1" y="1" z="11" spawntime="300" />
 	</spawn>
 	<spawn centerx="592" centery="670" centerz="11" radius="2">
 		<monster name="Spectre" x="0" y="1" z="11" spawntime="300" />
@@ -10285,6 +10616,25 @@
 	<spawn centerx="580" centery="673" centerz="11" radius="2">
 		<monster name="Crypt Shambler" x="-1" y="-1" z="11" spawntime="300" />
 		<monster name="Ghost" x="2" y="1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="128" centery="676" centerz="11" radius="1">
+		<monster name="Life Priest" x="-1" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="144" centery="676" centerz="11" radius="1">
+		<monster name="Life Priest" x="1" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="141" centery="678" centerz="11" radius="1">
+		<monster name="Life Acolyte" x="1" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="131" centery="683" centerz="11" radius="1">
+		<monster name="Life Acolyte" x="-1" y="-1" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="138" centery="686" centerz="11" radius="1">
+		<monster name="Life Apprentice" x="1" y="-1" z="11" spawntime="300" />
+		<monster name="Life Acolyte" x="-1" y="0" z="11" spawntime="300" />
+	</spawn>
+	<spawn centerx="140" centery="525" centerz="12" radius="1">
+		<npc name="Death Primate" x="0" y="-1" z="12" spawntime="300" />
 	</spawn>
 	<spawn centerx="134" centery="529" centerz="12" radius="1">
 		<monster name="Necromancer" x="1" y="-1" z="12" spawntime="300" />
@@ -10343,6 +10693,9 @@
 	<spawn centerx="1148" centery="560" centerz="12" radius="1">
 		<monster name="Iron Deposit" x="-1" y="1" z="12" spawntime="300" />
 	</spawn>
+	<spawn centerx="60" centery="561" centerz="12" radius="1">
+		<monster name="Storm Master" x="-1" y="-1" z="12" spawntime="300" />
+	</spawn>
 	<spawn centerx="1154" centery="561" centerz="12" radius="1">
 		<monster name="Iron Deposit" x="-1" y="0" z="12" spawntime="300" />
 		<monster name="Iron Deposit" x="0" y="1" z="12" spawntime="300" />
@@ -10352,6 +10705,9 @@
 	</spawn>
 	<spawn centerx="221" centery="562" centerz="12" radius="1">
 		<monster name="Ice Cultist" x="1" y="1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="73" centery="563" centerz="12" radius="1">
+		<monster name="Storm Master" x="1" y="-1" z="12" spawntime="300" />
 	</spawn>
 	<spawn centerx="228" centery="564" centerz="12" radius="1">
 		<monster name="Ice Cultist" x="0" y="1" z="12" spawntime="300" />
@@ -10372,6 +10728,9 @@
 		<monster name="Goblin Skirmisher" x="1" y="-1" z="12" spawntime="300" />
 		<monster name="Goblin Infantry" x="-1" y="0" z="12" spawntime="300" />
 		<monster name="Goblin Heavy Infantry" x="-2" y="1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="75" centery="567" centerz="12" radius="1">
+		<monster name="Energy Cultist" x="-1" y="-1" z="12" spawntime="300" />
 	</spawn>
 	<spawn centerx="239" centery="567" centerz="12" radius="1">
 		<monster name="Ice Cultist" x="-1" y="1" z="12" spawntime="300" />
@@ -10409,6 +10768,13 @@
 		<monster name="Iron Deposit" x="-1" y="-1" z="12" spawntime="300" />
 		<monster name="Iron Deposit" x="0" y="1" z="12" spawntime="300" />
 	</spawn>
+	<spawn centerx="50" centery="570" centerz="12" radius="1">
+		<monster name="Energy Cultist" x="-1" y="-1" z="12" spawntime="300" />
+		<monster name="Energy Cultist" x="1" y="1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="60" centery="570" centerz="12" radius="1">
+		<monster name="Energy Cultist" x="1" y="-1" z="12" spawntime="300" />
+	</spawn>
 	<spawn centerx="237" centery="571" centerz="12" radius="1">
 		<monster name="Ice Cultist" x="0" y="-1" z="12" spawntime="300" />
 	</spawn>
@@ -10418,6 +10784,9 @@
 	<spawn centerx="1156" centery="572" centerz="12" radius="1">
 		<monster name="Iron Deposit" x="0" y="-1" z="12" spawntime="300" />
 		<monster name="Iron Deposit" x="1" y="1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="82" centery="573" centerz="12" radius="1">
+		<monster name="Energy Cultist" x="0" y="-1" z="12" spawntime="300" />
 	</spawn>
 	<spawn centerx="244" centery="573" centerz="12" radius="1">
 		<monster name="Ice Cultist" x="0" y="-1" z="12" spawntime="300" />
@@ -10433,13 +10802,19 @@
 	<spawn centerx="216" centery="575" centerz="12" radius="1">
 		<monster name="Ice Cultist" x="1" y="1" z="12" spawntime="300" />
 	</spawn>
+	<spawn centerx="49" centery="576" centerz="12" radius="1">
+		<monster name="Storm Master" x="-1" y="1" z="12" spawntime="300" />
+	</spawn>
 	<spawn centerx="227" centery="576" centerz="12" radius="1">
+		<monster name="Ice Apprentice" x="1" y="-1" z="12" spawntime="300" />
 		<monster name="Ice Cultist" x="-1" y="1" z="12" spawntime="300" />
 	</spawn>
 	<spawn centerx="255" centery="576" centerz="12" radius="1">
 		<monster name="Ice Cultist" x="0" y="-1" z="12" spawntime="300" />
 	</spawn>
-	<spawn centerx="261" centery="576" centerz="12" radius="1" />
+	<spawn centerx="261" centery="576" centerz="12" radius="1">
+		<npc name="Water Primate" x="0" y="-1" z="12" spawntime="300" />
+	</spawn>
 	<spawn centerx="1117" centery="576" centerz="12" radius="2">
 		<monster name="Goblin Infantry" x="-2" y="-1" z="12" spawntime="300" />
 		<monster name="Goblin Heavy Infantry" x="1" y="1" z="12" spawntime="300" />
@@ -10447,6 +10822,9 @@
 	<spawn centerx="1195" centery="576" centerz="12" radius="2">
 		<monster name="Goblin Heavy Infantry" x="1" y="-1" z="12" spawntime="300" />
 		<monster name="Hill Troll" x="-2" y="1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="86" centery="577" centerz="12" radius="1">
+		<monster name="Energy Cultist" x="-1" y="-1" z="12" spawntime="300" />
 	</spawn>
 	<spawn centerx="1160" centery="577" centerz="12" radius="2">
 		<monster name="Goblin Infantry" x="-2" y="-2" z="12" spawntime="300" />
@@ -10456,6 +10834,13 @@
 	<spawn centerx="1181" centery="577" centerz="12" radius="2">
 		<monster name="Goblin Skirmisher" x="1" y="0" z="12" spawntime="300" />
 		<monster name="Goblin Infantry" x="-1" y="2" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="64" centery="578" centerz="12" radius="1">
+		<monster name="Energy Cultist" x="1" y="-1" z="12" spawntime="300" />
+		<monster name="Energy Apprentice" x="-1" y="1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="82" centery="578" centerz="12" radius="1">
+		<monster name="Energy Cultist" x="0" y="-1" z="12" spawntime="300" />
 	</spawn>
 	<spawn centerx="1124" centery="578" centerz="12" radius="2">
 		<monster name="Goblin Infantry" x="-2" y="-1" z="12" spawntime="300" />
@@ -10470,8 +10855,15 @@
 		<monster name="Goblin Skirmisher" x="-1" y="-1" z="12" spawntime="300" />
 		<monster name="Goblin Infantry" x="-1" y="1" z="12" spawntime="300" />
 	</spawn>
+	<spawn centerx="72" centery="581" centerz="12" radius="1">
+		<monster name="Energy Cultist" x="1" y="-1" z="12" spawntime="300" />
+	</spawn>
 	<spawn centerx="243" centery="581" centerz="12" radius="1">
 		<monster name="Ice Cultist" x="-1" y="0" z="12" spawntime="300" />
+		<monster name="Ice Apprentice" x="1" y="1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="86" centery="582" centerz="12" radius="1">
+		<monster name="Energy Cultist" x="-1" y="1" z="12" spawntime="300" />
 	</spawn>
 	<spawn centerx="1164" centery="582" centerz="12" radius="2">
 		<monster name="Goblin Heavy Infantry" x="-1" y="-2" z="12" spawntime="300" />
@@ -10483,11 +10875,20 @@
 		<monster name="Hill Troll" x="1" y="0" z="12" spawntime="300" />
 		<monster name="Goblin Infantry" x="-1" y="2" z="12" spawntime="300" />
 	</spawn>
+	<spawn centerx="63" centery="584" centerz="12" radius="1">
+		<monster name="Energy Cultist" x="1" y="-1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="56" centery="585" centerz="12" radius="1">
+		<npc name="Wind Primate" x="0" y="-1" z="12" spawntime="300" />
+	</spawn>
 	<spawn centerx="204" centery="585" centerz="12" radius="1">
 		<monster name="Ice Cultist" x="0" y="-1" z="12" spawntime="300" />
 	</spawn>
 	<spawn centerx="213" centery="585" centerz="12" radius="1">
 		<monster name="Ice Cultist" x="1" y="0" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="60" centery="586" centerz="12" radius="1">
+		<monster name="Energy Cultist" x="0" y="-1" z="12" spawntime="300" />
 	</spawn>
 	<spawn centerx="1175" centery="586" centerz="12" radius="2">
 		<monster name="Goblin Infantry" x="0" y="-1" z="12" spawntime="300" />
@@ -10495,6 +10896,9 @@
 	</spawn>
 	<spawn centerx="220" centery="588" centerz="12" radius="1">
 		<monster name="Ice Cultist" x="0" y="-1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="64" centery="589" centerz="12" radius="1">
+		<monster name="Energy Cultist" x="-1" y="-1" z="12" spawntime="300" />
 	</spawn>
 	<spawn centerx="1159" centery="589" centerz="12" radius="2">
 		<monster name="Goblin Infantry" x="1" y="-1" z="12" spawntime="300" />
@@ -10504,6 +10908,10 @@
 	<spawn centerx="1171" centery="589" centerz="12" radius="2">
 		<monster name="Goblin Skirmisher" x="-1" y="-1" z="12" spawntime="300" />
 		<monster name="Goblin Infantry" x="1" y="0" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="78" centery="590" centerz="12" radius="1">
+		<monster name="Energy Cultist" x="-1" y="-1" z="12" spawntime="300" />
+		<monster name="Energy Apprentice" x="1" y="1" z="12" spawntime="300" />
 	</spawn>
 	<spawn centerx="1131" centery="590" centerz="12" radius="2">
 		<monster name="Goblin Infantry" x="0" y="-2" z="12" spawntime="300" />
@@ -10556,8 +10964,12 @@
 	<spawn centerx="72" centery="610" centerz="12" radius="1">
 		<monster name="Fire Cultist" x="0" y="1" z="12" spawntime="300" />
 	</spawn>
-	<spawn centerx="67" centery="612" centerz="12" radius="1" />
+	<spawn centerx="67" centery="612" centerz="12" radius="1">
+		<monster name="Fire Baroness" x="-1" y="-1" z="12" spawntime="300" />
+		<monster name="Fire Apprentice" x="1" y="1" z="12" spawntime="300" />
+	</spawn>
 	<spawn centerx="73" centery="615" centerz="12" radius="1">
+		<monster name="Fire Apprentice" x="0" y="-1" z="12" spawntime="300" />
 		<monster name="Fire Cultist" x="0" y="1" z="12" spawntime="300" />
 	</spawn>
 	<spawn centerx="88" centery="618" centerz="12" radius="1">
@@ -10566,16 +10978,36 @@
 	<spawn centerx="56" centery="620" centerz="12" radius="1">
 		<monster name="Fire Cultist" x="1" y="1" z="12" spawntime="300" />
 	</spawn>
+	<spawn centerx="186" centery="622" centerz="12" radius="1">
+		<monster name="Earth Cultist" x="-1" y="0" z="12" spawntime="300" />
+	</spawn>
 	<spawn centerx="53" centery="624" centerz="12" radius="1">
 		<monster name="Fire Cultist" x="0" y="-1" z="12" spawntime="300" />
 	</spawn>
 	<spawn centerx="66" centery="627" centerz="12" radius="1">
 		<monster name="Fire Cultist" x="1" y="-1" z="12" spawntime="300" />
+		<monster name="Fire Apprentice" x="-1" y="1" z="12" spawntime="300" />
 	</spawn>
-	<spawn centerx="51" centery="628" centerz="12" radius="1" />
-	<spawn centerx="83" centery="629" centerz="12" radius="1" />
+	<spawn centerx="51" centery="628" centerz="12" radius="1">
+		<npc name="Fire Primate" x="-1" y="0" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="193" centery="628" centerz="12" radius="1">
+		<monster name="Earth Cultist" x="0" y="-1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="83" centery="629" centerz="12" radius="1">
+		<monster name="Fire Baroness" x="1" y="1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="199" centery="629" centerz="12" radius="1">
+		<monster name="Earth Master" x="1" y="-1" z="12" spawntime="300" />
+	</spawn>
 	<spawn centerx="78" centery="631" centerz="12" radius="1">
 		<monster name="Fire Cultist" x="1" y="-1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="206" centery="632" centerz="12" radius="1">
+		<monster name="Earth Cultist" x="-1" y="-1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="179" centery="633" centerz="12" radius="1">
+		<monster name="Earth Cultist" x="0" y="-1" z="12" spawntime="300" />
 	</spawn>
 	<spawn centerx="53" centery="634" centerz="12" radius="1">
 		<monster name="Fire Cultist" x="1" y="-1" z="12" spawntime="300" />
@@ -10583,65 +11015,125 @@
 	<spawn centerx="69" centery="635" centerz="12" radius="1">
 		<monster name="Fire Cultist" x="0" y="1" z="12" spawntime="300" />
 	</spawn>
+	<spawn centerx="198" centery="636" centerz="12" radius="1">
+		<monster name="Earth Cultist" x="1" y="-1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="207" centery="636" centerz="12" radius="1">
+		<monster name="Earth Cultist" x="-1" y="-1" z="12" spawntime="300" />
+	</spawn>
 	<spawn centerx="58" centery="637" centerz="12" radius="1">
 		<monster name="Fire Cultist" x="-1" y="-1" z="12" spawntime="300" />
 	</spawn>
-	<spawn centerx="77" centery="637" centerz="12" radius="1" />
+	<spawn centerx="77" centery="637" centerz="12" radius="1">
+		<monster name="Fire Baroness" x="0" y="-1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="187" centery="638" centerz="12" radius="1">
+		<monster name="Earth Cultist" x="1" y="0" z="12" spawntime="300" />
+	</spawn>
 	<spawn centerx="68" centery="640" centerz="12" radius="1">
 		<monster name="Fire Cultist" x="1" y="-1" z="12" spawntime="300" />
 	</spawn>
 	<spawn centerx="75" centery="640" centerz="12" radius="1">
 		<monster name="Fire Cultist" x="0" y="-1" z="12" spawntime="300" />
 	</spawn>
+	<spawn centerx="198" centery="641" centerz="12" radius="1">
+		<monster name="Earth Cultist" x="-1" y="1" z="12" spawntime="300" />
+	</spawn>
 	<spawn centerx="71" centery="642" centerz="12" radius="1">
 		<monster name="Fire Cultist" x="-1" y="-1" z="12" spawntime="300" />
 	</spawn>
+	<spawn centerx="209" centery="644" centerz="12" radius="1">
+		<monster name="Earth Apprentice" x="0" y="-1" z="12" spawntime="300" />
+		<monster name="Earth Cultist" x="1" y="0" z="12" spawntime="300" />
+	</spawn>
 	<spawn centerx="134" centery="646" centerz="12" radius="1">
-		<monster name="Life Priest" x="-1" y="1" z="12" spawntime="300" />
+		<monster name="Life Acolyte" x="-1" y="-1" z="12" spawntime="300" />
 	</spawn>
 	<spawn centerx="145" centery="647" centerz="12" radius="1">
-		<monster name="Life Priest" x="1" y="0" z="12" spawntime="300" />
+		<monster name="Life Acolyte" x="1" y="0" z="12" spawntime="300" />
 	</spawn>
-	<spawn centerx="126" centery="649" centerz="12" radius="1">
-		<monster name="Life Priest" x="0" y="1" z="12" spawntime="300" />
+	<spawn centerx="218" centery="647" centerz="12" radius="1">
+		<monster name="Earth Cultist" x="1" y="0" z="12" spawntime="300" />
 	</spawn>
-	<spawn centerx="151" centery="652" centerz="12" radius="1" />
-	<spawn centerx="125" centery="655" centerz="12" radius="1">
-		<monster name="Life Priest" x="1" y="-1" z="12" spawntime="300" />
+	<spawn centerx="224" centery="647" centerz="12" radius="1">
+		<monster name="Earth Cultist" x="1" y="1" z="12" spawntime="300" />
 	</spawn>
-	<spawn centerx="142" centery="657" centerz="12" radius="1">
-		<monster name="Life Priest" x="1" y="-1" z="12" spawntime="300" />
+	<spawn centerx="197" centery="648" centerz="12" radius="1">
+		<monster name="Earth Cultist" x="-1" y="-1" z="12" spawntime="300" />
+		<monster name="Earth Apprentice" x="1" y="1" z="12" spawntime="300" />
 	</spawn>
-	<spawn centerx="122" centery="660" centerz="12" radius="1">
-		<monster name="Life Priest" x="1" y="1" z="12" spawntime="300" />
-	</spawn>
-	<spawn centerx="152" centery="661" centerz="12" radius="1">
-		<monster name="Life Priest" x="-1" y="1" z="12" spawntime="300" />
-	</spawn>
-	<spawn centerx="135" centery="665" centerz="12" radius="1">
-		<monster name="Life Priest" x="0" y="1" z="12" spawntime="300" />
-	</spawn>
-	<spawn centerx="125" centery="666" centerz="12" radius="1">
-		<monster name="Life Priest" x="0" y="-1" z="12" spawntime="300" />
-	</spawn>
-	<spawn centerx="153" centery="667" centerz="12" radius="1">
+	<spawn centerx="123" centery="649" centerz="12" radius="1">
 		<monster name="Life Priest" x="-1" y="-1" z="12" spawntime="300" />
 	</spawn>
+	<spawn centerx="229" centery="650" centerz="12" radius="1">
+		<npc name="Earth Primate" x="1" y="0" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="212" centery="651" centerz="12" radius="1">
+		<monster name="Earth Cultist" x="0" y="-1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="151" centery="652" centerz="12" radius="1">
+		<monster name="Life Acolyte" x="1" y="-1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="189" centery="653" centerz="12" radius="1">
+		<monster name="Earth Cultist" x="1" y="-1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="195" centery="653" centerz="12" radius="1">
+		<monster name="Earth Master" x="-1" y="1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="221" centery="653" centerz="12" radius="1">
+		<monster name="Earth Cultist" x="1" y="1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="125" centery="655" centerz="12" radius="1">
+		<monster name="Life Acolyte" x="1" y="0" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="226" centery="655" centerz="12" radius="1">
+		<monster name="Earth Cultist" x="1" y="0" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="142" centery="657" centerz="12" radius="1">
+		<monster name="Life Apprentice" x="-1" y="-1" z="12" spawntime="300" />
+		<monster name="Life Acolyte" x="1" y="0" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="150" centery="657" centerz="12" radius="1">
+		<monster name="Life Acolyte" x="0" y="-1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="202" centery="657" centerz="12" radius="1">
+		<monster name="Earth Master" x="0" y="-1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="122" centery="660" centerz="12" radius="1">
+		<monster name="Life Acolyte" x="0" y="-1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="152" centery="661" centerz="12" radius="1">
+		<monster name="Life Acolyte" x="-1" y="0" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="135" centery="665" centerz="12" radius="1">
+		<monster name="Life Acolyte" x="1" y="0" z="12" spawntime="300" />
+		<monster name="Life Apprentice" x="-1" y="1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="125" centery="666" centerz="12" radius="1">
+		<monster name="Life Acolyte" x="-1" y="-1" z="12" spawntime="300" />
+	</spawn>
+	<spawn centerx="153" centery="667" centerz="12" radius="1">
+		<monster name="Life Acolyte" x="1" y="-1" z="12" spawntime="300" />
+	</spawn>
 	<spawn centerx="127" centery="671" centerz="12" radius="1">
-		<monster name="Life Priest" x="1" y="0" z="12" spawntime="300" />
+		<monster name="Life Acolyte" x="1" y="-1" z="12" spawntime="300" />
 	</spawn>
 	<spawn centerx="148" centery="673" centerz="12" radius="1">
-		<monster name="Life Priest" x="1" y="-1" z="12" spawntime="300" />
+		<monster name="Life Acolyte" x="1" y="0" z="12" spawntime="300" />
 	</spawn>
 	<spawn centerx="143" centery="676" centerz="12" radius="1">
-		<monster name="Life Priest" x="-1" y="1" z="12" spawntime="300" />
+		<monster name="Life Acolyte" x="-1" y="1" z="12" spawntime="300" />
 	</spawn>
 	<spawn centerx="130" centery="677" centerz="12" radius="1">
-		<monster name="Life Priest" x="1" y="1" z="12" spawntime="300" />
+		<monster name="Life Acolyte" x="1" y="1" z="12" spawntime="300" />
 	</spawn>
-	<spawn centerx="149" centery="679" centerz="12" radius="1" />
+	<spawn centerx="149" centery="679" centerz="12" radius="1">
+		<monster name="Life Priest" x="1" y="0" z="12" spawntime="300" />
+	</spawn>
 	<spawn centerx="140" centery="682" centerz="12" radius="1">
-		<monster name="Life Priest" x="1" y="-1" z="12" spawntime="300" />
+		<monster name="Life Acolyte" x="-1" y="-1" z="12" spawntime="300" />
 	</spawn>
-	<spawn centerx="136" centery="688" centerz="12" radius="1" />
+	<spawn centerx="136" centery="688" centerz="12" radius="1">
+		<npc name="Life Primate" x="-1" y="1" z="12" spawntime="300" />
+	</spawn>
 </spawns>

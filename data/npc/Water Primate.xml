@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Water Primate" nameDescription="an water primate"  script="iceprimate.lua" walkinterval="2000" floorchange="1">
+
+	<health now="150" max="150"/>
+
+	<look type="852" head="1" body="86" legs="11" feet="105" addons="3" corpse="6081"/>
+
+	<parameters>
+
+		<parameter key="message_greet" value="May Ulmo bless you! |PLAYERNAME|. "/>
+
+		<parameter key="message_decline" value="Get out of here!"/>
+
+	</parameters>
+</npc>

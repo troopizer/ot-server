@@ -37,9 +37,9 @@
 
 	<attacks>
 
-		<attack name="melee" interval="2000" skill="55" attack="65"/>
+		<attack name="melee" interval="2000" skill="58" attack="68"/>
 
-		<attack name="physical" interval="2000" chance="40" range="5" min="-100" max="-200">
+		<attack name="physical" interval="2000" chance="40" range="5" min="-120" max="-220">
 
 			<attribute key="shootEffect" value="spear"/>
 
@@ -97,7 +97,7 @@
 
 		<item id="2152" countmax="6" chance="90000"/><!-- platinum coin -->
 
-		<item id="2787" countmax="6" chance="20000"/><!-- white mushroom -->
+		<item id="2787" countmax="3" chance="20000"/><!-- white mushroom -->
 
 		<item id="2696" countmax="1" chance="20000"/><!-- cheese -->
 
@@ -107,7 +107,7 @@
 
 		<item id="2502" chance="800"/><!-- a archer helmet-->
 
-		<item id="2477" chance="500"/><!-- arnorian chain legs -->
+		<item id="2477" chance="300"/><!-- arnorian chain legs -->
 
 		<item id="2647" chance="3000"/><!-- iron legs -->	
 

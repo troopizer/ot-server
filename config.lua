@@ -249,7 +249,7 @@ eachBlessReduction = 8
 -- NOTE: experienceStages configuration is located in data/XML/stages.xml.
 -- rateExperienceFromPlayers 0 to disable.
 experienceStages = false
-rateExperience = 5.0
+rateExperience = 3.0
 rateExperienceFromPlayers = 0
 rateSkill = 3.0
 rateMagic = 3.0

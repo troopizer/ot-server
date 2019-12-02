@@ -58,10 +58,10 @@
 
 	<loot>
 
-		<item id="3976" countmax="20" chance="50000"/><!-- worm -->
+		<item id="3976" countmax="10" chance="50000"/><!-- worm -->
 
 		<item id="2671" countmax="3" chance="20000"/><!-- ham -->
-		<item id="5898" countmax="1" chance="20000"/><!-- slug eye -->
+		<item id="5898" countmax="1" chance="30000"/><!-- slug eye -->
 		<item id="2805" countmax="3" chance="5000"/><!-- troll green -->
 
  		<item id="2802" countmax="3" chance="5000"/><!-- sling herb -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Fire Primate" nameDescription="an fire primate"  script="fireprimate.lua" walkinterval="2000" floorchange="1">
+
+	<health now="150" max="150"/>
+
+	<look type="433" head="132" body="94" legs="78" feet="113" addons="3" corpse="6080"/>
+
+	<parameters>
+
+		<parameter key="message_greet" value="May Varda bless you! |PLAYERNAME|. "/>
+
+		<parameter key="message_decline" value="Get out of here!"/>
+
+	</parameters>
+</npc>

@@ -34,7 +34,7 @@
 		<voice sentence="Yoooohhuuuu!" yell="1"/>
 	</voices>
 	<loot>
-		<item id="3976" countmax="10" chance="50000"/><!-- worm -->
+		<item id="3976" countmax="8" chance="50000"/><!-- worm -->
 		<item id="2671" countmax="5" chance="33333"/><!-- ham -->
 		<item id="2804" countmax="2" chance="10000"/><!-- shadow herb -->
 		<item id="2803" countmax="2" chance="10000"/><!-- powder herb -->

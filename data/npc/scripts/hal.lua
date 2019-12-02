@@ -25,9 +25,11 @@ if(msgcontains(msg, 'nothing')) then
 selfSay('Get lost and dont waste my time!', cid)
 end
 if(msgcontains(msg, 'aldur')) then
-selfSay('Aldur is an important merchant of the blue mountains.. he might be close to Thorin, their leader. I have heard that some {bandits} stole something from him.', cid)
+selfSay('Aldur is an important merchant of the blue mountains.. he might be close to Thorin Oakenshield, their leader. I have heard that some {bandits} stole something from him.', cid)
 end
-
+if(msgcontains(msg, 'info')) then
+selfSay('What information are you looking for?.', cid)
+end
 
 
 if(msgcontains(msg, 'mission')) then
@@ -40,15 +42,25 @@ if (getPlayerStorageValue(cid,2007) < 2) then
 selfSay('Around Bree there are a large group of bandits with a strong leader...Larry Halfsnout.., I know about their last job with the dwarves, but that information will cost you 100 gold coins,{ok}?  ', cid)
 end
 end
+if(msgcontains(msg, 'Larry Halfsnout')) then
+selfSay('He is the leader of most of the robbers around Bree-Land. I have information about his lair, but it will cost you 200 gold coins,{ok}?  ', cid)
+talkState[talkUser] = 1
+end
 
 if(msgcontains(msg, 'ok')) then
 if (getPlayerStorageValue(cid,2007) < 2) then
-if(doPlayerRemoveItem(cid, 2148, 100) == TRUE) then
+if(doPlayerRemoveMoney(cid, 100)) then
 setPlayerStorageValue(cid,2007,2)
-selfSay('Well.. This bandits stole some jewel cases from Aldur and his friend, they take the cases to their lair on the east side of Midgewater swamp. Go to the north road to Archet, but take the road trough Chetwood..', cid)
+selfSay('Well.. This bandits stole some jewel cases from Aldur and his friend, they took the jewels to their lair on the east side of Midgewater swamp. Go by the north road to Archet, but then take the side road east trough Chetwood..', cid)
 else
 selfSay('You dont have that amount of money..', cid)
-
+end
+end
+if(talkState[talkUser] == 1) then
+if(doPlayerRemoveMoney(cid, 200)) then
+selfSay('His lair is on the east side of Midgewater swamp, Just under the start of the Wheater Hills. Go by the north road to Archet, but then take the side road east through Chetwood and then through Midgewater Swamp.', cid)
+else
+selfSay('You dont have that amount of money..', cid)
 end
 end
 end

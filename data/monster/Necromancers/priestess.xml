@@ -19,18 +19,18 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="25" attack="30" poison="80"/>
-		<attack name="death" interval="2000" chance="30" range="7" min="-25" max="-55">
+		<attack name="death" interval="2000" chance="30" range="6" min="-25" max="-55">
 			<attribute key="shootEffect" value="suddendeath"/>
 		</attack>
-		<attack name="poison" interval="2000" chance="30" range="7" min="-55" max="-95">
+		<attack name="poison" interval="2000" chance="30" range="6" min="-55" max="-95">
 			<attribute key="shootEffect" value="poison"/>
 		</attack>
-		<attack name="manadrain" interval="2000" chance="30" range="7" min="-60" max="-100">
+		<attack name="manadrain" interval="2000" chance="30" range="4" min="-60" max="-100">
 			<attribute key="areaEffect" value="redshimmer"/>
 	</attack>
 	</attacks>
 	<defenses armor="10" defense="19">
-		<defense name="healing" interval="2000" chance="25" min="34" max="56">
+		<defense name="healing" interval="2000" chance="25" min="50" max="70">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -54,13 +54,13 @@
 		<voice sentence="Throw the soul on the altar!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="100" chance="80000"/><!-- gold coin -->
+		<item id="2148" countmax="60" chance="60000"/><!-- gold coin -->
 		<item id="2804" countmax="2" chance="30000"/><!-- shadow herb -->
-		<item id="2185" chance="500"/><!-- necrotic rod -->
-		<item id="2182" chance="1000"/><!-- snakebie rod -->
+		<item id="2185" chance="200"/><!-- necrotic rod -->
+		<item id="2182" chance="300"/><!-- snakebie rod -->
 		<item id="2229" countmax="3" chance="20000"/><!-- skull -->
 		<item id="2662" chance="2000"/><!-- apprentice hat -->	
-		<item id="8892" chance="2000"/><!-- ethno coat -->
+		<item id="8892" chance="800"/><!-- ethno coat -->
 		<item id="2802" countmax="1" chance="20000"/><!-- sling herb -->
 		<item id="2199" chance="2000"/><!-- garlic neckclace -->	
 		<item id="1987" chance="80000"/><!-- bag -->
