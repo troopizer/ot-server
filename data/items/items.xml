@@ -640,7 +640,7 @@
     <item id="1495" article="an" name="energy field">
         <attribute key="type" value="magicfield" />
         <attribute key="decayTo" value="0" />
-        <attribute key="duration" value="120" />
+        <attribute key="duration" value="10" />
         <attribute key="field" value="energy">
             <attribute key="damage" value="30" />
             <attribute key="ticks" value="10000" />
@@ -2526,7 +2526,10 @@
         <attribute key="runeSpellName" value="asëa turca halcin certa" />
         <attribute key="weight" value="120" />
     </item>
-    <item fromid="2282" toid="2284" article="a" name="spell rune">
+    <item fromid="2282" toid="2283" article="a" name="spell rune">
+        <attribute key="weight" value="120" />
+    </item>
+    <item id="2284" article="a" name="energy field rune">
         <attribute key="weight" value="120" />
     </item>
     <item id="2285" article="a" name="herbal poison rune">

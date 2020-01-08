@@ -27,9 +27,9 @@ function creatureSayCallback(cid, type, msg)
 		selfSay('I dont have time to lose...', cid)
 	end
 	if(msgcontains(msg, 'edward')) then
-		selfSay('My name is Edward Mapleton. Since years I have been the mayor of Bree.', cid)
+		selfSay('My name is Edward Mapleton. For many years I have been the mayor of Bree.', cid)
 		selfSay('As mayor I have to look for the safety and stability of not only Bree, also Staddle, Archet and Combe. And I think that I have been doing a fairly good job.', cid)
-		selfSay('Many years ago the mayor was also the commander of the Bree guards, but since the Eriador Renegades became more powerful. I gave the command of the guards to my son Jeff.', cid)
+		selfSay('Many years ago the mayor was also the commander of the Bree guards, but since the Eriador Renegades became more powerful. I gave the command of the guards to my son, Jeff.', cid)
 		selfSay('He grow up to be a fine warrior and everyone in Bree-Land respect him. He has manage to keep the renegades out of our lands.', cid)
 	end
 	if(msgcontains(msg, 'aldur')) then

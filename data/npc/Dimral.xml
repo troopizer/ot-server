@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Dimral" script="loot.lua" nameDescription="Dimral, the loot vendor" walkinterval="4000" floorchange="0">
+<npc name="Dimral Appledore" script="loot.lua" nameDescription="Dimral, the loot vendor" walkinterval="4000" floorchange="0">
 	<health now="150" max="150"/>
 	<look type="129" head="119" body="119" legs="114" feet="115" addons="1" corpse="2212"/>
 	<parameters>

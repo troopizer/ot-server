@@ -21,9 +21,9 @@ function creatureSayCallback(cid, type, msg)
 			elseif(getPlayerStorageValue(cid,2053) == 2 and getPlayerStorageValue(cid,2106) < 0) then
 					selfSay('Nargor told me that you did an excelent job in the Weather Hills. I am sure that you can be very useful here, I need someone to hunt some wargs. Are you in? {Yes}?.', cid)
 				talkState[talkUser] = 1
-			elseif(getPlayerStorageValue(cid,2106) == 10) then
+			elseif(getPlayerStorageValue(cid,2106) == 20) then
 					selfSay('Great! you are a skilled hunter. (you received 50000 exp) ', cid)
-					setPlayerStorageValue(cid,2106,11)
+					setPlayerStorageValue(cid,2106,21)
 					doPlayerAddExperience(cid,50000)
 			elseif(getPlayerStorageValue(cid,2106) == 11 and getPlayerStorageValue(cid,2107) < 0) then
 					selfSay('My father, Argonui, send me here in order to ensure peace in {Lone Lands}. But we are just a few rangers and the enemies are hundreds.', cid)
@@ -59,7 +59,7 @@ function creatureSayCallback(cid, type, msg)
 	elseif(msgcontains(msg, 'yes')) then
 		if(talkState[talkUser] == 1) then
 			if(getPlayerStorageValue(cid,2106) < 0) then
-				selfSay('Ok hunt 10 of them.', cid)
+				selfSay('Ok hunt 20 of them.', cid)
 				setPlayerStorageValue(cid,30022,21)
 				setPlayerStorageValue(cid,2106,0)
 			end

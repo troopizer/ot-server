@@ -21,12 +21,12 @@ function creatureSayCallback(cid, type, msg)
 			elseif(getPlayerStorageValue(cid,2046) < 0) then
 					selfSay('Hi young man, we are the dunedain, the descendants of the kingdom of Arnor, if you want to help us, I can give you rewards,{ok}?.', cid)
 				talkState[talkUser] = 1
-			elseif(getPlayerStorageValue(cid,2046) == 20) then
+			elseif(getPlayerStorageValue(cid,2046) == 50) then
 					selfSay('You are quite strong, I have anothe {mission} for you (you received 10000 exp and 500 gp) ', cid)
-					setPlayerStorageValue(cid,2046,21)
+					setPlayerStorageValue(cid,2046,51)
 					doPlayerAddExperience(cid,10000)
 					doPlayerAddItem(cid,2148,500)
-			elseif(getPlayerStorageValue(cid,2047) < 0 and getPlayerStorageValue(cid,2046) == 21) then
+			elseif(getPlayerStorageValue(cid,2047) < 0 and getPlayerStorageValue(cid,2046) == 51) then
 					selfSay('I am sure that you have met the Lone Lands Savages, show your streng and teach them a lesson,{ok}?.', cid)
 				talkState[talkUser] = 1
 			elseif(getPlayerStorageValue(cid,2047) == 0 and getPlayerItemCount(cid,5924) >= 5) then
@@ -81,7 +81,7 @@ function creatureSayCallback(cid, type, msg)
 	elseif(msgcontains(msg, 'ok')) then
 		if(talkState[talkUser] == 1) then
 			if(getPlayerStorageValue(cid,2046) < 0) then
-				selfSay('They are many dangerous wolves in this area, defeat 20 fierce wolves and I will pay you.', cid)
+				selfSay('They are many dangerous wolves in this area, defeat 50 fierce wolves and I will pay you.', cid)
 				setPlayerStorageValue(cid,30012,11)
 				setPlayerStorageValue(cid,2046,0)
 			end

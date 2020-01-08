@@ -22,21 +22,21 @@ function creatureSayCallback(cid, type, msg)
 					selfSay('Hi friend, we are the dunedain, the descendants of old Arnor. Fornost was once our capital, now is an evil and forgotten place..', cid)
 					selfSay('We were send by our leader Argonui, in order to control any evil power that raises here. If you want to help us, I can pay you for your work,{ok}?. ', cid)				
 				talkState[talkUser] = 1
-			elseif(getPlayerStorageValue(cid,2096) == 10) then
+			elseif(getPlayerStorageValue(cid,2096) == 20) then
 					selfSay('Great! You are quite strong, I have another {mission} for you (you received 10000 exp and 1000 gp) ', cid)
-					setPlayerStorageValue(cid,2096,11)
+					setPlayerStorageValue(cid,2096,21)
 					doPlayerAddExperience(cid,10000)
 					doPlayerAddItem(cid,2152,10)
-			elseif(getPlayerStorageValue(cid,2096) == 11 and getPlayerStorageValue(cid,2097) < 0) then
+			elseif(getPlayerStorageValue(cid,2096) == 21 and getPlayerStorageValue(cid,2097) < 0) then
 					selfSay('As you may noticed in the first area of the city there are just some wolves and bandits. Thats because an old dwarven sorcerer keeps any evil spirit and undead lock in the catacombs.', cid)
 					selfSay('The second area of the city, the eastern area, is another story. A cult of sorcerers and necromancers use the ruins to make evil rituals, if you feel strong enough I want to kill some of them, {ok}?', cid)		
 					talkState[talkUser] = 1
-			elseif(getPlayerStorageValue(cid,2097) == 10) then
+			elseif(getPlayerStorageValue(cid,2097) == 30) then
 					selfSay('Nice done! I have another {mission} for you (you received 20000 exp and 1000 gp) ', cid)
-					setPlayerStorageValue(cid,2097,11)
+					setPlayerStorageValue(cid,2097,31)
 					doPlayerAddExperience(cid,20000)
 					doPlayerAddItem(cid,2152,10)
-			elseif(getPlayerStorageValue(cid,2097) == 11 and getPlayerStorageValue(cid,2098) < 0) then
+			elseif(getPlayerStorageValue(cid,2097) == 31 and getPlayerStorageValue(cid,2098) < 0) then
 					selfSay('I have a spy located near the necromancers camp, he send a message telling that he found something important, can you go there?, {ok}? ', cid)
 					talkState[talkUser] = 1
 			elseif(getPlayerItemCount(cid,11237) >= 1 and getPlayerStorageValue(cid,2098) == 1) then
@@ -51,11 +51,11 @@ function creatureSayCallback(cid, type, msg)
 			elseif(getPlayerStorageValue(cid,2098) == 4 and getPlayerStorageValue(cid,2099) < 0) then
 					selfSay('I am still planning our next move, for the time being we should get rid of some of their priestesses. Go to Fornost and get that done, {ok}? ', cid)
 					talkState[talkUser] = 1
-			elseif(getPlayerStorageValue(cid,2099) == 20) then
+			elseif(getPlayerStorageValue(cid,2099) == 30) then
 					selfSay('All right, you are true warrior. Now you should choose between 2 martial spells: {Warrior Rage} (Meele) or {Spear Throw} (Distance). (you received 50000 exp)', cid)
 					doPlayerAddExperience(cid,50000)
 					talkState[talkUser] = 2	
-			elseif(getPlayerStorageValue(cid,2099) == 21 and getPlayerStorageValue(cid,2100) < 0) then
+			elseif(getPlayerStorageValue(cid,2099) == 31 and getPlayerStorageValue(cid,2100) < 0) then
 					selfSay('Well... Freor found out that there are some elemental cultists in the necromancers area in Fornost. This cultists have strong elemental powers.', cid)
 					selfSay('It looks like that the cultists are key for the necromancers plans. You may be able to kill them and stop the ritual, {ok}? ', cid)
 					talkState[talkUser] = 1
@@ -78,19 +78,19 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Some outlaws are camping in the first area of the city, near the entrance. You look strong enough, teach them a lesson.', cid)
 				setPlayerStorageValue(cid,30021,20)
 				setPlayerStorageValue(cid,2096,0)
-			elseif(getPlayerStorageValue(cid,2096) == 11 and getPlayerStorageValue(cid,2097) < 0) then
-				selfSay('Kill 10 necromancer apprentices in order to spread fear among them.', cid)
+			elseif(getPlayerStorageValue(cid,2096) == 21 and getPlayerStorageValue(cid,2097) < 0) then
+				selfSay('Kill 30 necromancer apprentices in order to spread fear among them.', cid)
 				setPlayerStorageValue(cid,30021,20)
 				setPlayerStorageValue(cid,2097,0)
-			elseif(getPlayerStorageValue(cid,2097) == 11 and getPlayerStorageValue(cid,2098) < 0) then
+			elseif(getPlayerStorageValue(cid,2097) == 31 and getPlayerStorageValue(cid,2098) < 0) then
 				selfSay('Thanks!', cid)
 				setPlayerStorageValue(cid,30021,20)
 				setPlayerStorageValue(cid,2098,0)
 			elseif(getPlayerStorageValue(cid,2098) == 4 and getPlayerStorageValue(cid,2099) < 0) then
-				selfSay('Great! Kill 20 priestesses, then I may teach you some martial skills.', cid)
+				selfSay('Great! Kill 30 priestesses, then I may teach you some martial skills.', cid)
 				setPlayerStorageValue(cid,30021,20)
 				setPlayerStorageValue(cid,2099,0)
-			elseif(getPlayerStorageValue(cid,2099) == 21 and getPlayerStorageValue(cid,2100) < 0) then
+			elseif(getPlayerStorageValue(cid,2099) == 31 and getPlayerStorageValue(cid,2100) < 0) then
 				selfSay('Kill 4 cultists and we will stop them for now.', cid)
 				setPlayerStorageValue(cid,30021,20)
 				setPlayerStorageValue(cid,2100,0)
@@ -98,20 +98,20 @@ function creatureSayCallback(cid, type, msg)
 		end
 	elseif(msgcontains(msg, 'warrior rage')) then
 		if(talkState[talkUser] == 2) then
-			if(getPlayerStorageValue(cid,2099) == 20) then
+			if(getPlayerStorageValue(cid,2099) == 30) then
 				selfSay('You have learned.', cid)
 				setPlayerStorageValue(cid,30011,10)
 				setPlayerStorageValue(cid,2101,0)
-				setPlayerStorageValue(cid,2099,21)
+				setPlayerStorageValue(cid,2099,31)
 			end
 		end
 	elseif(msgcontains(msg, 'spear throw')) then
 		if(talkState[talkUser] == 2) then
-			if(getPlayerStorageValue(cid,2099) == 20) then
+			if(getPlayerStorageValue(cid,2099) == 30) then
 				selfSay('You have learned.', cid)
 				setPlayerStorageValue(cid,30011,10)
 				setPlayerStorageValue(cid,2056,0)
-				setPlayerStorageValue(cid,2099,21)
+				setPlayerStorageValue(cid,2099,31)
 			end
 		end
 		talkState[talkUser] = 0

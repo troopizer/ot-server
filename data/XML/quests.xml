@@ -55,19 +55,29 @@
             <missionstate id="0" description="Search for the bandits camp where the renegades trade with them, and still the 3 short swords."/>
             <missionstate id="1" description="Mission Complete."/>
         </mission>
-        <mission name="3 Just Kill Them All" storageid="2037" startvalue="0" endvalue="11">
-            <missionstate id="0" description="Kill 10 Renegades in East Brandiwine Hills."/>
-            <missionstate id="1" description="Kill 9 Renegades in East Brandiwine Hills."/>
-            <missionstate id="2" description="Kill 8 Renegades in East Brandiwine Hills."/>
-            <missionstate id="3" description="Kill 7 Renegades in East Brandiwine Hills."/>
-            <missionstate id="4" description="Kill 6 Renegades in East Brandiwine Hills."/>
-            <missionstate id="5" description="Kill 5 Renegades in East Brandiwine Hills."/>
-            <missionstate id="6" description="Kill 4 Renegades in East Brandiwine Hills."/>
-            <missionstate id="7" description="Kill 3 Renegades in East Brandiwine Hills."/>
-            <missionstate id="8" description="Kill 2 Renegades in East Brandiwine Hills."/>
-            <missionstate id="9" description="Kill 1 Renegades in East Brandiwine Hills."/>
-            <missionstate id="10" description="Go back to the Sergeant."/>
-            <missionstate id="11" description="Mission Complete."/>
+        <mission name="3 Just Kill Them All" storageid="2037" startvalue="0" endvalue="21">
+            <missionstate id="0" description="Kill 20 Renegades in East Brandiwine Hills."/>
+            <missionstate id="1" description="Kill 19 Renegades in East Brandiwine Hills."/>
+            <missionstate id="2" description="Kill 18 Renegades in East Brandiwine Hills."/>
+            <missionstate id="3" description="Kill 17 Renegades in East Brandiwine Hills."/>
+            <missionstate id="4" description="Kill 16 Renegades in East Brandiwine Hills."/>
+            <missionstate id="5" description="Kill 15 Renegades in East Brandiwine Hills."/>
+            <missionstate id="6" description="Kill 14 Renegades in East Brandiwine Hills."/>
+            <missionstate id="7" description="Kill 13 Renegades in East Brandiwine Hills."/>
+            <missionstate id="8" description="Kill 12 Renegades in East Brandiwine Hills."/>
+            <missionstate id="9" description="Kill 11 Renegades in East Brandiwine Hills."/>
+            <missionstate id="10" description="Kill 10 Renegades in East Brandiwine Hills."/>
+            <missionstate id="11" description="Kill 9 Renegades in East Brandiwine Hills."/>
+            <missionstate id="12" description="Kill 8 Renegades in East Brandiwine Hills."/>
+            <missionstate id="13" description="Kill 7 Renegades in East Brandiwine Hills."/>
+            <missionstate id="14" description="Kill 6 Renegades in East Brandiwine Hills."/>
+            <missionstate id="15" description="Kill 5 Renegades in East Brandiwine Hills."/>
+            <missionstate id="16" description="Kill 4 Renegades in East Brandiwine Hills."/>
+            <missionstate id="17" description="Kill 3 Renegades in East Brandiwine Hills."/>
+            <missionstate id="18" description="Kill 2 Renegades in East Brandiwine Hills."/>
+            <missionstate id="19" description="Kill 1 Renegade in East Brandiwine Hills."/>
+            <missionstate id="20" description="Go back to the Sergeant."/>
+            <missionstate id="21" description="Mission Complete."/>
         </mission>
         <mission name="4 A Fake Prisoner" storageid="2039" startvalue="0" endvalue="2">
             <missionstate id="0" description="An agent of sergeant Otrebla, called Harry, let the renegades to capture him in order to find information, look for him and the key of his prison door. He will give you a report for Otrebla"/>
@@ -113,11 +123,11 @@
             <missionstate id="1" description="Mission Complete."/>
         </mission>        
         <mission name="2 Probe Sergeant Farflank and the boys you worth it" storageid="2009" startvalue="0" endvalue="1">
-            <missionstate id="0" description="Kill spiders and get Sergeant Farflank 11 spider silks."/>
+            <missionstate id="0" description="Kill spiders and get Sergeant Farflank 20 spider silks."/>
             <missionstate id="1" description="Mission Complete."/>
         </mission>
         <mission name="3 Bring a tarantula egg to Sergeant Farflank" storageid="2010" startvalue="0" endvalue="1">
-            <missionstate id="0" description="Kill tarantulas and get Sergeant Farflank a tarantula egg."/>
+            <missionstate id="0" description="Kill tarantulas and get Sergeant Farflank 5 tarantula eggs."/>
             <missionstate id="1" description="Mission Complete."/>
         </mission>
         <mission name="4 Probe Sergeant Farflank and the boys you worth it 2" storageid="2011" startvalue="0" endvalue="4">
@@ -154,7 +164,7 @@
     </quest>
     <quest name="Barrow Downs Chapter 1" startstorageid="30004" startstoragevalue="6">
         <mission name="1 Blood herbs" storageid="2017" startvalue="0" endvalue="1">
-            <missionstate id="0" description="Bring 5 blood herbs to Eryn, you will find some in the Barrow Downs."/>
+            <missionstate id="0" description="Bring 10 blood herbs to Eryn, you will find some in the Barrow Downs."/>
             <missionstate id="1" description="Mission Complete."/>  
         </mission>
         <mission name="2 Skulls" storageid="2021" startvalue="0" endvalue="1">
@@ -175,7 +185,7 @@
             <missionstate id="0" description="Basic herbal healing - Words: asea envinyata - Reagents: powder herbs."/>
         </mission>
         <mission name="Herbal antidote - asea hloima envinyata" storageid="2024" startvalue="0" endvalue="0">
-            <missionstate id="0" description="Poison and paralyze herbal antidote - Words: asea hloima envinyata - Reagents: powder herbs."/>
+            <missionstate id="0" description="Poison herbal antidote - Words: asea hloima envinyata - Reagents: powder herbs."/>
         </mission>
         <mission name="Herbal Sword Boost - asea macil" storageid="2025" startvalue="0" endvalue="0">
             <missionstate id="0" description="Herbal Sword Boost - Words: asea hloima macil - lvl: 10 - Reagents: star herbs."/>
@@ -241,29 +251,49 @@
         </mission> 
     </quest>
     <quest name="Lone Lands Tales" startstorageid="30010" startstoragevalue="9">
-        <mission name="Poachers and Savages" storageid="2041" startvalue="0" endvalue="21">
-            <missionstate id="0" description="Kill 20 Poachers and Savages ."/>
-            <missionstate id="1" description="Kill 19 Poachers and Savages ."/>
-            <missionstate id="2" description="Kill 18 Poachers and Savages ."/>
-            <missionstate id="3" description="Kill 17 Poachers and Savages ."/>
-            <missionstate id="4" description="Kill 16 Poachers and Savages ."/>
-            <missionstate id="5" description="Kill 15 Poachers and Savages ."/>
-            <missionstate id="6" description="Kill 14 Poachers and Savages ."/>
-            <missionstate id="7" description="Kill 13 Poachers and Savages ."/>
-            <missionstate id="8" description="Kill 12 Poachers and Savages ."/>
-            <missionstate id="9" description="Kill 11 Poachers and Savages ."/>
-            <missionstate id="10" description="Kill 10 Poachers and Savages ."/>
-            <missionstate id="11" description="Kill 9 Poachers and Savages ."/>
-            <missionstate id="12" description="Kill 8 Poachers and Savages ."/>
-            <missionstate id="13" description="Kill 7 Poachers and Savages ."/>
-            <missionstate id="14" description="Kill 6 Poachers and Savages ."/>
-            <missionstate id="15" description="Kill 5 Poachers and Savages ."/>
-            <missionstate id="16" description="Kill 4 Poachers and Savages ."/>
-            <missionstate id="17" description="Kill 3 Poachers and Savages ."/>
-            <missionstate id="18" description="Kill 2 Poachers and Savages ."/>
-            <missionstate id="19" description="Kill 1 Poachers and Savages ."/>
-            <missionstate id="20" description="You got them, ask for your reward."/> 
-            <missionstate id="21" description="Mission Complete."/>   
+        <mission name="Poachers and Savages" storageid="2041" startvalue="0" endvalue="41">
+            <missionstate id="0" description="Kill 40 Poachers and Savages."/>
+            <missionstate id="1" description="Kill 39 Poachers and Savages."/>
+            <missionstate id="2" description="Kill 38 Poachers and Savages."/>
+            <missionstate id="3" description="Kill 37 Poachers and Savages."/>
+            <missionstate id="4" description="Kill 36 Poachers and Savages."/>
+            <missionstate id="5" description="Kill 35 Poachers and Savages."/>
+            <missionstate id="6" description="Kill 34 Poachers and Savages."/>
+            <missionstate id="7" description="Kill 33 Poachers and Savages."/>
+            <missionstate id="8" description="Kill 32 Poachers and Savages."/>
+            <missionstate id="9" description="Kill 31 Poachers and Savages."/>
+            <missionstate id="10" description="Kill 30 Poachers and Savages."/>
+            <missionstate id="11" description="Kill 29 Poachers and Savages."/>
+            <missionstate id="12" description="Kill 28 Poachers and Savages."/>
+            <missionstate id="13" description="Kill 27 Poachers and Savages."/>
+            <missionstate id="14" description="Kill 26 Poachers and Savages."/>
+            <missionstate id="15" description="Kill 25 Poachers and Savages."/>
+            <missionstate id="16" description="Kill 24 Poachers and Savages."/>
+            <missionstate id="17" description="Kill 23 Poachers and Savages."/>
+            <missionstate id="18" description="Kill 22 Poachers and Savages."/>
+            <missionstate id="19" description="Kill 21 Poachers and Savages."/>
+            <missionstate id="20" description="Kill 20 Poachers and Savages."/>
+            <missionstate id="21" description="Kill 19 Poachers and Savages."/>
+            <missionstate id="22" description="Kill 18 Poachers and Savages."/>
+            <missionstate id="23" description="Kill 17 Poachers and Savages."/>
+            <missionstate id="24" description="Kill 16 Poachers and Savages."/>
+            <missionstate id="25" description="Kill 15 Poachers and Savages."/>
+            <missionstate id="26" description="Kill 14 Poachers and Savages."/>
+            <missionstate id="27" description="Kill 13 Poachers and Savages."/>
+            <missionstate id="28" description="Kill 12 Poachers and Savages."/>
+            <missionstate id="29" description="Kill 11 Poachers and Savages."/>
+            <missionstate id="30" description="Kill 10 Poachers and Savages."/>
+            <missionstate id="31" description="Kill 9 Poachers and Savages."/>
+            <missionstate id="32" description="Kill 8 Poachers and Savages."/>
+            <missionstate id="33" description="Kill 7 Poachers and Savages."/>
+            <missionstate id="34" description="Kill 6 Poachers and Savages."/>
+            <missionstate id="35" description="Kill 5 Poachers and Savages."/>
+            <missionstate id="36" description="Kill 4 Poachers and Savages."/>
+            <missionstate id="37" description="Kill 3 Poachers and Savages."/>
+            <missionstate id="38" description="Kill 2 Poachers and Savages."/>
+            <missionstate id="39" description="Kill 1 Poacher or Savage."/>
+            <missionstate id="40" description="You got them, ask for your reward."/> 
+            <missionstate id="41" description="Mission Complete."/>   
         </mission> 
         <mission name="The lost dwarf" storageid="2051" startvalue="0" endvalue="2">
             <missionstate id="0" description="Go to the misty mountains goblins camp and search for the lost dwarf body and the book he was carring."/>
@@ -309,29 +339,59 @@
         </mission>
     </quest>
     <quest name="Lone Lands Chapter 1" startstorageid="30012" startstoragevalue="11">
-        <mission name="1 Fierce wolves" storageid="2046" startvalue="0" endvalue="21">
-            <missionstate id="0" description="Kill 20 Fierce wolves."/>
-            <missionstate id="1" description="Kill 19 Fierce wolves."/>
-            <missionstate id="2" description="Kill 18 Fierce wolves."/>
-            <missionstate id="3" description="Kill 17 Fierce wolves."/>
-            <missionstate id="4" description="Kill 16 Fierce wolves."/>
-            <missionstate id="5" description="Kill 15 Fierce wolves."/>
-            <missionstate id="6" description="Kill 14 Fierce wolves."/>
-            <missionstate id="7" description="Kill 13 Fierce wolves."/>
-            <missionstate id="8" description="Kill 12 Fierce wolves."/>
-            <missionstate id="9" description="Kill 11 Fierce wolves."/>
-            <missionstate id="10" description="Kill 10 Fierce wolves."/>
-            <missionstate id="11" description="Kill 9 Fierce wolves."/>
-            <missionstate id="12" description="Kill 8 Fierce wolves."/>
-            <missionstate id="13" description="Kill 7 Fierce wolves."/>
-            <missionstate id="14" description="Kill 6 Fierce wolves."/>
-            <missionstate id="15" description="Kill 5 Fierce wolves."/>
-            <missionstate id="16" description="Kill 4 Fierce wolves."/>
-            <missionstate id="17" description="Kill 3 Fierce wolves."/>
-            <missionstate id="18" description="Kill 2 Fierce wolves."/>
-            <missionstate id="19" description="Kill 1 Fierce wolves."/>
-            <missionstate id="20" description="You got them, ask for your reward."/> 
-            <missionstate id="21" description="Mission Complete."/>   
+        <mission name="1 Fierce wolves" storageid="2046" startvalue="0" endvalue="51">
+            <missionstate id="0" description="Kill 50 Fierce wolves."/>
+            <missionstate id="1" description="Kill 49 Fierce wolves."/>
+            <missionstate id="2" description="Kill 48 Fierce wolves."/>
+            <missionstate id="3" description="Kill 47 Fierce wolves."/>
+            <missionstate id="4" description="Kill 46 Fierce wolves."/>
+            <missionstate id="5" description="Kill 45 Fierce wolves."/>
+            <missionstate id="6" description="Kill 44 Fierce wolves."/>
+            <missionstate id="7" description="Kill 43 Fierce wolves."/>
+            <missionstate id="8" description="Kill 42 Fierce wolves."/>
+            <missionstate id="9" description="Kill 41 Fierce wolves."/>
+            <missionstate id="10" description="Kill 40 Fierce wolves."/>
+            <missionstate id="11" description="Kill 39 Fierce wolves."/>
+            <missionstate id="12" description="Kill 38 Fierce wolves."/>
+            <missionstate id="13" description="Kill 37 Fierce wolves."/>
+            <missionstate id="14" description="Kill 36 Fierce wolves."/>
+            <missionstate id="15" description="Kill 35 Fierce wolves."/>
+            <missionstate id="16" description="Kill 34 Fierce wolves."/>
+            <missionstate id="17" description="Kill 33 Fierce wolves."/>
+            <missionstate id="18" description="Kill 32 Fierce wolves."/>
+            <missionstate id="19" description="Kill 31 Fierce wolves."/>
+            <missionstate id="20" description="Kill 30 Fierce wolves."/>
+            <missionstate id="21" description="Kill 29 Fierce wolves."/>
+            <missionstate id="22" description="Kill 28 Fierce wolves."/>
+            <missionstate id="23" description="Kill 27 Fierce wolves."/>
+            <missionstate id="24" description="Kill 26 Fierce wolves."/>
+            <missionstate id="25" description="Kill 25 Fierce wolves."/>
+            <missionstate id="26" description="Kill 24 Fierce wolves."/>
+            <missionstate id="27" description="Kill 23 Fierce wolves."/>
+            <missionstate id="28" description="Kill 22 Fierce wolves."/>
+            <missionstate id="29" description="Kill 21 Fierce wolves."/>
+            <missionstate id="30" description="Kill 20 Fierce wolves."/>
+            <missionstate id="31" description="Kill 19 Fierce wolves."/>
+            <missionstate id="32" description="Kill 18 Fierce wolves."/>
+            <missionstate id="33" description="Kill 17 Fierce wolves."/>
+            <missionstate id="34" description="Kill 16 Fierce wolves."/>
+            <missionstate id="35" description="Kill 15 Fierce wolves."/>
+            <missionstate id="36" description="Kill 14 Fierce wolves."/>
+            <missionstate id="37" description="Kill 13 Fierce wolves."/>
+            <missionstate id="38" description="Kill 12 Fierce wolves."/>
+            <missionstate id="39" description="Kill 11 Fierce wolves."/>
+            <missionstate id="40" description="Kill 10 Fierce wolves."/>
+            <missionstate id="41" description="Kill 9 Fierce wolves."/>
+            <missionstate id="42" description="Kill 8 Fierce wolves."/>
+            <missionstate id="43" description="Kill 7 Fierce wolves."/>
+            <missionstate id="44" description="Kill 6 Fierce wolves."/>
+            <missionstate id="45" description="Kill 5 Fierce wolves."/>
+            <missionstate id="46" description="Kill 4 Fierce wolves."/>
+            <missionstate id="47" description="Kill 3 Fierce wolves."/>
+            <missionstate id="48" description="Kill 2 Fierce wolves."/>
+            <missionstate id="49" description="Kill 1 Fierce wolf."/>
+            <missionstate id="50" description="You got them, ask for your reward."/> 
+            <missionstate id="51" description="Mission Complete."/>   
         </mission> 
         <mission name="2 Savages helmets" storageid="2047" startvalue="0" endvalue="1">
             <missionstate id="0" description="Kill Savages and get 5 damaged steel helmets for Nargor."/>
@@ -785,30 +845,60 @@
         </mission>
     </quest>
     <quest name="Fornost Erain Chapter 1" startstorageid="30021" startstoragevalue="20">
-        <mission name="1 Take out the trash" storageid="2096" startvalue="0" endvalue="11">
-            <missionstate id="0" description="Kill 10 Outlaws."/>
-            <missionstate id="1" description="Kill 9 Outlaws."/>
-            <missionstate id="2" description="Kill 8 Outlaws."/>
-            <missionstate id="3" description="Kill 7 Outlaws."/>
-            <missionstate id="4" description="Kill 6 Outlaws."/>
-            <missionstate id="5" description="Kill 5 Outlaws."/>
-            <missionstate id="6" description="Kill 4 Outlaws."/>
-            <missionstate id="7" description="Kill 3 Outlaws."/>
-            <missionstate id="8" description="Kill 2 Outlaws."/>
-            <missionstate id="9" description="Kill 1 Outlaw."/>
-            <missionstate id="10" description="You got them, ask for your reward."/> 
-            <missionstate id="11" description="Mission Complete."/>   
+        <mission name="1 Take out the trash" storageid="2096" startvalue="0" endvalue="21">
+            <missionstate id="0" description="Kill 20 Outlaws."/>
+            <missionstate id="1" description="Kill 19 Outlaws."/>
+            <missionstate id="2" description="Kill 18 Outlaws."/>
+            <missionstate id="3" description="Kill 17 Outlaws."/>
+            <missionstate id="4" description="Kill 16 Outlaws."/>
+            <missionstate id="5" description="Kill 15 Outlaws."/>
+            <missionstate id="6" description="Kill 14 Outlaws."/>
+            <missionstate id="7" description="Kill 13 Outlaws."/>
+            <missionstate id="8" description="Kill 12 Outlaws."/>
+            <missionstate id="9" description="Kill 11 Outlaws."/>
+            <missionstate id="10" description="Kill 10 Outlaws."/>
+            <missionstate id="11" description="Kill 9 Outlaws."/>
+            <missionstate id="12" description="Kill 8 Outlaws."/>
+            <missionstate id="13" description="Kill 7 Outlaws."/>
+            <missionstate id="14" description="Kill 6 Outlaws."/>
+            <missionstate id="15" description="Kill 5 Outlaws."/>
+            <missionstate id="16" description="Kill 4 Outlaws."/>
+            <missionstate id="17" description="Kill 3 Outlaws."/>
+            <missionstate id="18" description="Kill 2 Outlaws."/>
+            <missionstate id="19" description="Kill 1 Outlaw."/>
+            <missionstate id="20" description="You got them, ask for your reward."/> 
+            <missionstate id="21" description="Mission Complete."/>   
         </mission>
-        <mission name="2 Wipe the apprentices out!" storageid="2097" startvalue="0" endvalue="11">
-            <missionstate id="0" description="Kill 10 Necromancer Apprentice."/>
-            <missionstate id="1" description="Kill 9 Necromancer Apprentice."/>
-            <missionstate id="2" description="Kill 8 Necromancer Apprentice."/>
-            <missionstate id="3" description="Kill 7 Necromancer Apprentice."/>
-            <missionstate id="4" description="Kill 6 Necromancer Apprentice."/>
-            <missionstate id="5" description="Kill 5 Necromancer Apprentice."/>
-            <missionstate id="6" description="Kill 4 Necromancer Apprentice."/>
-            <missionstate id="7" description="Kill 3 Necromancer Apprentice."/>
-            <missionstate id="8" description="Kill 2 Necromancer Apprentice."/>
+        <mission name="2 Wipe the apprentices out!" storageid="2097" startvalue="0" endvalue="31">
+            <missionstate id="0" description="Kill 30 Necromancer Apprentices."/>
+            <missionstate id="1" description="Kill 29 Necromancer Apprentices."/>
+            <missionstate id="2" description="Kill 28 Necromancer Apprentices."/>
+            <missionstate id="3" description="Kill 27 Necromancer Apprentices."/>
+            <missionstate id="4" description="Kill 26 Necromancer Apprentices."/>
+            <missionstate id="5" description="Kill 25 Necromancer Apprentices."/>
+            <missionstate id="6" description="Kill 24 Necromancer Apprentices."/>
+            <missionstate id="7" description="Kill 23 Necromancer Apprentices."/>
+            <missionstate id="8" description="Kill 22 Necromancer Apprentices."/>
+            <missionstate id="9" description="Kill 21 Necromancer Apprentices."/>
+            <missionstate id="0" description="Kill 20 Necromancer Apprentices."/>
+            <missionstate id="1" description="Kill 19 Necromancer Apprentices."/>
+            <missionstate id="2" description="Kill 18 Necromancer Apprentices."/>
+            <missionstate id="3" description="Kill 17 Necromancer Apprentices."/>
+            <missionstate id="4" description="Kill 16 Necromancer Apprentices."/>
+            <missionstate id="5" description="Kill 15 Necromancer Apprentices."/>
+            <missionstate id="6" description="Kill 14 Necromancer Apprentices."/>
+            <missionstate id="7" description="Kill 13 Necromancer Apprentices."/>
+            <missionstate id="8" description="Kill 12 Necromancer Apprentices."/>
+            <missionstate id="9" description="Kill 11 Necromancer Apprentices."/>
+            <missionstate id="0" description="Kill 10 Necromancer Apprentices."/>
+            <missionstate id="1" description="Kill 9 Necromancer Apprentices."/>
+            <missionstate id="2" description="Kill 8 Necromancer Apprentices."/>
+            <missionstate id="3" description="Kill 7 Necromancer Apprentices."/>
+            <missionstate id="4" description="Kill 6 Necromancer Apprentices."/>
+            <missionstate id="5" description="Kill 5 Necromancer Apprentices."/>
+            <missionstate id="6" description="Kill 4 Necromancer Apprentices."/>
+            <missionstate id="7" description="Kill 3 Necromancer Apprentices."/>
+            <missionstate id="8" description="Kill 2 Necromancer Apprentices."/>
             <missionstate id="9" description="Kill 1 Necromancer Apprentice."/>
             <missionstate id="10" description="You got them, ask for your reward."/> 
             <missionstate id="11" description="Mission Complete."/>   
@@ -820,29 +910,39 @@
             <missionstate id="3" description="Go back to Bregor."/>
             <missionstate id="4" description="Mission Complete."/>   
         </mission>
-        <mission name="4 No more priestesses!" storageid="2099" startvalue="0" endvalue="21">
-            <missionstate id="0" description="Kill 20 Priestesses."/>
-            <missionstate id="1" description="Kill 19 Priestesses."/>
-            <missionstate id="2" description="Kill 18 Priestesses."/>
-            <missionstate id="3" description="Kill 17 Priestesses."/>
-            <missionstate id="4" description="Kill 16 Priestesses."/>
-            <missionstate id="5" description="Kill 15 Priestesses."/>
-            <missionstate id="6" description="Kill 14 Priestesses."/>
-            <missionstate id="7" description="Kill 13 Priestesses."/>
-            <missionstate id="8" description="Kill 12 Priestesses."/>
-            <missionstate id="9" description="Kill 11 Priestesses."/>          
-            <missionstate id="10" description="Kill 10 Priestesses."/>
-            <missionstate id="11" description="Kill 9 Priestesses."/>
-            <missionstate id="12" description="Kill 8 Priestesses."/>
-            <missionstate id="13" description="Kill 7 Priestesses."/>
-            <missionstate id="14" description="Kill 6 Priestesses."/>
-            <missionstate id="15" description="Kill 5 Priestesses."/>
-            <missionstate id="16" description="Kill 4 Priestesses."/>
-            <missionstate id="17" description="Kill 3 Priestesses."/>
-            <missionstate id="18" description="Kill 2 Priestesses."/>
-            <missionstate id="19" description="Kill 1 Priest."/>
-            <missionstate id="20" description="You got them, ask for your reward."/> 
-            <missionstate id="21" description="Mission Complete."/>   
+        <mission name="4 No more priestesses!" storageid="2099" startvalue="0" endvalue="31">
+            <missionstate id="0" description="Kill 30 Priestesses."/>
+            <missionstate id="1" description="Kill 29 Priestesses."/>
+            <missionstate id="2" description="Kill 28 Priestesses."/>
+            <missionstate id="3" description="Kill 27 Priestesses."/>
+            <missionstate id="4" description="Kill 26 Priestesses."/>
+            <missionstate id="5" description="Kill 25 Priestesses."/>
+            <missionstate id="6" description="Kill 24 Priestesses."/>
+            <missionstate id="7" description="Kill 23 Priestesses."/>
+            <missionstate id="8" description="Kill 22 Priestesses."/>
+            <missionstate id="9" description="Kill 21 Priestesses."/>  
+            <missionstate id="10" description="Kill 20 Priestesses."/>
+            <missionstate id="11" description="Kill 19 Priestesses."/>
+            <missionstate id="12" description="Kill 18 Priestesses."/>
+            <missionstate id="13" description="Kill 17 Priestesses."/>
+            <missionstate id="14" description="Kill 16 Priestesses."/>
+            <missionstate id="15" description="Kill 15 Priestesses."/>
+            <missionstate id="16" description="Kill 14 Priestesses."/>
+            <missionstate id="17" description="Kill 13 Priestesses."/>
+            <missionstate id="18" description="Kill 12 Priestesses."/>
+            <missionstate id="19" description="Kill 11 Priestesses."/>          
+            <missionstate id="20" description="Kill 10 Priestesses."/>
+            <missionstate id="21" description="Kill 9 Priestesses."/>
+            <missionstate id="22" description="Kill 8 Priestesses."/>
+            <missionstate id="23" description="Kill 7 Priestesses."/>
+            <missionstate id="24" description="Kill 6 Priestesses."/>
+            <missionstate id="25" description="Kill 5 Priestesses."/>
+            <missionstate id="26" description="Kill 4 Priestesses."/>
+            <missionstate id="27" description="Kill 3 Priestesses."/>
+            <missionstate id="28" description="Kill 2 Priestesses."/>
+            <missionstate id="29" description="Kill 1 Priest."/>
+            <missionstate id="30" description="You got them, ask for your reward."/> 
+            <missionstate id="31" description="Mission Complete."/>   
         </mission>
         <mission name="5 Kill the cultists!" storageid="2100" startvalue="0" endvalue="5">
             <missionstate id="0" description="Kill 4 Elemental Cultists."/>
@@ -854,19 +954,29 @@
         </mission>
     </quest>
     <quest name="Lone Lands Chapter 2" startstorageid="30022" startstoragevalue="21">
-        <mission name="1 Hunting Wargs" storageid="2106" startvalue="0" endvalue="11">
-            <missionstate id="0" description="Kill 10 Warg Wolves."/>
-            <missionstate id="1" description="Kill 9 Warg Wolves."/>
-            <missionstate id="2" description="Kill 8 Warg Wolves."/>
-            <missionstate id="3" description="Kill 7 Warg Wolves."/>
-            <missionstate id="4" description="Kill 6 Warg Wolves."/>
-            <missionstate id="5" description="Kill 5 Warg Wolves."/>
-            <missionstate id="6" description="Kill 4 Warg Wolves."/>
-            <missionstate id="7" description="Kill 3 Warg Wolves."/>
-            <missionstate id="8" description="Kill 2 Warg Wolves."/>
-            <missionstate id="9" description="Kill 1 Warg Wolf."/>
-            <missionstate id="10" description="You got them, ask for your reward."/> 
-            <missionstate id="11" description="Mission Complete."/>   
+        <mission name="1 Hunting Wargs" storageid="2106" startvalue="0" endvalue="21">
+            <missionstate id="0" description="Kill 20 Warg Wolves."/>
+            <missionstate id="1" description="Kill 19 Warg Wolves."/>
+            <missionstate id="2" description="Kill 18 Warg Wolves."/>
+            <missionstate id="3" description="Kill 17 Warg Wolves."/>
+            <missionstate id="4" description="Kill 16 Warg Wolves."/>
+            <missionstate id="5" description="Kill 15 Warg Wolves."/>
+            <missionstate id="6" description="Kill 14 Warg Wolves."/>
+            <missionstate id="7" description="Kill 13 Warg Wolves."/>
+            <missionstate id="8" description="Kill 12 Warg Wolves."/>
+            <missionstate id="9" description="Kill 11 Warg Wolves."/>
+            <missionstate id="10" description="Kill 10 Warg Wolves."/>
+            <missionstate id="11" description="Kill 9 Warg Wolves."/>
+            <missionstate id="12" description="Kill 8 Warg Wolves."/>
+            <missionstate id="13" description="Kill 7 Warg Wolves."/>
+            <missionstate id="14" description="Kill 6 Warg Wolves."/>
+            <missionstate id="15" description="Kill 5 Warg Wolves."/>
+            <missionstate id="16" description="Kill 4 Warg Wolves."/>
+            <missionstate id="17" description="Kill 3 Warg Wolves."/>
+            <missionstate id="18" description="Kill 2 Warg Wolves."/>
+            <missionstate id="19" description="Kill 1 Warg Wolf."/>
+            <missionstate id="20" description="You got them, ask for your reward."/> 
+            <missionstate id="21" description="Mission Complete."/>   
         </mission>
         <mission name="2 Look for Information" storageid="2107" startvalue="0" endvalue="4">
             <missionstate id="0" description="Look for Eranuir, the spy of Arador."/>
@@ -959,211 +1069,481 @@
         </mission>
     </quest>
     <quest name="Adventurers Guild Initiation" startstorageid="30025" startstoragevalue="24">
-        <mission name="Hunting Cave Rats" storageid="2119" startvalue="0" endvalue="21">
-           <missionstate id="0" description="Kill 20 Cave Rats."/>
-            <missionstate id="1" description="Kill 19 Cave Rats."/>
-            <missionstate id="2" description="Kill 18 Cave Rats."/>
-            <missionstate id="3" description="Kill 17 Cave Rats."/>
-            <missionstate id="4" description="Kill 16 Cave Rats."/>
-            <missionstate id="5" description="Kill 15 Cave Rats."/>
-            <missionstate id="6" description="Kill 14 Cave Rats."/>
-            <missionstate id="7" description="Kill 13 Cave Rats."/>
-            <missionstate id="8" description="Kill 12 Cave Rats."/>
-            <missionstate id="9" description="Kill 11 Cave Rats."/>          
-            <missionstate id="10" description="Kill 10 Cave Rats."/>
-            <missionstate id="11" description="Kill 9 Cave Rats."/>
-            <missionstate id="12" description="Kill 8 Cave Rats."/>
-            <missionstate id="13" description="Kill 7 Cave Rats."/>
-            <missionstate id="14" description="Kill 6 Cave Rats."/>
-            <missionstate id="15" description="Kill 5 Cave Rats."/>
-            <missionstate id="16" description="Kill 4 Cave Rats."/>
-            <missionstate id="17" description="Kill 3 Cave Rats."/>
-            <missionstate id="18" description="Kill 2 Cave Rats."/>
-            <missionstate id="19" description="Kill 1 Cave Rat."/>
-            <missionstate id="20" description="You got them, ask for your reward."/> 
-            <missionstate id="21" description="Mission Complete."/>   
+        <mission name="Hunting Cave Rats" storageid="2119" startvalue="0" endvalue="51">
+            <missionstate id="0" description="Kill 50 Cave Rats."/>
+            <missionstate id="1" description="Kill 49 Cave Rats."/>
+            <missionstate id="2" description="Kill 48 Cave Rats."/>
+            <missionstate id="3" description="Kill 47 Cave Rats."/>
+            <missionstate id="4" description="Kill 46 Cave Rats."/>
+            <missionstate id="5" description="Kill 45 Cave Rats."/>
+            <missionstate id="6" description="Kill 44 Cave Rats."/>
+            <missionstate id="7" description="Kill 43 Cave Rats."/>
+            <missionstate id="8" description="Kill 42 Cave Rats."/>
+            <missionstate id="9" description="Kill 41 Cave Rats."/> 
+            <missionstate id="10" description="Kill 40 Cave Rats."/>
+            <missionstate id="11" description="Kill 39 Cave Rats."/>
+            <missionstate id="12" description="Kill 38 Cave Rats."/>
+            <missionstate id="13" description="Kill 37 Cave Rats."/>
+            <missionstate id="14" description="Kill 36 Cave Rats."/>
+            <missionstate id="15" description="Kill 35 Cave Rats."/>
+            <missionstate id="16" description="Kill 34 Cave Rats."/>
+            <missionstate id="17" description="Kill 33 Cave Rats."/>
+            <missionstate id="18" description="Kill 32 Cave Rats."/>
+            <missionstate id="19" description="Kill 31 Cave Rats."/>          
+            <missionstate id="20" description="Kill 30 Cave Rats."/>
+            <missionstate id="21" description="Kill 29 Cave Rats."/>
+            <missionstate id="22" description="Kill 28 Cave Rats."/>
+            <missionstate id="23" description="Kill 27 Cave Rats."/>
+            <missionstate id="24" description="Kill 26 Cave Rats."/>
+            <missionstate id="25" description="Kill 25 Cave Rats."/>
+            <missionstate id="26" description="Kill 24 Cave Rats."/>
+            <missionstate id="27" description="Kill 23 Cave Rats."/>
+            <missionstate id="28" description="Kill 22 Cave Rats."/>
+            <missionstate id="29" description="Kill 21 Cave Rat."/>
+            <missionstate id="30" description="Kill 20 Cave Rats."/>
+            <missionstate id="31" description="Kill 19 Cave Rats."/>
+            <missionstate id="32" description="Kill 18 Cave Rats."/>
+            <missionstate id="33" description="Kill 17 Cave Rats."/>
+            <missionstate id="34" description="Kill 16 Cave Rats."/>
+            <missionstate id="35" description="Kill 15 Cave Rats."/>
+            <missionstate id="36" description="Kill 14 Cave Rats."/>
+            <missionstate id="37" description="Kill 13 Cave Rats."/>
+            <missionstate id="38" description="Kill 12 Cave Rats."/>
+            <missionstate id="39" description="Kill 11 Cave Rats."/>          
+            <missionstate id="40" description="Kill 10 Cave Rats."/>
+            <missionstate id="41" description="Kill 9 Cave Rats."/>
+            <missionstate id="42" description="Kill 8 Cave Rats."/>
+            <missionstate id="43" description="Kill 7 Cave Rats."/>
+            <missionstate id="44" description="Kill 6 Cave Rats."/>
+            <missionstate id="45" description="Kill 5 Cave Rats."/>
+            <missionstate id="46" description="Kill 4 Cave Rats."/>
+            <missionstate id="47" description="Kill 3 Cave Rats."/>
+            <missionstate id="48" description="Kill 2 Cave Rats."/>
+            <missionstate id="49" description="Kill 1 Cave Rat."/>
+            <missionstate id="50" description="You got them, ask for your reward."/> 
+            <missionstate id="51" description="Mission Complete."/>   
         </mission>
-        <mission name="Hunting Wolves" storageid="2120" startvalue="0" endvalue="21">
-           <missionstate id="0" description="Kill 20 Wolves."/>
-            <missionstate id="1" description="Kill 19 Wolves."/>
-            <missionstate id="2" description="Kill 18 Wolves."/>
-            <missionstate id="3" description="Kill 17 Wolves."/>
-            <missionstate id="4" description="Kill 16 Wolves."/>
-            <missionstate id="5" description="Kill 15 Wolves."/>
-            <missionstate id="6" description="Kill 14 Wolves."/>
-            <missionstate id="7" description="Kill 13 Wolves."/>
-            <missionstate id="8" description="Kill 12 Wolves."/>
-            <missionstate id="9" description="Kill 11 Wolves."/>          
-            <missionstate id="10" description="Kill 10 Wolves."/>
-            <missionstate id="11" description="Kill 9 Wolves."/>
-            <missionstate id="12" description="Kill 8 Wolves."/>
-            <missionstate id="13" description="Kill 7 Wolves."/>
-            <missionstate id="14" description="Kill 6 Wolves."/>
-            <missionstate id="15" description="Kill 5 Wolves."/>
-            <missionstate id="16" description="Kill 4 Wolves."/>
-            <missionstate id="17" description="Kill 3 Wolves."/>
-            <missionstate id="18" description="Kill 2 Wolves."/>
-            <missionstate id="19" description="Kill 1 Wolf."/>
-            <missionstate id="20" description="You got them, ask for your reward."/> 
-            <missionstate id="21" description="Mission Complete."/>   
+        <mission name="Hunting Wolves" storageid="2120" startvalue="0" endvalue="51">
+            <missionstate id="0" description="Kill 50 Wolves."/>
+            <missionstate id="1" description="Kill 49 Wolves."/>
+            <missionstate id="2" description="Kill 48 Wolves."/>
+            <missionstate id="3" description="Kill 47 Wolves."/>
+            <missionstate id="4" description="Kill 46 Wolves."/>
+            <missionstate id="5" description="Kill 45 Wolves."/>
+            <missionstate id="6" description="Kill 44 Wolves."/>
+            <missionstate id="7" description="Kill 43 Wolves."/>
+            <missionstate id="8" description="Kill 42 Wolves."/>
+            <missionstate id="9" description="Kill 41 Wolves."/> 
+            <missionstate id="10" description="Kill 40 Wolves."/>
+            <missionstate id="11" description="Kill 39 Wolves."/>
+            <missionstate id="12" description="Kill 38 Wolves."/>
+            <missionstate id="13" description="Kill 37 Wolves."/>
+            <missionstate id="14" description="Kill 36 Wolves."/>
+            <missionstate id="15" description="Kill 35 Wolves."/>
+            <missionstate id="16" description="Kill 34 Wolves."/>
+            <missionstate id="17" description="Kill 33 Wolves."/>
+            <missionstate id="18" description="Kill 32 Wolves."/>
+            <missionstate id="19" description="Kill 31 Wolves."/>          
+            <missionstate id="20" description="Kill 30 Wolves."/>
+            <missionstate id="21" description="Kill 29 Wolves."/>
+            <missionstate id="22" description="Kill 28 Wolves."/>
+            <missionstate id="23" description="Kill 27 Wolves."/>
+            <missionstate id="24" description="Kill 26 Wolves."/>
+            <missionstate id="25" description="Kill 25 Wolves."/>
+            <missionstate id="26" description="Kill 24 Wolves."/>
+            <missionstate id="27" description="Kill 23 Wolves."/>
+            <missionstate id="28" description="Kill 22 Wolves."/>
+            <missionstate id="29" description="Kill 21 Wolves."/>
+            <missionstate id="30" description="Kill 20 Wolves."/>
+            <missionstate id="31" description="Kill 19 Wolves."/>
+            <missionstate id="32" description="Kill 18 Wolves."/>
+            <missionstate id="33" description="Kill 17 Wolves."/>
+            <missionstate id="34" description="Kill 16 Wolves."/>
+            <missionstate id="35" description="Kill 15 Wolves."/>
+            <missionstate id="36" description="Kill 14 Wolves."/>
+            <missionstate id="37" description="Kill 13 Wolves."/>
+            <missionstate id="38" description="Kill 12 Wolves."/>
+            <missionstate id="39" description="Kill 11 Wolves."/>          
+            <missionstate id="40" description="Kill 10 Wolves."/>
+            <missionstate id="41" description="Kill 9 Wolves."/>
+            <missionstate id="42" description="Kill 8 Wolves."/>
+            <missionstate id="43" description="Kill 7 Wolves."/>
+            <missionstate id="44" description="Kill 6 Wolves."/>
+            <missionstate id="45" description="Kill 5 Wolves."/>
+            <missionstate id="46" description="Kill 4 Wolves."/>
+            <missionstate id="47" description="Kill 3 Wolves."/>
+            <missionstate id="48" description="Kill 2 Wolves."/>
+            <missionstate id="49" description="Kill 1 Wolf."/>
+            <missionstate id="50" description="You got them, ask for your reward."/> 
+            <missionstate id="51" description="Mission Complete."/>   
         </mission>
-        <mission name="Hunting Bears" storageid="2121" startvalue="0" endvalue="21">
-           <missionstate id="0" description="Kill 20 Bears."/>
-            <missionstate id="1" description="Kill 19 Bears."/>
-            <missionstate id="2" description="Kill 18 Bears."/>
-            <missionstate id="3" description="Kill 17 Bears."/>
-            <missionstate id="4" description="Kill 16 Bears."/>
-            <missionstate id="5" description="Kill 15 Bears."/>
-            <missionstate id="6" description="Kill 14 Bears."/>
-            <missionstate id="7" description="Kill 13 Bears."/>
-            <missionstate id="8" description="Kill 12 Bears."/>
-            <missionstate id="9" description="Kill 11 Bears."/>          
-            <missionstate id="10" description="Kill 10 Bears."/>
-            <missionstate id="11" description="Kill 9 Bears."/>
-            <missionstate id="12" description="Kill 8 Bears."/>
-            <missionstate id="13" description="Kill 7 Bears."/>
-            <missionstate id="14" description="Kill 6 Bears."/>
-            <missionstate id="15" description="Kill 5 Bears."/>
-            <missionstate id="16" description="Kill 4 Bears."/>
-            <missionstate id="17" description="Kill 3 Bears."/>
-            <missionstate id="18" description="Kill 2 Bears."/>
-            <missionstate id="19" description="Kill 1 Bear."/>
-            <missionstate id="20" description="You got them, ask for your reward."/> 
-            <missionstate id="21" description="Mission Complete."/>   
+        <mission name="Hunting Bears" storageid="2121" startvalue="0" endvalue="51">
+            <missionstate id="0" description="Kill 50 Bears."/>
+            <missionstate id="1" description="Kill 49 Bears."/>
+            <missionstate id="2" description="Kill 48 Bears."/>
+            <missionstate id="3" description="Kill 47 Bears."/>
+            <missionstate id="4" description="Kill 46 Bears."/>
+            <missionstate id="5" description="Kill 45 Bears."/>
+            <missionstate id="6" description="Kill 44 Bears."/>
+            <missionstate id="7" description="Kill 43 Bears."/>
+            <missionstate id="8" description="Kill 42 Bears."/>
+            <missionstate id="9" description="Kill 41 Bears."/>  
+            <missionstate id="10" description="Kill 40 Bears."/>
+            <missionstate id="11" description="Kill 39 Bears."/>
+            <missionstate id="12" description="Kill 38 Bears."/>
+            <missionstate id="13" description="Kill 37 Bears."/>
+            <missionstate id="14" description="Kill 36 Bears."/>
+            <missionstate id="15" description="Kill 35 Bears."/>
+            <missionstate id="16" description="Kill 34 Bears."/>
+            <missionstate id="17" description="Kill 33 Bears."/>
+            <missionstate id="18" description="Kill 32 Bears."/>
+            <missionstate id="19" description="Kill 31 Bears."/>          
+            <missionstate id="20" description="Kill 30 Bears."/>
+            <missionstate id="21" description="Kill 29 Bears."/>
+            <missionstate id="22" description="Kill 28 Bears."/>
+            <missionstate id="23" description="Kill 27 Bears."/>
+            <missionstate id="24" description="Kill 26 Bears."/>
+            <missionstate id="25" description="Kill 25 Bears."/>
+            <missionstate id="26" description="Kill 24 Bears."/>
+            <missionstate id="27" description="Kill 23 Bears."/>
+            <missionstate id="28" description="Kill 22 Bears."/>
+            <missionstate id="29" description="Kill 21 Bear."/>
+            <missionstate id="30" description="Kill 20 Bears."/>
+            <missionstate id="31" description="Kill 19 Bears."/>
+            <missionstate id="32" description="Kill 18 Bears."/>
+            <missionstate id="33" description="Kill 17 Bears."/>
+            <missionstate id="34" description="Kill 16 Bears."/>
+            <missionstate id="35" description="Kill 15 Bears."/>
+            <missionstate id="36" description="Kill 14 Bears."/>
+            <missionstate id="37" description="Kill 13 Bears."/>
+            <missionstate id="38" description="Kill 12 Bears."/>
+            <missionstate id="39" description="Kill 11 Bears."/>          
+            <missionstate id="40" description="Kill 10 Bears."/>
+            <missionstate id="41" description="Kill 9 Bears."/>
+            <missionstate id="42" description="Kill 8 Bears."/>
+            <missionstate id="43" description="Kill 7 Bears."/>
+            <missionstate id="44" description="Kill 6 Bears."/>
+            <missionstate id="45" description="Kill 5 Bears."/>
+            <missionstate id="46" description="Kill 4 Bears."/>
+            <missionstate id="47" description="Kill 3 Bears."/>
+            <missionstate id="48" description="Kill 2 Bears."/>
+            <missionstate id="49" description="Kill 1 Bear."/>
+            <missionstate id="50" description="You got them, ask for your reward."/> 
+            <missionstate id="51" description="Mission Complete."/>   
         </mission>
     </quest>    
     <quest name="Adventurers Guild Bree: Hunting" startstorageid="30026" startstoragevalue="25">
-        <mission name="Hunting Great Bears" storageid="2122" startvalue="0" endvalue="41">
-            <missionstate id="0" description="Kill 40 Great Bears."/>
-            <missionstate id="1" description="Kill 39 Great Bears."/>
-            <missionstate id="2" description="Kill 38 Great Bears."/>
-            <missionstate id="3" description="Kill 37 Great Bears."/>
-            <missionstate id="4" description="Kill 36 Great Bears."/>
-            <missionstate id="5" description="Kill 35 Great Bears."/>
-            <missionstate id="6" description="Kill 34 Great Bears."/>
-            <missionstate id="7" description="Kill 33 Great Bears."/>
-            <missionstate id="8" description="Kill 32 Great Bears."/>
-            <missionstate id="9" description="Kill 31 Great Bears."/>          
-            <missionstate id="10" description="Kill 30 Great Bears."/>
-            <missionstate id="11" description="Kill 29 Great Bears."/>
-            <missionstate id="12" description="Kill 28 Great Bears."/>
-            <missionstate id="13" description="Kill 27 Great Bears."/>
-            <missionstate id="14" description="Kill 26 Great Bears."/>
-            <missionstate id="15" description="Kill 25 Great Bears."/>
-            <missionstate id="16" description="Kill 24 Great Bears."/>
-            <missionstate id="17" description="Kill 23 Great Bears."/>
-            <missionstate id="18" description="Kill 22 Great Bears."/>
-            <missionstate id="19" description="Kill 21 Great Bears"/>           
-            <missionstate id="20" description="Kill 20 Great Bears."/>
-            <missionstate id="21" description="Kill 19 Great Bears."/>
-            <missionstate id="22" description="Kill 18 Great Bears."/>
-            <missionstate id="23" description="Kill 17 Great Bears."/>
-            <missionstate id="24" description="Kill 16 Great Bears."/>
-            <missionstate id="25" description="Kill 15 Great Bears."/>
-            <missionstate id="26" description="Kill 14 Great Bears."/>
-            <missionstate id="27" description="Kill 13 Great Bears."/>
-            <missionstate id="28" description="Kill 12 Great Bears."/>
-            <missionstate id="29" description="Kill 11 Great Bears."/>          
-            <missionstate id="30" description="Kill 10 Great Bears."/>
-            <missionstate id="31" description="Kill 9 Great Bears."/>
-            <missionstate id="32" description="Kill 8 Great Bears."/>
-            <missionstate id="33" description="Kill 7 Great Bears."/>
-            <missionstate id="34" description="Kill 6 Great Bears."/>
-            <missionstate id="35" description="Kill 5 Great Bears."/>
-            <missionstate id="36" description="Kill 4 Great Bears."/>
-            <missionstate id="37" description="Kill 3 Great Bears."/>
-            <missionstate id="38" description="Kill 2 Great Bears."/>
-            <missionstate id="39" description="Kill 1 Great Bear."/>
-            <missionstate id="40" description="You got them, ask for your reward."/> 
-            <missionstate id="41" description="Mission Complete."/>   
+        <mission name="Hunting Great Bears" storageid="2122" startvalue="0" endvalue="101">
+            <missionstate id="0" description="Kill 100 Great Bears."/>
+            <missionstate id="1" description="Kill 99 Great Bears."/>
+            <missionstate id="2" description="Kill 98 Great Bears."/>
+            <missionstate id="3" description="Kill 97 Great Bears."/>
+            <missionstate id="4" description="Kill 96 Great Bears."/>
+            <missionstate id="5" description="Kill 95 Great Bears."/>
+            <missionstate id="6" description="Kill 94 Great Bears."/>
+            <missionstate id="7" description="Kill 93 Great Bears."/>
+            <missionstate id="8" description="Kill 92 Great Bears."/>
+            <missionstate id="9" description="Kill 91 Great Bears."/>          
+            <missionstate id="10" description="Kill 90 Great Bears."/>
+            <missionstate id="11" description="Kill 89 Great Bears."/>
+            <missionstate id="12" description="Kill 88 Great Bears."/>
+            <missionstate id="13" description="Kill 87 Great Bears."/>
+            <missionstate id="14" description="Kill 86 Great Bears."/>
+            <missionstate id="15" description="Kill 85 Great Bears."/>
+            <missionstate id="16" description="Kill 84 Great Bears."/>
+            <missionstate id="17" description="Kill 83 Great Bears."/>
+            <missionstate id="18" description="Kill 82 Great Bears."/>
+            <missionstate id="19" description="Kill 81 Great Bears"/>  
+            <missionstate id="20" description="Kill 80 Great Bears."/>
+            <missionstate id="21" description="Kill 79 Great Bears."/>
+            <missionstate id="22" description="Kill 78 Great Bears."/>
+            <missionstate id="23" description="Kill 77 Great Bears."/>
+            <missionstate id="24" description="Kill 76 Great Bears."/>
+            <missionstate id="25" description="Kill 75 Great Bears."/>
+            <missionstate id="26" description="Kill 74 Great Bears."/>
+            <missionstate id="27" description="Kill 73 Great Bears."/>
+            <missionstate id="28" description="Kill 72 Great Bears."/>
+            <missionstate id="29" description="Kill 71 Great Bears."/>          
+            <missionstate id="30" description="Kill 70 Great Bears."/>
+            <missionstate id="31" description="Kill 69 Great Bears."/>
+            <missionstate id="32" description="Kill 68 Great Bears."/>
+            <missionstate id="33" description="Kill 67 Great Bears."/>
+            <missionstate id="34" description="Kill 66 Great Bears."/>
+            <missionstate id="35" description="Kill 65 Great Bears."/>
+            <missionstate id="36" description="Kill 64 Great Bears."/>
+            <missionstate id="37" description="Kill 63 Great Bears."/>
+            <missionstate id="38" description="Kill 62 Great Bears."/>
+            <missionstate id="39" description="Kill 61 Great Bears"/>           
+            <missionstate id="40" description="Kill 60 Great Bears."/>
+            <missionstate id="41" description="Kill 59 Great Bears."/>
+            <missionstate id="42" description="Kill 58 Great Bears."/>
+            <missionstate id="43" description="Kill 57 Great Bears."/>
+            <missionstate id="44" description="Kill 56 Great Bears."/>
+            <missionstate id="45" description="Kill 55 Great Bears."/>
+            <missionstate id="46" description="Kill 54 Great Bears."/>
+            <missionstate id="47" description="Kill 53 Great Bears."/>
+            <missionstate id="48" description="Kill 52 Great Bears."/>
+            <missionstate id="49" description="Kill 51 Great Bears."/>          
+            <missionstate id="50" description="Kill 50 Great Bears."/>
+            <missionstate id="51" description="Kill 49 Great Bears."/>
+            <missionstate id="52" description="Kill 48 Great Bears."/>
+            <missionstate id="53" description="Kill 47 Great Bears."/>
+            <missionstate id="54" description="Kill 46 Great Bears."/>
+            <missionstate id="55" description="Kill 45 Great Bears."/>
+            <missionstate id="56" description="Kill 44 Great Bears."/>
+            <missionstate id="57" description="Kill 43 Great Bears."/>
+            <missionstate id="58" description="Kill 42 Great Bears."/>
+            <missionstate id="59" description="Kill 41 Great Bears."/>
+            <missionstate id="60" description="Kill 40 Great Bears."/>
+            <missionstate id="61" description="Kill 39 Great Bears."/>
+            <missionstate id="62" description="Kill 38 Great Bears."/>
+            <missionstate id="63" description="Kill 37 Great Bears."/>
+            <missionstate id="64" description="Kill 36 Great Bears."/>
+            <missionstate id="65" description="Kill 35 Great Bears."/>
+            <missionstate id="66" description="Kill 34 Great Bears."/>
+            <missionstate id="67" description="Kill 33 Great Bears."/>
+            <missionstate id="68" description="Kill 32 Great Bears."/>
+            <missionstate id="69" description="Kill 31 Great Bears."/>          
+            <missionstate id="70" description="Kill 30 Great Bears."/>
+            <missionstate id="71" description="Kill 29 Great Bears."/>
+            <missionstate id="72" description="Kill 28 Great Bears."/>
+            <missionstate id="73" description="Kill 27 Great Bears."/>
+            <missionstate id="74" description="Kill 26 Great Bears."/>
+            <missionstate id="75" description="Kill 25 Great Bears."/>
+            <missionstate id="76" description="Kill 24 Great Bears."/>
+            <missionstate id="77" description="Kill 23 Great Bears."/>
+            <missionstate id="78" description="Kill 22 Great Bears."/>
+            <missionstate id="79" description="Kill 21 Great Bears"/>           
+            <missionstate id="80" description="Kill 20 Great Bears."/>
+            <missionstate id="81" description="Kill 19 Great Bears."/>
+            <missionstate id="82" description="Kill 18 Great Bears."/>
+            <missionstate id="83" description="Kill 17 Great Bears."/>
+            <missionstate id="84" description="Kill 16 Great Bears."/>
+            <missionstate id="85" description="Kill 15 Great Bears."/>
+            <missionstate id="86" description="Kill 14 Great Bears."/>
+            <missionstate id="87" description="Kill 13 Great Bears."/>
+            <missionstate id="88" description="Kill 12 Great Bears."/>
+            <missionstate id="89" description="Kill 11 Great Bears."/>          
+            <missionstate id="90" description="Kill 10 Great Bears."/>
+            <missionstate id="91" description="Kill 9 Great Bears."/>
+            <missionstate id="92" description="Kill 8 Great Bears."/>
+            <missionstate id="93" description="Kill 7 Great Bears."/>
+            <missionstate id="94" description="Kill 6 Great Bears."/>
+            <missionstate id="95" description="Kill 5 Great Bears."/>
+            <missionstate id="96" description="Kill 4 Great Bears."/>
+            <missionstate id="97" description="Kill 3 Great Bears."/>
+            <missionstate id="98" description="Kill 2 Great Bears."/>
+            <missionstate id="99" description="Kill 1 Great Bear."/>
+            <missionstate id="100" description="You got them, ask for your reward."/> 
+            <missionstate id="101" description="Mission Complete."/>   
         </mission>
-        <mission name="Hunting Tarantulas" storageid="2123" startvalue="0" endvalue="41">
-            <missionstate id="0" description="Kill 40 Tarantulas."/>
-            <missionstate id="1" description="Kill 39 Tarantulas."/>
-            <missionstate id="2" description="Kill 38 Tarantulas."/>
-            <missionstate id="3" description="Kill 37 Tarantulas."/>
-            <missionstate id="4" description="Kill 36 Tarantulas."/>
-            <missionstate id="5" description="Kill 35 Tarantulas."/>
-            <missionstate id="6" description="Kill 34 Tarantulas."/>
-            <missionstate id="7" description="Kill 33 Tarantulas."/>
-            <missionstate id="8" description="Kill 32 Tarantulas."/>
-            <missionstate id="9" description="Kill 31 Tarantulas."/>          
-            <missionstate id="10" description="Kill 30 Tarantulas."/>
-            <missionstate id="11" description="Kill 29 Tarantulas."/>
-            <missionstate id="12" description="Kill 28 Tarantulas."/>
-            <missionstate id="13" description="Kill 27 Tarantulas."/>
-            <missionstate id="14" description="Kill 26 Tarantulas."/>
-            <missionstate id="15" description="Kill 25 Tarantulas."/>
-            <missionstate id="16" description="Kill 24 Tarantulas."/>
-            <missionstate id="17" description="Kill 23 Tarantulas."/>
-            <missionstate id="18" description="Kill 22 Tarantulas."/>
-            <missionstate id="19" description="Kill 21 Tarantulas"/>           
-            <missionstate id="20" description="Kill 20 Tarantulas."/>
-            <missionstate id="21" description="Kill 19 Tarantulas."/>
-            <missionstate id="22" description="Kill 18 Tarantulas."/>
-            <missionstate id="23" description="Kill 17 Tarantulas."/>
-            <missionstate id="24" description="Kill 16 Tarantulas."/>
-            <missionstate id="25" description="Kill 15 Tarantulas."/>
-            <missionstate id="26" description="Kill 14 Tarantulas."/>
-            <missionstate id="27" description="Kill 13 Tarantulas."/>
-            <missionstate id="28" description="Kill 12 Tarantulas."/>
-            <missionstate id="29" description="Kill 11 Tarantulas."/>          
-            <missionstate id="30" description="Kill 10 Tarantulas."/>
-            <missionstate id="31" description="Kill 9 Tarantulas."/>
-            <missionstate id="32" description="Kill 8 Tarantulas."/>
-            <missionstate id="33" description="Kill 7 Tarantulas."/>
-            <missionstate id="34" description="Kill 6 Tarantulas."/>
-            <missionstate id="35" description="Kill 5 Tarantulas."/>
-            <missionstate id="36" description="Kill 4 Tarantulas."/>
-            <missionstate id="37" description="Kill 3 Tarantulas."/>
-            <missionstate id="38" description="Kill 2 Tarantulas."/>
-            <missionstate id="39" description="Kill 1 Tarantula."/>
-            <missionstate id="40" description="You got them, ask for your reward."/> 
-            <missionstate id="41" description="Mission Complete."/>   
+        <mission name="Hunting Tarantulas" storageid="2123" startvalue="0" endvalue="101">
+            <missionstate id="0" description="Kill 100 Tarantulas."/>
+            <missionstate id="1" description="Kill 99 Tarantulas."/>
+            <missionstate id="2" description="Kill 98 Tarantulas."/>
+            <missionstate id="3" description="Kill 97 Tarantulas."/>
+            <missionstate id="4" description="Kill 96 Tarantulas."/>
+            <missionstate id="5" description="Kill 95 Tarantulas."/>
+            <missionstate id="6" description="Kill 94 Tarantulas."/>
+            <missionstate id="7" description="Kill 93 Tarantulas."/>
+            <missionstate id="8" description="Kill 92 Tarantulas."/>
+            <missionstate id="9" description="Kill 91 Tarantulas."/>          
+            <missionstate id="10" description="Kill 90 Tarantulas."/>
+            <missionstate id="11" description="Kill 89 Tarantulas."/>
+            <missionstate id="12" description="Kill 88 Tarantulas."/>
+            <missionstate id="13" description="Kill 87 Tarantulas."/>
+            <missionstate id="14" description="Kill 86 Tarantulas."/>
+            <missionstate id="15" description="Kill 85 Tarantulas."/>
+            <missionstate id="16" description="Kill 84 Tarantulas."/>
+            <missionstate id="17" description="Kill 83 Tarantulas."/>
+            <missionstate id="18" description="Kill 82 Tarantulas."/>
+            <missionstate id="19" description="Kill 81 Tarantulas"/> 
+            <missionstate id="20" description="Kill 80 Tarantulas."/>
+            <missionstate id="21" description="Kill 79 Tarantulas."/>
+            <missionstate id="22" description="Kill 78 Tarantulas."/>
+            <missionstate id="23" description="Kill 77 Tarantulas."/>
+            <missionstate id="24" description="Kill 76 Tarantulas."/>
+            <missionstate id="25" description="Kill 75 Tarantulas."/>
+            <missionstate id="26" description="Kill 74 Tarantulas."/>
+            <missionstate id="27" description="Kill 73 Tarantulas."/>
+            <missionstate id="28" description="Kill 72 Tarantulas."/>
+            <missionstate id="29" description="Kill 71 Tarantulas."/>          
+            <missionstate id="30" description="Kill 70 Tarantulas."/>
+            <missionstate id="31" description="Kill 69 Tarantulas."/>
+            <missionstate id="32" description="Kill 68 Tarantulas."/>
+            <missionstate id="33" description="Kill 67 Tarantulas."/>
+            <missionstate id="34" description="Kill 66 Tarantulas."/>
+            <missionstate id="35" description="Kill 65 Tarantulas."/>
+            <missionstate id="36" description="Kill 64 Tarantulas."/>
+            <missionstate id="37" description="Kill 63 Tarantulas."/>
+            <missionstate id="38" description="Kill 62 Tarantulas."/>
+            <missionstate id="39" description="Kill 61 Tarantulas"/>           
+            <missionstate id="40" description="Kill 60 Tarantulas."/>
+            <missionstate id="41" description="Kill 59 Tarantulas."/>
+            <missionstate id="42" description="Kill 58 Tarantulas."/>
+            <missionstate id="43" description="Kill 57 Tarantulas."/>
+            <missionstate id="44" description="Kill 56 Tarantulas."/>
+            <missionstate id="45" description="Kill 55 Tarantulas."/>
+            <missionstate id="46" description="Kill 54 Tarantulas."/>
+            <missionstate id="47" description="Kill 53 Tarantulas."/>
+            <missionstate id="48" description="Kill 52 Tarantulas."/>
+            <missionstate id="49" description="Kill 51 Tarantulas."/>          
+            <missionstate id="50" description="Kill 50 Tarantulas."/>
+            <missionstate id="51" description="Kill 49 Tarantulas."/>
+            <missionstate id="52" description="Kill 48 Tarantulas."/>
+            <missionstate id="53" description="Kill 47 Tarantulas."/>
+            <missionstate id="54" description="Kill 46 Tarantulas."/>
+            <missionstate id="55" description="Kill 45 Tarantulas."/>
+            <missionstate id="56" description="Kill 44 Tarantulas."/>
+            <missionstate id="57" description="Kill 43 Tarantulas."/>
+            <missionstate id="58" description="Kill 42 Tarantulas."/>
+            <missionstate id="59" description="Kill 41 Tarantulas."/>
+            <missionstate id="60" description="Kill 40 Tarantulas."/>
+            <missionstate id="61" description="Kill 39 Tarantulas."/>
+            <missionstate id="62" description="Kill 38 Tarantulas."/>
+            <missionstate id="63" description="Kill 37 Tarantulas."/>
+            <missionstate id="64" description="Kill 36 Tarantulas."/>
+            <missionstate id="65" description="Kill 35 Tarantulas."/>
+            <missionstate id="66" description="Kill 34 Tarantulas."/>
+            <missionstate id="67" description="Kill 33 Tarantulas."/>
+            <missionstate id="68" description="Kill 32 Tarantulas."/>
+            <missionstate id="69" description="Kill 31 Tarantulas."/>          
+            <missionstate id="70" description="Kill 30 Tarantulas."/>
+            <missionstate id="71" description="Kill 29 Tarantulas."/>
+            <missionstate id="72" description="Kill 28 Tarantulas."/>
+            <missionstate id="73" description="Kill 27 Tarantulas."/>
+            <missionstate id="74" description="Kill 26 Tarantulas."/>
+            <missionstate id="75" description="Kill 25 Tarantulas."/>
+            <missionstate id="76" description="Kill 24 Tarantulas."/>
+            <missionstate id="77" description="Kill 23 Tarantulas."/>
+            <missionstate id="78" description="Kill 22 Tarantulas."/>
+            <missionstate id="79" description="Kill 21 Tarantulas"/>           
+            <missionstate id="80" description="Kill 20 Tarantulas."/>
+            <missionstate id="81" description="Kill 19 Tarantulas."/>
+            <missionstate id="82" description="Kill 18 Tarantulas."/>
+            <missionstate id="83" description="Kill 17 Tarantulas."/>
+            <missionstate id="84" description="Kill 16 Tarantulas."/>
+            <missionstate id="85" description="Kill 15 Tarantulas."/>
+            <missionstate id="86" description="Kill 14 Tarantulas."/>
+            <missionstate id="87" description="Kill 13 Tarantulas."/>
+            <missionstate id="88" description="Kill 12 Tarantulas."/>
+            <missionstate id="89" description="Kill 11 Tarantulas."/>          
+            <missionstate id="90" description="Kill 10 Tarantulas."/>
+            <missionstate id="91" description="Kill 9 Tarantulas."/>
+            <missionstate id="92" description="Kill 8 Tarantulas."/>
+            <missionstate id="93" description="Kill 7 Tarantulas."/>
+            <missionstate id="94" description="Kill 6 Tarantulas."/>
+            <missionstate id="95" description="Kill 5 Tarantulas."/>
+            <missionstate id="96" description="Kill 4 Tarantulas."/>
+            <missionstate id="97" description="Kill 3 Tarantulas."/>
+            <missionstate id="98" description="Kill 2 Tarantulas."/>
+            <missionstate id="99" description="Kill 1 Tarantula."/>
+            <missionstate id="100" description="You got them, ask for your reward."/> 
+            <missionstate id="101" description="Mission Complete."/>   
         </mission>
-        <mission name="Hunting Fierce Wolves" storageid="2124" startvalue="0" endvalue="41">
-            <missionstate id="0" description="Kill 40 Fierce Wolves."/>
-            <missionstate id="1" description="Kill 39 Fierce Wolves."/>
-            <missionstate id="2" description="Kill 38 Fierce Wolves."/>
-            <missionstate id="3" description="Kill 37 Fierce Wolves."/>
-            <missionstate id="4" description="Kill 36 Fierce Wolves."/>
-            <missionstate id="5" description="Kill 35 Fierce Wolves."/>
-            <missionstate id="6" description="Kill 34 Fierce Wolves."/>
-            <missionstate id="7" description="Kill 33 Fierce Wolves."/>
-            <missionstate id="8" description="Kill 32 Fierce Wolves."/>
-            <missionstate id="9" description="Kill 31 Fierce Wolves."/>          
-            <missionstate id="10" description="Kill 30 Fierce Wolves."/>
-            <missionstate id="11" description="Kill 29 Fierce Wolves."/>
-            <missionstate id="12" description="Kill 28 Fierce Wolves."/>
-            <missionstate id="13" description="Kill 27 Fierce Wolves."/>
-            <missionstate id="14" description="Kill 26 Fierce Wolves."/>
-            <missionstate id="15" description="Kill 25 Fierce Wolves."/>
-            <missionstate id="16" description="Kill 24 Fierce Wolves."/>
-            <missionstate id="17" description="Kill 23 Fierce Wolves."/>
-            <missionstate id="18" description="Kill 22 Fierce Wolves."/>
-            <missionstate id="19" description="Kill 21 Fierce Wolves"/>           
-            <missionstate id="20" description="Kill 20 Fierce Wolves."/>
-            <missionstate id="21" description="Kill 19 Fierce Wolves."/>
-            <missionstate id="22" description="Kill 18 Fierce Wolves."/>
-            <missionstate id="23" description="Kill 17 Fierce Wolves."/>
-            <missionstate id="24" description="Kill 16 Fierce Wolves."/>
-            <missionstate id="25" description="Kill 15 Fierce Wolves."/>
-            <missionstate id="26" description="Kill 14 Fierce Wolves."/>
-            <missionstate id="27" description="Kill 13 Fierce Wolves."/>
-            <missionstate id="28" description="Kill 12 Fierce Wolves."/>
-            <missionstate id="29" description="Kill 11 Fierce Wolves."/>          
-            <missionstate id="30" description="Kill 10 Fierce Wolves."/>
-            <missionstate id="31" description="Kill 9 Fierce Wolves."/>
-            <missionstate id="32" description="Kill 8 Fierce Wolves."/>
-            <missionstate id="33" description="Kill 7 Fierce Wolves."/>
-            <missionstate id="34" description="Kill 6 Fierce Wolves."/>
-            <missionstate id="35" description="Kill 5 Fierce Wolves."/>
-            <missionstate id="36" description="Kill 4 Fierce Wolves."/>
-            <missionstate id="37" description="Kill 3 Fierce Wolves."/>
-            <missionstate id="38" description="Kill 2 Fierce Wolves."/>
-            <missionstate id="39" description="Kill 1 Fierce Wolf."/>
-            <missionstate id="40" description="You got them, ask for your reward."/> 
-            <missionstate id="41" description="Mission Complete."/>  
+        <mission name="Hunting Fierce Wolves" storageid="2124" startvalue="0" endvalue="101">
+            <missionstate id="0" description="Kill 100 Fierce Wolves."/>
+            <missionstate id="1" description="Kill 99 Fierce Wolves."/>
+            <missionstate id="2" description="Kill 98 Fierce Wolves."/>
+            <missionstate id="3" description="Kill 97 Fierce Wolves."/>
+            <missionstate id="4" description="Kill 96 Fierce Wolves."/>
+            <missionstate id="5" description="Kill 95 Fierce Wolves."/>
+            <missionstate id="6" description="Kill 94 Fierce Wolves."/>
+            <missionstate id="7" description="Kill 93 Fierce Wolves."/>
+            <missionstate id="8" description="Kill 92 Fierce Wolves."/>
+            <missionstate id="9" description="Kill 91 Fierce Wolves."/>          
+            <missionstate id="10" description="Kill 90 Fierce Wolves."/>
+            <missionstate id="11" description="Kill 89 Fierce Wolves."/>
+            <missionstate id="12" description="Kill 88 Fierce Wolves."/>
+            <missionstate id="13" description="Kill 87 Fierce Wolves."/>
+            <missionstate id="14" description="Kill 86 Fierce Wolves."/>
+            <missionstate id="15" description="Kill 85 Fierce Wolves."/>
+            <missionstate id="16" description="Kill 84 Fierce Wolves."/>
+            <missionstate id="17" description="Kill 83 Fierce Wolves."/>
+            <missionstate id="18" description="Kill 82 Fierce Wolves."/>
+            <missionstate id="19" description="Kill 81 Fierce Wolves"/>  
+            <missionstate id="20" description="Kill 80 Fierce Wolves."/>
+            <missionstate id="21" description="Kill 79 Fierce Wolves."/>
+            <missionstate id="22" description="Kill 78 Fierce Wolves."/>
+            <missionstate id="23" description="Kill 77 Fierce Wolves."/>
+            <missionstate id="24" description="Kill 76 Fierce Wolves."/>
+            <missionstate id="25" description="Kill 75 Fierce Wolves."/>
+            <missionstate id="26" description="Kill 74 Fierce Wolves."/>
+            <missionstate id="27" description="Kill 73 Fierce Wolves."/>
+            <missionstate id="28" description="Kill 72 Fierce Wolves."/>
+            <missionstate id="29" description="Kill 71 Fierce Wolves."/>          
+            <missionstate id="10" description="Kill 70 Fierce Wolves."/>
+            <missionstate id="31" description="Kill 69 Fierce Wolves."/>
+            <missionstate id="32" description="Kill 68 Fierce Wolves."/>
+            <missionstate id="33" description="Kill 67 Fierce Wolves."/>
+            <missionstate id="34" description="Kill 66 Fierce Wolves."/>
+            <missionstate id="35" description="Kill 65 Fierce Wolves."/>
+            <missionstate id="36" description="Kill 64 Fierce Wolves."/>
+            <missionstate id="37" description="Kill 63 Fierce Wolves."/>
+            <missionstate id="38" description="Kill 62 Fierce Wolves."/>
+            <missionstate id="39" description="Kill 61 Fierce Wolves"/>           
+            <missionstate id="40" description="Kill 60 Fierce Wolves."/>
+            <missionstate id="41" description="Kill 59 Fierce Wolves."/>
+            <missionstate id="42" description="Kill 58 Fierce Wolves."/>
+            <missionstate id="43" description="Kill 57 Fierce Wolves."/>
+            <missionstate id="44" description="Kill 56 Fierce Wolves."/>
+            <missionstate id="45" description="Kill 55 Fierce Wolves."/>
+            <missionstate id="46" description="Kill 54 Fierce Wolves."/>
+            <missionstate id="47" description="Kill 53 Fierce Wolves."/>
+            <missionstate id="48" description="Kill 52 Fierce Wolves."/>
+            <missionstate id="49" description="Kill 51 Fierce Wolves."/>          
+            <missionstate id="50" description="Kill 50 Fierce Wolves."/>
+            <missionstate id="51" description="Kill 49 Fierce Wolves."/>
+            <missionstate id="52" description="Kill 48 Fierce Wolves."/>
+            <missionstate id="53" description="Kill 47 Fierce Wolves."/>
+            <missionstate id="54" description="Kill 46 Fierce Wolves."/>
+            <missionstate id="55" description="Kill 45 Fierce Wolves."/>
+            <missionstate id="56" description="Kill 44 Fierce Wolves."/>
+            <missionstate id="57" description="Kill 43 Fierce Wolves."/>
+            <missionstate id="58" description="Kill 42 Fierce Wolves."/>
+            <missionstate id="59" description="Kill 41 Fierce Wolves."/>
+            <missionstate id="60" description="Kill 40 Fierce Wolves."/>
+            <missionstate id="61" description="Kill 39 Fierce Wolves."/>
+            <missionstate id="62" description="Kill 38 Fierce Wolves."/>
+            <missionstate id="63" description="Kill 37 Fierce Wolves."/>
+            <missionstate id="64" description="Kill 36 Fierce Wolves."/>
+            <missionstate id="65" description="Kill 35 Fierce Wolves."/>
+            <missionstate id="66" description="Kill 34 Fierce Wolves."/>
+            <missionstate id="67" description="Kill 33 Fierce Wolves."/>
+            <missionstate id="68" description="Kill 32 Fierce Wolves."/>
+            <missionstate id="69" description="Kill 31 Fierce Wolves."/>          
+            <missionstate id="70" description="Kill 30 Fierce Wolves."/>
+            <missionstate id="71" description="Kill 29 Fierce Wolves."/>
+            <missionstate id="72" description="Kill 28 Fierce Wolves."/>
+            <missionstate id="73" description="Kill 27 Fierce Wolves."/>
+            <missionstate id="74" description="Kill 26 Fierce Wolves."/>
+            <missionstate id="75" description="Kill 25 Fierce Wolves."/>
+            <missionstate id="76" description="Kill 24 Fierce Wolves."/>
+            <missionstate id="77" description="Kill 23 Fierce Wolves."/>
+            <missionstate id="78" description="Kill 22 Fierce Wolves."/>
+            <missionstate id="79" description="Kill 21 Fierce Wolves"/>           
+            <missionstate id="80" description="Kill 20 Fierce Wolves."/>
+            <missionstate id="81" description="Kill 19 Fierce Wolves."/>
+            <missionstate id="82" description="Kill 18 Fierce Wolves."/>
+            <missionstate id="83" description="Kill 17 Fierce Wolves."/>
+            <missionstate id="84" description="Kill 16 Fierce Wolves."/>
+            <missionstate id="85" description="Kill 15 Fierce Wolves."/>
+            <missionstate id="86" description="Kill 14 Fierce Wolves."/>
+            <missionstate id="87" description="Kill 13 Fierce Wolves."/>
+            <missionstate id="88" description="Kill 12 Fierce Wolves."/>
+            <missionstate id="89" description="Kill 11 Fierce Wolves."/>          
+            <missionstate id="90" description="Kill 10 Fierce Wolves."/>
+            <missionstate id="91" description="Kill 9 Fierce Wolves."/>
+            <missionstate id="92" description="Kill 8 Fierce Wolves."/>
+            <missionstate id="93" description="Kill 7 Fierce Wolves."/>
+            <missionstate id="94" description="Kill 6 Fierce Wolves."/>
+            <missionstate id="95" description="Kill 5 Fierce Wolves."/>
+            <missionstate id="96" description="Kill 4 Fierce Wolves."/>
+            <missionstate id="97" description="Kill 3 Fierce Wolves."/>
+            <missionstate id="98" description="Kill 2 Fierce Wolves."/>
+            <missionstate id="99" description="Kill 1 Fierce Wolf."/>
+            <missionstate id="100" description="You got them, ask for your reward."/> 
+            <missionstate id="101" description="Mission Complete."/>  
         </mission>
     </quest>
     <quest name="Crafting Guild Initiation" startstorageid="30027" startstoragevalue="26">
@@ -1209,7 +1589,7 @@
             <missionstate id="0" description="You unlocked Buckland."/>
         </mission>
         <mission name="Bywater" storageid="2139" startvalue="0" endvalue="0">
-            <missionstate id="0" description="You unlucked Bywater."/>
+            <missionstate id="0" description="You unlocked Bywater."/>
         </mission>
         <mission name="Forsaken Inn" storageid="2140" startvalue="0" endvalue="0">
             <missionstate id="0" description="You unlocked Forsaken Inn."/>

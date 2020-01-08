@@ -27,7 +27,7 @@ function creatureSayCallback(cid, type, msg)
 	if(msgcontains(msg, 'captain') or msgcontains(msg, 'guard')) then
 				selfSay('I am the leader of Brees militia, this is our headquarter. Here we train in order to defend peace.', cid)
 				selfSay('We have people in many posts around Bree, and they are fighting bandits and renegades. ', cid)
-				selfSay('Ahh the renegades! They are our most dangerous enemy. In this region there isnt Orcs, but men can be evil as well. Maybe you may want to work with us in some {mission}? ', cid)
+				selfSay('Ahh the renegades! They are our most dangerous enemy. In this region there are no Orcs, but men can be evil as well. Maybe you may want to work with us in some {mission}? ', cid)
 	elseif(msgcontains(msg, 'mission') or msgcontains(msg, 'bree chapter 2')) then
 			if(getPlayerStorageValue(cid,2018) < 0) then
 				selfSay('The Eriador Renegades give us problems in many areas, but in east Brandiwyne hills (To the west of Bree) they have a great settlement, full of warriors.', cid)

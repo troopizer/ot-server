@@ -16,8 +16,8 @@ shopModule:addBuyableItem({'small health'}, 8704, 20, 1, 'small health potion')
 shopModule:addBuyableItem({'health potion'}, 7618, 45, 1, 'health potion')
 shopModule:addBuyableItem({'strong health potion'}, 7588, 85, 1, 'strong health potion')
 shopModule:addBuyableItem({'blank rune'}, 2260, 10, 1, 'blank rune')
-shopModule:addBuyableItem({'mana potion'}, 7620, 50, 1, 'mana potion')
-shopModule:addBuyableItem({'strong mana potion'}, 7589, 90, 1, 'strong mana potion')
+shopModule:addBuyableItem({'mana potion'}, 7620, 55, 1, 'mana potion')
+shopModule:addBuyableItem({'strong mana potion'}, 7589, 95, 1, 'strong mana potion')
 
 
 shopModule:addSellableItem({'normal potion flask', 'normal flask'}, 7636, 5, 'empty small potion flask')
@@ -35,6 +35,18 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('We are in the year 2900 of the third age.', cid)
 				selfSay('I have been told that Gerontius Took "The Old Took" is currently the Thain of the Shire. That Argonui is currently the 13th captain of the dunedain. And for 50 years Thorin Oakenshield have been the king of Durins folk.', cid)
 	end
+	if(msgcontains(msg, 'edward')) then
+		selfSay('Edward Mapleton have been the mayor of Bree for many years.', cid)
+		selfSay('I dont know much about him, but it looks like is a good mayor...', cid)
+	end
+	if(msgcontains(msg, 'eryn')) then
+		selfSay('Yes... My name is Eryn. I am an old herbalist.', cid)
+		selfSay('I was a great traveler once, but 15 years ago I became too old so I opened this shop and since then I have been here.', cid)
+		selfSay('I dont have friends, I dont need them... But there is just one person in this town with some wisdown that I could call friend... The old Aldrean, maybe even older than me.', cid)
+	end
+	if(msgcontains(msg, 'aldrean')) then
+		selfSay('Aldrean is an old herbalist like me. He lives north from here, near the Oatny farm.', cid)
+	end
 	if(msgcontains(msg, 'herbs')) then
 				selfSay('There are many herbs in this world, some have special properties. They can be used in potions and for {herbalist magic}.', cid)
 	end
@@ -48,8 +60,8 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('If you leave Bree using the south road and then take a side path to the west, you will find the Barrow Downs. If you help me with some tasks over there, I will pay you and maybe teach you something about {herbalist magic}, {yes}?', cid)
 				talkState[talkUser] = 1
 			elseif(getPlayerStorageValue(cid,2017) == 0) then
-				if(getPlayerItemCount(cid,2798) >= 5) then
-					doPlayerRemoveItem(cid,2798,5)
+				if(getPlayerItemCount(cid,2798) >= 10) then
+					doPlayerRemoveItem(cid,2798,10)
 					doPlayerAddExperience(cid,1000)
 					doPlayerAddItem(cid,7618,2)
 					selfSay('Great! You are really brave, I have another {mission} for you. (You have received 1000 exp and 2 health potions)', cid)
@@ -96,7 +108,7 @@ function creatureSayCallback(cid, type, msg)
 			end
 			if(getPlayerStorageValue(cid,2031) < 0 and getPlayerStorageValue(cid,2022) == 1) then
 				selfSay('You really want to learn more, if you are asking for another mission', cid)
-				selfSay('The memory stone yo bring me is very hard to use, but I have read that there was a man in the army of Elendil, that marched and died during the war with the dark lord.', cid)
+				selfSay('The memory stone you bring me is very hard to use, but I have read that there was a man in the army of Elendil, that marched and died during the war with the dark lord.', cid)
 				selfSay('His name was Aerdinul and he knew how to use the memory stones, he was burried in the barrow downs along the warriors that feld in the battle of Dagorlad. In his tomb you may find a book with his notes, would you go? {yes}?', cid)
 				talkState[talkUser] = 1
 
@@ -114,7 +126,7 @@ function creatureSayCallback(cid, type, msg)
 	elseif(msgcontains(msg, 'yes')) then
 		if(talkState[talkUser] == 1) then
 			if(getPlayerStorageValue(cid,2017) < 0) then
-				selfSay('Barrow Downs is a dangerous place, full of evil spirits. But this beings are vessels of magic powers, so there you can find ingredients for potions and spells, bring me {5 blood herbs}, if you are brave enough. ', cid)
+				selfSay('Barrow Downs is a dangerous place, full of evil spirits. But this beings are vessels of magic powers, so there you can find ingredients for potions and spells, bring me {10 blood herbs}, if you are brave enough. ', cid)
 				setPlayerStorageValue(cid,30004,6)
 				setPlayerStorageValue(cid,2017,0)
 			elseif(getPlayerStorageValue(cid,2021) < 0) then

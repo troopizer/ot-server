@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Captain Jeff" script="captain.lua" nameDescription="captain of Bree Guard" walkinterval="3000" floorchange="1">
+<npc name="Captain Jeff Mapleton" script="captain.lua" nameDescription="captain of the Bree Guard" walkinterval="3000" floorchange="1">
 
 	<health now="150" max="150"/>
 

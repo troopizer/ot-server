@@ -40,11 +40,11 @@ function creatureSayCallback(cid, type, msg)
 					selfSay('Good job! (You have received 3000 experience and 200 gp)', cid)
 				end
 			elseif(getPlayerStorageValue(cid,2019) == 1 and getPlayerStorageValue(cid,2037) < 0) then
-				selfSay('Its time to teach those renegades who owns this land. Are you up to the task? Would you kill 10 of them?, {yes}?', cid)
+				selfSay('Its time to teach those renegades who owns this land. Are you up to the task? Would you kill 20 of them?, {yes}?', cid)
 				talkState[talkUser] = 2
 			end
-			if(getPlayerStorageValue(cid,2037) == 10) then
-					setPlayerStorageValue(cid,2037,11)
+			if(getPlayerStorageValue(cid,2037) == 20) then
+					setPlayerStorageValue(cid,2037,21)
 					doPlayerAddExperience(cid,8000)
 					doPlayerAddItem(cid,2152,5)					
 					selfSay('Just Great! You teach those bastards a good lesson. (You have received 8000 experience and 500 gp)', cid)

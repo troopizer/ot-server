@@ -138,6 +138,7 @@
 	</instant>
 	<instant group="attack" name="Elite Fire Strike" words="nar turca pente" lvl="60" maglv="40" mana="100" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="fire/elite fire strike.lua">
 	</instant>
+	<rune group="attack" name="Fire Field" id="2301" allowfaruse="1" charges="1" lvl="50" maglv="30" cooldown="1000" groupcooldown="2000" blocktype="solid" script="runes/fire field rune.lua"/>
 		<!-- Wind Spells-->
 	<instant group="attack" name="Energy Strike" words="sure pente" lvl="40" maglv="20" mana="40" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="wind/energy strike.lua">
 	</instant>
@@ -173,6 +174,7 @@
 	</instant>
 	<instant group="attack" name="Elite Energy Strike" words="sure turca pente" lvl="60" maglv="40" mana="100" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="wind/elite energy strike.lua">
 	</instant>
+	<rune group="attack" name="Energy Field" id="2284" allowfaruse="1" charges="1" lvl="50" maglv="30" cooldown="1000" groupcooldown="2000" blocktype="solid" script="runes/energy field rune.lua"/>
 		<!-- Earth Spells-->
 	<instant group="attack" name="Earth Strike" words="cen pente" lvl="40" maglv="20" mana="40" prem="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="1000" groupcooldown="2000" needlearn="0" script="earth/terra strike.lua">
 	</instant>

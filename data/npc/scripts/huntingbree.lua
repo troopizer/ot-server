@@ -30,37 +30,37 @@ function creatureSayCallback(cid, type, msg)
 			elseif(getPlayerStorageValue(cid,2119) < 0 or getPlayerStorageValue(cid,2120) < 0 or getPlayerStorageValue(cid,2121) < 0) then
 					selfSay('I am the leader of the {Adventurers Guild} in Bree. If you want to join us, you will have to prove your basic hunting skills. {ok}?', cid)
 				talkState[talkUser] = 1
-			elseif(getPlayerStorageValue(cid,2119) == 20) then
+			elseif(getPlayerStorageValue(cid,2119) == 50) then
 					selfSay('Well done. (You received 100 gp and 500 exp)', cid)
-					setPlayerStorageValue(cid,2119,21)
+					setPlayerStorageValue(cid,2119,51)
 					doPlayerAddExperience(cid,500)
 					doPlayerAddItem(cid,2152,1)
-			elseif(getPlayerStorageValue(cid,2120) == 20) then
+			elseif(getPlayerStorageValue(cid,2120) == 50) then
 					selfSay('Well done. (You received 200 gp and 700 exp)', cid)
-					setPlayerStorageValue(cid,2120,21)
+					setPlayerStorageValue(cid,2120,51)
 					doPlayerAddExperience(cid,700)
 					doPlayerAddItem(cid,2152,2)
-			elseif(getPlayerStorageValue(cid,2121) == 20) then
+			elseif(getPlayerStorageValue(cid,2121) == 50) then
 					selfSay('Well done. (You received 300 gp and 1000 exp)', cid)
-					setPlayerStorageValue(cid,2121,21)
+					setPlayerStorageValue(cid,2121,51)
 					doPlayerAddExperience(cid,1000)
 					doPlayerAddItem(cid,2152,3)
-			elseif(getPlayerStorageValue(cid,2122) == 40) then
-					selfSay('Well done. (You received 3000 gp and 40000 exp)', cid)
-					setPlayerStorageValue(cid,2122,41)
-					doPlayerAddExperience(cid,50000)
+			elseif(getPlayerStorageValue(cid,2122) == 100) then
+					selfSay('Well done. (You received 3000 gp and 80000 exp)', cid)
+					setPlayerStorageValue(cid,2122,101)
+					doPlayerAddExperience(cid,80000)
 					doPlayerAddItem(cid,2152,30)
-			elseif(getPlayerStorageValue(cid,2123) == 40) then
-					selfSay('Well done. (You received 5000 gp and 60000 exp)', cid)
-					setPlayerStorageValue(cid,2123,41)
-					doPlayerAddExperience(cid,80000)
+			elseif(getPlayerStorageValue(cid,2123) == 100) then
+					selfSay('Well done. (You received 5000 gp and 100000 exp)', cid)
+					setPlayerStorageValue(cid,2123,101)
+					doPlayerAddExperience(cid,100000)
 					doPlayerAddItem(cid,2152,50)
-			elseif(getPlayerStorageValue(cid,2124) == 40) then
-					selfSay('Well done. (You received 5000 gp and 60000 exp)', cid)
-					setPlayerStorageValue(cid,2124,41)
-					doPlayerAddExperience(cid,80000)
+			elseif(getPlayerStorageValue(cid,2124) == 100) then
+					selfSay('Well done. (You received 5000 gp and 100000 exp)', cid)
+					setPlayerStorageValue(cid,2124,101)
+					doPlayerAddExperience(cid,100000)
 					doPlayerAddItem(cid,2152,50)								
-			elseif(getPlayerStorageValue(cid,2119) == 21 and getPlayerStorageValue(cid,2120) == 21 and getPlayerStorageValue(cid,2121) == 21 and getPlayerStorageValue(cid,2122) < 0 and getPlayerStorageValue(cid,2123) < 0 and getPlayerStorageValue(cid,2124) < 0) then
+			elseif(getPlayerStorageValue(cid,2119) == 51 and getPlayerStorageValue(cid,2120) == 51 and getPlayerStorageValue(cid,2121) == 51 and getPlayerStorageValue(cid,2122) < 0 and getPlayerStorageValue(cid,2123) < 0 and getPlayerStorageValue(cid,2124) < 0) then
 					selfSay('Soo.. you know how to hunt. Wellcome to our Guild, here you have the missions for our area.', cid)
 					selfSay('Remember to check the missions in other cities and here as well, we might add new ones.', cid)
 				setPlayerStorageValue(cid,30026,25)

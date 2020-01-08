@@ -13,8 +13,8 @@ npcHandler:addModule(shopModule)
 
 
 shopModule:addBuyableItem({'blank rune'}, 2260, 7, 1, 'blank rune')
-shopModule:addBuyableItem({'mana potion'}, 7620, 40, 1, 'mana potion')
-shopModule:addBuyableItem({'strong mana potion'}, 7589, 80, 1, 'strong mana potion')
+shopModule:addBuyableItem({'mana potion'}, 7620, 50, 1, 'mana potion')
+shopModule:addBuyableItem({'strong mana potion'}, 7589, 90, 1, 'strong mana potion')
 shopModule:addBuyableItem({'small health'}, 8704, 20, 1, 'small health potion')
 shopModule:addBuyableItem({'health potion'}, 7618, 45, 1, 'health potion')
 shopModule:addBuyableItem({'strong health potion'}, 7588, 85, 1, 'strong health potion')

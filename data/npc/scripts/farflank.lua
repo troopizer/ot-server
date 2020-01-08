@@ -43,13 +43,13 @@ function creatureSayCallback(cid, type, msg)
 
 		if (getPlayerStorageValue(cid,2009) < 0) then
 			selfSay("I don't believe in your strength pilgrim. I guess i'll test you first.", cid)
-			selfSay("Go and get me 11 spider silks.", cid)
+			selfSay("Go and get me 20 spider silks.", cid)
 			selfSay("You can find some nasty aracnids to the east.", cid)
 			setPlayerStorageValue(cid,2009,0)
 			return true
 		end
 		if (getPlayerStorageValue(cid,2009) == 0) then
-			if (doPlayerRemoveItem(cid, 5879, 11) == TRUE) then -- item : spider silk
+			if (doPlayerRemoveItem(cid, 5879, 20) == TRUE) then -- item : spider silk
 				setPlayerStorageValue(cid,2009,1)
 				selfSay("Well done! Now I can give you a real {mission}. (You received 3000 exp)", cid)
 				doPlayerAddExperience(cid,3000)
@@ -63,12 +63,12 @@ function creatureSayCallback(cid, type, msg)
 		if (getPlayerStorageValue(cid,2010) < 0) then
 			selfSay("This proof isn't enough kiddo.", cid)
 			selfSay("Any one can kill some spiders, even the red ones.", cid)
-			selfSay("Go and get me a tarantula egg. Those creamy and salty eggs make the best breakfast for me and the Boys, isn' it so ?!", cid)
+			selfSay("Go and get me 5 tarantula egg. Those creamy and salty eggs make the best breakfast for me and the Boys, isn' it so ?!", cid)
 			setPlayerStorageValue(cid,2010,0)
 			return true
 		end
 		if (getPlayerStorageValue(cid,2010) == 0) then
-			if (doPlayerRemoveItem(cid, 11192, 1) == true) then -- item : tarantula egg
+			if (doPlayerRemoveItem(cid, 11192, 5) == true) then -- item : tarantula egg
 				selfSay("R-r-rea ...", cid)
 				selfSay("It seams the Mayor and his incertion plan are getting results. You are an example for the fat populiest's policies.", cid)
 				selfSay("You have earn the most precious item on this mountain. Hey, boys! Learn from this Kido that brought us breakfast !", cid)
