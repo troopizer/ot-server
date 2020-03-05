@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Jovan" nameDescription="Jovan, Adventurers Guild Trainer." walkinterval="2000" script="sessionbree.lua" floorchange="1">
+<npc name="Jovan Rushlight" nameDescription="Jovan, Adventurers Guild Trainer." walkinterval="2000" script="sessionbree.lua" floorchange="1">
 
 	<health now="150" max="150"/>
 

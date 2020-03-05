@@ -5,7 +5,25 @@ local talkState = {}
 function onCreatureAppear(cid) npcHandler:onCreatureAppear(cid) end
 function onCreatureDisappear(cid) npcHandler:onCreatureDisappear(cid) end
 function onCreatureSay(cid, type, msg) npcHandler:onCreatureSay(cid, type, msg) end
-function onThink() npcHandler:onThink() end
+local random_texts = {
+	'Do you want to order something?.',
+	'Do you want to order something?.',
+	'We are not used to big people here in Buckland, but you are wellcome.',
+	'We are not used to big people here in Buckland, but you are wellcome.',
+	'First time in Bucklebury?.',
+	'We have fresh salmon from the river.'
+}
+
+local rnd_sounds = 0
+function onThink()
+	if(rnd_sounds < os.time()) then
+		rnd_sounds = (os.time() + 25)
+		if(math.random(100) < 40) then
+			Npc():say(random_texts[math.random(#random_texts)], TALKTYPE_SAY)
+		end
+	end
+	npcHandler:onThink()
+end
 function creatureSayCallback(cid, type, msg)
 if(not npcHandler:isFocused(cid)) then
 return false

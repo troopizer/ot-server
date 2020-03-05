@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Gorbadoc the Mayor"  script="mayorbuckland.lua" nameDescription="Gorbadoc Brandybuck the mayor of Buckland" walkinterval="2000" floorchange="0">
+<npc name="Gorbadoc Brandybuck" nameDescription="Gorbadoc Brandybuck" walkinterval="2000" floorchange="0">
 
 	<health now="100" max="100"/>
 
-	<look type="904" head="79" body="101" legs="80" feet="98"/>
+	<look type="904" head="78" body="101" legs="116" feet="115"/>
 	<parameters>
-        	<parameter key="message_greet" value="Greetings, what brings you to my house?"/>
+        	<parameter key="message_greet" value="Greetings, its a nice day, isnt it?"/>
     	</parameters>	
 </npc>

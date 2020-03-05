@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Hal" nameDescription="Hal, a human." script="hal.lua" walkinterval="2000" floorchange="1">
+<npc name="Hal Fenry" nameDescription="Hal, a human." script="hal.lua" walkinterval="2000" floorchange="1">
 
 	<health now="150" max="150"/>
 

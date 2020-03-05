@@ -52,7 +52,7 @@
             <missionstate id="1" description="Mission Complete."/>
         </mission>
         <mission name="2 Looting from the Looters" storageid="2019" startvalue="0" endvalue="1">
-            <missionstate id="0" description="Search for the bandits camp where the renegades trade with them, and still the 3 short swords."/>
+            <missionstate id="0" description="Search for the bandits camp where the renegades trade with them, and steal the 3 short swords."/>
             <missionstate id="1" description="Mission Complete."/>
         </mission>
         <mission name="3 Just Kill Them All" storageid="2037" startvalue="0" endvalue="21">
@@ -880,28 +880,28 @@
             <missionstate id="7" description="Kill 23 Necromancer Apprentices."/>
             <missionstate id="8" description="Kill 22 Necromancer Apprentices."/>
             <missionstate id="9" description="Kill 21 Necromancer Apprentices."/>
-            <missionstate id="0" description="Kill 20 Necromancer Apprentices."/>
-            <missionstate id="1" description="Kill 19 Necromancer Apprentices."/>
-            <missionstate id="2" description="Kill 18 Necromancer Apprentices."/>
-            <missionstate id="3" description="Kill 17 Necromancer Apprentices."/>
-            <missionstate id="4" description="Kill 16 Necromancer Apprentices."/>
-            <missionstate id="5" description="Kill 15 Necromancer Apprentices."/>
-            <missionstate id="6" description="Kill 14 Necromancer Apprentices."/>
-            <missionstate id="7" description="Kill 13 Necromancer Apprentices."/>
-            <missionstate id="8" description="Kill 12 Necromancer Apprentices."/>
-            <missionstate id="9" description="Kill 11 Necromancer Apprentices."/>
-            <missionstate id="0" description="Kill 10 Necromancer Apprentices."/>
-            <missionstate id="1" description="Kill 9 Necromancer Apprentices."/>
-            <missionstate id="2" description="Kill 8 Necromancer Apprentices."/>
-            <missionstate id="3" description="Kill 7 Necromancer Apprentices."/>
-            <missionstate id="4" description="Kill 6 Necromancer Apprentices."/>
-            <missionstate id="5" description="Kill 5 Necromancer Apprentices."/>
-            <missionstate id="6" description="Kill 4 Necromancer Apprentices."/>
-            <missionstate id="7" description="Kill 3 Necromancer Apprentices."/>
-            <missionstate id="8" description="Kill 2 Necromancer Apprentices."/>
-            <missionstate id="9" description="Kill 1 Necromancer Apprentice."/>
-            <missionstate id="10" description="You got them, ask for your reward."/> 
-            <missionstate id="11" description="Mission Complete."/>   
+            <missionstate id="10" description="Kill 20 Necromancer Apprentices."/>
+            <missionstate id="11" description="Kill 19 Necromancer Apprentices."/>
+            <missionstate id="12" description="Kill 18 Necromancer Apprentices."/>
+            <missionstate id="13" description="Kill 17 Necromancer Apprentices."/>
+            <missionstate id="14" description="Kill 16 Necromancer Apprentices."/>
+            <missionstate id="15" description="Kill 15 Necromancer Apprentices."/>
+            <missionstate id="16" description="Kill 14 Necromancer Apprentices."/>
+            <missionstate id="17" description="Kill 13 Necromancer Apprentices."/>
+            <missionstate id="18" description="Kill 12 Necromancer Apprentices."/>
+            <missionstate id="19" description="Kill 11 Necromancer Apprentices."/>
+            <missionstate id="20" description="Kill 10 Necromancer Apprentices."/>
+            <missionstate id="21" description="Kill 9 Necromancer Apprentices."/>
+            <missionstate id="22" description="Kill 8 Necromancer Apprentices."/>
+            <missionstate id="23" description="Kill 7 Necromancer Apprentices."/>
+            <missionstate id="24" description="Kill 6 Necromancer Apprentices."/>
+            <missionstate id="25" description="Kill 5 Necromancer Apprentices."/>
+            <missionstate id="26" description="Kill 4 Necromancer Apprentices."/>
+            <missionstate id="27" description="Kill 3 Necromancer Apprentices."/>
+            <missionstate id="28" description="Kill 2 Necromancer Apprentices."/>
+            <missionstate id="29" description="Kill 1 Necromancer Apprentice."/>
+            <missionstate id="30" description="You got them, ask for your reward."/> 
+            <missionstate id="31" description="Mission Complete."/>   
         </mission>
         <mission name="3 The book" storageid="2098" startvalue="0" endvalue="4">
             <missionstate id="0" description="Find the dunedain spy in the second area of Fornost Erain."/>

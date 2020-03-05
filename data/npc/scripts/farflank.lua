@@ -6,7 +6,22 @@ NpcSystem.parseParameters(npcHandler)
 function onCreatureAppear(cid) npcHandler:onCreatureAppear(cid) end
 function onCreatureDisappear(cid) npcHandler:onCreatureDisappear(cid) end
 function onCreatureSay(cid, type, msg) npcHandler:onCreatureSay(cid, type, msg) end
-function onThink() npcHandler:onThink() end
+local random_texts = {
+	'Im dam pretty!',
+	'HEY! dont screw the soup today...',
+	'What a shity place, isnt it boys?.'
+}
+
+local rnd_sounds = 0
+function onThink()
+	if(rnd_sounds < os.time()) then
+		rnd_sounds = (os.time() + 21)
+		if(math.random(100) < 40) then
+			Npc():say(random_texts[math.random(#random_texts)], TALKTYPE_SAY)
+		end
+	end
+	npcHandler:onThink()
+end
 function creatureSayCallback(cid, type, msg)
 	if (not npcHandler:isFocused(cid)) then
 		return false
@@ -35,7 +50,7 @@ function creatureSayCallback(cid, type, msg)
 	if (msgcontains(msg, 'mission')) then
 
 		if (getPlayerStorageValue(cid,2008) == 0) then
-			selfSay("This is the more dangerous place guarded by our forces. Nobody wants to stay. (You received 100 exp)", cid)
+			selfSay("This is the more dangerous place guarded by our forces. Nobody wants to stay. (You received 500 exp)", cid)
 			doPlayerAddExperience(cid,500)
 			setPlayerStorageValue(cid,2008,1)
 			return true
@@ -63,7 +78,7 @@ function creatureSayCallback(cid, type, msg)
 		if (getPlayerStorageValue(cid,2010) < 0) then
 			selfSay("This proof isn't enough kiddo.", cid)
 			selfSay("Any one can kill some spiders, even the red ones.", cid)
-			selfSay("Go and get me 5 tarantula egg. Those creamy and salty eggs make the best breakfast for me and the Boys, isn' it so ?!", cid)
+			selfSay("Go and get me 5 tarantula egg. Those creamy and salty eggs make the best breakfast for me and the Boys, isnt it so ?!", cid)
 			setPlayerStorageValue(cid,2010,0)
 			return true
 		end

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Darren the Weaponsmaker"  script="weaponsmaker1.lua" nameDescription="Darren the weaponsmaker" walkinterval="2000" floorchange="0">
+<npc name="Darren Ironseed"  script="weaponsmaker1.lua" nameDescription="Darren the weaponsmaker" walkinterval="2000" floorchange="0">
 
 	<health now="100" max="100"/>
 

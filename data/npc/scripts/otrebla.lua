@@ -6,9 +6,22 @@ local talkState = {}
 function onCreatureAppear(cid)				npcHandler:onCreatureAppear(cid)			end
 function onCreatureDisappear(cid) 			npcHandler:onCreatureDisappear(cid)			end
 function onCreatureSay(cid, type, msg)			npcHandler:onCreatureSay(cid, type, msg)		end
-function onThink()					npcHandler:onThink()					end
+local random_texts = {
+	'DAMED RENEGADES!',
+	'HEY SOLDIER! Go hunt something',
+	'When will we receive reinforcements..'
+}
 
-
+local rnd_sounds = 0
+function onThink()
+	if(rnd_sounds < os.time()) then
+		rnd_sounds = (os.time() + 20)
+		if(math.random(100) < 30) then
+			Npc():say(random_texts[math.random(#random_texts)], TALKTYPE_SAY)
+		end
+	end
+	npcHandler:onThink()
+end
 function creatureSayCallback(cid, type, msg)
 	if(not npcHandler:isFocused(cid)) then
 		return false
@@ -48,7 +61,7 @@ function creatureSayCallback(cid, type, msg)
 					doPlayerAddExperience(cid,8000)
 					doPlayerAddItem(cid,2152,5)					
 					selfSay('Just Great! You teach those bastards a good lesson. (You have received 8000 experience and 500 gp)', cid)
-			elseif(getPlayerStorageValue(cid,2037) == 11 and getPlayerStorageValue(cid,2039) < 0) then			
+			elseif(getPlayerStorageValue(cid,2037) == 21 and getPlayerStorageValue(cid,2039) < 0) then			
 					selfSay('You really like to work, I like that kid.. man! I should say after that last mission. I need you to break into the renegades town, are you ready?, {yes}?', cid)
 						talkState[talkUser] = 3
 			end
@@ -81,12 +94,12 @@ function creatureSayCallback(cid, type, msg)
 	elseif(msgcontains(msg, 'yes')) then
 		if(talkState[talkUser] == 1) then
 			if(getPlayerStorageValue(cid,2019) < 0) then
-				selfSay('Thats the spirit! Still 3 short swords from them and bring them here, good luck.', cid)
+				selfSay('Thats the spirit! Steal 3 short swords from them and bring them here, good luck.', cid)
 				setPlayerStorageValue(cid,2019,0)
 			end
 		elseif(talkState[talkUser] == 2) then
 			if(getPlayerStorageValue(cid,2019) == 1 and getPlayerStorageValue(cid,2037) < 0) then
-				selfSay('You are a great warrior! Go north from the bandits camp and yo will find the town of the renegades. Kill 10 of them, but be careful.', cid)
+				selfSay('You are a good warrior! Go north from the bandits camp and you will find the town of the renegades. Kill 20 of them, but be careful.', cid)
 				setPlayerStorageValue(cid,2037,0)
 			end
 		elseif(talkState[talkUser] == 3) then

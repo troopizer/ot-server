@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Anna" nameDescription="Anna, a human" walkinterval="2500" floorchange="1">
+<npc name="Anna Stoneleaf" nameDescription="Anna, a human" script="anna.lua" walkinterval="2500" floorchange="1">
 
 	<health now="150" max="150"/>
 

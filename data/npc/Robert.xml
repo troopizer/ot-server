@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Robert" nameDescription="Robert, Crafting Guild Officer, Leader of Brees Guild." walkinterval="2000" script="craftingbree.lua" floorchange="1">
+<npc name="Robert Oatny" nameDescription="Robert, Crafting Guild Officer, Leader of Brees Guild." walkinterval="2000" script="craftingbree.lua" floorchange="1">
 
 	<health now="150" max="150"/>
 
-	<look type="132" head="58" body="11" legs="117" feet="116" corpse="2212"/>
+	<look type="132" head="115" body="11" legs="117" feet="116" corpse="2212"/>
 
   <interaction range="3" idletime="60">
 

@@ -38,7 +38,7 @@ if(msgcontains(msg, 'mission') or msgcontains(msg, 'addon')) then
 			selfSay('But I actually may have a favour to ask. I got a little son, Bilbo. I want to give him a nice doll, but its impossible to get a good one in this lands. If you find one in your journeys, would you bring it to me?, {yes}?.', cid)
 			talkState[talkUser] = 1
 		else
-			selfSay('I will give you an advice.. If you get a nice suit, people will be more open to give you jobs around here. Go to Buckland, there is a tailor.', cid)
+			selfSay('I will give you an advice.. If you get a nice suit, people will be more open to give you jobs around here. Go to Buckland, there is a tailor that may help you.', cid)
 		end
 	end
 end
@@ -53,7 +53,7 @@ if(msgcontains(msg, 'bungo baggins')) then
 	selfSay('Yes, I am Bungo Baggins, husband of Belladonna Took and father of Bilbo Baggins.', cid)
 end
 if(msgcontains(msg, 'bilbo')) then
-	selfSay('Bilbo is my litle son. He isnt ay home.', cid)
+	selfSay('Bilbo is my little son. He isnt at home right now.', cid)
 end
 end
 

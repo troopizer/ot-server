@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Miss Butterbur" nameDescription="Miss Butterbur the bar owner" script="beer.lua" walkinterval="2000" floorchange="1">
+<npc name="Missis Butterbur" nameDescription="Missis Butterbur the bar owner" script="beer.lua" walkinterval="2000" floorchange="1">
 
 	<health now="150" max="150"/>
 

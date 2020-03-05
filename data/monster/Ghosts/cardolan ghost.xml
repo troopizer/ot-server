@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<monster name="Cardolan Ghost" nameDescription="a cardolan ghost" race="undead" experience="350" speed="280" manacost="100">
+<monster name="Cardolan Ghost" nameDescription="a cardolan ghost" race="undead" experience="380" speed="280" manacost="100">
 
 	<health now="500" max="500"/>
 
@@ -40,11 +40,15 @@
 
 		<attack name="melee" interval="2000" skill="40" attack="45"/>
 
-		<attack name="lifedrain" interval="1000" chance="15" range="3" min="-35" max="-65"/>
+		<attack name="lifedrain" interval="2000" chance="30" range="3" min="-35" max="-65"/>
 
 	</attacks>
 
-	<defenses armor="17" defense="25"/>
+	<defenses armor="17" defense="25">
+		<defense name="healing" interval="2000" chance="20" min="20" max="30">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
 
 	<elements>
 
@@ -86,9 +90,9 @@
 
 		<item id="2394" chance="8000"/><!-- morning star -->
 
-		<item id="4847" chance="400"/><!-- cardolan chain armor -->
+		<item id="4847" chance="200"/><!-- cardolan chain armor -->
 
-		<item id="8923" chance="600"/><!-- cardolan chain legs -->
+		<item id="8923" chance="400"/><!-- cardolan chain legs -->
 
 		<item id="2513" chance="3000"/><!-- iron kite shield -->
 

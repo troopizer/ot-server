@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Osbalt" nameDescription="Osbalt, a hobbit." script="osbald.lua" walkinterval="2000" floorchange="1">
+<npc name="Osbald Underhill" nameDescription="Osbald, a hobbit." script="osbald.lua" walkinterval="2000" floorchange="1">
 
 	<health now="150" max="150"/>
 

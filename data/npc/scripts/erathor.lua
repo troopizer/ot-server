@@ -6,8 +6,21 @@ local talkState = {}
 function onCreatureAppear(cid)				npcHandler:onCreatureAppear(cid)			end
 function onCreatureDisappear(cid) 			npcHandler:onCreatureDisappear(cid)			end
 function onCreatureSay(cid, type, msg)			npcHandler:onCreatureSay(cid, type, msg)		end
-function onThink()					npcHandler:onThink()					end
+local random_texts = {
+	'Annun adanath aglareb.',
+	'Long days and even longer nights.. but we are dunedain, we dont get tired.',
+}
 
+local rnd_sounds = 0
+function onThink()
+	if(rnd_sounds < os.time()) then
+		rnd_sounds = (os.time() + 35)
+		if(math.random(100) < 40) then
+			Npc():say(random_texts[math.random(#random_texts)], TALKTYPE_SAY)
+		end
+	end
+	npcHandler:onThink()
+end
 function creatureSayCallback(cid, type, msg)
 	if(not npcHandler:isFocused(cid)) then
 		return false

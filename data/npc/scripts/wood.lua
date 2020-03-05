@@ -17,7 +17,7 @@ end
 
 if(msgcontains(msg, 'supplies')or msgcontains(msg, 'mission')) then
 if (getPlayerStorageValue(cid,2005) == 0) then
-selfSay('Ok,The Mayor send you, I need your help delivering 10 wood planks to {Osbald} in {Staddle}, {ok}? ', cid)
+selfSay('Ok,The Mayor send you, I need your help delivering 10 wood planks to {Osbald Underhill} in {Staddle}, {ok}? ', cid)
 talkState[talkUser] = 1
 end
 end

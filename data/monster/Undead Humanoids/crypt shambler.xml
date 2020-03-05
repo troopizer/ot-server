@@ -18,11 +18,11 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="60" attack="45"/>
-		<attack name="lifedrain" interval="1000" chance="15" range="2" min="-25" max="-75"/>
+		<attack name="melee" interval="2000" skill="60" attack="48"/>
+		<attack name="lifedrain" interval="2000" chance="30" range="3" min="-45" max="-90"/>
 	</attacks>
-	<defenses armor="15" defense="25">
-		<defense name="healing" interval="1000" chance="15" min="25" max="75">
+	<defenses armor="18" defense="28">
+		<defense name="healing" interval="2000" chance="30" min="35" max="75">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -50,13 +50,13 @@
 
 		<item id="5913" countmax="3" chance="8000"/><!-- brown piece of cloth -->
 
-		<item id="2521" chance="200"/><!-- angmar battle shield -->
+		<item id="2521" chance="100"/><!-- angmar battle shield -->
 	
 		<item id="5909" countmax="2" chance="10000"/><!-- white piece of cloth -->
 
 		<item id="2394" chance="3000"/><!-- morning star -->
 
-		<item id="2513" chance="2000"/><!-- iron kite shield -->
+		<item id="2513" chance="4000"/><!-- iron kite shield -->
 
 		<item id="5904" chance="10000"/><!-- magic sulphurs -->
 

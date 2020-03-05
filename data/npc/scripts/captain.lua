@@ -6,9 +6,24 @@ local talkState = {}
 function onCreatureAppear(cid)				npcHandler:onCreatureAppear(cid)			end
 function onCreatureDisappear(cid) 			npcHandler:onCreatureDisappear(cid)			end
 function onCreatureSay(cid, type, msg)			npcHandler:onCreatureSay(cid, type, msg)		end
-function onThink()					npcHandler:onThink()					end
+local random_texts = {
+	'Some day the renegades will fall...',
+	'We need more men...',
+	'Some day the renegades will fall...',
+	'We need more men...',
+	'Sergeant! Come here!'
+}
 
-
+local rnd_sounds = 0
+function onThink()
+	if(rnd_sounds < os.time()) then
+		rnd_sounds = (os.time() + 35)
+		if(math.random(100) < 40) then
+			Npc():say(random_texts[math.random(#random_texts)], TALKTYPE_SAY)
+		end
+	end
+	npcHandler:onThink()
+end
 function creatureSayCallback(cid, type, msg)
 	if(not npcHandler:isFocused(cid)) then
 		return false
@@ -21,7 +36,7 @@ function creatureSayCallback(cid, type, msg)
 	end
 	if(msgcontains(msg, 'jeff')) then
 		selfSay('My name is Jeff Mapleton. Since a few years I have been the captain of the Bree guards.', cid)
-		selfSay('My father, the mayor, gave my this task. He is no warrior, so I take the responsibility of defending our land.', cid)
+		selfSay('My father, the mayor, gave me this task. He is no warrior, so I take the responsibility of defending our land.', cid)
 		selfSay('Since then, me and my men have been fighting those bastards of the renegades.', cid)
 	end
 	if(msgcontains(msg, 'captain') or msgcontains(msg, 'guard')) then

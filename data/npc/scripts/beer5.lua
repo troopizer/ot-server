@@ -5,7 +5,26 @@ NpcSystem.parseParameters(npcHandler)
 function onCreatureAppear(cid)				npcHandler:onCreatureAppear(cid) 			end
 function onCreatureDisappear(cid) 			npcHandler:onCreatureDisappear(cid) 			end
 function onCreatureSay(cid, type, msg) 			npcHandler:onCreatureSay(cid, type, msg) 		end
-function onThink() 					npcHandler:onThink() 					end
+local random_texts = {
+	'Something to eat traveler?.',
+	'Something to eat traveler?.',
+	'You may buy a room.',
+	'You may have a room.',
+	'Be careful around here. There ara fierce wolves in the Lone Lands.',
+	'Take the wild boars seriously, they are dangerous.',
+	'the outlaws in Lone Lands, are stronger than in Bree-land.',
+}
+
+local rnd_sounds = 0
+function onThink()
+	if(rnd_sounds < os.time()) then
+		rnd_sounds = (os.time() + 25)
+		if(math.random(100) < 40) then
+			Npc():say(random_texts[math.random(#random_texts)], TALKTYPE_SAY)
+		end
+	end
+	npcHandler:onThink()
+end
 function creatureSayCallback(cid, type, msg)
 	if(not npcHandler:isFocused(cid)) then
 		return false

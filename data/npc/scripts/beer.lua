@@ -6,9 +6,26 @@ local talkState = {}
 function onCreatureAppear(cid)				npcHandler:onCreatureAppear(cid)			end
 function onCreatureDisappear(cid) 			npcHandler:onCreatureDisappear(cid)			end
 function onCreatureSay(cid, type, msg)			npcHandler:onCreatureSay(cid, type, msg)		end
-function onThink()					npcHandler:onThink()					end
+local random_texts = {
+	'SNOB!',
+	'SNOB!',
+	'SNOB! Go and take the order.',
+	'SNOB! Can you clean the floor?.',
+	'WE HAVE FRESH BREAD! Who wants some?',
+	'WE HAVE FRESH BREAD! Who wants some?',
+	'What a nice day...'
+}
 
-
+local rnd_sounds = 0
+function onThink()
+	if(rnd_sounds < os.time()) then
+		rnd_sounds = (os.time() + 20)
+		if(math.random(100) < 30) then
+			Npc():say(random_texts[math.random(#random_texts)], TALKTYPE_SAY)
+		end
+	end
+	npcHandler:onThink()
+end
 function creatureSayCallback(cid, type, msg)
 	if(not npcHandler:isFocused(cid)) then
 		return false
@@ -16,7 +33,7 @@ function creatureSayCallback(cid, type, msg)
 
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 	if(msgcontains(msg, 'bree')) then
-	selfSay('This town is Bree, the biggest of men in Erianor. Its a good place to learn basic skills and start your adventures', cid)
+	selfSay('This town is Bree, the biggest of men in Eriador. Its a good place to learn basic skills and start your adventures', cid)
 	end
 	if(msgcontains(msg, 'prancing pony')) then
 	selfSay('The Prancing Pony is my Inn, travelers of all kind stop here for drinks and food.', cid)

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Deniam"  script="forge2.lua" nameDescription="Deniam an old armourer" walkinterval="2000" floorchange="0">
+<npc name="Deniam Pinehollow"  script="forge2.lua" nameDescription="Deniam an old armourer" walkinterval="2000" floorchange="0">
 
 	<health now="100" max="100"/>
 

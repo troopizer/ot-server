@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Jean"  script="travelbree.lua" nameDescription="Jean a traveling agent" walkinterval="2000" floorchange="0">
+<npc name="Jean Beechleaf"  script="travelbree.lua" nameDescription="Jean a traveling agent" walkinterval="2000" floorchange="0">
 
 	<health now="100" max="100"/>
 

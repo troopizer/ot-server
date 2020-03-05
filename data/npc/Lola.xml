@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Lola" script="furniture.lua" walkinterval="2000" floorchange="0">
+<npc name="Lola Rushlight" script="furniture.lua" walkinterval="2000" floorchange="0">
 
 	<health now="150" max="150"/>
 

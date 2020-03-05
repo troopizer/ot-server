@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Elias" nameDescription="Elias, a drunk human." walkinterval="2000" floorchange="1">
+<npc name="Elias" nameDescription="Elias, a drunk human." walkinterval="2000" script="drunk1.lua" floorchange="1">
 
 	<health now="150" max="150"/>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Wandering Runes Dealer" script="weapons.lua" nameDescription="a runes dealer" walkinterval="2000" floorchange="0">
+<npc name="Wandering Runes Dealer" script="runew.lua" nameDescription="a runes dealer" walkinterval="2000" floorchange="0">
 
 	<health now="100" max="100"/>
 

@@ -91,14 +91,14 @@ if NpcHandler == nil then
 			[MESSAGE_NEEDSPACE] = "You do not have enough capacity.",
 			[MESSAGE_NEEDMORESPACE] = "You do not have enough capacity for all items.",
 			[MESSAGE_IDLETIMEOUT] = "Good bye.",
-			[MESSAGE_WALKAWAY] = "Good bye.",
+			[MESSAGE_WALKAWAY] = "How rude.",
 			[MESSAGE_DECLINE] = "Then not.",
 			[MESSAGE_SENDTRADE] = "Of course, just browse through my wares.",
 			[MESSAGE_NOSHOP] = "Sorry, I'm not offering anything.",
 			[MESSAGE_ONCLOSESHOP] = "Thank you, come back whenever you're in need of something else.",
 			[MESSAGE_ALREADYFOCUSED] = "|PLAYERNAME|, I am already talking to you.",
-			[MESSAGE_WALKAWAY_MALE] = "Good bye.",
-			[MESSAGE_WALKAWAY_FEMALE] = "Good bye."
+			[MESSAGE_WALKAWAY_MALE] = "How rude.",
+			[MESSAGE_WALKAWAY_FEMALE] = "How rude."
 		}
 	}
 

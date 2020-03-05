@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Shire Patrol" nameDescription="one of the Shires watch" walkinterval="3000" floorchange="1">
+<npc name="Shire Patrol" nameDescription="one of the Shires watch" script="shireguard1.lua" walkinterval="3000" floorchange="1">
 
 	<health now="150" max="150"/>
 

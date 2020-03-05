@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Ryan" nameDescription="Ryan, Adventurers Guild Officer, Leader of Brees Guild." walkinterval="2000" script="huntingbree.lua" floorchange="1">
+<npc name="Ryan Wolfenstone" nameDescription="Ryan, Adventurers Guild Officer, Leader of Brees Guild." walkinterval="2000" script="huntingbree.lua" floorchange="1">
 
 	<health now="150" max="150"/>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Bree Guard" nameDescription="member of the Bree Guard" walkinterval="3000" floorchange="1">
+<npc name="Bree Guard" nameDescription="member of the Bree Guard" script="breeguard1.lua" walkinterval="3000" floorchange="1">
 
 	<health now="150" max="150"/>
 
