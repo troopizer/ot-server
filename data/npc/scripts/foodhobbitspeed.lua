@@ -16,6 +16,11 @@ function creatureSayCallback(cid, type, msg)
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 local balance = getPlayerBalance(cid)
 if(msgcontains(msg, 'mission')) then
+	if (getPlayerStorageValue(cid,2308) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2308,4)
+			setPlayerStorageValue(cid,2309,150)
+end
 	if (getPlayerStorageValue(cid,2112) == 0) then
 		if(getPlayerItemCount(cid, 2803) >= 20 and  getPlayerItemCount(cid, 2793) >= 20 and getPlayerItemCount(cid, 2692) >= 20) then
 				doPlayerRemoveItem(cid, 2803, 20)
@@ -24,6 +29,11 @@ if(msgcontains(msg, 'mission')) then
 			selfSay('Great!, now lets speak about {cook}.(You recived 5000 exp)', cid)
 			setPlayerStorageValue(cid,2112,1)
 			doPlayerAddExperience(cid,5000)
+			x=getPlayerStorageValue(cid,2309)+4
+				setPlayerStorageValue(cid,2309,x)
+				if (getPlayerStorageValue(cid,2309) > 60 and getPlayerStorageValue(cid,2308) == 4) then
+					setPlayerStorageValue(cid,2308,5)
+				end
 		else
 		selfSay('You dont have all the ingredients, please search for them.', cid)
 		end
@@ -36,6 +46,11 @@ if(msgcontains(msg, 'mission')) then
 			setPlayerStorageValue(cid,30024,23)
 			setPlayerStorageValue(cid,2114,0)
 			doPlayerAddExperience(cid,20000)
+			x=getPlayerStorageValue(cid,2309)+4
+				setPlayerStorageValue(cid,2309,x)
+				if (getPlayerStorageValue(cid,2309) > 60 and getPlayerStorageValue(cid,2308) == 4) then
+					setPlayerStorageValue(cid,2308,5)
+				end
 		else
 		selfSay('I am sure you will get it.', cid)
 		end

@@ -65,14 +65,24 @@ function creatureSayCallback(cid, type, msg)
 	if(msgcontains(msg, 'mission')) then
 			if(getPlayerStorageValue(cid,2036) < 0 and getPlayerStorageValue(cid,2020) == 0) then
 				selfSay('Last month, 2 renegades broke into my house and stole a very old book of mine, I am too old to get it back, may you recover it for me, {yes}?', cid)
+				if (getPlayerStorageValue(cid,2304) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2304,4)
+			setPlayerStorageValue(cid,2305,150)
+		end
 				talkState[talkUser] = 1
 			elseif(getPlayerStorageValue(cid,2036) == 0) then
 				if(getPlayerItemCount(cid,1959) >= 1) then
 					doPlayerRemoveItem(cid,1959,1)
-					doPlayerAddExperience(cid,2000)
+					doPlayerAddExperience(cid,4000)
 				 doPlayerAddItem(cid,2260,10)
-					selfSay('Thanks you!! My old book!, now you will have to choose between 3 rune casting spells, {ok}? (You have received 2000 exp and 10 blank runes)', cid)
+					selfSay('Thanks you!! My old book!, now you will have to choose between 3 rune casting spells, {ok}? (You have received 4000 exp and 10 blank runes)', cid)
 					setPlayerStorageValue(cid,2036,1)
+					x=getPlayerStorageValue(cid,2305)+1
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 				talkState[talkUser] = 2
 				end
 			elseif(getPlayerStorageValue(cid,2036) == 1) then

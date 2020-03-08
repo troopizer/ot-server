@@ -56,6 +56,11 @@ function creatureSayCallback(cid, type, msg)
 
 
 	if(msgcontains(msg, 'mission')) then
+		if (getPlayerStorageValue(cid,2304) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2304,4)
+			setPlayerStorageValue(cid,2305,150)
+		end
 		if (getPlayerStorageValue(cid,2000) < 0) then
 			selfSay('Welcome to {Bree}, I am the Mayor of this town. By doing missions you will become stronger, also earn some money and position on the mens world, Are you here for missions?, {yes}?', cid)
 			talkState[talkUser] = 1
@@ -119,6 +124,11 @@ function creatureSayCallback(cid, type, msg)
 				setPlayerStorageValue(cid,2000,1)
 				doPlayerAddExperience(cid,400)
 				doPlayerAddItem(cid,2148,100)
+				x=getPlayerStorageValue(cid,2305)+3
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 				selfSay('Good work young one.(you have received 400 experience and 100 gp)', cid)
 			end
 		end
@@ -154,6 +164,11 @@ function creatureSayCallback(cid, type, msg)
 			selfSay('Well done, here is your reward (you have received 1000 experience points and 200 gp).', cid)
 			setPlayerStorageValue(cid,2005,6)
 			doPlayerAddExperience(cid,1000)
+			x=getPlayerStorageValue(cid,2305)+3
+				setPlayerStorageValue(cid,2305,x)
+			if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 			doPlayerAddItem(cid,2148,200)
 		end
 		if (getPlayerStorageValue(cid,2005) == 6 and getPlayerStorageValue(cid,2006) < 0 ) then
@@ -170,6 +185,11 @@ function creatureSayCallback(cid, type, msg)
 	if(msgcontains(msg, 'mission')) then
 		if (getPlayerStorageValue(cid,2002) == 1) then
 			setPlayerStorageValue(cid,2002,2)
+			x=getPlayerStorageValue(cid,2305)+3
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 			doPlayerAddExperience(cid,500)
 			selfSay('Allright then.(you have received 500 experience points). ', cid)
 			selfSay('Now you need a distance weapon, go to {Darren the Weaponsmaker} and tell him to build a spear for you, you will need this wood plank too.', cid)
@@ -179,6 +199,11 @@ function creatureSayCallback(cid, type, msg)
 		if (getPlayerStorageValue(cid,2003) == 1) then
 			setPlayerStorageValue(cid,2003,2)
 			doPlayerAddExperience(cid,300)
+			x=getPlayerStorageValue(cid,2305)+3
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 			selfSay('Allright then.(you have received 300 experience points). ', cid)
 		end
 		if (getPlayerStorageValue(cid,2003) == 2 and getPlayerStorageValue(cid,2004) < 0 ) then
@@ -190,6 +215,11 @@ function creatureSayCallback(cid, type, msg)
 				setPlayerStorageValue(cid,2004,1)
 				doPlayerAddExperience(cid,800)
 				doPlayerAddItem(cid,2148,150)
+				x=getPlayerStorageValue(cid,2305)+3
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 				selfSay('Nice done, I will study this map now.(you received 800 experience and 150 gold).', cid)
 			else
 				selfSay('We need that map, please try harder.', cid)
@@ -200,6 +230,11 @@ function creatureSayCallback(cid, type, msg)
 				setPlayerStorageValue(cid,2006,2)
 				doPlayerAddExperience(cid,2000)
 				doPlayerAddItem(cid,2148,200)
+				x=getPlayerStorageValue(cid,2305)+3
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 				selfSay('Nice done, Its a very important treasure for Bree.(you received 2000 experience and 200 gold).', cid)
 			else
 				selfSay('Where is the golden goblet?, bring it.', cid)
@@ -209,6 +244,11 @@ function creatureSayCallback(cid, type, msg)
 			setPlayerStorageValue(cid,2007,4)
 			doPlayerAddExperience(cid,3000)
 			doPlayerAddItem(cid,2148,300)
+			x=getPlayerStorageValue(cid,2305)+3
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 			selfSay('Allright then.(you have received 3000 experience points and 300 gold). ', cid)
 		end
 	end
@@ -219,6 +259,11 @@ function creatureSayCallback(cid, type, msg)
 				setPlayerStorageValue(cid,2006,2)
 				doPlayerAddExperience(cid,2000)
 				doPlayerAddItem(cid,2148,200)
+				x=getPlayerStorageValue(cid,2305)+3
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 				selfSay('Nice done, It a very important treasure for Bree.(you received 2000 experience and 200 gold).', cid)
 			else
 				selfSay('Where is the golden goblet?, bring it.', cid)
@@ -239,6 +284,11 @@ function creatureSayCallback(cid, type, msg)
 			if(doPlayerRemoveItem(cid, 1958, 1) == TRUE) then
 				setPlayerStorageValue(cid,2000,1)
 				doPlayerAddExperience(cid,400)
+				x=getPlayerStorageValue(cid,2305)+3
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 				doPlayerAddItem(cid,2148,100)
 				selfSay('Good work young one.(you have received 400 experience and 100 gp)', cid)
 			else

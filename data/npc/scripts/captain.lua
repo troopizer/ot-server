@@ -53,6 +53,11 @@ function creatureSayCallback(cid, type, msg)
 			end
 	elseif(msgcontains(msg, 'most wanted') or msgcontains(msg, 'dead or alive')) then
 			selfSay('This is our newest most wanted list, kill the targets and get a nice reward.', cid)
+			if (getPlayerStorageValue(cid,2304) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2304,4)
+			setPlayerStorageValue(cid,2305,150)
+		end
 			if(getPlayerStorageValue(cid,2038) < 0) then
 				selfSay('New Target.', cid)
 				setPlayerStorageValue(cid,30009,8)
@@ -75,18 +80,33 @@ function creatureSayCallback(cid, type, msg)
 				doPlayerAddItem(cid,2148,500)
 				doPlayerAddItem(cid,2481,1)
 				setPlayerStorageValue(cid,2038,2)
+				x=getPlayerStorageValue(cid,2305)+2
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 			elseif(getPlayerStorageValue(cid,2111) == 1) then
 				selfSay('Great job! (you received 50000 experience, 8000 gold and 1 small diamond).', cid)
 				doPlayerAddExperience(cid,50000)
 				doPlayerAddItem(cid,2152,80)
 				doPlayerAddItem(cid,2145,1)
 				setPlayerStorageValue(cid,2111,2)
+				x=getPlayerStorageValue(cid,2305)+2
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 			elseif(getPlayerStorageValue(cid,2154) == 1) then
 				selfSay('Great job! (you received 60000 experience, 10000 gold and 1 small diamond).', cid)
 				doPlayerAddExperience(cid,60000)
 				doPlayerAddItem(cid,2152,100)
 				doPlayerAddItem(cid,2145,1)
 				setPlayerStorageValue(cid,2154,2)
+				x=getPlayerStorageValue(cid,2305)+2
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 			else
 				selfSay('You have not earned any rewards.', cid)
 			end

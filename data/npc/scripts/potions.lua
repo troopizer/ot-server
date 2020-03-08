@@ -58,12 +58,22 @@ function creatureSayCallback(cid, type, msg)
 	if(msgcontains(msg, 'mission') or msgcontains(msg, 'barrow downs')) then
 			if(getPlayerStorageValue(cid,2017) < 0) then
 				selfSay('If you leave Bree using the south road and then take a side path to the west, you will find the Barrow Downs. If you help me with some tasks over there, I will pay you and maybe teach you something about {herbalist magic}, {yes}?', cid)
+				if (getPlayerStorageValue(cid,2304) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2304,4)
+			setPlayerStorageValue(cid,2305,150)
+		end
 				talkState[talkUser] = 1
 			elseif(getPlayerStorageValue(cid,2017) == 0) then
 				if(getPlayerItemCount(cid,2798) >= 10) then
 					doPlayerRemoveItem(cid,2798,10)
 					doPlayerAddExperience(cid,1000)
 					doPlayerAddItem(cid,7618,2)
+					x=getPlayerStorageValue(cid,2305)+2
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 					selfSay('Great! You are really brave, I have another {mission} for you. (You have received 1000 exp and 2 health potions)', cid)
 					setPlayerStorageValue(cid,2017,1)
 				end
@@ -76,6 +86,11 @@ function creatureSayCallback(cid, type, msg)
 					doPlayerRemoveItem(cid,2229,5)
 					doPlayerAddExperience(cid,1500)
 					doPlayerAddItem(cid,7618,2)
+					x=getPlayerStorageValue(cid,2305)+2
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 					selfSay('Thanks! You are really strong, I will teach you the spell I told you. I also have another {mission} for you. (You have received 1500 exp and 2 health potions)', cid)
 					setPlayerStorageValue(cid,2021,1)
 					if(getPlayerStorageValue(cid,2020) < 0) then
@@ -97,6 +112,11 @@ function creatureSayCallback(cid, type, msg)
 					doPlayerRemoveItem(cid,4852,1)
 					doPlayerAddExperience(cid,2000)
 					doPlayerAddItem(cid,7618,2)
+					x=getPlayerStorageValue(cid,2305)+2
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 					selfSay('Thanks! You have a great spirit, should become a sorcerer, anyway I will teach you the spell I told you.(You have received 2000 exp and 2 health potions)', cid)
 					setPlayerStorageValue(cid,2022,1)
 					if(getPlayerStorageValue(cid,2024) < 0) then
@@ -117,6 +137,11 @@ function creatureSayCallback(cid, type, msg)
 					doPlayerRemoveItem(cid,6533,1)
 					doPlayerAddExperience(cid,2500)
 					doPlayerAddItem(cid,7618,2)
+					x=getPlayerStorageValue(cid,2305)+2
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 					selfSay('You are amazing child, as I promise I will teach you one spell, but you will have to choose between 6 spells, {ok}? (You have received 2500 exp and 2 health potions)', cid)
 					setPlayerStorageValue(cid,2031,1)
 				talkState[talkUser] = 2

@@ -25,6 +25,11 @@ if(msgcontains(msg, 'mission') or msgcontains(msg, 'addon')) then
 				doPlayerAddOutfit(cid, 128, 1)
 				setPlayerStorageValue(cid,2023,1)
 				doPlayerAddExperience(cid,3000)
+				x=getPlayerStorageValue(cid,2305)+1
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 		else
 				selfSay('I need the materials to start working, you have to get them.', cid)
 		end
@@ -35,6 +40,11 @@ if(msgcontains(msg, 'mission') or msgcontains(msg, 'addon')) then
 	if (getPlayerStorageValue(cid,2023) < 0) then
 		selfSay('My name is Jim and I am a backpack crafter. Its been a while since I did my last job.. Staddle is so boring!', cid)
 		selfSay(' If you bring me the materials, I will craft one for you, {ok}?.', cid)
+		if (getPlayerStorageValue(cid,2304) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2304,4)
+			setPlayerStorageValue(cid,2305,150)
+		end
 	end
 end
 if(msgcontains(msg, 'ok')) then

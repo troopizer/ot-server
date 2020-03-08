@@ -43,6 +43,11 @@ end
 
 
 if(msgcontains(msg, 'mission')) then
+if (getPlayerStorageValue(cid,2306) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2306,4)
+			setPlayerStorageValue(cid,2307,150)
+end
 selfSay('Sorry I dont have any job for you now.', cid)
 end
 

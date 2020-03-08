@@ -29,6 +29,11 @@ function creatureSayCallback(cid, type, msg)
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 
 	if(msgcontains(msg, 'mission') or msgcontains(msg, 'dunedain') or msgcontains(msg, 'ranger')) then
+		if (getPlayerStorageValue(cid,2310) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2310,4)
+			setPlayerStorageValue(cid,2311,150)
+		end
 			if(getPlayerStorageValue(cid,2041) == 0) then
 				selfSay('I am waiting for you to finish the mission.', cid)
 			elseif(getPlayerStorageValue(cid,2041) < 0) then
@@ -38,6 +43,11 @@ function creatureSayCallback(cid, type, msg)
 					selfSay('Great! you are pretty strong, you can now pick one of this rings. They are lesser magic rings I found in Eregion and they are very valuable: {meele ring}, {distance ring} and {magic ring}, wich one? (you received 10000 exp) ', cid)
 					setPlayerStorageValue(cid,2041,41)
 					doPlayerAddExperience(cid,10000)
+					x=getPlayerStorageValue(cid,2311)+2
+				setPlayerStorageValue(cid,2311,x)
+				if (getPlayerStorageValue(cid,2311) > 60 and getPlayerStorageValue(cid,2310) == 4) then
+					setPlayerStorageValue(cid,2310,5)
+				end
 					talkState[talkUser] = 2
 			end
 			

@@ -21,6 +21,11 @@ if(msgcontains(msg, 'food')) then
 selfSay('I sell bread for 2 gp and cheese for 2 gp.', cid)
 end
 if(msgcontains(msg, 'mission')) then
+	if (getPlayerStorageValue(cid,2304) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2304,4)
+			setPlayerStorageValue(cid,2305,150)
+		end
 selfSay('I dont have missions for you.. You should talk to the mayor of Bree or maybe go to Jims house, he might need some help.', cid)
 end
 if(msgcontains(msg, 'herbs')) then

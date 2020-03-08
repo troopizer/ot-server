@@ -16,6 +16,11 @@ function creatureSayCallback(cid, type, msg)
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 
 	if(msgcontains(msg, 'mission') or msgcontains(msg, 'dunedain') or msgcontains(msg, 'ranger')) then
+			if (getPlayerStorageValue(cid,2310) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2310,4)
+			setPlayerStorageValue(cid,2311,150)
+			end
 			if(getPlayerStorageValue(cid,2096) == 0) then
 				selfSay('I am waiting for you to finish the mission.', cid)
 			elseif(getPlayerStorageValue(cid,2007) == 4 and getPlayerStorageValue(cid,2096) < 0) then
@@ -27,6 +32,11 @@ function creatureSayCallback(cid, type, msg)
 					setPlayerStorageValue(cid,2096,21)
 					doPlayerAddExperience(cid,10000)
 					doPlayerAddItem(cid,2152,10)
+					x=getPlayerStorageValue(cid,2311)+4
+				setPlayerStorageValue(cid,2311,x)
+				if (getPlayerStorageValue(cid,2311) > 60 and getPlayerStorageValue(cid,2310) == 4) then
+					setPlayerStorageValue(cid,2310,5)
+				end
 			elseif(getPlayerStorageValue(cid,2096) == 21 and getPlayerStorageValue(cid,2097) < 0) then
 					selfSay('As you may noticed in the first area of the city there are just some wolves and bandits. Thats because an old dwarven sorcerer keeps any evil spirit and undead lock in the catacombs.', cid)
 					selfSay('The second area of the city, the eastern area, is another story. A cult of sorcerers and necromancers use the ruins to make evil rituals, if you feel strong enough I want to kill some of them, {ok}?', cid)		
@@ -36,6 +46,11 @@ function creatureSayCallback(cid, type, msg)
 					setPlayerStorageValue(cid,2097,31)
 					doPlayerAddExperience(cid,20000)
 					doPlayerAddItem(cid,2152,10)
+					x=getPlayerStorageValue(cid,2311)+4
+				setPlayerStorageValue(cid,2311,x)
+				if (getPlayerStorageValue(cid,2311) > 60 and getPlayerStorageValue(cid,2310) == 4) then
+					setPlayerStorageValue(cid,2310,5)
+				end
 			elseif(getPlayerStorageValue(cid,2097) == 31 and getPlayerStorageValue(cid,2098) < 0) then
 					selfSay('I have a spy located near the necromancers camp, he send a message telling that he found something important, can you go there?, {ok}? ', cid)
 					talkState[talkUser] = 1
@@ -47,13 +62,23 @@ function creatureSayCallback(cid, type, msg)
 					setPlayerStorageValue(cid,2098,4)
 					doPlayerRemoveItem(cid,11237,1)
 					doPlayerAddExperience(cid,30000)
-					doPlayerAddItem(cid,2152,30)	
+					doPlayerAddItem(cid,2152,30)
+					x=getPlayerStorageValue(cid,2311)+4
+				setPlayerStorageValue(cid,2311,x)
+				if (getPlayerStorageValue(cid,2311) > 60 and getPlayerStorageValue(cid,2310) == 4) then
+					setPlayerStorageValue(cid,2310,5)
+				end
 			elseif(getPlayerStorageValue(cid,2098) == 4 and getPlayerStorageValue(cid,2099) < 0) then
 					selfSay('I am still planning our next move, for the time being we should get rid of some of their priestesses. Go to Fornost and get that done, {ok}? ', cid)
 					talkState[talkUser] = 1
 			elseif(getPlayerStorageValue(cid,2099) == 30) then
 					selfSay('All right, you are true warrior. Now you should choose between 2 martial spells: {Warrior Rage} (Meele) or {Spear Throw} (Distance). (you received 50000 exp)', cid)
 					doPlayerAddExperience(cid,50000)
+					x=getPlayerStorageValue(cid,2311)+4
+				setPlayerStorageValue(cid,2311,x)
+				if (getPlayerStorageValue(cid,2311) > 60 and getPlayerStorageValue(cid,2310) == 4) then
+					setPlayerStorageValue(cid,2310,5)
+				end
 					talkState[talkUser] = 2	
 			elseif(getPlayerStorageValue(cid,2099) == 31 and getPlayerStorageValue(cid,2100) < 0) then
 					selfSay('Well... Freor found out that there are some elemental cultists in the necromancers area in Fornost. This cultists have strong elemental powers.', cid)
@@ -65,6 +90,11 @@ function creatureSayCallback(cid, type, msg)
 					doPlayerAddExperience(cid,100000)
 					doPlayerAddItem(cid,2152,50)
 					doPlayerAddItem(cid,2164,1)
+					x=getPlayerStorageValue(cid,2311)+4
+				setPlayerStorageValue(cid,2311,x)
+				if (getPlayerStorageValue(cid,2311) > 60 and getPlayerStorageValue(cid,2310) == 4) then
+					setPlayerStorageValue(cid,2310,5)
+				end
 			elseif(getPlayerStorageValue(cid,2100) == 5) then
 					selfSay('I dont have more missions for now.', cid)
 			end

@@ -1624,5 +1624,1263 @@
             <mission name="Annuminas Elemental Temple" storageid="2158" startvalue="0" endvalue="0">
             <missionstate id="0" description="You have been blessed by the Elemental Patriarch of Annuminas, granting you entrance to the main temple."/>
         </mission>
-    </quest>         
+    </quest>
+    <quest name="Towns Relatioships" startstorageid="30034" startstoragevalue="33">
+        <mission name="Bree-Land Relation Level" storageid="2304" startvalue="0" endvalue="8">
+            <missionstate id="0" description="Relation: Worst Enemy."/>
+            <missionstate id="1" description="Relation: Hated."/>
+            <missionstate id="2" description="Relation: Very Bad."/>
+            <missionstate id="3" description="Relation: Bad."/>
+            <missionstate id="4" description="Relation: Normal."/>
+            <missionstate id="5" description="Relation: Good."/>
+            <missionstate id="6" description="Relation: Very Good."/>
+            <missionstate id="7" description="Relation: Extremly Good."/>
+            <missionstate id="8" description="Relation: Hero!."/>
+        </mission>
+        <mission name="- Bree-Land Relation Progress" storageid="2305" startvalue="0" endvalue="300">
+            <missionstate id="0" description="Relation: 1"/>
+            <missionstate id="1" description="Relation: 2"/>
+            <missionstate id="2" description="Relation: 3"/>
+            <missionstate id="3" description="Relation: 4"/>
+            <missionstate id="4" description="Relation: 5"/>
+            <missionstate id="5" description="Relation: 6"/>
+            <missionstate id="6" description="Relation: 7"/>
+            <missionstate id="7" description="Relation: 8"/>
+            <missionstate id="8" description="Relation: 9"/>
+            <missionstate id="9" description="Relation: 10"/>
+            <missionstate id="10" description="Relation: 11"/>
+            <missionstate id="11" description="Relation: 12"/>
+            <missionstate id="12" description="Relation: 13"/>
+            <missionstate id="13" description="Relation: 14"/>
+            <missionstate id="14" description="Relation: 15"/>
+            <missionstate id="15" description="Relation: 16"/>
+            <missionstate id="16" description="Relation: 17"/>
+            <missionstate id="17" description="Relation: 18"/>
+            <missionstate id="18" description="Relation: 19."/>
+            <missionstate id="19" description="Relation: 20"/>
+            <missionstate id="20" description="Relation: 21"/>
+            <missionstate id="21" description="Relation: 22"/>
+            <missionstate id="22" description="Relation: 23"/>
+            <missionstate id="23" description="Relation: 24"/>
+            <missionstate id="24" description="Relation: 25"/>
+            <missionstate id="25" description="Relation: 26"/>
+            <missionstate id="26" description="Relation: 27"/>
+            <missionstate id="27" description="Relation: 28."/>
+            <missionstate id="28" description="Relation: 28"/>
+            <missionstate id="29" description="Relation: 29"/>
+            <missionstate id="30" description="Relation: 30"/>
+            <missionstate id="31" description="Relation: 31"/>
+            <missionstate id="32" description="Relation: 32"/>
+            <missionstate id="33" description="Relation: 33"/>
+            <missionstate id="34" description="Relation: 34"/>
+            <missionstate id="35" description="Relation: 35"/>
+            <missionstate id="36" description="Relation: 0."/>
+            <missionstate id="37" description="Relation: 1"/>
+            <missionstate id="38" description="Relation: 2"/>
+            <missionstate id="39" description="Relation: 3"/>
+            <missionstate id="40" description="Relation: 4"/>
+            <missionstate id="41" description="Relation: 5"/>
+            <missionstate id="42" description="Relation: 6"/>
+            <missionstate id="43" description="Relation: 7"/>
+            <missionstate id="44" description="Relation: 8"/>
+            <missionstate id="45" description="Relation: 9."/>
+            <missionstate id="46" description="Relation: 10"/>
+            <missionstate id="47" description="Relation: 11"/>
+            <missionstate id="48" description="Relation: 12"/>
+            <missionstate id="49" description="Relation: 13"/>
+            <missionstate id="50" description="Relation: 14"/>
+            <missionstate id="51" description="Relation: 15"/>
+            <missionstate id="52" description="Relation: 16"/>
+            <missionstate id="53" description="Relation: 17"/>
+            <missionstate id="54" description="Relation: 18."/>
+            <missionstate id="55" description="Relation: 19"/>
+            <missionstate id="56" description="Relation: 20"/>
+            <missionstate id="57" description="Relation: 21"/>
+            <missionstate id="58" description="Relation: 22"/>
+            <missionstate id="59" description="Relation: 23"/>
+            <missionstate id="60" description="Relation: 24"/>
+            <missionstate id="61" description="Relation: 25"/>
+            <missionstate id="62" description="Relation: 26"/>
+            <missionstate id="63" description="Relation: 27."/>
+            <missionstate id="64" description="Relation: 28"/>
+            <missionstate id="65" description="Relation: 29"/>
+            <missionstate id="66" description="Relation: 30"/>
+            <missionstate id="67" description="Relation: 31"/>
+            <missionstate id="68" description="Relation: 32"/>
+            <missionstate id="69" description="Relation: 33"/>
+            <missionstate id="70" description="Relation: 34"/>
+            <missionstate id="71" description="Relation: 35"/>
+            <missionstate id="72" description="Relation: 32"/>
+            <missionstate id="73" description="Relation: 33"/>
+            <missionstate id="74" description="Relation: 34"/>
+            <missionstate id="75" description="Relation: 35"/>
+            <missionstate id="76" description="Relation: 0."/>
+            <missionstate id="77" description="Relation: 1"/>
+            <missionstate id="78" description="Relation: 2"/>
+            <missionstate id="79" description="Relation: 3"/>
+            <missionstate id="80" description="Relation: 4"/>
+            <missionstate id="81" description="Relation: 5"/>
+            <missionstate id="82" description="Relation: 6"/>
+            <missionstate id="83" description="Relation: 7"/>
+            <missionstate id="84" description="Relation: 8"/>
+            <missionstate id="85" description="Relation: 9."/>
+            <missionstate id="86" description="Relation: 10"/>
+            <missionstate id="87" description="Relation: 11"/>
+            <missionstate id="88" description="Relation: 12"/>
+            <missionstate id="89" description="Relation: 13"/>
+            <missionstate id="90" description="Relation: 14"/>
+            <missionstate id="91" description="Relation: 15"/>
+            <missionstate id="92" description="Relation: 16"/>
+            <missionstate id="93" description="Relation: 17"/>
+            <missionstate id="94" description="Relation: 18."/>
+            <missionstate id="95" description="Relation: 19"/>
+            <missionstate id="96" description="Relation: 20"/>
+            <missionstate id="97" description="Relation: 21"/>
+            <missionstate id="98" description="Relation: 22"/>
+            <missionstate id="99" description="Relation: 23"/>
+            <missionstate id="100" description="Relation: 24"/>
+            <missionstate id="101" description="Relation: 2"/>
+            <missionstate id="102" description="Relation: 3"/>
+            <missionstate id="103" description="Relation: 4"/>
+            <missionstate id="104" description="Relation: 5"/>
+            <missionstate id="105" description="Relation: 6"/>
+            <missionstate id="106" description="Relation: 7"/>
+            <missionstate id="107" description="Relation: 8"/>
+            <missionstate id="108" description="Relation: 9"/>
+            <missionstate id="109" description="Relation: 10"/>
+            <missionstate id="110" description="Relation: 11"/>
+            <missionstate id="111" description="Relation: 12"/>
+            <missionstate id="112" description="Relation: 13"/>
+            <missionstate id="113" description="Relation: 14"/>
+            <missionstate id="114" description="Relation: 15"/>
+            <missionstate id="115" description="Relation: 16"/>
+            <missionstate id="116" description="Relation: 17"/>
+            <missionstate id="117" description="Relation: 18"/>
+            <missionstate id="118" description="Relation: 19."/>
+            <missionstate id="119" description="Relation: 20"/>
+            <missionstate id="120" description="Relation: 21"/>
+            <missionstate id="121" description="Relation: 22"/>
+            <missionstate id="122" description="Relation: 23"/>
+            <missionstate id="123" description="Relation: 24"/>
+            <missionstate id="124" description="Relation: 25"/>
+            <missionstate id="125" description="Relation: 26"/>
+            <missionstate id="126" description="Relation: 27"/>
+            <missionstate id="127" description="Relation: 28."/>
+            <missionstate id="128" description="Relation: 28"/>
+            <missionstate id="129" description="Relation: 29"/>
+            <missionstate id="130" description="Relation: 30"/>
+            <missionstate id="131" description="Relation: 31"/>
+            <missionstate id="132" description="Relation: 32"/>
+            <missionstate id="133" description="Relation: 33"/>
+            <missionstate id="134" description="Relation: 34"/>
+            <missionstate id="135" description="Relation: 35"/>
+            <missionstate id="136" description="Relation: 0."/>
+            <missionstate id="137" description="Relation: 1"/>
+            <missionstate id="138" description="Relation: 2"/>
+            <missionstate id="139" description="Relation: 3"/>
+            <missionstate id="140" description="Relation: 4"/>
+            <missionstate id="141" description="Relation: 5"/>
+            <missionstate id="142" description="Relation: 6"/>
+            <missionstate id="143" description="Relation: 7"/>
+            <missionstate id="144" description="Relation: 8"/>
+            <missionstate id="145" description="Relation: 9."/>
+            <missionstate id="146" description="Relation: 10"/>
+            <missionstate id="147" description="95% progress from: Bad ||||. to Normal."/>
+            <missionstate id="148" description="97% progress from: Bad ||||. to Normal."/>
+            <missionstate id="149" description="98% progress from: Bad ||||| to Normal."/>
+            <missionstate id="150" description="0% progress from: Normal ..... to Good."/>
+            <missionstate id="151" description="2% progress from: Normal ..... to Good."/>
+            <missionstate id="152" description="3% progress from: Normal ..... to Good."/>
+            <missionstate id="153" description="5% progress from: Normal ..... to Good."/>
+            <missionstate id="154" description="7% progress from: Normal ..... to Good."/>
+            <missionstate id="155" description="8% progress from: Normal ..... to Good."/>
+            <missionstate id="156" description="10% progress from: Normal ..... to Good."/>
+            <missionstate id="157" description="12% progress from: Normal ..... to Good."/>
+            <missionstate id="158" description="13% progress from: Normal ..... to Good."/>
+            <missionstate id="159" description="15% progress from: Normal ..... to Good."/>
+            <missionstate id="160" description="17% progress from: Normal ..... to Good."/>
+            <missionstate id="161" description="18% progress from: Normal |.... to Good."/>
+            <missionstate id="162" description="20% progress from: Normal |.... to Good."/>
+            <missionstate id="163" description="22% progress from: Normal |.... to Good."/>
+            <missionstate id="164" description="23% progress from: Normal |.... to Good."/>
+            <missionstate id="165" description="25% progress from: Normal |.... to Good."/>
+            <missionstate id="166" description="27% progress from: Normal |.... to Good."/>
+            <missionstate id="167" description="28% progress from: Normal |.... to Good."/>
+            <missionstate id="168" description="30% progress from: Normal |.... to Good."/>
+            <missionstate id="169" description="32% progress from: Normal |.... to Good."/>
+            <missionstate id="170" description="33% progress from: Normal |.... to Good."/>
+            <missionstate id="171" description="35% progress from: Normal |.... to Good."/>
+            <missionstate id="172" description="37% progress from: Normal |.... to Good."/>
+            <missionstate id="173" description="38% progress from: Normal ||... to Good."/>
+            <missionstate id="174" description="40% progress from: Normal ||... to Good."/>
+            <missionstate id="175" description="42% progress from: Normal ||... to Good."/>
+            <missionstate id="176" description="43% progress from: Normal ||... to Good."/>
+            <missionstate id="177" description="45% progress from: Normal ||... to Good."/>
+            <missionstate id="178" description="47% progress from: Normal ||... to Good."/>
+            <missionstate id="179" description="48% progress from: Normal ||... to Good."/>
+            <missionstate id="180" description="50% progress from: Normal ||... to Good."/>
+            <missionstate id="181" description="52% progress from: Normal ||... to Good."/>
+            <missionstate id="182" description="53% progress from: Normal ||... to Good."/>
+            <missionstate id="183" description="55% progress from: Normal ||... to Good."/>
+            <missionstate id="184" description="57% progress from: Normal ||... to Good."/>
+            <missionstate id="185" description="58% progress from: Normal |||.. to Good."/>
+            <missionstate id="186" description="60% progress from: Normal |||.. to Good."/>
+            <missionstate id="187" description="62% progress from: Normal |||.. to Good."/>
+            <missionstate id="188" description="63% progress from: Normal |||.. to Good."/>
+            <missionstate id="189" description="65% progress from: Normal |||.. to Good."/>
+            <missionstate id="190" description="67% progress from: Normal |||.. to Good."/>
+            <missionstate id="191" description="68% progress from: Normal |||.. to Good."/>
+            <missionstate id="192" description="70% progress from: Normal |||.. to Good."/>
+            <missionstate id="193" description="72% progress from: Normal |||.. to Good."/>
+            <missionstate id="194" description="73% progress from: Normal |||.. to Good."/>
+            <missionstate id="195" description="75% progress from: Normal |||.. to Good."/>
+            <missionstate id="196" description="77% progress from: Normal |||.. to Good."/>
+            <missionstate id="197" description="78% progress from: Normal ||||. to Good."/>
+            <missionstate id="198" description="80% progress from: Normal ||||. to Good."/>
+            <missionstate id="199" description="82% progress from: Normal ||||. to Good."/>
+            <missionstate id="200" description="83% progress from: Normal ||||. to Good."/>
+            <missionstate id="201" description="85% progress from: Normal ||||. to Good."/>
+            <missionstate id="202" description="87% progress from: Normal ||||. to Good."/>
+            <missionstate id="203" description="88% progress from: Normal ||||. to Good."/>
+            <missionstate id="204" description="90% progress from: Normal ||||. to Good."/>
+            <missionstate id="205" description="92% progress from: Normal ||||. to Good."/>
+            <missionstate id="206" description="93% progress from: Normal ||||. to Good."/>
+            <missionstate id="207" description="95% progress from: Normal ||||. to Good."/>
+            <missionstate id="208" description="97% progress from: Normal ||||. to Good."/>
+            <missionstate id="209" description="98% progress from: Normal ||||| to Good."/>
+            <missionstate id="210" description="0% progress from: Good ..... to: Very Good."/>
+            <missionstate id="211" description="3% progress from: Good ..... to: Very Good."/>
+            <missionstate id="212" description="5% progress from: Good ..... to: Very Good."/>
+            <missionstate id="213" description="8% progress from: Good ..... to: Very Good."/>
+            <missionstate id="214" description="10% progress from: Good ..... to: Very Good."/>
+            <missionstate id="215" description="13% progress from: Good ..... to: Very Good."/>
+            <missionstate id="216" description="15% progress from: Good ..... to: Very Good."/>
+            <missionstate id="217" description="18% progress from: Good |.... to: Very Good."/>
+            <missionstate id="218" description="20% progress from: Good |.... to: Very Good."/>
+            <missionstate id="219" description="Relation: 20"/>
+            <missionstate id="220" description="Relation: 21"/>
+            <missionstate id="221" description="Relation: 22"/>
+            <missionstate id="222" description="Relation: 23"/>
+            <missionstate id="223" description="Relation: 24"/>
+            <missionstate id="224" description="Relation: 25"/>
+            <missionstate id="225" description="Relation: 26"/>
+            <missionstate id="226" description="Relation: 27"/>
+            <missionstate id="227" description="Relation: 28."/>
+            <missionstate id="228" description="Relation: 28"/>
+            <missionstate id="229" description="Relation: 29"/>
+            <missionstate id="230" description="Relation: 30"/>
+            <missionstate id="231" description="Relation: 31"/>
+            <missionstate id="232" description="Relation: 32"/>
+            <missionstate id="233" description="Relation: 33"/>
+            <missionstate id="234" description="Relation: 34"/>
+            <missionstate id="235" description="Relation: 35"/>
+            <missionstate id="236" description="Relation: 0."/>
+            <missionstate id="237" description="Relation: 1"/>
+            <missionstate id="238" description="Relation: 2"/>
+            <missionstate id="239" description="Relation: 3"/>
+            <missionstate id="240" description="Relation: 4"/>
+            <missionstate id="241" description="Relation: 5"/>
+            <missionstate id="242" description="Relation: 6"/>
+            <missionstate id="243" description="Relation: 7"/>
+            <missionstate id="244" description="Relation: 8"/>
+            <missionstate id="245" description="Relation: 9."/>
+            <missionstate id="246" description="Relation: 10"/>
+            <missionstate id="247" description="Relation: 11"/>
+            <missionstate id="248" description="Relation: 12"/>
+            <missionstate id="249" description="Relation: 13"/>
+            <missionstate id="250" description="Relation: 14"/>
+            <missionstate id="251" description="Relation: 15"/>
+            <missionstate id="252" description="Relation: 16"/>
+            <missionstate id="253" description="Relation: 17"/>
+            <missionstate id="254" description="Relation: 18."/>
+            <missionstate id="255" description="Relation: 19"/>
+            <missionstate id="256" description="Relation: 20"/>
+            <missionstate id="257" description="Relation: 21"/>
+            <missionstate id="258" description="Relation: 22"/>
+            <missionstate id="259" description="Relation: 23"/>
+            <missionstate id="260" description="Relation: 24"/>
+            <missionstate id="261" description="Relation: 25"/>
+            <missionstate id="262" description="Relation: 26"/>
+            <missionstate id="263" description="Relation: 27."/>
+            <missionstate id="264" description="Relation: 28"/>
+            <missionstate id="265" description="Relation: 29"/>
+            <missionstate id="266" description="Relation: 30"/>
+            <missionstate id="267" description="Relation: 31"/>
+            <missionstate id="268" description="Relation: 32"/>
+            <missionstate id="269" description="Relation: 33"/>
+            <missionstate id="270" description="Relation: 34"/>
+            <missionstate id="271" description="Relation: 35"/>
+            <missionstate id="272" description="Relation: 32"/>
+            <missionstate id="273" description="Relation: 33"/>
+            <missionstate id="274" description="Relation: 34"/>
+            <missionstate id="275" description="Relation: 35"/>
+            <missionstate id="276" description="Relation: 0."/>
+            <missionstate id="277" description="Relation: 1"/>
+            <missionstate id="278" description="Relation: 2"/>
+            <missionstate id="279" description="Relation: 3"/>
+            <missionstate id="280" description="Relation: 4"/>
+            <missionstate id="281" description="Relation: 5"/>
+            <missionstate id="282" description="Relation: 6"/>
+            <missionstate id="283" description="Relation: 7"/>
+            <missionstate id="284" description="Relation: 8"/>
+            <missionstate id="285" description="Relation: 9."/>
+            <missionstate id="86" description="Relation: 10"/>
+            <missionstate id="287" description="Relation: 11"/>
+            <missionstate id="288" description="Relation: 12"/>
+            <missionstate id="289" description="Relation: 13"/>
+            <missionstate id="290" description="Relation: 14"/>
+            <missionstate id="291" description="Relation: 15"/>
+            <missionstate id="292" description="Relation: 16"/>
+            <missionstate id="293" description="Relation: 17"/>
+            <missionstate id="294" description="Relation: 18."/>
+            <missionstate id="295" description="Relation: 19"/>
+            <missionstate id="296" description="Relation: 20"/>
+            <missionstate id="297" description="Relation: 21"/>
+            <missionstate id="298" description="Relation: 22"/>
+            <missionstate id="299" description="Relation: 23"/>
+            <missionstate id="300" description="Relation: 24"/>
+        </mission>
+        <mission name="Buckland Relation Level" storageid="2306" startvalue="0" endvalue="8">
+            <missionstate id="0" description="Relation: Worst Enemy."/>
+            <missionstate id="1" description="Relation: Hated."/>
+            <missionstate id="2" description="Relation: Very Bad."/>
+            <missionstate id="3" description="Relation: Bad."/>
+            <missionstate id="4" description="Relation: Normal."/>
+            <missionstate id="5" description="Relation: Good."/>
+            <missionstate id="6" description="Relation: Very Good."/>
+            <missionstate id="7" description="Relation: Extremly Good."/>
+            <missionstate id="8" description="Relation: Hero!."/>
+        </mission>
+ <mission name="- Buckland Relation Progress" storageid="2307" startvalue="0" endvalue="300">
+            <missionstate id="0" description="Relation: 1"/>
+            <missionstate id="1" description="Relation: 2"/>
+            <missionstate id="2" description="Relation: 3"/>
+            <missionstate id="3" description="Relation: 4"/>
+            <missionstate id="4" description="Relation: 5"/>
+            <missionstate id="5" description="Relation: 6"/>
+            <missionstate id="6" description="Relation: 7"/>
+            <missionstate id="7" description="Relation: 8"/>
+            <missionstate id="8" description="Relation: 9"/>
+            <missionstate id="9" description="Relation: 10"/>
+            <missionstate id="10" description="Relation: 11"/>
+            <missionstate id="11" description="Relation: 12"/>
+            <missionstate id="12" description="Relation: 13"/>
+            <missionstate id="13" description="Relation: 14"/>
+            <missionstate id="14" description="Relation: 15"/>
+            <missionstate id="15" description="Relation: 16"/>
+            <missionstate id="16" description="Relation: 17"/>
+            <missionstate id="17" description="Relation: 18"/>
+            <missionstate id="18" description="Relation: 19."/>
+            <missionstate id="19" description="Relation: 20"/>
+            <missionstate id="20" description="Relation: 21"/>
+            <missionstate id="21" description="Relation: 22"/>
+            <missionstate id="22" description="Relation: 23"/>
+            <missionstate id="23" description="Relation: 24"/>
+            <missionstate id="24" description="Relation: 25"/>
+            <missionstate id="25" description="Relation: 26"/>
+            <missionstate id="26" description="Relation: 27"/>
+            <missionstate id="27" description="Relation: 28."/>
+            <missionstate id="28" description="Relation: 28"/>
+            <missionstate id="29" description="Relation: 29"/>
+            <missionstate id="30" description="Relation: 30"/>
+            <missionstate id="31" description="Relation: 31"/>
+            <missionstate id="32" description="Relation: 32"/>
+            <missionstate id="33" description="Relation: 33"/>
+            <missionstate id="34" description="Relation: 34"/>
+            <missionstate id="35" description="Relation: 35"/>
+            <missionstate id="36" description="Relation: 0."/>
+            <missionstate id="37" description="Relation: 1"/>
+            <missionstate id="38" description="Relation: 2"/>
+            <missionstate id="39" description="Relation: 3"/>
+            <missionstate id="40" description="Relation: 4"/>
+            <missionstate id="41" description="Relation: 5"/>
+            <missionstate id="42" description="Relation: 6"/>
+            <missionstate id="43" description="Relation: 7"/>
+            <missionstate id="44" description="Relation: 8"/>
+            <missionstate id="45" description="Relation: 9."/>
+            <missionstate id="46" description="Relation: 10"/>
+            <missionstate id="47" description="Relation: 11"/>
+            <missionstate id="48" description="Relation: 12"/>
+            <missionstate id="49" description="Relation: 13"/>
+            <missionstate id="50" description="Relation: 14"/>
+            <missionstate id="51" description="Relation: 15"/>
+            <missionstate id="52" description="Relation: 16"/>
+            <missionstate id="53" description="Relation: 17"/>
+            <missionstate id="54" description="Relation: 18."/>
+            <missionstate id="55" description="Relation: 19"/>
+            <missionstate id="56" description="Relation: 20"/>
+            <missionstate id="57" description="Relation: 21"/>
+            <missionstate id="58" description="Relation: 22"/>
+            <missionstate id="59" description="Relation: 23"/>
+            <missionstate id="60" description="Relation: 24"/>
+            <missionstate id="61" description="Relation: 25"/>
+            <missionstate id="62" description="Relation: 26"/>
+            <missionstate id="63" description="Relation: 27."/>
+            <missionstate id="64" description="Relation: 28"/>
+            <missionstate id="65" description="Relation: 29"/>
+            <missionstate id="66" description="Relation: 30"/>
+            <missionstate id="67" description="Relation: 31"/>
+            <missionstate id="68" description="Relation: 32"/>
+            <missionstate id="69" description="Relation: 33"/>
+            <missionstate id="70" description="Relation: 34"/>
+            <missionstate id="71" description="Relation: 35"/>
+            <missionstate id="72" description="Relation: 32"/>
+            <missionstate id="73" description="Relation: 33"/>
+            <missionstate id="74" description="Relation: 34"/>
+            <missionstate id="75" description="Relation: 35"/>
+            <missionstate id="76" description="Relation: 0."/>
+            <missionstate id="77" description="Relation: 1"/>
+            <missionstate id="78" description="Relation: 2"/>
+            <missionstate id="79" description="Relation: 3"/>
+            <missionstate id="80" description="Relation: 4"/>
+            <missionstate id="81" description="Relation: 5"/>
+            <missionstate id="82" description="Relation: 6"/>
+            <missionstate id="83" description="Relation: 7"/>
+            <missionstate id="84" description="Relation: 8"/>
+            <missionstate id="85" description="Relation: 9."/>
+            <missionstate id="86" description="Relation: 10"/>
+            <missionstate id="87" description="Relation: 11"/>
+            <missionstate id="88" description="Relation: 12"/>
+            <missionstate id="89" description="Relation: 13"/>
+            <missionstate id="90" description="Relation: 14"/>
+            <missionstate id="91" description="Relation: 15"/>
+            <missionstate id="92" description="Relation: 16"/>
+            <missionstate id="93" description="Relation: 17"/>
+            <missionstate id="94" description="Relation: 18."/>
+            <missionstate id="95" description="Relation: 19"/>
+            <missionstate id="96" description="Relation: 20"/>
+            <missionstate id="97" description="Relation: 21"/>
+            <missionstate id="98" description="Relation: 22"/>
+            <missionstate id="99" description="Relation: 23"/>
+            <missionstate id="100" description="Relation: 24"/>
+            <missionstate id="101" description="Relation: 2"/>
+            <missionstate id="102" description="Relation: 3"/>
+            <missionstate id="103" description="Relation: 4"/>
+            <missionstate id="104" description="Relation: 5"/>
+            <missionstate id="105" description="Relation: 6"/>
+            <missionstate id="106" description="Relation: 7"/>
+            <missionstate id="107" description="Relation: 8"/>
+            <missionstate id="108" description="Relation: 9"/>
+            <missionstate id="109" description="Relation: 10"/>
+            <missionstate id="110" description="Relation: 11"/>
+            <missionstate id="111" description="Relation: 12"/>
+            <missionstate id="112" description="Relation: 13"/>
+            <missionstate id="113" description="Relation: 14"/>
+            <missionstate id="114" description="Relation: 15"/>
+            <missionstate id="115" description="Relation: 16"/>
+            <missionstate id="116" description="Relation: 17"/>
+            <missionstate id="117" description="Relation: 18"/>
+            <missionstate id="118" description="Relation: 19."/>
+            <missionstate id="119" description="Relation: 20"/>
+            <missionstate id="120" description="Relation: 21"/>
+            <missionstate id="121" description="Relation: 22"/>
+            <missionstate id="122" description="Relation: 23"/>
+            <missionstate id="123" description="Relation: 24"/>
+            <missionstate id="124" description="Relation: 25"/>
+            <missionstate id="125" description="Relation: 26"/>
+            <missionstate id="126" description="Relation: 27"/>
+            <missionstate id="127" description="Relation: 28."/>
+            <missionstate id="128" description="Relation: 28"/>
+            <missionstate id="129" description="Relation: 29"/>
+            <missionstate id="130" description="Relation: 30"/>
+            <missionstate id="131" description="Relation: 31"/>
+            <missionstate id="132" description="Relation: 32"/>
+            <missionstate id="133" description="Relation: 33"/>
+            <missionstate id="134" description="Relation: 34"/>
+            <missionstate id="135" description="Relation: 35"/>
+            <missionstate id="136" description="Relation: 0."/>
+            <missionstate id="137" description="Relation: 1"/>
+            <missionstate id="138" description="Relation: 2"/>
+            <missionstate id="139" description="Relation: 3"/>
+            <missionstate id="140" description="Relation: 4"/>
+            <missionstate id="141" description="Relation: 5"/>
+            <missionstate id="142" description="Relation: 6"/>
+            <missionstate id="143" description="Relation: 7"/>
+            <missionstate id="144" description="Relation: 8"/>
+            <missionstate id="145" description="Relation: 9."/>
+            <missionstate id="146" description="Relation: 10"/>
+            <missionstate id="147" description="95% progress from: Bad ||||. to Normal."/>
+            <missionstate id="148" description="97% progress from: Bad ||||. to Normal."/>
+            <missionstate id="149" description="98% progress from: Bad ||||| to Normal."/>
+            <missionstate id="150" description="0% progress from: Normal ..... to Good."/>
+            <missionstate id="151" description="2% progress from: Normal ..... to Good."/>
+            <missionstate id="152" description="3% progress from: Normal ..... to Good."/>
+            <missionstate id="153" description="5% progress from: Normal ..... to Good."/>
+            <missionstate id="154" description="7% progress from: Normal ..... to Good."/>
+            <missionstate id="155" description="8% progress from: Normal ..... to Good."/>
+            <missionstate id="156" description="10% progress from: Normal ..... to Good."/>
+            <missionstate id="157" description="12% progress from: Normal ..... to Good."/>
+            <missionstate id="158" description="13% progress from: Normal ..... to Good."/>
+            <missionstate id="159" description="15% progress from: Normal ..... to Good."/>
+            <missionstate id="160" description="17% progress from: Normal ..... to Good."/>
+            <missionstate id="161" description="18% progress from: Normal |.... to Good."/>
+            <missionstate id="162" description="20% progress from: Normal |.... to Good."/>
+            <missionstate id="163" description="22% progress from: Normal |.... to Good."/>
+            <missionstate id="164" description="23% progress from: Normal |.... to Good."/>
+            <missionstate id="165" description="25% progress from: Normal |.... to Good."/>
+            <missionstate id="166" description="27% progress from: Normal |.... to Good."/>
+            <missionstate id="167" description="28% progress from: Normal |.... to Good."/>
+            <missionstate id="168" description="30% progress from: Normal |.... to Good."/>
+            <missionstate id="169" description="32% progress from: Normal |.... to Good."/>
+            <missionstate id="170" description="33% progress from: Normal |.... to Good."/>
+            <missionstate id="171" description="35% progress from: Normal |.... to Good."/>
+            <missionstate id="172" description="37% progress from: Normal |.... to Good."/>
+            <missionstate id="173" description="38% progress from: Normal ||... to Good."/>
+            <missionstate id="174" description="40% progress from: Normal ||... to Good."/>
+            <missionstate id="175" description="42% progress from: Normal ||... to Good."/>
+            <missionstate id="176" description="43% progress from: Normal ||... to Good."/>
+            <missionstate id="177" description="45% progress from: Normal ||... to Good."/>
+            <missionstate id="178" description="47% progress from: Normal ||... to Good."/>
+            <missionstate id="179" description="48% progress from: Normal ||... to Good."/>
+            <missionstate id="180" description="50% progress from: Normal ||... to Good."/>
+            <missionstate id="181" description="52% progress from: Normal ||... to Good."/>
+            <missionstate id="182" description="53% progress from: Normal ||... to Good."/>
+            <missionstate id="183" description="55% progress from: Normal ||... to Good."/>
+            <missionstate id="184" description="57% progress from: Normal ||... to Good."/>
+            <missionstate id="185" description="58% progress from: Normal |||.. to Good."/>
+            <missionstate id="186" description="60% progress from: Normal |||.. to Good."/>
+            <missionstate id="187" description="62% progress from: Normal |||.. to Good."/>
+            <missionstate id="188" description="63% progress from: Normal |||.. to Good."/>
+            <missionstate id="189" description="65% progress from: Normal |||.. to Good."/>
+            <missionstate id="190" description="67% progress from: Normal |||.. to Good."/>
+            <missionstate id="191" description="68% progress from: Normal |||.. to Good."/>
+            <missionstate id="192" description="70% progress from: Normal |||.. to Good."/>
+            <missionstate id="193" description="72% progress from: Normal |||.. to Good."/>
+            <missionstate id="194" description="73% progress from: Normal |||.. to Good."/>
+            <missionstate id="195" description="75% progress from: Normal |||.. to Good."/>
+            <missionstate id="196" description="77% progress from: Normal |||.. to Good."/>
+            <missionstate id="197" description="78% progress from: Normal ||||. to Good."/>
+            <missionstate id="198" description="80% progress from: Normal ||||. to Good."/>
+            <missionstate id="199" description="82% progress from: Normal ||||. to Good."/>
+            <missionstate id="200" description="83% progress from: Normal ||||. to Good."/>
+            <missionstate id="201" description="85% progress from: Normal ||||. to Good."/>
+            <missionstate id="202" description="87% progress from: Normal ||||. to Good."/>
+            <missionstate id="203" description="88% progress from: Normal ||||. to Good."/>
+            <missionstate id="204" description="90% progress from: Normal ||||. to Good."/>
+            <missionstate id="205" description="92% progress from: Normal ||||. to Good."/>
+            <missionstate id="206" description="93% progress from: Normal ||||. to Good."/>
+            <missionstate id="207" description="95% progress from: Normal ||||. to Good."/>
+            <missionstate id="208" description="97% progress from: Normal ||||. to Good."/>
+            <missionstate id="209" description="98% progress from: Normal ||||| to Good."/>
+            <missionstate id="210" description="0% progress from: Good ..... to: Very Good."/>
+            <missionstate id="211" description="3% progress from: Good ..... to: Very Good."/>
+            <missionstate id="212" description="5% progress from: Good ..... to: Very Good."/>
+            <missionstate id="213" description="8% progress from: Good ..... to: Very Good."/>
+            <missionstate id="214" description="10% progress from: Good ..... to: Very Good."/>
+            <missionstate id="215" description="13% progress from: Good ..... to: Very Good."/>
+            <missionstate id="216" description="15% progress from: Good ..... to: Very Good."/>
+            <missionstate id="217" description="18% progress from: Good |.... to: Very Good."/>
+            <missionstate id="218" description="20% progress from: Good |.... to: Very Good."/>
+            <missionstate id="219" description="Relation: 20"/>
+            <missionstate id="220" description="Relation: 21"/>
+            <missionstate id="221" description="Relation: 22"/>
+            <missionstate id="222" description="Relation: 23"/>
+            <missionstate id="223" description="Relation: 24"/>
+            <missionstate id="224" description="Relation: 25"/>
+            <missionstate id="225" description="Relation: 26"/>
+            <missionstate id="226" description="Relation: 27"/>
+            <missionstate id="227" description="Relation: 28."/>
+            <missionstate id="228" description="Relation: 28"/>
+            <missionstate id="229" description="Relation: 29"/>
+            <missionstate id="230" description="Relation: 30"/>
+            <missionstate id="231" description="Relation: 31"/>
+            <missionstate id="232" description="Relation: 32"/>
+            <missionstate id="233" description="Relation: 33"/>
+            <missionstate id="234" description="Relation: 34"/>
+            <missionstate id="235" description="Relation: 35"/>
+            <missionstate id="236" description="Relation: 0."/>
+            <missionstate id="237" description="Relation: 1"/>
+            <missionstate id="238" description="Relation: 2"/>
+            <missionstate id="239" description="Relation: 3"/>
+            <missionstate id="240" description="Relation: 4"/>
+            <missionstate id="241" description="Relation: 5"/>
+            <missionstate id="242" description="Relation: 6"/>
+            <missionstate id="243" description="Relation: 7"/>
+            <missionstate id="244" description="Relation: 8"/>
+            <missionstate id="245" description="Relation: 9."/>
+            <missionstate id="246" description="Relation: 10"/>
+            <missionstate id="247" description="Relation: 11"/>
+            <missionstate id="248" description="Relation: 12"/>
+            <missionstate id="249" description="Relation: 13"/>
+            <missionstate id="250" description="Relation: 14"/>
+            <missionstate id="251" description="Relation: 15"/>
+            <missionstate id="252" description="Relation: 16"/>
+            <missionstate id="253" description="Relation: 17"/>
+            <missionstate id="254" description="Relation: 18."/>
+            <missionstate id="255" description="Relation: 19"/>
+            <missionstate id="256" description="Relation: 20"/>
+            <missionstate id="257" description="Relation: 21"/>
+            <missionstate id="258" description="Relation: 22"/>
+            <missionstate id="259" description="Relation: 23"/>
+            <missionstate id="260" description="Relation: 24"/>
+            <missionstate id="261" description="Relation: 25"/>
+            <missionstate id="262" description="Relation: 26"/>
+            <missionstate id="263" description="Relation: 27."/>
+            <missionstate id="264" description="Relation: 28"/>
+            <missionstate id="265" description="Relation: 29"/>
+            <missionstate id="266" description="Relation: 30"/>
+            <missionstate id="267" description="Relation: 31"/>
+            <missionstate id="268" description="Relation: 32"/>
+            <missionstate id="269" description="Relation: 33"/>
+            <missionstate id="270" description="Relation: 34"/>
+            <missionstate id="271" description="Relation: 35"/>
+            <missionstate id="272" description="Relation: 32"/>
+            <missionstate id="273" description="Relation: 33"/>
+            <missionstate id="274" description="Relation: 34"/>
+            <missionstate id="275" description="Relation: 35"/>
+            <missionstate id="276" description="Relation: 0."/>
+            <missionstate id="277" description="Relation: 1"/>
+            <missionstate id="278" description="Relation: 2"/>
+            <missionstate id="279" description="Relation: 3"/>
+            <missionstate id="280" description="Relation: 4"/>
+            <missionstate id="281" description="Relation: 5"/>
+            <missionstate id="282" description="Relation: 6"/>
+            <missionstate id="283" description="Relation: 7"/>
+            <missionstate id="284" description="Relation: 8"/>
+            <missionstate id="285" description="Relation: 9."/>
+            <missionstate id="86" description="Relation: 10"/>
+            <missionstate id="287" description="Relation: 11"/>
+            <missionstate id="288" description="Relation: 12"/>
+            <missionstate id="289" description="Relation: 13"/>
+            <missionstate id="290" description="Relation: 14"/>
+            <missionstate id="291" description="Relation: 15"/>
+            <missionstate id="292" description="Relation: 16"/>
+            <missionstate id="293" description="Relation: 17"/>
+            <missionstate id="294" description="Relation: 18."/>
+            <missionstate id="295" description="Relation: 19"/>
+            <missionstate id="296" description="Relation: 20"/>
+            <missionstate id="297" description="Relation: 21"/>
+            <missionstate id="298" description="Relation: 22"/>
+            <missionstate id="299" description="Relation: 23"/>
+            <missionstate id="300" description="Relation: 24"/>
+        </mission>
+        <mission name="The Shire Relation Level" storageid="2308" startvalue="0" endvalue="8">
+            <missionstate id="0" description="Relation: Worst Enemy."/>
+            <missionstate id="1" description="Relation: Hated."/>
+            <missionstate id="2" description="Relation: Very Bad."/>
+            <missionstate id="3" description="Relation: Bad."/>
+            <missionstate id="4" description="Relation: Normal."/>
+            <missionstate id="5" description="Relation: Good."/>
+            <missionstate id="6" description="Relation: Very Good."/>
+            <missionstate id="7" description="Relation: Extremly Good."/>
+            <missionstate id="8" description="Relation: Hero!."/>
+        </mission>
+ <mission name="- The Shire Relation Progress" storageid="2309" startvalue="0" endvalue="300">
+            <missionstate id="0" description="Relation: 1"/>
+            <missionstate id="1" description="Relation: 2"/>
+            <missionstate id="2" description="Relation: 3"/>
+            <missionstate id="3" description="Relation: 4"/>
+            <missionstate id="4" description="Relation: 5"/>
+            <missionstate id="5" description="Relation: 6"/>
+            <missionstate id="6" description="Relation: 7"/>
+            <missionstate id="7" description="Relation: 8"/>
+            <missionstate id="8" description="Relation: 9"/>
+            <missionstate id="9" description="Relation: 10"/>
+            <missionstate id="10" description="Relation: 11"/>
+            <missionstate id="11" description="Relation: 12"/>
+            <missionstate id="12" description="Relation: 13"/>
+            <missionstate id="13" description="Relation: 14"/>
+            <missionstate id="14" description="Relation: 15"/>
+            <missionstate id="15" description="Relation: 16"/>
+            <missionstate id="16" description="Relation: 17"/>
+            <missionstate id="17" description="Relation: 18"/>
+            <missionstate id="18" description="Relation: 19."/>
+            <missionstate id="19" description="Relation: 20"/>
+            <missionstate id="20" description="Relation: 21"/>
+            <missionstate id="21" description="Relation: 22"/>
+            <missionstate id="22" description="Relation: 23"/>
+            <missionstate id="23" description="Relation: 24"/>
+            <missionstate id="24" description="Relation: 25"/>
+            <missionstate id="25" description="Relation: 26"/>
+            <missionstate id="26" description="Relation: 27"/>
+            <missionstate id="27" description="Relation: 28."/>
+            <missionstate id="28" description="Relation: 28"/>
+            <missionstate id="29" description="Relation: 29"/>
+            <missionstate id="30" description="Relation: 30"/>
+            <missionstate id="31" description="Relation: 31"/>
+            <missionstate id="32" description="Relation: 32"/>
+            <missionstate id="33" description="Relation: 33"/>
+            <missionstate id="34" description="Relation: 34"/>
+            <missionstate id="35" description="Relation: 35"/>
+            <missionstate id="36" description="Relation: 0."/>
+            <missionstate id="37" description="Relation: 1"/>
+            <missionstate id="38" description="Relation: 2"/>
+            <missionstate id="39" description="Relation: 3"/>
+            <missionstate id="40" description="Relation: 4"/>
+            <missionstate id="41" description="Relation: 5"/>
+            <missionstate id="42" description="Relation: 6"/>
+            <missionstate id="43" description="Relation: 7"/>
+            <missionstate id="44" description="Relation: 8"/>
+            <missionstate id="45" description="Relation: 9."/>
+            <missionstate id="46" description="Relation: 10"/>
+            <missionstate id="47" description="Relation: 11"/>
+            <missionstate id="48" description="Relation: 12"/>
+            <missionstate id="49" description="Relation: 13"/>
+            <missionstate id="50" description="Relation: 14"/>
+            <missionstate id="51" description="Relation: 15"/>
+            <missionstate id="52" description="Relation: 16"/>
+            <missionstate id="53" description="Relation: 17"/>
+            <missionstate id="54" description="Relation: 18."/>
+            <missionstate id="55" description="Relation: 19"/>
+            <missionstate id="56" description="Relation: 20"/>
+            <missionstate id="57" description="Relation: 21"/>
+            <missionstate id="58" description="Relation: 22"/>
+            <missionstate id="59" description="Relation: 23"/>
+            <missionstate id="60" description="Relation: 24"/>
+            <missionstate id="61" description="Relation: 25"/>
+            <missionstate id="62" description="Relation: 26"/>
+            <missionstate id="63" description="Relation: 27."/>
+            <missionstate id="64" description="Relation: 28"/>
+            <missionstate id="65" description="Relation: 29"/>
+            <missionstate id="66" description="Relation: 30"/>
+            <missionstate id="67" description="Relation: 31"/>
+            <missionstate id="68" description="Relation: 32"/>
+            <missionstate id="69" description="Relation: 33"/>
+            <missionstate id="70" description="Relation: 34"/>
+            <missionstate id="71" description="Relation: 35"/>
+            <missionstate id="72" description="Relation: 32"/>
+            <missionstate id="73" description="Relation: 33"/>
+            <missionstate id="74" description="Relation: 34"/>
+            <missionstate id="75" description="Relation: 35"/>
+            <missionstate id="76" description="Relation: 0."/>
+            <missionstate id="77" description="Relation: 1"/>
+            <missionstate id="78" description="Relation: 2"/>
+            <missionstate id="79" description="Relation: 3"/>
+            <missionstate id="80" description="Relation: 4"/>
+            <missionstate id="81" description="Relation: 5"/>
+            <missionstate id="82" description="Relation: 6"/>
+            <missionstate id="83" description="Relation: 7"/>
+            <missionstate id="84" description="Relation: 8"/>
+            <missionstate id="85" description="Relation: 9."/>
+            <missionstate id="86" description="Relation: 10"/>
+            <missionstate id="87" description="Relation: 11"/>
+            <missionstate id="88" description="Relation: 12"/>
+            <missionstate id="89" description="Relation: 13"/>
+            <missionstate id="90" description="Relation: 14"/>
+            <missionstate id="91" description="Relation: 15"/>
+            <missionstate id="92" description="Relation: 16"/>
+            <missionstate id="93" description="Relation: 17"/>
+            <missionstate id="94" description="Relation: 18."/>
+            <missionstate id="95" description="Relation: 19"/>
+            <missionstate id="96" description="Relation: 20"/>
+            <missionstate id="97" description="Relation: 21"/>
+            <missionstate id="98" description="Relation: 22"/>
+            <missionstate id="99" description="Relation: 23"/>
+            <missionstate id="100" description="Relation: 24"/>
+            <missionstate id="101" description="Relation: 2"/>
+            <missionstate id="102" description="Relation: 3"/>
+            <missionstate id="103" description="Relation: 4"/>
+            <missionstate id="104" description="Relation: 5"/>
+            <missionstate id="105" description="Relation: 6"/>
+            <missionstate id="106" description="Relation: 7"/>
+            <missionstate id="107" description="Relation: 8"/>
+            <missionstate id="108" description="Relation: 9"/>
+            <missionstate id="109" description="Relation: 10"/>
+            <missionstate id="110" description="Relation: 11"/>
+            <missionstate id="111" description="Relation: 12"/>
+            <missionstate id="112" description="Relation: 13"/>
+            <missionstate id="113" description="Relation: 14"/>
+            <missionstate id="114" description="Relation: 15"/>
+            <missionstate id="115" description="Relation: 16"/>
+            <missionstate id="116" description="Relation: 17"/>
+            <missionstate id="117" description="Relation: 18"/>
+            <missionstate id="118" description="Relation: 19."/>
+            <missionstate id="119" description="Relation: 20"/>
+            <missionstate id="120" description="Relation: 21"/>
+            <missionstate id="121" description="Relation: 22"/>
+            <missionstate id="122" description="Relation: 23"/>
+            <missionstate id="123" description="Relation: 24"/>
+            <missionstate id="124" description="Relation: 25"/>
+            <missionstate id="125" description="Relation: 26"/>
+            <missionstate id="126" description="Relation: 27"/>
+            <missionstate id="127" description="Relation: 28."/>
+            <missionstate id="128" description="Relation: 28"/>
+            <missionstate id="129" description="Relation: 29"/>
+            <missionstate id="130" description="Relation: 30"/>
+            <missionstate id="131" description="Relation: 31"/>
+            <missionstate id="132" description="Relation: 32"/>
+            <missionstate id="133" description="Relation: 33"/>
+            <missionstate id="134" description="Relation: 34"/>
+            <missionstate id="135" description="Relation: 35"/>
+            <missionstate id="136" description="Relation: 0."/>
+            <missionstate id="137" description="Relation: 1"/>
+            <missionstate id="138" description="Relation: 2"/>
+            <missionstate id="139" description="Relation: 3"/>
+            <missionstate id="140" description="Relation: 4"/>
+            <missionstate id="141" description="Relation: 5"/>
+            <missionstate id="142" description="Relation: 6"/>
+            <missionstate id="143" description="Relation: 7"/>
+            <missionstate id="144" description="Relation: 8"/>
+            <missionstate id="145" description="Relation: 9."/>
+            <missionstate id="146" description="Relation: 10"/>
+            <missionstate id="147" description="95% progress from: Bad ||||. to Normal."/>
+            <missionstate id="148" description="97% progress from: Bad ||||. to Normal."/>
+            <missionstate id="149" description="98% progress from: Bad ||||| to Normal."/>
+            <missionstate id="150" description="0% progress from: Normal ..... to Good."/>
+            <missionstate id="151" description="2% progress from: Normal ..... to Good."/>
+            <missionstate id="152" description="3% progress from: Normal ..... to Good."/>
+            <missionstate id="153" description="5% progress from: Normal ..... to Good."/>
+            <missionstate id="154" description="7% progress from: Normal ..... to Good."/>
+            <missionstate id="155" description="8% progress from: Normal ..... to Good."/>
+            <missionstate id="156" description="10% progress from: Normal ..... to Good."/>
+            <missionstate id="157" description="12% progress from: Normal ..... to Good."/>
+            <missionstate id="158" description="13% progress from: Normal ..... to Good."/>
+            <missionstate id="159" description="15% progress from: Normal ..... to Good."/>
+            <missionstate id="160" description="17% progress from: Normal ..... to Good."/>
+            <missionstate id="161" description="18% progress from: Normal |.... to Good."/>
+            <missionstate id="162" description="20% progress from: Normal |.... to Good."/>
+            <missionstate id="163" description="22% progress from: Normal |.... to Good."/>
+            <missionstate id="164" description="23% progress from: Normal |.... to Good."/>
+            <missionstate id="165" description="25% progress from: Normal |.... to Good."/>
+            <missionstate id="166" description="27% progress from: Normal |.... to Good."/>
+            <missionstate id="167" description="28% progress from: Normal |.... to Good."/>
+            <missionstate id="168" description="30% progress from: Normal |.... to Good."/>
+            <missionstate id="169" description="32% progress from: Normal |.... to Good."/>
+            <missionstate id="170" description="33% progress from: Normal |.... to Good."/>
+            <missionstate id="171" description="35% progress from: Normal |.... to Good."/>
+            <missionstate id="172" description="37% progress from: Normal |.... to Good."/>
+            <missionstate id="173" description="38% progress from: Normal ||... to Good."/>
+            <missionstate id="174" description="40% progress from: Normal ||... to Good."/>
+            <missionstate id="175" description="42% progress from: Normal ||... to Good."/>
+            <missionstate id="176" description="43% progress from: Normal ||... to Good."/>
+            <missionstate id="177" description="45% progress from: Normal ||... to Good."/>
+            <missionstate id="178" description="47% progress from: Normal ||... to Good."/>
+            <missionstate id="179" description="48% progress from: Normal ||... to Good."/>
+            <missionstate id="180" description="50% progress from: Normal ||... to Good."/>
+            <missionstate id="181" description="52% progress from: Normal ||... to Good."/>
+            <missionstate id="182" description="53% progress from: Normal ||... to Good."/>
+            <missionstate id="183" description="55% progress from: Normal ||... to Good."/>
+            <missionstate id="184" description="57% progress from: Normal ||... to Good."/>
+            <missionstate id="185" description="58% progress from: Normal |||.. to Good."/>
+            <missionstate id="186" description="60% progress from: Normal |||.. to Good."/>
+            <missionstate id="187" description="62% progress from: Normal |||.. to Good."/>
+            <missionstate id="188" description="63% progress from: Normal |||.. to Good."/>
+            <missionstate id="189" description="65% progress from: Normal |||.. to Good."/>
+            <missionstate id="190" description="67% progress from: Normal |||.. to Good."/>
+            <missionstate id="191" description="68% progress from: Normal |||.. to Good."/>
+            <missionstate id="192" description="70% progress from: Normal |||.. to Good."/>
+            <missionstate id="193" description="72% progress from: Normal |||.. to Good."/>
+            <missionstate id="194" description="73% progress from: Normal |||.. to Good."/>
+            <missionstate id="195" description="75% progress from: Normal |||.. to Good."/>
+            <missionstate id="196" description="77% progress from: Normal |||.. to Good."/>
+            <missionstate id="197" description="78% progress from: Normal ||||. to Good."/>
+            <missionstate id="198" description="80% progress from: Normal ||||. to Good."/>
+            <missionstate id="199" description="82% progress from: Normal ||||. to Good."/>
+            <missionstate id="200" description="83% progress from: Normal ||||. to Good."/>
+            <missionstate id="201" description="85% progress from: Normal ||||. to Good."/>
+            <missionstate id="202" description="87% progress from: Normal ||||. to Good."/>
+            <missionstate id="203" description="88% progress from: Normal ||||. to Good."/>
+            <missionstate id="204" description="90% progress from: Normal ||||. to Good."/>
+            <missionstate id="205" description="92% progress from: Normal ||||. to Good."/>
+            <missionstate id="206" description="93% progress from: Normal ||||. to Good."/>
+            <missionstate id="207" description="95% progress from: Normal ||||. to Good."/>
+            <missionstate id="208" description="97% progress from: Normal ||||. to Good."/>
+            <missionstate id="209" description="98% progress from: Normal ||||| to Good."/>
+            <missionstate id="210" description="0% progress from: Good ..... to: Very Good."/>
+            <missionstate id="211" description="3% progress from: Good ..... to: Very Good."/>
+            <missionstate id="212" description="5% progress from: Good ..... to: Very Good."/>
+            <missionstate id="213" description="8% progress from: Good ..... to: Very Good."/>
+            <missionstate id="214" description="10% progress from: Good ..... to: Very Good."/>
+            <missionstate id="215" description="13% progress from: Good ..... to: Very Good."/>
+            <missionstate id="216" description="15% progress from: Good ..... to: Very Good."/>
+            <missionstate id="217" description="18% progress from: Good |.... to: Very Good."/>
+            <missionstate id="218" description="20% progress from: Good |.... to: Very Good."/>
+            <missionstate id="219" description="Relation: 20"/>
+            <missionstate id="220" description="Relation: 21"/>
+            <missionstate id="221" description="Relation: 22"/>
+            <missionstate id="222" description="Relation: 23"/>
+            <missionstate id="223" description="Relation: 24"/>
+            <missionstate id="224" description="Relation: 25"/>
+            <missionstate id="225" description="Relation: 26"/>
+            <missionstate id="226" description="Relation: 27"/>
+            <missionstate id="227" description="Relation: 28."/>
+            <missionstate id="228" description="Relation: 28"/>
+            <missionstate id="229" description="Relation: 29"/>
+            <missionstate id="230" description="Relation: 30"/>
+            <missionstate id="231" description="Relation: 31"/>
+            <missionstate id="232" description="Relation: 32"/>
+            <missionstate id="233" description="Relation: 33"/>
+            <missionstate id="234" description="Relation: 34"/>
+            <missionstate id="235" description="Relation: 35"/>
+            <missionstate id="236" description="Relation: 0."/>
+            <missionstate id="237" description="Relation: 1"/>
+            <missionstate id="238" description="Relation: 2"/>
+            <missionstate id="239" description="Relation: 3"/>
+            <missionstate id="240" description="Relation: 4"/>
+            <missionstate id="241" description="Relation: 5"/>
+            <missionstate id="242" description="Relation: 6"/>
+            <missionstate id="243" description="Relation: 7"/>
+            <missionstate id="244" description="Relation: 8"/>
+            <missionstate id="245" description="Relation: 9."/>
+            <missionstate id="246" description="Relation: 10"/>
+            <missionstate id="247" description="Relation: 11"/>
+            <missionstate id="248" description="Relation: 12"/>
+            <missionstate id="249" description="Relation: 13"/>
+            <missionstate id="250" description="Relation: 14"/>
+            <missionstate id="251" description="Relation: 15"/>
+            <missionstate id="252" description="Relation: 16"/>
+            <missionstate id="253" description="Relation: 17"/>
+            <missionstate id="254" description="Relation: 18."/>
+            <missionstate id="255" description="Relation: 19"/>
+            <missionstate id="256" description="Relation: 20"/>
+            <missionstate id="257" description="Relation: 21"/>
+            <missionstate id="258" description="Relation: 22"/>
+            <missionstate id="259" description="Relation: 23"/>
+            <missionstate id="260" description="Relation: 24"/>
+            <missionstate id="261" description="Relation: 25"/>
+            <missionstate id="262" description="Relation: 26"/>
+            <missionstate id="263" description="Relation: 27."/>
+            <missionstate id="264" description="Relation: 28"/>
+            <missionstate id="265" description="Relation: 29"/>
+            <missionstate id="266" description="Relation: 30"/>
+            <missionstate id="267" description="Relation: 31"/>
+            <missionstate id="268" description="Relation: 32"/>
+            <missionstate id="269" description="Relation: 33"/>
+            <missionstate id="270" description="Relation: 34"/>
+            <missionstate id="271" description="Relation: 35"/>
+            <missionstate id="272" description="Relation: 32"/>
+            <missionstate id="273" description="Relation: 33"/>
+            <missionstate id="274" description="Relation: 34"/>
+            <missionstate id="275" description="Relation: 35"/>
+            <missionstate id="276" description="Relation: 0."/>
+            <missionstate id="277" description="Relation: 1"/>
+            <missionstate id="278" description="Relation: 2"/>
+            <missionstate id="279" description="Relation: 3"/>
+            <missionstate id="280" description="Relation: 4"/>
+            <missionstate id="281" description="Relation: 5"/>
+            <missionstate id="282" description="Relation: 6"/>
+            <missionstate id="283" description="Relation: 7"/>
+            <missionstate id="284" description="Relation: 8"/>
+            <missionstate id="285" description="Relation: 9."/>
+            <missionstate id="86" description="Relation: 10"/>
+            <missionstate id="287" description="Relation: 11"/>
+            <missionstate id="288" description="Relation: 12"/>
+            <missionstate id="289" description="Relation: 13"/>
+            <missionstate id="290" description="Relation: 14"/>
+            <missionstate id="291" description="Relation: 15"/>
+            <missionstate id="292" description="Relation: 16"/>
+            <missionstate id="293" description="Relation: 17"/>
+            <missionstate id="294" description="Relation: 18."/>
+            <missionstate id="295" description="Relation: 19"/>
+            <missionstate id="296" description="Relation: 20"/>
+            <missionstate id="297" description="Relation: 21"/>
+            <missionstate id="298" description="Relation: 22"/>
+            <missionstate id="299" description="Relation: 23"/>
+            <missionstate id="300" description="Relation: 24"/>
+        </mission>
+        <mission name="Dunedain Relation Level" storageid="2310" startvalue="0" endvalue="8">
+            <missionstate id="0" description="Relation: Worst Enemy."/>
+            <missionstate id="1" description="Relation: Hated."/>
+            <missionstate id="2" description="Relation: Very Bad."/>
+            <missionstate id="3" description="Relation: Bad."/>
+            <missionstate id="4" description="Relation: Normal."/>
+            <missionstate id="5" description="Relation: Good."/>
+            <missionstate id="6" description="Relation: Very Good."/>
+            <missionstate id="7" description="Relation: Extremly Good."/>
+            <missionstate id="8" description="Relation: Hero!."/>
+        </mission>
+ <mission name="- Dunedain Relation Progress" storageid="2311" startvalue="0" endvalue="300">
+            <missionstate id="0" description="Relation: 1"/>
+            <missionstate id="1" description="Relation: 2"/>
+            <missionstate id="2" description="Relation: 3"/>
+            <missionstate id="3" description="Relation: 4"/>
+            <missionstate id="4" description="Relation: 5"/>
+            <missionstate id="5" description="Relation: 6"/>
+            <missionstate id="6" description="Relation: 7"/>
+            <missionstate id="7" description="Relation: 8"/>
+            <missionstate id="8" description="Relation: 9"/>
+            <missionstate id="9" description="Relation: 10"/>
+            <missionstate id="10" description="Relation: 11"/>
+            <missionstate id="11" description="Relation: 12"/>
+            <missionstate id="12" description="Relation: 13"/>
+            <missionstate id="13" description="Relation: 14"/>
+            <missionstate id="14" description="Relation: 15"/>
+            <missionstate id="15" description="Relation: 16"/>
+            <missionstate id="16" description="Relation: 17"/>
+            <missionstate id="17" description="Relation: 18"/>
+            <missionstate id="18" description="Relation: 19."/>
+            <missionstate id="19" description="Relation: 20"/>
+            <missionstate id="20" description="Relation: 21"/>
+            <missionstate id="21" description="Relation: 22"/>
+            <missionstate id="22" description="Relation: 23"/>
+            <missionstate id="23" description="Relation: 24"/>
+            <missionstate id="24" description="Relation: 25"/>
+            <missionstate id="25" description="Relation: 26"/>
+            <missionstate id="26" description="Relation: 27"/>
+            <missionstate id="27" description="Relation: 28."/>
+            <missionstate id="28" description="Relation: 28"/>
+            <missionstate id="29" description="Relation: 29"/>
+            <missionstate id="30" description="Relation: 30"/>
+            <missionstate id="31" description="Relation: 31"/>
+            <missionstate id="32" description="Relation: 32"/>
+            <missionstate id="33" description="Relation: 33"/>
+            <missionstate id="34" description="Relation: 34"/>
+            <missionstate id="35" description="Relation: 35"/>
+            <missionstate id="36" description="Relation: 0."/>
+            <missionstate id="37" description="Relation: 1"/>
+            <missionstate id="38" description="Relation: 2"/>
+            <missionstate id="39" description="Relation: 3"/>
+            <missionstate id="40" description="Relation: 4"/>
+            <missionstate id="41" description="Relation: 5"/>
+            <missionstate id="42" description="Relation: 6"/>
+            <missionstate id="43" description="Relation: 7"/>
+            <missionstate id="44" description="Relation: 8"/>
+            <missionstate id="45" description="Relation: 9."/>
+            <missionstate id="46" description="Relation: 10"/>
+            <missionstate id="47" description="Relation: 11"/>
+            <missionstate id="48" description="Relation: 12"/>
+            <missionstate id="49" description="Relation: 13"/>
+            <missionstate id="50" description="Relation: 14"/>
+            <missionstate id="51" description="Relation: 15"/>
+            <missionstate id="52" description="Relation: 16"/>
+            <missionstate id="53" description="Relation: 17"/>
+            <missionstate id="54" description="Relation: 18."/>
+            <missionstate id="55" description="Relation: 19"/>
+            <missionstate id="56" description="Relation: 20"/>
+            <missionstate id="57" description="Relation: 21"/>
+            <missionstate id="58" description="Relation: 22"/>
+            <missionstate id="59" description="Relation: 23"/>
+            <missionstate id="60" description="Relation: 24"/>
+            <missionstate id="61" description="Relation: 25"/>
+            <missionstate id="62" description="Relation: 26"/>
+            <missionstate id="63" description="Relation: 27."/>
+            <missionstate id="64" description="Relation: 28"/>
+            <missionstate id="65" description="Relation: 29"/>
+            <missionstate id="66" description="Relation: 30"/>
+            <missionstate id="67" description="Relation: 31"/>
+            <missionstate id="68" description="Relation: 32"/>
+            <missionstate id="69" description="Relation: 33"/>
+            <missionstate id="70" description="Relation: 34"/>
+            <missionstate id="71" description="Relation: 35"/>
+            <missionstate id="72" description="Relation: 32"/>
+            <missionstate id="73" description="Relation: 33"/>
+            <missionstate id="74" description="Relation: 34"/>
+            <missionstate id="75" description="Relation: 35"/>
+            <missionstate id="76" description="Relation: 0."/>
+            <missionstate id="77" description="Relation: 1"/>
+            <missionstate id="78" description="Relation: 2"/>
+            <missionstate id="79" description="Relation: 3"/>
+            <missionstate id="80" description="Relation: 4"/>
+            <missionstate id="81" description="Relation: 5"/>
+            <missionstate id="82" description="Relation: 6"/>
+            <missionstate id="83" description="Relation: 7"/>
+            <missionstate id="84" description="Relation: 8"/>
+            <missionstate id="85" description="Relation: 9."/>
+            <missionstate id="86" description="Relation: 10"/>
+            <missionstate id="87" description="Relation: 11"/>
+            <missionstate id="88" description="Relation: 12"/>
+            <missionstate id="89" description="Relation: 13"/>
+            <missionstate id="90" description="Relation: 14"/>
+            <missionstate id="91" description="Relation: 15"/>
+            <missionstate id="92" description="Relation: 16"/>
+            <missionstate id="93" description="Relation: 17"/>
+            <missionstate id="94" description="Relation: 18."/>
+            <missionstate id="95" description="Relation: 19"/>
+            <missionstate id="96" description="Relation: 20"/>
+            <missionstate id="97" description="Relation: 21"/>
+            <missionstate id="98" description="Relation: 22"/>
+            <missionstate id="99" description="Relation: 23"/>
+            <missionstate id="100" description="Relation: 24"/>
+            <missionstate id="101" description="Relation: 2"/>
+            <missionstate id="102" description="Relation: 3"/>
+            <missionstate id="103" description="Relation: 4"/>
+            <missionstate id="104" description="Relation: 5"/>
+            <missionstate id="105" description="Relation: 6"/>
+            <missionstate id="106" description="Relation: 7"/>
+            <missionstate id="107" description="Relation: 8"/>
+            <missionstate id="108" description="Relation: 9"/>
+            <missionstate id="109" description="Relation: 10"/>
+            <missionstate id="110" description="Relation: 11"/>
+            <missionstate id="111" description="Relation: 12"/>
+            <missionstate id="112" description="Relation: 13"/>
+            <missionstate id="113" description="Relation: 14"/>
+            <missionstate id="114" description="Relation: 15"/>
+            <missionstate id="115" description="Relation: 16"/>
+            <missionstate id="116" description="Relation: 17"/>
+            <missionstate id="117" description="Relation: 18"/>
+            <missionstate id="118" description="Relation: 19."/>
+            <missionstate id="119" description="Relation: 20"/>
+            <missionstate id="120" description="Relation: 21"/>
+            <missionstate id="121" description="Relation: 22"/>
+            <missionstate id="122" description="Relation: 23"/>
+            <missionstate id="123" description="Relation: 24"/>
+            <missionstate id="124" description="Relation: 25"/>
+            <missionstate id="125" description="Relation: 26"/>
+            <missionstate id="126" description="Relation: 27"/>
+            <missionstate id="127" description="Relation: 28."/>
+            <missionstate id="128" description="Relation: 28"/>
+            <missionstate id="129" description="Relation: 29"/>
+            <missionstate id="130" description="Relation: 30"/>
+            <missionstate id="131" description="Relation: 31"/>
+            <missionstate id="132" description="Relation: 32"/>
+            <missionstate id="133" description="Relation: 33"/>
+            <missionstate id="134" description="Relation: 34"/>
+            <missionstate id="135" description="Relation: 35"/>
+            <missionstate id="136" description="Relation: 0."/>
+            <missionstate id="137" description="Relation: 1"/>
+            <missionstate id="138" description="Relation: 2"/>
+            <missionstate id="139" description="Relation: 3"/>
+            <missionstate id="140" description="Relation: 4"/>
+            <missionstate id="141" description="Relation: 5"/>
+            <missionstate id="142" description="Relation: 6"/>
+            <missionstate id="143" description="Relation: 7"/>
+            <missionstate id="144" description="Relation: 8"/>
+            <missionstate id="145" description="Relation: 9."/>
+            <missionstate id="146" description="Relation: 10"/>
+            <missionstate id="147" description="95% progress from: Bad ||||. to Normal."/>
+            <missionstate id="148" description="97% progress from: Bad ||||. to Normal."/>
+            <missionstate id="149" description="98% progress from: Bad ||||| to Normal."/>
+            <missionstate id="150" description="0% progress from: Normal ..... to Good."/>
+            <missionstate id="151" description="2% progress from: Normal ..... to Good."/>
+            <missionstate id="152" description="3% progress from: Normal ..... to Good."/>
+            <missionstate id="153" description="5% progress from: Normal ..... to Good."/>
+            <missionstate id="154" description="7% progress from: Normal ..... to Good."/>
+            <missionstate id="155" description="8% progress from: Normal ..... to Good."/>
+            <missionstate id="156" description="10% progress from: Normal ..... to Good."/>
+            <missionstate id="157" description="12% progress from: Normal ..... to Good."/>
+            <missionstate id="158" description="13% progress from: Normal ..... to Good."/>
+            <missionstate id="159" description="15% progress from: Normal ..... to Good."/>
+            <missionstate id="160" description="17% progress from: Normal ..... to Good."/>
+            <missionstate id="161" description="18% progress from: Normal |.... to Good."/>
+            <missionstate id="162" description="20% progress from: Normal |.... to Good."/>
+            <missionstate id="163" description="22% progress from: Normal |.... to Good."/>
+            <missionstate id="164" description="23% progress from: Normal |.... to Good."/>
+            <missionstate id="165" description="25% progress from: Normal |.... to Good."/>
+            <missionstate id="166" description="27% progress from: Normal |.... to Good."/>
+            <missionstate id="167" description="28% progress from: Normal |.... to Good."/>
+            <missionstate id="168" description="30% progress from: Normal |.... to Good."/>
+            <missionstate id="169" description="32% progress from: Normal |.... to Good."/>
+            <missionstate id="170" description="33% progress from: Normal |.... to Good."/>
+            <missionstate id="171" description="35% progress from: Normal |.... to Good."/>
+            <missionstate id="172" description="37% progress from: Normal |.... to Good."/>
+            <missionstate id="173" description="38% progress from: Normal ||... to Good."/>
+            <missionstate id="174" description="40% progress from: Normal ||... to Good."/>
+            <missionstate id="175" description="42% progress from: Normal ||... to Good."/>
+            <missionstate id="176" description="43% progress from: Normal ||... to Good."/>
+            <missionstate id="177" description="45% progress from: Normal ||... to Good."/>
+            <missionstate id="178" description="47% progress from: Normal ||... to Good."/>
+            <missionstate id="179" description="48% progress from: Normal ||... to Good."/>
+            <missionstate id="180" description="50% progress from: Normal ||... to Good."/>
+            <missionstate id="181" description="52% progress from: Normal ||... to Good."/>
+            <missionstate id="182" description="53% progress from: Normal ||... to Good."/>
+            <missionstate id="183" description="55% progress from: Normal ||... to Good."/>
+            <missionstate id="184" description="57% progress from: Normal ||... to Good."/>
+            <missionstate id="185" description="58% progress from: Normal |||.. to Good."/>
+            <missionstate id="186" description="60% progress from: Normal |||.. to Good."/>
+            <missionstate id="187" description="62% progress from: Normal |||.. to Good."/>
+            <missionstate id="188" description="63% progress from: Normal |||.. to Good."/>
+            <missionstate id="189" description="65% progress from: Normal |||.. to Good."/>
+            <missionstate id="190" description="67% progress from: Normal |||.. to Good."/>
+            <missionstate id="191" description="68% progress from: Normal |||.. to Good."/>
+            <missionstate id="192" description="70% progress from: Normal |||.. to Good."/>
+            <missionstate id="193" description="72% progress from: Normal |||.. to Good."/>
+            <missionstate id="194" description="73% progress from: Normal |||.. to Good."/>
+            <missionstate id="195" description="75% progress from: Normal |||.. to Good."/>
+            <missionstate id="196" description="77% progress from: Normal |||.. to Good."/>
+            <missionstate id="197" description="78% progress from: Normal ||||. to Good."/>
+            <missionstate id="198" description="80% progress from: Normal ||||. to Good."/>
+            <missionstate id="199" description="82% progress from: Normal ||||. to Good."/>
+            <missionstate id="200" description="83% progress from: Normal ||||. to Good."/>
+            <missionstate id="201" description="85% progress from: Normal ||||. to Good."/>
+            <missionstate id="202" description="87% progress from: Normal ||||. to Good."/>
+            <missionstate id="203" description="88% progress from: Normal ||||. to Good."/>
+            <missionstate id="204" description="90% progress from: Normal ||||. to Good."/>
+            <missionstate id="205" description="92% progress from: Normal ||||. to Good."/>
+            <missionstate id="206" description="93% progress from: Normal ||||. to Good."/>
+            <missionstate id="207" description="95% progress from: Normal ||||. to Good."/>
+            <missionstate id="208" description="97% progress from: Normal ||||. to Good."/>
+            <missionstate id="209" description="98% progress from: Normal ||||| to Good."/>
+            <missionstate id="210" description="0% progress from: Good ..... to: Very Good."/>
+            <missionstate id="211" description="3% progress from: Good ..... to: Very Good."/>
+            <missionstate id="212" description="5% progress from: Good ..... to: Very Good."/>
+            <missionstate id="213" description="8% progress from: Good ..... to: Very Good."/>
+            <missionstate id="214" description="10% progress from: Good ..... to: Very Good."/>
+            <missionstate id="215" description="13% progress from: Good ..... to: Very Good."/>
+            <missionstate id="216" description="15% progress from: Good ..... to: Very Good."/>
+            <missionstate id="217" description="18% progress from: Good |.... to: Very Good."/>
+            <missionstate id="218" description="20% progress from: Good |.... to: Very Good."/>
+            <missionstate id="219" description="Relation: 20"/>
+            <missionstate id="220" description="Relation: 21"/>
+            <missionstate id="221" description="Relation: 22"/>
+            <missionstate id="222" description="Relation: 23"/>
+            <missionstate id="223" description="Relation: 24"/>
+            <missionstate id="224" description="Relation: 25"/>
+            <missionstate id="225" description="Relation: 26"/>
+            <missionstate id="226" description="Relation: 27"/>
+            <missionstate id="227" description="Relation: 28."/>
+            <missionstate id="228" description="Relation: 28"/>
+            <missionstate id="229" description="Relation: 29"/>
+            <missionstate id="230" description="Relation: 30"/>
+            <missionstate id="231" description="Relation: 31"/>
+            <missionstate id="232" description="Relation: 32"/>
+            <missionstate id="233" description="Relation: 33"/>
+            <missionstate id="234" description="Relation: 34"/>
+            <missionstate id="235" description="Relation: 35"/>
+            <missionstate id="236" description="Relation: 0."/>
+            <missionstate id="237" description="Relation: 1"/>
+            <missionstate id="238" description="Relation: 2"/>
+            <missionstate id="239" description="Relation: 3"/>
+            <missionstate id="240" description="Relation: 4"/>
+            <missionstate id="241" description="Relation: 5"/>
+            <missionstate id="242" description="Relation: 6"/>
+            <missionstate id="243" description="Relation: 7"/>
+            <missionstate id="244" description="Relation: 8"/>
+            <missionstate id="245" description="Relation: 9."/>
+            <missionstate id="246" description="Relation: 10"/>
+            <missionstate id="247" description="Relation: 11"/>
+            <missionstate id="248" description="Relation: 12"/>
+            <missionstate id="249" description="Relation: 13"/>
+            <missionstate id="250" description="Relation: 14"/>
+            <missionstate id="251" description="Relation: 15"/>
+            <missionstate id="252" description="Relation: 16"/>
+            <missionstate id="253" description="Relation: 17"/>
+            <missionstate id="254" description="Relation: 18."/>
+            <missionstate id="255" description="Relation: 19"/>
+            <missionstate id="256" description="Relation: 20"/>
+            <missionstate id="257" description="Relation: 21"/>
+            <missionstate id="258" description="Relation: 22"/>
+            <missionstate id="259" description="Relation: 23"/>
+            <missionstate id="260" description="Relation: 24"/>
+            <missionstate id="261" description="Relation: 25"/>
+            <missionstate id="262" description="Relation: 26"/>
+            <missionstate id="263" description="Relation: 27."/>
+            <missionstate id="264" description="Relation: 28"/>
+            <missionstate id="265" description="Relation: 29"/>
+            <missionstate id="266" description="Relation: 30"/>
+            <missionstate id="267" description="Relation: 31"/>
+            <missionstate id="268" description="Relation: 32"/>
+            <missionstate id="269" description="Relation: 33"/>
+            <missionstate id="270" description="Relation: 34"/>
+            <missionstate id="271" description="Relation: 35"/>
+            <missionstate id="272" description="Relation: 32"/>
+            <missionstate id="273" description="Relation: 33"/>
+            <missionstate id="274" description="Relation: 34"/>
+            <missionstate id="275" description="Relation: 35"/>
+            <missionstate id="276" description="Relation: 0."/>
+            <missionstate id="277" description="Relation: 1"/>
+            <missionstate id="278" description="Relation: 2"/>
+            <missionstate id="279" description="Relation: 3"/>
+            <missionstate id="280" description="Relation: 4"/>
+            <missionstate id="281" description="Relation: 5"/>
+            <missionstate id="282" description="Relation: 6"/>
+            <missionstate id="283" description="Relation: 7"/>
+            <missionstate id="284" description="Relation: 8"/>
+            <missionstate id="285" description="Relation: 9."/>
+            <missionstate id="86" description="Relation: 10"/>
+            <missionstate id="287" description="Relation: 11"/>
+            <missionstate id="288" description="Relation: 12"/>
+            <missionstate id="289" description="Relation: 13"/>
+            <missionstate id="290" description="Relation: 14"/>
+            <missionstate id="291" description="Relation: 15"/>
+            <missionstate id="292" description="Relation: 16"/>
+            <missionstate id="293" description="Relation: 17"/>
+            <missionstate id="294" description="Relation: 18."/>
+            <missionstate id="295" description="Relation: 19"/>
+            <missionstate id="296" description="Relation: 20"/>
+            <missionstate id="297" description="Relation: 21"/>
+            <missionstate id="298" description="Relation: 22"/>
+            <missionstate id="299" description="Relation: 23"/>
+            <missionstate id="300" description="Relation: 24"/>
+        </mission>
+    </quest>            
 </quests>

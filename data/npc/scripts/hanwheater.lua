@@ -16,6 +16,11 @@ function creatureSayCallback(cid, type, msg)
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 
 if(msgcontains(msg, 'mission')) then
+	if (getPlayerStorageValue(cid,2308) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2308,4)
+			setPlayerStorageValue(cid,2309,150)
+end
 	if (getPlayerStorageValue(cid,2135) == 0) then
 		if(getPlayerItemCount(cid, 2691) >= 10) then
 			doPlayerRemoveItem(cid, 2691, 10)
@@ -25,6 +30,11 @@ if(msgcontains(msg, 'mission')) then
 			setPlayerStorageValue(cid,2137,0)
 			doPlayerAddExperience(cid,7000)
 			doPlayerAddItem(cid,2152,10)
+			x=getPlayerStorageValue(cid,2309)+4
+				setPlayerStorageValue(cid,2309,x)
+				if (getPlayerStorageValue(cid,2309) > 60 and getPlayerStorageValue(cid,2308) == 4) then
+					setPlayerStorageValue(cid,2308,5)
+				end
 		else
 		selfSay('I am sure you will get it.', cid)
 		end

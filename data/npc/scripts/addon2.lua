@@ -16,6 +16,11 @@ function creatureSayCallback(cid, type, msg)
 local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 
 if(msgcontains(msg, 'mission') or msgcontains(msg, 'addon') or msgcontains(msg, 'outfit')) then
+	if (getPlayerStorageValue(cid,2306) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2306,4)
+			setPlayerStorageValue(cid,2307,150)
+end
 	if (getPlayerStorageValue(cid,2032) == 0) then
 		if(getPlayerItemCount(cid, 5909) >= 10 and  getPlayerItemCount(cid, 5913) >= 20) then
 			if(doPlayerRemoveMoney(cid,300)) then
@@ -26,6 +31,11 @@ if(msgcontains(msg, 'mission') or msgcontains(msg, 'addon') or msgcontains(msg, 
 				doPlayerAddOutfit(cid, 132, 0)
 				doPlayerAddExperience(cid,10000)
 				setPlayerStorageValue(cid,2032,1)
+				x=getPlayerStorageValue(cid,2307)+4
+				setPlayerStorageValue(cid,2307,x)
+				if (getPlayerStorageValue(cid,2307) > 60 and getPlayerStorageValue(cid,2306) == 4) then
+					setPlayerStorageValue(cid,2306,5)
+				end
 			else
 				selfSay('I need that payment, please bring enough money.', cid)
 			end

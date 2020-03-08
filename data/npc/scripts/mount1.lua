@@ -24,6 +24,11 @@ if(msgcontains(msg, 'mission') or msgcontains(msg, 'mount')) then
 				doPlayerAddMount(cid, 13)
 				setPlayerStorageValue(cid,2058,1)
 				doPlayerAddExperience(cid,8000)
+				x=getPlayerStorageValue(cid,2305)+1
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 			else
 				selfSay('Bring more money.', cid)
 			end
@@ -37,6 +42,11 @@ if(msgcontains(msg, 'mission') or msgcontains(msg, 'mount')) then
 	if (getPlayerStorageValue(cid,2058) < 0) then
 		selfSay('Im John the owner of this farm, the best farm of Bree. I may have a mission for you and if you help me, I will sell you a nice donkey.', cid)
 		selfSay('I enjoy collecting animals trophies, but I have never hunted water buffaloes. If you bring me 3 horns, I will sell you a donkey for 5000 gp, {ok}?.', cid)
+		if (getPlayerStorageValue(cid,2304) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2304,4)
+			setPlayerStorageValue(cid,2305,150)
+		end
 	end
 end
 if(msgcontains(msg, 'ok')) then

@@ -20,12 +20,22 @@ if (getPlayerStorageValue(cid,2040) < 0) then
 	selfSay('A mission? I am a very old dwarf that use to live in Erebor, before the dragon came. Then I followed Thráin to the misty mountains and now I am here as prisoner.', cid)
  	selfSay('Now I am too old to scape, but this renegades still use me as armourer and I really like to work on that...', cid)
  	 selfSay('Maybe.. I do have a mission for you. If you go to Bree, look for an amulet that belong to my dead son and bring it to me, I will craft weapons for you, if you get the materials. I got coal, just iron I need too forge steel, {ok}?', cid)
+if (getPlayerStorageValue(cid,2304) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2304,4)
+			setPlayerStorageValue(cid,2305,150)
+		end
 end
 if (getPlayerStorageValue(cid,2040) == 1) then
 if(getPlayerItemCount(cid, 10218) >= 1) then
 				doPlayerRemoveItem(cid, 10218, 1)
 selfSay('Thanks! I can wait in peace now for my dead, now lets speak about {forge}.', cid)
 setPlayerStorageValue(cid,2040,2)
+x=getPlayerStorageValue(cid,2305)+1
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 end
 end
 		talkState[talkUser] = 4

@@ -37,6 +37,11 @@ if(getPlayerItemCount(cid, 2668) >= 3 and  getPlayerItemCount(cid, 2689) >= 5) t
 selfSay('Great! I really like eating bread with salmon!, now lets speak about {forge}. (you received 5000 exp)', cid)
 setPlayerStorageValue(cid,2012,1)
 doPlayerAddExperience(cid,5000)
+x=getPlayerStorageValue(cid,2305)+1
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 end
 end
 end
@@ -101,6 +106,11 @@ elseif(msgcontains(msg, 'yes') and talkState[talkUser] == 11) then
 end
 if (getPlayerStorageValue(cid,2012) < 0) then
 selfSay('If you want me to forge something for you, I need your help with something, {ok}?.', cid)
+if (getPlayerStorageValue(cid,2304) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2304,4)
+			setPlayerStorageValue(cid,2305,150)
+		end
 if(msgcontains(msg, 'ok')) then
 if (getPlayerStorageValue(cid,2012) < 0) then
 selfSay('Great! So please, bring me some supplies. I need 5 bread and 3 salmons. Then I will help you.', cid)

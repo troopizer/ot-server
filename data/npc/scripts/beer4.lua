@@ -40,6 +40,11 @@ if(msgcontains(msg, 'food')) then
 selfSay('I sell bread for 2 gp, cheese for 2 gp and salmon for 10 gp.', cid)
 end
 if(msgcontains(msg, 'mission')) then
+	if (getPlayerStorageValue(cid,2306) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2306,4)
+			setPlayerStorageValue(cid,2307,150)
+		end
 if (getPlayerStorageValue(cid,2006) == 0) then
 selfSay('What? a mission? what is your mission here?.', cid)
 else

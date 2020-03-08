@@ -53,6 +53,11 @@ function creatureSayCallback(cid, type, msg)
 			selfSay("This is the more dangerous place guarded by our forces. Nobody wants to stay. (You received 500 exp)", cid)
 			doPlayerAddExperience(cid,500)
 			setPlayerStorageValue(cid,2008,1)
+			x=getPlayerStorageValue(cid,2305)+2
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 			return true
 		end
 
@@ -68,6 +73,11 @@ function creatureSayCallback(cid, type, msg)
 				setPlayerStorageValue(cid,2009,1)
 				selfSay("Well done! Now I can give you a real {mission}. (You received 3000 exp)", cid)
 				doPlayerAddExperience(cid,3000)
+				x=getPlayerStorageValue(cid,2305)+2
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 				return true
 			else
 				selfSay("Can't you get just 11 spider silks?", cid)
@@ -90,6 +100,11 @@ function creatureSayCallback(cid, type, msg)
 				selfSay("You could achive great respect. You remind me of an elf I knew onces. Oh his sister, her ears, so sticky ...(You received 7000 exp)", cid)
 				doPlayerAddExperience(cid,7000)
 				setPlayerStorageValue(cid,2010,1)
+				x=getPlayerStorageValue(cid,2305)+2
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 				return true
 			else
 				selfSay("Can't you get just 1 tarantula egg?")
@@ -115,6 +130,11 @@ function creatureSayCallback(cid, type, msg)
 				doPlayerAddExperience(cid,10000)
 				doPlayerAddItem(cid,2152,20)
 				setPlayerStorageValue(cid,2011,4)
+				x=getPlayerStorageValue(cid,2305)+2
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 		end
 	end
 

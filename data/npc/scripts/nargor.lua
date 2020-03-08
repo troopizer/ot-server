@@ -16,6 +16,11 @@ function creatureSayCallback(cid, type, msg)
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 
 	if(msgcontains(msg, 'mission') or msgcontains(msg, 'dunedain') or msgcontains(msg, 'ranger')) then
+		if (getPlayerStorageValue(cid,2310) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2310,4)
+			setPlayerStorageValue(cid,2311,150)
+		end
 			if(getPlayerStorageValue(cid,2046) == 0) then
 				selfSay('I am waiting for you to finish the mission.', cid)
 			elseif(getPlayerStorageValue(cid,2046) < 0) then
@@ -26,6 +31,11 @@ function creatureSayCallback(cid, type, msg)
 					setPlayerStorageValue(cid,2046,51)
 					doPlayerAddExperience(cid,10000)
 					doPlayerAddItem(cid,2148,500)
+					x=getPlayerStorageValue(cid,2311)+4
+				setPlayerStorageValue(cid,2311,x)
+				if (getPlayerStorageValue(cid,2311) > 60 and getPlayerStorageValue(cid,2310) == 4) then
+					setPlayerStorageValue(cid,2310,5)
+				end
 			elseif(getPlayerStorageValue(cid,2047) < 0 and getPlayerStorageValue(cid,2046) == 51) then
 					selfSay('I am sure that you have met the Lone Lands Savages, show your streng and teach them a lesson,{ok}?.', cid)
 				talkState[talkUser] = 1
@@ -35,6 +45,11 @@ function creatureSayCallback(cid, type, msg)
 					setPlayerStorageValue(cid,2047,1)
 					doPlayerRemoveItem(cid,5924,5)
 					doPlayerAddExperience(cid,15000)
+					x=getPlayerStorageValue(cid,2311)+4
+				setPlayerStorageValue(cid,2311,x)
+				if (getPlayerStorageValue(cid,2311) > 60 and getPlayerStorageValue(cid,2310) == 4) then
+					setPlayerStorageValue(cid,2310,5)
+				end
 			elseif(getPlayerStorageValue(cid,2047) == 1 and getPlayerStorageValue(cid,2042) < 0   and getPlayerStorageValue(cid,2043) < 0  and getPlayerStorageValue(cid,2044) < 0  and getPlayerStorageValue(cid,2045) < 0) then
 					selfSay('Choose one of this abilities: {strong strike}, {twisting slash}, {shield wall} and {sharp aim}.', cid)
 					talkState[talkUser] = 2					
@@ -46,6 +61,11 @@ function creatureSayCallback(cid, type, msg)
 					setPlayerStorageValue(cid,2050,3)
 					setPlayerStorageValue(cid,2049,0)
 					doPlayerAddExperience(cid,10000)
+					x=getPlayerStorageValue(cid,2311)+4
+				setPlayerStorageValue(cid,2311,x)
+				if (getPlayerStorageValue(cid,2311) > 60 and getPlayerStorageValue(cid,2310) == 4) then
+					setPlayerStorageValue(cid,2310,5)
+				end
 			elseif(getPlayerStorageValue(cid,2050) == 3 and getPlayerStorageValue(cid,2052) < 0) then
 					selfSay('I have a mission for you, you are a truth fighter and if you accomplish this mission, I will give you a outfit to prove it, {ok}?.', cid)
 					talkState[talkUser] = 1
@@ -61,6 +81,11 @@ function creatureSayCallback(cid, type, msg)
 					doPlayerAddOutfit(cid, 142, 0)
 					doPlayerAddOutfit(cid, 134, 0)
 					doPlayerAddExperience(cid,30000)
+					x=getPlayerStorageValue(cid,2311)+4
+				setPlayerStorageValue(cid,2311,x)
+				if (getPlayerStorageValue(cid,2311) > 60 and getPlayerStorageValue(cid,2310) == 4) then
+					setPlayerStorageValue(cid,2310,5)
+				end
 			end
 			if(getPlayerStorageValue(cid,2052) == 1 and getPlayerStorageValue(cid,2053) < 0) then
 					selfSay('A new problem have come to us, the goblins you fighted have a leader, Rorkduf, he isnt a big chief among the Misty Mountains goblins, but he is smart and is looking for an alliacne with the renegades and savages.', cid)
@@ -71,6 +96,11 @@ function creatureSayCallback(cid, type, msg)
 					setPlayerStorageValue(cid,2053,2)
 					doPlayerAddItem(cid,2145,1)
 					doPlayerAddExperience(cid,50000)
+					x=getPlayerStorageValue(cid,2311)+4
+				setPlayerStorageValue(cid,2311,x)
+				if (getPlayerStorageValue(cid,2311) > 60 and getPlayerStorageValue(cid,2310) == 4) then
+					setPlayerStorageValue(cid,2310,5)
+				end
 			elseif(getPlayerStorageValue(cid,2053) == 2) then
 					selfSay('I dont have more missions for you my friend ', cid)
 			end

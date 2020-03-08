@@ -32,6 +32,11 @@ function creatureSayCallback(cid, type, msg)
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 
 	if(msgcontains(msg, 'mission') or msgcontains(msg, 'dunedain') or msgcontains(msg, 'ranger')) then
+		if (getPlayerStorageValue(cid,2310) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2310,4)
+			setPlayerStorageValue(cid,2311,150)
+		end
 			if(getPlayerStorageValue(cid,2053) < 2) then
 				selfSay('I heard that you are working with Nargor in the Weather Hills. You should finish your work there.', cid)
 			elseif(getPlayerStorageValue(cid,2053) == 2 and getPlayerStorageValue(cid,2106) < 0) then
@@ -41,6 +46,11 @@ function creatureSayCallback(cid, type, msg)
 					selfSay('Great! you are a skilled hunter. (you received 50000 exp) ', cid)
 					setPlayerStorageValue(cid,2106,21)
 					doPlayerAddExperience(cid,50000)
+					x=getPlayerStorageValue(cid,2311)+4
+				setPlayerStorageValue(cid,2311,x)
+				if (getPlayerStorageValue(cid,2311) > 60 and getPlayerStorageValue(cid,2310) == 4) then
+					setPlayerStorageValue(cid,2310,5)
+				end
 			elseif(getPlayerStorageValue(cid,2106) == 11 and getPlayerStorageValue(cid,2107) < 0) then
 					selfSay('My father, Argonui, send me here in order to ensure peace in {Lone Lands}. But we are just a few rangers and the enemies are hundreds.', cid)
 					selfSay('We must face packs of wargs as big as horses, outlaws that even have a leader and some witches with them. And as you should know there is a camp of goblins in the Weather Hills.', cid)			
@@ -50,6 +60,11 @@ function creatureSayCallback(cid, type, msg)
 					selfSay('Thanks you, let me see that report. (you received 80000 exp) ', cid)
 					setPlayerStorageValue(cid,2107,3)
 					doPlayerAddExperience(cid,80000)
+					x=getPlayerStorageValue(cid,2307)+4
+				setPlayerStorageValue(cid,2307,x)
+				if (getPlayerStorageValue(cid,2307) > 60 and getPlayerStorageValue(cid,2306) == 4) then
+					setPlayerStorageValue(cid,2306,5)
+				end
 			elseif(getPlayerStorageValue(cid,2107) == 3 and getPlayerStorageValue(cid,2108) < 0) then
 					selfSay('This is serious... Eranuir says that a group of witches is gatering an army in an old castle of Rhudaur, north-west from here.', cid)
 					selfSay('They have many lone lands outlaws under their comand. And that is not all, the witches are working along with eriador renerages and the Weather Hills goblins!', cid)
@@ -61,6 +76,11 @@ function creatureSayCallback(cid, type, msg)
 					talkState[talkUser] = 2
 					doPlayerAddExperience(cid,120000)	
 					setPlayerStorageValue(cid,2108,3)
+					x=getPlayerStorageValue(cid,2307)+4
+				setPlayerStorageValue(cid,2307,x)
+				if (getPlayerStorageValue(cid,2307) > 60 and getPlayerStorageValue(cid,2306) == 4) then
+					setPlayerStorageValue(cid,2306,5)
+				end
 			elseif(getPlayerStorageValue(cid,2108) == 3) then
 					selfSay('As a reward I will teach you one of the best moves I know, {ok}?', cid)
 					talkState[talkUser] = 2							

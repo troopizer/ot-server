@@ -37,6 +37,11 @@ function creatureSayCallback(cid, type, msg)
 			if(getPlayerStorageValue(cid,2018) == 0) then
 				selfSay('Soo the Captain send you, thats great, you look strong enough to help.', cid)
 				setPlayerStorageValue(cid,2018,1)
+				x=getPlayerStorageValue(cid,2305)+3
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 				selfSay('Do want to start working? I have a {mission} for you.', cid)
 				talkState[talkUser] = 1
 			elseif(getPlayerStorageValue(cid,2018) < 0) then
@@ -49,7 +54,12 @@ function creatureSayCallback(cid, type, msg)
 					doPlayerRemoveItem(cid, 2406, 3)
 					setPlayerStorageValue(cid,2019,1)
 					doPlayerAddExperience(cid,3000)
-					doPlayerAddItem(cid,2148,200)					
+					doPlayerAddItem(cid,2148,200)
+					x=getPlayerStorageValue(cid,2305)+3
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end					
 					selfSay('Good job! (You have received 3000 experience and 200 gp)', cid)
 				end
 			elseif(getPlayerStorageValue(cid,2019) == 1 and getPlayerStorageValue(cid,2037) < 0) then
@@ -59,7 +69,12 @@ function creatureSayCallback(cid, type, msg)
 			if(getPlayerStorageValue(cid,2037) == 20) then
 					setPlayerStorageValue(cid,2037,21)
 					doPlayerAddExperience(cid,8000)
-					doPlayerAddItem(cid,2152,5)					
+					doPlayerAddItem(cid,2152,5)	
+					x=getPlayerStorageValue(cid,2305)+3
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end				
 					selfSay('Just Great! You teach those bastards a good lesson. (You have received 8000 experience and 500 gp)', cid)
 			elseif(getPlayerStorageValue(cid,2037) == 21 and getPlayerStorageValue(cid,2039) < 0) then			
 					selfSay('You really like to work, I like that kid.. man! I should say after that last mission. I need you to break into the renegades town, are you ready?, {yes}?', cid)
@@ -68,7 +83,12 @@ function creatureSayCallback(cid, type, msg)
 			if(getPlayerStorageValue(cid,2039) == 1) then
 					setPlayerStorageValue(cid,2039,2)
 					doPlayerAddExperience(cid,15000)
-					doPlayerAddItem(cid,2152,5)					
+					doPlayerAddItem(cid,2152,5)	
+					x=getPlayerStorageValue(cid,2305)+3
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end				
 					selfSay('Thanks that info will be very useful. (You have received 15000 experience and 500 gp)', cid)
 			elseif(getPlayerStorageValue(cid,2039) == 2 and getPlayerStorageValue(cid,2048) < 0) then		
 					selfSay('The spy told us that one of the renegades generals is in this fortress, his name is Harald Ferner and is in the northern part of the settlement.', cid)			
@@ -82,6 +102,11 @@ function creatureSayCallback(cid, type, msg)
 					doPlayerAddItem(cid,2483,1)
 					doPlayerAddOutfit(cid, 139, 1)
 					doPlayerAddOutfit(cid, 131, 1)
+					x=getPlayerStorageValue(cid,2305)+3
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
 					
 					selfSay('Thanks for all your work, you are a great warrior! I will tell everyone about your strong spirit, take this reward. (You have received 20000 experience, 1500 gp, an addon and a iron scale armor)', cid)
  			elseif(getPlayerStorageValue(cid,2048) == 2) then		

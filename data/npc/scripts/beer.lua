@@ -34,6 +34,11 @@ function creatureSayCallback(cid, type, msg)
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 	if(msgcontains(msg, 'bree')) then
 	selfSay('This town is Bree, the biggest of men in Eriador. Its a good place to learn basic skills and start your adventures', cid)
+	if (getPlayerStorageValue(cid,2304) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2304,4)
+			setPlayerStorageValue(cid,2305,150)
+		end
 	end
 	if(msgcontains(msg, 'prancing pony')) then
 	selfSay('The Prancing Pony is my Inn, travelers of all kind stop here for drinks and food.', cid)
@@ -51,6 +56,11 @@ function creatureSayCallback(cid, type, msg)
 				selfSay('Ohh my dear, I am not so young now, but I love this place. The only thing that drives me crazy is that little hobbit, Snob. I have to tell him everything twice.. , but is a good boy.', cid)
 				selfSay('He is the only one helping me. My husband is constantly traveling, he dont like working here (maybe because we use the last name of my family). So he often travel selling stuff.', cid)
 				selfSay('This time he went to Tharbad, I hope he returns soon, that ugly city is a hotbed of thieves.', cid)
+				if (getPlayerStorageValue(cid,2304) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2304,4)
+			setPlayerStorageValue(cid,2305,150)
+		end
 	end
 	if(msgcontains(msg, 'mission')) then
     if (getPlayerStorageValue(cid,2040) == 0) then 

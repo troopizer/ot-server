@@ -16,6 +16,11 @@ function creatureSayCallback(cid, type, msg)
 local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 
 if(msgcontains(msg, 'mission') or msgcontains(msg, 'addon')) then
+	if (getPlayerStorageValue(cid,2308) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2308,4)
+			setPlayerStorageValue(cid,2309,150)
+end
 	if (getPlayerStorageValue(cid,2113) == 0) then
 		if(getPlayerItemCount(cid, 2110) >= 1) then
 			doPlayerRemoveItem(cid, 2110, 1)
@@ -24,6 +29,11 @@ if(msgcontains(msg, 'mission') or msgcontains(msg, 'addon')) then
 			doPlayerAddOutfit(cid, 132, 1)
 			doPlayerAddExperience(cid,50000)
 			setPlayerStorageValue(cid,2113,1)
+			x=getPlayerStorageValue(cid,2309)+4
+				setPlayerStorageValue(cid,2309,x)
+				if (getPlayerStorageValue(cid,2309) > 60 and getPlayerStorageValue(cid,2308) == 4) then
+					setPlayerStorageValue(cid,2308,5)
+				end
 		else
 			selfSay('I hope you can find a nice doll.', cid)
 		end

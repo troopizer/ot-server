@@ -16,6 +16,11 @@ function creatureSayCallback(cid, type, msg)
 local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 
 if(msgcontains(msg, 'mission') or msgcontains(msg, 'mount')) then
+	if (getPlayerStorageValue(cid,2308) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2308,4)
+			setPlayerStorageValue(cid,2309,150)
+end
 	if (getPlayerStorageValue(cid,2136) == 0) then
 		if(getPlayerItemCount(cid, 2687) >= 10 and getPlayerItemCount(cid, 2692) >= 20 and getPlayerItemCount(cid, 7158) >= 10) then
 				doPlayerRemoveItem(cid, 2687, 10)
@@ -33,6 +38,11 @@ if(msgcontains(msg, 'mission') or msgcontains(msg, 'mount')) then
 		doPlayerAddExperience(cid,10000)
 		doPlayerAddItem(cid,2152,10)
 		setPlayerStorageValue(cid,2136,12)
+		x=getPlayerStorageValue(cid,2309)+4
+				setPlayerStorageValue(cid,2309,x)
+				if (getPlayerStorageValue(cid,2309) > 60 and getPlayerStorageValue(cid,2308) == 4) then
+					setPlayerStorageValue(cid,2308,5)
+				end
 	end
 	if (getPlayerStorageValue(cid,2136) < 0) then
 		selfSay('If you are looking for job, I can use some help... even if your an outsider.', cid)

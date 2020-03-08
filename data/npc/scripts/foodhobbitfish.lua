@@ -29,12 +29,22 @@ function creatureSayCallback(cid, type, msg)
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 
 if(msgcontains(msg, 'mission')) then
+	if (getPlayerStorageValue(cid,2306) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2306,4)
+			setPlayerStorageValue(cid,2307,150)
+end
 	if (getPlayerStorageValue(cid,2015) == 1 and getPlayerStorageValue(cid,2117) < 0) then
 		selfSay('My friend. I need even more {rainbow trouts}. If you get me {40} more, I will teach you how to cook them by yourself. {ok}?', cid)
 		talkState[talkUser] = 2
 	end
 end
 if(msgcontains(msg, 'mission')) then
+	if (getPlayerStorageValue(cid,2306) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2306,4)
+			setPlayerStorageValue(cid,2307,150)
+end
 	if (getPlayerStorageValue(cid,2117) == 0) then
 		if(getPlayerItemCount(cid, 7158) >= 40) then
 			doPlayerRemoveItem(cid, 7158, 40)
@@ -42,6 +52,11 @@ if(msgcontains(msg, 'mission')) then
 			setPlayerStorageValue(cid,2117,1)
 			setPlayerStorageValue(cid,2116,0)
 			doPlayerAddExperience(cid,15000)
+			x=getPlayerStorageValue(cid,2307)+4
+				setPlayerStorageValue(cid,2307,x)
+				if (getPlayerStorageValue(cid,2307) > 60 and getPlayerStorageValue(cid,2306) == 4) then
+					setPlayerStorageValue(cid,2306,5)
+				end
 		else
 			selfSay('You dont have all the ingredients, please search for them.', cid)
 		end
@@ -51,9 +66,14 @@ if(msgcontains(msg, 'mission')) then
 			doPlayerRemoveItem(cid, 2803, 20)
 			doPlayerRemoveItem(cid, 2793, 20)
 			doPlayerRemoveItem(cid, 7158, 20)
-			selfSay('Great!, now lets speak about {cook}.(You recived 5000 exp)', cid)
+			selfSay('Great! Now lets speak about {cook}.(You recived 5000 exp)', cid)
 			setPlayerStorageValue(cid,2015,1)
 			doPlayerAddExperience(cid,5000)
+			x=getPlayerStorageValue(cid,2307)+4
+				setPlayerStorageValue(cid,2307,x)
+				if (getPlayerStorageValue(cid,2307) > 60 and getPlayerStorageValue(cid,2306) == 4) then
+					setPlayerStorageValue(cid,2306,5)
+				end
 		else
 			selfSay('You dont have all the ingredients, please search for them.', cid)
 		end
@@ -90,6 +110,11 @@ if (getPlayerStorageValue(cid,2015) == 1) then
 	end
 end
 if (msgcontains(msg, 'mission')) then
+	if (getPlayerStorageValue(cid,2306) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2306,4)
+			setPlayerStorageValue(cid,2307,150)
+end
 	if (getPlayerStorageValue(cid,2015) < 0) then
 		selfSay('I am the best chef in Buckland, but I dont get all the special ingredients that I need, would you help me? I will cook for you if yo do, {ok}?.', cid)
 		talkState[talkUser] = 2
@@ -97,7 +122,7 @@ if (msgcontains(msg, 'mission')) then
 end
 if(msgcontains(msg,'ok')) then
 	if (getPlayerStorageValue(cid,2015) < 0 and talkState[talkUser] == 2) then
-		selfSay('Great!So please, bring me some herbs , rainbow trouts and mushrooms. I need 20 powder herbs, 20 mushrooms and 20 rainbow trout. You will find them in the countryside and river.', cid)
+		selfSay('Great! So please, bring me some herbs , rainbow trouts and mushrooms. I need 20 powder herbs, 20 mushrooms and 20 rainbow trout. You will find them in the countryside and river.', cid)
 		setPlayerStorageValue(cid,30006,5)
 		setPlayerStorageValue(cid,2015,0)
 	end

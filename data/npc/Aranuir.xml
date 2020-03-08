@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Aranuir" nameDescription="Aranuir, a dunedain ranger." walkinterval="2000" floorchange="1">
+<npc name="Aranuir" nameDescription="Aranuir, a dunedain ranger." script="aranuir.lua" walkinterval="2000" floorchange="1">
 
 	<health now="150" max="150"/>
 
