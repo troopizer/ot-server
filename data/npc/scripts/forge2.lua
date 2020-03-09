@@ -39,8 +39,11 @@ setPlayerStorageValue(cid,2012,1)
 doPlayerAddExperience(cid,5000)
 x=getPlayerStorageValue(cid,2305)+1
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 end
 end

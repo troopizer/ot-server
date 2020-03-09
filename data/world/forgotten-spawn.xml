@@ -6295,13 +6295,18 @@
 	<spawn centerx="616" centery="1050" centerz="7" radius="2">
 		<monster name="Wolf" x="-1" y="0" z="7" spawntime="60" />
 	</spawn>
+	<spawn centerx="652" centery="1050" centerz="7" radius="1">
+		<npc name="Otto Brockhouse" x="-1" y="0" z="7" spawntime="300" />
+	</spawn>
 	<spawn centerx="520" centery="1051" centerz="7" radius="2">
 		<monster name="Skeleton" x="0" y="1" z="7" spawntime="100" />
 	</spawn>
 	<spawn centerx="663" centery="1051" centerz="7" radius="2">
+		<monster name="Sheep" x="1" y="-2" z="7" spawntime="300" />
 		<monster name="Sheep" x="-1" y="-1" z="7" spawntime="60" />
 		<monster name="Sheep" x="0" y="-1" z="7" spawntime="60" />
 		<monster name="Sheep" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Sheep" x="1" y="1" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="669" centery="1051" centerz="7" radius="1">
 		<npc name="Ted" x="0" y="0" z="7" spawntime="300" />
@@ -6326,6 +6331,9 @@
 	</spawn>
 	<spawn centerx="646" centery="1056" centerz="7" radius="2">
 		<monster name="Rabbit" x="-1" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="654" centery="1056" centerz="7" radius="1">
+		<npc name="Janice Underhill" x="0" y="-1" z="7" spawntime="300" />
 	</spawn>
 	<spawn centerx="675" centery="1056" centerz="7" radius="2">
 		<monster name="Deer" x="-2" y="2" z="7" spawntime="60" />

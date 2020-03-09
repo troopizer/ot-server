@@ -14,7 +14,9 @@ local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 if(msgcontains(msg, 'yes')) then
 selfSay('Ok.. just ask, but some information cost money, hehe', cid)
 end
-
+if(msgcontains(msg, 'Osbald')) then
+selfSay('Osbald Underhill is the most important hobbit in Staddle. He manages most of the village.', cid)
+end
 if(msgcontains(msg, 'bree')) then
 selfSay('This town is Bree, the biggest of men in Erianor. Its a good place to learn basic skills and start your adventures', cid)
 end

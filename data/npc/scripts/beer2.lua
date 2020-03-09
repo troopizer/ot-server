@@ -33,6 +33,9 @@ local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 if(msgcontains(msg, 'beer')) then
 selfSay('I dont have beer for now.', cid)
 end
+if(msgcontains(msg, 'edward')) then
+		selfSay('Edward Mapleton is the mayor of Bree.', cid)
+	end
 if(msgcontains(msg, 'food')) then
 selfSay('I sell bread for 2 gp.', cid)
 end

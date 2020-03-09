@@ -20,6 +20,9 @@ function creatureSayCallback(cid, type, msg)
 	if(msgcontains(msg, 'bree')) then
 		selfSay('Bree is a litle town, but the biggest of men in Erianor. Its a good place to learn basic skills and start your adventures. You may become a {citizen} of Bree.', cid)
 	end
+	if(msgcontains(msg, 'Osbald')) then
+selfSay('Osbald Underhill is the most important hobbit in Staddle. He manages most of the village.', cid)
+end
 	if(msgcontains(msg, 'prancing pony')) then
 		selfSay('The Prancing Pony is a famous Inn in the north side of Bree, travelers of all kind stop there for drinks and food.', cid)
 	end
@@ -126,8 +129,11 @@ function creatureSayCallback(cid, type, msg)
 				doPlayerAddItem(cid,2148,100)
 				x=getPlayerStorageValue(cid,2305)+3
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 				selfSay('Good work young one.(you have received 400 experience and 100 gp)', cid)
 			end
@@ -166,8 +172,11 @@ function creatureSayCallback(cid, type, msg)
 			doPlayerAddExperience(cid,1000)
 			x=getPlayerStorageValue(cid,2305)+3
 				setPlayerStorageValue(cid,2305,x)
-			if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 			doPlayerAddItem(cid,2148,200)
 		end
@@ -187,8 +196,11 @@ function creatureSayCallback(cid, type, msg)
 			setPlayerStorageValue(cid,2002,2)
 			x=getPlayerStorageValue(cid,2305)+3
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 			doPlayerAddExperience(cid,500)
 			selfSay('Allright then.(you have received 500 experience points). ', cid)
@@ -201,8 +213,11 @@ function creatureSayCallback(cid, type, msg)
 			doPlayerAddExperience(cid,300)
 			x=getPlayerStorageValue(cid,2305)+3
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 			selfSay('Allright then.(you have received 300 experience points). ', cid)
 		end
@@ -217,8 +232,11 @@ function creatureSayCallback(cid, type, msg)
 				doPlayerAddItem(cid,2148,150)
 				x=getPlayerStorageValue(cid,2305)+3
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 				selfSay('Nice done, I will study this map now.(you received 800 experience and 150 gold).', cid)
 			else
@@ -232,8 +250,11 @@ function creatureSayCallback(cid, type, msg)
 				doPlayerAddItem(cid,2148,200)
 				x=getPlayerStorageValue(cid,2305)+3
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 				selfSay('Nice done, Its a very important treasure for Bree.(you received 2000 experience and 200 gold).', cid)
 			else
@@ -246,8 +267,11 @@ function creatureSayCallback(cid, type, msg)
 			doPlayerAddItem(cid,2148,300)
 			x=getPlayerStorageValue(cid,2305)+3
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 			selfSay('Allright then.(you have received 3000 experience points and 300 gold). ', cid)
 		end
@@ -261,8 +285,11 @@ function creatureSayCallback(cid, type, msg)
 				doPlayerAddItem(cid,2148,200)
 				x=getPlayerStorageValue(cid,2305)+3
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 				selfSay('Nice done, It a very important treasure for Bree.(you received 2000 experience and 200 gold).', cid)
 			else
@@ -286,8 +313,11 @@ function creatureSayCallback(cid, type, msg)
 				doPlayerAddExperience(cid,400)
 				x=getPlayerStorageValue(cid,2305)+3
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 				doPlayerAddItem(cid,2148,100)
 				selfSay('Good work young one.(you have received 400 experience and 100 gp)', cid)

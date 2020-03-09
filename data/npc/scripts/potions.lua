@@ -71,8 +71,11 @@ function creatureSayCallback(cid, type, msg)
 					doPlayerAddItem(cid,7618,2)
 					x=getPlayerStorageValue(cid,2305)+2
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 					selfSay('Great! You are really brave, I have another {mission} for you. (You have received 1000 exp and 2 health potions)', cid)
 					setPlayerStorageValue(cid,2017,1)
@@ -88,8 +91,11 @@ function creatureSayCallback(cid, type, msg)
 					doPlayerAddItem(cid,7618,2)
 					x=getPlayerStorageValue(cid,2305)+2
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 					selfSay('Thanks! You are really strong, I will teach you the spell I told you. I also have another {mission} for you. (You have received 1500 exp and 2 health potions)', cid)
 					setPlayerStorageValue(cid,2021,1)
@@ -114,8 +120,11 @@ function creatureSayCallback(cid, type, msg)
 					doPlayerAddItem(cid,7618,2)
 					x=getPlayerStorageValue(cid,2305)+2
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 					selfSay('Thanks! You have a great spirit, should become a sorcerer, anyway I will teach you the spell I told you.(You have received 2000 exp and 2 health potions)', cid)
 					setPlayerStorageValue(cid,2022,1)
@@ -139,8 +148,11 @@ function creatureSayCallback(cid, type, msg)
 					doPlayerAddItem(cid,7618,2)
 					x=getPlayerStorageValue(cid,2305)+2
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 					selfSay('You are amazing child, as I promise I will teach you one spell, but you will have to choose between 6 spells, {ok}? (You have received 2500 exp and 2 health potions)', cid)
 					setPlayerStorageValue(cid,2031,1)

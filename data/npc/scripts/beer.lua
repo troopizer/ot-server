@@ -46,6 +46,12 @@ function creatureSayCallback(cid, type, msg)
 	if(msgcontains(msg, 'bandits')) then
 		selfSay('Dear.. around all towns you can find groups of bandits and Bree isnt the exception. But I dont know where is their lair.', cid)
 	end
+	if(msgcontains(msg, 'Osbald')) then
+selfSay('Osbald Underhill is the most important hobbit in Staddle. He manages most of the village.', cid)
+end
+	if(msgcontains(msg, 'edward') or msgcontains(msg, 'mayor')) then
+		selfSay('Edward Mapleton is the mayor of Bree.', cid)
+	end
 	if(msgcontains(msg, 'year') or msgcontains(msg, 'date') or msgcontains(msg, 'tales') or msgcontains(msg, 'info')) then
 				selfSay('We are in the year 2900 of the third age.', cid)
 				selfSay('I have been told that Gerontius Took "The Old Took" is currently the Thain of the Shire and Edward Oatny is our Mayor, he is a fine mayor, but his clothes.. anyway.', cid)

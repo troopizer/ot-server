@@ -55,8 +55,11 @@ function creatureSayCallback(cid, type, msg)
 			setPlayerStorageValue(cid,2008,1)
 			x=getPlayerStorageValue(cid,2305)+2
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 			return true
 		end
@@ -75,8 +78,11 @@ function creatureSayCallback(cid, type, msg)
 				doPlayerAddExperience(cid,3000)
 				x=getPlayerStorageValue(cid,2305)+2
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 				return true
 			else
@@ -102,8 +108,11 @@ function creatureSayCallback(cid, type, msg)
 				setPlayerStorageValue(cid,2010,1)
 				x=getPlayerStorageValue(cid,2305)+2
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 				return true
 			else
@@ -132,8 +141,11 @@ function creatureSayCallback(cid, type, msg)
 				setPlayerStorageValue(cid,2011,4)
 				x=getPlayerStorageValue(cid,2305)+2
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 		end
 	end

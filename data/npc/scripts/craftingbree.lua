@@ -20,6 +20,11 @@ function creatureSayCallback(cid, type, msg)
 		selfSay('If you join the guild you will get the oportunity to learn how to craft useful items.', cid)
 	end
 	if(msgcontains(msg, 'mission')) then
+		if (getPlayerStorageValue(cid,2304) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2304,4)
+			setPlayerStorageValue(cid,2305,150)
+		end
 			if(getPlayerStorageValue(cid,2125) == 0 and getPlayerItemCount(cid,5901) >= 30 and getPlayerItemCount(cid,2311) >= 2 and getPlayerItemCount(cid,2261) >= 2) then
 				doPlayerRemoveItem(cid,2261, 2)
 				doPlayerRemoveItem(cid,2311, 2)
@@ -28,6 +33,14 @@ function creatureSayCallback(cid, type, msg)
 				setPlayerStorageValue(cid,2125,1)
 				doPlayerAddExperience(cid,1000)
 				doPlayerAddItem(cid,2557, 1)
+				x=getPlayerStorageValue(cid,2305)+2
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
+				end
 			elseif(getPlayerStorageValue(cid,2125) < 0) then
 					selfSay('I am the leader of the {Crafting Guild} in Bree. If you want to join us, you will have to prove that you can do hard work. {ok}?', cid)
 					talkState[talkUser] = 1

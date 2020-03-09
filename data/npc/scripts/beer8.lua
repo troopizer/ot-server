@@ -43,8 +43,12 @@ end
 if(msgcontains(msg, 'Shire')) then
 selfSay('Thats the name of the lands west of the Brandywine river. I dont know much about the hobbits around there.', cid)
 end
-
-
+if(msgcontains(msg, 'Osbald')) then
+selfSay('Osbald Underhill is the most important hobbit in Staddle. He manages most of the village.', cid)
+end
+if(msgcontains(msg, 'edward') or msgcontains(msg, 'mayor')) then
+		selfSay('Edward Mapleton is the mayor of Bree.', cid)
+end
 
 
 

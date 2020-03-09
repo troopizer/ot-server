@@ -31,9 +31,12 @@ function creatureSayCallback(cid, type, msg)
 
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 
-	if(msgcontains(msg, 'edward')) then
+	if(msgcontains(msg, 'edward') or msgcontains(msg, 'mayor')) then
 		selfSay('Edward Mapleton is the mayor of Bree and my father.', cid)
 	end
+	if(msgcontains(msg, 'Osbald')) then
+selfSay('Osbald Underhill is the most important hobbit in Staddle. He manages most of the village.', cid)
+end
 	if(msgcontains(msg, 'jeff')) then
 		selfSay('My name is Jeff Mapleton. Since a few years I have been the captain of the Bree guards.', cid)
 		selfSay('My father, the mayor, gave me this task. He is no warrior, so I take the responsibility of defending our land.', cid)
@@ -82,8 +85,11 @@ function creatureSayCallback(cid, type, msg)
 				setPlayerStorageValue(cid,2038,2)
 				x=getPlayerStorageValue(cid,2305)+2
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 			elseif(getPlayerStorageValue(cid,2111) == 1) then
 				selfSay('Great job! (you received 50000 experience, 8000 gold and 1 small diamond).', cid)
@@ -93,8 +99,11 @@ function creatureSayCallback(cid, type, msg)
 				setPlayerStorageValue(cid,2111,2)
 				x=getPlayerStorageValue(cid,2305)+2
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 			elseif(getPlayerStorageValue(cid,2154) == 1) then
 				selfSay('Great job! (you received 60000 experience, 10000 gold and 1 small diamond).', cid)
@@ -104,8 +113,11 @@ function creatureSayCallback(cid, type, msg)
 				setPlayerStorageValue(cid,2154,2)
 				x=getPlayerStorageValue(cid,2305)+2
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 			else
 				selfSay('You have not earned any rewards.', cid)

@@ -15,7 +15,7 @@ function creatureSayCallback(cid, type, msg)
 
 local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 
-if(msgcontains(msg, 'mission') or msgcontains(msg, 'mount')) then
+if(msgcontains(msg, 'mission') or msgcontains(msg, 'mount') or msgcontains(msg, 'sheep')) then
 	if (getPlayerStorageValue(cid,2308) < 0) then
 			setPlayerStorageValue(cid,30034,33)
 			setPlayerStorageValue(cid,2308,4)
@@ -49,12 +49,32 @@ end
 		selfSay('I am in the need of some supplies. If you manage to get them, I will pay you and even teach you how to ride a black sheep, {ok}?.', cid)
 		selfSay('Yes..thats right, I will teach you how to ride sheeps.', cid)
 	end
+	if (getPlayerStorageValue(cid,2312) == 2 and getPlayerStorageValue(cid,2136) == 12) then
+		selfSay('You are looking for another black sheep? I can sell you one, but you will have to help me.', cid)
+		selfSay('Is good for the best sheeps to give them some {halfling bread of speed} to eat. if you get my 20 pieces, I will sell you one black sheep for 10000 coins. {ok}?', cid)
+	end
+	if (getPlayerStorageValue(cid,2312) == 3 and getPlayerStorageValue(cid,2136) == 12) then
+		if(getPlayerItemCount(cid, 2691) >= 20) then
+			if(doPlayerRemoveMoney(cid, 10000)) then
+				selfSay('Ok! Nice to do business with you. (You got the sheep even if you dont see it)', cid)
+				doPlayerRemoveItem(cid, 2691, 20)
+				setPlayerStorageValue(cid,2312,4)
+			else
+				selfSay('Sorry, you don\'t have enough gold.', cid)
+			end
+		else
+			selfSay('You don\'t have enough Bread.', cid)
+		end
+	end
 end
 if(msgcontains(msg, 'ok')) then
 	if (getPlayerStorageValue(cid,2136) < 0) then
 		selfSay('Nice! Bring me {20 portions of flour}, {10 cookies} and {10 rainbow trouts}. I will be waiting.', cid)
 		setPlayerStorageValue(cid,30023,22)
 		setPlayerStorageValue(cid,2136,0)
+	elseif (getPlayerStorageValue(cid,2312) == 2 and getPlayerStorageValue(cid,2136) == 12) then
+		selfSay('Great! I will be waiting.', cid)
+		setPlayerStorageValue(cid,2312,3)
 	end
 end
 end

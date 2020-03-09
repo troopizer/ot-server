@@ -80,8 +80,11 @@ function creatureSayCallback(cid, type, msg)
 					setPlayerStorageValue(cid,2036,1)
 					x=getPlayerStorageValue(cid,2305)+1
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 				talkState[talkUser] = 2
 				end

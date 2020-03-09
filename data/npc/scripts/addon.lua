@@ -27,8 +27,11 @@ if(msgcontains(msg, 'mission') or msgcontains(msg, 'addon')) then
 				doPlayerAddExperience(cid,3000)
 				x=getPlayerStorageValue(cid,2305)+1
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 		else
 				selfSay('I need the materials to start working, you have to get them.', cid)
@@ -54,6 +57,12 @@ if(msgcontains(msg, 'ok')) then
 		setPlayerStorageValue(cid,2023,0)
 	end
 end
+if(msgcontains(msg, 'Osbald')) then
+selfSay('Osbald Underhill is the most important hobbit in Staddle. He manages most of the village.', cid)
+end
+if(msgcontains(msg, 'edward')) then
+		selfSay('Edward Mapleton is the mayor of Bree.', cid)
+	end
 end
 
 npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)

@@ -25,6 +25,11 @@ function creatureSayCallback(cid, type, msg)
 		selfSay('You should speak with him for more information.', cid)
 	end
 	if(msgcontains(msg, 'mission')) then
+		if (getPlayerStorageValue(cid,2304) < 0) then
+			setPlayerStorageValue(cid,30034,33)
+			setPlayerStorageValue(cid,2304,4)
+			setPlayerStorageValue(cid,2305,150)
+		end
 			if(getPlayerStorageValue(cid,2119) == 0 and getPlayerStorageValue(cid,2120) == 0 and getPlayerStorageValue(cid,2121) == 0) then
 				selfSay('I am waiting for you to finish the mission.', cid)
 			elseif(getPlayerStorageValue(cid,2119) < 0 or getPlayerStorageValue(cid,2120) < 0 or getPlayerStorageValue(cid,2121) < 0) then
@@ -67,6 +72,14 @@ function creatureSayCallback(cid, type, msg)
 				setPlayerStorageValue(cid,2122,0)
 				setPlayerStorageValue(cid,2123,0)
 				setPlayerStorageValue(cid,2124,0)
+				x=getPlayerStorageValue(cid,2305)+2
+				setPlayerStorageValue(cid,2305,x)
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
+					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
+				end
 			end
 			
  	elseif(msgcontains(msg, 'bree')) then

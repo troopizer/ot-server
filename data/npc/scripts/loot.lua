@@ -45,8 +45,11 @@ setPlayerStorageValue(cid,2001,2)
 doPlayerAddExperience(cid,400)
 x=getPlayerStorageValue(cid,2305)+3
 				setPlayerStorageValue(cid,2305,x)
-				if (getPlayerStorageValue(cid,2305) > 60 and getPlayerStorageValue(cid,2304) == 4) then
+				if (getPlayerStorageValue(cid,2305) > 209 and getPlayerStorageValue(cid,2304) == 4) then
 					setPlayerStorageValue(cid,2304,5)
+				end
+				if (getPlayerStorageValue(cid,2305) < 210 and getPlayerStorageValue(cid,2304) == 5) then
+					setPlayerStorageValue(cid,2304,4)
 				end
 doPlayerAddItem(cid,2148,50)
 selfSay('Well done, now go back to the mayor.(you have received 400 experience and 50 gp)', cid)
